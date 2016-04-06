@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Jekyll's output folder
+cd _site/
+
+# Configure github properties
+git init
+git config user.name "Travis CI"
+git config user.email ${EMAIL}
+
+# Commit and Push content
+git add .
+git commit -m ":rocket: Deploy by Travis CI - Build: $TRAVIS_BUILD_NUMBER"
+git push --force "https://${DEPLOY_TOKEN}@${GITHUB_REPO}" HEAD: ${GITHUB_REPO_BRANCH}
