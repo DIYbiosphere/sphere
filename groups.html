@@ -1,0 +1,53 @@
+---
+layout: entries
+title: Groups
+permalink: /groups/
+---
+<div class="title">
+  <h1>Groups</h1>
+  <h2>List of registered groups</h2>
+</div>
+<div class="content" style="margin-left: 0%; padding-left:0%">
+  <div class="pure-form">
+    <label>Filter groups by:</label>
+    <input id="search" type="text" placeholder="name, url, since, status, location or address">
+  </div>
+  <div class="table-responsive">
+    <table id="entries" class="pure-table pure-table-bordered table-condensed">
+      <thead>
+        <tr class="pure-table-odd">
+          <th>#</th>
+          <th>Name</th>
+          <th>Website</th>
+          <th>Since</th>
+          <th>Status</th>
+          <th>Family</th>
+          <th>Location</th>
+          <th>Discipline</th>
+          <th>Sponsors</th>
+          <th>Agency Partner</th>
+          <th>Contact</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {% for group in site.groups %}
+        <tr class="selectable">
+          <td>{{ forloop.index }}</td>
+          <td> <a href="{{ group.url | prepend: site.baseurl }}">{{ group.title }}</a> </td>
+          <td><a href="{{ group.website }}" target="_blank">{{ group.website }} <i class="fa fa-external-link"></i></a></td>
+          <td>{{ group.since }}</td>
+          <td>{{ group.status }}</td>
+          <td>{{ group.family }}</td>
+          <td>{{ group.location }}</td>
+          <td>{{ group.discipline }}</td>
+          <td>{{ group.sponsors }}</td>
+          <td>{{ group.agency_partner }}</td>
+          <td>{{ group.contact }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+</div>

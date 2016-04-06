@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="splash-container hero-background">
+      <div class="splash">
+        <!--<h1 class="hero-head"> {{ site.title }} </h1>-->
+        <div>
+          <h3 class="hero-subhead">
+            The <b>DIYbiosphere</b> is a participatory project to create a database
+            of Do-it-Yourself Biology initiatives from all over the world.
+          </h3>
+          <div class="pure-g pad-top" style="padding-top:3em;">
+            <div class="pure-u-1-2">
+              <div class="search">
+                <!--<span class="octicon octicon-search input-icon"></span>                -->
+                <input placeholder="Search DIYbio initiatives">
+                <span class="octicon octicon-settings input-icon"></span>
+              </div>
+            </div>
+            <div class="pure-u-1-4">
+              <h3 style="color:black; margin-top:0.2em; font-weight:700;">OR</h3>
+            </div>
+            <div class="pure-u-1-4">
+              <a class="pure-button btn-lg" style="background-color: black" href="#">
+                <i class="octicon octicon-plus input-icon"></i>
+                Add DIYbio initiative
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="content">
+          <h3 class="content-head is-center">Discover initiatives near you</h3>
+          <h5 class="is-center">Select a region</h5>
+            <img src="{{ site.data.img.world-map }}" height="115%" width="100%"/>
+          <!--<div id="map" class="map"></div>-->
+            <!--<h2 class="content-head is-center">DISCOVER</h2>
+
+            <div class="pure-g">
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+
+                    <h3 class="content-subhead">
+                        <i class="fa fa-rocket"></i>
+                        Share what you're doing
+                    </h3>
+                    <p>
+                        You and your team can have a humble space to spread your knowledge (clic above).
+                    </p>
+                </div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead">
+                        <i class="fa fa-flask"></i>
+                        For Labs
+                    </h3>
+                    <p>
+                        Brief description of what information a Lab page should contain. A guide for new users.
+                    </p>
+                </div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead">
+                        <i class="fa fa-users"></i>
+                        For Groups
+                    </h3>
+                    <p>
+                        Brief description of what information a Group page should contain. A guide for new users.
+                    </p>
+                </div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead">
+                        <i class="fa fa-flash"></i>
+                        For Projects
+                    </h3>
+                    <p>
+                        Brief description of what information a Project page should contain. A guide for new users.
+                    </p>
+                </div>
+            </div>-->
+        </div>
+
+        <!--<div class="ribbon l-box-lrg pure-g">
+            <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+              <img class="pure-img-responsive" alt="DIYbio Revolution"
+                width="150" height="75"
+                src="{{site.data.img.diybio-revolution}}">
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+
+                <h2 class="content-head content-head-ribbon">What is this?</h2>
+
+                <p> {{ site.description }} </p>
+            </div>
+        </div>-->
+
+        <!--<div class="content">
+          <h2 class="content-head is-center">Let us know what you think.</h2>
+
+          <div class="pure-g">
+            <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+
+              <form action="https://formspree.io/jdaniel.saed@gmail.com" method="POST"
+                    class="pure-form pure-form-stacked">
+                <fieldset>
+                  <label for="name">Name</label>
+                  <input name="name" type="text" placeholder="Your Name">
+
+                  <label for="email">Email</label>
+                  <input name="_replyto" type="email" placeholder="Your Email">
+
+                  <label for="email">Message</label>
+                  <textarea name="message" type="text" cols="37" rows="5" maxlength="300">
+                  </textarea>
+
+                  <input type="hidden" name="_subject" value="DIYbiosphere Message" />
+                  <input type="text" name="_gotcha" style="display:none" />
+                  <button type="submit" class="pure-button">Send</button>
+                </fieldset>
+              </form>
+            </div>
+
+            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+              <h4>Contact Us</h4>
+              <p>
+                  We really love to hear from you and your projects. If you want
+                  to share something, ask for something, or simply to say hello,
+                  feel free to send us an email or commenting directly in
+                  <a href="https://github.com/DIYbiosphere/diybiosphere.github.io">
+                    DIYbiosphere.github.io
+                  </a>
+              </p>
+
+              <h4>More Information</h4>
+              <p>
+                  You can find out more about this project by sending us a message
+                  or visiting <a href="https://github.com/DIYbiosphere/diybiosphere.github.io">
+                  DIYbiosphere.github.io</a>
+              </p>
+            </div>
+          </div>
+
+        </div>-->
+
+        {% include footer.html %}
+
+    </div>
+    
+    <!--<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datamaps/0.4.4/datamaps.world.min.js"></script>
+    <script>
+      var map = new Datamap({
+        element: document.getElementById('map'),
+        fills: {
+          defaultFill: '#000000' // Any hex, color name or rgb/rgba value
+        }
+      });
+    </script>-->
+    
+  </body>
+
+</html>

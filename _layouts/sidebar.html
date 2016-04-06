@@ -1,0 +1,65 @@
+---
+layout: default
+---
+<div class="pure-g">
+
+  <div class="sidebar pure-u-1 pure-u-md-1-4">
+    <div class="info-box">
+      <div class="info-box-title">
+        <h1 class="brand-title"></h1>
+        <h2 class="brand-tagline">{{ page.title }}</h2>
+      </div>
+
+      <div class="info-box-content">
+        <div class="info-box-item"><b>WEBSITE:</b>
+          <a href="{{ page.website }}" target="_blank">{{ page.website }} <i class="fa fa-external-link"></i></a>
+        </div>
+        <div class="info-box-item"><b>STATUS:</b> {{ page.status }} </div>
+        <div class="info-box-item"><b>SINCE:</b> {{ page.since }} </div>
+        {% if page.family %}
+          <div class="info-box-item"><b>FAMILY:</b> {{ page.family }} </div>
+        {% endif %}
+        {% if page.location %}
+          <div class="info-box-item"><b>LOCATION:</b> {{ page.location }} </div>
+        {% endif %}
+        {% if page.address %}
+          <div class="info-box-item"><b>ADDRESS:</b> {{ page.address }} </div>
+        {% endif %}
+        {% if page.open_hours %}
+          <div class="info-box-item"><b>OPEN HOURS:</b> {{ page.open_hours }} </div>
+        {% endif %}
+        {% if page.membership_fee %}
+          <div class="info-box-item"><b>MEMBERSHIP FEE:</b> {{ page.membership_fee }} </div>
+        {% endif %}
+        {% if page.discipline %}
+          <div class="info-box-item"><b>DISCIPLINE:</b> {{ page.discipline }} </div>
+        {% endif %}
+        {% if page.agency_partner %}
+          <div class="info-box-item"><b>AGENCY PARTNER:</b> {{ page.agency_partner }} </div>
+        {% endif %}
+        {% if page.contact %}
+          <div class="info-box-item"><b>CONTACT:</b> {{ page.contact }} </div>
+        {% endif %}
+        {% if page.media %}
+          <div class="info-box-item"><b>MEDIA:</b> {{ page.media }} </div>
+        {% endif %}
+
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="pure-button" href="#">Edit this</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="content pure-u-1 pure-u-md-3-4">
+
+    {{content}}
+
+    {% include footer.html class="back-no" %}
+  </div>
+</div>

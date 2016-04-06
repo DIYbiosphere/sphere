@@ -1,0 +1,100 @@
+# Site settings
+title: DIYbio<b>sphere</b>
+email: contact@contact.com
+description: >
+  This page is intended to give to the DIYbio community a humble space
+  to keep sharing and creating together.
+  This is a Gabriela Sanchez's initiative (contact@contact.com).
+baseurl: "" # the subpath of your site, e.g. /blog
+# url: "diybiosphere.github.io"
+# url: "localhost:4000"
+permalink: /news/:year/:month/:day/:title
+twitter_username:
+github_username:  "DIYbiosphere"
+
+# Build settings
+markdown: kramdown
+
+# Excluded files and dirs
+exclude: [script, Gemfile, Gemfile.lock, LICENSE, README.md, "CODE OF CONDUCT.md"]
+
+# Where things are
+source:       .
+destination:  ./_site
+plugins_dir:  ./_plugins
+layouts_dir:  ./_layouts
+data_dir:     ./_data
+includes_dir: ./_includes
+collections:
+  groups:
+    title: Groups
+    output: true
+    permalink: /groups.html
+  projects:
+    title: Projects
+    output: true
+    permalink: /projects/
+  labs:
+    title: Labs
+    output: true
+    permalink: /labs/
+  startups:
+    title: Startups
+    output: true
+    permalink: /startups/
+  incubators:
+    title: Incubators
+    output: true
+    permalink: /incubators/
+  networks:
+    title: Networks
+    output: true
+    permalink: /networks/
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: landing
+  -
+    scope:
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      type: groups
+    values:
+      layout: entry
+      permalink: /groups/:title
+  -
+    scope:
+      type: projects
+    values:
+      layout: entry
+      permalink: /projects/:title
+  -
+    scope:
+      type: labs
+    values:
+      layout: entry
+      permalink: /labs/:title
+  -
+    scope:
+      type: startups
+    values:
+      layout: entry
+      permalink: /startups/:title
+  -
+    scope:
+      type: incubators
+    values:
+      layout: entry
+      permalink: /incubators/:title
+  -
+    scope:
+      type: networks
+    values:
+      layout: entry
+      permalink: /networks/:title

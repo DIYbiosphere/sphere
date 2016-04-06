@@ -1,0 +1,29 @@
+<header>
+  <div class="header mar-no">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+      <a class="pure-menu-heading" href="{{ site.baseurl }}/">
+        <img class="pure-img-responsive menu-heading-logo" alt="DIYbio Logo"
+          src="{{site.data.img.diybiosphere}}">
+        {{ site.title }}
+      </a>
+
+      <ul class="pure-menu-list">
+        {% for page in site.pages reversed %}
+          {% if page.title %}
+          {% if forloop.last %} | {% endif %}          
+            <li class="pure-menu-item">
+              <a class="pure-menu-link" href="{{ page.url | prepend: site.baseurl }}">
+              {{ page.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+        |
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="{{ 'en/'| append: site.url | prepend: site.baseurl }}">
+            <i class="octicon octicon-globe"></i> ENG
+          </a>          
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>

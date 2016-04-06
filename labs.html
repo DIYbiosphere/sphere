@@ -1,0 +1,61 @@
+---
+layout: entries
+title: Labs
+permalink: /labs/
+---
+<div class="title">
+  <h1>Labs</h1>
+  <h2>List of registered labs</h2>
+</div>
+<div class="content" style="margin-left: 0%; padding-left:0%">
+  <div class="pure-form">
+    <label>Filter labs by:</label>
+    <input id="search" type="text" placeholder="name, url, since, status, location or address">
+  </div>
+  <div class="table-responsive">
+    <table id="entries" class="pure-table pure-table-bordered table-condensed">
+      <thead>
+        <tr class="pure-table-odd">
+          <th>#</th>
+          <th>Name</th>
+          <th>Website</th>
+          <th>Since</th>
+          <th>Status</th>
+          <th>Family</th>
+          <th>Location</th>
+          <th>Address</th>
+          <th>Open hours</th>
+          <th>Membership fee</th>
+          <th>Discipline</th>
+          <th>Sponsors</th>
+          <th>Agency Partner</th>
+          <th>Contact</th>
+          <th>Media</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {% for lab in site.labs %}
+        <tr class="selectable">
+          <td>{{ forloop.index }}</td>
+          <td> <a href="{{ lab.url | prepend: site.baseurl }}">{{ lab.name }}</a> </td>
+          <td><a href="{{ lab.website }}" target="_blank">{{ lab.website }} <i class="fa fa-external-link"></i></a></td>
+          <td>{{ lab.since }}</td>
+          <td>{{ lab.status }}</td>
+          <td>{{ lab.family }}</td>
+          <td>{{ lab.location }}</td>
+          <td>{{ lab.address }}</td>
+          <td>{{ lab.open_hours }}</td>
+          <td>{{ lab.membership_fee }}</td>
+          <td>{{ lab.discipline }}</td>
+          <td>{{ lab.sponsors }}</td>
+          <td>{{ lab.agency_partner }}</td>
+          <td>{{ lab.contact }}</td>
+          <td>{{ lab.media }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+</div>
