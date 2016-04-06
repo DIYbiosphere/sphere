@@ -1,13 +1,9 @@
 # Site settings
 title: DIYbio<b>sphere</b>
 email: contact@contact.com
-description: >
-  This page is intended to give to the DIYbio community a humble space
-  to keep sharing and creating together.
-  This is a Gabriela Sanchez's initiative (contact@contact.com).
-baseurl: "" # the subpath of your site, e.g. /blog
-# url: "diybiosphere.github.io"
-# url: "localhost:4000"
+description: "A collaborative database of Do-it-Yourself Biology initiatives"
+baseurl: "/diybiosphere.io" # the subpath of your site, e.g. /blog
+url: "diybiosphere.github.io"
 permalink: /news/:year/:month/:day/:title
 twitter_username:
 github_username:  "DIYbiosphere"
