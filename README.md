@@ -1,5 +1,7 @@
 # DIYbiosphere 
 
+[![Join the chat at https://gitter.im/DIYbiosphere/diybiosphere.io](https://badges.gitter.im/DIYbiosphere/diybiosphere.io.svg)](https://gitter.im/DIYbiosphere/diybiosphere.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Join the chat at https://gitter.im/DIYbiosphere/diybiosphere.github.io](https://badges.gitter.im/DIYbiosphere/diybiosphere.github.io.svg)](https://gitter.im/DIYbiosphere/diybiosphere.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
