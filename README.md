@@ -41,10 +41,11 @@ There are many ways you can engage with the DIYbiosphere project:
   - Share this project with your friends and followers!
 
 ## Copyright
-The work for DIYbiosphere comes in 3 forms and each has a its own license:
+The work for DIYbiosphere comes in four forms and each has a its own license:
 - the **Database** is licensed under [ODbL 1.0] [database]
-- the **Code** is licensed under [MPL 2.0] [code]
-- the **Content** is licensed under [CC-BY-SA 4.0] [content]
+- the **Documentation**
+- the **Build** is licensed under [MPL 2.0] [code]
+- the **Design** is licensed under [CC-BY-SA 4.0] [content]
 
 You can find copies of the licenses' legal code in this repository along with a human-readable version under [LICENSE TL;DR].
 [diybiosphere]: https://diybiosphere.github.io/
