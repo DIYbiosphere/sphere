@@ -16,7 +16,7 @@ The goal of DIYbiosphere is to have a **common space** where we can **share** ab
 For more information see the meta section in our [About] page, or check out our project's [entry] in the DIYbiosphere database. 
 
 #### Tech specs
-The database functions as an editable website, similar to a wiki, using the technologies of: <br>
+The database is composed by plain text files using Markdown syntax. These entries are then converted to HTML to obtain a website. The DIYbiosphere works similar to a wiki, in which the content is displayed as a website, it is open for edits and it keeps a history of these edits as well. However, the technologies we use to deploy the project are:<br>
 **+** [Git] to version-control the files in the database <br>
 **+** [GitHub] to web-host the files in a public repository <br>
 **+** [GitHub Pages] to host the repository as a website <br>
