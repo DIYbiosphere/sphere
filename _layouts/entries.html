@@ -1,12 +1,20 @@
 ---
 layout: default
 ---
-<div class="content" style="margin-left: 0%;">
-  <div class="title">
-    <h1> <i class="fa fa-wrench"></i> Under Development</h1>
-    <h2> Will be available soon, sorry. </h2>
+<div class="content mar-no">
+  {% include search-bar.html style="margin-top: -2.5%" %}
+  
+  <div class="pure-g pad-top pad-btm">
+    <div class="pure-u-1-2">
+      <span class="pure-breadcrumb text-weak">Initiatives &raquo;</span>
+    </div>
+    <div class="pure-u-1-2">
+      <a class="link text-dark text-weak selectable pull-right">
+        <i class="octicon octicon-pencil"></i> Edit this page
+      </a>
+    </div>
   </div>
-  <!--{{content}}-->
+  
+  {{content}}
 
-  {% include footer.html class="back-no" %}
 </div>
