@@ -77,7 +77,7 @@
       .done(function(resp) { // when request succeded...
         var initiatives = resp;
         var data = []; // will contain the table data.
-        for (initiative in initiatives) {
+        for (var initiative in initiatives) {
           data = data.concat(initiatives[initiative]);
         }
         $table.rows.add(data).draw(); // add data and 'refresh' the table.
