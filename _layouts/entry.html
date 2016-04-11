@@ -1,7 +1,7 @@
 ---
-layout: sidebar
+layout: default
 ---
-<div class="">
+<!--<div class="">
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
     <header class="title">
@@ -14,4 +14,52 @@ layout: sidebar
     </div>
 
   </article>
+</div>-->
+
+<div class="content entry mar-no">
+  {% include search-bar.html %}
+  
+  <div class="pure-g pad-top">
+    <div class="pure-u-1-2">
+      <span class="pure-breadcrumb text-weak">Initiatives &raquo;</span>
+      <span class="pure-breadcrumb text-weak">{{ page.collection }} &raquo;</span>
+      <span class="pure-breadcrumb text-weak">{{ page.title }}</span>
+    </div>
+    <div class="pure-u-1-2">
+      <div class="pull-right">
+        <a class="link text-dark text-weak selectable" target="_blank">
+          <i class="octicon octicon-pencil"></i> Edit this page
+        </a> <br/>
+        <span class="text-weak">Last update: {{ page.last_modified_at | date: '%Y-%m-%d' }}</span>
+      </div>
+    </div>
+  </div>
+  
+  <h1 class="entry-title">{{ page.title }}</h1>
+  <div class="pure-g">
+    <div class="pure-u-2-3">
+      {{content}}
+    </div>
+    
+    <div class="pure-u-1-3">
+      <div class="infobox">
+        <h3 class="infobox-title">
+          <a class="link text-dark selectable" href="{{ page.website }}" target="_blank">
+            <img width="20%" src="{{ page.logo }}" />
+            {{ page.title }} <i class="octicon octicon-link-external"></i>
+          </a>
+        </h3>
+        {{% if page.since %}} <i class="octicon octicon-gift"></i> {{ page.since }} <br> {{% endif %}}
+        {{% if page.host %}} <i class="octicon octicon-home"></i> {{ page.host | xml_escape | markdownify }} <br> {{% endif %}}
+        {{% if page.type %}} <i class="octicon octicon-zap"></i> {{ page.type }} <br> {{% endif %}}
+        {{% if page.collaborators %}} <i class="octicon octicon-organization"></i> {{ page.collaborators | xml_escape | markdownify }} <br> {{% endif %}}
+        {{% if page.address %}} <i class="octicon octicon-location"></i> {{ page.address }} <br> {{% endif %}}
+        <i class="octicon octicon-globe"></i> {{ page.city }}, {{ page.state }} {{ page.country }}
+        <hr>
+        <i class="octicon octicon-tag"></i> {{ page.tags | array_to_sentence_string }}        
+      </div>
+    </div>
+  </div>
+  
+
 </div>
