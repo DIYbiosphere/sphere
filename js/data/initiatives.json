@@ -1,0 +1,95 @@
+---
+layout: null
+---
+{
+  "projects": [
+    {% for project in site.projects %}
+      {
+        "url": "{{ project.url }}",
+        "title": "{{ project.title | xml_escape }}",
+        "kind": "project",
+        "since": "{{ project.since | xml_escape }}",
+        "type": "{{ project.type | xml_escape }}",
+        "city": "{{ project.city | xml_escape }}",
+        "country": "{{ project.country | xml_escape }}",
+        "region": "{{ project.region | xml_escape }}",
+        "last_update": "{{ project.last_update | xml_escape }}"
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "labs": [
+    {% for lab in site.labs %}
+      {
+        "title": "{{ lab.title | xml_escape }}",
+        "url": "{{ lab.url }}",
+        "kind": "lab",
+        "since": "{{ lab.since | xml_escape }}",
+        "type": "{{ lab.type | xml_escape }}",
+        "city": "{{ lab.city | xml_escape }}",
+        "country": "{{ lab.country | xml_escape }}",
+        "region": "{{ lab.region | xml_escape }}",
+        "last_update": "{{ lab.last_update | xml_escape }}"
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "groups": [
+    {% for group in site.groups %}
+      {
+        "url": "{{ group.url }}",
+        "title": "{{ group.title | xml_escape }}",
+        "kind": "group",
+        "since": "{{ group.since | xml_escape }}",
+        "type": "{{ group.type | xml_escape }}",
+        "city": "{{ group.city | xml_escape }}",
+        "country": "{{ group.country | xml_escape }}",
+        "region": "{{ group.region | xml_escape }}",
+        "last_update": "{{ group.last_update | xml_escape }}"
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %} 
+  ],
+  "startups": [
+    {% for startup in site.startups %}
+      {
+        "title": "{{ startup.title | xml_escape }}",
+        "url": "{{ startup.url }}",
+        "kind": "startup",
+        "since": "{{ startup.since | xml_escape }}",
+        "type": "{{ startup.type | xml_escape }}",
+        "city": "{{ startup.city | xml_escape }}",
+        "country": "{{ startup.country | xml_escape }}",
+        "region": "{{ startup.region | xml_escape }}",
+        "last_update": "{{ startup.last_update | xml_escape }}"
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "incubators": [
+    {% for incubator in site.incubators %}
+      {
+        "title": "{{ incubator.title | xml_escape }}",
+        "url": "{{ incubator.url }}",
+        "kind": "incubator",
+        "since": "{{ incubator.since | xml_escape }}",
+        "type": "{{ incubator.type | xml_escape }}",
+        "city": "{{ incubator.city | xml_escape }}",
+        "country": "{{ incubator.country | xml_escape }}",
+        "region": "{{ incubator.region | xml_escape }}",
+        "last_update": "{{ incubator.last_update | xml_escape }}"
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "networks": [
+    {% for network in site.networks %}
+      {
+        "title": "{{ network.title | xml_escape }}",
+        "url": "{{ network.url }}",
+        "kind": "network",
+        "since": "{{ network.since | xml_escape }}",
+        "type": "{{ network.type | xml_escape }}",
+        "city": "{{ network.city | xml_escape }}",
+        "country": "{{ network.country | xml_escape }}",
+        "region": "{{ network.region | xml_escape }}",
+        "last_update": "{{ network.last_update | xml_escape }}"
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}

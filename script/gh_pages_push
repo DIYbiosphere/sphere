@@ -10,5 +10,7 @@ git config user.email ${EMAIL}
 
 # Commit and Push content
 git add .
-git commit -m ":rocket: Deploy by Travis CI - Build: $TRAVIS_BUILD_NUMBER"
-git push --force "https://${DEPLOY_TOKEN}@${GITHUB_REPO}" HEAD:${GITHUB_REPO_BRANCH}
+git commit -m "Deployed using Travis CI - Build: $TRAVIS_BUILD_NUMBER"
+
+# push to repo and prevents any sensitive data from printing on the console.
+git push --force "https://${DEPLOY_TOKEN}@${GITHUB_REPO}" HEAD:${GITHUB_REPO_BRANCH} > /dev/null 2>&1

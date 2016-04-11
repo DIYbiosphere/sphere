@@ -16,16 +16,17 @@
           </h3>
           <div class="pure-g pad-top" style="padding-top:3em;">
             <div class="pure-u-1-2">
-              <div class="search">
-                <input placeholder="Search DIYbio initiatives">
-                <span class="octicon octicon-settings input-icon"></span>
-              </div>
+              <button class="pure-button btn-lg btn-long btn-light" href="#">
+                <i class="octicon octicon-search"></i>
+                Search DIYbio initiatives
+                <i class="octicon octicon-settings btn-long-icon"></i>                
+              </button>
             </div>
             <div class="pure-u-1-4">
               <h3 style="color:black; margin-top:0.2em; font-weight:700;">OR</h3>
             </div>
             <div class="pure-u-1-4">
-              <a class="pure-button btn-lg" style="background-color: black" href="#">
+              <a class="pure-button btn-lg btn-dark" href="#">
                 <i class="octicon octicon-plus input-icon"></i>
                 Add DIYbio initiative
               </a>
@@ -37,8 +38,8 @@
 
     <div class="content-wrapper">
         <div class="content">
-          <h3 class="content-head is-center">Discover initiatives near you</h3>
-          <h5 class="is-center">Select a region</h5>
+          <h3 class="content-head is-center">Discover initiatives in <span class="blinking"></span></h3>
+          <p class="content-subhead is-center">or select a region</p>
             <img src="{{ '/img/world-map.png' | prepend: site.baseurl }}" height="115%" width="100%"/>
           <!--<div id="map" class="map"></div>-->
             <!--<h2 class="content-head is-center">DISCOVER</h2>
@@ -149,6 +150,10 @@
         {% include footer.html %}
 
     </div>
+    
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js" type="text/javascript"></script>
+    <script src="{{ '/js/landing.js' | prepend: site.baseurl }}" type="text/javascript"></script>
     
     <!--<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>

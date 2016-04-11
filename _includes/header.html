@@ -8,21 +8,25 @@
       </a>
 
       <ul class="pure-menu-list">
-        {% for page in site.pages reversed %}
-          {% if page.title %}
-          {% if forloop.last %} | {% endif %}          
-            <li class="pure-menu-item">
-              <a class="pure-menu-link" href="{{ page.url | prepend: site.baseurl }}">
-              {{ page.title }}</a>
-            </li>
-          {% endif %}
-        {% endfor %}
-        |
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="{{ 'en/'| append: site.url | prepend: site.baseurl }}">
-            <i class="octicon octicon-globe"></i> ENG
-          </a>          
-        </li>
+        
+        {% include header-item.html title="PROJECTS" url="/projects/" %}
+        
+        {% include header-item.html title="LABS" url="/labs/" %}
+        
+        {% include header-item.html title="GROUPS" url="/groups/" %}
+        
+        {% include header-item.html title="STARTUPS" url="/startups/" %}
+        
+        {% include header-item.html title="INCUBATORS" url="/incubators/" %}
+        
+        {% include header-item.html title="NETWORKS" url="/networks/" %}
+        
+        {% include header-item.html title="ALL" url="/initiatives/" %}
+        
+        | {% include header-item.html title="ABOUT" url="/about/" %}
+        
+        | {% include header-item.html title="ENG" url="/en/" %}
+        
       </ul>
     </div>
   </div>

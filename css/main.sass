@@ -1,0 +1,151 @@
+---
+---
+/* Primary fonts */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro)
+$fonts: 'Source Sans Pro', sans-serif
+
+/* Blinking cursor */
+@import utils
+@import typed-cursor
+
+@import menu
+@import buttons
+@import infobox
+
+
+
+html, body
+  overflow-x: hidden
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] 
+  font-family: $fonts !important
+
+
+.entry 
+  font-family: $fonts
+  color: black !important
+  padding-top: 0em
+
+.entry h1,h2,h3,h4,h5,h6
+  color: black !important
+  
+.entry .entry-title
+  font-weight: 700
+
+
+.hero-background 
+  background: url(../img/header-grey.jpeg) no-repeat
+  background-size: cover
+
+
+.hero-head 
+  color: #000000
+
+
+.hero-subhead 
+  font-family: $fonts
+  font-weight: 600
+  text-transform: none
+  color: #000
+
+
+.hero-subhead h3 
+  color: #000000
+
+
+.username 
+  text-decoration: none
+
+
+.text-small 
+  font-size: .75em
+  line-height: 100%
+
+
+.content-head 
+  color: #000
+  text-transform: none
+  font-weight: 600
+
+
+.content-subhead 
+  color: #000
+  text-transform: none
+  font-weight: 600
+
+.content-card 
+  width: 90%
+  text-align: center
+  background: #F2F2F2
+  margin-left: 5%
+
+.sidebar-content 
+  text-align: right
+  margin-top: 80%
+  margin-right: 2em
+  margin-left: 2em
+
+.title 
+  font-family: $fonts
+  max-width: 768px
+  margin: 0 auto
+  padding: 1em
+  text-align: center
+  /* border-bottom: 1px solid #eee */
+  background: #fff
+  letter-spacing: 0.05em
+
+.title h2 
+  font-size: 170%
+  font-weight: 100
+  line-height: 1.5
+  margin: 0
+  color: #666
+  letter-spacing: -0.02em
+
+.search 
+  position: relative
+  color: #000
+  font-size: 16px
+
+.search input 
+  width: 19em
+  height: 40px
+  text-indent: 2.5em
+  background: #FFF
+  border: .5px solid
+  border-radius: 5px
+
+.search .input-icon-left  
+  position: relative
+  left: 2em
+
+.search .input-icon-right  
+  position: relative
+  right: 2em
+
+
+.map 
+  min-height: 35em
+  height: 35em
+
+
+.footer a 
+  text-decoration: none
+  color: #FFF
+
+
+.footer-block ul 
+  margin-top: .5em
+
+
+.blinking 
+  color: #696969
+
+
+.pure-breadcrumb
+  color: black
+
+table.condensed tbody td
+  padding: 0.1em 1em
