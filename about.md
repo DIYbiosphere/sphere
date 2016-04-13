@@ -1,5 +1,7 @@
 ---
-layout: sidebar
+layout: about
 title: About
 permalink: /about/
 ---
+## About
+

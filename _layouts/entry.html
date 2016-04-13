@@ -56,7 +56,9 @@ layout: default
         {{% if page.address %}} <i class="octicon octicon-location"></i> {{ page.address }} <br> {{% endif %}}
         <i class="octicon octicon-globe"></i> {{ page.city }}, {{ page.state }} {{ page.country }}
         <hr>
-        <i class="octicon octicon-tag"></i> {{ page.tags | array_to_sentence_string }}        
+        <p>
+          <i class="octicon octicon-tag"></i> {{ page.tags | array_to_sentence_string }}
+        </p>        
       </div>
     </div>
   </div>

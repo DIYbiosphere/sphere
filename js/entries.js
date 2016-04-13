@@ -76,9 +76,15 @@
     $.getJSON(baseUrl + '/js/data/initiatives.json')
       .done(function(resp) { // when request succeded...
         var initiatives = resp;
+        var filter = getFilter(resp);
+        console.log('filter: ', filter)
         var data = []; // will contain the table data.
-        for (initiative in initiatives) {
-          data = data.concat(initiatives[initiative]);
+        if (filter) {
+          data = data.concat(initiatives[filter]);
+        } else {
+          for (initiative in initiatives) {
+            data = data.concat(initiatives[initiative]);
+          }
         }
         $table.rows.add(data).draw(); // add data and 'refresh' the table.
       })
@@ -87,6 +93,16 @@
         console.err(textStatus + ', ' + error);
       });
 
+
+    function getFilter(obj) {
+      var path = window.location.pathname.split('/');
+      for (var key in obj) {
+        if (path[path.length - 2].indexOf(key) != -1) {
+          return key;
+        }
+      }
+      return false;
+    }
     
     /********** Event listeners **********/    
     
