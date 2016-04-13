@@ -1,7 +1,7 @@
 # DIYbiosphere 
 
-[![Join the chat at https://gitter.im/DIYbiosphere/diybiosphere.github.io](https://badges.gitter.im/DIYbiosphere/diybiosphere.github.io.svg)](https://gitter.im/DIYbiosphere/diybiosphere.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
+[![Build Status](https://travis-ci.org/DIYbiosphere/diybiosphere.io.svg?branch=master)](https://travis-ci.org/DIYbiosphere/diybiosphere.io)
+[![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/diybiosphere.io.svg)](https://gitter.im/DIYbiosphere/diybiosphere.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) 
 
 ### This site is still under development, we are working hard to make it grow and be fully functional.
 
@@ -15,7 +15,7 @@ The goal of DIYbiosphere is to have a **common space** where we can **share** ab
 For more information see the meta section in our [About] page, or check out our project's [entry] in the DIYbiosphere database. 
 
 #### Tech specs
-The database functions as an editable website, similar to a wiki, using the technologies of: <br>
+The database is composed by plain text files using Markdown syntax. These entries are then converted to HTML to obtain a website. The DIYbiosphere works similar to a wiki, in which the content is displayed as a website, it is open for edits and it keeps a history of these edits as well. However, the technologies we use to deploy the project are:<br>
 **+** [Git] to version-control the files in the database <br>
 **+** [GitHub] to web-host the files in a public repository <br>
 **+** [GitHub Pages] to host the repository as a website <br>
@@ -40,10 +40,11 @@ There are many ways you can engage with the DIYbiosphere project:
   - Share this project with your friends and followers!
 
 ## Copyright
-The work for DIYbiosphere comes in 3 forms and each has a its own license:
+The work for DIYbiosphere comes in four forms and each has a its own license:
 - the **Database** is licensed under [ODbL 1.0] [database]
-- the **Code** is licensed under [MPL 2.0] [code]
-- the **Content** is licensed under [CC-BY-SA 4.0] [content]
+- the **Documentation**
+- the **Build** is licensed under [MPL 2.0] [code]
+- the **Design** is licensed under [CC-BY-SA 4.0] [content]
 
 You can find copies of the licenses' legal code in this repository along with a human-readable version under [LICENSE TL;DR].
 [diybiosphere]: https://diybiosphere.github.io/

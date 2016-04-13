@@ -82,7 +82,7 @@
         if (filter) {
           data = data.concat(initiatives[filter]);
         } else {
-          for (initiative in initiatives) {
+          for (var initiative in initiatives) {
             data = data.concat(initiatives[initiative]);
           }
         }
