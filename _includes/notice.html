@@ -1,3 +1,19 @@
-<div class="notice {{ include.class}}">
+<div class="notice {{ include.color}}">
+  <span>
+    {% if include.color == "red" %}
+      <i class="octicon octicon-alert"></i>
+    {% endif %}
+    {% if include.color == "blue" %}
+      <i class="octicon octicon-info"></i>
+    {% endif %}
+    {% if include.color == "yellow" %}
+      <i class="octicon octicon-tools"></i>
+    {% endif %}
+    {% if include.color == "green" %}
+      <i class="octicon octicon-book"></i>
+    {% endif %}
+    <b>{{ include.title }}</b>
+  </span>
+  <br>
   <span class="notice-content">{{ include.text }}</span>
 </div>

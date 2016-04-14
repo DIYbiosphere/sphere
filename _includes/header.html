@@ -26,7 +26,16 @@
         | {% include header-item.html title="ABOUT" url="/about/" %}
         
         |
-        {% include header-item.html title="ENG" url="/en/" icon="octicon octicon-globe"%}
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+          <a class="pure-menu-link" href="{{ '/en/' | prepend: site.baseurl }}">
+            <i class="octicon octicon-globe"></i> EN
+          </a>
+          <ul class="pure-menu-children">
+            <li class="pure-menu-item"><a href="{{ '/es/' | prepend: site.baseurl }}" class="pure-menu-link">ES</a></li>
+            <li class="pure-menu-item"><a href="{{ '/fr/' | prepend: site.baseurl }}" class="pure-menu-link">FR</a></li>
+            <li class="pure-menu-item"><a href="{{ '/ger/' | prepend: site.baseurl }}" class="pure-menu-link">GER</a></li>
+          </ul>
+        </li>
         
       </ul>
     </div>
