@@ -17,7 +17,7 @@ affiliates:
     biosphere: "[CitizenSciences.net](http://citizensciences.net/)"
     web: "[CitizenSciences.net](http://citizensciences.net/)"
   -
-    name: Name of affiliate 2:
+    name: Name of affiliate 2
     biosphere: "[DName of affiliate 2](URL of DIYbiosphere entry if it exists! if not leave line empty or remove)"
     web: "[Name of affiliate 2](URL of affiliate's website)"
   
