@@ -40,10 +40,16 @@
 
     <div class="content-wrapper">
         <div class="content">
-          <h3 class="content-head is-center">Discover initiatives in <span class="blinking"></span></h3>
+          <h3 class="content-head is-center">Discover initiatives in <span id="blinking"></span></h3>
           <p class="content-subhead is-center">or select a region</p>
-          <img src="{{ '/img/world-map.png' | prepend: site.baseurl }}" height="115%" width="100%"/>
+          <!--<img src="{{ '/img/world-map.png' | prepend: site.baseurl }}" height="115%" width="100%"/>-->
           <!--<div id="map" class="map"></div>-->
+          <div class="pure-g is-center">
+            <div class="pure-u-1">
+              {% include world-map.html %}
+            </div>
+          </div>
+          
         </div>
 
         {% include footer.html %}
@@ -53,19 +59,6 @@
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js" type="text/javascript"></script>
     <script src="{{ '/js/landing.js' | prepend: site.baseurl }}" type="text/javascript"></script>
-    
-    <!--<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/datamaps/0.4.4/datamaps.world.min.js"></script>
-    <script>
-      var map = new Datamap({
-        element: document.getElementById('map'),
-        fills: {
-          defaultFill: '#000000' // Any hex, color name or rgb/rgba value
-          
-        }
-      });
-    </script>-->
     
     <script>
       ((window.gitter = {}).chat = {}).options = {

@@ -3,7 +3,10 @@ layout: about
 title: About
 permalink: /about/
 ---
-# Getting started
+
+>warning A variable needs to be included in the document variables collection of the document before you insert it.
+
+# **Getting started**
 
 Welcome you! We really appreciate your interest to contribute to the DIYbiosphere project.
 This is the guide to get you going!
@@ -11,7 +14,7 @@ This is the guide to get you going!
 The Help section aims to be a comprehensive guide to DIYbiosphere. We will cover guides for creating and managing
 content and give some advice on partivcipating on future developments of DIYbiosphere.
 
-### Hepful hints
+## Hepful hints
 
 Througout the guide there are a number of handy pieces of information that make contributing easier, more interesting,
 and less hazardous. Here's what to look out for:
@@ -29,3 +32,10 @@ text="These are tips and tricks that help you become a project wizard" %}
 
 {% include notice.html color="yellow" title="TLDR: Too Long; Didn't Read"
 text="These explain a long post for people who are lazy to read all of it" %}
+
+## Emoji
+### Like Emoji? :smirk:
+#### http://www.emoji-cheat-sheet.com/
+
+## Mentions
+@cube5 what do you think?

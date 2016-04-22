@@ -2,11 +2,27 @@
 
   // document ready  
   $(function() {
-      $(".blinking").typed({
-        strings: ["Earth", "North America", "Latin America", "Europe", "Africa", "Asia", "Oceania"],
-        typeSpeed: 50,
-        loop: true
-      });
+    var typedConfig = {
+      strings: [''],
+      typeSpeed: 20,
+      loop: false
+    }
+    // var $blinking = $('#blinking');
+
+    $('#blinking').typed(typedConfig);
+
+    $('.region').on('mouseenter', function() {
+      var name = $(this).prop('id').replace(/-+/g, ' '); // replaces '-' with ' '
+      typedConfig.strings = [name];
+      $('#blinking').typed('reset');
+      $('#blinking').typed(typedConfig);
+    });
+
+    $('.region').on('click', function() {
+      var name = $(this).prop('id').replace(/-+/g, ' ');;
+      var baseUrl = $('#baseUrl').text();
+      window.location = baseUrl + '/initiatives?region='+name;
+    });    
   });
 
 })($)

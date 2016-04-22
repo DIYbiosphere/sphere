@@ -9,26 +9,48 @@
 
       <ul class="pure-menu-list">
         
-        {% include header-item.html title="PROJECTS" url="/projects/" %}
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+          <a class="pure-menu-link" href="{{ '/en/' | prepend: site.baseurl }}">
+            DATABASE <i class="octicon octicon-chevron-down text-light"></i>
+          </a>
+          <ul class="pure-menu-children">
+            <li class="pure-menu-item"><a href="{{ '/projects/' | prepend: site.baseurl }}" class="pure-menu-link">
+              <i class="fa fa-briefcase"></i> Projects</a></li>
+            <li class="pure-menu-item"><a href="{{ '/startups/' | prepend: site.baseurl }}" class="pure-menu-link">
+              <i class="fa fa-rocket"></i> Startups</a></li>
+            <li class="pure-menu-item"><a href="{{ '/labs/' | prepend: site.baseurl }}" class="pure-menu-link">
+              <i class="fa fa-beaker"></i> Labs</a></li>
+            <li class="pure-menu-item"><a href="{{ '/incubators/' | prepend: site.baseurl }}" class="pure-menu-link">
+              <i class="octicon octicon-"></i> Incubators</a></li>
+            <li class="pure-menu-item"><a href="{{ '/groups/' | prepend: site.baseurl }}" class="pure-menu-link">
+              <i class="octicon octicon-organization"></i> Groups</a></li>
+            <li class="pure-menu-item"><a href="{{ '/networks/' | prepend: site.baseurl }}" class="pure-menu-link">
+              <i class="octicon octicon-"></i> Networks</a></li>
+          </ul>
+        </li>
         
-        {% include header-item.html title="LABS" url="/labs/" %}
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+          <a class="pure-menu-link" href="{{ '/en/' | prepend: site.baseurl }}">
+            ABOUT <i class="octicon octicon-chevron-down text-light"></i>
+          </a>
+          <ul class="pure-menu-children">
+            <li class="pure-menu-item"><a href="{{ '/projects/' | prepend: site.baseurl }}" class="pure-menu-link">
+              <i class="octicon octicon-briefcase"></i> Projects</a></li>
+          </ul>
+        </li>
         
-        {% include header-item.html title="GROUPS" url="/groups/" %}
+        {% include header-item.html title="NEWS" url="/news/" %}
         
-        {% include header-item.html title="STARTUPS" url="/startups/" %}
+        {% include header-item.html title="HELP" url="/help/" %}
         
-        {% include header-item.html title="INCUBATORS" url="/incubators/" %}
-        
-        {% include header-item.html title="NETWORKS" url="/networks/" %}
-        
-        {% include header-item.html title="ALL" url="/initiatives/" %}
-        
-        | {% include header-item.html title="ABOUT" url="/about/" %}
+        {% include header-item.html title="GITHUB" url="/github/" icon="octicon octicon-brand-github" %}
         
         |
         <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
           <a class="pure-menu-link" href="{{ '/en/' | prepend: site.baseurl }}">
-            <i class="octicon octicon-globe"></i> EN
+            <i class="octicon octicon-globe"></i>
+            EN
+            <i class="octicon octicon-chevron-down text-light"></i>
           </a>
           <ul class="pure-menu-children">
             <li class="pure-menu-item"><a href="{{ '/es/' | prepend: site.baseurl }}" class="pure-menu-link">ES</a></li>
@@ -40,4 +62,5 @@
       </ul>
     </div>
   </div>
+  <span id="baseUrl" style="dispay:none;">{{ site.baseurl }}</span>
 </header>

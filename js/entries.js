@@ -94,30 +94,47 @@
       });
 
 
-    function getFilter(obj) {
-      var path = window.location.pathname.split('/');
-      for (var key in obj) {
-        if (path[path.length - 2].indexOf(key) != -1) {
-          return key;
-        }
-      }
-      return false;
-    }
-    
     /********** Event listeners **********/    
     
     /**
      * Enables table's data search on every field using the search bar.
     */
-    $('#search').on('keyup click', function() {
+    var $search = $('#search'); 
+    $search.on('keyup click', function() {
       $table.search(
-        $('#search').val(),
+        $search.val(),
         false, // treat as regexp
         true   // use smart search
       ).draw();
     });
 
+    if (getUrlParam('region')) {
+      // sets search value to url's param and trigger table's search
+      $search.val(getUrlParam('region')).trigger('keyup');
+    }
 
   }); // end document ready
+
+  /********** Other methods **********/
+
+  function getUrlParam(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
+    var results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  }
+
+  function getFilter(obj) {
+    var path = window.location.pathname.split('/');
+    for (var key in obj) {
+      if (path[path.length - 2].indexOf(key) != -1) {
+        return key;
+      }
+    }
+    return false;
+  }  
 
 })($);
