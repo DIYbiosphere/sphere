@@ -8,9 +8,6 @@ permalink: /news/:year/:month/:day/:title
 twitter_username:
 github_username:  "DIYbiosphere"
 
-# Build settings
-markdown: kramdown
-
 # Excluded files and dirs
 exclude: [script, Gemfile, Gemfile.lock, LICENSE, README.md, "CODE OF CONDUCT.md"]
 
@@ -25,6 +22,20 @@ includes_dir: ./_includes
 # Plugins
 gems:
   - jekyll-last-modified-at
+  - jekyll-html-pipeline
+
+# Build settings
+# markdown: kramdown
+markdown: HTMLPipeline
+html_pipeline:
+  filters:
+    - "markdownfilter"
+    - "emojifilter"
+    - "mentionfilter"
+    - "sanitizationfilter"
+  context:
+    asset_root: "https://assets.github.com/images/icons/" # github's emoji url! :D
+    base_url:   "https://github.com/"
 
 # Collections
 collections:
