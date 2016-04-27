@@ -10,22 +10,21 @@
     {{content}}
     
     {% include footer.html %}    
+    
     <!-- used across all pages -->
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
     <script>var baseUrl = $('#baseUrl').text();</script>
-    {% if page.url == '/groups/' or
-      page.url == '/projects/' or
-      page.url == '/labs/' or
-      page.url == '/networks/' or
-      page.url == '/startups/' or
-      page.url == '/incubators/' or
-      page.url == '/initiatives/'
-    %}
+    {% if page.layout == 'entries' %}
       <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/0.7.0/lunr.min.js" type="text/javascript"></script>
       <script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js" type="text/javascript"></script>
       <script src="https://cdn.datatables.net/buttons/1.1.2/js/dataTables.buttons.min.js" type="text/javascript"></script>      
       <script src="https://cdn.datatables.net/buttons/1.1.2/js/buttons.html5.min.js" type="text/javascript"></script>
       <script src="{{ '/js/entries.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+    {% endif %}
+    
+    {% if page.layout == 'entry' %}
+      <script src="{{ '/js/entry.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYe5HDRPStA7AjyKjoYJ2783-2yf1MhiA&signed_in=true&callback=initMap"></script>
     {% endif %}
     <script>
       ((window.gitter = {}).chat = {}).options = {

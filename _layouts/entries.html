@@ -2,11 +2,10 @@
 layout: default
 ---
 <div class="content mar-no">
-  {% include search-bar.html style="margin-top: -2.5%" %}
   
-  <div class="pure-g pad-top pad-btm">
+  <div class="pure-g pad-btm">
     <div class="pure-u-1-2">
-      <span class="pure-breadcrumb text-weak">Initiatives &raquo;</span>
+      <span class="pure-breadcrumb text-weak">Database</span>
     </div>
     <div class="pure-u-1-2">
       <a href="https://github.com/DIYbiosphere/diybiosphere.io/blob/master/{{ page.title | downcase }}.html"
@@ -15,7 +14,9 @@ layout: default
       </a>
     </div>
   </div>
-  
+  <h1>List of all initiatives</h1>
+  <hr>
   {{content}}
-
+  
+  <div class="mar-top text-weak">updated: {{ page.last_modified_at | date: '%Y-%m-%d' }}</div>
 </div>

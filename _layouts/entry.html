@@ -17,12 +17,14 @@ layout: default
 </div>-->
 
 <div class="content entry mar-no">
-  {% include search-bar.html %}
-  
-  <div class="pure-g pad-top">
+  <div class="pure-g" style="margin-top: 4em">
     <div class="pure-u-1-2">
-      <span class="pure-breadcrumb text-weak">Initiatives &raquo;</span>
-      <span class="pure-breadcrumb text-weak">{{ page.collection }} &raquo;</span>
+      <span class="pure-breadcrumb text-weak">
+        <a href="{{ '/initiatives/' | prepend: site.baseUrl }}">Database &raquo;</a>
+      </span>
+      <span class="pure-breadcrumb text-weak">
+        {{ page.collection }} &raquo;
+      </span>
       <span class="pure-breadcrumb text-weak">{{ page.title }}</span>
     </div>
     <div class="pure-u-1-2">
@@ -36,6 +38,7 @@ layout: default
   </div>
   
   <h1 class="entry-title">{{ page.title }}</h1>
+  <hr>
   <div class="pure-g">
     <div class="pure-u-2-3">
       {{content}}
@@ -49,19 +52,49 @@ layout: default
             {{ page.title }} <i class="octicon octicon-link-external"></i>
           </a>
         </h3>
-        {{% if page.since %}} <i class="octicon octicon-gift"></i> {{ page.since }} <br> {{% endif %}}
-        {{% if page.host %}} <i class="octicon octicon-home"></i> {{ page.host | xml_escape | markdownify }} <br> {{% endif %}}
-        {{% if page.type %}} <i class="octicon octicon-zap"></i> {{ page.type }} <br> {{% endif %}}
-        {{% if page.collaborators %}} <i class="octicon octicon-organization"></i> {{ page.collaborators | xml_escape | markdownify }} <br> {{% endif %}}
-        {{% if page.address %}} <i class="octicon octicon-location"></i> {{ page.address }} <br> {{% endif %}}
+        {{% if page.since %}}
+          <i class="octicon octicon-gift"></i> {{ page.since }}
+          <br/>
+        {{% endif %}}
+        {{% if page.host %}}
+          <i class="octicon octicon-home"></i>
+          {{ page.host.name }}
+          <a href="{{ page.host.biosphere | site.baseUrl }}"> <i class="fa fa-link"></i> </a>
+          <a href="{{ page.host.web | site.baseUrl }}"> <i class="fa fa-external-link"></i> </a>
+          <br/>
+        {{% endif %}}
+        {{% if page.type %}}
+          <i class="octicon octicon-zap"></i> {{ page.type }} <br/>
+        {{% endif %}}
+        {{% if page.affiliates %}}
+          <i class="octicon octicon-organization"></i>
+          {% for affiliate in page.affiliates %}
+            {{ affiliate.name }}
+            <a href="{{ affiliate.biosphere | site.baseUrl }}"> <i class="fa fa-link"></i> </a>
+            <a href="{{ affiliate.web | site.baseUrl }}"> <i class="fa fa-external-link"></i> </a>
+            {% unless forloop.last %} , {% endunless %}
+          {% endfor %}
+          <br/>
+        {{% endif %}}
+        {{% if page.address %}}
+          <i class="octicon octicon-location"></i>
+          {{ page.address }}
+          <a href="#" title="View in map"> <i class="fa fa-external-link"></i> </a>
+          <br/>
+          {{ page.directions }}
+          <br/>
+        {{% endif %}}
         <i class="octicon octicon-globe"></i> {{ page.city }}, {{ page.state }} {{ page.country }}
         <hr>
-        <p>
+        <div class="mar-btm">
           <i class="octicon octicon-tag"></i> {{ page.tags | array_to_sentence_string }}
-        </p>        
+        </div>        
+      </div>
+      <div class="mar-lft">
+        {% include social-icons.html %}
       </div>
     </div>
   </div>
-  
-
+  <div class="hidden" style="display:none;"><span id="lat">{{ page.latitude }}</span><span id="lng">{{ page.longitude }}</span></div>
+  <div id="map" class="map mar-btm"></div>
 </div>

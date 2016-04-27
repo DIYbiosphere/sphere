@@ -5,31 +5,57 @@ kind: Project
 logo: http://diybiosphere.github.io/diybiosphere.io/img/diybiosphere-w.png
 website: http://diybiosphere.github.io/diybiosphere.io/projects/DIYbiosphere
 since: 2016
-host: "[DIYbio.org](https://diybio.org/)"
 type: Non-profit
-collaborators:
-  - "[CitizenSciences.net](http://citizensciences.net/)"
-  - "[CitizenSciences.net](http://citizensciences.net/)"
+host:
+  name: DIYbiosphere
+  biosphere: https://diybio.org/
+  web: https://diybio.org/
 
 affiliates:
   -
-    name: Name of affiliate 1
-    biosphere: "[CitizenSciences.net](http://citizensciences.net/)"
-    web: "[CitizenSciences.net](http://citizensciences.net/)"
+    name: DIYbiosphere
+    biosphere: https://diybio.org/
+    web: https://diybio.org/
   -
-    name: Name of affiliate 2
-    biosphere: "[DName of affiliate 2](URL of DIYbiosphere entry if it exists! if not leave line empty or remove)"
-    web: "[Name of affiliate 2](URL of affiliate's website)"
+    name: DIYbiosphere
+    biosphere: https://diybio.org/
+    web: https://diybio.org/
   
 latitude: 46.204391
 longitude: 6.143158
+address: Street name and number
+directions: additional directions to the space, like floor or room number
 city: Geneva
-country: Switzerland
-address:
+country: Country name
+state: State name
 
 diplomat: sabgaby
 
-tags: community awesome 
+
+github: https://github.com/DIYbiosphere/diybiosphere.io
+email: contact@contact.com
+blog: https://blog.io
+rss: https://rss.io
+irc: https://rss.io
+wiki: https://wiki.io
+twitter: https://twitter.com/DIYbiosphere/
+facebook: https://facebook.com/DIYbiosphere/
+meetup: https://meetup.com/DIYbiosphere/
+slack: https://slack.io.com/DIYbiosphere/
+instagram: https://instagram.com/DIYbiosphere/
+flickr: https://flickr.com/DIYbiosphere/
+vimeo: https://vimeo.com/DIYbiosphere/
+youTube: https://youTube.com/DIYbiosphere/
+gitter: https://gitter.com/DIYbiosphere/
+hackPad: https://hackPad.com/DIYbiosphere/
+trello: https://trello.com/DIYbiosphere/
+pinterest: https://pinterest.com/DIYbiosphere/
+google+: https://google.com/DIYbiosphere/
+linkedIn: https://linkedIn.com/DIYbiosphere/
+forum: https://forum.com/DIYbiosphere/
+mailing_list: https://mailing_list.com/DIYbiosphere/
+
+tags: community awesome biosphere
 ---
 
 ## About

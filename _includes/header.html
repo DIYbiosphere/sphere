@@ -19,33 +19,47 @@
             <li class="pure-menu-item"><a href="{{ '/startups/' | prepend: site.baseurl }}" class="pure-menu-link">
               <i class="fa fa-rocket"></i> Startups</a></li>
             <li class="pure-menu-item"><a href="{{ '/labs/' | prepend: site.baseurl }}" class="pure-menu-link">
-              <i class="fa fa-beaker"></i> Labs</a></li>
+              <i class="fa fa-flask"></i> Labs</a></li>
             <li class="pure-menu-item"><a href="{{ '/incubators/' | prepend: site.baseurl }}" class="pure-menu-link">
-              <i class="octicon octicon-"></i> Incubators</a></li>
+              <i class="fa fa-leaf"></i> Incubators</a></li>
             <li class="pure-menu-item"><a href="{{ '/groups/' | prepend: site.baseurl }}" class="pure-menu-link">
-              <i class="octicon octicon-organization"></i> Groups</a></li>
+              <i class="fa fa-group"></i> Groups</a></li>
             <li class="pure-menu-item"><a href="{{ '/networks/' | prepend: site.baseurl }}" class="pure-menu-link">
-              <i class="octicon octicon-"></i> Networks</a></li>
+              <i class="fa fa-share-alt"></i> Networks</a></li>
           </ul>
         </li>
         
         <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-          <a class="pure-menu-link" href="{{ '/en/' | prepend: site.baseurl }}">
+          <a class="pure-menu-link" href="{{ '/about/' | prepend: site.baseurl }}">
             ABOUT <i class="octicon octicon-chevron-down text-light"></i>
           </a>
           <ul class="pure-menu-children">
-            <li class="pure-menu-item"><a href="{{ '/projects/' | prepend: site.baseurl }}" class="pure-menu-link">
-              <i class="octicon octicon-briefcase"></i> Projects</a></li>
+            <li class="pure-menu-item"></li>
           </ul>
         </li>
         
         {% include header-item.html title="NEWS" url="/news/" %}
         
-        {% include header-item.html title="HELP" url="/help/" %}
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+          <a class="pure-menu-link" href="{{ '/help/' | prepend: site.baseurl }}">
+            HELP <i class="octicon octicon-chevron-down text-light"></i>
+          </a>
+          <ul class="pure-menu-children">
+            <li class="pure-menu-item"></li>
+          </ul>
+        </li>
         
-        {% include header-item.html title="GITHUB" url="/github/" icon="octicon octicon-brand-github" %}
+        {% include header-item.html title="GITHUB"
+          url="https://github.com/DIYbiosphere/diybiosphere.io"
+          icon="fa fa-github"
+        %}
         
-        |
+        <li class="search pure-menu-item">
+          <i class="octicon octicon-search input-icon-left"></i>        
+          <input id="search" placeholder="Search DIYbio initiatives" />
+          <i class="octicon octicon-settings input-icon-right"></i>
+        </li>
+        
         <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
           <a class="pure-menu-link" href="{{ '/en/' | prepend: site.baseurl }}">
             <i class="octicon octicon-globe"></i>

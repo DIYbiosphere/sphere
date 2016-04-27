@@ -13,7 +13,7 @@ layout: null
         "city": "{{ project.city | xml_escape }}",
         "country": "{{ project.country | xml_escape }}",
         "region": "{{ project.region | xml_escape }}",
-        "last_update": "{{ project.last_update | xml_escape }}"
+        "last_update": "{{ page.last_modified_at | date: '%Y-%m-%d' }}"
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ],
@@ -28,7 +28,7 @@ layout: null
         "city": "{{ lab.city | xml_escape }}",
         "country": "{{ lab.country | xml_escape }}",
         "region": "{{ lab.region | xml_escape }}",
-        "last_update": "{{ lab.last_update | xml_escape }}"
+        "last_update": "{{ page.last_modified_at | date: '%Y-%m-%d' }}"
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ],
@@ -43,7 +43,7 @@ layout: null
         "city": "{{ group.city | xml_escape }}",
         "country": "{{ group.country | xml_escape }}",
         "region": "{{ group.region | xml_escape }}",
-        "last_update": "{{ group.last_update | xml_escape }}"
+        "last_update": "{{ page.last_modified_at | date: '%Y-%m-%d' }}"
       }{% unless forloop.last %},{% endunless %}
     {% endfor %} 
   ],
@@ -58,7 +58,7 @@ layout: null
         "city": "{{ startup.city | xml_escape }}",
         "country": "{{ startup.country | xml_escape }}",
         "region": "{{ startup.region | xml_escape }}",
-        "last_update": "{{ startup.last_update | xml_escape }}"
+        "last_update": "{{ page.last_modified_at | date: '%Y-%m-%d' }}"
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ],
@@ -73,7 +73,7 @@ layout: null
         "city": "{{ incubator.city | xml_escape }}",
         "country": "{{ incubator.country | xml_escape }}",
         "region": "{{ incubator.region | xml_escape }}",
-        "last_update": "{{ incubator.last_update | xml_escape }}"
+        "last_update": "{{ page.last_modified_at | date: '%Y-%m-%d' }}"
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ],
@@ -88,7 +88,7 @@ layout: null
         "city": "{{ network.city | xml_escape }}",
         "country": "{{ network.country | xml_escape }}",
         "region": "{{ network.region | xml_escape }}",
-        "last_update": "{{ network.last_update | xml_escape }}"
+        "last_update": "{{ page.last_modified_at | date: '%Y-%m-%d' }}"
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ]

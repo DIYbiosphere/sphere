@@ -16,7 +16,8 @@
           </h3>
           <div class="pure-g pad-top" style="padding-top:3em;">
             <div class="pure-u-1-2">
-              <a class="pure-button btn-lg btn-long btn-light" href="/initiatives/"
+              <a class="pure-button btn-lg btn-long btn-light"
+                href="{{ '/initiatives/' | prepend: site.baseurl }}"
                 style="text-transform: none" target="_blank">
                 <i class="octicon octicon-search"></i>
                 Search DIYbio initiatives
@@ -42,14 +43,16 @@
         <div class="content">
           <h3 class="content-head is-center">Discover initiatives in <span id="blinking"></span></h3>
           <p class="content-subhead is-center">or select a region</p>
-          <!--<img src="{{ '/img/world-map.png' | prepend: site.baseurl }}" height="115%" width="100%"/>-->
-          <!--<div id="map" class="map"></div>-->
           <div class="pure-g is-center">
             <div class="pure-u-1">
               {% include world-map.html %}
             </div>
           </div>
           
+        </div>
+        
+        <div class="is-center">
+          {% include github-buttons.html %}
         </div>
 
         {% include footer.html %}
