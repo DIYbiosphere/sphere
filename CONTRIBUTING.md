@@ -1,9 +1,21 @@
 # Quick Start Guide 
 
-1. Clone the repo from [Github](https://github.com/)
+Clone the repo from [Github](https://github.com/)
 ```
 git clone https://github.com/DIYbiosphere/diybiosphere.io.git
 ```
+
+1. Make sure you have [ruby](https://www.ruby-lang.org/en/documentation/installation/) and [rvm](https://rvm.io/rvm/install) installed (if you have OS X you already have ruby)
+  
+  2.1 Install mpapis public key
+  ```
+  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+  ```
+  
+  2.2 Install RVM stable with ruby:
+  ```
+  \curl -sSL https://get.rvm.io | bash -s stable --ruby
+  ```
 
 2. Install dependencies using [Bundler](http://bundler.io/)
   
