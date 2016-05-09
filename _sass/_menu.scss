@@ -1,0 +1,43 @@
+.home-menu {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: $fonts;
+  font-weight: 600;
+}
+
+.home-menu .pure-menu-heading { 
+  color: #000000;
+  text-transform: none;
+}
+
+.home-menu .pure-menu-link {
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.home-menu .pure-menu-link:hover {
+  color: $iris;
+  text-decoration: none;
+}
+
+.home-menu .pure-menu-link i.octicon-chevron-down {
+  color: $warm-gray;
+}
+
+.menu-heading-logo {
+  width: 3.5em;
+  margin-bottom: -1em;
+  margin-top: -1.4em;
+  margin-right: 0em;
+}
+
+@media (min-width: 48em) {
+  .home-menu ul {
+    float: none;
+  }
+}
+
+
+.pure-menu-horizontal .pure-menu-has-children > .pure-menu-link:after {
+  content: none;
+}

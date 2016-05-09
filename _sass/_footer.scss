@@ -1,10 +1,15 @@
 .footer {
-  background-color: #dadada;
+  background-color: $light-gray;
 }
 
 .footer a {
   text-decoration: none;
   color: black;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: $iris;
 }
 
 .footer div {
@@ -13,4 +18,4 @@
 
 .footer-block ul {
   margin-top: .5em;
-} 
+}

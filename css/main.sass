@@ -4,17 +4,29 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro)
 $fonts: 'Source Sans Pro', sans-serif
 
-/* Blinking cursor */
+/* Variables and color palette */
+@import variables
+
+/* Padding and margins */
 @import utils
+
+/* Blinking cursor */
 @import typed-cursor
 
+/* Menu header */
 @import menu
+
+/* Additional button styles */
 @import buttons
+
+/* Footer */
 @import footer
 
+/* Landing page large map */
 @import world-map
-@import infobox
 
+/* Infobox styles */
+@import infobox
 
 
 html, body
@@ -116,11 +128,12 @@ h1, h2, h3, h4, h5, h6, p
   font-size: 16px
 
 .search input 
-  width: 19em
-  height: 40px
-  text-indent: 2.5em
+  width: 15em
+  height: 30px
+  text-indent: 2em
   background: #FFF
   border: .5px solid
+  border-color: #979797
   border-radius: 5px
 
 .search .input-icon-left  
