@@ -31,6 +31,7 @@ $fonts: 'Source Sans Pro', sans-serif
 
 html, body
   overflow-x: hidden
+  font-family: $fonts !important
 
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] 
@@ -39,11 +40,10 @@ html, button, input, select, textarea,
 
 h1, h2, h3, h4, h5, h6, p
   color: black
-  
-.entry 
+
+.entry
   font-family: $fonts
   color: black !important
-  padding-top: 0em
 
 .entry h1,h2,h3,h4,h5,h6
   color: black !important
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6, p
 .search input 
   width: 15em
   height: 30px
-  text-indent: 2em
+  text-indent: 1em
   background: #FFF
   border: .5px solid
   border-color: #979797
@@ -144,7 +144,6 @@ h1, h2, h3, h4, h5, h6, p
   position: relative
   right: 2em
 
-
 .map 
   min-height: 20em
   height: 25em
@@ -153,9 +152,15 @@ h1, h2, h3, h4, h5, h6, p
 .pure-breadcrumb
   color: black
 
+table.condensed
+  border: 1px solid $warm-gray
+
+table.condensed th
+  border: .5px solid $warm-gray
+
 table.condensed tbody td
-  padding: 0.1em 1em
-  
+  padding: 0em 0.5em
+  border: .5px solid $warm-gray
   
 .notice
   padding: 1em 1.5em

@@ -16,8 +16,8 @@ layout: default
   </article>
 </div>-->
 
-<div class="content entry mar-no">
-  <div class="pure-g" style="margin-top: 4em">
+<div class="content entry mar-all">
+  <div class="pure-g mar-top">
     <div class="pure-u-1-2">
       <span class="pure-breadcrumb text-weak">
         <a href="{{ '/initiatives/' | prepend: site.baseUrl }}">Database &raquo;</a>
@@ -32,7 +32,6 @@ layout: default
         <a class="link text-dark text-weak selectable" target="_blank">
           <i class="octicon octicon-pencil"></i> Edit this page
         </a> <br/>
-        <span class="text-weak">Last update: {{ page.last_modified_at | date: '%Y-%m-%d' }}</span>
       </div>
     </div>
   </div>
@@ -97,4 +96,5 @@ layout: default
   </div>
   <div class="hidden" style="display:none;"><span id="lat">{{ page.latitude }}</span><span id="lng">{{ page.longitude }}</span></div>
   <div id="map" class="map mar-btm"></div>
+  <span class="text-weak">Last update: {{ page.last_modified_at | date: '%Y-%m-%d' }}</span>
 </div>

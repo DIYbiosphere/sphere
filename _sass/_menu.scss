@@ -10,6 +10,10 @@
   text-transform: none;
 }
 
+.home-menu .pure-menu-item {
+  line-height: 2.5em;
+}
+
 .home-menu .pure-menu-link {
   color: #000000;
   text-transform: uppercase;
@@ -37,6 +41,9 @@
   }
 }
 
+.pure-menu-vertical {
+  line-height: 1em;
+}
 
 .pure-menu-horizontal .pure-menu-has-children > .pure-menu-link:after {
   content: none;
