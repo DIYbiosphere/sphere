@@ -8,7 +8,7 @@ permalink: /news/:year/:month/:day/:title
 github_username: "DIYbiosphere"
 
 # Excluded files and dirs
-exclude: [script, Gemfile, Gemfile.lock, LICENSE, README.md, "CODE OF CONDUCT.md"]
+exclude: [script, Gemfile, Gemfile.lock, README.md, "CODE OF CONDUCT.md"]
 
 # Where things are
 source:       .
