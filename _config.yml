@@ -2,8 +2,8 @@
 title: DIYbio<b>sphere</b>
 email: contact@contact.com
 description: "A collaborative database of Do-it-Yourself Biology initiatives"
-baseurl: "/diybiosphere.io" # the subpath of your site, e.g. /blog
-url: "diybiosphere.github.io"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "sphere.diybio.org"
 permalink: /news/:year/:month/:day/:title
 github_username: "DIYbiosphere"
 
