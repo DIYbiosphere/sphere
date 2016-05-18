@@ -61,12 +61,18 @@ h1, h2, h3, h4, h5, h6, p
   color: #000000
 
 
-.hero-subhead 
-  font-family: $fonts
-  font-weight: 600
-  text-transform: none
-  color: #000
+@media screen and (min-width: 35.5em)
+  .hero-subhead 
+    font-family: $fonts
+    font-weight: 600
+    text-transform: none
+    color: #000
 
+@media screen and (max-width: 35.5em)
+  .hero-subhead
+    font-size: 20px
+    
+  
 
 .hero-subhead h3 
   color: #000000
@@ -136,6 +142,10 @@ h1, h2, h3, h4, h5, h6, p
   border-color: #979797
   border-radius: 5px
 
+@media screen and (max-width: 35.5em)
+  .search input
+    width: 12em
+
 .search .input-icon-left  
   position: relative
   left: 2em
@@ -143,6 +153,7 @@ h1, h2, h3, h4, h5, h6, p
 .search .input-icon-right  
   position: relative
   right: 2em
+  opacity: 0.5
 
 .map 
   min-height: 20em
@@ -184,4 +195,36 @@ table.condensed tbody td
 .notice.green
   border-left: 10px solid #5cb85c
   background: #f1f9f1
-  color: #3d8b3d
+  color: #3d8b3d 
+
+pre .copy-to-clipboard
+  position: absolute
+  right: 4px
+  top: 4px
+  background-color: #4d5257
+  color: #ccc
+  border-radius: 2px
+
+code+.copy-to-clipboard
+  margin-left: -1px
+  border-left: 0 !important
+  font-size: inherit !important
+  vertical-align: middle
+  height: 21px
+  top: 0
+
+.copy-to-clipboard
+  background-position: 50% 50%
+  background-size: 16px 16px
+  background-repeat: no-repeat
+  width: 27px
+  height: 1.45rem
+  top: -1px
+  display: inline-block
+  vertical-align: middle
+  position: relative
+  color: #5e5e5e
+  background-color: #fefaed
+  margin-left: -.2rem
+  cursor: pointer
+  border-radius: 0 2px 2px 0
