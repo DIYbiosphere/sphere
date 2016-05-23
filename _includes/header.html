@@ -1,6 +1,6 @@
 <header>
   <div class="header mar-no">
-    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-scrollable pure-menu-fixed">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
       <a class="pure-menu-heading" href="{{ site.baseurl }}/">
         <img class="pure-img-responsive menu-heading-logo" alt="DIYbio Logo"
           src="{{ '/img/diybiosphere-w.png' | prepend: site.baseurl }}">
@@ -10,10 +10,12 @@
       <ul class="pure-menu-list">
         
         <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-          <a class="pure-menu-link" href="{{ '/initiatives/' | prepend: site.baseurl }}">
+          <a class="pure-menu-link" href="#">
             DATABASE <i class="octicon octicon-chevron-down"></i>
           </a>
           <ul class="pure-menu-children">
+            <li class="pure-menu-item"><a href="{{ '/initiatives/' | prepend: site.baseurl }}" class="pure-menu-link">
+              <i class="fa fa-briefcase"></i> All</a></li>
             <li class="pure-menu-item"><a href="{{ '/projects/' | prepend: site.baseurl }}" class="pure-menu-link">
               <i class="fa fa-briefcase"></i> Projects</a></li>
             <li class="pure-menu-item"><a href="{{ '/startups/' | prepend: site.baseurl }}" class="pure-menu-link">
@@ -37,6 +39,9 @@
             <li class="pure-menu-item"></li>
           </ul>
         </li>
+      </ul>
+      
+      <ul class="pure-menu-list">  
         
         <li class="pure-menu-item">
           <a class="pure-menu-link" href="{{ '/news/' | prepend: site.baseurl }}">

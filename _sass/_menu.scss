@@ -3,6 +3,16 @@
   color: #000000;
   font-family: $fonts;
   font-weight: 600;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+@media screen and (max-width: 35.5em) {
+  .home-menu .pure-menu-list {
+    display: block;
+  }
 }
 
 .home-menu .pure-menu-heading { 
