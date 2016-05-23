@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/DIYbiosphere/diybiosphere.io.svg?branch=master)](https://travis-ci.org/DIYbiosphere/diybiosphere.io)
 [![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/diybiosphere.io.svg)](https://gitter.im/DIYbiosphere/diybiosphere.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Slack Status](https://diybiosphere.herokuapp.com/badge.svg)](https://diybiosphere.herokuapp.com)
 
 ### This site is still under development, we are working hard to make it grow and be fully functional.
 
