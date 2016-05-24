@@ -1,7 +1,7 @@
 # Site settings
-title: DIYbio<b>sphere</b>
+title: DIYbiosphere
 email: contact@contact.com
-description: "A collaborative database of Do-it-Yourself Biology initiatives"
+description: "A collaborative directory of Do-it-Yourself Biology initiatives"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "sphere.diybio.org"
 permalink: /news/:year/:month/:day/:title

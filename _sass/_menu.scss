@@ -15,7 +15,7 @@
   }
 }
 
-.home-menu .pure-menu-heading { 
+.home-menu .pure-menu-heading {
   color: #000000;
   text-transform: none;
 }
@@ -44,6 +44,10 @@
   margin-top: -1.4em;
   margin-right: 0em;
 }
+.logo {
+  width: 130px;
+}
+
 
 @media (min-width: 48em) {
   .home-menu ul {

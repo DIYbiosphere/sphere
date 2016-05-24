@@ -2,16 +2,15 @@
   <div class="header mar-no">
     <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
       <a class="pure-menu-heading" href="{{ site.baseurl }}/">
-        <img class="pure-img-responsive menu-heading-logo" alt="DIYbio Logo"
-          src="{{ '/img/diybiosphere-w.png' | prepend: site.baseurl }}">
-        {{ site.title }}
+        <img class="logo" alt="DIYbio Logo"
+          src="/img/logo.png">
       </a>
 
       <ul class="pure-menu-list">
-        
+
         <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
           <a class="pure-menu-link" href="#">
-            DATABASE <i class="octicon octicon-chevron-down"></i>
+            Database <i class="octicon octicon-chevron-down"></i>
           </a>
           <ul class="pure-menu-children">
             <li class="pure-menu-item"><a href="{{ '/initiatives/' | prepend: site.baseurl }}" class="pure-menu-link">
@@ -30,50 +29,50 @@
               <i class="fa fa-share-alt"></i> Networks</a></li>
           </ul>
         </li>
-        
+
         <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
           <a class="pure-menu-link" href="{{ '/about/' | prepend: site.baseurl }}">
-            ABOUT <i class="octicon octicon-chevron-down"></i>
+            About <i class="octicon octicon-chevron-down"></i>
           </a>
           <ul class="pure-menu-children">
             <li class="pure-menu-item"></li>
           </ul>
         </li>
       </ul>
-      
-      <ul class="pure-menu-list">  
-        
+
+      <ul class="pure-menu-list">
+
         <li class="pure-menu-item">
           <a class="pure-menu-link" href="{{ '/news/' | prepend: site.baseurl }}">
-            NEWS
+            News
           </a>
         </li>
-        
+
         <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
           <a class="pure-menu-link" href="{{ '/help/' | prepend: site.baseurl }}">
-            HELP <i class="octicon octicon-chevron-down"></i>
+            Help <i class="octicon octicon-chevron-down"></i>
           </a>
           <ul class="pure-menu-children">
             <li class="pure-menu-item"></li>
           </ul>
         </li>
-        
+
         <li class="pure-menu-item">
           <a class="pure-menu-link" href="https://github.com/DIYbiosphere/diybiosphere.io">
             <i class="fa fa-github"></i>
-            GITHUB
+            GitHub
           </a>
         </li>
-        
+
       </ul>
-      
+
       <ul class="pure-menu-list pull-right">
         <!-- Search bar -->
         <li class="search pure-menu-item">
           <input id="search" />
           <i class="octicon octicon-search input-icon-right"></i>
         </li>
-        
+
         <!-- i18n dropdown -->
         <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
           <a class="pure-menu-link" href="{{ '/en/' | prepend: site.baseurl }}">
@@ -84,13 +83,13 @@
           <ul class="pure-menu-children">
             <li class="pure-menu-item"><a href="{{ '/es/' | prepend: site.baseurl }}" class="pure-menu-link">ES</a></li>
             <li class="pure-menu-item"><a href="{{ '/fr/' | prepend: site.baseurl }}" class="pure-menu-link">FR</a></li>
-            <li class="pure-menu-item"><a href="{{ '/ger/' | prepend: site.baseurl }}" class="pure-menu-link">GER</a></li>
+            <li class="pure-menu-item"><a href="{{ '/ger/' | prepend: site.baseurl }}" class="pure-menu-link">DE</a></li>
           </ul>
         </li>
       </ul>
-      
+
     </div>
-        
+
   </div>
   <span id="baseUrl" style="dispay:none;">{{ site.baseurl }}</span>
 </header>

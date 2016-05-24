@@ -1,10 +1,9 @@
 .footer {
   background-color: $light-gray;
-}
-
-.footer a {
+  a {
   text-decoration: none;
   color: black;
+  }
 }
 
 .footer a:hover {
@@ -18,4 +17,10 @@
 
 .footer-block ul {
   margin-top: .5em;
+}
+
+
+.footer .pure-menu a:hover,
+.footer .pure-menu a:focus {
+    background: none;
 }

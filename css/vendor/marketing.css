@@ -5,31 +5,6 @@
 }
 
 /*
- * -- BASE STYLES --
- * Most of these are inherited from Base, but I want to change a few.
- */
-body {
-    line-height: 1.7em;
-    color: #7f8c8d;
-    font-size: 13px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-label {
-    color: #34495e;
-}
-
-.pure-img-responsive {
-    max-width: 100%;
-    height: auto;
-}
-
-/*
  * -- LAYOUT STYLES --
  * These are some useful classes which I will need
  */
@@ -210,15 +185,7 @@ a.pure-button-primary {
     }
 
 /* This is the class used for the dark-background areas. */
-.ribbon {
-    background: #2d3e50;
-    color: #aaa;
-}
 
-/* This is the class used for the footer */
-.footer {
-    background: #111;
-}
 
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
