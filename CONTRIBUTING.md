@@ -1,60 +1,58 @@
-# Quick Start Guide 
+---
+layout: docs
+permalink: /contributing/
+title: Contributing Guidelines
+---
+# Contributing guidelines
+We really appreciate your interest in our project :+1: We :heart: contributions! The following is a set of guidelines for contributing. Look out for [helpful hints].
 
-Clone the repo from [Github](https://github.com/)
-```
-git clone https://github.com/DIYbiosphere/diybiosphere.io.git
-```
+By participating in this project, you agree to abide by our [Code of Conduct] (CoC), and consent to the [Contributor Terms] (CT). Please read them!
 
-1. Make sure you have [ruby](https://www.ruby-lang.org/en/documentation/installation/) and [rvm](https://rvm.io/rvm/install) installed (if you have OS X you already have ruby)
-  
-  2.1 Install mpapis public key
-  ```
-  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-  ```
-  
-  2.2 Install RVM stable with ruby:
-  ```
-  \curl -sSL https://get.rvm.io | bash -s stable --ruby
-  ```
+> **TLDR: I will be nice to others and I freely share my contribution**
+> CoC: Be respectful! Don't be gross or rude to others; offenders will be prosecuted. Report offenses to [project maintainers]
+> CT: "I concede the rights of my Contribution to be distributed and/or modified under a _free_ license”
 
-2. Install dependencies using [Bundler](http://bundler.io/)
-  
-  2.1 Install Bundler
-  ```
-  gem install bundler
-  ```
-  
-  2.2 Install dependencies
-  ```
-  bundler install
-  ```
+Check out the [Getting Started] page if you want to know more about _what_ can you contribute with and _how_.
 
-3. Start [Jekyll](https://jekyllrb.com/)
-```
-jekyll serve
-```
+Also, please keep in mind your writing permissions when contributing.
 
-# Additional Information
+#### Table of Contents
+[Issues](#issues)
+- [Submitting Issues](submitting-issues)
+  - [Bugs]
+  - [Suggestions]
+  - [Questions]
+  - [Membership requests]
+- [Managing Issues]
+	- [Labels]
+	- [Milestones]
+	- [Boards]
 
-## Frontend
-The views logic is done using [JQuery](https://jquery.com/). 
+[Commits](#commits)
 
-All the initiatives are stored in a single json file:
-[initiatives.json](https://github.com/DIYbiosphere/diybiosphere.io/blob/gh-pages/js/data/initiatives.json)
+[Pull requests](#Pull-Requests)
 
-The main SCSS content is in the /css folder. and as you can see there are @import
-statements that reference other files located in the /_sass folder. This allows
-to have a modular and cleaner design.
+[Styleguides](#Styleguides)
 
-> You don't need to do anything to compile sass, Jekyll take's care of that.
+[Additional Info](#Additional-Info)
 
-## Continuous Integration
-The project is integrated with [Travis-CI](https://travis-ci.org/), so every
-time someone pushes to the master branch of the
-[repository](https://github.com/DIYbiosphere/diybiosphere.io),
-[Travis](https://travis-ci.org/) builds the site using Jekyll and push it to the
-[gh-pages](https://github.com/DIYbiosphere/diybiosphere.io/tree/gh-pages) branch.
+## Issues
+We use [GitHub Issues] to keep track of [bugs](#report-a-bug), [suggestions](#make-a-suggestion), [questions](#ask-a-question),  [membership requests](#apply-for-membership), and so on.
 
---------------------
+### Submitting Issues
+Please consider the following before submitting a new issue:
+- **Avoid making duplicates**: Do a search on the project’s issues to check whether someone has submitted the same or a similar issue. If you would like to vote for an existent issue, please add the :+1: reaction ([ELI5 GIF]).
+- ** Follow general style guides**: _Good_ tittles and descriptions generate less questions and discussions and therefore create quicker responses and solutions.
+- ** Apply labels, milestones, and boards**:  If you are a member of the DIYbiosphere, you can apply all the previous features to your own issues and new issues from non-members.
 
-Thank you and have fun!
+#### Report a bug
+A bug is an error in the code that produces unexpected or undesired results. Bugs generally concern only the @coders team. The following guidelines help them address the problem appropriately.
+- Describe how you encountered the problem
+- Describe the behavior you observed
+- Specify your operating system and the browser you are using
+- If it is related to the build please specify what software you are using and what packages you have installed.
+- Please provide as much (useful) visual content as you can. Attach screenshots or screengifs
+
+
+
+[helpful hints]: #
