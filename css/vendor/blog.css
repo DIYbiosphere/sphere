@@ -16,6 +16,7 @@ h3 {
     padding: 0;
 }
 
+
 .sidebar {
     background: rgb(61, 79, 93);
     color: #fff;
@@ -133,6 +134,8 @@ h3 {
         padding: 2em 3em 0;
         margin-left: 25%;
     }
+
+
 
     .sidebar {
         position: fixed;

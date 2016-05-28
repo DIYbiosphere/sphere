@@ -21,8 +21,4 @@ region: Europe
 diplomat: sabgaby
 ---
 
-# Biocurious
-
-## About
-
-## Origins
+# hello

@@ -1,11 +1,5 @@
----
-layout: docs
-permalink: /code-of-conduct/
-title: Code of Conduct
----
-
 # Code of Conduct
-This Code of Conduct* applies to project spaces and public spaces when an individual is representing the project or its community, online and offline.
+This Code of Conduct applies to project spaces and public spaces when an individual is representing the project or its community, online and offline.
 
 As contributors of this project, we are committed to having a **welcoming environment for all people to contribute**, and we pledge to value them as human beings and foster an atmosphere of kindness, cooperation, and understanding. We take the [Contributor Covenant] as a way to express these values.
 
@@ -20,19 +14,13 @@ Unacceptable behavior includes:
 - Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
-**Instances of unacceptable behavior may be reported by contacting a [project manager]\*\***
+**Instances of unacceptable behavior may be reported by contacting a project manager.**
 
-Project managers are obliged to maintain the confidentiality of the incident's reporter. All reports will be reviewed. Contributors with unacceptable behavior­­­—be it inappropriate, threatening, offensive or harmful—shall be banned temporarily or permanently, and contributions may be removed or rejected. Project managers commit ourselves to fairly and consistently applying these principles to the project, those who don't may be suspended or removed.
+Project managers are obliged to maintain the confidentiality of the incident's reporter. All reports will be reviewed. Contributors with unacceptable behavior­­­—be it inappropriate, threatening, offensive or harmful—shall be banned temporarily or permanently, and contributions may be removed or rejected. Project maintainers commit ourselves to fairly and consistently applying these principles to the project, those who don't may be suspended or removed.
+<hr>
+Based on the [Contributor Covenant Code of Conduct v1.4.0][1].
 
-> TLDR: Be respectful! Don't be gross or rude to others; offenders will be prosecuted. Report offenses to a [project manager]
-
-- - -
-\*Based on the [Contributor Covenant Code of Conduct v1.4.0][1].<br>
-\*\* If you are not a member of the DIYbiosphere organization, then you may report offenses to [sabgaby]
-
-
+> TL;DR: Don't be gross or mean to others or you will take a time-out or be kicked out.
 
 [1]: http://contributor-covenant.org/version/1/4/
 [Contributor covenant]: http://contributor-covenant.org/
-[project manager]: https://github.com/orgs/DIYbiosphere/teams/managers
-[sabgaby]: https://github.com/sabgaby
