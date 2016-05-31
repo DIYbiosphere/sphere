@@ -1,4 +1,4 @@
-# ![Logo](img/logo vector.png) DIYbiosphere
+# ![Logo](assets/images/Logo1.5x.png) DIYbiosphere
 
 [![Build Status](https://travis-ci.org/DIYbiosphere/diybiosphere.io.svg?branch=master)](https://travis-ci.org/DIYbiosphere/diybiosphere.io)
 [![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/diybiosphere.io.svg)](https://gitter.im/DIYbiosphere/diybiosphere.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
