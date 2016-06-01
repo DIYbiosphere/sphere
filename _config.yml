@@ -19,8 +19,6 @@ data_dir:     ./_data
 includes_dir: ./_includes
 
 # Plugins
-gems:
-  - jekyll-html-pipeline
 
 # Build settings
 markdown: kramdown
