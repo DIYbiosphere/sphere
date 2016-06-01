@@ -13,10 +13,6 @@
   margin-top: $mar;
 }
 
-.mar-top-2x {
-  margin-top: $mar2x;
-}
-
 .mar-lft {
   margin-left: $mar;
 }
@@ -54,30 +50,6 @@
   padding-bottom: $pad;
 }
 
-.pad-all-2x {
-  padding-top: $pad2x;
-  padding-left: $pad2x;
-  padding-right: $pad2x;
-  padding-bottom: $pad2x;
-}
-
-.pad-sides {
-  padding-top: $pad;
-  padding-left: $pad;
-  padding-right: $pad;
-  padding-bottom: $pad;
-}
-
-.pad-sides-2x {
-  padding-left: $pad2x;
-  padding-right: $pad2x;
-}
-
-.full-width {
-  margin: 0 -9999rem;
-  padding: 0.25rem 9999rem;
-}
-
 .bg-no {
   background-color: inherit;
   color: #777;
@@ -86,14 +58,6 @@
 .bg-dark {
   background-color: black;
   color: white !important;
-}
-
-.bg-dark h4 {
-  color: white !important;
-}
-
-.bg-light-gray {
-  background-color: #E0E0E0;
 }
 
 .selectable:hover {

@@ -1,26 +1,15 @@
 .footer {
   background-color: $light-gray;
+  padding-top: 1.5em;
+  
   a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
   }
-}
-
-.footer a:hover {
-  text-decoration: none;
-  color: $iris;
-}
-
-.footer div {
-  color: black;
-}
-
-.footer-block ul {
-  margin-top: .5em;
-}
-
-
-.footer .pure-menu a:hover,
-.footer .pure-menu a:focus {
-    background: none;
+  
+  a:hover {
+    text-decoration: none;
+    color: $secondary;
+  }
+  
 }

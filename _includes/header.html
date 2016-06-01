@@ -1,95 +1,121 @@
 <header>
-  <div class="header mar-no">
-    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-      <a class="pure-menu-heading" href="{{ site.baseurl }}/">
-        <img class="logo" alt="DIYbio Logo"
-          src="/img/logo.png">
-      </a>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+          <img class="logo" alt="DIYbio Logo" src="/img/Logo.png">
+        </a>
+      </div>
 
-      <ul class="pure-menu-list">
-
-        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-          <a class="pure-menu-link" href="#">
-            Database <i class="octicon octicon-chevron-down"></i>
-          </a>
-          <ul class="pure-menu-children">
-            <li class="pure-menu-item"><a href="{{ '/initiatives/' | prepend: site.baseurl }}" class="pure-menu-link">
-              <i class="fa fa-briefcase"></i> All</a></li>
-            <li class="pure-menu-item"><a href="{{ '/projects/' | prepend: site.baseurl }}" class="pure-menu-link">
-              <i class="fa fa-briefcase"></i> Projects</a></li>
-            <li class="pure-menu-item"><a href="{{ '/startups/' | prepend: site.baseurl }}" class="pure-menu-link">
-              <i class="fa fa-rocket"></i> Startups</a></li>
-            <li class="pure-menu-item"><a href="{{ '/labs/' | prepend: site.baseurl }}" class="pure-menu-link">
-              <i class="fa fa-flask"></i> Labs</a></li>
-            <li class="pure-menu-item"><a href="{{ '/incubators/' | prepend: site.baseurl }}" class="pure-menu-link">
-              <i class="fa fa-leaf"></i> Incubators</a></li>
-            <li class="pure-menu-item"><a href="{{ '/groups/' | prepend: site.baseurl }}" class="pure-menu-link">
-              <i class="fa fa-group"></i> Groups</a></li>
-            <li class="pure-menu-item"><a href="{{ '/networks/' | prepend: site.baseurl }}" class="pure-menu-link">
-              <i class="fa fa-share-alt"></i> Networks</a></li>
-          </ul>
-        </li>
-
-        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-          <a class="pure-menu-link" href="{{ '/about/' | prepend: site.baseurl }}">
-            About <i class="octicon octicon-chevron-down"></i>
-          </a>
-          <ul class="pure-menu-children">
-            <li class="pure-menu-item"></li>
-          </ul>
-        </li>
-      </ul>
-
-      <ul class="pure-menu-list">
-
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="{{ '/news/' | prepend: site.baseurl }}">
-            News
-          </a>
-        </li>
-
-        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-          <a class="pure-menu-link" href="{{ '/help/' | prepend: site.baseurl }}">
-            Help <i class="octicon octicon-chevron-down"></i>
-          </a>
-          <ul class="pure-menu-children">
-            <li class="pure-menu-item"></li>
-          </ul>
-        </li>
-
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://github.com/DIYbiosphere/diybiosphere.io">
-            <i class="fa fa-github"></i>
-            GitHub
-          </a>
-        </li>
-
-      </ul>
-
-      <ul class="pure-menu-list pull-right">
-        <!-- Search bar -->
-        <li class="search pure-menu-item">
-          <input id="search" />
-          <i class="octicon octicon-search input-icon-right"></i>
-        </li>
-
-        <!-- i18n dropdown -->
-        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
-          <a class="pure-menu-link" href="{{ '/en/' | prepend: site.baseurl }}">
-            <i class="octicon octicon-globe"></i>
-            EN
-            <i class="octicon octicon-chevron-down"></i>
-          </a>
-          <ul class="pure-menu-children">
-            <li class="pure-menu-item"><a href="{{ '/es/' | prepend: site.baseurl }}" class="pure-menu-link">ES</a></li>
-            <li class="pure-menu-item"><a href="{{ '/fr/' | prepend: site.baseurl }}" class="pure-menu-link">FR</a></li>
-            <li class="pure-menu-item"><a href="{{ '/ger/' | prepend: site.baseurl }}" class="pure-menu-link">DE</a></li>
-          </ul>
-        </li>
-      </ul>
-
-    </div>
-
-  </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="{{ '/initiatives/' | prepend: site.baseurl }}"
+              role="button"
+              data-target="#"
+              data-toggle="dropdown"
+              class="dropdown-toggle"
+              aria-haspopup="true"
+              aria-expanded="false">
+                Database <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="{{ '/initiatives/' | prepend: site.baseurl }}">
+                <i class="fa fa-list"></i> All</a>
+              </li>
+              <li>
+                <a href="{{ '/projects/' | prepend: site.baseurl }}">
+                <i class="fa fa-briefcase"></i> Projects</a>
+              </li>
+              <li>
+                <a href="{{ '/startups/' | prepend: site.baseurl }}">
+                <i class="fa fa-rocket"></i> Startups</a>
+              </li>
+              <li>
+                <a href="{{ '/labs/' | prepend: site.baseurl }}">
+                <i class="fa fa-flask"></i> Labs</a>
+              </li>
+              <li>
+                <a href="{{ '/incubators/' | prepend: site.baseurl }}">
+                <i class="fa fa-leaf"></i> Incubators</a>
+              </li>
+              <li>
+                <a href="{{ '/groups/' | prepend: site.baseurl }}">
+                <i class="fa fa-group"></i> Groups</a>
+              </li>
+              <li>
+                <a href="{{ '/networks/' | prepend: site.baseurl }}">
+                <i class="fa fa-share-alt"></i> Networks</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="{{ '/about/' | prepend: site.baseurl }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#"><i class=""></i> #</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li><a href="{{ '/news/' | prepend: site.baseurl }}">News</a></li>
+          
+          <li class="dropdown">
+            <a href="{{ '/help/' | prepend: site.baseurl }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#"><i class=""></i> #</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li>
+            <a href="https://github.com/DIYbiosphere/diybiosphere.io">
+              <i class="fa fa-github"></i> Github
+            </a>
+          </li>
+          
+        </ul>
+        
+        <form class="navbar-form navbar-right" role="search">
+          <div class="omnisearch input-addon">
+            <i class="fa fa-search input-icon-left"></i>
+            <input type="text" class="form-control" placeholder="Search...">
+          </div>
+        </form>
+        
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="{{ '/en/' | prepend: site.baseurl }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EN <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="{{ '/es/' | prepend: site.baseurl }}">
+                <i class="fa fa-briefcase"></i> ES</a>
+              </li>
+              <li>
+                <a href="{{ '/fr/' | prepend: site.baseurl }}">
+                <i class="fa fa-rocket"></i> FR</a>
+              </li>
+              <li>
+                <a href="{{ '/de/' | prepend: site.baseurl }}">
+                <i class="fa fa-flask"></i> DE</a>
+              </li>
+            </ul>
+          </li>
+          
+        </ul>
+        
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
   <span id="baseUrl" style="dispay:none;">{{ site.baseurl }}</span>
 </header>

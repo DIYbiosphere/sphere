@@ -1,1 +1,44 @@
+.navbar {
+  background-color: #FFFFFF;
+  font-family: $fonts;
+  font-weight: 600;
+  min-height: 70px;
+  line-height: 3em;
+}
+
+.navbar .navbar-nav li a {
+  color: #000000;
+  text-transform: none;
+  line-height: 3em
+}
+
+.navbar .navbar-nav li a:hover {
+  color: $secondary;
+  text-decoration: none;
+}
+
+navbar .navbar-nav li a .caret {
+  color: $warm-gray;
+}
+
+.omnisearch {
+  height: 30px;
+  .input-icon-left {
+    padding-top: 15px !important;
+  }
+  .input-icon-right {
+    padding-top: 15px !important;
+  }
+}
+
+.menu-heading-logo {
+  width: 3.5em;
+  margin-bottom: -1em;
+  margin-top: -1.4em;
+  margin-right: 0em;
+}
+
+.logo {
+  width: 130px;
+}
 
