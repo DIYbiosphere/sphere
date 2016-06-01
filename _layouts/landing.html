@@ -4,16 +4,16 @@
   {% include head.html %}
 
   <body>
-    
+
     <div>
       {% include header.html %}
     </div>
-    
+
     <div class="parallax-window" data-parallax="scroll" data-image-src="/img/Header.jpg">
       <div class="row pad-btm">
         <div class="col-sm-offset-3 col-sm-6">
           <h3 class="text-center">
-            The <b>DIYbiosphere</b> is a participatory project to create a database
+            The <b>DIYbiosphere</b> is a participatory project to create an open database
             of Do-it-Yourself Biology initiatives from all over the world.
           </h3>
         </div>
@@ -42,34 +42,34 @@
     <div class="container text-center">
       <h3 class="text-strong">Discover initiatives in <span id="blinking"></span></h3>
       <p class="text-strong">or select a region</p>
-      
+
       <div class="row">
         {% include world-map.html %}
       </div>
-      
+
       <div class="row">
         {% include github-buttons.html %}
       </div>
-    
+
     </div>
 
     <div class="row">
       {% include footer.html %}
     </div>
-    
+
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js" type="text/javascript"></script>
     <script src="{{ '/js/landing.js' | prepend: site.baseurl }}" type="text/javascript"></script>
-    
+
     <script>
       ((window.gitter = {}).chat = {}).options = {
         room: 'DIYbiosphere/diybiosphere.io'
       };
     </script>
     <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-    
+
   </body>
 
 </html>
