@@ -25,7 +25,7 @@ Unacceptable behavior includes:
 Project managers are obliged to maintain the confidentiality of the incident's reporter. All reports will be reviewed. Contributors with unacceptable behavior­­­—be it inappropriate, threatening, offensive or harmful—shall be banned temporarily or permanently, and contributions may be removed or rejected. Project maintainers commit ourselves to fairly and consistently applying these principles to the project, those who don't may be suspended or removed.
 
 - - -
-\* Based on the [Contributor Covenant Code of Conduct v1.4.0][1].
+\* Based on the [Contributor Covenant Code of Conduct v1.4.0][1]. <br>
 \*\* If you are not a member of the DIYbiosphere organization, then you may report offenses to [sabgaby]
 > TL;DR: Don't be gross or mean to others or you will take a time-out or be kicked out.
 

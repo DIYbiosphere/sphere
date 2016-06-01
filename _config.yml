@@ -20,7 +20,6 @@ includes_dir: ./_includes
 
 # Plugins
 gems:
-  - jekyll-last-modified-at
   - jekyll-html-pipeline
 
 # Build settings
