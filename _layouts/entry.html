@@ -1,100 +1,83 @@
 ---
 layout: default
 ---
-<!--<div class="">
-  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-    <header class="title">
-      <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-      <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-    </header>
-
-    <div itemprop="articleBody">
-      {{ content }}
+<div class="row">
+  <div class="col-sm-6">
+    <span class="text-weak">
+      <a href="{{ '/initiatives/' | prepend: site.baseUrl }}">Database &raquo;</a>
+    </span>
+    <span class="text-weak">
+      {{ page.collection }} &raquo;
+    </span>
+    <span class="text-weak">{{ page.title }}</span>
+  </div>
+  <div class="col-sm-6">
+    <div class="pull-right">
+      <a class="link text-dark text-weak selectable" target="_blank">
+        <i class="fa fa-pencil"></i> Edit this page
+      </a> <br/>
     </div>
+  </div>
+</div>
 
-  </article>
-</div>-->
-
-<div class="content entry mar-all">
-  <div class="pure-g mar-top">
-    <div class="pure-u-1-2">
-      <span class="pure-breadcrumb text-weak">
-        <a href="{{ '/initiatives/' | prepend: site.baseUrl }}">Database &raquo;</a>
-      </span>
-      <span class="pure-breadcrumb text-weak">
-        {{ page.collection }} &raquo;
-      </span>
-      <span class="pure-breadcrumb text-weak">{{ page.title }}</span>
+<h1 class="entry-title">{{ page.title }}</h1>
+<hr>
+<div class="row">
+  
+  <div class="col-sm-4 col-md-push-8">
+    <div class="infobox">
+      <h3 class="infobox-title">
+        <a class="link text-dark selectable" href="{{ page.website }}" target="_blank">
+          <img width="20%" src="{{ page.logo }}" />
+          {{ page.title }} <i class="octicon octicon-link-external"></i>
+        </a>
+      </h3>
+      {{% if page.since %}}
+        <i class="octicon octicon-gift"></i> {{ page.since }}
+        <br/>
+      {{% endif %}}
+      {{% if page.host %}}
+        <i class="octicon octicon-home"></i>
+        {{ page.host.name }}
+        <a href="{{ page.host.biosphere | site.baseUrl }}"> <i class="fa fa-link"></i> </a>
+        <a href="{{ page.host.web | site.baseUrl }}"> <i class="fa fa-external-link"></i> </a>
+        <br/>
+      {{% endif %}}
+      {{% if page.type %}}
+        <i class="octicon octicon-zap"></i> {{ page.type }} <br/>
+      {{% endif %}}
+      {{% if page.affiliates %}}
+        <i class="octicon octicon-organization"></i>
+        {% for affiliate in page.affiliates %}
+          {{ affiliate.name }}
+          <a href="{{ affiliate.biosphere | site.baseUrl }}"> <i class="fa fa-link"></i> </a>
+          <a href="{{ affiliate.web | site.baseUrl }}"> <i class="fa fa-external-link"></i> </a>
+          {% unless forloop.last %} , {% endunless %}
+        {% endfor %}
+        <br/>
+      {{% endif %}}
+      {{% if page.address %}}
+        <i class="octicon octicon-location"></i>
+        {{ page.address }}
+        <a href="#" title="View in map"> <i class="fa fa-external-link"></i> </a>
+        <br/>
+        {{ page.directions }}
+        <br/>
+      {{% endif %}}
+      <i class="octicon octicon-globe"></i> {{ page.city }}, {{ page.state }} {{ page.country }}
+      <hr>
+      <div class="mar-btm">
+        <i class="octicon octicon-tag"></i> {{ page.tags | array_to_sentence_string }}
+      </div>        
     </div>
-    <div class="pure-u-1-2">
-      <div class="pull-right">
-        <a class="link text-dark text-weak selectable" target="_blank">
-          <i class="octicon octicon-pencil"></i> Edit this page
-        </a> <br/>
-      </div>
+    <div class="mar-lft">
+      {% include social-icons.html %}
     </div>
   </div>
   
-  <h1 class="entry-title">{{ page.title }}</h1>
-  <hr>
-  <div class="pure-g">
-    <div class="pure-u-2-3">
-      {{content}}
-    </div>
-    
-    <div class="pure-u-1-3">
-      <div class="infobox">
-        <h3 class="infobox-title">
-          <a class="link text-dark selectable" href="{{ page.website }}" target="_blank">
-            <img width="20%" src="{{ page.logo }}" />
-            {{ page.title }} <i class="octicon octicon-link-external"></i>
-          </a>
-        </h3>
-        {{% if page.since %}}
-          <i class="octicon octicon-gift"></i> {{ page.since }}
-          <br/>
-        {{% endif %}}
-        {{% if page.host %}}
-          <i class="octicon octicon-home"></i>
-          {{ page.host.name }}
-          <a href="{{ page.host.biosphere | site.baseUrl }}"> <i class="fa fa-link"></i> </a>
-          <a href="{{ page.host.web | site.baseUrl }}"> <i class="fa fa-external-link"></i> </a>
-          <br/>
-        {{% endif %}}
-        {{% if page.type %}}
-          <i class="octicon octicon-zap"></i> {{ page.type }} <br/>
-        {{% endif %}}
-        {{% if page.affiliates %}}
-          <i class="octicon octicon-organization"></i>
-          {% for affiliate in page.affiliates %}
-            {{ affiliate.name }}
-            <a href="{{ affiliate.biosphere | site.baseUrl }}"> <i class="fa fa-link"></i> </a>
-            <a href="{{ affiliate.web | site.baseUrl }}"> <i class="fa fa-external-link"></i> </a>
-            {% unless forloop.last %} , {% endunless %}
-          {% endfor %}
-          <br/>
-        {{% endif %}}
-        {{% if page.address %}}
-          <i class="octicon octicon-location"></i>
-          {{ page.address }}
-          <a href="#" title="View in map"> <i class="fa fa-external-link"></i> </a>
-          <br/>
-          {{ page.directions }}
-          <br/>
-        {{% endif %}}
-        <i class="octicon octicon-globe"></i> {{ page.city }}, {{ page.state }} {{ page.country }}
-        <hr>
-        <div class="mar-btm">
-          <i class="octicon octicon-tag"></i> {{ page.tags | array_to_sentence_string }}
-        </div>        
-      </div>
-      <div class="mar-lft">
-        {% include social-icons.html %}
-      </div>
-    </div>
+  <div class="col-sm-8 col-md-pull-4">
+    {{content}}
+    <span class="text-weak">Last update: {{ page.last_modified_at | date: '%Y-%m-%d' }}</span>
   </div>
-  <div class="hidden" style="display:none;"><span id="lat">{{ page.latitude }}</span><span id="lng">{{ page.longitude }}</span></div>
-  <div id="map" class="map mar-btm"></div>
-  <span class="text-weak">Last update: {{ page.last_modified_at | date: '%Y-%m-%d' }}</span>
+  
 </div>
