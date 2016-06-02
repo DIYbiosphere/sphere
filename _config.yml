@@ -5,6 +5,7 @@ description: "A collaborative directory of Do-it-Yourself Biology initiatives"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "sphere.diybio.org"
 permalink: /news/:year/:month/:day/:title
+repository: "DIYbiosphere/sphere.dir"
 github_username: "DIYbiosphere"
 twitter:
   username: DIYbiosphere
