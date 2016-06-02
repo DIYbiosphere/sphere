@@ -1,43 +1,71 @@
----
-layout: docs
-title: License
-permalink: /license/
----
+# DIYBiosphere
 
-# License for humans
-The DIYbiosphere is a mixed project composed by various types of Work:
+[![Build Status](https://travis-ci.org/DIYbiosphere/diybiosphere.io.svg?branch=master)](https://travis-ci.org/DIYbiosphere/diybiosphere.io)
+[![Dependency Status](https://www.versioneye.com/user/projects/574e9577e298f3003e688985/badge.svg?style=flat)](https://www.versioneye.com/user/projects/574e9577e298f3003e688985)
+[![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/diybiosphere.io.svg)](https://gitter.im/DIYbiosphere/diybiosphere.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Slack Status](https://diybiosphere.herokuapp.com/badge.svg)](https://diybiosphere.herokuapp.com)
+[![License](https://img.shields.io/badge/License-MPL%20%2B%20CC--BY-blue.svg)]([license])
 
--  **(Creative) Content** means literary and/or artistic work and includes all written text, pictures, graphic design, etc.
-- **Data** is all factual information, such as dates, and addresses, etc.
-- **Documentation** includes all the guides, tutorials, and reference manuals that pertain to the project
--  **Code** is all the source-code that builds and formats the content into the website
 
-**Overall the Work is divided as _Content_, which includes the Data and Documentation, and the underlying _Source-Code_ that transforms and displays that content.**
+:tada: Welcome to the DIYbiophere repository :tada:
 
-The **Content is licensed** under the [Creative Commons Attribution Share-Alike 4.0 International] (CC-BY-SA 4.0), which allows for use and modification as long as you share the work under the same license and give credit to the original author of the work.
+We really appreciate your interest in our project :+1: and we would :heart: your contributions!
 
-The **Source Code is licensed**  under the [Mozilla Public License 2.0] (MPL-2.0), which allows for use and modifications as long as you share the source-code under the same license. You can also combine MPL source code with other code under a different license (open or proprietary) as long as the MPL source code is made available.
+## About
+The DIYbiosphere is a participatory project to create a database of Do-It-Yourself Biology (DIYbio) initiatives from all over the world. The project is public; open for anyone to add and edit entries, as well as to shape the overall project. The goal is to have a shared and common _directory_ that can connect people and ideas in all its possibilities. With the open data we gather we plan to map and visualize the DIYbio community in all its diversity across time and space in the hopes that we may learn more about the movement and its futures.
 
-## Summary
-You can download the data and content, and code and use for ANY purpose you like; personal, community, educational, commercial, government, etc. There are only two requirements:
+For more information about the project go to the [About] page and check out the project's [entry] in the database.
 
-#### Attribute and Share-Alike!
-Our requested attribution is “© DIYbiosphere contributors”.
-Because DIYbiosphere  _is_ its contributors you may omit the word “contributors” if space is limited.
+## How it works
+The directory functions similar to a wiki, but we use [GitHub Pages] instead to host and build the content from simple text files using [Markdown] syntax.
 
-**You must make it clear that the data and content is available under [CC-BY-SA 4.0] and that the underlying source code is available under [MPL 2.0]. This can be achieved by providing a link to the Licenses original links our [LICENSE] file, or our [README] in our GitHub repository**
+You can learn more about the technologies behind the project in our [Build] page.
 
-We would greatly appreciate, prefer, and encourage you to add your derivative work to the DIYbiosphere project, but you don’t have too. If you do distribute your derivative work then it must be made public as well with the same license.
+## Participate!
+You can engage with the DIYbiosphere is many ways (in increasing order of engagement):
+- **Connect**
+	- Share this project with your friends and followers!
+	- [Star] the project on GitHub
+	- [Follow] us on Twitter
+- **Get involved**
+	- Chat with us on [Gitter] or [Slack]
+	- [Become a member] of the DIYbiosphere organization in GitHub
+- **Contribute**
+	- [Commit] changes; like [writing entries]
+	- [Submit] an issue; like [suggesting an idea]
 
-- - -
-The [tl;drLegal] website has great ‘summarized at-a-glace’ software licenses. Check out the [CC-BY-SA] and the [MPL]
+## Learn More
+See our [Getting Started] guide to quickly learn _what_ can you contribute with and _how_ to do it. Please follow our [Contributing guidelines].
 
-[Creative Commons Attribution Share-Alike 4.0 International]:  https://creativecommons.org/licenses/by-sa/4.0/legalcode
-[Mozilla Public License 2.0]: https://www.mozilla.org/en-US/MPL/2.0/
-[CC-BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+Learn more about how we maintain our project through our [Organization] page and where it is heading next in our [Road Map].
+
+## Copyright
+The work generated by the project is available under copyleft licenses.
+
+The **content** of the project itself is licensed under Creative Commons Attribution license [CC-BY 4.0], and the underlying **source code** used to format and display that content is licensed under the Mozilla Public License [MPL 2.0]
+
+This repository holds a copy of the legal code of both licenses. You can review our [License] file for a human-readable version of the copyright permissions granted; stating your rights and responsibilities.
+
+Please credit the project as “© DIYbiosphere contributors”
+
+[about]: /about
+[entry]: #
+[markdown]: https://guides.github.com/features/mastering-markdown/
+[GitHub Pages]: https://pages.github.com/
+[build]: /docs/help/basics/code
+[Commit]: /contributing#commits
+[writing entries]: #
+[suggesting an idea]: #
+[Submit]: /contributing#issues
+[Getting started]: /docs/help/getting-started
+[Contributing guidelines]: /contributing
+[Represent your initiative]: #
+[Become a member]: #
+[Organization]: #
+[Star]: #
+[gitter]: https://gitter.im/DIYbiosphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link
+[follow]: https://twitter.com/DIYbiosphere
+[slack]: #
 [MPL 2.0]: https://www.mozilla.org/en-US/MPL/2.0/
+[CC-BY 4.0]: http://creativecommons.org/licenses/by/4.0/
 [LICENSE]: /license
-[README]: https://github.com/DIYbiosphere/diybiosphere.io
-[CC-BY-SA]: https://tldrlegal.com/license/creative-commons-attribution-sharealike-4.0-international-(cc-by-sa-4.0)#summary
-[MPL]:  https://www.tldrlegal.com/l/mpl-2.0
-[Tl;drLegal]: https://tldrlegal.com/

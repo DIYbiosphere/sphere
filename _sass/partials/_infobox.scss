@@ -1,6 +1,6 @@
 .infobox {
   font-family: $fonts;
-  border: 2px solid;
+  border: 0.5px solid;
   padding: 0em 2em;
   margin: 1em 2em;
 }
@@ -9,17 +9,17 @@
   display: inline;
 }
 
-.infobox-title { 
+.infobox-title {
   text-align: center;
   font-weight: 600;
 }
 
-.infobox-content { 
+.infobox-content {
   margin-top: 1em;
   text-align: left;
 }
 
-.infobox-item { 
+.infobox-item {
   padding: .2em;
   line-height: 130%;
   color: #B0CADB;

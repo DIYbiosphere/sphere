@@ -2,14 +2,22 @@
   background-color: #FFFFFF;
   font-family: $fonts;
   font-weight: 600;
-  min-height: 70px;
+  min-height: 90px;
   line-height: 3em;
+  border-bottom: black solid 3px;
+  text-transform: capitalize;
+
+}
+
+.navbar .navbar-nav ul {
+      vertical-align: middle;
 }
 
 .navbar .navbar-nav li a {
   color: #000000;
   text-transform: none;
   line-height: 3em
+
 }
 
 .navbar .navbar-nav li a:hover {
@@ -39,6 +47,6 @@ navbar .navbar-nav li a .caret {
 }
 
 .logo {
-  width: 130px;
+  width: 110px;
+  vertical-align: middle;
 }
-

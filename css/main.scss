@@ -2,8 +2,9 @@
 ---
 
 /* Import sass files */
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300|Source+Code+Pro:400,300");
 $fonts: 'Source Sans Pro', sans-serif;
+$monospace: 'Source Code Pro', monospace;
 
 @import "variables";
 @import "base";
@@ -12,9 +13,10 @@ $fonts: 'Source Sans Pro', sans-serif;
 
 @import "partials/header";
 /* Footer */
-@import "footer";
+@import "partials/footer";
 /* Variables and color palette */
 
+@import "partials/submenu";
 /* Padding and margins */
 @import "utils";
 /* Blinking cursor */
@@ -26,7 +28,7 @@ $fonts: 'Source Sans Pro', sans-serif;
 /* Landing page large map */
 @import "world-map";
 /* Infobox styles */
-@import "infobox";
+@import "partials/infobox";
 
 html, body {
   overflow-x: hidden;
