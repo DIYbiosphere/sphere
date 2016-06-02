@@ -5,33 +5,37 @@ title: Contributing
 ---
 
 # Contributing Guidelines
-We really appreciate your interest in our project :+1: We :Heart: contributions! The following is a set of guidelines for contributing. Look out for [helpful hints].
+We really appreciate your interest in our project :+1: We :heart: contributions! The following is a set of guidelines for contributing. Look out for [helpful hints].
 
 By participating in this project, you agree to abide by our [Code of Conduct] (CoC), and consent to the [Contributor License Agreement] (CLA). Please read them!
 
 > **TLDR: I will be nice to others and I freely share my contribution**
+>
 > CoC: Be respectful! Don't be gross or rude to others; offenders will be prosecuted. Report offences to [project managers] or [sabgaby]
-> CT: "I concede the rights of my Contribution to be distributed and/or modified under a _free_ license”
+>
+> CLA: "I concede the rights of my Contribution to be distributed and/or modified under a _free_ license”
 
 Check out the [Getting Started] page if you want to know more about how you can contribute to the project.
 
 Also, please keep in mind your writing permissions when contributing.
 
 #### Table of Contents
-[Issues](#issues)
-- Submitting Issues(#submitting-issues)
-	- Bugs(#report-a-bug)
-	- Suggestions(#make-a-suggestion)
-	- Questions(#ask-a-question)
-	- Membership requests(#apply-for-membership)
-- Managing Issues(#issue-management)
-	- Labels(#applying-labels)
-	- Milestones(#setting-milestones)
-	- Boards(#using-zenboards)
-[Commits](#Commits)
+- [Issues](#issues)
+  - [Submitting Issues](#submitting-issues)
+	  - [Bugs](#report-a-bug)
+	  - [Suggestions](#make-a-suggestion)
+	  - [Questions](#ask-a-question)
+	  - [Membership requests](#apply-for-membership)
+ - [Managing Issues](#issue-management)
+	- [Labels](#applying-labels)
+	- [Milestones](#setting-milestones)
+	- [Boards](#using-zenboards)
+
+- [Commits](#Commits)
 -
-[Pull requests](#Pull-Requests)
-[Styleguides](#Styleguides)
+- [Pull requests](#Pull-Requests)
+
+- [Styleguides](#Styleguides)
 
 Environment details:
 
