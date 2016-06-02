@@ -6,6 +6,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "sphere.diybio.org"
 permalink: /news/:year/:month/:day/:title
 github_username: "DIYbiosphere"
+twitter:
+  username: DIYbiosphere
+  
 
 # Excluded files and dirs
 exclude: [script, Gemfile, Gemfile.lock, README.md, "MPL 2.0", "CC-BY-SA 4.0", DataReusePlan.txt]
@@ -20,6 +23,11 @@ includes_dir: ./_includes
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Collections
 collections:
