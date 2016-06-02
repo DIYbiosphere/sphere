@@ -6,6 +6,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "sphere.diybio.org"
 permalink: /news/:year/:month/:day/:title
 github_username: "DIYbiosphere"
+twitter:
+  username: DIYbiosphere
+  
 
 # Excluded files and dirs
 exclude: [script, Gemfile, Gemfile.lock, README.md, "MPL 2.0", "CC-BY-SA 4.0", DataReusePlan.txt]
@@ -18,20 +21,13 @@ layouts_dir:  ./_layouts
 data_dir:     ./_data
 includes_dir: ./_includes
 
-# Plugins
-
 # Build settings
 markdown: kramdown
-# markdown: HTMLPipeline
-# html_pipeline:
-#   filters:
-#     - "markdownfilter"
-#     - "emojifilter"
-#     - "mentionfilter"
-#     - "sanitizationfilter"
-  # context:
-  #   asset_root: "https://assets.github.com/images/icons/" # github's emoji url! :D
-  #   base_url:   "https://github.com/"
+
+gems:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Collections
 collections:

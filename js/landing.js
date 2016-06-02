@@ -2,12 +2,19 @@
 
   // document ready  
   $(function() {
+    var baseUrl = $('#baseUrl').text();
+        
+    $('#search-form').on('submit', function(e) {
+      e.preventDefault();
+      var search = $('#search').val();
+      window.location = baseUrl + '/initiatives?q='+search;
+    });
+    
     var typedConfig = {
       strings: [''],
       typeSpeed: 20,
       loop: false
     }
-    // var $blinking = $('#blinking');
 
     $('#blinking').typed(typedConfig);
 
@@ -20,8 +27,7 @@
 
     $('.region').on('click', function() {
       var name = $(this).prop('id').replace(/-+/g, ' ');;
-      var baseUrl = $('#baseUrl').text();
-      window.location = baseUrl + '/initiatives?region='+name;
+      window.location = baseUrl + '/initiatives?q='+name;
     });    
   });
 
