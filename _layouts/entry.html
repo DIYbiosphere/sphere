@@ -1,21 +1,23 @@
 ---
 layout: default
 ---
-<div class="row">
+<div class="row submenu">
   <div class="col-sm-6">
     <span class="text-weak">
       <a href="{{ '/initiatives/' | prepend: site.baseUrl }}">Database &raquo;</a>
     </span>
+  <!-- TODO: add a a href link to the list of the collection -->
     <span class="text-weak">
       {{ page.collection }} &raquo;
     </span>
+  <!--TODO: add href to page title-->
     <span class="text-weak">{{ page.title }}</span>
   </div>
   <div class="col-sm-6">
     <div class="pull-right">
       <a href="{{ page.path }}" class="link text-dark text-weak selectable" target="_blank">
         <i class="fa fa-pencil"></i> Edit this page
-      </a><br/>
+      </a>
     </div>
   </div>
 </div>
@@ -23,7 +25,7 @@ layout: default
 <h1 class="entry-title">{{ page.title }}</h1>
 <hr>
 <div class="row">
-  
+
   <div class="col-sm-4 col-md-push-8">
     <div class="infobox">
       <h3 class="infobox-title">
@@ -68,16 +70,16 @@ layout: default
       <hr>
       <div class="mar-btm">
         <i class="octicon octicon-tag"></i> {{ page.tags | array_to_sentence_string }}
-      </div>        
+      </div>
     </div>
     <div class="mar-lft">
       {% include social-icons.html %}
     </div>
   </div>
-  
+
   <div class="col-sm-8 col-md-pull-4">
     {{content}}
     <span class="text-weak">Last update: {{ page.last_modified_at | date: '%Y-%m-%d' }}</span>
   </div>
-  
+
 </div>

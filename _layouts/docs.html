@@ -6,50 +6,52 @@ layout: default
     <div class="col-sm-3">
       <div>
         <ul class="side-menu">
-          
-          <h3 class=""> DOCUMENTATION </h3>
-          
-          <li class="side-menu-title"> ABOUT </li>
+
+          <h3 class=""> Documentation </h3>
+
+          <li class="side-menu-title"> About </li>
           <li><a href="#" class="side-menu-link">Introduction</a></li>
           <li><a href="#" class="side-menu-link">Organization</a></li>
+          <li><a href="#" class="side-menu-link">Copyright</a></li>
           <li><a href="#" class="side-menu-link">Contact</a></li>
-          
-          <li class="side-menu-title"> NEWS </li>
+
+          <li class="side-menu-title"> News </li>
+          <li><a href="#" class="side-menu-link">Blog</a></li>
           <li><a href="#" class="side-menu-link">Releases</a></li>
           <li><a href="#" class="side-menu-link">Road map</a></li>
-          
-          <li class="side-menu-title"> HELP </li>
+
+
+          <li class="side-menu-title"> Help </li>
           <li><a href="#" class="side-menu-link">Getting started</a></li>
-          <li><a href="#" class="side-menu-link">Setup</a></li>
-          <li><a href="#" class="side-menu-link">Database</a></li>
-          <li><a href="#" class="side-menu-link">Design</a></li>
-          <li><a href="#" class="side-menu-link">Code</a></li>
-          <li><a href="#" class="side-menu-link">Documentation</a></li>
-          
-          <li class="side-menu-title"> FAQ </li>
-          <li><a href="#" class="side-menu-link">Getting help</a></li>
-          <li><a href="#" class="side-menu-link"> Contributing</a></li>
-          
-          <li class="side-menu-title"> RESOURCES </li>        
+          <li><a href="#" class="side-menu-link">Contributing guide</a></li>
+          <li><a href="#" class="side-menu-link">Basics</a></li>
+          <li><a href="#" class="side-menu-link">Tutorials</a></li>
+          <li><a href="#" class="side-menu-link">FAQ</a></li>
+
+          <li class="side-menu-title"> Resources </li>
           <li><a href="#" class="side-menu-link">Glossary</a></li>
           <li><a href="#" class="side-menu-link">Site map</a></li>
           <li><a href="#" class="side-menu-link">Tutorials</a></li>
-                  
+
         </ul>
       </div>
     </div>
+
     <div class="col-sm-9">
-      <div class="row pad-top pad-btm">
+      <div class="row pad-top pad-btm submenu">
         <div class="col-sm-6">
-          <span class="text-weak">About &raquo;</span>
+<!--TODO:"About" should change to a code that regflects the location of the file. the double >> should only show if there is file after-->
+          <span class="text-weak">
+            <a href="#">
+            About &raquo;</span></a>
         </div>
         <div class="col-sm-6">
-          <a href="https://github.com/DIYbiosphere/diybiosphere.io/blob/master/about.md" class="link text-dark text-weak selectable pull-right">
+  <!--TODO: this link should go the its respective file in the repository-->
+          <a href="https://github.com/DIYbiosphere/sphere.dir/blob/master/about.md" class="link text-dark text-weak selectable pull-right">
             <i class="octicon octicon-pencil"></i> Edit this page
           </a>
         </div>
       </div>
-      
       {{content}}
     </div>
   </div>
