@@ -1,13 +1,15 @@
 ---
 layout: default
 ---
-<div class="row">
+<div class="row pad-btm submenu">
   <div class="col-sm-6">
-    <span class="pure-breadcrumb text-weak">Database</span>
+    <span class="text-weak">
+      <a href="#">Database</a>
+    </span>
   </div>
   <div class="col-sm-6">
-    <a href="https://github.com/DIYbiosphere/diybiosphere.io/blob/master/{{ page.title | downcase }}.html"
-      class="link text-dark text-weak selectable pull-right" target="_blank">
+    <a href="{{site.github.repository_url}}/blob/master/{{page.path}}"
+      class="link text-weak selectable pull-right" target="_blank">
       <i class="octicon octicon-pencil"></i> Edit this page
     </a>
   </div>

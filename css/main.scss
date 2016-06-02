@@ -36,8 +36,12 @@ html, body {
   font-family: $fonts !important;
 }
 
+/**
+* since the top menu is fixed top, .main-content should always have a padding top
+* according to the navbar's size
+*/
 .main-content {
-  padding-top: 80px; // needed for navbar fixed top
+  padding-top: 7em;
 }
 
 .parallax-window {
@@ -94,12 +98,6 @@ html, body {
   }
 }
 
-// @media screen and (max-width: 35.5em) {
-//   .search input {
-//     width: 12em;
-//   }
-// }
-
 .map {
   min-height: 20em;
   height: 25em;
@@ -123,6 +121,16 @@ html, body {
     color: $secondary;
     cursor: pointer;
   }
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: $secondary;
 }
 
 .notice {
