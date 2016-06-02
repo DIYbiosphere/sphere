@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="row submenu">
+<div class="row pad-btm submenu">
   <div class="col-sm-6">
     <span class="text-weak">
       <a href="{{ '/initiatives/' | prepend: site.baseUrl }}">Database &raquo;</a>
@@ -14,11 +14,9 @@ layout: default
     <span class="text-weak">{{ page.title }}</span>
   </div>
   <div class="col-sm-6">
-    <div class="pull-right">
-      <a href="{{ page.path }}" class="link text-dark text-weak selectable" target="_blank">
-        <i class="fa fa-pencil"></i> Edit this page
-      </a>
-    </div>
+    <a href="{{site.github.repository_url}}/blob/master/pages/{{page.relative_path}}" class="link text-weak selectable pull-right" target="_blank">
+      <i class="octicon octicon-pencil"></i> Edit this page
+    </a>
   </div>
 </div>
 
@@ -27,7 +25,7 @@ layout: default
 <div class="row">
 
   <div class="col-sm-4 col-md-push-8">
-    <div class="infobox">
+    <div class="infobox mar-all">
       <h3 class="infobox-title">
         <a class="link text-dark selectable" href="{{ page.website }}" target="_blank">
           <img width="20%" src="{{ page.logo }}" />
@@ -72,7 +70,7 @@ layout: default
         <i class="octicon octicon-tag"></i> {{ page.tags | array_to_sentence_string }}
       </div>
     </div>
-    <div class="mar-lft">
+    <div class="mar-all text-right">
       {% include social-icons.html %}
     </div>
   </div>
