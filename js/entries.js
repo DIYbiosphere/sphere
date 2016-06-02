@@ -108,9 +108,9 @@
       ).draw();
     });
 
-    if (getUrlParam('region')) {
+    if (getUrlParam('q')) {
       // sets search value to url's param and trigger table's search
-      $search.val(getUrlParam('region')).trigger('keyup');
+      $search.val(getUrlParam('q')).trigger('keyup');
     }
 
   }); // end document ready
