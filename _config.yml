@@ -18,20 +18,8 @@ layouts_dir:  ./_layouts
 data_dir:     ./_data
 includes_dir: ./_includes
 
-# Plugins
-
 # Build settings
 markdown: kramdown
-# markdown: HTMLPipeline
-# html_pipeline:
-#   filters:
-#     - "markdownfilter"
-#     - "emojifilter"
-#     - "mentionfilter"
-#     - "sanitizationfilter"
-  # context:
-  #   asset_root: "https://assets.github.com/images/icons/" # github's emoji url! :D
-  #   base_url:   "https://github.com/"
 
 # Collections
 collections:
