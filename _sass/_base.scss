@@ -1,0 +1,14 @@
+html, body {
+  overflow-x: hidden;
+  color: black;
+  font-family: $fonts !important;
+}
+
+a {
+  color: $secondary;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: $secondary;
+  }
+}
