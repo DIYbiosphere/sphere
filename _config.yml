@@ -9,10 +9,10 @@ repository: "DIYbiosphere/sphere.dir"
 github_username: "DIYbiosphere"
 twitter:
   username: DIYbiosphere
-  
+
 
 # Excluded files and dirs
-exclude: [script, Gemfile, Gemfile.lock, README.md, "MPL 2.0", "CC-BY-SA 4.0", DataReusePlan.txt]
+exclude: [script, Gemfile, Gemfile.lock, README.md, DataReusePlan.txt]
 
 # Where things are
 source:       .
@@ -56,6 +56,14 @@ collections:
     title: Networks
     output: true
     permalink: /networks/
+  events:
+    title: Ebents
+    output: true
+    permalink: /events/
+  others:
+    title: Others
+    output: true
+    permalink: /others/
 
 # Defaul Values
 defaults:
@@ -105,3 +113,15 @@ defaults:
     values:
       layout: entry
       permalink: /networks/:title
+  -
+    scope:
+      type: events
+    values:
+      layout: entry
+      permalink: /events/:title
+  -
+    scope:
+      type: others
+    values:
+      layout: entry
+      permalink: /others/:title

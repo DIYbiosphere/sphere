@@ -151,4 +151,4 @@ http://stackoverflow.com/questions/7353538/setting-up-an-github-commit-rss-feed
 
 [Repository]: https://github.com/DIYbiosphere/diybiosphere.io
 [DIYbiosphere organization]: https://github.com/DIYbiosphere
-[Apply for membership]:
+[Apply for membership]: {{ '/contributing/#apply-for-membership' | prepend: site.baseurl }}

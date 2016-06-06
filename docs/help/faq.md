@@ -11,3 +11,6 @@ What is DIYbio?
 Why are you doing this?
 
 Why have two licenses?
+
+
+Why choose CC0 over CC-BY(+SA)?
