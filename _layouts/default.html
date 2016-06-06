@@ -17,9 +17,7 @@
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script>var baseUrl = $('#baseUrl').text();</script>
-    <script src="/js/data/omnisearch.js" type="text/javascript"></script>
-    <script src="https://cdn.rawgit.com/Tipue/Tipue-Search/master/tipuesearch/tipuesearch_set.js" type="text/javascript"></script>
-    <script src="https://cdn.rawgit.com/Tipue/Tipue-Search/master/tipuesearch/tipuesearch.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/0.7.0/lunr.min.js" type="text/javascript"></script>
     {% if page.layout == 'entries' %}
       <script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js" type="text/javascript"></script>
       <script src="https://cdn.datatables.net/buttons/1.1.2/js/dataTables.buttons.min.js" type="text/javascript"></script>      
@@ -29,6 +27,7 @@
     
     {% if page.layout == 'entry' %}
       <script src="{{ '/js/entry.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYe5HDRPStA7AjyKjoYJ2783-2yf1MhiA&signed_in=true&callback=initMap"></script>
     {% endif %}
     
     <!-- Embeded Gitter chat -->
@@ -38,14 +37,7 @@
       };
     </script>
     <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-    <script>
-      $(document).ready(function() {
-        $('#tipue_search_input').tipuesearch({
-          'newWindow': true,
-          'highlightEveryTerm': true
-        });
-      });
-    </script>
+  
   </body>
 
 </html>
