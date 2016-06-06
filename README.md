@@ -4,6 +4,7 @@
 [![Dependency Status](https://www.versioneye.com/user/projects/574e9577e298f3003e688985/badge.svg?style=flat)](https://www.versioneye.com/user/projects/574e9577e298f3003e688985)
 [![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/diybiosphere.io.svg)](https://gitter.im/DIYbiosphere/diybiosphere.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Slack Status](https://diybiosphere.herokuapp.com/badge.svg)](https://diybiosphere.herokuapp.com)
+[![License](https://img.shields.io/badge/License-MPL%20%2B%20CC--BY--blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![License](https://img.shields.io/badge/License-MIT%20%2B%20CC0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 :tada: Welcome to the DIYbiophere repository :tada:
@@ -12,7 +13,7 @@ We really appreciate your interest in our project :+1: and we would :heart: your
 
 ## About
 
-[The DIYbiosphere](http://sphere.diybio.org/) is a participatory project to create a database of Do-It-Yourself Biology (DIYbio) initiatives from all over the world. The project is public; open for anyone to add and edit entries, as well as to shape the overall project. The goal is to have a shared and common _directory_ that can connect people and ideas in all its possibilities. With the open data we gather we plan to map and visualize the DIYbio community in all its diversity across time and space in the hopes that we may learn more about the movement and its futures.
+[The DIYbiosphere] is a participatory project to create a database of Do-It-Yourself Biology (DIYbio) initiatives from all over the world. The project is public; open for anyone to add and edit entries, as well as to shape the overall project. The goal is to have a shared and common _directory_ that can connect people and ideas in all its possibilities. With the open data we gather we plan to map and visualize the DIYbio community in all its diversity across time and space in the hopes that we may learn more about the movement and its futures.
 
 For more information about the project go to the [About] page and check out the project's [entry] in the database.
 
@@ -45,6 +46,7 @@ You can review our [License] file for a human-readable version of the copyright 
 
 If you wish to credit our work (completely optional), please do so as “© DIYbiosphere contributors”
 
+[The DIYBiosphere]: (http://sphere.diybio.org/)
 [about]: http://sphere.diybio.org/about/
 [entry]: http://sphere.diybio.org/projects/DIYbiosphere
 [github pages]: https://pages.github.com/

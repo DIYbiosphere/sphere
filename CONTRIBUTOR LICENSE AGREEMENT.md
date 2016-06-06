@@ -1,23 +1,22 @@
 ---
 layout: docs
 title: Contributor License Agreement
-permalink: /contributor-license-agreement/
+permalink: /cla/
 ---
 
 # Contributor License Agreement (CLA)
 Thank  You for Your interest in making a Contribution to the DIYbiosphere Project. :heart:
 
+A CLA is for the purpose of stating a "contractual" agreement of the Intellectual Property Rights (IPR) assigned to the Contributions made to an open-source project.
+
+{% include note.html title="This CLA is not a legally binding document" text="Instead, it’s purpose is to clarify the IPR of the Contributions You choose to Submit to Us. To fully understand these issues You should read in full the legal codes of our licenses*" %}
+
 **By Contributing to Our Project, You accept and agree to the following terms and conditions for Your present and future Contributions Submitted to Us.**
-
-{% include note.html title="This CLA is _not_ a legally binding document" text="Instead, it’s purpose is to clarify the Intellectual Property Rights (IPR) of the Contributions You choose to Submit to Us. To fully understand these issues You shoudl read in full the legal codes of our licenses\*" %}
-
-
 
 1. Definitions
   - Parties. “Us” means the DIYbiosphere organization and “Project” means the DIYbiosphere database repository. “You” means the copyright owner(s), whether You denotes Individuals or Entities.
   - Contributions. “Contribution” means any original work of authorship—including any modifications or additions to an existing work that is Submitted by You to Us. “Submitted” includes any and all forms of communication (written, oral, electronic, etc.) sent to DIYbiosphere or its representatives in any communication platform that pertains to the discussion and improvement of the Project, but excludes communication conspicuously marked by You as “Not a Contribution”.
-  - Work. "Database" means all written content and data contained in the entries (available under CC0). "Build" means the source-code that formats and displays the content and data, and includes support documentation (available under MIT license).
-
+  - Work. "Content" mens literary and/or artistic work and includes all written text, pictures, graphic design, etc. "Data" means all factual information, such as dates, addresses, etc. "Database" means all written Content and Data contained in the entries (available under CC0). "Documentation" means all guides, tutorials, and reference manuals that pertain to this Project. "Source-Code" means the computer programmed instructions that format and display the content and data. "Build" means the Source-Code and its accompanying support Documentation (available under MIT license).
 1. Waive of Rights. You hereby waive all copyrights and related neighbouring rights that you have over your Contributions to the Database of the Project, so that other may freely build upon, enhance, and reuse the works for any purpose without restriction under copyright or database law.
 
 1. Grant of Rights. You hereby grant to Us and the users of this Project a worldwide, royalty-free, non-exclusive, perpetual and irrevocable license to reproduce, prepare derivative works of, publicly display and perform, sublicense, and distribute Your Contributions to the Build of the Project.
@@ -30,11 +29,6 @@ Thank  You for Your interest in making a Contribution to the DIYbiosphere Projec
 
 1. Please note that we have no obligation to accept or include Your Contributions in the Project, and that we may remove Your Contributions from the Project at any time if we suspect it might directly infringes on a third-party’s IPR, as well if Your Contributions do not comply with our [Code of Conduct].
 
-- - -
-> TLDR: You _freely_ share Your Contributions.
-Ithe rights to use, modify and distribute them under a free and open license. You can submit third-party's Contributions clearly marked as such.
 
-{% include eli5.html title="You _freely_" text="Your Contributions" %}
-
-[Licenses]: /license
-[Code of Conduct]: 
+[Licenses]: http://sphere.diybio.org/license/
+[Code of Conduct]: http://sphere.diybio.org/code-of-conduct/
