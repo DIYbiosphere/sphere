@@ -41,7 +41,6 @@ The work in this project is freely available to use, modify and distribute.
 
 The **content** of the project (entries, data, etc.) is available under the public domain [CC0] , and the underlying **source-code** (HTML, JS, etc.) used to format and display that content is available under the [MIT] License.
 
-
 You can review our [License] file for a human-readable version of the copyright permissions granted and/or waived from your contributions.
 
 If you wish to credit our work (completely optional), please do so as “© DIYbiosphere contributors”
