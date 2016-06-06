@@ -13,8 +13,8 @@ Thank  You for Your interest in making a Contribution to the DIYbiosphere Projec
 
 1. Definitions
   - Parties. “Us” means the DIYbiosphere organization and “Project” means the DIYbiosphere database repository. “You” means the copyright owner(s), whether You denotes Individuals or Entities.
-  - Content. “Contribution” means any original work of authorship—including any modifications or additions to an existing work—that is Submitted by You to Us. “Submitted” includes any and all forms of communication (written, oral, electronic, etc.) sent to DIYbiosphere or its representatives in any communication platform that pertains to the discussion and improvement of the Project, but excludes communication conspicuously marked by You as “Not a Contribution”.
-
+  - Contributions. “Contribution” means any original work of authorship—including any modifications or additions to an existing work that is Submitted by You to Us. “Submitted” includes any and all forms of communication (written, oral, electronic, etc.) sent to DIYbiosphere or its representatives in any communication platform that pertains to the discussion and improvement of the Project, but excludes communication conspicuously marked by You as “Not a Contribution”.
+  - Work. "Contnt"
 
 1. Grant of Rights. You hereby grant to Us and the users of this Project a worldwide, royalty-free, non-exclusive, perpetual and irrevocable license to reproduce, prepare derivative works of, publicly display and perform, sublicense, and distribute Your Contributions and such derivative works.
 
