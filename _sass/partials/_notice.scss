@@ -1,28 +1,29 @@
 .notice {
-  padding: 1em 1.5em;
+  padding: 1em 1em;
   margin: 1em 0;
 }
 
-.notice.yellow {
-  border-left: 10px solid #f0ad4e;
-  background: #fcf8f2;
-  color: #df8a13;
+.notice.tldr {
+  border-left: 6px solid #34AE5D;
+  color: #34AE5D;
 }
 
-.notice.red {
-  border-left: 10px solid #d9534f;
-  background: #fdf7f7;
-  color: #b52b27;
+.notice.warning {
+  border-left: 6px solid #d35043;
+  color: #d35043;
 }
 
-.notice.blue {
-  border-left: 10px solid #5bc0de;
-  background: #f4f8fa;
-  color: #28a1c5;
+.notice.note {
+  border-left: 6px solid #1d9bce;
+  color: #1d9bce;
 }
 
-.notice.green {
-  border-left: 10px solid #5cb85c;
-  background: #f1f9f1;
-  color: #3d8b3d;
+.notice.eli5 {
+  border-left: 6px solid #EB804D;
+  color: #EB804D;
+}
+
+.notice.tip {
+  border-left: 6px solid #A44CC9;
+  color: #A44CC9;
 }
