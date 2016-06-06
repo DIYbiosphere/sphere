@@ -37,7 +37,7 @@ See our [Getting Started] guide to quickly learn _what_ can you contribute with 
 Learn more about how we maintain our project through our [Organization] page and where it is heading next in our [Road Map].
 
 ## Copyright
-The work in this project is freely available to use, modify and distribute without conditions or restrictions.
+The work in this project is freely available to use, modify and distribute.
 
 The **content** of the project (entries, data, etc.) is available under the public domain [CC0] , and the underlying **source-code** (HTML, JS, etc.) used to format and display that content is available under the [MIT] License.
 

@@ -1,15 +1,32 @@
 .footer {
   background-color: $light-gray;
   padding-top: 1.5em;
-  
+  text-align: center;
   a {
     text-decoration: none;
     color: black;
   }
-  
+
   a:hover {
     text-decoration: none;
     color: $secondary;
   }
-  
+}
+.subfooter {
+  margin: auto;
+  width: 70%;
+  align-content: center;
+}
+
+.last-footer {
+  ul {
+    list-style: none;
+    text-align: left;
+    text-align: center;
+    li {
+      display: inline;
+      text-align: left;
+      padding-right: 8px;
+    }
+  }
 }

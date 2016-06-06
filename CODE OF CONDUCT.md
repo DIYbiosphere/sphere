@@ -4,7 +4,7 @@ title: Code of Conduct
 permalink: /code-of-conduct/
 ---
 
-# Code of Conduct
+# Code of Conduct (CoC)
 This Code of Conduct\* applies to project spaces and public spaces when an individual is representing the project or its community, online and offline.
 
 As contributors of this project, we are committed to having a **welcoming environment for all people to contribute**, and we pledge to value them as human beings and foster an atmosphere of kindness, cooperation, and understanding. We take the [Contributor Covenant] as a way to express these values.

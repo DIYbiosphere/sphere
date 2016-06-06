@@ -4,12 +4,14 @@ title: Contributor License Agreement
 permalink: /contributor-license-agreement/
 ---
 
-# Contributor License Agreement
-> This “Contributor License Agreement” is _not_ a legally binding document. Instead, it’s purpose is to clarify the Intellectual Property Rights (IPR) of the Contributions You choose to Submit to Us. To fully understand these issues you should read in full the legal codes of our [licenses]
-
+# Contributor License Agreement (CLA)
 Thank  You for Your interest in making a Contribution to the DIYbiosphere Project. :heart:
 
 **By Contributing to Our Project, You accept and agree to the following terms and conditions for Your present and future Contributions Submitted to Us.**
+
+{% include note.html title="This CLA is _not_ a legally binding document" text="Instead, it’s purpose is to clarify the Intellectual Property Rights (IPR) of the Contributions You choose to Submit to Us. To fully understand these issues You shoudl read in full the legal codes of our licenses\*" %}
+
+
 
 1. Definitions
   - Parties. “Us” means the DIYbiosphere organization and “Project” means the DIYbiosphere database repository. “You” means the copyright owner(s), whether You denotes Individuals or Entities.
