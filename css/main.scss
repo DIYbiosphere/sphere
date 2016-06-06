@@ -6,17 +6,19 @@
 $fonts: 'Source Sans Pro', sans-serif;
 $monospace: 'Source Code Pro', monospace;
 
+/* Variables and color palette */
 @import "variables";
-@import "base";
 
+@import "base";
 @import "bootstrap";
 
 @import "partials/header";
-/* Footer */
 @import "partials/footer";
-/* Variables and color palette */
-
 @import "partials/submenu";
+@import "partials/sidemenu";
+@import "partials/notice";
+@import "partials/infobox";
+
 /* Padding and margins */
 @import "utils";
 /* Blinking cursor */
@@ -27,18 +29,10 @@ $monospace: 'Source Code Pro', monospace;
 
 /* Landing page large map */
 @import "world-map";
-/* Infobox styles */
-@import "partials/infobox";
-
-html, body {
-  overflow-x: hidden;
-  color: black;
-  font-family: $fonts !important;
-}
 
 /**
 * since the top menu is fixed top, .main-content should always have a padding top
-* according to the navbar's size
+* (according to the navbar's size)
 */
 .main-content {
   padding-top: 7em;
@@ -70,15 +64,6 @@ html, body {
   }
 }
 
-.text-small {
-  font-size: .75em;
-  line-height: 100%;
-}
-
-.text-strong {
-  font-weight: 700;
-}
-
 .input-addon {
   position: relative;
   input {
@@ -104,6 +89,7 @@ html, body {
   width: 70%;
 }
 
+<<<<<<< HEAD
 .side-menu {
   .side-menu-title {
     padding-top: 1em;
@@ -161,6 +147,11 @@ a:hover {
 .notice.tip {
   border-left: 6px solid #A44CC9;
   color: #A44CC9;
+=======
+.docs {
+  line-height: 1.6;
+  font-size: 16px;
+>>>>>>> origin/master
 }
 
 pre .copy-to-clipboard {

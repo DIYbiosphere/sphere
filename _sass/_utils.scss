@@ -82,6 +82,11 @@
   color: black;
 }
 
-.text-light {
-  color: white;
+.text-small {
+  font-size: .75em;
+  line-height: 100%;
+}
+
+.text-strong {
+  font-weight: 700;
 }
