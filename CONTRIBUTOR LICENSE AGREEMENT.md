@@ -9,8 +9,7 @@ Thank  You for Your interest in making a Contribution to the DIYbiosphere Projec
 
 **By Contributing to Our Project, You accept and agree to the following terms and conditions for Your present and future Contributions Submitted to Us.**
 
-{% include note.html title="This CLA is _not_ a legally binding document" text="Instead, it’s purpose is to clarify the Intellectual Property Rights (IPR) of the Contributions You choose to Submit to Us. To fully understand these issues You shoudl read in full the legal codes of our licenses\*" %}
-
+{% include warning.html title="This CLA is _not_ a legally binding document" text="Instead, it’s purpose is to clarify the Intellectual Property Rights (IPR) of the Contributions You choose to Submit to Us. To fully understand these issues You shoudl read in full the legal codes of our licenses\*" %}
 
 
 1. Definitions
@@ -30,10 +29,12 @@ Thank  You for Your interest in making a Contribution to the DIYbiosphere Projec
 
 1. Please note that we have no obligation to accept or include Your Contributions in the Project, and that we may remove Your Contributions from the Project at any time if we suspect it might directly infringes on a third-party’s IPR, as well if Your Contributions do not comply with our [Code of Conduct].
 
-- - -
 > TLDR: You _freely_ share Your Contributions.
 Ithe rights to use, modify and distribute them under a free and open license. You can submit third-party's Contributions clearly marked as such.
 
+- - -
+\*[CC0 Legal code] & [MIT legal code]
 
-
+[CC0 Legal code]: #
+[MIT legal code]: #
 [Licenses]: /license
