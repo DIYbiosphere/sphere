@@ -26,7 +26,7 @@ Thank  You for Your interest in making a Contribution to the DIYbiosphere Projec
 
 1.  You represent that You Submit your Contributions “AS IS”, without WARRANTIES or CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE.
 
-1. The rights that You grant to Us are effective on the date You first Submitted a Contribution to Us. Any and all Contributions Submitted to Us we will made available under the public domain if they pertain to the Database, and under the MIT license if they pertain to the Build.
+1. The rights that You waive and/or the rights that You grant to Us are effective on the date You first Submitted a Contribution to Us. Any and all Contributions Submitted to Us we will make available under the public domain if they pertain to the Database, and under the MIT license if they pertain to the Build.
 
 1. Please note that we have no obligation to accept or include Your Contributions in the Project, and that we may remove Your Contributions from the Project at any time if we suspect it might directly infringes on a third-party’s IPR, as well if Your Contributions do not comply with our [Code of Conduct].
 
@@ -34,6 +34,7 @@ Thank  You for Your interest in making a Contribution to the DIYbiosphere Projec
 > TLDR: You _freely_ share Your Contributions.
 Ithe rights to use, modify and distribute them under a free and open license. You can submit third-party's Contributions clearly marked as such.
 
-
+{% include eli5.html title="You _freely_" text="Your Contributions" %}
 
 [Licenses]: /license
+[Code of Conduct]: 
