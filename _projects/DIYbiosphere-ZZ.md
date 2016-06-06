@@ -10,7 +10,7 @@ host:
   name: DIYbio.org
   biosphere: https://diybio.org/
   web: https://diybio.org/
-type:
+type: Non-profit
 affiliates:
   -
     name: CitizenSciences.net
@@ -18,7 +18,6 @@ affiliates:
 
 latitude: 46.204391
 longitude: 6.143158
-address: Street name and number
 city: Geneva
 country: Switzerland
 
