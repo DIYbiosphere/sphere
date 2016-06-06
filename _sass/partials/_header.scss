@@ -50,3 +50,15 @@ navbar .navbar-nav li a .caret {
   width: 110px;
   vertical-align: middle;
 }
+
+/*
+* Overwrite default values
+*/
+#tipue_search_input {
+  font: inherit;
+  color: black;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: none;
+}
