@@ -6,23 +6,32 @@
 $fonts: 'Source Sans Pro', sans-serif;
 $monospace: 'Source Code Pro', monospace;
 
+/* Variables and color palette */
 @import "variables";
+
+/* Base css */
 @import "base";
 
 @import "vendor/bootstrap";
 
 @import "partials/header";
-/* Footer */
 @import "partials/footer";
-/* Variables and color palette */
-
 @import "partials/submenu";
 @import "partials/sidemenu";
+<<<<<<< HEAD
 @import "partials/notices";
 
 /* Padding and margins */
 @import "modules/utils";
 @import "modules/clipboard";
+=======
+@import "partials/notice";
+@import "partials/infobox";
+
+/* Padding and margins */
+@import "utils";
+
+>>>>>>> origin/master
 /* Blinking cursor */
 @import "modules/typed-cursor";
 
@@ -30,6 +39,7 @@ $monospace: 'Source Code Pro', monospace;
 @import "modules/buttons";
 
 /* Landing page large map */
+<<<<<<< HEAD
 @import "modules/world-map";
 /* Infobox styles */
 @import "partials/infobox";
@@ -39,6 +49,9 @@ html, body {
   color: black;
   font-family: $fonts !important;
 }
+=======
+@import "world-map";
+>>>>>>> origin/master
 
 /**
 * since the top menu is fixed top, .main-content should always have a padding top
@@ -74,15 +87,6 @@ html, body {
   }
 }
 
-.text-small {
-  font-size: .75em;
-  line-height: 100%;
-}
-
-.text-strong {
-  font-weight: 700;
-}
-
 .input-addon {
   position: relative;
   input {
@@ -108,6 +112,48 @@ html, body {
   width: 70%;
 }
 
+<<<<<<< HEAD
+=======
+.docs {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+pre .copy-to-clipboard {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  background-color: #4d5257;
+  color: #ccc;
+  border-radius: 2px;
+}
+
+code+.copy-to-clipboard {
+  margin-left: -1px;
+  border-left: 0 !important;
+  font-size: inherit !important;
+  vertical-align: middle;
+  height: 21px;
+  top: 0;
+}
+
+.copy-to-clipboard {
+  background-position: 50% 50%;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  width: 27px;
+  height: 1.45rem;
+  top: -1px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  color: #5e5e5e;
+  background-color: #fefaed;
+  margin-left: -.2rem;
+  cursor: pointer;
+  border-radius: 0 2px 2px 0;
+}
+>>>>>>> origin/master
 
 .gitter-chat-embed {
   z-index: 9999;
