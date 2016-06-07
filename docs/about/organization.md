@@ -149,6 +149,6 @@ As a Diplomat you may want to subscribe to your initiative's changes. To do this
 http://stackoverflow.com/questions/9732779/how-to-watch-only-a-directory-in-a-github-repository
 http://stackoverflow.com/questions/7353538/setting-up-an-github-commit-rss-feed
 
-[Repository]: https://github.com/DIYbiosphere/diybiosphere.io
+[Repository]: https://github.com/DIYbiosphere/sphere.dir
 [DIYbiosphere organization]: https://github.com/DIYbiosphere
 [Apply for membership]: {{ '/contributing/#apply-for-membership' | prepend: site.baseurl }}

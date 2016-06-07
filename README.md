@@ -2,10 +2,9 @@
 
 [![Build Status](https://travis-ci.org/DIYbiosphere/sphere.dir.svg?branch=master)](https://travis-ci.org/DIYbiosphere/sphere.dir)
 [![Dependency Status](https://www.versioneye.com/user/projects/574e9577e298f3003e688985/badge.svg?style=flat)](https://www.versioneye.com/user/projects/574e9577e298f3003e688985)
-[![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/diybiosphere.io.svg)](https://gitter.im/DIYbiosphere/diybiosphere.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/sphere.dir.svg)](https://gitter.im/DIYbiosphere/sphere.dir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Slack Status](https://diybiosphere.herokuapp.com/badge.svg)](https://diybiosphere.herokuapp.com)
-[![License](https://img.shields.io/badge/License-MPL%20%2B%20CC--BY--blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-[![License](https://img.shields.io/badge/License-MIT%20%2B%20CC0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![License](https://img.shields.io/badge/License-MIT%20%2B%20CC0-blue.svg)](http://sphere.diybio.org/license/)
 
 :tada: Welcome to the DIYbiophere repository :tada:
 
