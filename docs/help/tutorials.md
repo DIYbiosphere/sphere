@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /about/tutorials/
+permalink: /help/tutorials/
 title: Tutorials
 ---
 
