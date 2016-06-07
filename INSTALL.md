@@ -6,7 +6,7 @@ permalink: /install/
 
 Clone the repo from [Github](https://github.com/)
 ```
-git clone https://github.com/DIYbiosphere/diybiosphere.io.git
+git clone https://github.com/DIYbiosphere/sphere.dir.git
 ```
 
 1. Make sure you have [ruby](https://www.ruby-lang.org/en/documentation/installation/) and [rvm](https://rvm.io/rvm/install) installed (if you have OS X you already have ruby)
@@ -44,7 +44,7 @@ jekyll serve
 The views logic is done using [JQuery](https://jquery.com/).
 
 All the initiatives are stored in a single json file:
-[initiatives.json](https://github.com/DIYbiosphere/diybiosphere.io/blob/gh-pages/js/data/initiatives.json)
+[initiatives.json](https://github.com/DIYbiosphere/sphere.dir/blob/gh-pages/js/data/initiatives.json)
 
 The main SCSS content is in the /css folder. and as you can see there are @import
 statements that reference other files located in the /_sass folder. This allows
@@ -55,9 +55,9 @@ to have a modular and cleaner design.
 ## Continuous Integration
 The project is integrated with [Travis-CI](https://travis-ci.org/), so every
 time someone pushes to the master branch of the
-[repository](https://github.com/DIYbiosphere/diybiosphere.io),
+[repository](https://github.com/DIYbiosphere/sphere.dir),
 [Travis](https://travis-ci.org/) builds the site using Jekyll and push it to the
-[gh-pages](https://github.com/DIYbiosphere/diybiosphere.io/tree/gh-pages) branch.
+[gh-pages](https://github.com/DIYbiosphere/sphere.dir/tree/gh-pages) branch.
 
 --------------------
 

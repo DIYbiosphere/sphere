@@ -9,11 +9,8 @@ We really appreciate your interest in our project :+1: We :heart: contributions!
 
 By participating in this project, you agree to abide by our [Code of Conduct] (CoC), and consent to the [Contributor License Agreement] (CLA). Please read them!
 
-> **TLDR: I will be nice to others and I freely share my contribution**
->
-> CoC: Be respectful! Don't be gross or rude to others; offenders will be prosecuted. Report offences to [project managers] or [sabgaby]
->
-> CLA: "I concede the rights of my Contribution to be distributed and/or modified under a _free_ license”
+
+{% include tldr.html title="I will be nice to others and I freely share my contributions" text="CoC: Don't be gross or rude to others; offenders will be prosecuted. Report offences to project managers <br> CLA: I concede the rights of my Contributions under a free license and those pertaining to the database to the public domain" %}
 
 Check out the [Getting Started] page if you want to know more about how you can contribute to the project.
 

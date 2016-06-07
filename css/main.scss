@@ -9,7 +9,7 @@ $monospace: 'Source Code Pro', monospace;
 @import "variables";
 @import "base";
 
-@import "bootstrap";
+@import "vendor/bootstrap";
 
 @import "partials/header";
 /* Footer */
@@ -17,16 +17,20 @@ $monospace: 'Source Code Pro', monospace;
 /* Variables and color palette */
 
 @import "partials/submenu";
+@import "partials/sidemenu";
+@import "partials/notices";
+
 /* Padding and margins */
-@import "utils";
+@import "modules/utils";
+@import "modules/clipboard";
 /* Blinking cursor */
-@import "typed-cursor";
+@import "modules/typed-cursor";
 
 /* Additional button styles */
-@import "buttons";
+@import "modules/buttons";
 
 /* Landing page large map */
-@import "world-map";
+@import "modules/world-map";
 /* Infobox styles */
 @import "partials/infobox";
 
@@ -104,99 +108,6 @@ html, body {
   width: 70%;
 }
 
-.side-menu {
-  .side-menu-title {
-    padding-top: 1em;
-    font-size: 115%;
-  }
-  li {
-    list-style: none;
-  }
-  a {
-    margin-left: .5em;
-    text-decoration: none;
-    color: black;
-  }
-  a:hover {
-    color: $secondary;
-    cursor: pointer;
-  }
-}
-
-a {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:hover {
-  color: $secondary;
-}
-
-.notice {
-  padding: 1em 1em;
-  margin: 1em 0;
-}
-
-.notice.tldr {
-  border-left: 6px solid #34AE5D;
-  color: #34AE5D;
-}
-
-.notice.warning {
-  border-left: 6px solid #d35043;
-  color: #d35043;
-}
-
-.notice.note {
-  border-left: 6px solid #1d9bce;
-  color: #1d9bce;
-}
-
-.notice.eli5 {
-  border-left: 6px solid #EB804D;
-  color: #EB804D;
-}
-
-.notice.tip {
-  border-left: 6px solid #A44CC9;
-  color: #A44CC9;
-}
-
-pre .copy-to-clipboard {
-  position: absolute;
-  right: 4px;
-  top: 4px;
-  background-color: #4d5257;
-  color: #ccc;
-  border-radius: 2px;
-}
-
-code+.copy-to-clipboard {
-  margin-left: -1px;
-  border-left: 0 !important;
-  font-size: inherit !important;
-  vertical-align: middle;
-  height: 21px;
-  top: 0;
-}
-
-.copy-to-clipboard {
-  background-position: 50% 50%;
-  background-size: 16px 16px;
-  background-repeat: no-repeat;
-  width: 27px;
-  height: 1.45rem;
-  top: -1px;
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  color: #5e5e5e;
-  background-color: #fefaed;
-  margin-left: -.2rem;
-  cursor: pointer;
-  border-radius: 0 2px 2px 0;
-}
 
 .gitter-chat-embed {
   z-index: 9999;

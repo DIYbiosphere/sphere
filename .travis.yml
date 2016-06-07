@@ -18,7 +18,7 @@ branches:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-  - GITHUB_REPO: github.com/DIYbiosphere/diybiosphere.io.git
+  - GITHUB_REPO: github.com/DIYbiosphere/sphere.dir.git
   - GITHUB_REPO_BRANCH: gh-pages
 
 exclude: [vendor]
