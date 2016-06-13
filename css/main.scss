@@ -45,8 +45,9 @@ html, body {
   padding-top: 7em;
 }
 
+
 .parallax-window {
-    min-height: 40em;
+    min-height: 43em;
     background: transparent;
     padding-top: 15em;
 }
@@ -55,20 +56,6 @@ html, body {
   background: url("../img/Header.jpg") no-repeat;
   background-size: cover;
   height: 25%;
-}
-
-@media screen and (min-width: 35.5em) {
-  .hero-subhead {
-    font-family: $fonts;
-    font-weight: 600;
-    text-transform: none;
-  }
-}
-
-@media screen and (max-width: 35.5em) {
-  .hero-subhead {
-    font-size: 20px;
-  }
 }
 
 .input-addon {
@@ -95,7 +82,6 @@ html, body {
   height: 25em;
   width: 70%;
 }
-
 
 .docs {
   line-height: 1.6;
