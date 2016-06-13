@@ -3,13 +3,13 @@ html, body {
   overflow-x: hidden;
   color: black;
   font-family: $fonts !important;
-}
-
-a {
-  color: $hyperlink;
-  text-decoration: none;
-  cursor: pointer;
-  &:hover {
+  a {
     color: $hyperlink;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+      color: $hyperlink;
+    }
   }
+
 }

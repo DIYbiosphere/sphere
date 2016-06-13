@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: The MIT License
-permalink: /MIT/
+permalink: /about/copyright/mit/
 ---
 
 # The MIT License (MIT)

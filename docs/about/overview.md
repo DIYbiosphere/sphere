@@ -4,19 +4,31 @@ permalink: /about/overview/
 title: Overview
 ---
 
-# Overview to the DIYbiosphere
-DIYbiosphere is _essentially_ an open directory of Do-It-Yourself Biology (DIYbio) initiatives from all over the world. The idea behind the project is to have a (somewhat) centralized and (kind of) standardized platform that can increase awareness of DIYbio people and ideas wherever they are or come from. The database of these initiatives is intended to be maintained volunteer contributors and managed by the [DIYbiosphere Organization]. Go to our [Organization] page to learn more about how the project is managed.
+# Overview of the DIYbiosphere
+**What is it?**
+The DIYbiosphere is a participatory project to create a database of Do-It-Yourself Biology (DIYbio) initiatives from all over the world. The project is public; open for anyone to add and edit entries, as well as to shape the overall project.
 
-In addition, with the database we will be able to map and visualize the DIYbio community and learn more from its geography and historicity. Moreover, we believe that this project will encourage collaboration between the community and will form a base for a worldwide network for DIYbio initiatives.
+**Why do it?**
+The goal is to have a shared and common platform that can connect people and ideas in all its possibilities. With the open data we gather we plan to map and visualize the DIYbio community in all its diversity across time and space in the hopes that we may learn more about the movement and its futures.
 
-## Structure of the Project
-The main
-The entries of the database are categorized into six kinds:
+**Who maintains it?**
+The project is maintained by volunteer contributors and is managed by members of the [DIYbiosphere organization] in GitHub. You can also [join!]
 
-- Projects: have a defined goal and can be specific to topics and fields of study.
-- Groups: exist in virtualspace or meatspace, but don’t have a dedicated space with lab equipment.
-- Labs: are dedicated physical spaces with lab equipment. In rare cases they can be mobile.
-- Startups:
-- Incubators:
-- Networks: bring initiatives together, sometimes for a common purpose or just for fun.
-- Others: Anything that doesn’t quite fit in the previous categories,
+**How does it works?**
+The database functions similar to a wiki, but we use [GitHub Pages] instead to host and build the content from simple text files using [Markdown] syntax. Learn more about the [Build] of the database.
+
+**How is it organized?**
+The database is categorized in nine kinds of entries:
+
+
+
+
+See our [Getting Started] guide to quickly learn _what_ can you contribute with and _how_ to do it. Please follow our [Contributing guidelines].
+
+[DIYbiosphere organization]: #
+[join!]: #
+[GitHub Pages]: #
+[Markdown]: #
+[Build]: #
+[Database]: #
+[Documentation]: #

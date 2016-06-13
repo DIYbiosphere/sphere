@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Install
-permalink: /install/
+permalink: /help/tutorials/install/
 ---
 
 Clone the repo from [Github](https://github.com/)

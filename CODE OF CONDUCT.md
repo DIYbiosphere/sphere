@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Code of Conduct
-permalink: /coc/
+permalink: /about/coc/
 ---
 
 # Code of Conduct (CoC)
