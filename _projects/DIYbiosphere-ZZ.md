@@ -2,17 +2,16 @@
 kind: Project
 title: DIYbiosphere
 
-logo: img/Logo.png
+logo: https://raw.githubusercontent.com/DIYbiosphere/sphere.dir/master/img/Logo.png
 website: http://sphere.diybio.org/
 since: 2016
 type: Non-profit
 host:
   name: DIYbio.org
-  biosphere: https://diybio.org/
-  web: https://diybio.org/
+  biosphere: http://sphere.diybio.org/networks/diybio.org-US
+  web: https://diybio.org
 type: Non-profit
 affiliates:
-  -
     name: CitizenSciences.net
     web: http://citizensciences.net/
 
@@ -30,10 +29,8 @@ twitter: https://twitter.com/DIYbiosphere/
 slack: https://slack.io.com/DIYbiosphere/
 gitter: https://gitter.im/DIYbiosphere/sphere.dir?utm_source=share-link&utm_medium=link&utm_campaign=share-link
 
-tags: database, open-source
+tags: database, open-source, software, website
 ---
-
-# DIYbiosphere
 
 ## About
 The DIYbiosphere is an open database of Do-it-Yourself Biology (DIYbio) initiatives from all over the world, accessible (and editable) through the web using GitHub. The goal is to have a common space where the DIYbio community can share about who they are, where, and what they are doing. We believe that a centralized directory could benefit the DIYbio community by increasing visibility to projects, organizations and events. We hope that by connecting people and ideas, they may inspire, learn, and collaborate with each other. Additionally, the database can also serve as a reference point for DIYbio supporters and followers, including journalists, scholars, governmental agencies, and more.
