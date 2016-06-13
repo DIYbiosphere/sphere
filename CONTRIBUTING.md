@@ -27,11 +27,8 @@ Also, please keep in mind your writing permissions when contributing.
 	- [Labels](#applying-labels)
 	- [Milestones](#setting-milestones)
 	- [Boards](#using-zenboards)
-
 - [Commits](#Commits)
--
 - [Pull requests](#Pull-Requests)
-
 - [Styleguides](#Styleguides)
 
 Environment details:
@@ -44,12 +41,14 @@ https://guides.github.com/features/issues/
 
 ### Submitting Issues
 Please consider the following before submitting a new issue:
-- **Avoid making duplicates**: Do a search on the project’s issues to check whether someone has submitted the same or a similar issue. If you would like to vote for an existent issue, please add the :+1: reaction ([ELI5 GIF]).
-- ** Follow general style guides**: _Good_ tittles and descriptions generate less questions and discussions and therefore create quicker responses and solutions.
-- ** Apply labels, milestones, and boards**:  If you are a member of the DIYbiosphere, you can apply all the previous features to your own issues and new issues from non-members
+
+- **Avoid making duplicates**: Do a search on the [project’s issues] to check whether someone has submitted the same or a similar issue. If you would like to vote for an existent issue, please add the :+1: reaction.
+- **Follow general style guides**: _Good_ titles and descriptions generate less questions and discussions and therefore create quicker responses and solutions.
+- **Apply labels, milestones, and boards**:  If you are a member of the DIYbiosphere, you can apply all the previous features to your own issues and new issues from non-members
 
 #### Report a bug
-A bug is an error in the code that produces unexpected or undesired results. Bugs generally concern only the @coders team. The following guidelines help them address the problem appropriately.
+A bug is an error in the code that produces unexpected or undesired results. Bugs generally concern only the @coders team. The following guidelines help them address the problem appropriately
+
 - Describe how you encountered the problem
 - Describe the behavior you observed
 - Specify your operating system and the browser you are using
@@ -60,6 +59,7 @@ You can use the [bug template] to make things easie
 
 #### Make a suggestion
 We really appreciate ideas to improve the project. Many times these can either be classified as a `new feature` or as an `enhancement` which is an improvement (small or large) to an already existing feature. Please follow these guidelines:
+
 - Describe as much as possible what your suggestion is
 - Describe how it would work, or how it would look like
 - If applicable, share examples and references and include links, images, or GIFs.
@@ -123,8 +123,7 @@ Depending on your read/write permissions and your push access to the repository 
 
 In order to run locally you have to use the terminal. If you have never used it, don’t worry! It is as easy as copy & paste.
 The instructions and programs you need depend on your operating system (OSx, Windows, or Linux), pleas
-  
- 
+
 ### Mac users 
 1. Install all the command line tools
 	- Copy the following command line

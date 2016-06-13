@@ -41,9 +41,9 @@ The work in this project is freely available to use, modify and distribute.
 
 The **content** of the project (entries, data, etc.) is available under the public domain [CC0] , and the underlying **source-code** (HTML, JS, etc.) used to format and display that content is available under the [MIT] License.
 
-You can review our [License] file for a human-readable version of the copyright permissions granted and/or waived from your contributions.
+You can review our [License] file for a human-readable version of the copyright, and our [CLA] (Contributor License Agreement) to understand in legal terms the rights granted and/or waived from your Contributions.
 
-If you wish to credit our work (completely optional), please do so as “© DIYbiosphere contributors”
+If you wish to credit our work, please do so as “© DIYbiosphere contributors”
 
 [The DIYBiosphere]: (http://sphere.diybio.org/)
 [about]: http://sphere.diybio.org/about/
@@ -52,13 +52,13 @@ If you wish to credit our work (completely optional), please do so as “© DIYb
 [Markdown]: https://guides.github.com/features/mastering-markdown/
 [share this project]: (http://sphere.diybio.org/)
 [star the project]: https://github.com/DIYbiosphere/sphere.dir
-[Gitter]: (https://gitter.im/DIYbiosphere/sphere.dir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[Slack]: (https://diybiosphere.herokuapp.com/)
+[Gitter]: https://gitter.im/DIYbiosphere/sphere.dir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
+[Slack]: https://diybiosphere.herokuapp.com/
 [Join the organization]: #
-[Jump in to the issues]: (https://github.com/DIYbiosphere/sphere.dir/issues)
+[Jump in to the issues]: https://github.com/DIYbiosphere/sphere.dir/issues
 [Getting started]: http://sphere.diybio.org/help/getting-started/
 [Contributing guidelines]: http://sphere.diybio.org/contributing/
 [follow]: https://twitter.com/DIYbiosphere
 [MIT]: https://opensource.org/licenses/MIT
-[CC0]: http://creativecommons.org/choose/zero/
+[CC0]: https://creativecommons.org/publicdomain/zero/1.0/
 [LICENSE]: http://sphere.diybio.org/license/

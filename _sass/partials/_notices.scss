@@ -7,26 +7,26 @@
 }
 
 .notice.tldr {
-  border-left: 6px solid #34AE5D;
-  color: #34AE5D;
+  border-left: 6px solid $green-notice;
+  color: $green-notice;
 }
 
 .notice.warning {
-  border-left: 6px solid #d35043;
-  color: #d35043;
+  border-left: 6px solid $red-notice;
+  color: $red-notice;
 }
 
 .notice.note {
-  border-left: 6px solid #1d9bce;
-  color: #1d9bce;
+  border-left: 6px solid $blue-notice;
+  color: $blue-notice;
 }
 
 .notice.eli5 {
-  border-left: 6px solid #EB804D;
-  color: #EB804D;
+  border-left: 6px solid $orange-notice;
+  color: $orange-notice;
 }
 
 .notice.tip {
-  border-left: 6px solid #A44CC9;
-  color: #A44CC9;
+  border-left: 6px solid $purple-notice;
+  color: $purple-notice;
 }
