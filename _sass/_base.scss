@@ -6,10 +6,10 @@ html, body {
 }
 
 a {
-  color: black;
+  color: $hyperlink;
   text-decoration: none;
   cursor: pointer;
   &:hover {
-    color: $secondary;
+    color: $hyperlink;
   }
 }
