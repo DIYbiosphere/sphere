@@ -78,9 +78,12 @@
         var database = resp.database;
         var kind = getCollectionKind();
         console.log('collection to use: ', kind);
-        var data = database.filter(function(initiative) {
-          return initiative.kind === kind;
-        });
+        var data;
+        if(kind) {
+          data = database.filter(function(initiative) {
+            return initiative.kind === kind;
+          });
+        } else data = database;
         $table.rows.add(data).draw(); // add data and 'refresh' the table.
       })
       .fail(function(jqxhr, textStatus, error) { // when request failed...
