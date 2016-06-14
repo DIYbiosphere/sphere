@@ -10,10 +10,14 @@ host:
   name: DIYbio.org
   biosphere: http://sphere.diybio.org/networks/diybio.org-US
   web: https://diybio.org
+
 type: Non-profit
+
 affiliates:
-    name: CitizenSciences.net
-    web: http://citizensciences.net/
+  -
+    name: DIYbio.org
+    biosphere: http://sphere.diybio.org/networks/diybio.org-US
+    web: https://diybio.org
 
 latitude: 46.204391
 longitude: 6.143158
@@ -29,7 +33,11 @@ twitter: https://twitter.com/DIYbiosphere/
 slack: https://slack.io.com/DIYbiosphere/
 gitter: https://gitter.im/DIYbiosphere/sphere.dir?utm_source=share-link&utm_medium=link&utm_campaign=share-link
 
-tags: database, open-source, software, website
+tags:
+  - database
+  - open source
+  - software
+  - website
 ---
 
 ## About
