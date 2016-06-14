@@ -13,11 +13,12 @@
 }
 
 .btn-dark {
+  background-color: $primary;
   color: $default;
-  background-color: $primary
+
 }
 
 .btn-light {
-  color: $primary;
   background-color: $default;
+  color: $primary;
 }
