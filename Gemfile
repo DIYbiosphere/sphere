@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
+gem 'jemoji', '~> 0.6.2'
+gem 'jekyll-gist', '~> 1.4'
 gem 'jekyll-assets'
+gem 'jekyll-sitemap', '~> 0.10.0'
+gem 'jekyll-seo-tag', '~> 2.0'
+gem 'jekyll-mentions', '~> 1.1', '>= 1.1.2'
+gem 'jekyll-github-metadata', '~> 2.0'
 gem 'sanitize',                '~> 4.0.1'
 gem 'html-proofer'
