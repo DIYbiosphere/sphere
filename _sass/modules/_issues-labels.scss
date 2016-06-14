@@ -1,16 +1,16 @@
 .label {
-  font-weight: bold !important;
-  font-family: arial !important;
-  padding: 7px 10px;
   border-radius: 3px;
+  font-family: arial !important;
+  font-weight: bold !important;
+  padding: 7px 10px;
 }
 
 .bug.label {
   background-color: $bug-color;
-  color: white;
+  color: $default;
 }
 
 .bug.label {
   background-color: $bug-color;
-  color: white;
+  color: $default;
 }
