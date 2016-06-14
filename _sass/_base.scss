@@ -5,8 +5,9 @@ html, body {
   font-family: $fonts !important;
   a {
     color: $hyperlink;
-    text-decoration: none;
     cursor: pointer;
+    text-decoration: none;
+
     &:hover {
       color: $hyperlink;
     }
@@ -15,12 +16,15 @@ html, body {
 }
 
 h1 {
-  font-weight: 600 !important;
   border-bottom: 1px solid $fine-grey;
+  font-weight: 600 !important;
   padding-bottom: 15px;
 }
 
-h2, h3, h4, h5 {
+h2,
+h3,
+h4,
+h5 {
   font-weight: 600 !important;
   padding-top: 20px;
   padding-bottom: 5px;

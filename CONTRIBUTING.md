@@ -119,6 +119,9 @@ This guide assumes you have the most basic permission access to the repository.
 
 Depending on your read/write permissions and your push access to the repository you can either `Commit directly to the master branch`, `Create a new branch and start a pull request`, or `Fork the project, write changes in a new branch in your fork, and send a pull request`. Coders and Designers may want to branch out or fork the repository depending on the contributions they want to do.
 
+If your PR does not check the Travis build DO NOT merge!. Check either in Travis or in Github, why it did not pass... make changes to your repository to fix these. Please also fix changes by hound. Commit these changes to your branch or fork. sync them. and wait for the checks to pass again!
+
+
 In order to run locally you have to use the terminal. If you have never used it, don’t worry! It is as easy as copy & paste.
 The instructions and programs you need depend on your operating system (OSx, Windows, or Linux), pleas
 
