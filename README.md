@@ -1,23 +1,26 @@
-# ![Logo](assets/images/Logo1.5x.png) DIYbiosphere
-
 [![Build Status](https://travis-ci.org/DIYbiosphere/sphere.dir.svg?branch=master)](https://travis-ci.org/DIYbiosphere/sphere.dir)
 [![Dependency Status](https://www.versioneye.com/user/projects/574e9577e298f3003e688985/badge.svg?style=flat)](https://www.versioneye.com/user/projects/574e9577e298f3003e688985)
+![](https://reposs.herokuapp.com/?path=DIYbiosphere/sphere.dir&color=yellow)
 [![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/sphere.dir.svg)](https://gitter.im/DIYbiosphere/sphere.dir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Slack Status](https://diybiosphere.herokuapp.com/badge.svg)](https://diybiosphere.herokuapp.com)
-[![License](https://img.shields.io/badge/License-MIT%20%2B%20CC0-blue.svg)](http://sphere.diybio.org/license/)
+[![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0-blue.svg)](http://sphere.diybio.org/license/)
+
+# ![Logo](assets/images/Logo1.5x.png) DIYbiosphere
 
 :tada: Welcome to the DIYbiophere repository :tada:
 
-We really appreciate your interest in our project :+1: and we would :heart: your contributions!
+We really appreciate your interest in our project and we would :heart: your contributions!
+
+> At the moment, we are working hard :sweat_smile: to develop a "Minimum Viable Product" (MVP) as they say in the _techbiz_. Please :pray: help us by contributing so we can eventually share it with early adopters! :sunglasses:
 
 ## About
 
-[The DIYbiosphere] is a participatory project to create a database of Do-It-Yourself Biology (DIYbio) initiatives from all over the world. The project is public; open for anyone to add and edit entries, as well as to shape the overall project. The goal is to have a shared and common _directory_ that can connect people and ideas in all its possibilities. With the open data we gather we plan to map and visualize the DIYbio community in all its diversity across time and space in the hopes that we may learn more about the movement and its futures.
+[The DIYbiosphere] is a participatory project to create a database of Do-It-Yourself Biology (DIYbio) initiatives from all over the world. The project is public; open for anyone to add and edit entries, as well as to shape the overall project. The goal is to have a shared and common platform that can connect people and ideas in all its possibilities. With the open data we gather we plan to map and visualize the DIYbio community in all its diversity across time and space in the hopes that we may learn more about the movement and its futures.
 
-For more information about the project go to the [About] page and check out the project's [entry] in the database.
+For more information about the project go to the About section and check out the project's [entry] in the database.
 
 ### How it works
-The directory functions similar to a wiki, but we use [GitHub Pages] instead to host and build the content from simple text files using [Markdown] syntax.
+The database functions similar to a wiki, but we use [GitHub Pages] instead to host and build the content from simple text files using [Markdown] syntax.
 
 ## Participate!
 You can engage with the DIYbiosphere is many ways (in increasing order of engagement):
@@ -61,4 +64,5 @@ If you wish to credit our work, please do so as “© DIYbiosphere contributors�
 [follow]: https://twitter.com/DIYbiosphere
 [MIT]: https://opensource.org/licenses/MIT
 [CC0]: https://creativecommons.org/publicdomain/zero/1.0/
-[LICENSE]: http://sphere.diybio.org/license/
+[LICENSE]: http://sphere.diybio.org/about/copyright/license/
+[CLA]: http://sphere.diybio.org/about/copyright/cla/

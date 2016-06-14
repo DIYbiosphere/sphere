@@ -8,15 +8,33 @@ $mar: 1.5em;
 * Main color palette
 */
 
-$default: white;
-$primary: black;
-$secondary: #558071;
-$hyperlink: #0067C5;
-$green-notice: #34AE5D;
+$default: #ffffff;
+$primary: #000000;
+$secondary: #007cee;
+$hyperlink: #007cee;
+$green-notice: #34ae5d;
 $red-notice: #d35043;
 $blue-notice: #1d9bce;
-$purple-notice: #A44CC9;
-$orange-notice: #EB804D;
+$purple-notice: #a44cc9;
+$orange-notice: #eb804d;
 
 $light-gray: #dadada;
+$fine-grey: #eeeeee;
 $warm-gray: #9b9b9b;
+
+//** colors for github issues labels**//
+$bug-color: #ed5e5f;
+$critical-color: #a72628;
+$database-color: #773db1;
+$design-color: #c46e32;
+$development-color: #4789d9;
+$docs-color: #6aa223;
+$duplicate-color: #e6e6e6;
+$easy-color: #f6c647;
+$enhancement-color: #533ccc;
+$epic-color: #395499;
+$feature-color: #cc46ae;
+$feedback-color: #6dd09a;
+$help-color: #68dff9;
+$resolution-color: #5cc8be;
+$wontfix-color: #fafafa;

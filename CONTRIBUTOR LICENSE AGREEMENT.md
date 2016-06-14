@@ -1,15 +1,15 @@
 ---
 layout: docs
 title: Contributor License Agreement
-permalink: /cla/
+permalink: /about/copyright/cla/
 ---
 
 # Contributor License Agreement (CLA)
-Thank You for Your interest in making a Contribution to the DIYbiosphere Project. :heart:
+Thank You for Your interest in making a Contribution to the DIYbiosphere Project. :purple_heart:
 
 The purpose of a CLA is to state the "contractual" agreement of the Intellectual Property Rights (IPR) assigned to the Contributions made to an open-source project.
 
-{% include note.html title="This CLA is not a legally binding document" text="Instead, it’s purpose is to clarify the IPR of the Contributions You choose to Submit to Us. To fully understand these issues You should read in full the legal codes of our licenses*" %}
+{% include _notices/warning.html title="This CLA is not a legally binding document" text="Instead, it’s purpose is to clarify the IPR of the Contributions You choose to Submit to Us. To fully understand these issues You should read in full the legal codes of our licenses*" %}
 
 **By Contributing to Our Project, You accept and agree to the following terms and conditions for Your present and future Contributions Submitted to Us.**
 
@@ -29,10 +29,13 @@ The purpose of a CLA is to state the "contractual" agreement of the Intellectual
 
 1. Please note that we have no obligation to accept or include Your Contributions in the Project, and that we may remove Your Contributions from the Project at any time if we suspect it might directly infringes on a third-party’s IPR, as well if Your Contributions do not comply with our [Code of Conduct].
 
+{% include _notices/tldr.html title="I freely share my contributions" text=" I concede the rights of my Contributions under a free license and those pertaining to the database to the public domain" %}
+
+
 - - -
 \* [MIT license] and [CC0] public domain dedication
 
-[Licenses]: http://sphere.diybio.org/license/
-[Code of Conduct]: http://sphere.diybio.org/code-of-conduct/
-[MIT license]:
-[CC0]:
+[Licenses]: {{ '/about/copyright/license/' | prepend: site.baseurl }}
+[Code of Conduct]: {{ '/about/coc/' | prepend: site.baseurl }}
+[MIT license]: {{ '/about/copyright/mit/' | prepend: site.baseurl }}
+[CC0]: {{ '/about/copyright/cc0/' | prepend: site.baseurl }}

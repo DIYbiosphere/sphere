@@ -3,13 +3,29 @@ html, body {
   overflow-x: hidden;
   color: black;
   font-family: $fonts !important;
+  a {
+    color: $hyperlink;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+      color: $hyperlink;
+    }
+  }
+
 }
 
-a {
-  color: $hyperlink;
-  text-decoration: none;
-  cursor: pointer;
-  &:hover {
-    color: $hyperlink;
-  }
+h1 {
+  border-bottom: 1px solid $fine-grey;
+  font-weight: 600 !important;
+  padding-bottom: 15px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600 !important;
+  padding-top: 20px;
+  padding-bottom: 5px;
 }

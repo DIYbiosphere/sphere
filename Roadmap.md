@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /roadmap/
+permalink: /news/roadmap/
 title: Roadmap
 ---
 

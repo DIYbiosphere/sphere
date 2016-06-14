@@ -39,32 +39,32 @@ layout: default
       {{% if page.host %}}
         <i class="octicon octicon-home"></i>
         {{ page.host.name }}
-        <a href="{{ page.host.biosphere | site.baseUrl }}"> <i class="fa fa-link"></i> </a>
-        <a href="{{ page.host.web | site.baseUrl }}"> <i class="fa fa-external-link"></i> </a>
+        <a href="{{ page.host.biosphere | site.baseUrl }}"> <i class="octicon octicon-link"></i> </a>
+        <a href="{{ page.host.web | site.baseUrl }}"> <i class="octicon octicon-link-external"></i> </a>
         <br/>
       {{% endif %}}
       {{% if page.type %}}
-        <i class="octicon octicon-zap"></i> {{ page.type }} <br/>
+        <i class="octicon octicon-gear"></i> {{ page.type }} <br/>
       {{% endif %}}
       {{% if page.affiliates %}}
         <i class="octicon octicon-organization"></i>
         {% for affiliate in page.affiliates %}
           {{ affiliate.name }}
-          <a href="{{ affiliate.biosphere | site.baseUrl }}"> <i class="fa fa-link"></i> </a>
-          <a href="{{ affiliate.web | site.baseUrl }}"> <i class="fa fa-external-link"></i> </a>
+          <a href="{{ affiliate.biosphere | site.baseUrl }}"> <i class="octicon octicon-link"></i> </a>
+          <a href="{{ affiliate.web | site.baseUrl }}"> <i class="octicon octicon-link-external"></i> </a>
           {% unless forloop.last %} , {% endunless %}
         {% endfor %}
         <br/>
       {{% endif %}}
-      {{% if page.address %}}
+      {{% if page.street %}}
         <i class="octicon octicon-location"></i>
-        {{ page.address }}
-        <a href="#" title="View in map"> <i class="fa fa-external-link"></i> </a>
+        {{ page.street }}, {{ page.number }}
+        <a href="#" title="View in map"> <i class="octicon octicon-link-external"></i> </a>
         <br/>
         {{ page.directions }}
         <br/>
       {{% endif %}}
-      <i class="octicon octicon-globe"></i> {{ page.city }}, {{ page.state }} {{ page.country }}
+      <i class="octicon octicon-globe"></i> {{ page.city }}, {{ page.state }} <br> {{ page.country }}
       <hr>
       <div class="mar-btm">
         <i class="octicon octicon-tag"></i> {{ page.tags | array_to_sentence_string }}
