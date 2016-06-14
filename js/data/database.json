@@ -1,0 +1,20 @@
+---
+layout: null
+---
+{
+  "database": [
+    {% for initiative in site.database %}
+      {
+        "url": "{{ initiative.url }}",
+        "title": "{{ initiative.title | xml_escape }}",
+        "kind": "{{ initiative.kind | xml_escape }}",
+        "since": "{{ initiative.since | xml_escape }}",
+        "type": "{{ initiative.type | xml_escape }}",
+        "city": "{{ initiative.city | xml_escape }}",
+        "country": "{{ initiative.country | xml_escape }}",
+        "region": "{{ initiative.region | xml_escape }}",
+        "last_update": "{{ page.last_modified_at | date: '%Y-%m-%d' }}"
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
