@@ -6,11 +6,9 @@ layout: default
     <span class="text-weak">
       <a href="{{ '/initiatives/' | prepend: site.baseUrl }}">Database &raquo;</a>
     </span>
-  <!-- TODO: add a a href link to the list of the collection -->
     <span class="text-weak">
       {{ page.collection }} &raquo;
     </span>
-  <!--TODO: add href to page title-->
     <span class="text-weak">{{ page.title }}</span>
   </div>
   <div class="col-sm-6">
@@ -28,9 +26,12 @@ layout: default
     <div class="infobox mar-all">
       <h3 class="infobox-title">
         <a class="link text-dark selectable" href="{{ page.website }}" target="_blank">
+          {{% if page.logo %}}
           <img width="20%" src="{{ page.logo }}" />
+          {% else %}
           {{ page.title }} <i class="octicon octicon-link-external"></i>
         </a>
+          {{% endif %}}
       </h3>
       {{% if page.since %}}
         <i class="octicon octicon-gift"></i> {{ page.since }}
@@ -56,9 +57,14 @@ layout: default
         {% endfor %}
         <br/>
       {{% endif %}}
-      {{% if page.street %}}
+      {{% if page.address %}}
         <i class="octicon octicon-location"></i>
-        {{ page.street }}, {{ page.number }}
+        {{ page.address }}
+        <br>
+      {{% endif %}}
+        {{% if page.directions %}}
+        {{ page.directions }}
+      </br>
         <a href="#" title="View in map"> <i class="octicon octicon-link-external"></i> </a>
         <br/>
         {{ page.directions }}
