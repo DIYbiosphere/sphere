@@ -7,15 +7,7 @@ title: Organization
 # Organization
 The [repository] for the project is maintained by volunteer contributors and is managed by the [DIYbiosphere organization] in GitHub; which allows for a more fluid and open management. Anyone can become a member, you just need to [apply for membership].
 
-# Overview of DIYbiosphere
-The project (code and database) is maintained by the DIYbiosphere [organization] in GitHub, which allows for a more fluid and open management. The project is supported collectively by _members_, _collaborators_, and _contributors_  
-
-
 > Only members with owner privileges for an organization or admin privilefes for a repository can add outside collaborators to a repository.
-
-
-
-
 
 Adding members to a team: people with owner or team maintainer permissions can add organization members to teams. https://help.github.com/articles/adding-organization-members-to-a-team/
 
@@ -151,4 +143,4 @@ http://stackoverflow.com/questions/7353538/setting-up-an-github-commit-rss-feed
 
 [Repository]: https://github.com/DIYbiosphere/sphere.dir
 [DIYbiosphere organization]: https://github.com/DIYbiosphere
-[Apply for membership]: {{ '/contributing/#apply-for-membership' | prepend: site.baseurl }}
+[Apply for membership]: {{ '/help/contributing/#apply-for-membership' | prepend: site.baseurl }}

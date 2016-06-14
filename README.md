@@ -50,7 +50,7 @@ If you wish to credit our work, please do so as “© DIYbiosphere contributors�
 
 [The DIYBiosphere]: (http://sphere.diybio.org/)
 [about]: http://sphere.diybio.org/about/
-[entry]: http://sphere.diybio.org/projects/DIYbiosphere
+[entry]: http://sphere.diybio.org/projects/DIYbiosphere-ZZ
 [github pages]: https://pages.github.com/
 [Markdown]: https://guides.github.com/features/mastering-markdown/
 [share this project]: (http://sphere.diybio.org/)
