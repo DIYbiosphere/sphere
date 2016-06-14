@@ -36,30 +36,10 @@ gems:
 
 # Collections
 collections:
-  groups:
-    title: Groups
+  database:
+    title: Database
     output: true
-    permalink: /groups.html
-  projects:
-    title: Projects
-    output: true
-    permalink: /projects/
-  labs:
-    title: Labs
-    output: true
-    permalink: /labs/
-  startups:
-    title: Startups
-    output: true
-    permalink: /startups/
-  incubators:
-    title: Incubators
-    output: true
-    permalink: /incubators/
-  networks:
-    title: Networks
-    output: true
-    permalink: /networks/
+    permalink: /database/:path
   events:
     title: Ebents
     output: true
@@ -73,7 +53,7 @@ collections:
 defaults:
   -
     scope:
-      path: ""
+      path: ''
     values:
       layout: landing
   -
@@ -83,40 +63,10 @@ defaults:
       layout: post
   -
     scope:
-      type: groups
+      type: database
     values:
       layout: entry
-      permalink: /groups/:title
-  -
-    scope:
-      type: projects
-    values:
-      layout: entry
-      permalink: /projects/:title
-  -
-    scope:
-      type: labs
-    values:
-      layout: entry
-      permalink: /labs/:title
-  -
-    scope:
-      type: startups
-    values:
-      layout: entry
-      permalink: /startups/:title
-  -
-    scope:
-      type: incubators
-    values:
-      layout: entry
-      permalink: /incubators/:title
-  -
-    scope:
-      type: networks
-    values:
-      layout: entry
-      permalink: /networks/:title
+      permalink: /database/:path
   -
     scope:
       type: events

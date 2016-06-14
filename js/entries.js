@@ -26,7 +26,7 @@
           "targets": 0,
           "data": "title",
           "render": function(data, type, row) {
-            return '<a class="link" href="'+ baseUrl + row.url +'">'+ data +'</a>';
+            return '<a class="link selectable" href="'+ baseUrl + row.url +'">'+ data +'</a>';
           }
         },
         {
@@ -68,28 +68,23 @@
     }); 
 
     /**
-     * Bring in the initiatives!
-     * @see "initiatives.json"
+     * Bring in the database!
+     * @see "data/database.json"
      *
-     * Get all initiatives from the generated file and populates the table.
+     * Get all database from the generated file and populates the table.
     */
-    $.getJSON(baseUrl + '/js/data/initiatives.json')
+    $.getJSON(baseUrl + '/js/data/database.json')
       .done(function(resp) { // when request succeded...
-        var initiatives = resp;
-        var filter = getFilter(resp);
-        console.log('filter: ', filter)
-        var data = []; // will contain the table data.
-        if (filter) {
-          data = data.concat(initiatives[filter]);
-        } else {
-          for (var initiative in initiatives) {
-            data = data.concat(initiatives[initiative]);
-          }
-        }
+        var database = resp.database;
+        var kind = getCollectionKind();
+        console.log('collection to use: ', kind);
+        var data = database.filter(function(initiative) {
+          return initiative.kind === kind;
+        });
         $table.rows.add(data).draw(); // add data and 'refresh' the table.
       })
       .fail(function(jqxhr, textStatus, error) { // when request failed...
-        console.err('failure getting initiatives...');
+        console.err('failure getting database...');
         console.err(textStatus + ', ' + error);
       });
 
@@ -127,14 +122,9 @@
     return decodeURIComponent(results[2].replace(/\+/g, " "));
   }
 
-  function getFilter(obj) {
-    var path = window.location.pathname.split('/');
-    for (var key in obj) {
-      if (path[path.length - 2].indexOf(key) != -1) {
-        return key;
-      }
-    }
-    return false;
+  function getCollectionKind() {
+    var kind = $('#kind').text();
+    return kind
   }  
 
 })($);

@@ -1,22 +1,20 @@
 ---
 layout: default
 ---
-<div class="row pad-btm submenu">
+<div class="row submenu">
   <div class="col-sm-6">
-    <span class="text-weak">
-      <a href="#">Database</a>
-    </span>
+  <!--TODO:"About" should change to a code that reflects the location of the file. the double >> should only show if there is file after-->
+    <a href="#" class="link selectable pull-left">{{ page.title }}</a>
   </div>
   <div class="col-sm-6">
     <a href="{{site.github.repository_url}}/blob/master/{{page.path}}"
-      class="link text-weak selectable pull-right" target="_blank">
+      class="link selectable pull-right" target="_blank">
       <i class="octicon octicon-pencil"></i> Edit this page
     </a>
   </div>
 </div>
-<h1>List of entries</h1>
-<hr>
-<div class="row">
+<div>
+  <span id="kind" class="hidden" style="display:none">{{ page.kind }}</span>
   {{content}}
 </div>
 
