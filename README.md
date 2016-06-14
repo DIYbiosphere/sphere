@@ -9,7 +9,9 @@
 
 :tada: Welcome to the DIYbiophere repository :tada:
 
-We really appreciate your interest in our project :+1: and we would :heart: your contributions!
+We really appreciate your interest in our project and we would :heart: your contributions!
+
+> At the moment, we are working hard :sweat_smile: to develop a "Minimum Viable Product" (MVP) as they say in the _techbiz_. Please :pray: help us by contributing so we can eventually share it with early adopters! :sunglasses:
 
 ## About
 

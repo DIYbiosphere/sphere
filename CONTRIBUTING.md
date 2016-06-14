@@ -75,7 +75,21 @@ Issues are organized by [labels](#labels), [milestones](#milestones), [epics](#e
 
 #### Labels
 Labels are for categorizing and filtering your issues. The ones in place for now include:
-- <span style="background-color: $">   <i class="octicon octicon-tag"></i> Yellow text.</span>
+
+-  {% include _labels/bug.html %}
+-  {% include _labels/critical.html %}
+-  {% include _labels/database.html %}
+-  {% include _labels/design.html %}
+-  {% include _labels/development.html %}
+-  {% include _labels/docs.html %}
+-  {% include _labels/duplicate.html %}
+-  {% include _labels/easy.html %}
+-  {% include _labels/enhancement.html %}
+-  {% include _labels/epic.html %}
+-  {% include _labels/feature.html %}
+-  {% include _labels/feedback.html %}
+-  {% include _labels/help.html %}
+-  {% include _labels/resolution.html %}
 
 #### Milestones
 Milestones act as container for issues. This is useful for associating issues with specific features or project phases. Milestones are groups of issues that correspond to a project, feature, or time period.  Like Beta Launch, October, Sprint, Redesign.

@@ -6,13 +6,8 @@ permalink: /help/tutorials/install/
 
 # Local changes
 
-Atom packages:
-- [file icons](https://atom.io/packages/file-icons): Assign file extension icons and colours for improved visual grepping
-- [pigments](https://atom.io/packages/pigments): A package to display colors in project and files.
-- [todo-show](https://atom.io/packages/todo-show): Finds all the TODOs, FIXMEs, CHANGEDs, etc. in your project.
-- [atom beautify](https://atom.io/packages/atom-beautify): Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, and SQL in Atom
-- [merge-conflicts](https://atom.io/packages/merge-conflicts): Resolve git conflicts within Atom
--
+
+
 
 Clone the repo from [Github](https://github.com/)
 ```
@@ -57,10 +52,23 @@ All the initiatives are stored in a single json file:
 [initiatives.json](https://github.com/DIYbiosphere/sphere.dir/blob/gh-pages/js/data/initiatives.json)
 
 The main SCSS content is in the /css folder. and as you can see there are @import
-statements that reference other files located in the /_sass folder. This allows
+statements that reference other files located in the /\_sass folder. This allows
+
+## Atom packages:
+- [file icons](https://atom.io/packages/file-icons): Assign file extension icons and colours for improved visual grepping
+- [pigments](https://atom.io/packages/pigments): A package to display colors in project and files.
+- [todo-show](https://atom.io/packages/todo-show): Finds all the TODOs, FIXMEs, CHANGEDs, etc. in your project.
+- [atom beautify](https://atom.io/packages/atom-beautify): Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, and SQL in Atom
+- [merge-conflicts](https://atom.io/packages/merge-conflicts): Resolve git conflicts within Atom
+- [Markdown-writer for atom](https://atom.io/packages/markdown-writer): Make Atom a better Markdown editor and an easier static blogging tool.
+- [Markdown TOC](https://atom.io/packages/markdown-toc): Generate TOC (table of contents) of headlines from parsed markdown file
+- [Language-liquid](https://atom.io/packages/language-liquid):
+Fork of the original Liquid language support for Atom.
+
 to have a modular and cleaner design.
 
 > You don't need to do anything to compile sass, Jekyll take's care of that.
+
 
 ## Continuous Integration
 The project is integrated with [Travis-CI](https://travis-ci.org/), so every
