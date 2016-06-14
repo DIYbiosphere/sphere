@@ -76,7 +76,11 @@
     <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
     <script>
-      $(document).ready(function() {
+      $(function() {
+        //initialize tooltips
+        $('[data-toggle="tooltip"]').tooltip();
+        
+        // initialize omnisearch
         $('#tipue_search_input').tipuesearch({
           'newWindow': true,
           'highlightEveryTerm': true
