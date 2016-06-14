@@ -4,6 +4,16 @@ title: Install
 permalink: /help/tutorials/install/
 ---
 
+# Local changes
+
+Atom packages:
+- [file icons](https://atom.io/packages/file-icons): Assign file extension icons and colours for improved visual grepping
+- [pigments](https://atom.io/packages/pigments): A package to display colors in project and files.
+- [todo-show](https://atom.io/packages/todo-show): Finds all the TODOs, FIXMEs, CHANGEDs, etc. in your project.
+- [atom beautify](https://atom.io/packages/atom-beautify): Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, and SQL in Atom
+- [merge-conflicts](https://atom.io/packages/merge-conflicts): Resolve git conflicts within Atom
+-
+
 Clone the repo from [Github](https://github.com/)
 ```
 git clone https://github.com/DIYbiosphere/sphere.dir.git

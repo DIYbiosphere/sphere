@@ -62,4 +62,5 @@ If you wish to credit our work, please do so as “© DIYbiosphere contributors�
 [follow]: https://twitter.com/DIYbiosphere
 [MIT]: https://opensource.org/licenses/MIT
 [CC0]: https://creativecommons.org/publicdomain/zero/1.0/
-[LICENSE]: http://sphere.diybio.org/license/
+[LICENSE]: http://sphere.diybio.org/about/copyright/license/
+[CLA]: http://sphere.diybio.org/about/copyright/cla/

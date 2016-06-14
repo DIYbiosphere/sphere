@@ -4,14 +4,16 @@ permalink: /help/contributing/
 title: Contributing
 ---
 
-# Contributing Guidelines
+# Contributing Guide
 We really appreciate your interest in our project :+1: We :heartpulse: contributions! The following is a set of guidelines for contributing. Look out for [helpful hints].
 
-By participating in this project, you agree to abide by our [Code of Conduct] (CoC), and consent to the [Contributor License Agreement] (CLA). Please read them!
+By participating in this project, you agree to abide by our [CoC] (Code of Conduct), and consent to the [CLA] (Contributor License Agreement). Please read them!
 
-{% include tldr.html title="I will be nice to others and I freely share my contributions" text="CoC: Don't be gross or rude to others; offenders will be prosecuted. Report offences to project managers* <br> CLA: I concede the rights of my Contributions under a free license and those pertaining to the database to the public domain" %}
+{% include _notices/tldr.html title="I agree to be respectful to others and to freely sharing my contributions" text="CoC: Don't be gross or rude to others; offenders will be &quot;prosecuted&quot;. Report offenses to project managers* <br> CLA: I concede the rights of my Contributions under a free license and those pertaining to the database to the public domain" %}
 
 Check out the [Getting Started] page if you want to know more about how you can contribute to the project.
+
+- - -
 
 ### Table of Contents
 - [Issues](#issues)
@@ -28,38 +30,39 @@ Check out the [Getting Started] page if you want to know more about how you can 
 - [Pull requests](#Pull-Requests)
 - [Styleguides](#Styleguides)
 
-Environment details:
+- - -
 
 ## Issues
-We use [GitHub Issues] to keep track of [bugs](#report-a-bug), [suggestions](#make-a-suggestion), [questions](#ask-a-question),  [membership requests](#apply-for-membership), and so on.
+We use [GitHub Issues] to keep track of [bugs](#report-a-bug), [suggestions](#make-a-suggestion), [questions](#ask-a-question),  [membership requests](#apply-for-membership), and so on. Go to our repository's [Issues tab] to submit one!
 
 ### Submitting Issues
 Please consider the following before submitting a new issue:
 
-- **Avoid making duplicates**: Do a search on the [project’s issues] to check whether someone has submitted the same or a similar issue. If you would like to vote for an existent issue, please add the :+1: reaction.
-- **Follow general style guides**: _Good_ titles and descriptions generate less questions and discussions and therefore create quicker responses and solutions.
-- **Apply labels, milestones, and boards**:  If you are a member of the DIYbiosphere, you can apply all the previous features to your own issues and new issues from non-members
+- **Avoid making [duplicates](#labels)**: Do a search on the [project’s issues] to check whether someone has submitted the same or a similar issue. You can :+1: to [vote]() for an issue.
+- **Follow general [style guides](#styleguides)**: _Good_ titles and descriptions generate less questions and discussions and therefore create quicker responses and solutions.
+- **[Classify](#issue-management) new issues**: Members are encouraged to apply [labels](#labels), [milestones](#milestones), and [boards](#boards) to their own issues and new issues from contributors.
 
 #### Report a bug
-A bug is an error in the code that produces unexpected or undesired results. Bugs generally concern only the @coders team. The following guidelines help them address the problem appropriately
+A bug is an error in the code that produces unexpected or undesired results. Bugs generally concern only the [coders] team. The following guidelines help them address the problem appropriately:
 
-- Describe how you encountered the problem
-- Describe the behavior you observed
-- Specify your operating system and the browser you are using
-- If it is related to the build please specify what software you are using and what packages you have installed.
-- Please provide as much (useful) visual content as you can. Attach screenshots or screengifs
+- Describe the problem and how you encountered it.
+- Describe how it should work instead.
+- Provide as much useful visual content as you can (screenshots and screencaptures; [how-to]).
+- If it is related to building the repo locally, specify your operating system.
 
 You can use the [bug template] to make things easier
 
 #### Make a suggestion
-We really appreciate ideas to improve the project. Many times these can either be classified as a `new feature` or as an `enhancement` which is an improvement (small or large) to an already existing feature. Please follow these guidelines:
+Whether they are a `new feature` or an `enhancement` to improve an existing feature, we really appreciate suggestions and ideas :gift_heart:. Please follow these guidelines:
 
 - Describe as much as possible what your suggestion is
 - Describe how it would work, or how it would look like
 - If applicable, share examples and references and include links, images, GIFs, etc.
 
 #### Ask a question
-It is possible to ask a question through the [project’s GitHub issues]. The question has to be concerning the DIYbiosphere project. Alternatively, you can ask a question on our [Gitter] chatroom, Join our team in [Slack] and pose the question on the channel you deem fit, or send us a [tweet] or smoke signals.
+You can submit question as an issue if it concerns the DIYbiosphere project. You can also asks questions on our [Gitter] chatroom, in [Slack] channel or direct message.
+
+Make sure to check out our [FAQs] for a list of common questions.
 
 #### Apply for membership
 Submit a new issue with the title: “Applying for membership” and in the Comment section add a description of yourself and why you would like to join; this is optional but useful for those considering your application. After you receive the email invitation and you accept to join, Please close the issue with the comment of “accepted”
@@ -71,7 +74,8 @@ Issues are organized by [labels](#labels), [milestones](#milestones), [epics](#e
 Issues are organized by [labels](#labels), [milestones](#milestones), [epics](#epics) and [boards]. The two latter are features of [ZenHub] which we use for project/issues management. It has native integration in GitHub and works for Chrome and Firefox. [Add ZenHub to GitHub].
 
 #### Labels
-Labels are for categorizing and filtering your issues
+Labels are for categorizing and filtering your issues. The ones in place for now include:
+- <span style="background-color: $">   <i class="octicon octicon-tag"></i> Yellow text.</span>
 
 #### Milestones
 Milestones act as container for issues. This is useful for associating issues with specific features or project phases. Milestones are groups of issues that correspond to a project, feature, or time period.  Like Beta Launch, October, Sprint, Redesign.
@@ -162,19 +166,21 @@ For bugs, describe the bug  and how you discovered it, please describe what you 
 
 
 - - -
-\* [Project managers] team. If you are not a DIYbiosphere member, you may report offenses to [sabgaby]
+\* [Project managers] team. If you are not a DIYbiosphere member, you may report offenses to @sabgaby
 
 
-[Helpful hints]: {{ '/help/resources/helfpul-hints/' | prepend: site.baseurl }}
-[Code of conduct]: {{ '/about/coc/' | prepend: site.baseurl }}
-[Contributor License Agreement]: {{ '/about/copyright/cla/' | prepend: site.baseurl }}
+[Helpful hints]: {{ '/help/hints/' | prepend: site.baseurl }}
+[CoC]: {{ '/about/coc/' | prepend: site.baseurl }}
+[CLA]: {{ '/about/copyright/cla/' | prepend: site.baseurl }}
 [Project managers]: https://github.com/orgs/DIYbiosphere/teams/managers
 [Sabgaby]: https://github.com/sabgaby
 [Getting Started]: {{ '/help/getting-started/' | prepend: site.baseurl }}
 [Github issues]: https://guides.github.com/features/issues/
-[project’s GitHub issues]: #
-[Gitter]: #
-[Slack]: #
+[Issues tab]: https://github.com/DIYbiosphere/sphere.dir/issues
+[project’s issues]: https://github.com/DIYbiosphere/sphere.dir/issues
+[coders]: https://github.com/orgs/DIYbiosphere/teams/coders
+[Gitter]: https://gitter.im/DIYbiosphere/sphere.dir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
+[Slack]: https://diybiosphere.herokuapp.com/
 [tweet]: #
 [permission levels]: #
 [ZenHub]: #

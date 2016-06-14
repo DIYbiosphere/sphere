@@ -29,7 +29,7 @@ You may attribute our Work as “© DIYbiosphere contributors”.
 
 Because DIYbiosphere _is_ its contributors you may omit the word “contributors” if space is limited.
 
-{% include note.html title="We appreciate credit!" text="Although attribution is not compulsory for the database, you may do so if you want to acknowledge the work of our contributors. They are awesome and deserve it!" %}
+{% include _notices/note.html title="We appreciate credit!" text="Although attribution is not compulsory for the database, you may do so if you want to acknowledge the work of our contributors. They are awesome and deserve it!" %}
 
 
 [CC0]: {{ '/about/copyright/cc0/' | prepend: site.baseurl }}

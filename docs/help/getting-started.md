@@ -5,12 +5,13 @@ title: Getting Started
 ---
 
 # Getting Started
-This is a quick guide to get you started.  Look out for [helpful hints].
+This is a quick guide to get you started. Look out for [helpful hints].
 
 ## Before you Begin
-By participating in this project, you agree to abide by our [Code of Conduct] (CoC), and consent to the [Contributor Terms] (CT). Please read them!
+The **only requirement** you need to contribute is a GitHub account, so [Sign up] if you don't have one. If you are new to GitHub, the [GitHub Glossary] is an excellent starter! Otherwise, check out our [ELI5 guide].
 
-The **only requirement** you need to contribute is a GitHub account, so [Sign up] if you don't have one. If you are new to GitHub, the [GitHub Glossary] is an excellent starter!
+Also, please be aware that by participating in this project, you agree to abide by our [Code of Conduct] (CoC), and consent to the [Contributor Terms] (CT). Please read them!
+
 
 ## _What_ can you contribute to?
 There are four kinds of work in the project:
