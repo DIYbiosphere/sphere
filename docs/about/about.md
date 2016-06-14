@@ -5,9 +5,7 @@ title: About
 ---
 # DIYBiosphere
 The DIYbiosphere is a participatory project to create a database of Do-It-Yourself Biology (DIYbio) initiatives from all over the world. The goal is to have a shared and common _directory_ to connect people and ideas. The project is public; open for anyone to add and edit entries, as well as to shape the overall project. For more information about the project go to the [About] page and check out the project's [entry] in the database.
-[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star&maxAge=2592000)](https://github.com/DIYbiosphere/sphere.dir)
 
-[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/DIYbiosphere/sphere.dir)
 ## How it works
 The database functions similar to a wiki, with version control (using [Git]) and editable webpages (using [GitHub]). However, the content is composed by plain text files in [Markdown] syntax which are converted to HTML (a website) by using [Jekyll] and [GitHub Pages]. You can learn more about the technologies behind the project in our [Build] page.
 

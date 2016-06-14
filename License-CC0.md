@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: CC0 Public Domain Dedication
-permalink: /MIT/
+permalink: /about/copyright/cc0/
 ---
 
 # Creative Commons CC0 1.0 Universal

@@ -13,6 +13,7 @@ $monospace: 'Source Code Pro', monospace;
 @import "base";
 
 @import "vendor/bootstrap";
+@import "vendor/gitter-sidecar";
 
 @import "partials/header";
 @import "partials/footer";
@@ -25,16 +26,11 @@ $monospace: 'Source Code Pro', monospace;
 @import "modules/clipboard";
 @import "modules/typed-cursor";
 @import "modules/buttons";
+@import "modules/issues-labels";
 /* Padding and margins */
 
 @import "modules/world-map";
 /* Infobox styles */
-
-html, body {
-  overflow-x: hidden;
-  color: black;
-  font-family: $fonts !important;
-}
 
 
 /**
@@ -86,8 +82,4 @@ html, body {
 .docs {
   line-height: 1.6;
   font-size: 16px;
-}
-
-.gitter-chat-embed {
-  z-index: 9999;
 }

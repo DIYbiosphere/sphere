@@ -2,7 +2,24 @@
   font-family: $fonts;
   border: 0.5px solid;
   padding: 0em 2em;
+
+  .octicon-link-external {
+    font-size: 0.8em;
+    padding-left: 2px;
+    vertical-align: top;
+  }
+
+  .octicon-link {
+    font-size: 0.8em;
+    padding-left: 2px;
+    vertical-align: top;
+  }
+
+  a {
+    color: $warm-gray;
+  }
 }
+
 
 .infobox p {
   display: inline;
