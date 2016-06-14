@@ -27,8 +27,12 @@ markdown: kramdown
 
 gems:
   - jemoji
+  - jekyll-gist
+  - jekyll-assets
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-mentions
+  - jekyll-github-metadata
 
 # Collections
 collections:
