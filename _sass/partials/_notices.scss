@@ -6,6 +6,9 @@
   border-right: solid 1px $light-gray;
 }
 
+.notice-text {
+  color: $medium-gray;
+}
 .notice.tldr {
   border-left: 6px solid $green-notice;
   color: $green-notice;
@@ -29,4 +32,15 @@
 .notice.tip {
   border-left: 6px solid $purple-notice;
   color: $purple-notice;
+}
+
+.tutorial {
+  border-radius: 5px;
+  border: 1px solid $light-gray;
+  padding-left: 4px;
+  padding-right: 3px;
+  background-color: $fine-gray;
+  a {
+    color: #515151;
+  }
 }
