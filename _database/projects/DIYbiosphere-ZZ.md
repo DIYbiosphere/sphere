@@ -5,7 +5,8 @@ title: DIYbiosphere
 logo: https://raw.githubusercontent.com/DIYbiosphere/sphere.dir/master/img/Logo.png
 website: http://sphere.diybio.org/
 since: 2016
-type: Non-profit
+
+
 host:
   name: DIYbio.org
   biosphere: http://sphere.diybio.org/networks/diybio.org-US
@@ -14,13 +15,14 @@ host:
 type: Non-profit
 
 affiliates:
-  -
-    name: DIYbio.org
-    biosphere: http://sphere.diybio.org/networks/diybio.org-US
-    web: https://diybio.org
+    name: CitizenSciences.net
+    web: http://citizensciences.net/
 
 latitude: 46.204391
 longitude: 6.143158
+
+address:
+directions:
 city: Geneva
 country: Switzerland
 
@@ -33,11 +35,7 @@ twitter: https://twitter.com/DIYbiosphere/
 slack: https://slack.io.com/DIYbiosphere/
 gitter: https://gitter.im/DIYbiosphere/sphere.dir?utm_source=share-link&utm_medium=link&utm_campaign=share-link
 
-tags:
-  - database
-  - open source
-  - software
-  - website
+tags: database, open-source, software, website
 ---
 
 ## About

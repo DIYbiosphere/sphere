@@ -11,12 +11,18 @@ collaborators: "[CitizenSciences.net](http://citizensciences.net/)"
 
 latitude: "46.204391"
 longitude: "6.143158"
-directions: Sereno 48, Colinas del Sur
-city: Geneva
-country: Switzerland
-region: Europe
+address: 845 Stewart Drive
+postcode: 94085
+city: Sunnyvale
+state: California
+country: United States
 
-diplomat: sabgaby
+diplomat:
+email: info@biocurious.org
+forum: https://groups.google.com/forum/#!forum/biocurious
+meetup: http://www.meetup.com/biocurious/
+twitter: https://twitter.com/biocuriouslab
+facebook: https://www.facebook.com/BioCurious
 ---
 
 ## About
