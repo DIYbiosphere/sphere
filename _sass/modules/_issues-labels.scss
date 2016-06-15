@@ -1,16 +1,13 @@
 .label {
   border-radius: 3px;
-  font-family: arial;
-  font-weight: bold;
-  padding: 7px 10px;
+  font-size: 16px;
+  font-family: $fonts;
+  .bug {
+    background-color: $bug-color;
+    color: $default;
+  }
+  .critical {
+    
+  }
 }
 
-.bug.label {
-  background-color: $bug-color;
-  color: $default;
-}
-
-.bug.label {
-  background-color: $bug-color;
-  color: $default;
-}
