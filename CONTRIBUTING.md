@@ -71,7 +71,6 @@ As a member of the DIYbiosphere organization in GitHub, you have _write_ access 
 
 ### Issue management
 Issues are organized by [labels](#labels), [milestones](#milestones), [epics](#epics) and [boards](#boards). The two latter are features of [ZenHub] which we use for project/issues management. It has native integration in GitHub and works for Chrome and Firefox. [Add ZenHub to GitHub].
-Issues are organized by [labels](#labels), [milestones](#milestones), [epics](#epics) and [boards]. The two latter are features of [ZenHub] which we use for project/issues management. It has native integration in GitHub and works for Chrome and Firefox. [Add ZenHub to GitHub].
 
 #### Labels
 Labels are for categorizing and filtering your issues. The ones in place for now include:
@@ -99,7 +98,7 @@ In the Boards tab, we can see how issues are divided between:
 ## Commits
 To commit changes is to basically save the changes you made to the repository.
 Committing changes will depend whether you do it through GitHub online GUI or the Desktop app which we recommend. Committing changes will be different depending on you [writing privileges].
--Direct commits
+- Direct commits
 - Forking
 - Branching
 
