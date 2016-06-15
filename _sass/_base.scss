@@ -16,7 +16,10 @@ html, body {
 }
 
 h1 {
+  border-bottom: 1px solid $fine-gray;
   font-weight: 600 !important;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 
 h2,

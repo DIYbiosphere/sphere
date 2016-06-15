@@ -1,32 +1,61 @@
 ---
-title: Genspace
-kind: lab
 diplomat:
+kind: Lab
 
+title: Genspace
 logo: http://genspace.org/static/img/Genspace_logo.png?5B4RHexi
 website: http://genspace.org/
-since: 2010
+since: 210
 
-latitude:
-longitude:
+host:
+  name:
+  sphere:
+  web:
 
-street: Flatbush Avenue
-number: 33
+type: Non-profit
+
+affiliates:
+  name:
+  sphere:
+  web:
+  name:
+  sphere:
+  web:
+
+address: 33 Flatbush Avenue
 directions: 7th Floor. 11217
-map_url:
-
+postcode:
 city: Brooklyn
 state: New York
 country: United States of America
 
-Email: info@genspace.org
-Twitter: https://twitter.com/genspacenyc
-Facebook: https://www.facebook.com/Genspace-174637505918889/
-Blog: http://www.genspace.org/blog/
-RSS: http://www.genspace.org/blog/feed/
----
+tags:
+-
+-
 
-# Genspace
+email: info@genspace.org
+blog: http://www.genspace.org/blog/
+rss: http://www.genspace.org/blog/feed/
+wiki:
+forum:
+mailinglist:
+irc:
+gitter:
+slack:
+meetup:
+twitter: https://twitter.com/genspacenyc
+facebook: https://www.facebook.com/Genspace-174637505918889/
+google+:
+linkedin:
+instagram:
+flickr:
+pinterest:
+vimeo:
+youtube:
+hackpad:
+trello:
+github:
+---
 
 ## About
 Genspace is a nonprofit organization dedicated to promoting citizen science and access to biotechnology. Since 2009 we have served the greater New York area by providing educational outreach, cultural events, and a platform for science innovation at the grassroots level.
@@ -35,7 +64,3 @@ In December 2010 we opened the first-ever community biotechnology laboratory, a 
 ## History
 The lab opened in December 2010. Co-founded by  Ellen Jorgensen, Nurit Bar-Shai, Oliver Medvedik, and Daniel Grushkin.
 ## Projects
-
-
-[logo]: http://genspace.org/static/img/Genspace_logo.png?5B4RHexi
-[website]: http://genspace.org/
