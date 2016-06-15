@@ -1,12 +1,15 @@
-.submenu a {
-  padding: $pad;
-  color: black;
-  font-family: $monospace !important;
-  font-weight: 300;
-  letter-spacing: -0.9px;
-  font-size: 0.9em;
-
-  .octicon-pencil {
+.submenu {
+  font-family: $monospace;
+  padding-top: $pad;
+  padding-bottom: $pad;
+  a {
+    color: black;
+    font-weight: 300;
+    letter-spacing: -0.9px;
     font-size: 0.9em;
+    padding: 0.5em;
+    .octicon {
+      font-size: 0.9em;
+    }
   }
 }
