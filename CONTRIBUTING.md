@@ -125,7 +125,7 @@ In the Boards tab, we can see how issues are divided between:
 # Commits
 To commit changes is to basically save the changes you made to the repository.
 Committing changes will depend whether you do it through GitHub online GUI or the Desktop app which we recommend. Committing changes will be different depending on you [writing privileges].
--Direct commits
+- Direct commits
 - Forking
 - Branching
 
