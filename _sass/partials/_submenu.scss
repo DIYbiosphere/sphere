@@ -1,13 +1,15 @@
 .submenu {
   font-family: $monospace;
-  padding-top: $pad;
+  padding: $pad $pad 0px $pad;
   padding-bottom: $pad;
+  
   a {
     color: black;
     font-weight: 300;
-    letter-spacing: -0.9px;
     font-size: 0.9em;
+    letter-spacing: -0.9px;
     padding: 0.5em;
+    
     .octicon {
       font-size: 0.9em;
     }

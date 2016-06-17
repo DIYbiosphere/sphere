@@ -5,7 +5,8 @@
 [![Slack Status](https://diybiosphere.herokuapp.com/badge.svg)](https://diybiosphere.herokuapp.com)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0-blue.svg)](http://sphere.diybio.org/license/)
 
-# ![Logo](assets/images/Logo1.5x.png) DIYbiosphere
+# ![](assets/images/logo long@1.5x.png)
+
 
 :tada: Welcome to the DIYbiophere repository :tada:
 
@@ -24,15 +25,22 @@ The database functions similar to a wiki, but we use [GitHub Pages] instead to h
 
 ## Participate!
 You can engage with the DIYbiosphere is many ways (in increasing order of engagement):
-- **Connect**
-	- [Share this project] with your friends and followers!
-	- [Star the project] on GitHub
-- **Get involved**
-	- Chat with us on [Gitter] or [Slack]
-	- [Join the organization] and help develop and manage the project
-- **Contribute**
-	- [Jump in to the issues], like [adding projects] and [helping with documentation](https://github.com/DIYbiosphere/sphere.dir/issues/39)
-	- Submit an issue; like suggesting feedback, or a new feature
+
+#### Connect
+- **Share this project** with your friends and followers! They might be interested in using the database or contributing to it!
+- **Star the project on GitHub**! Starring helps potential contributors know how many people are interested in our project!
+
+#### Contribute
+- Jump into our [Issues]:
+	- **Comment or vote** on existing issues. Feedback is always appreciated! It helps us know what users and contributors want developed!
+	- **Submit a new issue**. Share with us your suggestions for new features or improvements!
+	- **Resolve and close an issue**. Tackle an issue yourself and help us in the development!
+
+#### Get involved
+- **Join the conversation**. We chat on [Gitter] and on [Slack]. Here we plan the development of the project!
+- **Join the development community**. The project is managed under by members of the [DIybiosphere organization]. [Join us] and enjoy writing access to the repository!
+
+
 
 ## Learn More
 See our [Getting Started] guide to quickly learn _what_ can you contribute with and _how_ to do it. Please follow our [Contributing guidelines].
@@ -46,19 +54,18 @@ The **content** of the project (entries, data, etc.) is available under the publ
 
 You can review our [License] file for a human-readable version of the copyright, and our [CLA] (Contributor License Agreement) to understand in legal terms the rights granted and/or waived from your Contributions.
 
-If you wish to credit our work, please do so as “© DIYbiosphere contributors”
+If you wish to credit our work, please do so as “© DIYbiosphere contributors” or “© DIYbiosphere"
 
 [The DIYBiosphere]: (http://sphere.diybio.org/)
 [about]: http://sphere.diybio.org/about/
-[entry]: http://sphere.diybio.org/projects/DIYbiosphere
+[entry]: http://sphere.diybio.org/projects/DIYbiosphere-ZZ
 [github pages]: https://pages.github.com/
 [Markdown]: https://guides.github.com/features/mastering-markdown/
-[share this project]: (http://sphere.diybio.org/)
-[star the project]: https://github.com/DIYbiosphere/sphere.dir
+[issues]: https://github.com/DIYbiosphere/sphere.dir/issues
 [Gitter]: https://gitter.im/DIYbiosphere/sphere.dir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
 [Slack]: https://diybiosphere.herokuapp.com/
-[Join the organization]: #
-[Jump in to the issues]: https://github.com/DIYbiosphere/sphere.dir/issues
+[DIYbiosphere organization]: #
+[join us]:
 [Getting started]: http://sphere.diybio.org/help/getting-started/
 [Contributing guidelines]: http://sphere.diybio.org/contributing/
 [follow]: https://twitter.com/DIYbiosphere

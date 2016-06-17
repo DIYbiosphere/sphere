@@ -1,7 +1,7 @@
 .label {
   border-radius: 3px;
-  font-family: arial;
-  font-weight: bold;
+  font-family: $fonts !important;
+  font-weight: 600;
   padding: 7px 10px;
 }
 
@@ -10,7 +10,67 @@
   color: $default;
 }
 
-.bug.label {
-  background-color: $bug-color;
+.critical.label {
+  background-color: $critical-color;
   color: $default;
+}
+
+.database.label {
+  background-color: $database-color;
+  color: $default;
+}
+
+.design.label {
+  background-color: $design-color;
+  color: $default;
+}
+
+.development.label {
+  background-color: $development-color;
+  color: $default;
+}
+
+.docs.label {
+  background-color: $docs-color;
+  color: $default;
+}
+
+.easy.label {
+  background-color: $easy-color;
+  color: $default;
+}
+
+.enhancement.label {
+  background-color: $enhancement-color;
+  color: $default;
+}
+
+.epic.label {
+  background-color: $epic-color;
+  color: $default;
+}
+
+.feature.label {
+  background-color: $feature-color;
+  color: $default;
+}
+
+.feedback.label {
+  background-color: $feedback-color;
+  color: $primary;
+}
+
+.feedback.label {
+  background-color: $feedback-color;
+  color: $primary;
+}
+
+.help.label {
+  background-color: $help-color;
+  color: $primary;
+}
+
+.resolution.label {
+  background-color: $resolution-color;
+  color: $primary;
 }
