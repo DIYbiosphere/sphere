@@ -1,9 +1,8 @@
 .submenu {
   font-family: $monospace;
-  padding: $pad $pad 0px $pad;
-  padding-bottom: $pad;
+  padding: $pad 0em 0em 0em;
   
-  a {
+  a, .reading-time {
     color: black;
     font-weight: 300;
     font-size: 0.9em;
