@@ -9,7 +9,7 @@ This is a step-by-step tutorial on how to add a new entry to the database. Keep 
 {% include _notices/warning.html title="Before you begin, you must:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/about/copyright/license/)." %}
 
 
-You can add a new entry using a <span class="octicon octicon-browser"></span> Browser ([Edit online](#edit-online)), or in your <span class="octicon octicon-device-desktop"></span> Desktop ([Edit locally](#edit-locally)). The easiest for single contributions is online editing. Editing locally requires more steps, but it is much more pleasent to work with, especially when doing multiple edits.
+You can add a new entry using a <span class="octicon octicon-browser"></span> Browser ([Edit online](#edit-online)), or in your <span class="octicon octicon-device-desktop"></span> Desktop ([Edit locally](#edit-locally)). Online editing is the simplest, while local editing requires more steps, it is much more pleasent to work with, especially when doing multiple edits.
 
 
 ## Editing Online in a Browser
@@ -23,12 +23,11 @@ You can add a new entry using a <span class="octicon octicon-browser"></span> Br
     - _ZZ_ accounts for the two digit country code of the location of your initiative. Look for yours [here][2]
     - _.md_ is the file extension. REALLY IMPORTANT!
 5. **Write in your entry's information**
-  - Copy the following template and paste in your new file
+  - Copy the following entry-template and paste in your new file
   - The entry is divided in two parts:
-    - the _front matter_ is the aggregated and comparable data across entries and has predetermined fields you need to fill out (explained [here][3]). Fill in the ones that apply to your initiative, and you may keep or erase the rest of the fields
+    - the _front matter_ is separated by three dashes `---` and has predetermined fields you need to fill out (explained [here][3]). Fill in the ones that apply to your initiative, and remove the rest
     - the _descriptive content_ is the written text that accompanies your entry. We have suggested a few sections in the template with some questions you should answer in each. These are only guidelines and you may add as much information as you want.
-6. **Commit changes**
-If you want to save the changes of you entry, you have to click at the bottom of the page to "commit the changes", but first you must fill in the title and description.
+6. **Commit changes:** if you want to save the changes of you entry, you have to click at the bottom of the page to "commit the changes", but first you must fill in the title and description.
   - Title your commit as `Adding new entry: EntryName`
   - In the description you can add observations, or comments. Please specify if the entry needs further work, and if you are adding your own initiative or someone else's.
 7. **Submit or not submit entry to the database**
