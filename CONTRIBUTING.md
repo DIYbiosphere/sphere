@@ -5,15 +5,13 @@ title: Contributing
 ---
 
 # Contributing Guide
-We :heartpulse: contributions! We really appreciate your interest in our project :clap: :clap:
+We :heartpulse: contributions! We really appreciate your interest in our project.
 
 The following is a set of guidelines for contributing. Look out for [helpful hints].
 
-By participating in this project you agree to abide by our [CoC] (Code of Conduct), and consent to the [CLA] (Contributor License Agreement). Please read them!
+{% _include/warning.html title="By participating you are agreeing to..." text="Abide by our <a href="#"> Code of Conduct</a> and consent to our Copyright terms. %}
 
-{% include _notices/tldr.html title="I agree to be respectful to others and to freely share my contributions" text="CoC: Don't be gross or rude to others; offenders will be &quot;prosecuted&quot;. Report offenses to project managers* <br> CLA: I concede the rights of my Contributions under a free license and those pertaining to the database to the public domain" %}
-
-Check out the [Getting Started] page if you want to know more about how you can contribute to the project. If you don't know where to start check our [ELI5 Guide]; our guide for the utterly confused!
+Check out the [Getting Started]. If you don't know where to start check our [ELI5 Guide]; our guide for the utterly GitHub confused!
 
 ---
 
@@ -167,11 +165,6 @@ If you are going to use
 
 
 
-We recommend using [GitHub Desktop], however it is only available for Mac and Windows.
-And we recommend [Atom] to use as a text editor, it is available for Mac, Windows and Linux
-
-[GitHub Desktop]: https://desktop.github.com/
-[Atom]: https://atom.io/
 
 
 

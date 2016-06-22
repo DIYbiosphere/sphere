@@ -4,18 +4,18 @@ title: Contributor License Agreement
 permalink: /about/copyright/cla/
 ---
 
-# Contributor License Agreement (CLA)
+# Contributor License Agreement
 Thank You for Your interest in making a Contribution to the DIYbiosphere Project. :purple_heart:
 
-The purpose of a CLA is to state the "contractual" agreement of the Intellectual Property Rights (IPR) assigned to the Contributions made to an open-source project.
+The purpose of a Contributor License Agreement (CLA) is to state the "contractual" agreement of the Intellectual Property Rights (IPR) assigned to the Contributions made to an open-source project.
 
-{% include _notices/warning.html title="This CLA is not a legally binding document" text="Instead, it’s purpose is to clarify the IPR of the Contributions You choose to Submit to Us. To fully understand these issues You should read in full the legal codes of our licenses*" %}
+{% include _notices/warning.html title="This CLA is <b>not</b> a legally binding document" text="Instead, it’s purpose is to clarify the IPR of the Contributions You choose to Submit to Us. To fully understand these issues You should read in full the legal codes of our licenses*" %}
 
 **By Contributing to Our Project, You accept and agree to the following terms and conditions for Your present and future Contributions Submitted to Us.**
 
 1. Definitions
   - Parties. “Us” means the DIYbiosphere organization and “Project” means the DIYbiosphere database repository. “You” means the copyright owner(s), whether You denotes Individuals or Entities.
-  - Contributions. “Contribution” means any original work of authorship—including any modifications or additions to an existing work that is Submitted by You to Us. “Submitted” includes any and all forms of communication (written, oral, electronic, etc.) sent to DIYbiosphere or its representatives in any communication platform that pertains to the discussion and improvement of the Project, but excludes communication conspicuously marked by You as “Not a Contribution”.
+  - Contributions. “Contribution” means any original work of authorship—including any modifications or additions to an existing work that is Submitted by You to Us. “Submitted” includes any and all forms of communication (written, oral, digital, etc.) sent to DIYbiosphere or its representatives in any communication platform that pertains to the discussion and improvement of the Project, but excludes communication conspicuously marked by You as “Not a Contribution”.
   - Work. "Content" means literary and/or artistic work and includes all written text, pictures, graphic design, etc. "Data" means all factual information, such as dates, addresses, etc. "Database" means all written Content and Data contained in the entries (available under CC0). "Documentation" means all guides, tutorials, and reference manuals that pertain to this Project. "Source-Code" means the computer programmed instructions that format and display the Content and Data. "Software" means the Source-Code and its accompanying support Documentation (available under MIT license).
 1. Waive of Rights. You hereby waive all copyrights and related neighbouring rights that you have over your Contributions to the Database of the Project, so that other may freely build upon, enhance, and reuse the works for any purpose without restriction under copyright or database law.
 
