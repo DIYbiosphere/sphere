@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: repo-doc
 title: Code of Conduct
 permalink: /about/coc/
 ---

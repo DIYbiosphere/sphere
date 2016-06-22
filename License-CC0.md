@@ -1,7 +1,7 @@
 ---
-layout: docs
-title: CC0 Public Domain Dedication
+layout: repo-doc
 permalink: /about/copyright/cc0/
+title: CC0 Public Domain Dedication
 ---
 
 # Creative Commons CC0 1.0 Universal

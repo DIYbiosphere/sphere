@@ -4,12 +4,11 @@ permalink: /help/tutorials/add-entry/
 title: Adding a New Entry
 ---
 
-# Adding a New Entry
 This is a step-by-step tutorial on how to edit an entry or adding a new entry to the database. Keep a look out for our [helpful hints]!
 
-{% include _notices/warning.html title="Before you begin, you must:" text="1. Have a GitHub account, so [sign up] if you don't <br>
-2. Abide by our [Code of Conduct], and <br>
-3. Agree to our Copyright Terms. You can review our [License] and its [Legal Terms]" %}
+{% include _notices/warning.html title="Before you begin, you must:" text="1. Have a GitHub account, so sign up if you don't <br>
+2. Abide by our Code of Conduct, and <br>
+3. Agree to our Copyright Terms. You can review our License and its [Legal Terms]" %}
 
 There are many ways you can add a new entry into the repository, you can fork and edit through GitHub's GUI ([Edit online](#edit-online), or clone to your Desktop and commit locally ([Edit locally](#edit-locally). The easiest for single contributions is online editing. The editing locally requires more steps, but it is much more pleasent to work with, especially when doing multiple edits.
 
@@ -29,7 +28,7 @@ Your entry will have to be classified as a: Project, Startup, Lab, Incubator, Gr
 4. **Copy and Paste the template**
   - Copy the following template and paste in your new file
 5. **Write in your entry's information**
-  - The entry is divided in two parts: 
+  - The entry is divided in two parts:
     - the _front matter_: constitutes the aggregated and comparable data across entries and has predetermined fields you need to fill out (explained [here][3]). Fill in the ones that apply to your initiative, and you may keep or erase the rest of the fields
     - the _descriptive content_ is the written text that accompanies your entry. We have suggested a few sections in the template with some questions you should answer in each. These are only guidelines and you may add as much information as you want.
 6. **Commit changes**
@@ -45,7 +44,7 @@ A Pull request (PR) is like sending us a ticket to revise your entry or changes.
   - In the description you can add observations, or comments. Please specify if the entry needs further work, if you are adding your own initiative or someone else's, and if a diplomat has been established for the entry or not. You can make suggestions for this position if you can.
   - Click on `Send Pull request`
 9. **Passing internal checks**
-Your PR has to pass some internal checks to make sure it doesn't crash the platform. If it does not pass, you can try to make commits to amend the errors, or if your are lucky, someone else might. 
+Your PR has to pass some internal checks to make sure it doesn't crash the platform. If it does not pass, you can try to make commits to amend the errors, or if your are lucky, someone else might.
 Once it passes, a project member will revise your PR, make comments if it needs further work, reject it or approve it.
 If approved, an project member will merge your fork with the master branch (original copy).
 10. **Bask in the glory of your new entry**
@@ -56,7 +55,7 @@ Thank you for your contribution! :heart:
 ## Edit locally
 Editing locally means installing all the required software to be able to make changes and view them live. Follow our [Install] instructions.
 1. **Set-up server**
-- Open GitHub Desktop 
+- Open GitHub Desktop
 
 and left click on the sphere.dir, and choose `Open in Terminal`
 
@@ -74,6 +73,5 @@ and left click on the sphere.dir, and choose `Open in Terminal`
 
 
 
- 
-[helpful hints]: {{ '/help/hints/' | prepend: site.baseurl }}
 
+[helpful hints]: {{ '/help/hints/' | prepend: site.baseurl }}

@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: repo-doc
 permalink: /help/contributing/
 title: Contributing
 ---
@@ -9,7 +9,6 @@ We :heartpulse: contributions! We really appreciate your interest in our project
 
 The following is a set of guidelines for contributing. Look out for [helpful hints].
 
-{% _include/warning.html title="By participating you are agreeing to..." text="Abide by our <a href="#"> Code of Conduct</a> and consent to our Copyright terms. %}
 
 Check out the [Getting Started]. If you don't know where to start check our [ELI5 Guide]; our guide for the utterly GitHub confused!
 

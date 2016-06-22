@@ -1,7 +1,7 @@
 ---
-layout: docs
-title: License
+layout: repo-doc
 permalink: /about/copyright/license/
+title: Copyright License for humans
 ---
 
 # Copyright License for humans

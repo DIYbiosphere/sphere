@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: repo-doc
 title: Contributor License Agreement
 permalink: /about/copyright/cla/
 ---

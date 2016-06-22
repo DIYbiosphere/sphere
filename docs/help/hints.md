@@ -1,10 +1,9 @@
 ---
 layout: docs
 permalink: /help/hints/
-title: Hints
+title: Helpful Hints
 ---
 
-# Helpful Hints
 Throughout our documentation you may find the following hint boxes. They are meant to be helpful. Here they are explained:
 
 
@@ -18,6 +17,6 @@ Throughout our documentation you may find the following hint boxes. They are mea
 
 {% include _notices/eli5.html title="Explain Like I'm Five: Don't Panic!" text="Super simpler explanations of &quot;complex&quot; topics" %}
 
-In some cases, we may want to add many hints, but it can make the page look cluttered. So instead, you may find hint bubbles, which are collapsable hint boxes. 
+In some cases, we may want to add many hints, but it can make the page look cluttered. So instead, you may find hint bubbles, which are collapsable hint boxes.
 
 {% include _notices/tutorial.html link="http://sphere.diybio.org/help/contributing/" %} and this is a continuation.

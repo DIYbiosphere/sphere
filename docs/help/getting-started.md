@@ -42,14 +42,14 @@ The content of an entry is divided in two parts:
   - The **starting date** and end date if it applies; these entries are "inactive". In the Events class, this reflects the event's calendar
   - the **host**,
   - the **type** of initiative
-  - the **affiliates** 
+  - the **affiliates**
   - the **address** and **directions**
   - the location which includes **city**, **postcode**, **state**, and **country**
   - the **keywords**
   - **social media** and more...
 
 ## Obtaining the Dataset
-**Source**: The source-files are in the [sphere.dir] repository in GitHub, inside the folder `_database` in their respective class folder. 
+**Source**: The source-files are in the [sphere.dir] repository in GitHub, inside the folder `_database` in their respective class folder.
 
 **List of entries**: in the websearch page of "List of entries", you can download the CSV of the displayed table.
 
