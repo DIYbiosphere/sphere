@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: repo-doc
 permalink: /news/roadmap/
 title: Roadmap
 ---
@@ -7,7 +7,7 @@ title: Roadmap
 # Roadmap for DIYbiosphere
 The DIYbiosphere is a participatory project to create and maintain a database of worldwide DIYbio initiatives. Would you like to contribute? Check out our [Getting started] page and follow our [Contributing guidelines].
 
-In this section we list the issues that we want to implement soon and in the future. We list them as an indeterminate timeline; from short, medium, and long term. Within this timeline, we can establish [Milestones] with specific deadlines we would like to reach. You can learn more about how we manage the development of our project and our issues in our [Issue management] section.
+In this section we list the issues that we want to implement soon and in the future. We list them as an indeterminate timeline; from short, medium, and long term. Within this timeline, we establish [Milestones] with specific deadlines we would like to reach. You can learn more about how we manage the development of our project and our issues in our [Issue management] section.
 
 We keep track of past changes as we publish releases in our [CHANGELOG]. New releases are made as new features are added or changed and only refer to the code and the design since the database is expected to be continuously updated.
 

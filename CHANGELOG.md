@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: repo-doc
 permalink: /news/changelog/
 title: Changelog
 ---

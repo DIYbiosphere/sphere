@@ -4,8 +4,6 @@ permalink: /help/tutorials/
 title: Tutorials
 ---
 
-# Tutorials
-
 > Step by Step instructions, preferably with screenshots and GIFs on how to do stuff
 
 - - -

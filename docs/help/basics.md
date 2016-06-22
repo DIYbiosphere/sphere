@@ -1,10 +1,9 @@
 ---
 layout: docs
 permalink: /help/basics/
-title: Basics
+title: Basic components of the design of the project
 ---
 
-# Basic components of the design of the project
 > Explain how the components, design, code, database, and documentation are structured.
 
 - *Projects*: have specific tasks and/or a desired outcome and don't fit within the other categories.

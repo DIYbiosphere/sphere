@@ -4,8 +4,7 @@ permalink: /about/organization/
 title: Organization
 ---
 
-# Organization
-The [repository] for the project is maintained by volunteer contributors and is managed by the [DIYbiosphere organization] in GitHub; which allows for a more fluid and open management. Anyone can become a member, you just need to [apply for membership].
+The [repository] for the project is maintained by volunteer contributors and is managed by the [DIYbiosphere organization] in GitHub; which allows for a more fluid and open management. Anyone can become a member, [join in].
 
 > Only members with owner privileges for an organization or admin privilefes for a repository can add outside collaborators to a repository.
 

@@ -9,23 +9,17 @@ layout: default
 
     <div class="col-sm-9">
       <div class="row submenu">
-        <div class="col-sm-6 text-left">
+        <div class="col-sm-6">
 <!--TODO:"About" should change to a code that reflects the location of the file. the double >> should only show if there is file after-->
-          <a href="#" class="link selectable">{{ page.title }}</a>
-          <br>
-          {% include reading-time.html %}
+            <a href="#" class="link selectable pull-left">{{ page.title }}</a>
         </div>
-        <div class="col-sm-6 text-right">
-          <a href="{{site.github.repository_url}}/blob/master/{{page.path}}"
-            class="link selectable" target="_blank">
+        <div class="col-sm-6">
+          <a href="{{site.github.repository_url}}/blob/master/{{page.path}}" class="link selectable pull-right">
             <i class="octicon octicon-pencil"></i> Edit this page
           </a>
         </div>
       </div>
       <div class="docs">
-        <div class="mar-no">
-          <h1>{{ page.title }}</h1>
-        </div>
         {{content}}
       </div>
     </div>

@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/DIYbiosphere/sphere.dir.svg?branch=master)](https://travis-ci.org/DIYbiosphere/sphere.dir)
 [![Dependency Status](https://www.versioneye.com/user/projects/574e9577e298f3003e688985/badge.svg?style=flat)](https://www.versioneye.com/user/projects/574e9577e298f3003e688985)
-![](https://reposs.herokuapp.com/?path=DIYbiosphere/sphere.dir&color=yellow)
+![](https://reposs.herokuapp.com/?path=DIYbiosphere/sphere.dir&color=yellowgreen)
 [![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/sphere.dir.svg)](https://gitter.im/DIYbiosphere/sphere.dir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Slack Status](https://diybiosphere.herokuapp.com/badge.svg)](https://diybiosphere.herokuapp.com)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0-blue.svg)](http://sphere.diybio.org/license/)
@@ -15,37 +15,39 @@ We really appreciate your interest in our project and we would :heart: your cont
 > At the moment, we are working hard :sweat_smile: to develop a "Minimum Viable Product" (MVP) as they say in the _techbiz_. Please :pray: help us by contributing so we can eventually share it with early adopters! :sunglasses:
 
 ## About
-
 [The DIYbiosphere] is a participatory project to create a database of Do-It-Yourself Biology (DIYbio) initiatives from all over the world. The project is public; open for anyone to add and edit entries, as well as to shape the overall project. The goal is to have a shared and common platform that can connect people and ideas in all its possibilities. With the open data we gather we plan to map and visualize the DIYbio community in all its diversity across time and space in the hopes that we may learn more about the movement and its futures.
 
-For more information about the project go to the About section and check out the project's [entry] in the database.
+We have our own [entry] in the database which you can check out!
 
 ### How it works
-The database functions similar to a wiki, but we use [GitHub Pages] instead to host and build the content from simple text files using [Markdown] syntax.
+The database functions similar to a wiki. Each entry has it's own webpage with a written description and a box displaying some of the initiative's data. Instead of using the wiki software we use [GitHub Pages] to host and build the database from simple text files with [Markdown] syntax.
 
 ## Participate!
 You can engage with the DIYbiosphere is many ways (in increasing order of engagement):
 
 #### Connect
 - **Share this project** with your friends and followers! They might be interested in using the database or contributing to it!
-- **Star the project on GitHub**! Starring helps potential contributors know how many people are interested in our project!
+- **Star the project on GitHub**! Starring helps attract potential contributors, especially expert and master contributors!
 
 #### Contribute
+- Jump into writing entries in the Database:
+    - **[Add] a new entry**: whether it's your initiative or someone else's
+    - **[Update/edit] an existing entry**: mispellings, outdated information, or just inaccurate, help us keep the entries error-free!
 - Jump into our [Issues]:
 	- **Comment or vote** on existing issues. Feedback is always appreciated! It helps us know what users and contributors want developed!
-	- **Submit a new issue**. Share with us your suggestions for new features or improvements!
+	- **Submit a new issue**. Share with us your suggestions for new features or improvements.
 	- **Resolve and close an issue**. Tackle an issue yourself and help us in the development!
 
-#### Get involved
-- **Join the conversation**. We chat on [Gitter] and on [Slack]. Here we plan the development of the project!
-- **Join the development community**. The project is managed under by members of the [DIybiosphere organization]. [Join us] and enjoy writing access to the repository!
 
+#### Get involved
+- **Join the conversation**. We chat on [Gitter] and on [Slack]. Here we plan the development of the project.
+- **Join the development community**. The project is managed by members of the [DIybiosphere organization]. [Join us] and enjoy writing access to the repository!
 
 
 ## Learn More
-See our [Getting Started] guide to quickly learn _what_ can you contribute with and _how_ to do it. Please follow our [Contributing guidelines].
+See our [Getting Started] guide to _using_ and _contributing_ to the project. Please follow our [Contributing guidelines].
 
-Learn more about how we maintain our project through our [Organization] page and where it is heading next in our [Road Map].
+Get a general [Overview] of the entire project page and where it is heading next in our [Road Map].
 
 ## Copyright
 The work in this project is freely available to use, modify and distribute.
