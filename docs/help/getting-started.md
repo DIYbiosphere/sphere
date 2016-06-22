@@ -4,7 +4,6 @@ permalink: /help/getting-started/
 title: Getting Started
 ---
 
-# Getting Started
 > How can I use the database? How can I obtain the entire dataset? How can I contribute with data? How can I get involved in the project?
 
 This is the kickstart guide to help you get on the right path. Look out for [helpful hints].
@@ -14,22 +13,22 @@ TOC
 ## Using the Database
 You can access the entries of the database on our website: [sphere.diybio.org]. In our home page you can directly search for entries with keywords (i.e. lab, Geneva, Bioscope) or do an `Advanced Search` with predetermined filters. {MAKE A GIF}.
 
-### List of entries
+### Table of Entries
 You can see a list of entries with the search query, or filters if they were specified and you can further sort and filter the table, as well as do further searches within that table. {MAKE A GIF}
 
-### Classification of the entries
+### Classification of the Entries
 Entries have been classified broadly in eight classes:
 
 - **Projects**: which are characterized usually for having specific tasks and/or a desired outcome
 - **Startups**: are entrepreneurial ventures, and generally concern products or services
 - **Labs**: are dedicated physical spaces with lab equipment for DIYbio related activities
 - **Incubators**: are organizations and spaces that help projects, startups, etc. to develop
-- **Groups**: are online and offline associations of people interested in discussing or developing DIYbio related topics or activities.
+- **Groups**: are online/offline associations of people interested in discussing or developing DIYbio related topics or activities.
 - **Networks**: website, service or organization that connects people, projects, etc. in relation to DIYbio
 - **Events**: Global or regional events that are by and/or for the DIYbio community, like (un)conferences, camps, hackathons, accelerators, etc.
 - **Others**: Is an umbrella term for the all the rest. Eventually as new entries begin to define themselves a new category may be created
 
-### Anatomy of an entry
+### Anatomy of an Entry
 The content of an entry is divided in two parts:
 
 - The _written description_ of the initiative with the following suggested content:

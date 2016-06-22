@@ -39,3 +39,14 @@ h5 {
 .affix-bottom {
   position: relative
 }
+
+.reading-time {
+  font-family: $monospace;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: 300;
+  font-size: 0.8em;
+  letter-spacing: -0.9px;
+  padding: 0.5em;
+}

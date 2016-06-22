@@ -24,7 +24,7 @@
             <div class="input-addon">
               <i class="fa fa-sliders input-icon-right"></i>
               <i class="fa fa-search input-icon-left"></i>
-              <input id="search" class="form-control" type="text" placeholder="Search DIYbio initiatives">
+              <input id="search" class="form-control" type="text" placeholder="Search database">
             </div>
           </form>
         </div>
@@ -32,9 +32,9 @@
           <h3 style="color:black; margin-top:0.2em; font-weight:700;">OR</h3>
         </div>
         <div class="col-sm-3 text-left">
-          <a class="btn btn-dark" href="{{ site.github.repository_url }}"
+          <a class="btn btn-dark" href="{{ '/help/tutorials/add-entry/' | prepend: site.baseurl }}"
             style="text-transform: none" target="_blank">
-            <i class="octicon octicon-plus input-icon"></i>
+            <i class="fa fa-plus"></i>
             Add DIYbio initiative
           </a>
         </div>
@@ -79,7 +79,7 @@
       $(function() {
         //initialize tooltips
         $('[data-toggle="tooltip"]').tooltip();
-        
+
         // initialize omnisearch
         $('#tipue_search_input').tipuesearch({
           'newWindow': true,

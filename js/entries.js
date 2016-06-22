@@ -1,9 +1,9 @@
 (function($) {
-  
+
   $(document).ready(function() {
 
     /**
-     * This DataTable will contain all the info from all collections accross the 
+     * This DataTable will contain all the info from all collections accross the
      * site, they're stored in a json file and the table will be populated via
      * ajax.
      *
@@ -17,7 +17,7 @@
       "dom": '<"top"i<"pull-right"B>>rt<"bottom"i<"clear">>',
       "buttons": [{
         extend: 'csvHtml5',
-        text: '<i class="octicon octicon-desktop-download"></i> Download as CSV',
+        text: '<i class="fa fa-download"></i> Download as CSV',
         titleAttr: 'CSV',
         className: 'link selectable text-dark'
       }],
@@ -65,7 +65,7 @@
         "infoEmpty": "Showing _TOTAL_ entries",
         "infoFiltered": "from _MAX_ total"
       }
-    }); 
+    });
 
     /**
      * Bring in the database!
@@ -92,12 +92,12 @@
       });
 
 
-    /********** Event listeners **********/    
-    
+    /********** Event listeners **********/
+
     /**
      * Enables table's data search on every field using the search bar.
     */
-    var $search = $('#search'); 
+    var $search = $('#search');
     $search.on('keyup click', function() {
       $table.search(
         $search.val(),
@@ -128,6 +128,6 @@
   function getCollectionKind() {
     var kind = $('#kind').text();
     return kind
-  }  
+  }
 
 })($);

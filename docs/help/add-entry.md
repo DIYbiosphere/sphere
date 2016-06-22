@@ -4,13 +4,15 @@ permalink: /help/tutorials/add-entry/
 title: Adding a New Entry
 ---
 
-This is a step-by-step tutorial on how to edit an entry or adding a new entry to the database. Keep a look out for our [helpful hints]!
+This is a step-by-step tutorial on how to add a new entry to the database. Keep a look out for our [helpful hints]!
 
-{% include _notices/warning.html title="Before you begin, you must:" text="1. Have a GitHub account, so sign up if you don't <br>
-2. Abide by our Code of Conduct, and <br>
-3. Agree to our Copyright Terms. You can review our License and its [Legal Terms]" %}
+{% include _notices/tldr.html title="Add a new file" text="Add it to the `\_database` folder inside the appropriate class folder. Naming convention goes: `EntryTitle-ZZ.md`; ZZ=[your country code]. " %}
 
-There are many ways you can add a new entry into the repository, you can fork and edit through GitHub's GUI ([Edit online](#edit-online), or clone to your Desktop and commit locally ([Edit locally](#edit-locally). The easiest for single contributions is online editing. The editing locally requires more steps, but it is much more pleasent to work with, especially when doing multiple edits.
+To add a new entry you can fork and edit through GitHub's GUI ([Edit online](#edit-online)), or clone to your Desktop and commit locally ([Edit locally](#edit-locally)). The easiest for single contributions is online editing. Editing locally requires more steps, but it is much more pleasent to work with, especially when doing multiple edits.
+
+{% include _notices/warning.html title="Before you begin, you must:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/about/copyright/license/)" %}
+
+
 
 
 ## Edit online
@@ -68,10 +70,14 @@ and left click on the sphere.dir, and choose `Open in Terminal`
 
 
 
-{% include _notices/tldr.html title="Add a new .md file with your entry" text="Add it to the _database folder and the appropriate subfolder. Naming convention goes: EntryTitle-ZZ. ZZ=your country code." %}
+
 
 
 
 
 
 [helpful hints]: {{ '/help/hints/' | prepend: site.baseurl }}
+[repository]: https://github.com/DIYbiosphere/sphere.dir
+[1]: #
+[2]: #
+[3]: #
