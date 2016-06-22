@@ -6,6 +6,10 @@
   border-right: solid 1px $light-gray;
 }
 
+.notice-title {
+  display: inline-block;
+}
+
 .notice-text {
   color: $medium-gray;
 }

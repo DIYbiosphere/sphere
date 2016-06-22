@@ -1,5 +1,5 @@
 <div class="notice tip">
   <div><i class="octicon octicon-tools"></i>
   <b>Tip:</b> {{ include.title }} </div>
-  <div class="notice-text">{{ include.text }}</div>
+  <div class="notice-text">{{ include.text | markdownify }}</div>
 </div>

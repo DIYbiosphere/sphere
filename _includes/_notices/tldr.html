@@ -1,5 +1,5 @@
 <div class="notice tldr">
-  <div><i class="octicon octicon-book"></i>
+<div class="notice-title"><i class="octicon octicon-book"></i>
   <b>TLDR: </b>{{ include.title }}</div>
-  <div class="notice-text">{{ include.text }}</div>
+  <div class="notice-text">{{ include.text | markdownify }}</div>
 </div>

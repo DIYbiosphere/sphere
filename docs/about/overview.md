@@ -7,9 +7,11 @@ title: Overview of the DIYbiosphere
 In this section we give a general overview of the entire project by answering some questions.
 
 **What is it?**
+
 The DIYbiosphere is a participatory project to create a database of Do-It-Yourself Biology (DIYbio) initiatives from all over the world.
 
 **Who participates?**
+
 The project is completely open for anyone to contribute with entries or to the overall shape of the project. The work of the project is therefore created by volunteer contributors.
 
 
@@ -17,6 +19,7 @@ The project is completely open for anyone to contribute with entries or to the o
 The project is maintained by volunteer contributors and is managed by members of the [DIYbiosphere organization] in GitHub. [Join us!] :dancers:
 
 **Why do it?**
+
 The goal is to have a shared and common platform for the DIYbio community, that can connect people and ideas in all its possibilities.
 
 
