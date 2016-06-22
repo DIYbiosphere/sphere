@@ -6,35 +6,28 @@ title: Adding a New Entry
 
 This is a step-by-step tutorial on how to add a new entry to the database. Keep a look out for our [helpful hints]!
 
-{% include _notices/tldr.html title="Add a new file" text="Add it to the `\_database` folder inside the appropriate class folder. Naming convention goes: `EntryTitle-ZZ.md`; ZZ=[your country code]. " %}
-
-To add a new entry you can fork and edit through GitHub's GUI ([Edit online](#edit-online)), or clone to your Desktop and commit locally ([Edit locally](#edit-locally)). The easiest for single contributions is online editing. Editing locally requires more steps, but it is much more pleasent to work with, especially when doing multiple edits.
-
-{% include _notices/warning.html title="Before you begin, you must:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/about/copyright/license/)" %}
+{% include _notices/warning.html title="Before you begin, you must:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/about/copyright/license/)." %}
 
 
+You can add a new entry using a <span class="octicon octicon-browser"></span> Browser ([Edit online](#edit-online)), or in your <span class="octicon octicon-device-desktop"></span> Desktop ([Edit locally](#edit-locally)). Online editing is the simplest, while local editing requires more steps, it is much more pleasent to work with, especially when doing multiple edits.
 
 
-## Edit online
-1. **Fork the repository**
-  - Go to our [repository] and click on `fork`. It will create a "clone" on the original repository in your GitHub account; this is where you will make your changes.
-2. **Navigate to your entry's class folder**
-Your entry will have to be classified as a: Project, Startup, Lab, Incubator, Group, Network, Event, or Other (definitions are explained [here][1])
-  - After you determine what classification your entry falls into, open the `_database` folder in the repository's root folder, and then open your entry's class folder
-3. **Create a new file**
-  - Inside the class folder, create a new file by clicking the `Add new file` button
-  - Name your entry. Our naming convention is "EntryName-ZZ.md""
-    - `EntryName` should have no spaces, you can differentiate words by CapitalizingTheFirstLetter :wink:
-    - `ZZ` accounts for the two digit country code of the location of your initiative. Look for yours [here][2]
-    - `.md` is the file extension. REALLY IMPORTANT!
-4. **Copy and Paste the template**
-  - Copy the following template and paste in your new file
+## Editing Online in a Browser
+1. **Fork the repository:** to create a copy of the original repository in your GitHub account; this is where you will make your changes.
+- Go to our [repository] and click on 'Fork'.
+2. **Create a new file:** classified as a: Project, Startup, Lab, Incubator, Group, Network, Event, or Other (definitions are explained [here][1]).
+  - Open the '_database'  folder in the repository's root folder, and then open your entry's class folder
+  - Inside the class folder, click [Create new file]
+  - Name your entry. Our naming convention is 'EntryName-ZZ.md'
+    - _EntryName_ should have no spaces, you can differentiate words by CapitalizingTheFirstLetter :wink:
+    - _ZZ_ accounts for the two digit country code of the location of your initiative. Look for yours [here][2]
+    - _.md_ is the file extension. REALLY IMPORTANT!
 5. **Write in your entry's information**
+  - Copy the following entry-template and paste in your new file
   - The entry is divided in two parts:
-    - the _front matter_: constitutes the aggregated and comparable data across entries and has predetermined fields you need to fill out (explained [here][3]). Fill in the ones that apply to your initiative, and you may keep or erase the rest of the fields
+    - the _front matter_ is separated by three dashes `---` and has predetermined fields you need to fill out (explained [here][3]). Fill in the ones that apply to your initiative, and remove the rest
     - the _descriptive content_ is the written text that accompanies your entry. We have suggested a few sections in the template with some questions you should answer in each. These are only guidelines and you may add as much information as you want.
-6. **Commit changes**
-If you want to save the changes of you entry, you have to click at the bottom of the page to "commit the changes", but first you must fill in the title and description.
+6. **Commit changes:** if you want to save the changes of you entry, you have to click at the bottom of the page to "commit the changes", but first you must fill in the title and description.
   - Title your commit as `Adding new entry: EntryName`
   - In the description you can add observations, or comments. Please specify if the entry needs further work, and if you are adding your own initiative or someone else's.
 7. **Submit or not submit entry to the database**
@@ -56,8 +49,9 @@ Thank you for your contribution! :heart:
 
 ## Edit locally
 Editing locally means installing all the required software to be able to make changes and view them live. Follow our [Install] instructions.
-1. **Set-up server**
+1. **Fork the repository**
 - Open GitHub Desktop
+
 
 and left click on the sphere.dir, and choose `Open in Terminal`
 
@@ -68,7 +62,7 @@ and left click on the sphere.dir, and choose `Open in Terminal`
 
 
 
-
+{% include _notices/tldr.html title="Fork repo, add a new file with your entry (use template), commit and pull request" text="Add .md file inside it's class folder in the '\_database' folder. Name it: 'EntryTitle-ZZ.md'; ZZ=country code. Copy and paste Raw code from the [entry-template](https://gist.github.com/ahuacatl/954444c7f15a27190b0fd52e0021a58c) Gist and follow the commented guide. " %}
 
 
 
