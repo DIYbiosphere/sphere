@@ -1,4 +1,6 @@
 ---
+diplomat: sabgaby
+
 kind: Project
 title: DIYbiosphere
 
@@ -25,8 +27,6 @@ address:
 directions:
 city: Geneva
 country: Switzerland
-
-diplomat: sabgaby
 
 
 github: https://github.com/DIYbiosphere/sphere.dir
