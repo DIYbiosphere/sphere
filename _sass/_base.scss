@@ -32,9 +32,14 @@ h3,
 h4,
 h5 {
   font-weight: 600 !important;
-  padding-top: 20px;
   padding-bottom: 5px;
 }
+
+.img-thumb {
+  @extend .img-responsive;
+  padding-top: 1.5em;
+}
+
 
 .affix-bottom {
   position: relative
