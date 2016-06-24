@@ -3,16 +3,16 @@ diplomat:
 
 kind: Group
 title: Gene Garage
-logo: https://scontent-fra3-1.xx.fbcdn.net/v/t1.0-1/p160x160/12986970_1741318769457918_3454203802810370317_n.png?oh=369e7fd7b866b9eb510d912f0b5b350f&oe=57F52E70
+logo: https://pbs.twimg.com/profile_images/720372470839005187/SE-7LrWi_400x400.jpg
 website:
-since:
+since: 2015
 
 host:
-  name: Tecnologico de Monterrey, Campus Guadalajara
+  name:
   sphere:
   web:
 
-type: University
+type:
 
 affiliates:
   name:
@@ -26,7 +26,7 @@ address:
 directions:
 postcode:
 city: Guadalajara
-state:
+state: Jalisco
 country: Mexico
 
 tags:
@@ -43,7 +43,7 @@ irc:
 gitter:
 slack:
 meetup: http://www.meetup.com/Gene-Garage/
-twitter:
+twitter: https://twitter.com/genegarage_gdl
 facebook: https://www.facebook.com/Gene-Garage-1598624203727376/
 google+:
 linkedin:

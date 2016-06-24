@@ -62,3 +62,7 @@ The Bioscope is a public laboratory of the life and biomedical sciences from the
 The Bioscope allos to both perform advanced scientific experiments, develop citizen science projects, and evaluate educational innovations. As a scientific laboratory, it offers participants the opportunity to perform experiments with professional equipment used by researchers to understand the latest scientific findings and explore the world of research and the lives of those who make it. As a citizen laboratory, it allows the public to participate in citizen science projects and in the production of new scientifici knowledge. The public as researchers not just spectators, visitors will grain a critical autonomy to science and public debate. AS an educational laboratory it gives educators the opportunity to develop new wasy of teaching sceicen, test evaluate empirically and disseminate globally.
 
 ## History
+
+
+---
+Text taken from initiative's website
