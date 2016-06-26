@@ -61,3 +61,6 @@ github:
 We are Counter Culture Labs, a community of scientists, tinkerers, biotech professionals, hackers, and citizen scientists who have banded together to create an open community lab — a hackerspace for DIY biology and citizen science. Help us build a space for creative exploration and discovery: a place to innovate, learn, work on fun projects, and tinker with biology and other sciences. Help us build YOUR lab!
 
 ## History
+
+---
+Text taken from initiative's website

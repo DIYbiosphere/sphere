@@ -1,16 +1,16 @@
 ---
 diplomat:
 
-kind:
-title:
+kind: Lab
+title: DIYbio FamiLab
 logo:
-website:
-since:
+website: https://forums.familab.org/diy-bio/
+since: 2014
 
 host:
-  name:
+  name: FamiLAB
   sphere:
-  web:
+  web: https://familab.org/
 
 type:
 
@@ -22,15 +22,15 @@ affiliates:
   sphere:
   web:
 
-address:
-directions:
-postcode:
-city:
-state:
-country:
+address: 1355 Bennett Dr.
+directions: Suite 105
+postcode: 32750
+city: Longwood
+state: Florida
+country: United States
 
 tags:
--
+- makerspace
 -
 
 email:

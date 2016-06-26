@@ -27,7 +27,7 @@ directions: 7th Floor. 11217
 postcode:
 city: Brooklyn
 state: New York
-country: United States of America
+country: United States
 
 tags:
 -
@@ -64,3 +64,6 @@ In December 2010 we opened the first-ever community biotechnology laboratory, a 
 ## History
 The lab opened in December 2010. Co-founded by  Ellen Jorgensen, Nurit Bar-Shai, Oliver Medvedik, and Daniel Grushkin.
 ## Projects
+
+---
+Text taken from initiative's website

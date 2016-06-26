@@ -32,7 +32,7 @@ layout: default
 
         <a class="link text-dark selectable" href="{{ page.website }}" target="_blank">
           {% if page.logo %}
-            <img width="80%" src="{{ page.logo }}" />
+            <img class="entry-logo" max-height="10%" width="70%" src="{{ page.logo }}" /> <i class="octicon octicon-link-external"></i>
           {% else %}
             {{ page.title }} <i class="octicon octicon-link-external"></i>
         </a>
