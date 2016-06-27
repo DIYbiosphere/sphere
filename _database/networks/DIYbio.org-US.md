@@ -1,28 +1,62 @@
 ---
-kind: Project
-title: DIYbio.org
+diplomat: jasonbobe
 
+kind: Network
+title: DIYbio.org
 logo: https://raw.githubusercontent.com/DIYbiosphere/sphere.dir/master/img/Logo.png
 website: https://diybio.org
 since: 2008
+
+host:
+  name:
+  sphere:
+  web:
+
 type: Non-profit
 
-latitude: 46.204391
-longitude: 6.143158
+affiliates:
+  name:
+  sphere:
+  web:
+  name:
+  sphere:
+  web:
+
+address:
+directions:
+postcode:
 city: Boston
-country: United States of America
+state: Massachussets
+country: United States
 
-diplomat: jasonbobe
+tags:
+-
+-
 
-
-github: https://github.com/DIYbiosphere/sphere.dir
-
-
-tags: website
+email:
+blog: https://diybio.org/blog/
+rss:
+wiki:
+forum: https://groups.google.com/forum/?fromgroups#!forum/diybio
+mailinglist:
+irc:
+gitter:
+slack:
+meetup:
+twitter:
+facebook:
+google+:
+linkedin:
+instagram:
+flickr:
+pinterest:
+vimeo:
+youtube:
+hackpad:
+trello:
+github:
 ---
 
 ## About
 
-## Origins
-
-## Projects
+## History

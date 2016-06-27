@@ -62,3 +62,7 @@ The mission of TheLAB is to make science accessible to people of all ages and ed
 
 ## History
 In January 2010, UCLA Center for Society and Genetics held a conference Outlaw Biology? Public Participation in the Age of Big Bio.  The conference attracted a number of DIYBio mailing list regulars plus some new faces of biologists from around Southern California.  This started the process of coalescing a group of locals interested in biology which would eventually band together to set up an independent bio lab.
+
+
+---
+Text taken from initiative's website

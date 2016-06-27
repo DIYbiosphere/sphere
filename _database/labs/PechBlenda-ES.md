@@ -1,14 +1,14 @@
 ---
 diplomat:
 
-kind:
-title:
+kind: Lab
+title: PechBlenda Lab
 logo:
-website:
+website: https://pechblenda.hotglue.me/
 since:
 
 host:
-  name:
+  name: Calafou
   sphere:
   web:
 
@@ -25,9 +25,9 @@ affiliates:
 address:
 directions:
 postcode:
-city:
+city: Barcelona
 state:
-country:
+country: Spain
 
 tags:
 -
@@ -56,6 +56,7 @@ hackpad:
 trello:
 github:
 ---
+Laboratory of bioeelectrochemical experimentations
 
 ## About
 
