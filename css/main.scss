@@ -43,8 +43,8 @@ $monospace: 'Source Code Pro', monospace;
 
 
 .parallax-window {
-    min-height: 43em;
     background: transparent;
+    min-height: 43em;
     padding-top: 15em;
 }
 
@@ -56,18 +56,22 @@ $monospace: 'Source Code Pro', monospace;
 
 .input-addon {
   position: relative;
+  
   input {
     padding-left:  30px;
     padding-right: 30px;
   }
+  
   .fa {
-    position: absolute;
     padding: 10px;
+    position: absolute;
     pointer-events: none;
   }
+  
   .input-icon-left  {
     left:  0px;
   }
+  
   .input-icon-right {
     right: 0px;
   }
@@ -80,6 +84,6 @@ $monospace: 'Source Code Pro', monospace;
 }
 
 .docs {
-  line-height: 1.6;
   font-size: 16px;
+  line-height: 1.6;
 }
