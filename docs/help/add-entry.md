@@ -61,7 +61,7 @@ Thank you for your contribution! :heart:
 
 
 
-[helpful hints]: {{ '/help/hints/' | prepend: site.baseurl }}
+[helpful hints]: /help/hints/
 [repository]: https://github.com/DIYbiosphere/sphere.dir
 [1]: #
 [2]: #

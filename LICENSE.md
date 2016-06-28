@@ -20,7 +20,7 @@ Overall the Work in this Project is divided as:
     - You must: include the copyright and license notice in all copies or substantial uses of the work.
 
 
-Your contributions are shared under these copyright terms. You can review the "Contributor License Agreement" [(CLA)] to understand in legal terms the authorship rights granted and/or waived from your Contributions.
+Your contributions are shared under these copyright terms. You can review the "Contributor License Agreement" ([CLA]) to understand in legal terms the authorship rights granted and/or waived from your Contributions.
 
 
 ### Copyright Attribution
@@ -30,6 +30,6 @@ Because DIYbiosphere _is_ its contributors you may omit the word “contributors
 
 {% include _notices/note.html title="We appreciate credit!" text="Although attribution is not compulsory when (re)using the database, you may do so if you want to acknowledge the work of our contributors. They are awesome and deserve it!" %}
 
-[CC0]: {{ '/about/copyright/cc0/' | prepend: site.baseurl }}
-[MIT License]: {{ '/about/copyright/mit/' | prepend: site.baseurl }}
-[CLA]: {{ '/about/copyright/cla/' | prepend: site.baseurl }}
+[CC0]: /about/copyright/cc0/
+[MIT License]: /about/copyright/mit/
+[CLA]: /about/copyright/cla/
