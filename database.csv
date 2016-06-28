@@ -1,0 +1,6 @@
+---
+layout: null
+---
+Initiative,Url,Kind,Since,Type,City,State,Country,Region,Diplomat,Host Name,Host Biosphere,Host Website,Affiliates,Github,Tags
+{% for initiative in site.database %}{{ initiative.title | xml_escape }},{{ initiative.url | xml_escape }},{{ initiative.kind | xml_escape }},{{ initiative.since | xml_escape }},{{ initiative.type | xml_escape }},{{ initiative.city | xml_escape }},{{ initiative.state | xml_escape }},{{ initiative.country | xml_escape }},{{ initiative.region | xml_escape }},{{ initiative.diplomat | xml_escape }},{{ initiative.host.name | xml_escape }},{{ initiative.host.biosphere | xml_escape }},{{ initiative.host.website | xml_escape }},{{ initiative.affiliates | jsonify }},{{ initiative.github | xml_escape }},{{ initiative.tags | array_to_sentence_string }}
+{% endfor %}

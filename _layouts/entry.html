@@ -43,13 +43,22 @@ layout: default
             <i class="octicon octicon-gift"></i> {{ page.since }}
             <br/>
           {% endif %}
-
+        
         {% if page.host %}
-          <i class="octicon octicon-home"></i>
-          {{ page.host.name }}
-          <a href="{{ page.host.biosphere | site.baseUrl }}"> <i class="octicon octicon-link"></i> </a>
-          <a href="{{ page.host.web | site.baseUrl }}"> <i class="octicon octicon-link-external"></i> </a>
-          <br/>
+          {% assign host = page.host %}
+          {% if host.name %}
+            <i class="octicon octicon-home"></i>
+            {{ host.name }}
+            {% if host.sphere %}
+              <a href="{{ page.host.biosphere | site.baseUrl }}">
+                <i class="octicon octicon-link"></i> </a>
+            {% endif %}
+            {% if host.web %}
+              <a href="{{ page.host.web | site.baseUrl }}">
+                <i class="octicon octicon-link-external"></i> </a>
+            {% endif %}
+            <br/>
+          {% endif %}
         {% endif %}
 
         {% if page.type %}
@@ -59,9 +68,15 @@ layout: default
       {% if page.affiliates %}
         <i class="octicon octicon-organization"></i>
         {% for affiliate in page.affiliates %}
-          {{ affiliate.name }}
-          <a href="{{ affiliate.biosphere }}"> <i class="octicon octicon-link"></i> </a>
-          <a href="{{ affiliate.web }}"> <i class="octicon octicon-link-external"></i> </a>
+          {% if affiliate.name %}
+            {{ affiliate.name }}
+          {% endif %}
+          {% if affiliate.sphere %}
+            <a href="{{ affiliate.sphere }}"><i class="octicon octicon-link"></i></a>
+          {% endif %}
+          {% if affiliate.web %}
+            <a href="{{ affiliate.web }}"><i class="octicon octicon-link-external"></i></a>
+          {% endif %}
           {% unless forloop.last %} , {% endunless %}
         {% endfor %}
         <br/>
@@ -87,13 +102,15 @@ layout: default
       , {{ page.state }}
       {% endif %}
       {% if page.country %}
-      <br>
-      {{ page.country }}
-      <br>
+        <br>
+        {{ page.country }}
+        <br>
       {% endif %}
-      <div class="mar-btm">
-        <i class="octicon octicon-tag"></i> {{ page.tags | array_to_sentence_string }}
-      </div>
+      {% if page.tags %}
+        <div class="mar-btm">
+          <i class="octicon octicon-tag"></i> {{ page.tags | array_to_sentence_string }}
+        </div>
+      {% endif %}
     </div>
     <div class="mar-all text-right">
       {% include social-icons.html %}

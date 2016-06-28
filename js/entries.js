@@ -23,39 +23,97 @@
       }],
       "columnDefs": [
         {
+          "title": 'Initiative',
+          "visible": true,
           "targets": 0,
+          "name": "title",
           "data": "title",
           "render": function(data, type, row) {
             return '<a class="link selectable" href="'+ baseUrl + row.url +'">'+ data +'</a>';
           }
         },
         {
+          "title": 'Kind',
+          "visible": true,
           "targets": 1,
+          "name": "kind",
           "data": "kind"
         },
         {
+          "title": 'Since',
+          "visible": true,
           "targets": 2,
+          "name": "since",
           "data": "since"
         },
         {
+          "title": 'Type',
+          "visible": true,
           "targets": 3,
+          "name": "type",
           "data": "type"
         },
         {
+          "title": 'City',
+          "visible": true,
           "targets": 4,
+          "name": "city",
           "data": "city"
         },
         {
+          "title": 'Country',
+          "visible": true,
           "targets": 5,
+          "name": "country",
           "data": "country"
         },
         {
+          "title": 'State',
+          "visible": true,
           "targets": 6,
+          "name": "state",
+          "data": "state"
+        },
+        {
+          "title": 'Host',
+          "visible": true,
+          "targets": 7,
+          "name": "host",
+          "data": "host",
+          "render": function(data, type, row) {
+            // host name, web page and sphere page links
+            var name = '', web = '', sphere = '';
+            if(data !== null) {
+              name = data.name || '';
+              if(data.web !== null) {
+                web =
+                  '<a class="link selectable" href="'+ baseUrl + data.web +'">' +
+                    '<i class="fa fa-link"></i>' +
+                  '</a>';
+              }
+              if(data.sphere !== null) {
+                sphere = 
+                  '<a class="link selectable" href="'+ baseUrl + data.sphere +'">' +
+                    '<i class="fa fa-external-link"></i>'
+                  '</a>';
+              }
+              return name + ' ' + web + ' ' + sphere;
+            } else return '';
+          }
+        },
+        {
+          "title": 'Region',
+          "visible": false,
+          "targets": 8,
+          "name": "region",
           "data": "region"
         },
         {
-          "targets": 7,
-          "data": "last_update"
+          "title": 'Tags',
+          "visible": false,
+          "targets": 9,
+          "name": "tags",
+          "data": "tags"
         }
       ],
       "language": {
@@ -87,8 +145,8 @@
         $table.rows.add(data).draw(); // add data and 'refresh' the table.
       })
       .fail(function(jqxhr, textStatus, error) { // when request failed...
-        console.err('failure getting database...');
-        console.err(textStatus + ', ' + error);
+        console.error('failure getting database...');
+        console.error(textStatus + ', ' + error);
       });
 
 

@@ -11,9 +11,11 @@ layout: null
         "since": "{{ initiative.since | xml_escape }}",
         "type": "{{ initiative.type | xml_escape }}",
         "city": "{{ initiative.city | xml_escape }}",
+        "state": "{{ initiative.state | xml_escape }}",
         "country": "{{ initiative.country | xml_escape }}",
+        "host": {{ initiative.host | jsonify }},
         "region": "{{ initiative.region | xml_escape }}",
-        "last_update": "{{ page.last_modified_at | date: '%Y-%m-%d' }}"
+        "tags": "{{ initiative.tags | array_to_sentence_string }}"
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ]

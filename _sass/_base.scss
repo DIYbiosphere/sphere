@@ -1,8 +1,8 @@
-
 html, body {
   overflow-x: hidden;
   color: black;
   font-family: $fonts !important;
+  
   a {
     color: $hyperlink;
     cursor: pointer;
@@ -19,7 +19,6 @@ blockquote {
   font-size: 12px;
 }
 
-
 h1 {
   border-bottom: 1px solid $fine-gray;
   font-weight: 600 !important;
@@ -35,11 +34,22 @@ h5 {
   padding-bottom: 5px;
 }
 
+/**
+*  This keeps hash tag links visible,
+*  otherwise they are blocked by the top navbar
+*/
+h2:before,
+h3:before { 
+  display: block; 
+  content: ""; 
+  margin: -113px 0 0; 
+  height: 113px;
+}
+
 .img-thumb {
   @extend .img-responsive;
   padding-top: 1.5em;
 }
-
 
 .affix-bottom {
   position: relative
