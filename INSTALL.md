@@ -36,7 +36,7 @@ If you downloaded GitHub Desktop, it installs it for you.
 
 
 3. Install rvm
-[rvm](https://rvm.io/rvm/install) installed 
+[rvm](https://rvm.io/rvm/install) installed
   2.2 Install RVM stable with ruby:
   ```
   \curl -sSL https://get.rvm.io | bash -s stable --ruby
@@ -45,16 +45,16 @@ If you downloaded GitHub Desktop, it installs it for you.
 4. Clone the repository
   - GitHub: click clone repository to GitHub Desktop
   - Desktop: click `+` and select clone. sign in and look for the repository. if yiu are a member you have write access to it. if not, yiu will have to fork it.
-Go to the repository and click clone on GitHub Desktop. 
+Go to the repository and click clone on GitHub Desktop.
   - Terminal:
 ```
 git clone https://github.com/DIYbiosphere/sphere.dir.git
 ```
 
 5. Open the repository root folder
- - Desktop: Right click on the repository and 
+ - Desktop: Right click on the repository and
 or drag the folder into your terminal (mac users)
- - Terminal: 
+ - Terminal:
 ``` cd \YourFilePath\sphere.dir ```
 
 
@@ -64,7 +64,7 @@ Terminal: first install bundler
 gem install bundler
 ```
 then install dependencies
-Terminal: 
+Terminal:
   ```
   bundler install
   ```
@@ -99,7 +99,22 @@ time someone pushes to the master branch of the
 [Travis](https://travis-ci.org/) builds the site using Jekyll and push it to the
 [gh-pages](https://github.com/DIYbiosphere/sphere.dir/tree/gh-pages) branch.
 
---------------------
+---
+
+In order to run locally you have to use the terminal. If you have never used it, don’t worry! It is as easy as copy & paste.
+The instructions and programs you need depend on your operating system (OSx, Windows, or Linux), pleas
+
+### Mac users 
+1. Install all the command line tools
+	- Copy the following command line
+	- Paste in your terminal
+```
+xcode-select — install
+```
+	- A popup window will appear, select install. And you are done
+2.Install dependencies using bundler
+
+If you are going to use
 
 Thank you and have fun!
 

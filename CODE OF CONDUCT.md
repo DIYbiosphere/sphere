@@ -25,7 +25,7 @@ Unacceptable behavior includes:
 
 Project managers are obliged to maintain the confidentiality of the incident's reporter. All reports will be reviewed. Contributors with unacceptable behavior­­­—be it inappropriate, threatening, offensive or harmful—shall be banned temporarily or permanently, and contributions may be removed or rejected. Project maintainers commit ourselves to fairly and consistently applying these principles to the project, those who don't may be suspended or removed.
 
-{% include _notices/tldr.html title="Be respectful!!" text="Don't be gross or rude to others; offenders will be &quot;prosecuted&quot;. Report offenses to project managers**" %}
+{% include _notices/tldr.html title="Be respectful!!" text="Don't be gross or rude to others; offenders will be &quot;prosecuted&quot;. Report offenses to a [project manager](https://github.com/orgs/DIYbiosphere/teams/managers)**" %}
 
 - - -
 \* Based on the [Contributor Covenant Code of Conduct v1.4.0][1]. <br>

@@ -5,14 +5,14 @@
 [![Slack Status](https://diybiosphere.herokuapp.com/badge.svg)](https://diybiosphere.herokuapp.com)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0-blue.svg)](http://sphere.diybio.org/license/)
 
-# ![](assets/images/logo long@1.5x.png)
+# ![](assets/images/sphere/sphere-logo-long.png)
 
 
 :tada: Welcome to the DIYbiophere repository :tada:
 
 We really appreciate your interest in our project and we would :heart: your contributions!
 
-> At the moment, we are working hard :sweat_smile: to develop a "Minimum Viable Product" (MVP) as they say in the _techbiz_. Please :pray: help us by contributing so we can eventually share it with early adopters! :sunglasses:
+> At the moment, we are working hard :sweat_smile: to develop a "Minimum Viable Product" (MVP) as they say in the _techbiz_. Please help us by contributing so we can eventually share it with early adopters! :metal:
 
 ## About
 [The DIYbiosphere] is a participatory project to create a database of Do-It-Yourself Biology (DIYbio) initiatives from all over the world. The project is public; open for anyone to add and edit entries, as well as to shape the overall project. The goal is to have a shared and common platform that can connect people and ideas in all its possibilities. With the open data we gather we plan to map and visualize the DIYbio community in all its diversity across time and space in the hopes that we may learn more about the movement and its futures.
@@ -67,7 +67,7 @@ If you wish to credit our work, please do so as “© DIYbiosphere contributors�
 [Gitter]: https://gitter.im/DIYbiosphere/sphere.dir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
 [Slack]: https://diybiosphere.herokuapp.com/
 [DIYbiosphere organization]: #
-[join us]:
+[join us]: http://sphere.diybio.org/help/contributing/#apply-for-membership
 [Getting started]: http://sphere.diybio.org/help/getting-started/
 [Contributing guidelines]: http://sphere.diybio.org/contributing/
 [follow]: https://twitter.com/DIYbiosphere
