@@ -1,11 +1,14 @@
 ---
 layout: docs
 permalink: /help/basics/
-title: Basic components of the design of the project
+title: Basic components of the project
 ---
 
 > Explain how the components, design, code, database, and documentation are structured.
 
+TOC
+
+# Database
 - *Projects*: have specific tasks and/or a desired outcome and don't fit within the other categories.
 - *Startups*: are "entrepreneurial ventures", and generally concern products or services
 - *Labs*: are dedicated physical spaces with lab equipment dedicated to support DIYbio related activities. Labs can be static or mobile.
@@ -14,3 +17,9 @@ title: Basic components of the design of the project
 - *Networks*: a website, service or organization that facilitates communication and collaboration between people, groups, organizations, etc. with interests in DIYbio.
 - *Events*: Global or regional events that are by and/or for the DIYbio community, like (un)conferences, camps, hackathons, accelerators, etc. These are especially useful if something shareable is produced, like proceedings, videos, posters, etc.
 - *Others*: Is an umbrella term for the all the rest. Eventually as new entries begin to define themselves a new category will be created.
+
+# Development
+
+# Documentation
+
+# Design

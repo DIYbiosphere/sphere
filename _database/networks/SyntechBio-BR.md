@@ -1,7 +1,7 @@
 ---
 diplomat:
 
-kind:
+kind: Network
 title:
 logo:
 website:

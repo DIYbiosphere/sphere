@@ -1,7 +1,7 @@
 ---
 diplomat:
 
-kind:
+kind: Incubator
 title:
 logo:
 website:

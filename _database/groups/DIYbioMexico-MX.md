@@ -1,7 +1,7 @@
 ---
 diplomat:
 
-kind:
+kind: Group
 title:
 logo:
 website:

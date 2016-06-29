@@ -58,7 +58,7 @@ You can review our [License] file for a human-readable version of the copyright,
 
 If you wish to credit our work, please do so as “© DIYbiosphere contributors” or “© DIYbiosphere"
 
-[The DIYBiosphere]: (http://sphere.diybio.org/)
+[The DIYBiosphere]: http://sphere.diybio.org/
 [about]: http://sphere.diybio.org/about/
 [entry]: http://sphere.diybio.org/database/projects/DIYbiosphere-ZZ
 [github pages]: https://pages.github.com/

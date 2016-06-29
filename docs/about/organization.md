@@ -4,9 +4,12 @@ permalink: /about/organization/
 title: Organization
 ---
 
+In this section we explain how the project is managed in GitHub.
+
+Anyone can contribute to the [repository] (repo); they just need to fork the repo, commit their changes, and submit a pull request. However, it is members of the 
 The [repository] for the project is maintained by volunteer contributors and is managed by the [DIYbiosphere organization] in GitHub; which allows for a more fluid and open management. Anyone can become a member, [join in].
 
-> Only members with owner privileges for an organization or admin privilefes for a repository can add outside collaborators to a repository.
+
 
 Adding members to a team: people with owner or team maintainer permissions can add organization members to teams. https://help.github.com/articles/adding-organization-members-to-a-team/
 
@@ -18,9 +21,7 @@ Some contributions don’t require commit access. Depending on the reasons why a
 
 
 
-Commiters
 
-The coders, is somewhat of the technical board, which is a group of experienced and active committers who steer technical choices. Their main concern is to maintain the quality and stability of the Django Web Framework.
 
 ## Permission levels
 
@@ -48,9 +49,7 @@ As a member of the DIYbiosphere you have write permissions to all repositories o
 > When you add an outside collaborator to a repository, you'll also need to add them to any forks of the repository you'd like them to access.
 Organization owners and team maintainers can add repositories to a team, as well as change the team's read, write, and admin access to the repository.
 
-## Project Organization
-The project is managed as an organization in GitHub (DIYbiosphere).
-
+> Only members with owner privileges for an organization or admin privilefes for a repository can add outside collaborators to a repository.
 ##
 group-owned repositories.
 The DIYbiosphere is managed as an organization in GitHub, to help manage it as a group, that means that it is composed by Members, Owners and Outside collaborators.
@@ -99,6 +98,7 @@ The **Overlord** oversees all activity and is the contact person for the project
 The **Editors** work as content managers and are in charge of curating the database
 #### Coders
 All those endowed with programming skills to help the project with technical questions and issues
+The coders, is somewhat of the technical board, which is a group of experienced and active committers who steer technical choices. Their main concern is to maintain the quality and stability of the Django Web Framework.
 #### Diplomats
 Represent the contact person for each initiative
 
@@ -133,13 +133,6 @@ Ringleader membership belongs to all members who demonstrate:
 
 
 
-
-
-
-As a Diplomat you may want to subscribe to your initiative's changes. To do this you need to set up an RSS feed of changes
-http://stackoverflow.com/questions/9732779/how-to-watch-only-a-directory-in-a-github-repository
-http://stackoverflow.com/questions/7353538/setting-up-an-github-commit-rss-feed
-
 [Repository]: https://github.com/DIYbiosphere/sphere.dir
 [DIYbiosphere organization]: https://github.com/DIYbiosphere
-[Apply for membership]: {{ '/help/contributing/#apply-for-membership' | prepend: site.baseurl }}
+[Apply for membership]: help/contributing/#apply-for-membership
