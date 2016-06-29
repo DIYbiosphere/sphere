@@ -1,10 +1,10 @@
 ---
-layout: repo-doc
+layout: docs
 permalink: /about/copyright/license/
 title: Copyright License for humans
 ---
 
-# Copyright License for humans
+
 **The copyright of the DIYbiosphere is designed to be as permissive as possible to eliminate all uncertainty for potential users, encouraging maximal reuse and sharing of information.**
 **All the work in this project is freely available to use, modify and distribute**   :two_hearts:
 

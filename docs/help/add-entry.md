@@ -3,6 +3,7 @@ layout: docs
 permalink: /help/tutorials/add-entry/
 title: Adding a New Entry
 ---
+> Draft
 
 This is a step-by-step tutorial on how to add a new entry to the database. Keep a look out for our [helpful hints]!
 

@@ -4,6 +4,8 @@ permalink: /help/getting-started/
 title: Getting Started
 ---
 
+> Draft
+
 **"How can I use the database? How can I obtain the entire dataset? How can I contribute with data? How can I get involved in the project?"**
 
 This is the kickstart guide to help you get on the right path. Look out for [helpful hints].

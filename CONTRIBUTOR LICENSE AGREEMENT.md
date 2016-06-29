@@ -4,7 +4,6 @@ title: Contributor License Agreement
 permalink: /about/copyright/cla/
 ---
 
-# Contributor License Agreement
 Thank You for Your interest in making a Contribution to the DIYbiosphere Project. :purple_heart:
 
 The purpose of a Contributor License Agreement (CLA) is to state the "contractual" agreement of the Intellectual Property Rights (IPR) assigned to the Contributions made to an open-source project.

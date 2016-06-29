@@ -3,6 +3,7 @@ layout: repo-doc
 permalink: /news/roadmap/
 title: Roadmap
 ---
+> Draft
 
 # Roadmap for DIYbiosphere
 The DIYbiosphere is a participatory project to create and maintain a database of worldwide DIYbio initiatives. Would you like to contribute? Check out our [Getting started] page and follow our [Contributing guidelines].

@@ -4,6 +4,8 @@ permalink: /help/eli5-guide/
 title: Explain Like I'm 5 (ELI5) Guide
 ---
 
+> Rough Draft
+
 This is a super simple/101/beginner/crash course/for dummies guide to help out the utterly confused.
 
 GitHub is a web service that host your project folder (or repository), just like Dropbox, it's in their cloud/server
