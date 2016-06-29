@@ -7,13 +7,14 @@ title: Contributing
 # Contributing Guide
 We :heartpulse: contributions! We really appreciate your interest in our project.
 
-The following is a set of guidelines submiting Issues and Pull requests.
+The following is a set of guidelines submiting [Issues], [Commits], and [Pull requests].
 
 
 Check out the [Getting Started] guide to learn about _using_ and _contributing_ to the database.
 
 ---
 ### Table of Contents
+
 - [Issues](#issues)
   - [Bugs](#report-a-bug)
   - [Suggestions](#make-a-suggestion)
@@ -61,7 +62,11 @@ Submit a new issue with the Title: 'Applying for membership' and in the Comment 
 
 As a member of the DIYbiosphere organization in GitHub, you have _write_ access to the repositories (learn more about [permission levels])
 
-# Contributing with
+# Commits
+Adding changes to the project goes as:
+- Fork
+-
+The recipe goes Fork -> Commit changes ->
 Fork it
 Create your feature branch (git checkout -b my-new-feature)
 Commit your changes (git commit -am 'Add some feature')
@@ -84,7 +89,8 @@ If your PR does not check the Travis build DO NOT merge!. Check either in Travis
 
 
 # Styleguide
-The code in our project is mainly HTML, SCSS, and JS, the two latter are checked by the [Hound] bot when
+The code in our project is mainly HTML, SCSS, and JS, the two latter are checked by the [Hound] bot when.
+
 
 # Management of Pull Requests and Issues
 Issues and Pull Requests are classified and organized by [labels](#labels), [milestones](#milestones), [epics](#epics) and [boards](#boards). The two latter are features of [ZenHub] which we use for project management. It has native integration in GitHub and works for Chrome and Firefox ([Add ZenHub to GitHub]).

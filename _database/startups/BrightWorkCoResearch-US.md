@@ -1,7 +1,7 @@
 ---
 diplomat:
 
-kind:
+kind: Startup
 title:
 logo:
 website:

@@ -1,7 +1,7 @@
 ---
 diplomat:
 
-kind:
+kind: Project
 title:
 logo:
 website:
