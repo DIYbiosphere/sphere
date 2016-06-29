@@ -33,10 +33,10 @@ The database functions similar to a wiki, with descriptive content and data disp
 **_How is it organized?_**
 The database is divided in eight classes of entries: Projects, Startups, Labs, Incubators, Groups, Networks, Events, and Others. Although we think they are self-explanatory, you can review our [class definitions].
 
-**_Where can I learn more?_**
+**_Where can you learn more?_**
 You are in the _Documentation_ section (look to the left side bar) of the project. Here you can learn more About the project; how it's managed, and developed. Check out our News for how the development of the project is going, and how it has changed. And see our Help section to learn how the basic components were designed, how you can contribute, tutorials, etc.
 
-**_Where do I start?_**
+**_Where do you start?_**
 The [Getting Started] guide is the perfect place to start, it details how to use the database (explaining its structure and navigation), how to obtain the dataset, and how to contribute to it. We also have have an [ELI5 guide] (Explain Like I'm 5) for the utterly Github confused
 
 
