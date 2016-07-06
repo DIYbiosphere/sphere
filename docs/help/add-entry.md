@@ -3,6 +3,7 @@ layout: docs
 permalink: /help/tutorials/add-entry/
 title: Adding a New Entry
 ---
+> Draft
 
 This is a step-by-step tutorial on how to add a new entry to the database. Keep a look out for our [helpful hints]!
 
@@ -10,14 +11,14 @@ This is a step-by-step tutorial on how to add a new entry to the database. Keep 
 
 
 
-You can add a new entry using a {% include _octicons/browser.html %} Browser ([Edit online](#edit-online)), or in your {% include _octicons/desktop.html %} Desktop ([Edit locally](#edit-locally)). Online editing is the simplest. Local editing requires [installation] steps, but it is much more pleasent to work with, especially when doing multiple edits.
+You can add a new entry using a {% include _oi/browser.html %} Browser ([Edit online](#edit-online)), or in your {% include _oi/desktop.html %} Desktop ([Edit locally](#edit-locally)). Online editing is the simplest. Local editing requires [installation] steps, but it is much more pleasent to work with, especially when doing multiple edits.
 
 
 1. **Fork the repository:** to create a copy of the original repository under your GitHub account; this is where you will make your changes.
   - Go to our [repository] and click on 'Fork'.
-  - {% include _octicons/desktop.html %} Clone the forked repo into your desktop
+  - {% include _oi/desktop.html %} Clone the forked repo into your desktop
 2. **Create a new file:** classified as a: Project, Startup, Lab, Incubator, Group, Network, Event, or Other (definitions are explained [here][1]).
-  - {% include _octicons/browser.html %}
+  - {% include _oi/browser.html %}
   - Open the '_database'  folder in the repository's root folder, and then open your entry's class folder
   - Inside the class folder create a new file
   - Name your entry. Our naming convention is 'EntryName-ZZ.md'

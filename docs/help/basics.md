@@ -4,7 +4,7 @@ permalink: /help/basics/
 title: Basic components of the project
 ---
 
-> Explain how the components, design, code, database, and documentation are structured.
+> Draft: Explain how the components, design, code, database, and documentation are structured.
 
 TOC
 

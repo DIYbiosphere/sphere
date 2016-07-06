@@ -1,10 +1,11 @@
 ---
 layout: docs
-title: Install
+title: Install environment for local development
 permalink: /help/tutorials/install/
 ---
 
-# Install environment for local development
+> Draft
+
 To work with the project locally on your desktop. You need a Git Client and a Text Editor. We recommend to use [GitHub Desktop] as a Git Client; available for macOS and Windows, and [Atom] as a text editor; available for macOS, Windows and Linux.
 
 In addition, we highly recommend you download the following packages for Atom:

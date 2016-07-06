@@ -3,6 +3,7 @@ layout: docs
 permalink: /help/hints/
 title: Helpful Hints
 ---
+> Draft
 
 Throughout our documentation you may find the following hint boxes. They are meant to be helpful. Here they are explained:
 

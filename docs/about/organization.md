@@ -4,9 +4,11 @@ permalink: /about/organization/
 title: Organization
 ---
 
+> Draft
+
 In this section we explain how the project is managed in GitHub.
 
-Anyone can contribute to the [repository] (repo); they just need to fork the repo, commit their changes, and submit a pull request. However, it is members of the 
+Anyone can contribute to the [repository] (repo); they just need to fork the repo, commit their changes, and submit a pull request. However, it is members of the
 The [repository] for the project is maintained by volunteer contributors and is managed by the [DIYbiosphere organization] in GitHub; which allows for a more fluid and open management. Anyone can become a member, [join in].
 
 

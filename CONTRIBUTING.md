@@ -3,6 +3,7 @@ layout: repo-doc
 permalink: /help/contributing/
 title: Contributing
 ---
+> Draft
 
 # Contributing Guide
 We :heartpulse: contributions! We really appreciate your interest in our project.
@@ -91,6 +92,16 @@ If your PR does not check the Travis build DO NOT merge!. Check either in Travis
 # Styleguide
 The code in our project is mainly HTML, SCSS, and JS, the two latter are checked by the [Hound] bot when.
 
+
+The seven rules of a great git commit message
+Keep in mind: This has all been said before.
+Separate subject from body with a blank line
+Limit the subject line to 50 characters
+Capitalize the subject line
+Do not end the subject line with a period
+Use the imperative mood in the subject line
+Wrap the body at 72 characters
+Use the body to explain what and why vs. how
 
 # Management of Pull Requests and Issues
 Issues and Pull Requests are classified and organized by [labels](#labels), [milestones](#milestones), [epics](#epics) and [boards](#boards). The two latter are features of [ZenHub] which we use for project management. It has native integration in GitHub and works for Chrome and Firefox ([Add ZenHub to GitHub]).

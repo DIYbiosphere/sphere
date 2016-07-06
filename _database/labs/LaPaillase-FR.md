@@ -1,22 +1,66 @@
 ---
-title: La Paillase
+diplomat:
 
 kind: Lab
+title: La Paillase
+logo:
+website:
+since:
 
+host:
+  name:
+  sphere:
+  web:
 
-logo: image
-website: "DIYbiosphere.github.io"
-since: 2016
-host: "[DIYbio.org](https://diybio.org/)(https://diybio.org)"
-type: Non-profit
-collaborators: "[CitizenSciences.net](http://citizensciences.net/)"
+type:
 
-latitude: "46.204391"
-longitude: "6.143158"
-directions: Sereno 48, Colinas del Sur
-city: Geneva
-country: Switzerland
-region: Europe
+affiliates:
+  name:
+  sphere:
+  web:
+  name:
+  sphere:
+  web:
 
-diplomat: sabgaby
+address:
+directions:
+postcode:
+city: Paris
+state:
+country: France
+
+tags:
+-
+-
+
+email:
+blog:
+rss:
+wiki:
+forum:
+mailinglist:
+irc:
+gitter:
+slack:
+meetup:
+twitter:
+facebook:
+google+:
+linkedin:
+instagram:
+flickr:
+pinterest:
+vimeo:
+youtube:
+hackpad:
+trello:
+github:
 ---
+
+
+## About
+
+## History
+
+---
+Text taken from initiative's website
