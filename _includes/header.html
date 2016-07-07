@@ -94,17 +94,20 @@
 
         </ul>
 
-        <form action="/search.html" class="navbar-form navbar-right" role="search">
-          <div>
-            <gcse:search enableAutoComplete="true"></gcse:search>
-          </div>
-          <div class="omnisearch input-addon">
-            <i class="fa fa-search input-icon-left"></i>
-            <input id="tipue_search_input" name="q" class="form-control"
-              type="text" placeholder="Search..." autocomplete="off" required>
-          </div>
+        <!--<form id="omnisearch-form" class="navbar-form navbar-right" role="search">-->
+        <!--  <div class="omnisearch input-addon">-->
+        <!--    <i class="fa fa-search input-icon-left"></i>-->
+        <!--    <input id="omnisearch" name="q" class="form-control"-->
+        <!--      type="text" placeholder="Search..." autocomplete="off" required>-->
+        <!--  </div>-->
+        <!--</form>-->
+        <form id="omnisearch-form" class="navbar-form navbar-right" role="search">
+          <button type="button" class="btn btn-default"
+            data-toggle="modal" data-target="#omnisearch-modal">
+            <i class="fa fa-search"></i>
+          </button>
         </form>
-
+          
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
             <a href="{{ '/en/' | prepend: site.baseurl }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EN <span class="caret"></span></a>

@@ -1,0 +1,113 @@
+<!-- Modal -->
+<div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="Advanced Search for Entries">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <i class="fa fa-sliders pull-left"></i>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title text-center">Advanced Search for Entries</h4>
+      </div>
+      <form method="GET" action="{{site.baseUrl}}/database">
+        <div class="modal-body">
+            <div class="row pad-btm">
+              <div class="form-inline">
+                <div class="col-sm-2">
+                  <label> <i class="octicon octicon-pulse"></i> Status: </label>
+                </div>
+                <div class="col-sm-3">
+                  <input type="checkbox" value="active"> Active
+                  <span class="pad-lft"></span>
+                  <input type="checkbox" value="active"> Inactive
+                </div>
+                <div class="col-sm-3">
+                  <label> <i class="octicon octicon-clock"></i> Last updated: </label>
+                  <select class="form-control input-sm">
+                    <option value="">&mdash;</option>
+                    <option value="">Anytime</option>
+                  </select>
+                </div>
+                <div class="col-sm-4">
+                  <div class="form-group">
+                    <label> <i class="octicon octicon-gift"></i> Established: </label>
+                    <input class="form-control input-sm" style="width:60px" /> &mdash;
+                    <input class="form-control input-sm" style="width:60px" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="row pad-btm">
+              <div class="form-inline">
+                <div class="col-sm-2">
+                  <label class="text-strong"> <i class="octicon octicon-zap"></i> Entry class: </label>
+                </div>
+                <div class="col-sm-2"><input type="checkbox" value="projects"> Projects</div>
+                <div class="col-sm-2"><input type="checkbox" value="labs"> Labs</div>
+                <div class="col-sm-2"><input type="checkbox" value="incubators"> Incubators</div>
+                <div class="col-sm-3"><input type="checkbox" value="startups"> Startups</div>
+                <div class="col-sm-2"><input type="checkbox" value="groups"> Groups</div>
+                <div class="col-sm-2"><input type="checkbox" value="networks"> Networks</div>
+                <div class="col-sm-2"><input type="checkbox" value="events"> Events</div>
+                <div class="col-sm-2"><input type="checkbox" value="others"> Others</div>
+              </div>
+            </div>
+            
+            <div class="row pad-btm">
+              <div class="form-inline">
+                <div class="col-sm-2">
+                  <label class="text-strong"> <i class="octicon octicon-gear"></i> Initiative type: </label> &nbsp;
+                </div>
+                <div class="col-sm-2"><input type="checkbox" value="projects"> Communnity</div>
+                <div class="col-sm-3"><input type="checkbox" value="labs"> Primary/Secondary School</div>
+                <div class="col-sm-2"><input type="checkbox" value="incubators"> Non-profit/NGO</div>
+                <div class="col-sm-2"><input type="checkbox" value="startups"> Museum</div>
+                <div class="col-sm-2"><input type="checkbox" value="groups"> Other</div>
+                <div class="col-sm-3"><input type="checkbox" value="networks"> University/College</div>
+                <div class="col-sm-2"><input type="checkbox" value="events"> For-profit</div>
+                <div class="col-sm-3"><input type="checkbox" value="others"> State-Local Government</div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="form-inline">
+                <div class="col-sm-2">
+                  <label class="text-strong"> <i class="octicon octicon-globe"></i> Location: </label>
+                </div>
+                <div class="col-sm-3">
+                  <label> <i class="fa fa-clock"></i> by Countries: </label>
+                  <select class="form-control input-sm">
+                    <option value="">&mdash;</option>
+                    <option value="">Anytime</option>
+                  </select>
+                </div>
+                <div class="col-sm-3">
+                  <label> <i class="octicon octicon-tag"></i> by Keywords: </label>
+                  <select class="form-control input-sm">
+                    <option value="">&mdash;</option>
+                    <option value="">Anytime</option>
+                  </select>
+                </div>
+                <div class="col-sm-3">
+                  <label> <i class="fa fa-clock"></i> by Regions: </label>
+                  <select class="form-control input-sm">
+                    <option value="">&mdash;</option>
+                    <option value="">Anytime</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light">
+            Help <i class="fa fa-question"></i>
+          </button>
+          <button type="submit" class="btn btn-dark">
+            Search <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
