@@ -1,5 +1,5 @@
 ---
-diplomat:
+diplomat: bstrasse
 kind: Lab
 
 title: Bioscope
