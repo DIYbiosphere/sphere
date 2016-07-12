@@ -11,7 +11,7 @@ This is a step-by-step tutorial on how to add a new entry to the database. Keep 
 
 
 
-You can add a new entry using a {% include _oi/browser.html %} Browser ([Edit online](#edit-online)), or in your {% include _oi/desktop.html %} Desktop ([Edit locally](#edit-locally)). Online editing is the simplest. Local editing requires [installation] steps, but it is much more pleasent to work with, especially when doing multiple edits.
+You can add a new entry using a {% include _oi/browser.html %} Browser ([Edit online](#edit-online)), or in your {% include _oi/desktop.html %} Desktop ([Edit locally](#edit-locally)). Online editing is the most simple. Local editing requires [installation] steps, but it is much more pleasant to work with, especially when doing multiple edits.
 
 
 1. **Fork the repository:** to create a copy of the original repository under your GitHub account; this is where you will make your changes.
