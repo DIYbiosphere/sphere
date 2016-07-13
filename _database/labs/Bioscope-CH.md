@@ -5,7 +5,7 @@ kind: Lab
 title: Bioscope
 logo: http://bioscope.ch/wp-content/themes/suffusion/images/BiscopeHEADER.png
 website: http://bioscope.ch/
-since: 2013
+since: 2014
 
 host:
   name: University of Geneva
