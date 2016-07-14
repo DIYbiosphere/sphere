@@ -26,7 +26,7 @@ Thank you for your contribution! :heart:
 
 [helpful hints]: /help/hints/
 [sphere.dir]: https://github.com/DIYbiosphere/sphere.dir
-[5 steps]: /help/tutorials/add-entry-member
+[6 steps]: /help/tutorials/add-entry-member
 [3 steps]: /help/tutorials/add-entry-teams
 [development community]: #
 [entry template]: https://gist.githubusercontent.com/ahuacatl/954444c7f15a27190b0fd52e0021a58c/raw/91412b5ba78fb082b349776cf0a75d3c82f35da0/front-matter-template.md
