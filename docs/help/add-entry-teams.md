@@ -5,7 +5,7 @@ title: Adding a New Entry for Teams
 ---
 > Draft
 
-This is the tutorial (4 steps) to add a new entry for team members. Keep a look out for our [helpful hints]!
+This is the tutorial (4 steps) to add a new entry for team members. To edit an existing entry go to our [editing tutorial]. Keep a look out for our [helpful hints]!
 
 Tutorial for non-members is [7 steps] and for members is [6 steps]. Learn more about our [development community]
 
@@ -18,7 +18,7 @@ Tutorial for non-members is [7 steps] and for members is [6 steps]. Learn more a
 
 Thank you for your contribution! :heart:
 
-
+[editing tutorial]: /help/tutorials/edit-entry-teams
 [helpful hints]: /help/hints/
 [sphere.dir]: https://github.com/DIYbiosphere/sphere.dir
 [6 steps]: #

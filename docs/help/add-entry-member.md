@@ -5,7 +5,7 @@ title: Adding a New Entry for Members
 ---
 > Draft
 
-This is the tutorial (6 steps) to add a new entry for members. Keep a look out for our [helpful hints]!
+This is the tutorial (6 steps) to add a new entry for members. To edit an existing entry go to our [editing tutorial]. Keep a look out for our [helpful hints]!
 
 Tutorial for non-members is [7 steps] and for team members (diplomats, editors) is [4 steps]. Learn more about our [development community]
 
@@ -22,7 +22,7 @@ Tutorial for non-members is [7 steps] and for team members (diplomats, editors) 
 
 Thank you for your contribution! :heart:
 
-
+[editing tutorial]: help/tutorials/edit-entry-member
 [helpful hints]: /help/hints/
 [editable branch]: https://github.com/DIYbiosphere/sphere.dir/tree/editable
 [7 steps]: /help/tutorials/add-entry

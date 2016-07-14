@@ -5,7 +5,7 @@ title: Adding a New Entry
 ---
 > Draft
 
-This is the tutorial (7 steps) to add a new entry. Keep a look out for our [helpful hints]!
+This is the tutorial (7 steps) to add a new entry. To edit an existing entry go to our [editing tutorial]. Keep a look out for our [helpful hints]!
 
 Tutorial for members is [6 steps] and for team members (diplomats, editors) is [4 steps]. Learn more about our [development community]
 
@@ -26,6 +26,7 @@ Thank you for your contribution! :heart:
 
 [helpful hints]: /help/hints/
 [sphere.dir]: https://github.com/DIYbiosphere/sphere.dir
+[editing tutorial]: help/tutorials/edit-entry
 [6 steps]: /help/tutorials/add-entry-member
 [4 steps]: /help/tutorials/add-entry-teams
 [development community]: #
