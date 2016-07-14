@@ -18,5 +18,5 @@ city: Geneva
 country: Switzerland
 region: Europe
 
-diplomat: sabgaby
+manager: sabgaby
 ---

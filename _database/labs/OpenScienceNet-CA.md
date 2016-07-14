@@ -1,5 +1,5 @@
 ---
-diplomat:
+manager:
 
 kind: Lab
 title: Open Science Network

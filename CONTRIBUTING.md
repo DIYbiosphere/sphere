@@ -8,10 +8,10 @@ title: Contributing
 # Contributing Guide
 We :heartpulse: contributions! We really appreciate your interest in our project.
 
-The following is a set of guidelines submiting [Issues], [Commits], and [Pull requests].
+The following is a set of guidelines submiting [Issues] and [Pull requests].
 
 
-Check out the [Getting Started] guide to learn about _using_ and _contributing_ to the database.
+Check out the [Getting Started] guide to learn how to _use_ and _contribute_ to the database. We also have an [ELI5 guide] (Explain like I'm 5) for the utterly GitHub confused!
 
 ---
 ### Table of Contents
@@ -26,16 +26,16 @@ Check out the [Getting Started] guide to learn about _using_ and _contributing_ 
     - [Labels](#applying-labels)
     - [Milestones](#setting-milestones)
     - [Boards](#using-zenboards)
-- [Styleguide]()
+- [Styleguide](#styleguides)
 ---
 
 # Issues
-We use [GitHub Issues] to keep track of [bugs](#report-a-bug), [suggestions](#make-a-suggestion), [questions](#ask-a-question),  [membership requests](#apply-for-membership), and so on. Go to our repository's [Issues tab] to submit one!
+We use [GitHub Issues] to keep track of [bugs](#report-a-bug), [suggestions](#make-a-suggestion), [questions](#ask-a-question), [membership requests](#apply-for-membership), and so on. Go to our repository's [Issues tab] to submit one!
 
 #### Before Submitting
 Please consider the following before submitting a new issue:
 
-- **Avoid making [duplicates]()**: Do a search on the project’s issues to check whether someone has submitted the same or a similar issue. You can :+1: to [vote]() for an issue.
+- **Avoid making [duplicates](#removing-duplicates)**: Do a search on the project’s issues to check whether someone has submitted the same or a similar issue. You can :+1: to [vote](#adding-reactions) for an issue.
 - **Follow general [style guides](#styleguides)**: Good titles and descriptions generate less questions and discussions and therefore create quicker responses and solutions.
 - **[Classify](#issue-management) new issues**: Members are encouraged to apply [labels](#labels), [milestones](#milestones), and [boards](#boards) to their own issues and new issues from contributors.
 
@@ -44,7 +44,7 @@ A bug :bug: is an error in the code that produces unexpected or undesired result
 
 - Describe the problem and how you encountered it.
 - Describe how it should work instead.
-- Provide as much useful visual content as you can (screenshots and screencaptures; [how-to][1]).
+- Provide as much useful visual content as you can (screenshots and screencaptures).
 
 ## Make a suggestion
 Whether it is a new feature or an enhancement to improve an existing feature, we really appreciate suggestions and ideas :gift_heart:. Please follow these guidelines:
@@ -59,28 +59,16 @@ You can submit a question as an issue if it concerns the DIYbiosphere project. Y
 Make sure to check out our [FAQs] for a list of common questions.
 
 ## Apply for membership
-Submit a new issue with the Title: 'Applying for membership' and in the Comment section add a description of yourself and why you would like to join (optional but useful for those considering your application). After you receive the email invitation and you accept to join, please :pray: close the issue with a comment acknowledging you joined as a member!
+Submit a new issue with the Title: 'Applying for membership' and in the Comment section add a description of yourself and why you would like to join (optional but useful for those considering your application). Also, please specify if you would like to be added to a [Team]()
 
 As a member of the DIYbiosphere organization in GitHub, you have _write_ access to the repositories (learn more about [permission levels])
-
-# Commits
-Adding changes to the project goes as:
-- Fork
--
-The recipe goes Fork -> Commit changes ->
-Fork it
-Create your feature branch (git checkout -b my-new-feature)
-Commit your changes (git commit -am 'Add some feature')
-Push to the branch (git push origin my-new-feature)
-Create new Pull Request
-
 
 # Pull Requests
 When you are ready to merge your work, submit a Pull Request (PR) for review :wink:
 
 #### Before you submit a Pull Request
 Please consider the following before submitting a new PR:
-- **[Merge conflicts]()**: if you build locally, sync and merge conflicts if there are any
+- **[Merge conflicts]()**: if you build locally, sync and merge conflicts if there are any.
 - **Follow general [style guides](#styleguides)**: Good titles and descriptions generate less questions and discussions and therefore create quicker responses and solutions.
 - **[Classify](#issue-management) new PRs**: Members are encouraged to apply [labels](#labels), [milestones](#milestones), and [boards](#boards) to their own PR and new PRs from contributors.
 
@@ -92,16 +80,11 @@ If your PR does not check the Travis build DO NOT merge!. Check either in Travis
 # Styleguide
 The code in our project is mainly HTML, SCSS, and JS, the two latter are checked by the [Hound] bot when.
 
+## Commit message
+The seven rules of a great git commit message:
 
-The seven rules of a great git commit message
-Keep in mind: This has all been said before.
-Separate subject from body with a blank line
-Limit the subject line to 50 characters
-Capitalize the subject line
-Do not end the subject line with a period
-Use the imperative mood in the subject line
-Wrap the body at 72 characters
-Use the body to explain what and why vs. how
+1. Limit the title to 50 characters and do not end with a period
+2. Use the comment section to explain what and why vs. how
 
 # Management of Pull Requests and Issues
 Issues and Pull Requests are classified and organized by [labels](#labels), [milestones](#milestones), [epics](#epics) and [boards](#boards). The two latter are features of [ZenHub] which we use for project management. It has native integration in GitHub and works for Chrome and Firefox ([Add ZenHub to GitHub]).
@@ -153,7 +136,8 @@ In the Boards tab, we can see how issues are divided between:
 
 
 
-
+[Issues]: https://github.com/DIYbiosphere/sphere.dir/issues
+[Pull Requests]: https://github.com/DIYbiosphere/sphere.dir/pulls
 [Getting Started]: /help/getting-started
 [Eli5 Guide]: /help/eli5-guide/
 [Github issues]: https://guides.github.com/features/issues/

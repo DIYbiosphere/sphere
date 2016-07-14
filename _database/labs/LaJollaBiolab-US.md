@@ -1,5 +1,5 @@
 ---
-diplomat:
+manager:
 
 kind: Lab
 title: La Jolla Bio Lab

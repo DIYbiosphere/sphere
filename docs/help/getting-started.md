@@ -79,8 +79,6 @@ The **only requirement** you need to contribute is a GitHub account, so [Sign up
 
 Please be aware that by participating in this project, you agree to abide by our [Code of Conduct] (CoC), and consent to our copyright terms [Contributor License Agreement] (CLA).
 
-{% include _notices/tldr.html title="I agree to be respectful to others and to freely share my contributions" text="CoC: Don't be gross or rude to others; offenders will be 'prosecuted'. Report offenses to project managers* <br> CLA: I concede the rights of my Contributions under a free license, and those pertaining to the database to the public domain" %}
-
 
 
 

@@ -1,5 +1,5 @@
 ---
-diplomat:
+manager:
 
 kind: Network
 title:
