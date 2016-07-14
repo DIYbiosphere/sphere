@@ -1,5 +1,5 @@
 ---
-diplomat: bstrasse
+manager: bstrasse
 kind: Lab
 
 title: Bioscope

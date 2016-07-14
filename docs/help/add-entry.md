@@ -7,7 +7,7 @@ title: Adding a New Entry
 
 This is the tutorial (7 steps) to add a new entry. To edit an existing entry go to our [editing tutorial]. Keep a look out for our [helpful hints]!
 
-Tutorial for members is [6 steps] and for team members (diplomats, editors) is [4 steps]. Learn more about our [development community]
+Tutorial for members is [6 steps] and for team members (managers, editors) is [4 steps]. Learn more about our [development community]
 
 {% include _notices/warning.html title="Before you begin, you should:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/about/copyright/license/)." %}
 
@@ -18,7 +18,7 @@ Tutorial for members is [6 steps] and for team members (diplomats, editors) is [
 3. **Copy and paste [entry template]**
 4. **Fill in your entry**
 5. To save your changes **Commit changes**. Don't forget to add in a title.
-6. When you are ready to merge your changes to the original repository **Submit a Pull Request (PR)**. Don't forget to add a title and in the comments specify if it's your entry or not, and if a diplomat (contact user for that entry) has been established.
+6. When you are ready to merge your changes to the original repository **Submit a Pull Request (PR)**. Don't forget to add a title and in the comments specify if it's your entry or not, and if a manager (contact user for that entry) has been established.
 7. A member will revise your PR, request additional commits from you or approve the PR and merge your changes to the original database.
 
 **Rejoice!** your entry is now part of the DIYbiosphere database! :clap: :clap:

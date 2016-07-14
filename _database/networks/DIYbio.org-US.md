@@ -1,5 +1,5 @@
 ---
-diplomat: jasonbobe
+manager: jasonbobe
 
 kind: Network
 title: DIYbio.org

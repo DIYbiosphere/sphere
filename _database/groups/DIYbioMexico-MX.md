@@ -1,5 +1,5 @@
 ---
-diplomat:
+manager:
 
 kind: Group
 title:

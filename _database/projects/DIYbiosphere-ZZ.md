@@ -1,5 +1,5 @@
 ---
-diplomat: sabgaby
+manager: sabgaby
 
 kind: Project
 title: DIYbiosphere
