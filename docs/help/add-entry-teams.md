@@ -16,6 +16,8 @@ Tutorial for non-members is [7 steps] and for members is [6 steps]. Learn more a
 
 **Rejoice!** your entry is now part of the DIYbiosphere database! :clap: :clap:
 
+{% include _notices/note.html title="Commits are not immediate" text="The repository has to be parsed and built by TRAVIS CI. Check the [build](https://travis-ci.org/DIYbiosphere/sphere.dir), to see if your commit has passed." %}
+
 Thank you for your contribution! :heart:
 
 [editing tutorial]: /help/tutorials/edit-entry-teams

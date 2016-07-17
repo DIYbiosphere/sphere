@@ -20,7 +20,7 @@ Check out the [Getting Started] guide to learn how to _use_ and _contribute_ to 
   - [Bugs](#report-a-bug)
   - [Suggestions](#make-a-suggestion)
   - [Questions](#ask-a-question)
-  - [Membership requests](#apply-for-membership)
+  - [Membership requests](#requesting-membership)
 - [Pull requests](#Pull-Requests)
 - [Managing Issues & Pull Requests](#issue-management)
     - [Labels](#applying-labels)
@@ -58,8 +58,8 @@ You can submit a question as an issue if it concerns the DIYbiosphere project. Y
 
 Make sure to check out our [FAQs] for a list of common questions.
 
-## Apply for membership
-Submit a new issue with the Title: 'Applying for membership' and in the Comment section add a description of yourself and why you would like to join (optional but useful for those considering your application). Also, please specify if you would like to be added to a [Team]()
+## Request membership
+Submit a new issue with the Title: 'Requesting membership' and in the Comment section add a description of yourself and why you would like to join (optional but useful for those considering your application). Also, please specify if you would like to be added to a [Team]
 
 As a member of the DIYbiosphere organization in GitHub, you have _write_ access to the repositories (learn more about [permission levels])
 
