@@ -11,7 +11,7 @@ Tutorial for members is [6 steps] and for team members (managers, editors) is [4
 
 {% include _notices/warning.html title="Before you begin, you should:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/about/copyright/license/)." %}
 
-![How to add an entry GIF](/assets/GIFs/add-entry.gif)
+![How to add an entry GIF](/assets/GIFs/add-entry.gif){:.img-responsive}
 
 1. **Fork** the [sphere.dir] repository to make changes
 2. In your forked copy, open the _database folder and choose a class folder for your new entry and **Create new file** named 'EntryName-ZZ.md'. Learn more about our [classification of entries] and [naming convention].
