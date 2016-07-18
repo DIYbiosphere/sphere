@@ -77,7 +77,11 @@ layout: default
           {% if affiliate.web %}
             <a href="{{ affiliate.web }}"><i class="octicon octicon-link-external"></i></a>
           {% endif %}
-          {% unless forloop.last %} , {% endunless %}
+          {% unless forloop.last %}
+            {% if affiliate.name != null %}
+              ,
+            {% endif %}
+          {% endunless %}
         {% endfor %}
         <br/>
       {% endif %}
@@ -95,18 +99,20 @@ layout: default
         <br>
       {% endif %}
 
-      {% if page.city %}
+      {% if page.city or page.state or page.country %}
       <i class="octicon octicon-globe"></i> {{ page.city }}
+        {% if page.state %}, {% endif %}
       {% endif %}
       {% if page.state %}
-      , {{ page.state }}
+        {{ page.state }}
+        {% if page.country %}, {% endif %}
       {% endif %}
       {% if page.country %}
-        <br>
         {{ page.country }}
         <br>
       {% endif %}
       {% if page.tags %}
+        <hr/>
         <div class="mar-btm">
           <i class="octicon octicon-tag"></i> {{ page.tags | array_to_sentence_string }}
         </div>
