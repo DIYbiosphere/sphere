@@ -8,39 +8,42 @@ title: Contributing
 # Contributing Guide
 We :heartpulse: contributions! We really appreciate your interest in our project.
 
-The following is a set of guidelines submiting [Issues] and [Pull requests].
+The following is a set of guidelines for submiting new [Issues] and [Pull requests], and for making Commit messages.
 
 
 Check out the [Getting Started] guide to learn how to _use_ and _contribute_ to the database. We also have an [ELI5 guide] (Explain like I'm 5) for the utterly GitHub confused!
 
 ---
+
 ### Table of Contents
 
-- [Issues](#issues)
+- [Submiting Issues](#submitting-issues)
   - [Bugs](#report-a-bug)
   - [Suggestions](#make-a-suggestion)
   - [Questions](#ask-a-question)
   - [Membership requests](#requesting-membership)
-- [Pull requests](#Pull-Requests)
+- [Making Commits](#making-commits)
+- [Submiting Pull requests](#subbmittin-Pull-Requests)
+  - [Merging]()
 - [Managing Issues & Pull Requests](#issue-management)
     - [Labels](#applying-labels)
     - [Milestones](#setting-milestones)
     - [Boards](#using-zenboards)
-- [Styleguide](#styleguides)
+
+
 ---
 
-# Issues
+# Submitting Issues
 We use [GitHub Issues] to keep track of [bugs](#report-a-bug), [suggestions](#make-a-suggestion), [questions](#ask-a-question), [membership requests](#apply-for-membership), and so on. Go to our repository's [Issues tab] to submit one!
 
 #### Before Submitting
 Please consider the following before submitting a new issue:
 
 - **Avoid making [duplicates](#removing-duplicates)**: Do a search on the project’s issues to check whether someone has submitted the same or a similar issue. You can :+1: to [vote](#adding-reactions) for an issue.
-- **Follow general [style guides](#styleguides)**: Good titles and descriptions generate less questions and discussions and therefore create quicker responses and solutions.
 - **[Classify](#issue-management) new issues**: Members are encouraged to apply [labels](#labels), [milestones](#milestones), and [boards](#boards) to their own issues and new issues from contributors.
 
 ## Report a bug
-A bug :bug: is an error in the code that produces unexpected or undesired results. Bugs generally concern only the [coders] team. The following guidelines help them address the problem appropriately:
+A bug :bug: is an error that produces unexpected or undesired results. Bugs generally concern only the [coders] team. You can  The following guidelines help them address the problem appropriately:
 
 - Describe the problem and how you encountered it.
 - Describe how it should work instead.
@@ -59,32 +62,29 @@ You can submit a question as an issue if it concerns the DIYbiosphere project. Y
 Make sure to check out our [FAQs] for a list of common questions.
 
 ## Request membership
-Submit a new issue with the Title: 'Requesting membership' and in the Comment section add a description of yourself and why you would like to join (optional but useful for those considering your application). Also, please specify if you would like to be added to a [Team]
+Submit a new issue with the Title: 'Requesting membership' and in the Comment section add a description of yourself and why you would like to join (optional but useful for those considering your application). Also, please specify if you would like to be added to a [Team].
 
-As a member of the DIYbiosphere organization in GitHub, you have _write_ access to the repositories (learn more about [permission levels])
+As a [member] of the [DIYbiosphere organization] in GitHub, you have _write_ access to the repositories (learn more about [permission levels])
 
-# Pull Requests
+# Making Commits
+If making many changes that are unrelated, split them into dedicated commits!
+
+To speed the reviewing process and facilitate tracking past changes, we ask for good commit messages.
+
+1. **subject line**: Describe the change and (if applicable and non obvious) why it was necessary. Use imperative (like 'Add' not 'Added'), Capitalize first letter, don't end with period, and limit to 50 characters. If the sentence has the word 'and' or lists more than one item, split the commit!
+2. **message lines**: Answer _why_ the change was made and _how_. If addressing an issue link to it!
+
+# Submitting Pull Requests
 When you are ready to merge your work, submit a Pull Request (PR) for review :wink:
 
 #### Before you submit a Pull Request
 Please consider the following before submitting a new PR:
 - **[Merge conflicts]()**: if you build locally, sync and merge conflicts if there are any.
-- **Follow general [style guides](#styleguides)**: Good titles and descriptions generate less questions and discussions and therefore create quicker responses and solutions.
 - **[Classify](#issue-management) new PRs**: Members are encouraged to apply [labels](#labels), [milestones](#milestones), and [boards](#boards) to their own PR and new PRs from contributors.
 
 
 ## Merging
-If your PR does not check the Travis build DO NOT merge!. Check either in Travis or in Github, why it did not pass... make changes to your repository to fix these. Please also fix changes by hound. Commit these changes to your branch or fork. sync them. and wait for the checks to pass again!
-
-
-# Styleguide
-The code in our project is mainly HTML, SCSS, and JS, the two latter are checked by the [Hound] bot when.
-
-## Commit message
-The seven rules of a great git commit message:
-
-1. Limit the title to 50 characters and do not end with a period
-2. Use the comment section to explain what and why vs. how
+If your PR does not pass the Travis build DO NOT merge!. Check either in Travis or in Github, why it did not pass... make changes to your repository to fix these. Please also fix changes by hound. Commit these changes to your branch or fork. sync them. and wait for the checks to pass again!
 
 # Management of Pull Requests and Issues
 Issues and Pull Requests are classified and organized by [labels](#labels), [milestones](#milestones), [epics](#epics) and [boards](#boards). The two latter are features of [ZenHub] which we use for project management. It has native integration in GitHub and works for Chrome and Firefox ([Add ZenHub to GitHub]).
@@ -148,7 +148,10 @@ In the Boards tab, we can see how issues are divided between:
 [Slack]: https://diybiosphere.herokuapp.com/
 [1]: #
 [FAQs]: /help/faq/
-[permission levels]: #
+[Team]: /about/organization/#Teams
+[member]: /about/organization/#member
+[DIYbiosphere organization]: /about/organization/
+[permission levels]: /about/organization/#permission-levels
 [ZenHub]: #
 [Add ZenHub to GitHub]: #
 
