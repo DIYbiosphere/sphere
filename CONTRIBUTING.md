@@ -10,7 +10,7 @@ We :heartpulse: contributions! We really appreciate your interest in our project
 
 The following is a set of guidelines for submiting new [Issues] and [Pull requests], and for making Commit messages.
 
-
+See our tutorials for [adding a new entry] or [editing an entry].
 Check out the [Getting Started] guide to learn how to _use_ and _contribute_ to the database. We also have an [ELI5 guide] (Explain like I'm 5) for the utterly GitHub confused!
 
 ---
@@ -72,7 +72,7 @@ If making many changes that are unrelated, split them into dedicated commits!
 To speed the reviewing process and facilitate tracking past changes, we ask for good commit messages.
 
 1. **subject line**: Describe the change and (if applicable and non obvious) why it was necessary. Use imperative (like 'Add' not 'Added'), Capitalize first letter, don't end with period, and limit to 50 characters. If the sentence has the word 'and' or lists more than one item, split the commit!
-2. **message lines**: Answer _why_ the change was made and _how_. If addressing an issue link to it!
+2. **message lines**: Answer _why_ the change was made and _how_. If addressing an Issue link to it!
 
 # Submitting Pull Requests
 When you are ready to merge your work, submit a Pull Request (PR) for review :wink:

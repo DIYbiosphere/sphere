@@ -1,5 +1,8 @@
-# FAQ
->What is DIYbio?
+---
+layout: repo-doc
+permalink: /draft/
+title: Draft
+---
 
 Why have two licenses?
 
@@ -18,6 +21,9 @@ In some cases, we may want to add many hints, but it can make the page look clut
 
 - {% include _oi/browser.html %} Browser {% include _notices/tutorial.html link="http://sphere.diybio.org" title="Steps" text=" hello " %}
 - {% include _oi/desktop.html %} Desktop {% include _notices/tutorial.html link="http://sphere.diybio.org" title="Steps" text="hello this is the help text" %} and this is a continuation.
+%}
+
+{% include media.html image=" " heading="my project name" text="here is my **explanation**" %}
 
 
 Name your entry. Our naming convention is ‘EntryName-ZZ.md’

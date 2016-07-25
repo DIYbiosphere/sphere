@@ -12,7 +12,7 @@ Tutorial for non-members is [7 steps] and for members is [6 steps]. Learn more a
 1. In your [master branch] of the repository, open the _database folder and choose a class folder for your new entry and **Create new file** named 'EntryName-ZZ.md'. Learn more about our [classification of entries] and [naming convention].
 2. **Copy and paste [entry template]**
 3. **Fill in your entry**
-4. Save directly your changes to the repository and  **Commit changes** Don't forget to add in a title and in the comments specify if it's your entry or not, and if a manager (contact user for that entry) has been established.
+4. Save directly your changes to the repository and  **Commit changes** In th subject line write "Add new entry: [InitiativeName]" and in the comments specify if it's your entry or not, and if a manager (contact user for that entry) has been established.
 
 **Rejoice!** your entry is now part of the DIYbiosphere database! :clap: :clap:
 
