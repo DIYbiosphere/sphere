@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind: Lab
+collection: Lab
 title: DIYbio FamiLab
 logo:
 website: https://forums.familab.org/diy-bio/

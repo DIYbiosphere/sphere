@@ -34,7 +34,7 @@ _This is what we would like to work on eventually_
 We want to create a fully functional map where you can select Earth, or a subregion and be able to see pinpoints of all the applicable
 
 #### Dynamic map
-Fully functional queries and filters and overlay tools that can let the user select what kind of initiative, from what period, and with what type of backing they want to visualize in the map.
+Fully functional queries and filters and overlay tools that can let the user select what collection of initiative, from what period, and with what type of backing they want to visualize in the map.
 For the networks, it would be nice to visualize these as linked initiatives.
 
 [Getting started]: /help/getting-started

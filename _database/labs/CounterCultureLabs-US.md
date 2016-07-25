@@ -1,6 +1,6 @@
 ---
 manager:
-kind: Lab
+collection: Lab
 
 title: Counter Culture Labs
 logo: https://counterculturelabs.org/wp-content/uploads/2015/05/logo-full-small.png

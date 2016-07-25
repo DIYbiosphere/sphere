@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind: Lab
+collection: Lab
 title: Bio Foundry
 logo: http://foundry.bio/wp-content/themes/TrendyRoom/content/logo.png
 website: http://foundry.bio/

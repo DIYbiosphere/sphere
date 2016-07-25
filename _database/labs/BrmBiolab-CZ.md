@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind: Lab
+collection: Lab
 title: Brmlab
 logo: http://brmlab.cz/brmlab.png
 website: http://brmlab.cz/index.html

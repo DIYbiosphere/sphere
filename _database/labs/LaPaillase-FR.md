@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind: Lab
+collection: Lab
 title: La Paillase
 logo:
 website:

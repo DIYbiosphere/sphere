@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind: Startup
+collection: Startup
 title:
 logo:
 website:

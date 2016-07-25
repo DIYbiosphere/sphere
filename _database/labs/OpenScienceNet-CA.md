@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind: Lab
+collection: Lab
 title: Open Science Network
 logo:
 website: http://www.opensciencenet.org/

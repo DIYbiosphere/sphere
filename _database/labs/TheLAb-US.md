@@ -1,6 +1,6 @@
 ---
 manager:
-kind: Lab
+collection: Lab
 
 title: The LAb
 logo: http://www.thel4b.com/wp-content/uploads/2015/07/thel4b_name1.png

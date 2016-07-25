@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind: Lab
+collection: Lab
 title: Bricobio
 logo: http://brico.bio/images/logo.png
 website: http://brico.bio/

@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind: Lab
+collection: Lab
 title: Open bioLab Graz Austria
 logo: https://realraum.at/wiki/lib/exe/fetch.php?media=hplogoklein.png
 website: https://realraum.at/wiki/doku.php?id=olga:olga

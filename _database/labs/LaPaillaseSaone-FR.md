@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind: Lab
+collection: Lab
 title: La Paillase Saône
 logo: https://pbs.twimg.com/profile_images/449225069978333184/0GZ__tOY_400x400.png
 website: https://lapaillassaone.wordpress.com/

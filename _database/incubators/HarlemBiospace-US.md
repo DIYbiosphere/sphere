@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind: Incubator
+collection: Incubator
 title:
 logo:
 website:

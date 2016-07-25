@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind: Lab
+collection: Lab
 title: Biologik Labs
 logo:
 website: http://www.biologiklabs.org/

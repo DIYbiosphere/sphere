@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind:
+collection:
 title:
 logo:
 website:

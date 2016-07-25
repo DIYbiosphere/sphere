@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind: Network
+collection: Network
 title: Bio
 logo:
 website:

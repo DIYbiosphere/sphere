@@ -1,6 +1,6 @@
 ---
 manager:
-kind: Lab
+collection: Lab
 
 title: Genspace
 logo: http://genspace.org/static/img/Genspace_logo.png?5B4RHexi

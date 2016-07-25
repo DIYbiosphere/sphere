@@ -1,7 +1,7 @@
 ---
 manager: sabgaby
 
-kind: Project
+collection: Project
 title: DIYbiosphere
 
 logo: https://raw.githubusercontent.com/DIYbiosphere/sphere.dir/master/img/Logo.png

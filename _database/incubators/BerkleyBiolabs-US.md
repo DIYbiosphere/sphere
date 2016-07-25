@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind: Incubator
+collection: Incubator
 title: Berkley Biolabs
 logo: http://photos1.meetupstatic.com/photos/event/a/9/2/f/global_438763311.jpeg
 website: http://www.berkeleybiolabs.com/

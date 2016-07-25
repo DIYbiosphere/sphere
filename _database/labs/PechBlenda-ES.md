@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind: Lab
+collection: Lab
 title: PechBlenda Lab
 logo:
 website: https://pechblenda.hotglue.me/

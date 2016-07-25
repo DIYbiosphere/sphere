@@ -7,7 +7,7 @@ layout: null
       {
         "url": "{{ initiative.url }}",
         "title": "{{ initiative.title | xml_escape }}",
-        "kind": "{{ initiative.kind | xml_escape }}",
+        "collection": "{{ initiative.collection | xml_escape }}",
         "since": "{{ initiative.since | xml_escape }}",
         "type": "{{ initiative.type | xml_escape }}",
         "city": "{{ initiative.city | xml_escape }}",

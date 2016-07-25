@@ -1,7 +1,7 @@
 ---
 manager: jasonbobe
 
-kind: Network
+collection: Network
 title: DIYbio.org
 logo: https://raw.githubusercontent.com/DIYbiosphere/sphere.dir/master/img/Logo.png
 website: https://diybio.org

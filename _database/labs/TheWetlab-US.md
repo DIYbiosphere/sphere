@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind: Lab
+collection: Lab
 title: The Wet Lab
 logo:
 website: http://www.wetlab.org/

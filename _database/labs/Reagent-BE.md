@@ -1,7 +1,7 @@
 ---
 title: Reagent
 
-kind: Lab
+collection: Lab
 
 
 logo: image

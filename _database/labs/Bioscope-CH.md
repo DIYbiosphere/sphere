@@ -1,6 +1,6 @@
 ---
 manager: bstrasse
-kind: Lab
+collection: Lab
 
 title: Bioscope
 logo: http://bioscope.ch/wp-content/themes/suffusion/images/BiscopeHEADER.png

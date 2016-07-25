@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind: Lab
+collection: Lab
 title: Symbiolab
 logo:
 website: http://irnas.eu/symbiolab.html

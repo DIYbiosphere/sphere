@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind: Lab
+collection: Lab
 title: BioTehna
 logo: http://photos4.meetupstatic.com/photos/event/7/f/2/8/global_219152552.jpeg
 website:

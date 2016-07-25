@@ -1,7 +1,7 @@
 ---
 manager:
 
-kind: Lab
+collection: Lab
 title: Biomakers Lab Peru
 logo: https://static.wixstatic.com/media/ffa224_a102c6ec1ce44f65a702200affe04df1~mv2.png/v1/fill/w_263,h_268,al_c,usm_0.66_1.00_0.01/ffa224_a102c6ec1ce44f65a702200affe04df1~mv2.png
 website: http://biomakerslab.wix.com/home
