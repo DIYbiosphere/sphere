@@ -83,10 +83,40 @@ defaults:
       layout: post
   -
     scope:
-      type: database
+      type: projects
     values:
       layout: entry
-      permalink: /database/:path
+      permalink: /database/projects/:title
+  -
+    scope:
+      type: startups
+    values:
+      layout: entry
+      permalink: /database/startups/:title
+  -
+    scope:
+      type: labs
+    values:
+      layout: entry
+      permalink: /database/labs/:title
+  -
+    scope:
+      type: incubators
+    values:
+      layout: entry
+      permalink: /database/incubators/:title
+  -
+    scope:
+      type: groups
+    values:
+      layout: entry
+      permalink: /database/groups/:title
+  -
+    scope:
+      type: networks
+    values:
+      layout: entry
+      permalink: /database/networks/:title
   -
     scope:
       type: events
