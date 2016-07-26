@@ -164,7 +164,7 @@
       ).draw();
     });
 
-    if (getUrlParam('q')) {
+    if(getUrlParam('q')) {
       // sets search value to url's param and trigger table's search
       $search.val(getUrlParam('q')).trigger('keyup');
     }
@@ -176,7 +176,8 @@
   function getCollection() {
     var pathname = window.location.pathname;
     var chunks = pathname.split("/");
-    return chunks[chunks.length - 2];
+    var collection = chunks[chunks.length - 2];
+    return collection === 'database' ? null : collection;
   }
 
   function getUrlParam(name, url) {
