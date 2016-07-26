@@ -1,76 +1,75 @@
 .label {
   border-radius: 3px;
-  font-family: $fonts !important;
   font-weight: 600;
-  padding: 7px 10px;
+  padding: 4px 5px;
 }
 
-.bug.label {
+.bug {
   background-color: $bug-color;
   color: $default;
 }
 
-.critical.label {
+.critical {
   background-color: $critical-color;
   color: $default;
 }
 
-.database.label {
+.database {
   background-color: $database-color;
   color: $default;
 }
 
-.design.label {
+.design {
   background-color: $design-color;
   color: $default;
 }
 
-.development.label {
+.development {
   background-color: $development-color;
   color: $default;
 }
 
-.docs.label {
-  background-color: $docs-color;
+.documentation {
+  background-color: $documentation-color;
   color: $default;
 }
 
-.easy.label {
+.easy {
   background-color: $easy-color;
   color: $default;
 }
 
-.enhancement.label {
+.enhancement {
   background-color: $enhancement-color;
   color: $default;
 }
 
-.epic.label {
+.epic {
   background-color: $epic-color;
   color: $default;
 }
 
-.feature.label {
+.feature {
   background-color: $feature-color;
   color: $default;
 }
 
-.feedback.label {
+.feedback {
   background-color: $feedback-color;
   color: $primary;
 }
 
-.feedback.label {
-  background-color: $feedback-color;
+.question {
+  background-color: $question-color;
   color: $primary;
 }
 
-.help.label {
+.help {
   background-color: $help-color;
   color: $primary;
 }
 
-.resolution.label {
+.resolution {
   background-color: $resolution-color;
-  color: $primary;
+  color: $default;
 }

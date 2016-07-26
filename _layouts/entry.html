@@ -7,8 +7,8 @@ layout: default
       {{ page.collection | capitalize }}
     </a>
     <i class="fa fa-angle-double-right"></i>
-    <a href="/database/{{ page.kind | downcase }}s/" class="link selectable">
-      {{ page.kind | capitalize }}s
+    <a href="/database/{{ page.collection | downcase }}s/" class="link selectable">
+      {{ page.collection | capitalize }}s
     </a>
     <i class="fa fa-angle-double-right"></i>
     <a href="#" class="link selectable">{{ page.title }}</a>
@@ -40,8 +40,8 @@ layout: default
 
         </h3>
           {% if page.since %}
-          
-            <i class="octicon octicon-gift"></i> {{ page.since }}
+          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left"> Hello
+            <i class="octicon octicon-gift"></i></button> {{ page.since }}
             <br/>
           {% endif %}
 

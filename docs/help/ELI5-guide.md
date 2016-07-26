@@ -6,29 +6,17 @@ title: Explain Like I'm 5 (ELI5) Guide
 
 > Rough Draft
 
-This is a super simple/101/beginner/crash course/for dummies guide to help out the utterly confused.
+This is a super simple/101/beginner/crash course/for dummies guide to help out the utterly confused. In this section we will explain
 
-GitHub is a web service that host your project folder (or repository), just like Dropbox, it's in their cloud/server
+First.
+
+What is GitHub?
+
+GitHub is a web service that hosts your project folder (or {% include _oi/repo.html %} repository/repo), just like Dropbox, it's in their cloud/server
 GitHub uses this software called Git,
 
-<i class="octicon octicon-repo"></i>
-<i class="octicon octicon-issue-closed"></i>
-<i class="octicon octicon-desktop-download"></i>
 
-
-<i class="octicon octicon-git-commit"></i>
-<i class="octicon octicon-git-merge"></i>
-<i class="octicon octicon-git-pull-request"></i>
-<i class="octicon octicon-person"></i>
-<i class="octicon octicon-organization"></i>
-<i class="octicon octicon-logo-github"></i>
-<i class="octicon octicon-jersey"></i>
-<i class="octicon octicon-lock"></i>
-<i class="octicon octicon-terminal"></i>
-
-https://confluence.atlassian.com/bitbucket/branch-or-fork-your-repository-221450630.html
-
-## <i class="octicon octicon-repo-forked"></i> Forking
+## Forking
 
 Pros
 
@@ -43,7 +31,7 @@ You need to understand the concept of multiple remotes in Git
 Requires additional mental bookkeeping
 This will make the workflow more difficult for people who aren't super comfortable with Git
 
-## <i class="octicon octicon-git-branch"></i> Branching
+## Branching
 
 Pros
 

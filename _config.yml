@@ -1,7 +1,7 @@
 # Site settings
 title: DIYbiosphere
 email: contact@contact.com
-description: "A collaborative directory of Do-it-Yourself Biology initiatives"
+description: "A collaborative database of Do-it-Yourself Biology initiatives"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "sphere.diybio.org"
 permalink: /news/:year/:month/:day/:title
@@ -36,18 +36,38 @@ gems:
 
 # Collections
 collections:
-  database:
-    title: Database
+  projects:
+    title: Projects
     output: true
-    permalink: /database/:path
+    permalink: /database/projects/
+  startups:
+    title: Startups
+    output: true
+    permalink: /database/startups/
+  labs:
+    title: Labs
+    output: true
+    permalink: /database/labs/
+  incubators:
+    title: Incubators
+    output: true
+    permalink: /database/incubators/
+  groups:
+    title: Groups
+    output: true
+    permalink: /database/groups/
+  networks:
+    title: Networks
+    output: true
+    permalink: /database/networks/
   events:
-    title: Ebents
+    title: Events
     output: true
-    permalink: /events/
+    permalink: /database/events/
   others:
     title: Others
     output: true
-    permalink: /others/
+    permalink: /database/others/
 
 # Defaul Values
 defaults:

@@ -33,11 +33,11 @@
           }
         },
         {
-          "title": 'Kind',
+          "title": 'Collection',
           "visible": true,
           "targets": 1,
-          "name": "kind",
-          "data": "kind"
+          "name": "collection",
+          "data": "collection"
         },
         {
           "title": 'Since',
@@ -134,12 +134,12 @@
     $.getJSON(baseUrl + '/js/data/database.json')
       .done(function(resp) { // when request succeded...
         var database = resp.database;
-        var kind = getCollectionKind();
-        console.log('collection to use: ', kind);
+        var collection = getCollectionCollection();
+        console.log('collection to use: ', collection);
         var data;
-        if(kind) {
+        if(collection) {
           data = database.filter(function(initiative) {
-            return initiative.kind === kind;
+            return initiative.collection === collection;
           });
         } else data = database;
         $table.rows.add(data).draw(); // add data and 'refresh' the table.
@@ -183,9 +183,9 @@
     return decodeURIComponent(results[2].replace(/\+/g, " "));
   }
 
-  function getCollectionKind() {
-    var kind = $('#kind').text();
-    return kind
+  function getCollectionCollection() {
+    var collection = $('#collection').text();
+    return collection
   }
 
 })($);
