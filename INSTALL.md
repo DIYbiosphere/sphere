@@ -1,34 +1,18 @@
 ---
 layout: docs
-title: Install environment for local development
+title: Installation Instructions
 permalink: /help/tutorials/install/
 ---
 
-> Draft
+This section details how to edit locally on your desktop.
 
-To work with the project locally on your desktop. You need a Git Client and a Text Editor. We recommend to use [GitHub Desktop] as a Git Client; available for macOS and Windows, and [Atom] as a text editor; available for macOS, Windows and Linux.
-
-In addition, we highly recommend you download the following packages for Atom:
-
-  - [Markdown-writer for atom]: Makes Atom a better Markdown editor.
-  - [Atom beautify]: Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, and SQL in Atom.
-<!-- TODO: check if this makes a difference! -->
-  - [Language-liquid]: Fork of the original Liquid language support for Atom.
-<!-- TODO: check if you need this one or the 2, or if both are necessary -->
-  - [merge-conflicts]: Resolve git conflicts within Atom.
-  - [file icons]: _Assigns file extension icons and colours for improved visual grepping_
-  - [pigments]: A package to display colors in project and files.
-  - [todo-show]: Finds all the TODOs, FIXMEs, CHANGEDs, etc. in your project.
-  - [Markdown TOC]: Generate TOC (table of contents) of headlines from parsed markdown file
+We recommend you use [GitHub Desktop] as a Git Client; available for MacOS and Windows, and [Atom] as a text editor; available for MacOS, Windows and Linux. See our guides on [using Atom] and [using GitHub Desktop].
 
 {% include _notices/note.html title="Recommended software is really recommendable" text="To simplify things, all of our tutorials are with our recommended software and packages" %}
 
 Some of these steps require that you use a Terminal, which is a direct line (a command line) with your computer. If you are a first-time user, don't be intimidated, it is as easy as copy-paste!
 
-1. Install Git
-If you downloaded GitHub Desktop, it installs it for you.
-
-2. Install [ruby](https://www.ruby-lang.org/en/documentation/installation/) and (if you have OS X you already have ruby)
+1. Install [ruby](https://www.ruby-lang.org/en/documentation/installation/) and (MacOS users can skip this step.
 
   2.1 Install mpapis public key
   ```
@@ -102,10 +86,7 @@ time someone pushes to the master branch of the
 
 ---
 
-In order to run locally you have to use the terminal. If you have never used it, don’t worry! It is as easy as copy & paste.
-The instructions and programs you need depend on your operating system (OSx, Windows, or Linux), pleas
-
-### Mac users 
+### Mac users
 1. Install all the command line tools
 	- Copy the following command line
 	- Paste in your terminal
@@ -115,12 +96,14 @@ xcode-select — install
 	- A popup window will appear, select install. And you are done
 2.Install dependencies using bundler
 
-If you are going to use
 
-Thank you and have fun!
+> Draft
+
 
 [GitHub Desktop]: https://desktop.github.com/
 [Atom]: https://atom.io/
+[using atom]: /help/tutorials/
+[using Github Desktop]:
 [file icons]: https://atom.io/packages/file-icons
 [pigments]: https://atom.io/packages/pigments
 [todo-show]: https://atom.io/packages/todo-show

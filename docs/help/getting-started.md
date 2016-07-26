@@ -4,110 +4,82 @@ permalink: /help/getting-started/
 title: Getting Started
 ---
 
-> Draft
+> Please revise Draft!
 
-**"How can I use the database? How can I obtain the entire dataset? How can I contribute with data? How can I get involved in the project?"**
-
-This is the kickstart guide to help you get on the right path. Look out for [helpful hints].
-
----
-
-### Table of Contents
-
-- [Structure of the Database](#Structure-of-the-Database)
-	- [Classification of the Entries](#Classification-of-the-Entries)
-	- [Anatomy of an Entry](#Anatomy-of-an-Entry)
-- [Obtaining the Dataset]()
-- [Using the Database]()
-	- [Table of Entries](#Table-of-Entries)
-- [Contributing to the Database]()
----
-
-## Structure of the Database
-The database has been designed to mimic the wiki design.
-
-### Classification of the Entries
-Entries have been classified broadly in eight classes:
-
-- {% include _fa/project.html %}**Projects**: which are characterized usually for having specific tasks and/or a desired outcome
-- {% include _fa/startup.html %}**Startups**: are entrepreneurial ventures, and generally concern products or services
-- {% include _fa/lab.html %}**Labs**: are dedicated physical spaces with lab equipment for DIYbio related activities
-- {% include _fa/incubator.html %}**Incubators**: are organizations and spaces that help projects, startups, etc. to develop
-- {% include _fa/group.html %}**Groups**: are online/offline associations of people interested in discussing or developing DIYbio related topics or activities.
-- {% include _fa/network.html %}**Networks**: website, service or organization that connects people, projects, etc. in relation to DIYbio
-- {% include _fa/event.html %}**Events**: Global or regional events that are by and/or for the DIYbio community, like (un)conferences, camps, hackathons, accelerators, etc.
-- {% include _fa/other.html %}**Others**: Is an umbrella term for the all the rest. Eventually as new entries begin to define themselves a new category may be created
-
-### Anatomy of an Entry
-The content of an entry is divided in two parts:
-
-- The _written description_ of the initiative with the following suggested content:
-	-
-  - **About**
-  - **History**
-
-- The _data_ is displayed inside an box in the right side of the page. This data is collected from Jekyll's _front matter_ with the following fields:
-
-  - The **logo** or **title** of the entry and link to it's **homepage**
-  - The {% include _oi/gift.html %} **starting date** and end date if it applies; these entries are "inactive". In the Events class, this reflects the event's calendar
-  - the {% include _oi/home.html %} **host**,
-  - the {% include _oi/gear.html %} **type** of initiative
-  - the {% include _oi/organization.html %} **affiliates**
-  - the {% include _oi/location.html %} **address** and **directions**
-  - the {% include _oi/globe.html %} location which includes **city**, **postcode**, **state**, and **country**
-  - the {% include _oi/tag.html %} **keywords**
-  - the {% include _oi/thumbsup.html %} **social media** and more...
-
-## Obtaining the Dataset
-**Source**: The source-files are in the [sphere.dir] repository in GitHub, inside the folder `_database` in their respective class folder.
-
-**List of entries**: in the websearch page of "List of entries", you can download the CSV of the displayed table.
-
-**Complete data table**: All the filled-in data provided in the front matter section can be downloaded with the following links as [CSV] or [JSON]
+This is the kickstart guide to getting familiar with _using_ the database, and _contributing_ to the project of the DIYbiosphere. For a more general introduction of the project see our [Overview]. Look out for [helpful hints].
 
 ## Using the Database
-You can access the entries of the database on our website: [sphere.diybio.org]. In our home page you can directly search for entries with keywords (i.e. lab, Geneva, Bioscope) or do an `Advanced Search` with predetermined filters.
+The database refers to all the entries of DIYbio initiatives.
 
-### Table of Entries
-You can see a list of entries with the search query, or filters if they were specified and you can further sort and filter the table, as well as do further searches within that table.
+### Searching Through the Database
+You can access the entries at: [sphere.diybio.org]. In the home page you can directly search for entries with keywords (i.e. Lab, Geneva, Bioscope) or do an Advanced Search with predetermined filters. Your Search Query will return a Table of Entries that match your Search. You can further search, filter and sort the table. The search bar in the navigation bar searches throughout all the site including the documentation.
+
+### Structure of Entries
+Entries are divided into eight collections: _Projects_, _Startups_, _Labs_, _Incubators_, _Groups_, _Networks_, _Events_, and _Others_. For a more detailed description of these see the [classification of entries].
+
+Each entry two parts: a body of text that contains the descriptive story of the initiative (About, History), and an infobox in the top right-hand corner which contains the entry's data. For a more detailed explanation see the [fields of infobox].
+
+### Obtaining the Dataset
+The data collected in the infobox is completely open and free to (re)use. There are three ways to download it.
+
+- **Table of Entries**: Every search query that returns the table of entries can be downloaded as a CSV file.
+- **Entire Table**: All the data in the 'front-matter' of the all entries is aggregated and compiled as a CSV file and can be downloaded as the [complete dataset].
+- **Source**: The source-files of the entries are in the [sphere.dir] repository in GitHub in each collection folder.
+
 
 ## Contributing to the Database
+The **only requirement** you need to contribute is a GitHub account, so [Sign up] if you don't have one. If you are new to GitHub we made an [ELI5 guide] (Explain like I'm 5) for the utterly confused. :smile:
 
-
-#### Before you Begin
-The **only requirement** you need to contribute is a GitHub account, so [Sign up] if you don't have one. If you are new to GitHub, the [GitHub Glossary] is an excellent starter! Otherwise, check out our [ELI5 guide] for the utterly confused. :smile:
-
-Please be aware that by participating in this project, you agree to abide by our [Code of Conduct] (CoC), and consent to our copyright terms [Contributor License Agreement] (CLA).
-
-
-
-
-
-### _How_ do you contribute
-Your options, in order of engagement, are the following:
-
-  - **Submit an issue**: with your [request], [question], [idea], and hope someone will pick it up. Follow the [issue guidelines] if you want to be taken seriously.
-  - **Comment, answer, and vote**: Others may submit issues because they are asking a question, for help, or feedback.
-  - **Fork, commit, and pull request**: your contribution! This is the best part of being an open-source project. Step-up and Do-it-Yourself :smile:!
-
-
+{% include _notices/note.html title="By contributing you agree to..." text="Abide by our [Code of Conduct](/about/coc/), and consent to our [Copyright terms](/about/license/)." %}
 
 ### _What_ can you contribute to?
-There are four types of work in the project:
+There are four types of work in the project; briefly explained with links for each to a more detailed description of their configurations.
 
-- the database is the entries of the DIYbio initiatives. These are plain text files with [Markdown syntax]. No skills required!
-- the documentation, or docs, is the guides, tutorials, and reference manual (like this page). These are also plain text files.
-- the build, or code, is the part that converts the text files into data and a readable website. Coding skills are helpful.
-- the design is all about the user experience, the aesthetics and interface of the website. Design skills recommended.
+- **[Database]**: is the entries of the DIYbio initiatives. These are plain text files in Markdown. No skills required to contribute! Learn how [simple markdown] really is!
+- **[Documentation]**: or **docs**, is all the explanatory material related to the project (like guides and tutorials). These are also plain text files.
+- **[Development]**: is the code that converts the text files into data and a readable website. Coding skills are helpful.
+- **[Design]** is all about the user experience, the aesthetics and interface of the website. Design skills recommended.
+
+### _How_ do you contribute
+There are many ways you can contribute to the project. Please follow our [Contributing guidelines]. We organize the development of the project with [Issues]:
+
+  - **Submit a a new issue**: with your [complaint], [question], [idea]. Someone from the development community will hopefully pick it up soon!
+  - **Comment, answer, and vote**: See how you can help out by moving our issues along: answer a [question], [vote] on a feature or enhancement, give back [feedback], assist in [resolving] issues!
+  - **Fork, commit, pull request** your contributions! Tackle [easy] or [critical] issues or see if you can [help] someone on their request.
+
+### Want to get more involved?
+[Join our development community!] We maintain a more active discussion and conversation on our [Slack Team], [Request an invite!].
 
 
-
-[Helpful hints]: http://sphere.diybio.org/help/hints/
-[code of conduct]: http://sphere.diybio.org/coc/
-[contributor terms]: #
-[Sign up]: #
+[overview]: /about/overview/
+[basic components of the database]: /help/basics/#database
+[sphere.diybio.org]: http://sphere.diybio.org
+[classification of entries]: /help/basics/
+[fields of infobox]: /help/basics/
+<!-- TODO: add link to complete dataset -->
+[complete dataset]: #
+[sign-up]: https://github.com/join
+[ELI5]: /help/eli5-guide/
+[sphere.dir]: https://github.com/DIYbiosphere/sphere.dir
+[Helpful hints]: /help/hints/
+[code of conduct]: /about/coc/
 [Github glossary]: https://help.github.com/articles/github-glossary/
-[Database]: #
-[Documentation]: #
-[Development]: #
-[Design]: #
+[Database]: /help/basics/#Database
+[Documentation]: /help/basics/#Documentation
+[Development]: /help/basics/#Development
+[Design]: /help/basics/#Design
+[simple markdown]: /help/simple-markdown/
+[complaint]: /help/contributing/#report-a-bug
+[question]: /help/contributing/#ask-a-question
+[idea]: /help/contributing/#make-a-suggestion
+[vote]: /help/workflow/#adding-reactions
+[Contributing guidelines]: /help/contributing/
+[Issues]: https://github.com/DIYbiosphere/sphere.dir/issues
+[easy]: https://github.com/DIYbiosphere/sphere.dir/labels/easy
+[feedback]: https://github.com/DIYbiosphere/sphere.dir/labels/feedback%20wanted
+[critical]: https://github.com/DIYbiosphere/sphere.dir/labels/critical
+[help]: https://github.com/DIYbiosphere/sphere.dir/labels/help%20wanted
+[resolving]: https://github.com/DIYbiosphere/sphere.dir/labels/resolution%20needed
+[Join our development community!]: /help/contributing/#requesting-membership
+[Slack Team]: https://diybiosphere.slack.com/
+[Request an invite!]: https://diybiosphere.herokuapp.com/

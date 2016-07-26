@@ -17,7 +17,7 @@ We really appreciate your interest in our project and we would :heart: your cont
 ## About
 [The DIYbiosphere] is a participatory project to create a database of Do-It-Yourself Biology (DIYbio) initiatives from all over the world. The project is public; open for anyone to add and edit entries, as well as to shape the overall project. The goal is to have a shared and common platform that can connect people and ideas in all its possibilities. With the open data we gather we plan to map and visualize the DIYbio community in all its diversity across time and space in the hopes that we may learn more about the movement and its futures.
 
-We have our own [entry] in the database which you can check out!
+We have our own [entry] in the database! Go check it out!
 
 ### How it works
 The database functions similar to a wiki. Each entry has it's own webpage with a written description and a box displaying some of the initiative's data. Instead of using the wiki software we use [GitHub Pages] to host and build the database from simple text files with [Markdown] syntax.
@@ -40,14 +40,14 @@ You can engage with the DIYbiosphere is many ways (in increasing order of engage
 
 
 #### Get involved
-- **Join the conversation**. We chat on [Gitter] and on [Slack]. Here we plan the development of the project.
-- **Join the development community**. The project is managed by members of the [DIybiosphere organization]. [Join us] and enjoy writing access to the repository!
+- **Join the conversation**. You can freely join the [Gitter chatroom], or [join us on Slack] at [DIYbiosphere.slack.com]. Here we plan the development of the project.
+- **Join the development community**. The project is managed by members of the [DIYbiosphere organization]. [Request an invite] and enjoy writing access to the repository!
 
 
 ## Learn More
-See our [Getting Started] guide to _using_ and _contributing_ to the project. Please follow our [Contributing guidelines].
-
 Get a general [Overview] of the entire project page and where it is heading next in our [Road Map].
+
+See our [Getting Started] guide to _using_ and _contributing_ to the project. Please follow our [Contributing guidelines]. We have an [ELI5 guide] (Explain Like I'm 5) for the utterly confused.
 
 ## Copyright
 The work in this project is freely available to use, modify and distribute.
@@ -58,19 +58,24 @@ You can review our [License] file for a human-readable version of the copyright,
 
 If you wish to credit our work, please do so as “© DIYbiosphere contributors” or “© DIYbiosphere"
 
-[The DIYBiosphere]: http://sphere.diybio.org/
+[The DIYbiosphere]: http://sphere.diybio.org/
 [about]: http://sphere.diybio.org/about/
 [entry]: http://sphere.diybio.org/database/projects/DIYbiosphere-ZZ
 [github pages]: https://pages.github.com/
 [Markdown]: https://guides.github.com/features/mastering-markdown/
+[add]: http://sphere.diybio.org/help/tutorials/add-entry/
+[update/edit]: http://sphere.diybio.org/help/tutorials/edit-entry/
 [issues]: https://github.com/DIYbiosphere/sphere.dir/issues
-[Gitter]: https://gitter.im/DIYbiosphere/sphere.dir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
-[Slack]: https://diybiosphere.herokuapp.com/
-[DIYbiosphere organization]: #
-[join us]: http://sphere.diybio.org/help/contributing/#apply-for-membership
+[Gitter chatroom]: https://gitter.im/DIYbiosphere/sphere.dir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
+[join us on Slack]: https://diybiosphere.herokuapp.com/
+[DIYbiosphere.slack.com]: https://diybiosphere.slack.com
+[DIYbiosphere organization]: http://sphere.diybio.org/about/community/
+[request an invite]: http://sphere.diybio.org/help/contributing/#apply-for-membership
+[overview]: http://sphere.diybio.org/about/overview
+[road map]: http://sphere.diybio.org/news/roadmap/
 [Getting started]: http://sphere.diybio.org/help/getting-started/
 [Contributing guidelines]: http://sphere.diybio.org/contributing/
-[follow]: https://twitter.com/DIYbiosphere
+[ELI5 guide]: http://sphere.diybio.org/help/ELI5/
 [MIT]: https://opensource.org/licenses/MIT
 [CC0]: https://creativecommons.org/publicdomain/zero/1.0/
 [LICENSE]: http://sphere.diybio.org/about/copyright/license/

@@ -4,6 +4,28 @@ permalink: /draft/
 title: Draft
 ---
 
+
+<button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Established-Extinction">
+<i class="octicon octicon-gift"></i></button>
+
+<button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Parent/Host">
+<i class="octicon octicon-home"></i></button>
+
+<button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Type">
+<i class="octicon octicon-gear"></i></button>
+
+<button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Affiliates">
+<i class="octicon octicon-organization"></i></button>
+
+<button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Address">
+<i class="octicon octicon-location"></i></button>
+
+ <button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Location">
+<i class="octicon octicon-globe"></i></button>
+
+<button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Keywords">
+<i class="octicon octicon-tag"></i></button>
+
 Why have two licenses?
 
 Why choose CC0 over CC-BY(+SA)?
@@ -23,7 +45,6 @@ In some cases, we may want to add many hints, but it can make the page look clut
 - {% include _oi/desktop.html %} Desktop {% include _notices/tutorial.html link="http://sphere.diybio.org" title="Steps" text="hello this is the help text" %} and this is a continuation.
 %}
 
-{% include media.html image=" " heading="my project name" text="here is my **explanation**" %}
 
 
 Name your entry. Our naming convention is ‘EntryName-ZZ.md’
