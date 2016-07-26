@@ -126,19 +126,19 @@
     });
 
     /**
-     * Bring in the database!
+     * Bring in the data!
      * @see "data/database.json"
      *
      * Get all database from the generated file and populates the table.
     */
     $.getJSON(baseUrl + '/js/data/database.json')
       .done(function(resp) { // when request succeded...
+        var data = [];
         var database = resp.database;
-        var collection = getCollectionCollection();
+        var collection = getCollection();
         console.log('collection to use: ', collection);
-        var data;
         if(collection) {
-          data = database.filter(function(initiative) {
+          data = database.filter(function(initiative) { // filter by collection
             return initiative.collection === collection;
           });
         } else data = database;
@@ -172,6 +172,12 @@
   }); // end document ready
 
   /********** Other methods **********/
+  
+  function getCollection() {
+    var pathname = window.location.pathname;
+    var chunks = pathname.split("/");
+    return chunks[chunks.length - 2];
+  }
 
   function getUrlParam(name, url) {
     if (!url) url = window.location.href;
@@ -181,11 +187,6 @@
     if (!results) return null;
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, " "));
-  }
-
-  function getCollectionCollection() {
-    var collection = $('#collection').text();
-    return collection
   }
 
 })($);
