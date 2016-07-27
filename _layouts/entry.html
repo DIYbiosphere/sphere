@@ -40,15 +40,16 @@ layout: default
 
         </h3>
           {% if page.since %}
-          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left"> Hello
-            <i class="octicon octicon-gift"></i></button> {{ page.since }}
+          <button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Established-Extinction">
+          <i class="octicon octicon-gift"></i></button> {{ page.since }}
             <br/>
           {% endif %}
 
         {% if page.host %}
           {% assign host = page.host %}
           {% if host.name %}
-            <i class="octicon octicon-home"></i>
+          <button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Parent/Host">
+          <i class="octicon octicon-home"></i></button>
             {{ host.name }}
             {% if host.sphere %}
               <a href="{{ page.host.biosphere | site.baseUrl }}">
@@ -63,11 +64,13 @@ layout: default
         {% endif %}
 
         {% if page.type %}
-        <i class="octicon octicon-gear"></i> {{ page.type }}
+        <button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Type">
+        <i class="octicon octicon-gear"></i></button> {{ page.type }}
         <br/>
         {% endif %}
       {% if page.affiliates %}
-        <i class="octicon octicon-organization"></i>
+      <button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Affiliates">
+      <i class="octicon octicon-organization"></i></button></i>
         {% for affiliate in page.affiliates %}
           {% if affiliate.name %}
             {{ affiliate.name }}
@@ -88,7 +91,8 @@ layout: default
       {% endif %}
 
       {% if page.address %}
-        <i class="octicon octicon-location"></i>
+      <button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Address">
+      <i class="octicon octicon-location"></i></button></i>
         {{ page.address }}
         <br>
       {% endif %}
@@ -101,7 +105,8 @@ layout: default
       {% endif %}
 
       {% if page.city or page.state or page.country %}
-      <i class="octicon octicon-globe"></i> {{ page.city }}
+      <button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Location">
+     <i class="octicon octicon-globe"></i></button></i> {{ page.city }}
         {% if page.state %}, {% endif %}
       {% endif %}
       {% if page.state %}
@@ -115,7 +120,8 @@ layout: default
       {% if page.tags %}
         <hr/>
         <div class="mar-btm">
-          <i class="octicon octicon-tag"></i> {{ page.tags | array_to_sentence_string }}
+          <button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Keywords">
+          <i class="octicon octicon-tag"></i></button> {{ page.tags | array_to_sentence_string }}
         </div>
       {% endif %}
     </div>
