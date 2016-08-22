@@ -9,6 +9,7 @@ This is the tutorial (4 steps) to add a new entry for team members. To edit an e
 
 Tutorial for non-members is [7 steps] and for members is [6 steps]. Learn more about our [development community]
 
+
 1. In your [master branch] of the repository, open the _database folder and choose a class folder for your new entry and **Create new file** named 'EntryName-ZZ.md'. Learn more about our [classification of entries] and [naming convention].
 2. **Copy and paste [entry template]**
 3. **Fill in your entry**

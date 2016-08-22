@@ -16,3 +16,6 @@ Throughout our documentation you may find the following hint boxes. They are mea
 {% include _notices/tldr.html title="Too Long; Didn't Read" text="Skip all that &quot;long&quot; text and read a super short summary" %}
 
 {% include _notices/eli5.html title="Explain Like I'm Five: Don't Panic!" text="Super simpler explanations of &quot;complex&quot; topics" %}
+
+
+In order to unclutter the page content. Some of these helpful hints appear as buttons which can expand. 
