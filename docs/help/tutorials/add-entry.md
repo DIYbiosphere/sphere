@@ -14,7 +14,7 @@ Tutorial for members is [6 steps] and for team members (managers, editors) is [4
 ![How to add an entry GIF](/assets/GIFs/add-entry.gif){:.img-responsive}
 
 1. **Fork** the [sphere.dir] repository to make changes
-2. In your forked copy, open the _database folder and choose a class folder for your new entry and **Create new file** named 'EntryName-ZZ.md'. Learn more about our [classification of entries] and [naming convention].
+2. In your forked copy, open the collection folder of your new entry and **Create new file** named 'EntryName-ZZ.md'. Learn more about [entry collections] and [naming convention].
 3. **Copy and paste [entry template]**
 4. **Fill in your entry**
 5. To save your changes **Commit changes**. Don't forget to add in a Subject line.
@@ -33,6 +33,6 @@ Thank you for your contribution! :heart:
 [4 steps]: /help/tutorials/add-entry-teams
 [development community]: #
 [entry template]: https://gist.githubusercontent.com/ahuacatl/954444c7f15a27190b0fd52e0021a58c/raw/91412b5ba78fb082b349776cf0a75d3c82f35da0/front-matter-template.md
-[classification of entries]: #
+[entry collections]: #
 [naming convention]: #
 [installation]: /help/install/

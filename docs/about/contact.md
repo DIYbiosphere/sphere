@@ -4,10 +4,10 @@ permalink: /about/contact/
 title: Contact
 ---
 
-We have several communication platforms you can use to get in contact with the development community:
+We have several communication platforms you can use to get in contact with the [development community]:
 
 **Github Issues**
-You can submit a new issue to our repository's [Issues] tab with a [question], [suggestion], or a [request to join] as a member. You can mention users (like @ahuacatl) and [teams] only if you are a [member]. It should go without saying, but you need a GitHub account for this.
+Submit a new issue to our repository's [Issues] tab with a [question], [suggestion], or a [request to join] as a member. Members can mention users (like @ahuacatl) and [teams] (learn more about [membership]. It should go without saying, but you need a GitHub account for this.
 
 **Gitter**
 Is a chat service that integrates with GitHub. You can freely join the chatroom: [gitter.im/DIYbiosphere/sphere.dir] for the repository. With Gitter, you can send a direct message (DM) to users in the chatroom; they have the same username as GitHub.
@@ -25,4 +25,4 @@ Is a very popular communication platform that offers integration with other serv
 [DIYbiosphere.slack.com]: https://diybiosphere.slack.com/
 [request an invite]: https://diybiosphere.herokuapp.com/
 [teams]: /about/community/#teams
-[member]: /about/community/#members
+[memberhip]: /about/community/#members
