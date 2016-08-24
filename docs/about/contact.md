@@ -4,7 +4,7 @@ permalink: /about/contact/
 title: Contact
 ---
 
-In this section we lay out the different communication platforms you can use to get in contact with the [development community]:
+_In this section we lay out the different communication platforms you can use to get in contact with the [development community]._
 
 #### Github Issues
 Submit a new issue to our repository's [Issues] tab with a [question], [suggestion], or a [request to join] as a member. Members can mention users (like @ahuacatl) and [teams] (learn more about [membership]. It should go without saying, but you need a GitHub account for this.

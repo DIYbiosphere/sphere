@@ -4,7 +4,7 @@ permalink: /about/overview/
 title: Overview of the DIYbiosphere
 ---
 
-In this section we give a general overview of the entire project by answering some questions.
+_In this section we give a general overview of the entire project by answering some questions._
 
 **_What is it?_**
 The DIYbiosphere is a participatory project to create a database of Do-It-Yourself Biology (DIYbio) initiatives from all over the world.

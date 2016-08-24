@@ -4,12 +4,16 @@ permalink: /help/workflow/
 title: Workflow Management
 ---
 
-In this section we detail the workflow of how the project is managed, specifically _Issues_ and _Pull Requests_ (PR), collectively refered to here as _Tickets_.
+_In this section we detail the workflow of how the project is managed, specifically Issues and Pull Requests (PR), collectively refered to here as Tickets._
 
-Tickets are classified and organized by [labels](#labels), [milestones](#milestones), [epics](#epics) and [boards](#boards). The two latter are features of [ZenHub] which we use for project management. It is free and has native integration with GitHub and works for Chrome and Firefox.
+{% include _notices/note.html title="Only members can manage tickets" text="Members of the [development Community](/about/community) have the privilege and the **responsability** to organize tickets to facilitate the collective workflow of the development of the project." %}
+
+Tickets are classified and organized by [Labels](#labels), [Milestones](#milestones), [Epics](#epics) and [Boards](#boards). The two latter are features of [ZenHub] which we use for project management. It is free and has native integration with GitHub and works for Chrome and Firefox.
+
+The following explains how the current practices for managing tickets in the DIYbiosphere project.
 
 ## Labels
-Labels are for categorizing and filtering tickets. The following labels apply:
+Labels are for categorizing and filtering tickets. The following labels are currently in place:
 
 - {% include _labels/bug.html %} are errors, undesired results or behaviors
 - {% include _labels/critical.html %} are high-priority tickets
@@ -26,6 +30,8 @@ Labels are for categorizing and filtering tickets. The following labels apply:
 - {% include _labels/question.html %} are questions that need answers
 - {% include _labels/resolution.html %} are tickets that need to be resolved soon
 
+{% include _notices/note.html title="Labels can be for PRs" text="Labels will be applied mostly to Issues. However, when PRs require review or encounter problems in merging, labels may be applied to indicate any additional information (like 'critical', 'help wanted')." %}
+
 
 ## Epics
 Epics is a feature by ZenHub that groups issues together. Epics are useful to implement when any or many of the following apply to an issue:
@@ -35,23 +41,25 @@ Epics is a feature by ZenHub that groups issues together. Epics are useful to im
 - It has several sub-tasks
 - It relates to other issues of a similar theme of work
 
-Issues should be maintained as modular as possible to encourage contributions.
+
+{% include _notices/tip.html title="Keep issues simple" text="Making issues as modular as possible encourages contributors to take it on." %}
 
 ## Milestones
-Milestones act as container for issues or as events, or achievement goals. This is useful for associating issues with specific features or project phases. Milestones are groups of issues that correspond to a project, feature, or time period. Like Beta Launch, October, Sprint, Redesign.
+Milestones are used for issues to act as containers, events, or achievement goals. This is useful for associating issues with specific features or project phases, or time periods.
 Milestones are used to track the progress of similar issues and pull requests as they're opened and closed over time. At a glance, you can easily see the progress of work in a milestone's lifetime.
 
 
 ## Boards
-Boards is a feature by ZenHub and is accesible as a tab. With boards, issues are classified along a development timeline as follows:
+Boards is a feature by ZenHub and is accesible as a tab. With boards, tickets are classified along a development pipeline as follows:
 
-- New issues: where uncategorised issues go
-- Discuss: are issues that should encourage contribut
-- Future: are issues that would like to get address
-- To Do:
-- In Progress:
-- Done:
-- Closed:
+- **New issues**: where uncategorised issues go
+- **Discuss**: are issues that should encourage contribut
+- **Future**: are issues that would like to get address
+- **To Do**:
+- **In Progress**:
+- **Done**:
+- **Closed**:
+
 
 
 ## Assignment
@@ -60,7 +68,7 @@ Assigning tasks help the community know who they can reach out to to help with t
 ## Additional organization of issues
 
 ### Adding reactions
-You can add reactions, a.k.a. emojis, to comments and text messages on 
+You can add reactions, a.k.a. emojis, to comments and text messages on
 
 ### Removing duplicates
 

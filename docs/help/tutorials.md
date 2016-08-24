@@ -22,6 +22,7 @@ title: Tutorials
 - [Using Atom](/help/tutorials/using-atom/)
 - [Using GitHub Desktop](/help/tutorials/using-githubdesktop/)
 - [Screen Capture GIFs](#How-to-make-screen-capture-GIFs)
+
 ---
 
 

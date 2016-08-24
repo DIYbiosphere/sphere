@@ -4,7 +4,7 @@ title: Installation Instructions
 permalink: /help/tutorials/install/
 ---
 
-This section details how to edit locally on your desktop.
+_This section details how to edit locally on your desktop._
 
 We recommend you use [GitHub Desktop] as a Git Client; available for MacOS and Windows, and [Atom] as a text editor; available for MacOS, Windows and Linux. See our guides on [using Atom] and [using GitHub Desktop].
 
