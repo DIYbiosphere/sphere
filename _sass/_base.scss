@@ -2,7 +2,7 @@ html, body {
   overflow-x: hidden;
   color: black;
   font-family: $fonts !important;
-  
+
   a {
     color: $hyperlink;
     cursor: pointer;
@@ -39,10 +39,10 @@ h5 {
 *  otherwise they are blocked by the top navbar
 */
 h2:before,
-h3:before { 
-  display: block; 
-  content: ""; 
-  margin: -113px 0 0; 
+h3:before {
+  display: block;
+  content: "";
+  margin: -113px 0 0;
   height: 113px;
 }
 
@@ -64,4 +64,33 @@ h3:before {
   font-size: 0.8em;
   letter-spacing: -0.9px;
   padding: 0.5em;
+}
+
+#icons {
+  display: inline-block;
+ fill: blue;
+
+  a {
+    fill: blue;
+
+    &:hover {
+      fill: red;
+    }
+  }
+}
+
+
+.icon {
+  display: inline;
+  fill: $primary;
+
+  :hover {
+  fill:blue;
+  }
+
+}
+
+
+body {
+  padding: 20px;
 }
