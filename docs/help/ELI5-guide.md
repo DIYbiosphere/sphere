@@ -4,11 +4,11 @@ permalink: /help/eli5-guide/
 title: Explain Like I'm 5 (ELI5) Guide
 ---
 
-This is a super-simple/101/beginner/crash-course/for-dummies guide to help out the utterly confused and introduce them to the basic terms and concepts to work with the DIYbiosphere project. 
+This is a super-simple/101/beginner/crash-course/for-dummies guide to help out the utterly confused and introduce them to the basic terms and concepts to work with the DIYbiosphere project.
 
 ### Explaining GitHub
 
-{% include _oi/github.html %} is a web platform that helps users collaborate on a _collection of files_, called {% include _oi/repo.html %} **repository** or **repo**, by providing _version control_ based on the **Git** software. Git usually runs by using the {% include _oi/terminal.html %} _command-line_ of your local machine, using GitHub is easier as it provides a visual interface accessible by any {% include _oi/browser.html %} browser, or you can download GitHub {% include _oi/desktop.html %} Desktop and work locally on your machine.
+{% include _oi/GithHub.html %} is a web platform that helps users collaborate on a _collection of files_, called {% include _oi/repo.html %} **repository** or **repo**, by providing _version control_ based on the **Git** software. Git usually runs by using the {% include _oi/terminal.html %} _command-line_ of your local machine, using GitHub is easier as it provides a visual interface accessible by any {% include _oi/browser.html %} browser, or you can download GitHub {% include _oi/desktop.html %} Desktop and work locally on your machine.
 
 Git works by saving _snapshots_, called {% include _oi/commit.html %} commits, of the changes in the repository; making changes easy to track and reverse.
 
