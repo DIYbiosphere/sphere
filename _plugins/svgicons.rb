@@ -7,7 +7,7 @@ module Jekyll
 		end
 
 		def render(context)
-			"<svg class=\"icon\"><use xlink:href=\"/assets/icons.svg\##{@icon}\" /></svg>"
+			"<div><svg class=\"icon\"><use xlink:href=\"/assets/icons.svg\##{@icon}\" /></svg></div>"
 		end
 	end
 end
