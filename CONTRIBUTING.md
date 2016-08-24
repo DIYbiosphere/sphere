@@ -7,7 +7,7 @@ title: Contributing
 # Contributing Guide
 We really appreciate your interest in our project. We :heartpulse: contributions! By contributing, you agree to abide to our [Code of Conduct] and consent to our [Copyright Terms].
 
-The following is a set of guidelines for submitting Issues and Pull requests, and for making Commit messages.
+The following is a set of guidelines for submiting [Issues](#Submitting Issues) and [Pull requests](#Submitting Pull Requests), and for making [Commit messages](#Making Commits).
 
 Check out the [Getting Started] guide to learn how to _use_ and _contribute_ to the database. We also have an [ELI5 guide] (Explain like I'm 5) for the utterly GitHub confused! See our [tutorials], like for [adding a new entry] or [editing an entry].
 
@@ -40,28 +40,28 @@ Please consider the following before submitting a new issue:
 ## Report a bug
 A bug :bug: is an error that produces unexpected or undesired results. Follow these guidelines when submitting:
 
-- Describe the problem and how you encountered it.
+- Describe the problem and how you encountered it
 - If appropriate, include your operating system and version, browser and version, other software, etc.
-- Describe how it should work instead.
-- Provide as much useful visual content as you can (screenshots and screencaptures).
+- Describe how it should work instead
+- Provide as much useful visual content as you can ([screenshots] and [screencaptures])
 
 
 ## Make a suggestion
 Share with us a suggestion for a new feature or an enhancement. Please follow these guidelines when submitting:
 
 - Describe as much as possible what your idea is
-- Describe how it would work, or how it would look like
+- Describe how it would work or how it would look like
 - Share examples and references and include links, images, and GIFs.
 
 ## Ask a question
-Please include a question mark `?` in the title of the Issue. You can also ask on our other [communication platforms].
+Please include a question mark `?` in the title of the Issue. You can also asks questions in our [Gitter chatroom], in our [Slack channels] or direct message to a member in either platform. You can freely enter the chatroom and you can [request an invite] to our Slack team.
 
 Make sure to check out our [FAQs] for a list of common questions.
 
 ## Request membership
 Submit a new issue with the Title: 'Requesting membership' and in the Comment section add a description of yourself and why you would like to join (optional but useful for those considering your application). Also, please specify if you would like to be added to any [Teams].
 
-As a [member] of the [DIYbiosphere organization] in GitHub, you have more access permissions to the project!
+As a [member] of the [DIYbiosphere organization] in GitHub, you enjoy more access permissions to the project!
 
 # Making Commits
 Good commits speed the reviewing process and facilitate tracking past changes. If you are making many changes that are unrelated, or your commit title has the word 'and', split the commits! Please follow these guidelines for your commit messages:
@@ -80,7 +80,7 @@ Please consider the following before submitting a new PR:
 
 
 ## Merging
-If your PR does not pass the Travis build DO NOT merge! Check in [Travis] for the error, commit fixes to your branch or fork, sync them if working locally, and wait for the check to pass and then merge!
+If your PR does not pass the Travis build DO NOT merge! Check either in Travis or in Github, why it did not pass... make changes to your repository to fix these. Please also fix changes by hound. Commit these changes to your branch or fork. sync them. and wait for the checks to pass again!
 
 
 [Code of Conduct]: http://sphere.diybio.org/about/coc/

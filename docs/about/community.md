@@ -4,15 +4,15 @@ permalink: /about/community/
 title: Development Community
 ---
 
-In this section we explain how the project is managed by the development community of the DIYbiosphere.
+In this section we explain how the project is managed by the development community and how we organize.
 
-The development community is composed by members of the [DIYbiosphere organization] in GitHub. [Request membership] to join us! The benefit of being a [member](#members), and being in a [team](#teams), is that you have more, and more access permissions to the project.
+Any, and all users who contribute to the project are considered _contributors_. The _development community_ refers to members of the [DIYbiosphere organization] in GitHub. [Members](#members) have greater access permissions to the project and can be part of [Teams](#teams) who are key members with distict roles in the development and enjoy greater access privileges. Submit an issue to [request membership] and join us! 
 
-## Permission Levels
-There are different permission levels: _Read_, _Write_, _Admin_, and _Owner_. They are explained in much more detail by GitHub [here]. The most important and relevant ones are explained in this page.
+## Access Permission Levels
+There are different access levels: _Read_, _Write_, _Admin_, and _Owner_. They are explained by GitHub [here]. The most important and relevant ones are explained in this page.
 
 ## Non-members
-Anyone with a GitHub account can contribute to the DIYbiosphere project. Their contributions require more steps since they have to go through revisions by the development community. Basic actions of non-members are:
+Anyone with a GitHub account can contribute to the DIYbiosphere project. Their contributions require more steps to complete. Basic actions of non-members are:
 
 - Fork the repository
 - Submit Pull Requests
@@ -20,7 +20,7 @@ Anyone with a GitHub account can contribute to the DIYbiosphere project. Their c
 - Edit and delete their own comments
 - Edit wikis
 
-To edit the database, non-members have to fork, commit changes, submit a pull request, and wait for the merge by a member. See the tutorials for [adding an entry] and [editing an entry].
+To edit the database, non-members have to fork, commit changes, submit a pull request, and wait for the merge by a member. See tutorials for [adding an entry] and [editing an entry].
 
 ### Outside Collaborators
 Non-members can be assigned more permission levels by making them _Outside Collaborators_ and specifying their access level.
@@ -34,25 +34,31 @@ All [Members] of the organization have _Write_ permissions. In addition to the a
 - Have Issues and PR assigned to them
 - Edit and delete anyone's comments
 
-To edit, members have to commit changes to the [editable branch], submit pull request, and merge it themselves. See the tutorials for [adding] and [editing] an entry for members.
+To edit, members have to _commit_ changes to the [editable branch], submit pull request, and merge it themselves. See the tutorials for [adding] and [editing] an entry for members.
 
 
 ### Teams
-Members can join [Teams] which have specific functions and permissions. As a team member you have direct commit permissions to the master branch. Each team has a Team Maintainer who can add members to the team.
+Members can join [Teams] which have specific functions and permissions. As a team member you have **direct commit** permissions to the master branch. Each team has a Team Maintainer who can add members to the team.
 
-To edit, teams have to commit changes. See tutorials to [add] and [edit] entries for teams.
+To edit, teams have to only commit changes. See tutorials to [add] and [edit] entries for teams.
+
+The teams in the DIYbiosphere organization are:
 
 #### Managers
-Every entry should have a manager. [Managers] are the representatives and the users responsable for their entry. In addition, managers can join the team for their entry's collection: [Projects], [Startups], [Labs], [Incubators], [Groups], [Networks].
+Users in the [Managers Team] are all those responsable for the entry of their own initiative.  Managers should also join the _Collection Team_ their entry belongs to: [Projects Team], [Startups Team], [Labs Team], [Incubators Team], [Groups Team], [Networks Team], [Events Team], and [Others Team].
+
+**Every entry should have a manager!!**. 
 
 #### Editors
-Users who want to help manage content can join the [Editors] team. They are in charge of curating the database.
+Users who are active in the management and development of all (non-software) content should be part of the [Editors Team]. As editors they are in charge of curating the database and all of its entries. 
+
+Managers are not involved in discussions about the the development of the project, this is the job of the Editors. Managers will be braught to the discussion at later stages before implementing any changes to the structure or content of the entries. 
 
 #### Coders
-All those users who have coding skills and/or interested in the coding part of the project can join the [Coders] team.
+Users with coding skills and/or who are interested in the coding part of the project should join the [Coders Team]. Coders are in charge of the code that sustains the project and implement any enhancements or features to the software.
 
 #### Directors
-All the users that have owner permissions. [Directors] oversee the development of the project. Their reponsabilities include:
+Are users that have owner permissions. The [Directors Team] oversees the general direction and development of the project. Their reponsabilities include:
 
 - Inviting people to join the organization
 - Manage teams and collaborators (add/remove, promote team maintainers)

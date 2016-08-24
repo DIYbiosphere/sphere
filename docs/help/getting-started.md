@@ -12,12 +12,12 @@ This is the kickstart guide to getting familiar with _using_ the database, and _
 The database refers to all the entries of DIYbio initiatives.
 
 ### Searching Through the Database
-You can access the entries at: [sphere.diybio.org]. In the home page you can directly search for entries with keywords (i.e. Lab, Geneva, Bioscope) or do an Advanced Search with predetermined filters. Your Search Query will return a Table of Entries that match your Search. You can further search, filter and sort the table. The search bar in the navigation bar searches throughout all the site including the documentation.
+You can access the entries at: [sphere.diybio.org]. In the home page you can directly search for entries with keywords (i.e. Lab, Geneva, Bioscope) or do an Advanced Search with predetermined filters. Your Search Query will return a Table of Entries that match your search query. You can further search, filter and sort the table. The search bar in the navigation bar searches throughout all the site including the documentation.
 
 ### Structure of Entries
-Entries are divided into eight collections: _Projects_, _Startups_, _Labs_, _Incubators_, _Groups_, _Networks_, _Events_, and _Others_. For a more detailed description of these see the [classification of entries].
+Entries are divided into eight collections: _Projects_, _Startups_, _Labs_, _Incubators_, _Groups_, _Networks_, _Events_, and _Others_. For a more detailed description of these see the [collection of entries].
 
-Each entry two parts: a body of text that contains the descriptive story of the initiative (About, History), and an infobox in the top right-hand corner which contains the entry's data. For a more detailed explanation see the [fields of infobox].
+Each entry has two parts: a body of text that contains the descriptive content of the initiative (About, History), and an infobox in the top right-hand corner which contains the entry's data. Learn more about the [fields in infobox].
 
 ### Obtaining the Dataset
 The data collected in the infobox is completely open and free to (re)use. There are three ways to download it.
