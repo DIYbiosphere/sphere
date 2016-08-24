@@ -9,11 +9,10 @@ This is the tutorial (7 steps) to add a new entry. To edit an existing entry go 
 
 Tutorial for members is [6 steps] and for team members (managers, editors) is [4 steps]. Learn more about our [development community]
 
-{% include _notices/warning.html title="Before you begin, you should:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/about/copyright/license/)." %}
+{% include _notices/warning.html title="Before you begin, you must:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/about/copyright/license/)." %}
 
-![How to add an entry GIF](/assets/GIFs/add-entry.gif){:.img-responsive}
 
-1. **Fork** the [sphere.dir] repository to make changes
+1. **Fork** the [sphere.dir] repository to make changes ![fork button](/assets/screenshots/fork-button.png){:.img-responsive}
 2. In your forked copy, open the _database folder and choose a class folder for your new entry and **Create new file** named 'EntryName-ZZ.md'. Learn more about our [classification of entries] and [naming convention].
 3. **Copy and paste [entry template]**
 4. **Fill in your entry**
@@ -36,3 +35,5 @@ Thank you for your contribution! :heart:
 [classification of entries]: #
 [naming convention]: #
 [installation]: /help/install/
+
+[forking]: (/assets/screenshots/fork-button.png)

@@ -38,7 +38,7 @@ title: Show all icons
 {% icons openhardware %}
 {% icons opensource %}
 {% icons opera %}{% icons slack %}
-{% icons snapchat %}{% icons travis-t %}[{% icons travis %}](https://travis-ci.org/DIYbiosphere/sphere.dir){% icons twitter %}
+{% icons snapchat %}{% icons travis-t %}{% icons travis %}{% icons twitter %}
 {% icons windows %}
 {% icons zenhub %}
 

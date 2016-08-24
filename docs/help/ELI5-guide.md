@@ -4,16 +4,35 @@ permalink: /help/eli5-guide/
 title: Explain Like I'm 5 (ELI5) Guide
 ---
 
-> Rough Draft
+This is a super-simple/101/beginner/crash-course/for-dummies guide to help out the utterly confused and introduce them to the basic terms and concepts to work with the DIYbiosphere project.
 
-This is a super simple/101/beginner/crash course/for dummies guide to help out the utterly confused. In this section we will explain
+### Explaining GitHub
 
-First.
+{% include _oi/github.html %} is a web platform that helps users collaborate on a _collection of files_, called {% include _oi/repo.html %} **repository** or **repo**, by providing _version control_ based on the **Git** software. Git usually runs by using the {% include _oi/terminal.html %} _command-line_ of your local machine, using GitHub is easier as it provides a visual interface accessible by any {% include _oi/browser.html %} browser, or you can download GitHub {% include _oi/desktop.html %} Desktop and work locally on your machine.
 
-What is GitHub?
+Git works by saving _snapshots_, called {% include _oi/commit.html %} commits, of the changes in the repository; making changes easy to track and reverse.
 
-GitHub is a web service that hosts your project folder (or {% include _oi/repo.html %} repository/repo), just like Dropbox, it's in their cloud/server
-GitHub uses this software called Git,
+{% include _oi/fork.html %} Fork
+
+{% include _oi/branch.html %} Branch
+
+{% include _oi/merge.html %} Merge
+
+{% include _oi/branch.html %} Branch
+
+{% include _oi/pullrequest.html %} Pull Request
+
+
+
+The flagship functionality of GitHub is “forking” – copying a repository from one user’s account to another. This enables you to take a project that you don’t have write access to and modify it under your own account. If you make changes you’d like to share, you can send a notification called a “pull request” to the original owner. That user can then, with a click of a button, merge the changes found in your repo with the original repo.
+
+In addition, GitHub integrates a ticket system called **Issues** to keep track of tasks, bugs, feature requests and more. GitHub also allows users to comment, discuss, and react to Issues and Pull Requests. GitHub enables users to form organizations
+
+{% include _notices/note.html title="You should also know..." text="Keep track of our issues, and learn more about the DIYbiosphere organization and how you can join" %}
+
+
+### Explain the DIYbiosphere
+The DIYbiosphere project is stored as the sphere.dir repository, which holds the the entries of the database, as well as source code that builds and formats those files into a website.
 
 
 ## Forking
