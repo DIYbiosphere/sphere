@@ -10,6 +10,10 @@ This is the tutorial to **add** a new entry (7 steps total). To **edit** an exis
 
 The tutorials [for members] is [6 steps] and for team members (managers, editors) is [4 steps]. Learn more about our [development community]
 
+<<<<<<< HEAD
+=======
+{% include _notices/warning.html title="Before you begin, you must:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/about/copyright/license/)." %}
+>>>>>>> master
 
 
 1. **Fork** the [sphere.dir] repository to make changes
@@ -34,6 +38,14 @@ Thank you for your contribution! :heart:
 [4 steps]: /docs/help/tutorials/add-entry-teams
 [development community]: /docs/help/about/community/
 [entry template]: https://gist.githubusercontent.com/ahuacatl/954444c7f15a27190b0fd52e0021a58c/raw/91412b5ba78fb082b349776cf0a75d3c82f35da0/front-matter-template.md
+<<<<<<< HEAD
 [entry collections]: /docs/help/basics/database/
 [naming convention]: /docs/help/basics/database/
 [installation]: /docs/help/install/
+=======
+[entry collections]: #
+[naming convention]: #
+[installation]: /help/install/
+
+[forking]: (/assets/screenshots/fork-button.png)
+>>>>>>> master

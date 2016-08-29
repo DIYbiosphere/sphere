@@ -45,7 +45,12 @@ Epics is a feature by ZenHub that groups issues together. Epics are useful to im
 {% include _notices/tip.html title="Keep issues simple" text="Making issues as modular as possible encourages contributors to take it on." %}
 
 ## Milestones
+<<<<<<< HEAD
 Milestones track the progress of the development through the opening and closing of tickets. Milestones are useful for associating tickets with specific features, project phases or achievement goals, time periods, and events.
+=======
+ Milestones act as container for issues or as events, or achievement goals. This is useful for associating issues with specific features or project phases. Milestones are groups of issues that correspond to a project, feature, or time period. Like Beta Launch, October, Sprint, Redesign.
+Milestones are used to track the progress of similar issues and pull requests as they're opened and closed over time. At a glance, you can easily see the progress of work in a milestone's lifetime.
+>>>>>>> master
 
 
 ## Boards
@@ -59,19 +64,38 @@ Boards is a feature by ZenHub and is accesible as a tab. With boards, tickets ar
 - **Done**: for tickets that have been completed. This step is useful for when tasks in a ticket have been completed, but need revision or a final step before closing. It is necessary to mark in a comment, what is required to close the ticket.
 - **Closed**: for tickets that have been closed.
 
+https://guides.github.com/introduction/flow/
+
+https://guides.github.com/activities/contributing-to-open-source/
+
+https://guides.github.com/activities/forking/
+
+https://guides.github.com/features/issues/
+
 ## Assignment
 Assigning tasks to users help the community know who they can reach out to to help with an issue or to collaborate and discuss further an issue or PR. Only members and outside collaborators can be assigned tasks.
 
 ## Additional organization of tickets
 Tickets
 
+<<<<<<< HEAD
 ## Creating a good ticket
 A good ticket should have a concise and clear title.
 See our Contributing Guidelines for submitting issues, PRs. Title and descriptions can often follow the same as good commit messages.
 In addition. It is also useful to add checklists. If the ticket is too complicated for checklists.. consider turning it into an epic. 
+=======
+
+
+## Additional organization of issues
+>>>>>>> master
+
 
 ### Adding reactions
 You can add reactions, a.k.a. emojis, to comments and text messages on
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 
 ### Removing duplicates
 
