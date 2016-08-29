@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /help/glossary/
+permalink: /docs/help/glossary/
 title: Glossary of Terms
 ---
 > Draft
@@ -17,21 +17,21 @@ In this section we
 
 {% include _oi/zap.html %} **fork** a cloned copy of a project
 
-{% include _oi/zap.html %} **branch** 
+{% include _oi/zap.html %} **branch**
 
-{% include _oi/zap.html %} **commit** 
+{% include _oi/zap.html %} **commit**
 
-{% include _oi/zap.html %} **issue** 
+{% include _oi/zap.html %} **issue**
 
 {% include _oi/zap.html %} **pull request**
 
-**merge** 
+**merge**
 
 **repository** or **repo** the collection of files of you project.
 
 ## Project Terms
 
-**DIYbiosphere** or **sphere** refers to the project, it includes the 
+**DIYbiosphere** or **sphere** refers to the project, it includes the
 
 **DIYbiosphere organization** or just **organization**
 
@@ -49,7 +49,7 @@ In this section we
 
 **front matter**
 
-**infobox** refers to the box located in the top-right hand corner of an entry's page and contains the factual data related to the entry. The entry's fields are explained here. 
+**infobox** refers to the box located in the top-right hand corner of an entry's page and contains the factual data related to the entry. The entry's fields are explained here.
 
 **fields** usually refers to the the information required in the front matter of each entry and shown in the infobox
 
@@ -77,4 +77,3 @@ In this section we
 **Gitter**
 
 **Slack**
-

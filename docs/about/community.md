@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /about/community/
+permalink: /docs/about/community/
 title: Development Community
 ---
 
@@ -74,16 +74,16 @@ Anyone can become a Director. Directors are expected to have the following chara
 
 [Repository]: https://github.com/DIYbiosphere/sphere.dir "Go to DIYbiosphere repository"
 [DIYbiosphere organization]: https://github.com/DIYbiosphere "Go to the DIYbiosphere organization GitHub page"
-[Request membership]: /help/contributing/#request-membership "How to request membership"
+[Request membership]: /docs/help/contributing/#request-membership "How to request membership"
 [here]: https://help.github.com/articles/repository-permission-levels-for-an-organization/ "Learn about permission levels from GitHub"
-[workflow management]: /help/workflow/ "Learn how tickets are managed and organized"
-[adding an entry]: /help/tutorials/add-entry/ "How to add an entry"
-[editing an entry]: /help/tutorials/edit-entry/ "How to edit an entry"
+[workflow management]: /docs/help/workflow/ "Learn how tickets are managed and organized"
+[adding an entry]: /docs/help/tutorials/add-entry/ "How to add an entry"
+[editing an entry]: /docs/help/tutorials/edit-entry/ "How to edit an entry"
 [editable branch]: https://github.com/DIYbiosphere/sphere.dir/tree/editable "Go directly to the "
-[adding]: /help/tutorials/add-entry-member/ "How to add an entry"
-[editing]: /help/tutorials/edit-entry-member/ "How to edit an entry"
-[add]: /help/tutorials/add-entry-teams/ "How to add an entry"
-[edit]: /help/tutorials/edit-entry-teams/ "How to edit an entry"
+[adding]: /docs/help/tutorials/add-entry-member/ "How to add an entry"
+[editing]: /docs/help/tutorials/edit-entry-member/ "How to edit an entry"
+[add]: /docs/help/tutorials/add-entry-teams/ "How to add an entry"
+[edit]: /docs/help/tutorials/edit-entry-teams/ "How to edit an entry"
 [Members]: https://github.com/orgs/DIYbiosphere/people "See all members of the DIYbiosphere organization"
 [Teams]: https://github.com/orgs/DIYbiosphere/teams "See all teams of the DIYbiosphere"
 [Managers Team]: https://github.com/orgs/DIYbiosphere/teams/managers "See all Managers"
@@ -98,5 +98,5 @@ Anyone can become a Director. Directors are expected to have the following chara
 [Editors Team]: https://github.com/orgs/DIYbiosphere/teams/editors "See all Editors"
 [Coders Team]: https://github.com/orgs/DIYbiosphere/teams/coders "See all Coders"
 [Directors Team]: https://github.com/orgs/DIYbiosphere/teams/directors "See all Directors"
-[code of conduct]: /about/coc/ "Learn the Code of Conduct of the DIYbiosphere project"
+[code of conduct]: /docs/about/coc/ "Learn the Code of Conduct of the DIYbiosphere project"
 [@DIYbiosphere/editors]: https://github.com/orgs/DIYbiosphere/teams/editors

@@ -1,6 +1,6 @@
 ---
 layout: repo-doc
-permalink: /help/contributing/
+permalink: /docs/help/contributing/
 title: Contributing
 ---
 
@@ -83,15 +83,15 @@ Please consider the following before submitting a new PR:
 If your PR does not pass the Travis build DO NOT merge! Check either in Travis or in Github, why it did not pass... make changes to your repository to fix these. Please also fix changes by hound. Commit these changes to your branch or fork. sync them. and wait for the checks to pass again!
 
 
-[Code of Conduct]: http://sphere.diybio.org/about/coc/
-[Copyright Terms]: http://sphere.diybio.org/about/copyright/license/
+[Code of Conduct]: http://sphere.diybio.org/docs/about/coc/
+[Copyright Terms]: http://sphere.diybio.org/docs/about/copyright/license/
 [Issues]: https://github.com/DIYbiosphere/sphere.dir/issues
 [Pull Requests]: https://github.com/DIYbiosphere/sphere.dir/pulls
-[Getting Started]: /help/getting-started
-[Eli5 Guide]: /help/eli5-guide/
-[tutorials]: /help/tutorials/
-[adding a new entry]: /help/tutorials/add-entry/
-[editing an entry]: /help/tutorials/edit-entry/
+[Getting Started]: /docs/help/getting-started
+[Eli5 Guide]: /docs/help/eli5-guide/
+[tutorials]: /docs/help/tutorials/
+[adding a new entry]: /docs/help/tutorials/add-entry/
+[editing an entry]: /docs/help/tutorials/edit-entry/
 [Github issues]: https://guides.github.com/features/issues/
 [Issues tab]: https://github.com/DIYbiosphere/sphere.dir/issues
 [project’s issues]: https://github.com/DIYbiosphere/sphere.dir/issues
@@ -100,17 +100,17 @@ If your PR does not pass the Travis build DO NOT merge! Check either in Travis o
 [Slack]: https://diybiosphere.slack.com/
 [request an invite]: https://diybiosphere.herokuapp.com/
 [1]: #
-[FAQs]: /help/faq/
-[Teams]: /about/community/#Teams
-[member]: /about/community/#member
-[DIYbiosphere organization]: /about/community/
-[permission levels]: /about/community/#permission-levels
-[duplicates]: /help/workflow/#removing-duplicates
-[vote]: /help/workflow/#adding-reactions
-[Classify]: /help/workflow/
-[labels]: /help/workflow/#labels
-[milestones]: /help/workflow/#milestones
-[boards]: /help/workflow/#boards
+[FAQs]: /docs/help/faq/
+[Teams]: /docs/about/community/#Teams
+[member]: /docs/about/community/#member
+[DIYbiosphere organization]: /docs/about/community/
+[permission levels]: /docs/about/community/#permission-levels
+[duplicates]: /docs/help/workflow/#removing-duplicates
+[vote]: /docs/help/workflow/#adding-reactions
+[Classify]: /docs/help/workflow/
+[labels]: /docs/help/workflow/#labels
+[milestones]: /docs/help/workflow/#milestones
+[boards]: /docs/help/workflow/#boards
 
 
 http://mozillascience.github.io/working-open-workshop/contributing/

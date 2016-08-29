@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Code of Conduct
-permalink: /about/coc/
+permalink: /docs/about/coc/
 ---
 
 This Code of Conduct\* (CoC) applies to project spaces and public spaces when an individual is representing the project or its community, online and offline.

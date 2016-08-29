@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /about/overview/
+permalink: /docs/about/overview/
 title: Overview of the DIYbiosphere
 ---
 
@@ -40,20 +40,20 @@ See our [Getting Started] guide to kickstart you into _using_ and _contributing_
 In our _Documentation_ section. Learn how the project is managed, follow our updates, or check out our guides and tutorials for contributing.
 
 [DIYbiosphere organization]: https://github.com/DIYbiosphere "Go to the DIYbiosphere organization GitHub page"
-[join in]: /help/contributing/#request-membership "How to request membership"
+[join in]: /docs/help/contributing/#request-membership "How to request membership"
 [sphere.diybio.org]: http://sphere.diybio.org/ "Go to DIYbiosphere homepage"
 [DIYbiosphere/sphere.dir]: https://github.com/DIYbiosphere/sphere.dir "Go to DIYbiosphere database repository"
-[adding]: /help/tutorials/add-entry/ "How to add an entry"
-[editing]: /help/tutorials/edit-entry/ "How to edit an entry"
+[adding]: /docs/help/tutorials/add-entry/ "How to add an entry"
+[editing]: /docs/help/tutorials/edit-entry/ "How to edit an entry"
 [issues]: https://github.com/DIYbiosphere/sphere.dir/issues "Go to our GitHub Issues"
-[Getting Started]: /help/getting-started/ "How to use and contribute to the database"
+[Getting Started]: /docs/help/getting-started/ "How to use and contribute to the database"
 [Citizen Sciences]: http://citizensciences.net/ "Go to Citizen Sciences homepage"
 [DIYbio.org]: https://diybio.org/ "Go to DIYbio.org homepage"
 [Local]: https://diybio.org/local/ "Go to the local list of DIYbio.org"
 [GitHub Pages]: https://pages.github.com/ "Learn about GitHub Pages from GitHub"
 [Markdown]: https://guides.github.com/features/mastering-markdown/ "Learn about Markdown from GitHub"
 [Jekyll]: https://jekyllrb.com/ "Go to Jekyll's homepage"
-[Development]: /help/basics/#development "Learn more about the basics of the development"
-[defining collections]: /help/basics/databse/#collection-of-entries
-[ElI5 Guide]: /help/eli5-guide/
-[Contributing Guide]: /help/contributing/
+[Development]: /docs/help/basics/#development "Learn more about the basics of the development"
+[defining collections]: /docs/help/basics/databse/#collection-of-entries
+[ElI5 Guide]: /docs/help/eli5-guide/
+[Contributing Guide]: /docs/help/contributing/

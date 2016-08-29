@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /about/contact/
+permalink: /docs/about/contact/
 title: Contact
 ---
 
@@ -15,15 +15,15 @@ Is a chat service that integrates with GitHub. You can freely join the chatroom:
 #### Slack
 Is a very popular communication platform that offers integration with other services including GitHub notifications. We have our own Slack: [DIYbiosphere.slack.com]. You have to [request an invite], which you receive by email. You will instantly join all the channels, but you can leave or mute them.  Post your message in a channel or DM other users.
 
-[development community]: /about/development-community "Learn more about the development community"
+[development community]: /docs/about/development-community "Learn more about the development community"
 [Issues]: https://github.com/DIYbiosphere/sphere.dir/issues "Go to our GitHub Issues"
-[question]: /help/contributing/#ask-a-question "How to submit a question"
-[suggestion]: /help/contributing/#make-a-suggestion "How to submit a suggestion"
-[request to join]: /help/contributing/#request-membership "How to request membership"
+[question]: /docs/help/contributing/#ask-a-question "How to submit a question"
+[suggestion]: /docs/help/contributing/#make-a-suggestion "How to submit a suggestion"
+[request to join]: /docs/help/contributing/#request-membership "How to request membership"
 [teams]: https://github.com/orgs/DIYbiosphere/teams "See all teams"
 [DIYbiosphere organization]: https://github.com/DIYbiosphere "Go to GitHub DIYbiosphere Organization"
 [gitter.im/DIYbiosphere/sphere.dir]: https://gitter.im/DIYbiosphere/sphere.dir?utm_source=share-link&utm_medium=link&utm_campaign=share-link "Go to repository chat on Gitter"
 [DIYbiosphere.slack.com]: https://diybiosphere.slack.com/ "Go to Slack team"
 [request an invite]: https://diybiosphere.herokuapp.com/ "For requesting an invite to the DIYbiosphere Slack Team"
-[teams]: /about/community/#teams
-[memberhip]: /about/community/#members
+[teams]: /docs/about/community/#teams
+[memberhip]: /docs/about/community/#members

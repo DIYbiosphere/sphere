@@ -1,10 +1,10 @@
 ---
 layout: docs
-permalink: /help/tutorials/add-entry/
+permalink: /docs/help/tutorials/add-entry/
 title: Adding a New Entry
 ---
 
-{% include _notices/warning.html title="Before you begin, you should:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/about/copyright/license/)." %}
+{% include _notices/warning.html title="Before you begin, you should:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/docs/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/docs/about/copyright/license/)." %}
 
 This is the tutorial to **add** a new entry (7 steps total). To **edit** an existing entry go to our [editing tutorial]. Keep a look out for our [helpful hints]!
 
@@ -27,13 +27,13 @@ Thank you for your contribution! :heart:
 ![How to add an entry GIF](/assets/GIFs/add-entry.gif){:.img-responsive}
 
 
-[helpful hints]: /help/hints/
+[helpful hints]: /docs/help/hints/
 [sphere.dir]: https://github.com/DIYbiosphere/sphere.dir
-[editing tutorial]: help/tutorials/edit-entry
-[6 steps]: /help/tutorials/add-entry-member
-[4 steps]: /help/tutorials/add-entry-teams
-[development community]: /help/about/community/
+[editing tutorial]: /docs/help/tutorials/edit-entry
+[6 steps]: /docs/help/tutorials/add-entry-member
+[4 steps]: /docs/help/tutorials/add-entry-teams
+[development community]: /docs/help/about/community/
 [entry template]: https://gist.githubusercontent.com/ahuacatl/954444c7f15a27190b0fd52e0021a58c/raw/91412b5ba78fb082b349776cf0a75d3c82f35da0/front-matter-template.md
-[entry collections]: /help/basics/database/
-[naming convention]: /help/basics/database/
-[installation]: /help/install/
+[entry collections]: /docs/help/basics/database/
+[naming convention]: /docs/help/basics/database/
+[installation]: /docs/help/install/

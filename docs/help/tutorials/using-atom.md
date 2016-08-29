@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /help/tutorials/using-atom/
+permalink: /docs/help/tutorials/using-atom/
 title: How to Use Atom
 ---
 
@@ -16,4 +16,3 @@ Atom is an open-source text editor developed by GitHub. It is available for MacO
   - [pigments]: A package to display colors in project and files.
   - [todo-show]: Finds all the TODOs, FIXMEs, CHANGEDs, etc. in your project.
   - [Markdown TOC]: Generate TOC (table of contents) of headlines from parsed markdown file
-

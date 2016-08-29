@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /help/getting-started/
+permalink: /docs/help/getting-started/
 title: Getting Started
 ---
 
@@ -51,35 +51,35 @@ There are many ways you can contribute to the project. Please follow our [Contri
 [Join our development community!] We maintain a more active discussion and conversation on our [Slack Team], [Request an invite!].
 
 
-[overview]: /about/overview/
-[basic components of the database]: /help/basics/#database
+[overview]: /docs/about/overview/
+[basic components of the database]: /docs/help/basics/#database
 [sphere.diybio.org]: http://sphere.diybio.org
-[classification of entries]: /help/basics/
-[fields of infobox]: /help/basics/
+[classification of entries]: /docs/help/basics/
+[fields of infobox]: /docs/help/basics/
 <!-- TODO: add link to complete dataset -->
 [complete dataset]: #
 [sign-up]: https://github.com/join
-[ELI5]: /help/eli5-guide/
+[ELI5]: /docs/help/eli5-guide/
 [sphere.dir]: https://github.com/DIYbiosphere/sphere.dir
-[Helpful hints]: /help/hints/
-[code of conduct]: /about/coc/
+[Helpful hints]: /docs/help/hints/
+[code of conduct]: /docs/about/coc/
 [Github glossary]: https://help.github.com/articles/github-glossary/
-[Database]: /help/basics/#Database
-[Documentation]: /help/basics/#Documentation
-[Development]: /help/basics/#Development
-[Design]: /help/basics/#Design
-[simple markdown]: /help/simple-markdown/
-[complaint]: /help/contributing/#report-a-bug
-[question]: /help/contributing/#ask-a-question
-[idea]: /help/contributing/#make-a-suggestion
-[vote]: /help/workflow/#adding-reactions
-[Contributing guidelines]: /help/contributing/
+[Database]: /docs/help/basics/#Database
+[Documentation]: /docs/help/basics/#Documentation
+[Development]: /docs/help/basics/#Development
+[Design]: /docs/help/basics/#Design
+[simple markdown]: /docs/help/simple-markdown/
+[complaint]: /docs/help/contributing/#report-a-bug
+[question]: /docs/help/contributing/#ask-a-question
+[idea]: /docs/help/contributing/#make-a-suggestion
+[vote]: /docs/help/workflow/#adding-reactions
+[Contributing guidelines]: /docs/help/contributing/
 [Issues]: https://github.com/DIYbiosphere/sphere.dir/issues
 [easy]: https://github.com/DIYbiosphere/sphere.dir/labels/easy
 [feedback]: https://github.com/DIYbiosphere/sphere.dir/labels/feedback%20wanted
 [critical]: https://github.com/DIYbiosphere/sphere.dir/labels/critical
 [help]: https://github.com/DIYbiosphere/sphere.dir/labels/help%20wanted
 [resolving]: https://github.com/DIYbiosphere/sphere.dir/labels/resolution%20needed
-[Join our development community!]: /help/contributing/#requesting-membership
+[Join our development community!]: /docs/help/contributing/#requesting-membership
 [Slack Team]: https://diybiosphere.slack.com/
 [Request an invite!]: https://diybiosphere.herokuapp.com/

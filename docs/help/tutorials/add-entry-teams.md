@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /help/tutorials/add-entry-teams/
+permalink: /docs/help/tutorials/add-entry-teams/
 title: Adding a New Entry for Teams
 ---
 > Draft
@@ -21,8 +21,8 @@ Tutorial for non-members is [7 steps] and for members is [6 steps]. Learn more a
 
 Thank you for your contribution! :heart:
 
-[editing tutorial]: /help/tutorials/edit-entry-teams
-[helpful hints]: /help/hints/
+[editing tutorial]: /docs/help/tutorials/edit-entry-teams
+[helpful hints]: /docs/help/hints/
 [sphere.dir]: https://github.com/DIYbiosphere/sphere.dir
 [6 steps]: #
 [4 steps]: #
@@ -30,4 +30,4 @@ Thank you for your contribution! :heart:
 [entry template]: https://gist.githubusercontent.com/ahuacatl/954444c7f15a27190b0fd52e0021a58c/raw/91412b5ba78fb082b349776cf0a75d3c82f35da0/front-matter-template.md
 [classification of entries]: #
 [naming convention]: #
-[installation]: /help/install/
+[installation]: /docs/help/install/

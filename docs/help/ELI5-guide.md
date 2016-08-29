@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /help/eli5-guide/
+permalink: /docs/help/eli5-guide/
 title: Explain Like I'm 5 (ELI5) Guide
 ---
 

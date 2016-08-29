@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /about/copyright/license/
+permalink: /docs/about/copyright/license/
 title: Copyright License for humans
 ---
 
@@ -30,6 +30,6 @@ Because DIYbiosphere _is_ its contributors you may omit the word “contributors
 
 {% include _notices/note.html title="We appreciate credit!" text="Although attribution is not compulsory when (re)using the database, you may do so if you want to acknowledge the work of our contributors. They are awesome and deserve it!" %}
 
-[CC0]: /about/copyright/cc0/
-[MIT License]: /about/copyright/mit/
-[CLA]: /about/copyright/cla/
+[CC0]: /docs/about/copyright/cc0/
+[MIT License]: /docs/about/copyright/mit/
+[CLA]: /docs/about/copyright/cla/

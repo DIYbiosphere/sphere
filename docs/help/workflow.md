@@ -45,27 +45,30 @@ Epics is a feature by ZenHub that groups issues together. Epics are useful to im
 {% include _notices/tip.html title="Keep issues simple" text="Making issues as modular as possible encourages contributors to take it on." %}
 
 ## Milestones
-Milestones are used for issues to act as containers, events, or achievement goals. This is useful for associating issues with specific features or project phases, or time periods.
-Milestones are used to track the progress of similar issues and pull requests as they're opened and closed over time. At a glance, you can easily see the progress of work in a milestone's lifetime.
+Milestones track the progress of the development through the opening and closing of tickets. Milestones are useful for associating tickets with specific features, project phases or achievement goals, time periods, and events.
 
 
 ## Boards
-Boards is a feature by ZenHub and is accesible as a tab. With boards, tickets are classified along a development pipeline as follows:
+Boards is a feature by ZenHub and is accesible as a tab. With boards, tickets are classified along steps of the developmental pipeline as follows:
 
-- **New issues**: where uncategorised issues go
-- **Discuss**: are issues that should encourage contribut
-- **Future**: are issues that would like to get address
-- **To Do**:
-- **In Progress**:
-- **Done**:
-- **Closed**:
-
-
+- **New issues**: for new and uncategorized tickets.
+- **Discuss**: for tickets that need to be discussed. Often questions, or suggestions, where feedback is needed belong in this step.
+- **Future**: for tickets that will be dealt with in the near future. This step can also work as a 'wish-list' of features or enhancements.
+- **To Do**: for tickets that need work. Here, contributors are encouraged to look for tickets to complete and close. They should assign themselves and move the ticket to the next step.
+- **In Progress**: for tickets that are currently being resolved. All tickets in this step should have someone _assigned_ (see next section).
+- **Done**: for tickets that have been completed. This step is useful for when tasks in a ticket have been completed, but need revision or a final step before closing. It is necessary to mark in a comment, what is required to close the ticket.
+- **Closed**: for tickets that have been closed.
 
 ## Assignment
-Assigning tasks help the community know who they can reach out to to help with the issue or to collaborate and discuss further an issue or PR
+Assigning tasks to users help the community know who they can reach out to to help with an issue or to collaborate and discuss further an issue or PR. Only members and outside collaborators can be assigned tasks.
 
-## Additional organization of issues
+## Additional organization of tickets
+Tickets
+
+## Creating a good ticket
+A good ticket should have a concise and clear title.
+See our Contributing Guidelines for submitting issues, PRs. Title and descriptions can often follow the same as good commit messages.
+In addition. It is also useful to add checklists. If the ticket is too complicated for checklists.. consider turning it into an epic. 
 
 ### Adding reactions
 You can add reactions, a.k.a. emojis, to comments and text messages on
