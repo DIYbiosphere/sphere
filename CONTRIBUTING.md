@@ -21,7 +21,7 @@ If you want to make changes locally on your :heart_eyes: :computer: computer, fo
   - [Bugs](#report-a-bug)
   - [Suggestions](#make-a-suggestion)
   - [Questions](#ask-a-question)
-  - [Membership requests](#requesting-membership)
+  - [Membership requests](#membership-request)
 - [Making Commits](#making-commits)
 - [Submitting Pull requests](#submiting-Pull-Requests)
   - [Merging]()
@@ -58,8 +58,8 @@ Please include a question mark `?` in the title of the Issue. You can also asks 
 
 Make sure to check out our [FAQs] for a list of common questions.
 
-## Request membership
-Submit a new issue with the Title: 'Requesting membership' and in the Comment section add a description of yourself and why you would like to join (optional but useful for those considering your application). Also, please specify if you would like to be added to any [Teams].
+## Membership request
+Submit a new issue with the Title: 'Membership request' and in the Comment section add a description of yourself and why you would like to join (optional but useful for those considering your application). Also, please specify if you would like to be added to any [Teams].
 
 As a [member] of the [DIYbiosphere organization] in GitHub, you enjoy more access permissions to the project!
 

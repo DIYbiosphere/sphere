@@ -14,7 +14,7 @@ All DIYbio initiatives have their own entry in the database. The information con
 > Note: Entries are files and webpages
 Entries exist as markdown files in the repo. Inserting Jekyll's front matter into the beggining of the file converts it's content into a pretty webpage.
 
-### Data
+### Data Fields
 In the file, the data is collected between two lines of three consecutive dashes `---`called the _front matter_. In the webpage it is displayed in the _infobox_; a box in the top-right hand corner of the webpage. The data is aggregated through the following standard fields in order:
 
 - **manager** is the username of the person responsable for the upkeep of that entry

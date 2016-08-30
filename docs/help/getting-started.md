@@ -80,6 +80,6 @@ There are many ways you can contribute to the project. Please follow our [Contri
 [critical]: https://github.com/DIYbiosphere/sphere.dir/labels/critical
 [help]: https://github.com/DIYbiosphere/sphere.dir/labels/help%20wanted
 [resolving]: https://github.com/DIYbiosphere/sphere.dir/labels/resolution%20needed
-[Join our development community!]: /docs/help/contributing/#requesting-membership
+[Join our development community!]: /docs/help/contributing/#membership-request
 [Slack Team]: https://diybiosphere.slack.com/
 [Request an invite!]: https://diybiosphere.herokuapp.com/

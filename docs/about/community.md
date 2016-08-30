@@ -74,7 +74,7 @@ Anyone can become a Director. Directors are expected to have the following chara
 
 [Repository]: https://github.com/DIYbiosphere/sphere.dir "Go to DIYbiosphere repository"
 [DIYbiosphere organization]: https://github.com/DIYbiosphere "Go to the DIYbiosphere organization GitHub page"
-[Request membership]: /docs/help/contributing/#request-membership "How to request membership"
+[Request membership]: /docs/help/contributing/#membership-request "How to request membership"
 [here]: https://help.github.com/articles/repository-permission-levels-for-an-organization/ "Learn about permission levels from GitHub"
 [workflow management]: /docs/help/workflow/ "Learn how tickets are managed and organized"
 [adding an entry]: /docs/help/tutorials/add-entry/ "How to add an entry"

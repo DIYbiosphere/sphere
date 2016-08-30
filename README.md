@@ -70,7 +70,7 @@ If you wish to credit our work, please do so as “© DIYbiosphere contributors�
 [join us on Slack]: https://diybiosphere.herokuapp.com/ "Request an invite to DIYbiosphere Slack team"
 [DIYbiosphere.slack.com]: https://diybiosphere.slack.com "Go to the DIYbiosphere Slack Team page"
 [DIYbiosphere organization]: https://github.com/DIYbiosphere "Go to the DIYbiosphere organization GitHub page"
-[request membership]: http://sphere.diybio.org/docs/help/contributing/#request-membership "How to request membership"
+[request membership]: http://sphere.diybio.org/docs/help/contributing/#membership-request "How to request membership"
 [overview]: http://sphere.diybio.org/docs/about/overview "See an overview of the DIYbiosphere Project"
 [road map]: http://sphere.diybio.org/docs/news/roadmap/ "See our Roadmap for the DIYbiosphere project"
 [Getting started]: http://sphere.diybio.org/docs/help/getting-started/ "How to use and contribute to the project"

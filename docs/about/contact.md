@@ -19,7 +19,7 @@ Is a very popular communication platform that offers integration with other serv
 [Issues]: https://github.com/DIYbiosphere/sphere.dir/issues "Go to our GitHub Issues"
 [question]: /docs/help/contributing/#ask-a-question "How to submit a question"
 [suggestion]: /docs/help/contributing/#make-a-suggestion "How to submit a suggestion"
-[request to join]: /docs/help/contributing/#request-membership "How to request membership"
+[request to join]: /docs/help/contributing/#membership-request "How to request membership"
 [teams]: https://github.com/orgs/DIYbiosphere/teams "See all teams"
 [DIYbiosphere organization]: https://github.com/DIYbiosphere "Go to GitHub DIYbiosphere Organization"
 [gitter.im/DIYbiosphere/sphere.dir]: https://gitter.im/DIYbiosphere/sphere.dir?utm_source=share-link&utm_medium=link&utm_campaign=share-link "Go to repository chat on Gitter"

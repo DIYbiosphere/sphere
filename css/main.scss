@@ -27,6 +27,7 @@ $monospace: 'Source Code Pro', monospace;
 @import "modules/typed-cursor";
 @import "modules/buttons";
 @import "modules/issues-labels";
+@import "modules/brands-colors";
 /* Padding and margins */
 
 @import "modules/world-map";
@@ -56,22 +57,22 @@ $monospace: 'Source Code Pro', monospace;
 
 .input-addon {
   position: relative;
-  
+
   input {
     padding-left:  30px;
     padding-right: 30px;
   }
-  
+
   .fa {
     padding: 10px;
     position: absolute;
     pointer-events: none;
   }
-  
+
   .input-icon-left  {
     left:  0px;
   }
-  
+
   .input-icon-right {
     right: 0px;
   }
