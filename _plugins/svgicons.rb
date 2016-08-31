@@ -1,5 +1,5 @@
 module Jekyll
-	class IconsTag < Liquid::Tag
+	class SvgiconTag < Liquid::Tag
 
 		def initialize(tag_name, icon, tokens)
 			super
@@ -7,9 +7,9 @@ module Jekyll
 		end
 
 		def render(context)
-			"<div><svg class=\"icon\"><use xlink:href=\"/assets/icons.svg\##{@icon}\" /></svg></div>"
+			"<div><svg class=\"icons\"><use xlink:href=\"/assets/icons.svg\##{@icon}\"></use></svg></div>"
 		end
 	end
 end
 
-Liquid::Template.register_tag('icons', Jekyll::IconsTag)
+Liquid::Template.register_tag('svgicon', Jekyll::SvgiconTag)

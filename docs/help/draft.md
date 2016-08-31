@@ -21,7 +21,9 @@ In some cases, we may want to add many hints, but it can make the page look clut
 
 - {% include _oi/browser.html %} Browser {% include _notices/tutorial.html link="http://sphere.diybio.org" title="Steps" text=" hello " %}
 - {% include _oi/desktop.html %} Desktop {% include _notices/tutorial.html link="http://sphere.diybio.org" title="Steps" text="hello this is the help text" %} and this is a continuation.
-%}
+
+This is the plugin
+{% svgicon facebook %}
 
 
 
