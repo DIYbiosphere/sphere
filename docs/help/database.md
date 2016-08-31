@@ -46,6 +46,9 @@ In the file, the data is collected between two lines of three consecutive dashes
   - the {% include _oi/thumbsup.html %} **social media** and more...
 
 
+#### Types of Initiatives
+- Community
+- 
 
 ### Body of Text
 The body of text refers to the written description of the initiative.
