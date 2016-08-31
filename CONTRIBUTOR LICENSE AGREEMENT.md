@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Contributor License Agreement
-permalink: /about/copyright/cla/
+permalink: /docs/about/copyright/cla/
 ---
 
 Thank You for Your interest in making a Contribution to the DIYbiosphere Project. :purple_heart:
@@ -31,5 +31,5 @@ The purpose of a Contributor License Agreement (CLA) is to state the "contractua
 {% include _notices/tldr.html title="I freely share my contributions" text=" I concede the rights of my Contributions under a free license and those pertaining to the database to the public domain" %}
 
 
-[Licenses]: /about/copyright/license/
-[Code of Conduct]: /about/coc/
+[Licenses]: /docs/about/copyright/license/
+[Code of Conduct]: /docs/about/coc/

@@ -1,6 +1,6 @@
 ---
 layout: repo-doc
-permalink: /news/changelog/
+permalink: /docs/news/changelog/
 title: Changelog
 ---
 # Changelog

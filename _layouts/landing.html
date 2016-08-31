@@ -4,6 +4,7 @@
   {% include head.html %}
 
   <body>
+    <div id="page-wrap">
 
     <div>
       {% include header.html %}
@@ -53,12 +54,8 @@
         {% include world-map.html %}
       </div>
 
-      <div class="row">
-        {% include github-buttons.html %}
-      </div>
-
     </div>
-    
+
     <div class="row">
       {% include footer.html %}
     </div>
@@ -76,9 +73,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js" type="text/javascript"></script>
     <script src="{{ '/js/landing.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+
+<!-- Gitter sidecar script -->
     <script>
       ((window.gitter = {}).chat = {}).options = {
-        room: 'DIYbiosphere/diybiosphere.io'
+        room: 'DIYbiosphere/sphere.dir',
       };
     </script>
     <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
@@ -90,6 +89,7 @@
       });
     </script>
 
+</div>
   </body>
 
 </html>

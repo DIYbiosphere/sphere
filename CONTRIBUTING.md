@@ -1,6 +1,6 @@
 ---
 layout: repo-doc
-permalink: /help/contributing/
+permalink: /docs/help/contributing/
 title: Contributing
 ---
 
@@ -21,7 +21,7 @@ If you want to make changes locally on your :heart_eyes: :computer: computer, fo
   - [Bugs](#report-a-bug)
   - [Suggestions](#make-a-suggestion)
   - [Questions](#ask-a-question)
-  - [Membership requests](#requesting-membership)
+  - [Membership requests](#membership-request)
 - [Making Commits](#making-commits)
 - [Submitting Pull requests](#submiting-Pull-Requests)
   - [Merging]()
@@ -58,8 +58,8 @@ Please include a question mark `?` in the title of the Issue. You can also asks 
 
 Make sure to check out our [FAQs] for a list of common questions.
 
-## Request membership
-Submit a new issue with the Title: 'Requesting membership' and in the Comment section add a description of yourself and why you would like to join (optional but useful for those considering your application). Also, please specify if you would like to be added to any [Teams].
+## Membership request
+Submit a new issue with the Title: 'Membership request' and in the Comment section add a description of yourself and why you would like to join (optional but useful for those considering your application). Also, please specify if you would like to be added to any [Teams].
 
 As a [member] of the [DIYbiosphere organization] in GitHub, you enjoy more access permissions to the project!
 
@@ -83,10 +83,39 @@ Please consider the following before submitting a new PR:
 If your PR does not pass the Travis build DO NOT merge! Check either in Travis or in Github, why it did not pass... make changes to your repository to fix these. Please also fix changes by hound. Commit these changes to your branch or fork. sync them. and wait for the checks to pass again!
 
 
-[Code of Conduct]: http://sphere.diybio.org/about/coc/
-[Copyright Terms]: http://sphere.diybio.org/about/copyright/license/
+[Code of Conduct]: http://sphere.diybio.org/docs/about/coc/
+[Copyright Terms]: http://sphere.diybio.org/docs/about/copyright/license/
 [Issues]: https://github.com/DIYbiosphere/sphere.dir/issues
 [Pull Requests]: https://github.com/DIYbiosphere/sphere.dir/pulls
+<<<<<<< HEAD
+[Getting Started]: /docs/help/getting-started
+[Eli5 Guide]: /docs/help/eli5-guide/
+[tutorials]: /docs/help/tutorials/
+[adding a new entry]: /docs/help/tutorials/add-entry/
+[editing an entry]: /docs/help/tutorials/edit-entry/
+[Github issues]: https://guides.github.com/features/issues/
+[Issues tab]: https://github.com/DIYbiosphere/sphere.dir/issues
+[project’s issues]: https://github.com/DIYbiosphere/sphere.dir/issues
+[coders]: https://github.com/orgs/DIYbiosphere/teams/coders
+[Gitter]: https://gitter.im/DIYbiosphere/sphere.dir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
+[Slack]: https://diybiosphere.slack.com/
+[request an invite]: https://diybiosphere.herokuapp.com/
+[1]: #
+[FAQs]: /docs/help/faq/
+[Teams]: /docs/about/community/#Teams
+[member]: /docs/about/community/#member
+[DIYbiosphere organization]: /docs/about/community/
+[permission levels]: /docs/about/community/#permission-levels
+[duplicates]: /docs/help/workflow/#removing-duplicates
+[vote]: /docs/help/workflow/#adding-reactions
+[Classify]: /docs/help/workflow/
+[labels]: /docs/help/workflow/#labels
+[milestones]: /docs/help/workflow/#milestones
+[boards]: /docs/help/workflow/#boards
+
+
+http://mozillascience.github.io/working-open-workshop/contributing/
+=======
 [Getting Started]: /help/getting-started
 [Eli5 Guide]: /help/eli5-guide/
 [tutorials]: /help/tutorials/
@@ -106,3 +135,4 @@ If your PR does not pass the Travis build DO NOT merge! Check either in Travis o
 [boards]: /help/workflow/#boards
 [installation instructions]: /help/install/
 [Travis]: https://travis-ci.org/DIYbiosphere/sphere.dir
+>>>>>>> master

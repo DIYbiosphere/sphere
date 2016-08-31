@@ -55,6 +55,16 @@ h3:before {
   position: relative
 }
 
+/*
+
+
+#page-wrap {
+  min-width: 960px;
+  width: 90%;
+  max-width: 1200px;
+  align-content: center;
+}
+*/
 .reading-time {
   font-family: $monospace;
   margin-top: -10px;
@@ -80,17 +90,16 @@ h3:before {
 }
 
 
-.icon {
+.icons {
   display: inline;
   fill: $primary;
 
-  :hover {
-  fill:blue;
+  a {
+    fill: blue;
+
+    &:hover {
+      fill: red;
+    }
+
   }
-
-}
-
-
-body {
-  padding: 20px;
 }

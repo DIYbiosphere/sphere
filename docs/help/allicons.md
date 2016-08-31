@@ -4,60 +4,60 @@ permalink: /help/allicons/
 title: Show all icons
 ---
 
-{% icons academia %}
-{% icons android %}
-{% icons angellist %}
-{% icons apple %}
-{% icons atlassian %}
-{% icons atom %}
-{% icons basecamp %}
-{% icons behance %}
-{% icons bing %}
-{% icons bitbucket %}
-{% icons bootstrap %}
-{% icons chrome %}
-{% icons codepen %}
-{% icons disqus %}
-{% icons edge %}
-{% icons ello %}
-{% icons facebook-group %}
-{% icons facebook-square %}
-{% icons facebook %}
-{% icons firefox %}
-{% icons flickr %}
-{% icons git %}
-{% icons gitter %}
-{% icons google+ %}
-{% icons houndci %}
-{% icons instagram %}
-{% icons jekyll %}
-{% icons jsfiddle %}
-{% icons linkedin %}
-{% icons linux %}
-{% icons meetup %}
-{% icons openhardware %}
-{% icons opensource %}
-{% icons opera %}{% icons slack %}
-{% icons snapchat %}{% icons travis-t %}{% icons travis %}{% icons twitter %}
-{% icons windows %}
-{% icons zenhub %}
+{% svgicon academia %}
+{% svgicon android %}
+{% svgicon angellist %}
+{% svgicon apple %}
+{% svgicon atlassian %}
+{% svgicon atom %}
+{% svgicon basecamp %}
+{% svgicon behance %}
+{% svgicon bing %}
+{% svgicon bitbucket %}
+{% svgicon bootstrap %}
+{% svgicon chrome %}
+{% svgicon codepen %}
+{% svgicon disqus %}
+{% svgicon edge %}
+{% svgicon ello %}
+{% svgicon facebook-group %}
+{% svgicon facebook-square %}
+{% svgicon facebook %}
+{% svgicon firefox %}
+{% svgicon flickr %}
+{% svgicon git %}
+{% svgicon gitter %}
+{% svgicon google+ %}
+{% svgicon houndci %}
+{% svgicon instagram %}
+{% svgicon jekyll %}
+{% svgicon jsfiddle %}
+{% svgicon linkedin %}
+{% svgicon linux %}
+{% svgicon meetup %}
+{% svgicon openhardware %}
+{% svgicon opensource %}
+{% svgicon opera %}{% svgicon slack %}
+{% svgicon snapchat %}{% svgicon travis-t %}{% svgicon travis %}{% svgicon twitter %}
+{% svgicon windows %}
+{% svgicon zenhub %}
 
-{% icons o-zap %}
+{% svgicon o-zap %}
 
-This is a completely unkwon adslhfjkahsdf {% icons android %} this is android icon {% icons codepen %} this is codepen iconadlksjhfakjdlshf a
+This is a completely unkwon adslhfjkahsdf {% svgicon android %} this is android icon {% svgicon codepen %} this is codepen iconadlksjhfakjdlshf a
 adsfk jasdlkjfadsla sdkljfhalkj sfa
-aslkdhjfalkjs fkjahsdjklfh ajksdf {% icons android %}
+aslkdhjfalkjs fkjahsdjklfh ajksdf {% svgicon android %}
 asdfljhasdjkflhajk dslf
 asdfjhaslkjdfhd
 sdfkjdhsf
 asdfjhasd
 fpao
 
-{% icons o-key %}
-{% icons o-alert %}
+{% svgicon o-key %}
+{% svgicon o-alert %}
 
-{% icons o-boards %}
-{% icons o-burndown %}
-{% icons o-epic %}
-{% icons o-user %}
-{% icons o-users %}
+{% svgicon o-boards %}
+{% svgicon o-burndown %}
+{% svgicon o-epic %}
+{% svgicon o-user %}
+{% svgicon o-users %}

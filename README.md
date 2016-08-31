@@ -5,6 +5,7 @@
 [![Slack Status](https://diybiosphere.herokuapp.com/badge.svg)](https://diybiosphere.herokuapp.com)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0-blue.svg)](http://sphere.diybio.org/license/)
 
+
 # ![](assets/images/sphere/sphere-logo-long.png)
 
 
@@ -27,56 +28,55 @@ You can engage with the DIYbiosphere is many ways (in increasing order of engage
 
 #### Connect
 - **Share this project** with your friends and followers! They might be interested in using the database or contributing to it!
-- **Star the project on GitHub**! Starring helps attract potential contributors, especially expert and master contributors!
+- :star: **Star the project on GitHub**! Starring helps attract potential contributors, especially expert and master contributors!
 
 #### Contribute
 - Jump into writing entries in the Database:
-    - **[Add] a new entry**: whether it's your initiative or someone else's
+    - **[Add] a new entry**:  whether it's your initiative or someone else's
     - **[Update/edit] an existing entry**: mispellings, outdated information, or just inaccurate, help us keep the entries error-free!
-- Jump into our [Issues]:
-	- **Comment or vote** on existing issues. Feedback is always appreciated! It helps us know what users and contributors want developed!
+- Jump into our [Issues], please follow our [Contributing Guidelines]:
+	- **Comment or vote** :+1: on existing issues. Feedback is always appreciated! It helps us know what users and contributors want developed!
 	- **Submit a new issue**. Share with us your suggestions for new features or improvements.
-	- **Resolve and close an issue**. Tackle an issue yourself and help us in the development!
+	- **Resolve and close an issue**. Tackle an issue yourself and help us in the development! :heart_eyes:
 
 
 #### Get involved
 - **Join the conversation**. You can freely join the [Gitter chatroom], or [join us on Slack] at [DIYbiosphere.slack.com]. Here we plan the development of the project.
-- **Join the development community**. The project is managed by members of the [DIYbiosphere organization]. [Request an invite] and enjoy writing access to the repository!
+- **Join the development community**. The project is managed by members of the [DIYbiosphere organization]. [Request membership] and enjoy more access privileges to the project!
 
 
 ## Learn More
 Get a general [Overview] of the entire project page and where it is heading next in our [Road Map].
 
-See our [Getting Started] guide to _using_ and _contributing_ to the project. Please follow our [Contributing guidelines]. We have an [ELI5 guide] (Explain Like I'm 5) for the utterly confused.
+See our [Getting Started] guide to _using_ and _contributing_ to the project. We have an [ELI5 guide] (Explain Like I'm 5) for the utterly GitHub confused.
 
 ## Copyright
 The work in this project is freely available to use, modify and distribute.
 
-The **content** of the project (entries, data, etc.) is available under the public domain [CC0] , and the underlying **source-code** (HTML, JS, etc.) used to format and display that content is available under the [MIT] License.
+The **content** of the project (entries, data, etc.) is available under the public domain [CC0], and the underlying **source-code** (HTML, JS, etc.) used to format and display that content is available under the [MIT] License.
 
 You can review our [License] file for a human-readable version of the copyright, and our [CLA] (Contributor License Agreement) to understand in legal terms the rights granted and/or waived from your Contributions.
 
-If you wish to credit our work, please do so as “© DIYbiosphere contributors” or “© DIYbiosphere"
+If you wish to credit our work, please do so as “© DIYbiosphere contributors” or “© DIYbiosphere”
 
-[The DIYbiosphere]: http://sphere.diybio.org/
-[about]: http://sphere.diybio.org/about/
-[entry]: http://sphere.diybio.org/database/projects/DIYbiosphere-ZZ
-[github pages]: https://pages.github.com/
-[Markdown]: https://guides.github.com/features/mastering-markdown/
-[add]: http://sphere.diybio.org/help/tutorials/add-entry/
-[update/edit]: http://sphere.diybio.org/help/tutorials/edit-entry/
-[issues]: https://github.com/DIYbiosphere/sphere.dir/issues
-[Gitter chatroom]: https://gitter.im/DIYbiosphere/sphere.dir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
-[join us on Slack]: https://diybiosphere.herokuapp.com/
-[DIYbiosphere.slack.com]: https://diybiosphere.slack.com
-[DIYbiosphere organization]: http://sphere.diybio.org/about/community/
-[request an invite]: http://sphere.diybio.org/help/contributing/#apply-for-membership
-[overview]: http://sphere.diybio.org/about/overview
-[road map]: http://sphere.diybio.org/news/roadmap/
-[Getting started]: http://sphere.diybio.org/help/getting-started/
-[Contributing guidelines]: http://sphere.diybio.org/contributing/
-[ELI5 guide]: http://sphere.diybio.org/help/ELI5/
-[MIT]: https://opensource.org/licenses/MIT
-[CC0]: https://creativecommons.org/publicdomain/zero/1.0/
-[LICENSE]: http://sphere.diybio.org/about/copyright/license/
-[CLA]: http://sphere.diybio.org/about/copyright/cla/
+[The DIYbiosphere]: http://sphere.diybio.org/ "Go to main website"
+[entry]: http://sphere.diybio.org/database/projects/DIYbiosphere-ZZ "Go to DIYbiosphere entry page"
+[github pages]: https://pages.github.com/ "Learn about GitHub Pages"
+[Markdown]: https://guides.github.com/features/mastering-markdown/ "Learn about Markdown from GitHub"
+[add]: http://sphere.diybio.org/docs/help/tutorials/add-entry/ "How to add an entry"
+[update/edit]: http://sphere.diybio.org/docs/help/tutorials/edit-entry/ "How to edit an entry"
+[issues]: https://github.com/DIYbiosphere/sphere.dir/issues "Go to GitHub Issues"
+[Gitter chatroom]: https://gitter.im/DIYbiosphere/sphere.dir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge "Go to DIYbiosphere Gitter chatroom"
+[join us on Slack]: https://diybiosphere.herokuapp.com/ "Request an invite to DIYbiosphere Slack team"
+[DIYbiosphere.slack.com]: https://diybiosphere.slack.com "Go to the DIYbiosphere Slack Team page"
+[DIYbiosphere organization]: https://github.com/DIYbiosphere "Go to the DIYbiosphere organization GitHub page"
+[request membership]: http://sphere.diybio.org/docs/help/contributing/#membership-request "How to request membership"
+[overview]: http://sphere.diybio.org/docs/about/overview "See an overview of the DIYbiosphere Project"
+[road map]: http://sphere.diybio.org/docs/news/roadmap/ "See our Roadmap for the DIYbiosphere project"
+[Getting started]: http://sphere.diybio.org/docs/help/getting-started/ "How to use and contribute to the project"
+[Contributing guidelines]: http://sphere.diybio.org/docs/help/contributing/ "How to Issues and Pull Requests"
+[ELI5 guide]: http://sphere.diybio.org/docs/help/ELI5/ "Learn GitHub easy"
+[MIT]: https://opensource.org/licenses/MIT "Go to MIT license"
+[CC0]: https://creativecommons.org/publicdomain/zero/1.0/ "Go to CC0 license"
+[LICENSE]: http://sphere.diybio.org/docs/about/copyright/license/ "See a human-readable license of the DIYbiosphere"
+[CLA]: http://sphere.diybio.org/docs/about/copyright/cla/ "See in legal terms the IPR of the DIYbiosphere"

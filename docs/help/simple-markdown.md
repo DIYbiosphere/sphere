@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /help/simple-md/
+permalink: /docs/simple-md/
 title: Simple Markdown
 ---
 

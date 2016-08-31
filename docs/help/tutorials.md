@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /help/tutorials/
+permalink: /docs/help/tutorials/
 title: Tutorials
 ---
 
@@ -11,17 +11,18 @@ title: Tutorials
 ### Table of Contents
 
 - Adding New Entries
-  - [adding for non-members](/help/tutorials/add-entry/)
-  - [adding for members](/help/tutorials/add-entry-members/)
-  - [adding for teams](/help/tutorials/add-entry-teams/)
+  - [adding for non-members](/docs/help/tutorials/add-entry/)
+  - [adding for members](/docs/help/tutorials/add-entry-members/)
+  - [adding for teams](/docs/help/tutorials/add-entry-teams/)
 - Editing Entries
-  - [editing for non-members](/help/tutorials/edit-entry/)
-  - [editing for members](/help/tutorials/edit-entry-members/)
-  - [editing for teams](/help/tutorials/edit-entry-teams/)
-- [Installation Instructions](/help/tutorials/install/)
-- [Using Atom](/help/tutorials/using-atom/)
-- [Using GitHub Desktop](/help/tutorials/using-githubdesktop/)
+  - [editing for non-members](/docs/help/tutorials/edit-entry/)
+  - [editing for members](/docs/help/tutorials/edit-entry-members/)
+  - [editing for teams](/docs/help/tutorials/edit-entry-teams/)
+- [Installation Instructions](/docs/help/tutorials/install/)
+- [Using Atom](/docs/help/tutorials/using-atom/)
+- [Using GitHub Desktop](/docs/help/tutorials/using-githubdesktop/)
 - [Screen Capture GIFs](#How-to-make-screen-capture-GIFs)
+
 ---
 
 

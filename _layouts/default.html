@@ -2,15 +2,16 @@
 <html>
 
   {% include head.html %}
-
+<article>
   <body>
+    <div id="page-wrap">
 
     {% include header.html %}
 
     <div class="main-content container">
       {{content}}
     </div>
-
+</article>
     {% include footer.html %}
 
     <!-- used across all pages -->
@@ -31,7 +32,7 @@
       <script src="https://cdn.datatables.net/buttons/1.1.2/js/buttons.html5.min.js" type="text/javascript"></script>
       <script src="{{ '/js/entries.js' | prepend: site.baseurl }}" type="text/javascript"></script>
     {% endif %}
-    
+
     {% if page.layout == 'entry' %}
       <script src="{{ '/js/entry.js' | prepend: site.baseurl }}" type="text/javascript"></script>
     {% endif %}
@@ -39,7 +40,7 @@
     <!-- Embeded Gitter chat -->
     <script>
       ((window.gitter = {}).chat = {}).options = {
-        room: 'DIYbiosphere/diybiosphere.io'
+        room: 'DIYbiosphere/sphere.dir',
       };
     </script>
     <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
@@ -49,6 +50,8 @@
         $('[data-toggle="tooltip"]').tooltip();
       });
     </script>
+
+  </div>
   </body>
 
 </html>

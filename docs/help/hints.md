@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /help/hints/
+permalink: /docs/help/hints/
 title: Helpful Hints
 ---
 > Draft
@@ -18,4 +18,4 @@ Throughout our documentation you may find the following hint boxes. They are mea
 {% include _notices/eli5.html title="Explain Like I'm Five: Don't Panic!" text="Super simpler explanations of &quot;complex&quot; topics" %}
 
 
-In order to unclutter the page content. Some of these helpful hints appear as buttons which can expand. 
+In order to unclutter the page content. Some of these helpful hints appear as buttons which can expand.

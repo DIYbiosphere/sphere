@@ -1,10 +1,10 @@
 ---
 layout: docs
 title: Installation Instructions
-permalink: /help/tutorials/install/
+permalink: /docs/help/tutorials/install/
 ---
 
-This section details how to edit locally on your desktop.
+_This section details how to edit locally on your desktop._
 
 We recommend you use [GitHub Desktop] as a Git Client; available for MacOS and Windows, and [Atom] as a text editor; available for MacOS, Windows and Linux. See our guides on [using Atom] and [using GitHub Desktop].
 
@@ -102,8 +102,8 @@ xcode-select — install
 
 [GitHub Desktop]: https://desktop.github.com/
 [Atom]: https://atom.io/
-[using atom]: /help/tutorials/
-[using Github Desktop]:
+[using atom]: /docs/help/tutorials/using-atom/
+[using Github Desktop]: docs/help/tutorials/
 [file icons]: https://atom.io/packages/file-icons
 [pigments]: https://atom.io/packages/pigments
 [todo-show]: https://atom.io/packages/todo-show

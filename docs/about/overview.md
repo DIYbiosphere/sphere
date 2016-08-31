@@ -1,10 +1,10 @@
 ---
 layout: docs
-permalink: /about/overview/
+permalink: /docs/about/overview/
 title: Overview of the DIYbiosphere
 ---
 
-In this section we give a general overview of the entire project by answering some questions.
+_In this section we give a general overview of the entire project by answering some questions._
 
 **_What is it?_**
 The DIYbiosphere is a participatory project to create a database of Do-It-Yourself Biology (DIYbio) initiatives from all over the world.
@@ -39,21 +39,21 @@ See our [Getting Started] guide to kickstart you into _using_ and _contributing_
 **_Where can you learn more?_**
 In our _Documentation_ section. Learn how the project is managed, follow our updates, or check out our guides and tutorials for contributing.
 
-[DIYbiosphere organization]: https://github.com/DIYbiosphere
-[join in]: /help/contributing/#apply-for-membership
-[sphere.diybio.org]: http://sphere.diybio.org/
-[DIYbiosphere/sphere.dir]: https://github.com/DIYbiosphere/sphere.dir
-[adding]: help/tutorials/add-entry/
-[editing]: help/tutorials/edit-entry/
-[issues]: https://github.com/DIYbiosphere/sphere.dir/issues
-[Getting Started]: /help/getting-started/
-[Citizen Sciences]: http://citizensciences.net/
-[DIYbio.org]: https://diybio.org/
-[Local]: https://diybio.org/local/
-[GitHub Pages]: https://pages.github.com/
-[Markdown]: https://guides.github.com/features/mastering-markdown/
-[Jekyll]: https://jekyllrb.com/
-[Development]: /help/basics/#development
-[defining collections]: /help/basics/
-[ElI5 Guide]: /help/eli5-guide/
-[Contributing Guide]: /help/contributing/
+[DIYbiosphere organization]: https://github.com/DIYbiosphere "Go to the DIYbiosphere organization GitHub page"
+[join in]: /docs/help/contributing/#request-membership "How to request membership"
+[sphere.diybio.org]: http://sphere.diybio.org/ "Go to DIYbiosphere homepage"
+[DIYbiosphere/sphere.dir]: https://github.com/DIYbiosphere/sphere.dir "Go to DIYbiosphere database repository"
+[adding]: /docs/help/tutorials/add-entry/ "How to add an entry"
+[editing]: /docs/help/tutorials/edit-entry/ "How to edit an entry"
+[issues]: https://github.com/DIYbiosphere/sphere.dir/issues "Go to our GitHub Issues"
+[Getting Started]: /docs/help/getting-started/ "How to use and contribute to the database"
+[Citizen Sciences]: http://citizensciences.net/ "Go to Citizen Sciences homepage"
+[DIYbio.org]: https://diybio.org/ "Go to DIYbio.org homepage"
+[Local]: https://diybio.org/local/ "Go to the local list of DIYbio.org"
+[GitHub Pages]: https://pages.github.com/ "Learn about GitHub Pages from GitHub"
+[Markdown]: https://guides.github.com/features/mastering-markdown/ "Learn about Markdown from GitHub"
+[Jekyll]: https://jekyllrb.com/ "Go to Jekyll's homepage"
+[Development]: /docs/help/basics/#development "Learn more about the basics of the development"
+[defining collections]: /docs/help/basics/databse/#collection-of-entries
+[ElI5 Guide]: /docs/help/eli5-guide/
+[Contributing Guide]: /docs/help/contributing/
