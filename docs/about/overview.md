@@ -25,7 +25,7 @@ The entries of database is divided into eight collections: Projects, Startups, L
 The database functions similar to a wiki, with descriptive content and data displayed in a box, but we use [GitHub Pages] instead to host and build the content into the website from simple text files using [Markdown] syntax and [Jekyll]'s liquid language. If you want to get technical your can read more in our [Development] section.
 
 **_How is it participatory?_**
-The project is completely open(-source); anyone can access the database on our website: [sphere.diybio.org], and contribute to it in our repository: [DIYbiosphere/sphere.dir] on GitHub. The project relies on the work of volunteer contributors to maintain the database (write entries) and manage the development of the project. The development is directed by members of the [DIYbiosphere organization] in GitHub. [Join in] and get involved! :dancers:
+The project is completely open(-source); anyone can access the database on our website: [sphere.diybio.org], and contribute to it in our repository: [DIYbiosphere/sphere] on GitHub. The project relies on the work of volunteer contributors to maintain the database (write entries) and manage the development of the project. The development is directed by members of the [DIYbiosphere organization] in GitHub. [Join in] and get involved! :dancers:
 
 **_Who participates?_**
 We expect that individuals from the DIYbio community will be the main users and contributors of the project. However, we also believe the database will be of interest to DIYbio supporters and followers.
@@ -42,10 +42,10 @@ In our _Documentation_ section. Learn how the project is managed, follow our upd
 [DIYbiosphere organization]: https://github.com/DIYbiosphere "Go to the DIYbiosphere organization GitHub page"
 [join in]: /docs/help/contributing/#request-membership "How to request membership"
 [sphere.diybio.org]: http://sphere.diybio.org/ "Go to DIYbiosphere homepage"
-[DIYbiosphere/sphere.dir]: https://github.com/DIYbiosphere/sphere.dir "Go to DIYbiosphere database repository"
+[DIYbiosphere/sphere]: https://github.com/DIYbiosphere/sphere "Go to DIYbiosphere database repository"
 [adding]: /docs/help/tutorials/add-entry/ "How to add an entry"
 [editing]: /docs/help/tutorials/edit-entry/ "How to edit an entry"
-[issues]: https://github.com/DIYbiosphere/sphere.dir/issues "Go to our GitHub Issues"
+[issues]: https://github.com/DIYbiosphere/sphere/issues "Go to our GitHub Issues"
 [Getting Started]: /docs/help/getting-started/ "How to use and contribute to the database"
 [Citizen Sciences]: http://citizensciences.net/ "Go to Citizen Sciences homepage"
 [DIYbio.org]: https://diybio.org/ "Go to DIYbio.org homepage"

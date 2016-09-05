@@ -6,7 +6,7 @@ title: Basics of the Database
 
 _In this section we detail the basic structure and organization of the database_
 
-The database encompases all the information about DIYbio initiatives added. This information is collected and edited through text files in the sphere.dir repository in GitHub, and is displayed as webpages at sphere.diybio.org.
+The database encompases all the information about DIYbio initiatives added. This information is collected and edited through text files in the sphere repository in GitHub, and is displayed as webpages at sphere.diybio.org.
 
 ## Entries
 All DIYbio initiatives have their own entry in the database. The information contained in each of them is divided in two parts, the _data_ and the _description_.

@@ -11,7 +11,7 @@ Tutorial for members is [6 steps] and for team members (managers, editors) is [4
 
 {% include _notices/warning.html title="Before you begin, you should:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/docs/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/docs/about/copyright/license/)." %}
 
-1. **Fork** the [sphere.dir] repository to make changes
+1. **Fork** the [sphere] repository to make changes
 2. In your forked copy, open the _database folder, find the file that you want to edit. and Click Edit
 4. **Make your changes**
 5. To save your changes **Commit changes**. Don't forget to add in a title.
@@ -24,7 +24,7 @@ Thank you for your contribution! :heart:
 
 
 [helpful hints]: /docs/help/hints/
-[sphere.dir]: https://github.com/DIYbiosphere/sphere.dir
+[sphere]: https://github.com/DIYbiosphere/sphere
 [add an entry]: /docs/help/tutorials/add-entry
 [6 steps]: /docs/help/tutorials/add-entry-member
 [4 steps]: /docs/help/tutorials/add-entry-teams

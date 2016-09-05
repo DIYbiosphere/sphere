@@ -32,7 +32,7 @@ In addition, GitHub integrates a ticket system called **Issues** to keep track o
 
 
 ### Explain the DIYbiosphere
-The DIYbiosphere project is stored as the sphere.dir repository, which holds the the entries of the database, as well as source code that builds and formats those files into a website.
+The DIYbiosphere project is stored as the sphere repository, which holds the the entries of the database, as well as source code that builds and formats those files into a website.
 
 
 ## Forking

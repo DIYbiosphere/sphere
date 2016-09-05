@@ -24,7 +24,7 @@ The data collected in the infobox is completely open and free to (re)use. There 
 
 - **Table of Entries**: Every search query that returns the table of entries can be downloaded as a CSV file.
 - **Entire Table**: All the data in the 'front-matter' of the all entries is aggregated and compiled as a CSV file and can be downloaded as the [complete dataset].
-- **Source**: The source-files of the entries are in the [sphere.dir] repository in GitHub in each collection folder.
+- **Source**: The source-files of the entries are in the [sphere] repository in GitHub in each collection folder.
 
 
 ## Contributing to the Database
@@ -60,7 +60,7 @@ There are many ways you can contribute to the project. Please follow our [Contri
 [complete dataset]: #
 [sign-up]: https://github.com/join
 [ELI5]: /docs/help/eli5-guide/
-[sphere.dir]: https://github.com/DIYbiosphere/sphere.dir
+[sphere]: https://github.com/DIYbiosphere/sphere
 [Helpful hints]: /docs/help/hints/
 [code of conduct]: /docs/about/coc/
 [Github glossary]: https://help.github.com/articles/github-glossary/
@@ -74,12 +74,12 @@ There are many ways you can contribute to the project. Please follow our [Contri
 [idea]: /docs/help/contributing/#make-a-suggestion
 [vote]: /docs/help/workflow/#adding-reactions
 [Contributing guidelines]: /docs/help/contributing/
-[Issues]: https://github.com/DIYbiosphere/sphere.dir/issues
-[easy]: https://github.com/DIYbiosphere/sphere.dir/labels/easy
-[feedback]: https://github.com/DIYbiosphere/sphere.dir/labels/feedback%20wanted
-[critical]: https://github.com/DIYbiosphere/sphere.dir/labels/critical
-[help]: https://github.com/DIYbiosphere/sphere.dir/labels/help%20wanted
-[resolving]: https://github.com/DIYbiosphere/sphere.dir/labels/resolution%20needed
+[Issues]: https://github.com/DIYbiosphere/sphere/issues
+[easy]: https://github.com/DIYbiosphere/sphere/labels/easy
+[feedback]: https://github.com/DIYbiosphere/sphere/labels/feedback%20wanted
+[critical]: https://github.com/DIYbiosphere/sphere/labels/critical
+[help]: https://github.com/DIYbiosphere/sphere/labels/help%20wanted
+[resolving]: https://github.com/DIYbiosphere/sphere/labels/resolution%20needed
 [Join our development community!]: /docs/help/contributing/#membership-request
 [Slack Team]: https://diybiosphere.slack.com/
 [Request an invite!]: https://diybiosphere.herokuapp.com/
