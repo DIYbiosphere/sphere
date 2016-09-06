@@ -69,7 +69,7 @@ collections:
     output: true
     permalink: /database/others/
 
-# Defaul Values
+# Default Values
 defaults:
   -
     scope:
