@@ -3,28 +3,32 @@
     padding-top: 1em;
     font-size: 115%;
   }
-  
+
   h3 {
     padding-top: 0px;
   }
-  
+
   ul {
     padding-right: 37px;
-    border-right: solid 2px $light-gray;
   }
-  
+
   li {
     list-style: none;
   }
-  
+
   a {
     color: black;
     margin-left: .5em;
     text-decoration: none;
-    
+
     &:hover {
       color: $hyperlink;
       cursor: pointer;
     }
   }
+}
+
+.sticky {
+  position: relative;
+  top: 0;
 }

@@ -16,7 +16,7 @@ html, body {
 }
 
 blockquote {
-  font-size: 12px;
+  font-size: 1em;
 }
 
 h1 {
@@ -76,30 +76,17 @@ h3:before {
   padding: 0.5em;
 }
 
-#icons {
-  display: inline-block;
- fill: blue;
-
-  a {
-    fill: blue;
-
-    &:hover {
-      fill: red;
-    }
-  }
-}
-
 
 .icons {
   display: inline;
-  fill: $primary;
-
+  fill: currentColor;
+  width: 0.9em;
+  height: 0.9em;
   a {
-    fill: blue;
+    fill: $hyperlink;
 
     &:hover {
       fill: red;
     }
-
   }
 }

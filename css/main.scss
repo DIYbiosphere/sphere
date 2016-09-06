@@ -17,10 +17,11 @@ $monospace: 'Source Code Pro', monospace;
 
 @import "partials/header";
 @import "partials/footer";
-@import "partials/submenu";
-@import "partials/sidemenu";
+@import "partials/breadcrumbs";
+@import "partials/sidebar";
 @import "partials/notices";
 @import "partials/infobox";
+@import "partials/docs";
 /* Padding and margins */
 @import "modules/utils";
 @import "modules/clipboard";
@@ -28,6 +29,7 @@ $monospace: 'Source Code Pro', monospace;
 @import "modules/buttons";
 @import "modules/issues-labels";
 @import "modules/brands-colors";
+@import "modules/socials";
 /* Padding and margins */
 
 @import "modules/world-map";
@@ -82,9 +84,4 @@ $monospace: 'Source Code Pro', monospace;
   min-height: 20em;
   height: 25em;
   width: 70%;
-}
-
-.docs {
-  font-size: 16px;
-  line-height: 1.6;
 }
