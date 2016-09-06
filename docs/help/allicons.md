@@ -1,63 +1,61 @@
 ---
 layout: docs
-permalink: /help/allicons/
+permalink: /allicons/
 title: Show all icons
 ---
 
-{% svgicon academia %}
-{% svgicon android %}
-{% svgicon angellist %}
-{% svgicon apple %}
-{% svgicon atlassian %}
-{% svgicon atom %}
-{% svgicon basecamp %}
-{% svgicon behance %}
-{% svgicon bing %}
-{% svgicon bitbucket %}
-{% svgicon bootstrap %}
-{% svgicon chrome %}
-{% svgicon codepen %}
-{% svgicon disqus %}
-{% svgicon edge %}
-{% svgicon ello %}
-{% svgicon facebook-group %}
-{% svgicon facebook-square %}
-{% svgicon facebook %}
-{% svgicon firefox %}
-{% svgicon flickr %}
-{% svgicon git %}
-{% svgicon gitter %}
-{% svgicon google+ %}
-{% svgicon houndci %}
-{% svgicon instagram %}
-{% svgicon jekyll %}
-{% svgicon jsfiddle %}
-{% svgicon linkedin %}
-{% svgicon linux %}
-{% svgicon meetup %}
-{% svgicon openhardware %}
-{% svgicon opensource %}
-{% svgicon opera %}{% svgicon slack %}
-{% svgicon snapchat %}{% svgicon travis-t %}{% svgicon travis %}{% svgicon twitter %}
-{% svgicon windows %}
-{% svgicon zenhub %}
+- {% svgicon academia %} Academia
+- {% svgicon android %} Android
+- {% svgicon angellist %} Angel List
+- {% svgicon apple %} Apple
+- {% svgicon atlassian %} Atlassian
+- {% svgicon atom %} Atom
+- {% svgicon basecamp %} Basecamp
+- {% svgicon behance %} Behance
+- {% svgicon bing %} Bing
+- {% svgicon bitbucket %} BitBucket
+- {% svgicon bootstrap %} Bootstrap
+- {% svgicon cc %} CC
+- {% svgicon cc0 %} CC0
+- {% svgicon chrome %} Chrome
+- {% svgicon codepen %} Codepen
+- {% svgicon disqus %} Disqus
+- {% svgicon edge %} Edge
+- {% svgicon ello %} Ello
+- {% svgicon facebook-group %} Facebook Group
+- {% svgicon facebook-square %} Facebook Square
+- {% svgicon facebook %} Facebook
+- {% svgicon firefox %} Firefox
+- {% svgicon flickr %} Firefox
+- {% svgicon git %} Git
+- {% svgicon gitter %} Gitter
+- {% svgicon google+ %} Google+
+- {% svgicon houndci %} Hound CI
+- {% svgicon instagram %} Instagram
+- {% svgicon jekyll %} Jekyll
+- {% svgicon jsfiddle %} JS Fiddle
+- {% svgicon linkedin %} Linkedin
+- {% svgicon linux %} Linux
+- {% svgicon meetup %} Meetup
+- {% svgicon openhardware %} Open Hardware
+- {% svgicon opensource %} Open Source
+- {% svgicon opera %} Opera
+- {% svgicon slack %} Slack
+- {% svgicon snapchat %} Snapchat
+- {% svgicon travis-t %} Travis CI
+- {% svgicon travis %} Travis CI
+- {% svgicon twitter %} Twitter
+- {% svgicon windows %} Windows
+- {% svgicon zenhub %} ZenHub
 
-{% svgicon o-zap %}
+{% svgicon oi-zap %}
 
-This is a completely unkwon adslhfjkahsdf {% svgicon android %} this is android icon {% svgicon codepen %} this is codepen iconadlksjhfakjdlshf a
-adsfk jasdlkjfadsla sdkljfhalkj sfa
-aslkdhjfalkjs fkjahsdjklfh ajksdf {% svgicon android %}
-asdfljhasdjkflhajk dslf
-asdfjhaslkjdfhd
-sdfkjdhsf
-asdfjhasd
-fpao
 
-{% svgicon o-key %}
-{% svgicon o-alert %}
+{% svgicon horse %}
+{% svgicon oi-alert %}
 
-{% svgicon o-boards %}
-{% svgicon o-burndown %}
-{% svgicon o-epic %}
-{% svgicon o-user %}
-{% svgicon o-users %}
+{% svgicon oi-boards %}
+{% svgicon oi-burndown %}
+{% svgicon oi-epic %}
+{% svgicon oi-user %}
+{% svgicon oi-users %}
