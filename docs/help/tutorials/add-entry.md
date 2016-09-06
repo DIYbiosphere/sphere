@@ -10,9 +10,6 @@ This is the tutorial to **add** a new entry (7 steps total). To **edit** an exis
 
 The tutorials [for members] is [6 steps] and for team members (managers, editors) is [4 steps]. Learn more about our [development community]
 
-{% include _notices/warning.html title="Before you begin, you must:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/about/copyright/license/)." %}
-
-
 1. **Fork** the [sphere] repository to make changes
 2. In your forked copy, open the collection folder of your new entry and **Create new file** named 'EntryName-ZZ.md'. Learn more about [entry collections] and [naming convention].
 3. **Copy and paste [entry template]**

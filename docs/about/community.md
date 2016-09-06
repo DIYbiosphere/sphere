@@ -4,7 +4,7 @@ permalink: /docs/about/community/
 title: Development Community
 ---
 
-_In this section we explain how the project is managed by the development community and how we organize._
+_In this section we explain the composition of our contributing community and the development community_
 
 Any, and all users who contribute to the project are considered _contributors_. The _development community_ refers to members of the [DIYbiosphere organization] in GitHub. [Members](#members) have greater access permissions to the project and can be part of [Teams](#teams) who are key members with distict roles in the development and enjoy greater access privileges. Submit an issue to [request membership] and join us!
 

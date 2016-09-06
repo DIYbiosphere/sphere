@@ -45,12 +45,7 @@ Epics is a feature by ZenHub that groups issues together. Epics are useful to im
 {% include _notices/tip.html title="Keep issues simple" text="Making issues as modular as possible encourages contributors to take it on." %}
 
 ## Milestones
-<<<<<<< HEAD
-Milestones track the progress of the development through the opening and closing of tickets. Milestones are useful for associating tickets with specific features, project phases or achievement goals, time periods, and events.
-=======
- Milestones act as container for issues or as events, or achievement goals. This is useful for associating issues with specific features or project phases. Milestones are groups of issues that correspond to a project, feature, or time period. Like Beta Launch, October, Sprint, Redesign.
-Milestones are used to track the progress of similar issues and pull requests as they're opened and closed over time. At a glance, you can easily see the progress of work in a milestone's lifetime.
->>>>>>> master
+Milestones track the progress of the development through the opening and closing of tickets. Milestones are useful for associating tickets with specific features, project
 
 
 ## Boards

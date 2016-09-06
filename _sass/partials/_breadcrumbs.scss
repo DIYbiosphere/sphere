@@ -14,15 +14,12 @@
     padding-left: 0;
   }
    li {
-     padding-bottom: 5px;
+     display: inline;
+     padding-bottom: 3px;
    }
 
   }
 
-.crumbs {
-  text-align: left;
-}
-
 .commits {
-  text-align: right;
+  float:right;
 }
