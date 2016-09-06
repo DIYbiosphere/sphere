@@ -9,19 +9,10 @@ layout: default
 
     <div class="col-sm-9">
       <div class="row breadcrumbs">
-        <div class="col-sm-6">
-<!--TODO:"About" should change to a code that reflects the location of the file. the double >> should only show if there is file after-->
-            <a href="#" class="link selectable pull-left">{{ page.title }}</a>
-        </div>
-        <div class="col-sm-6">
-          <a href="{{site.github.repository_url}}/blob/master/{{page.path}}" class="link selectable pull-right">
-          <i class="fa fa-pencil"></i>  Edit this page
-          </a>
-        </div>
+        {% include breadcrumbs.html %}
       </div>
       <div class="docs">
-        {% include reading-time.html %}
-        {{content}}
+          {{content}}
       </div>
     </div>
   </div>

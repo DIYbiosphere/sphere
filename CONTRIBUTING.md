@@ -87,7 +87,6 @@ If your PR does not pass the Travis build DO NOT merge! Check either in Travis o
 [Copyright Terms]: http://sphere.diybio.org/docs/about/copyright/license/
 [Issues]: https://github.com/DIYbiosphere/sphere/issues
 [Pull Requests]: https://github.com/DIYbiosphere/sphere/pulls
-<<<<<<< HEAD
 [Getting Started]: /docs/help/getting-started
 [Eli5 Guide]: /docs/help/eli5-guide/
 [tutorials]: /docs/help/tutorials/
@@ -112,27 +111,3 @@ If your PR does not pass the Travis build DO NOT merge! Check either in Travis o
 [labels]: /docs/help/workflow/#labels
 [milestones]: /docs/help/workflow/#milestones
 [boards]: /docs/help/workflow/#boards
-
-
-http://mozillascience.github.io/working-open-workshop/contributing/
-=======
-[Getting Started]: /help/getting-started
-[Eli5 Guide]: /help/eli5-guide/
-[tutorials]: /help/tutorials/
-[adding a new entry]: /help/tutorials/add-entry/
-[editing an entry]: /help/tutorials/edit-entry/
-[communication platforms]: /about/contact/
-[FAQs]: /help/faq/
-[Teams]: /about/community/#Teams
-[member]: /about/community/#member
-[DIYbiosphere organization]: /about/community/
-[permission levels]: /about/community/#permission-levels
-[duplicates]: /help/workflow/#removing-duplicates
-[vote]: /help/workflow/#adding-reactions
-[Organize]: /help/workflow/
-[labels]: /help/workflow/#labels
-[milestones]: /help/workflow/#milestones
-[boards]: /help/workflow/#boards
-[installation instructions]: /help/install/
-[Travis]: https://travis-ci.org/DIYbiosphere/sphere
->>>>>>> master
