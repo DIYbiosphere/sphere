@@ -78,24 +78,21 @@ Assigning tasks to users help the community know who they can reach out to to he
 ## Additional organization of tickets
 Tickets
 
-<<<<<<< HEAD
+
 ## Creating a good ticket
 A good ticket should have a concise and clear title.
 See our Contributing Guidelines for submitting issues, PRs. Title and descriptions can often follow the same as good commit messages.
-In addition. It is also useful to add checklists. If the ticket is too complicated for checklists.. consider turning it into an epic. 
-=======
+In addition. It is also useful to add checklists. If the ticket is too complicated for checklists.. consider turning it into an epic.
+
 
 
 ## Additional organization of issues
->>>>>>> master
+
 
 
 ### Adding reactions
 You can add reactions, a.k.a. emojis, to comments and text messages on
-<<<<<<< HEAD
-=======
 
->>>>>>> master
 
 ### Removing duplicates
 

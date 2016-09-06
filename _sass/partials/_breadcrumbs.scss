@@ -1,16 +1,28 @@
 .breadcrumbs {
   font-family: $monospace;
-  padding: $pad 0em 0em 0em;
-
-  a, {
-    color: black;
-    font-weight: 300;
-    font-size: 0.9em;
-    letter-spacing: -0.9px;
-    padding: 0.5em;
+  font-size: 0.85em;
+  letter-spacing: -0.5px;
+  a {
+    color: $primary;
 
     .octicon {
-      font-size: 0.9em;
     }
   }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+   li {
+     padding-bottom: 5px;
+   }
+
+  }
+
+.crumbs {
+  text-align: left;
+}
+
+.commits {
+  text-align: right;
 }

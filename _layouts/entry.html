@@ -2,20 +2,20 @@
 layout: default
 ---
 <div class="row breadcrumbs">
-  <div class="col-sm-6 text-left">
-    <a href="/database/" class="link selectable">
+  <div class="col-sm-6 crumbs">
+    <a href="/database/">
       Database
     </a>
     /
-    <a href="/database/{{ page.collection | downcase }}s/" class="link selectable">
+    <a href="/database/{{ page.collection | downcase }}s/">
       {{ page.collection | capitalize }}
     </a>
     /
-    <a href="#" class="link selectable">{{ page.title | Capitalize }}</a>
+    <a href="#">{{ page.title | Capitalize }}</a>
   </div>
-  <div class="col-sm-6 text-right">
+  <div class="col-sm-6 commits">
     <a href="{{site.github.repository_url}}/blob/master/{{page.path}}"
-      class="link selectable" target="_blank">
+       target="_blank">
       <i class="fa fa-pencil"></i> Edit this page
     </a>
   </div>
@@ -32,7 +32,6 @@ layout: default
 
   <div class="col-sm-9 col-md-pull-3">
     {{content}}
-    <span class="text-weak">Last update: {{ page.last_modified_at | date: '%Y-%m-%d' }}</span>
   </div>
 
 </div>
