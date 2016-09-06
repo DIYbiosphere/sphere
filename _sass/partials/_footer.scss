@@ -19,10 +19,24 @@
   background-color: $light-gray;
   border-bottom: 2px solid $primary;
   text-align: center;
+  padding-top: 12px;
 
+  ul {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      text-align: center;
+      padding-right: 10px;
+    }
+  }
+}
+  .slackin {
+    vertical-align: -7px;
 }
 
 .help-links {
+  padding: $pad 0;
   a {
     color: $primary;
   }
@@ -35,8 +49,11 @@
 .legal-footer {
   background-color: $primary;
   color: $default;
+  padding: 10px 0;
+  text-align: center;
   a {
     color: $default;
+    text-decoration: underline;
   }
 
   ul {
@@ -44,45 +61,18 @@
 
     li {
       display: inline;
-      text-align: left;
+      text-align: center;
     }
   }
 
 }
 
-.copyright {
-  float: right;
+.footer-socials {
+  margin-right: 5px;
 }
 
-.col-xs-5ths,
-.col-sm-5ths,
-.col-md-5ths,
-.col-lg-5ths {
-    position: relative;
-    min-height: 1px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-.col-xs-5ths {
-    width: 20%;
-    float: left;
-}
-@media (min-width: 768px) {
-.col-sm-5ths {
-        width: 20%;
-        float: left;
-    }
-}
-@media (min-width: 992px) {
-    .col-md-5ths {
-        width: 20%;
-        float: left;
-    }
-}
-@media (min-width: 1200px) {
-    .col-lg-5ths {
-        width: 20%;
-        float: left;
-    }
+.link-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-bottom: 3px;
 }

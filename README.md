@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/DIYbiosphere/sphere.dir.svg?branch=master)](https://travis-ci.org/DIYbiosphere/sphere.dir)
+[![Build Status](https://travis-ci.org/DIYbiosphere/sphere.svg?branch=master)](https://travis-ci.org/DIYbiosphere/sphere)
 [![Dependency Status](https://www.versioneye.com/user/projects/574e9577e298f3003e688985/badge.svg?style=flat)](https://www.versioneye.com/user/projects/574e9577e298f3003e688985)
-![](https://reposs.herokuapp.com/?path=DIYbiosphere/sphere.dir&color=yellowgreen)
-[![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/sphere.dir.svg)](https://gitter.im/DIYbiosphere/sphere.dir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+![](https://reposs.herokuapp.com/?path=DIYbiosphere/sphere&color=yellowgreen)
+[![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/sphere.svg)](https://gitter.im/DIYbiosphere/sphere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Slack Status](https://diybiosphere.herokuapp.com/badge.svg)](https://diybiosphere.herokuapp.com)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0-blue.svg)](http://sphere.diybio.org/license/)
 
@@ -65,8 +65,8 @@ If you wish to credit our work, please do so as “© DIYbiosphere contributors�
 [Markdown]: https://guides.github.com/features/mastering-markdown/ "Learn about Markdown from GitHub"
 [add]: http://sphere.diybio.org/docs/help/tutorials/add-entry/ "How to add an entry"
 [update/edit]: http://sphere.diybio.org/docs/help/tutorials/edit-entry/ "How to edit an entry"
-[issues]: https://github.com/DIYbiosphere/sphere.dir/issues "Go to GitHub Issues"
-[Gitter chatroom]: https://gitter.im/DIYbiosphere/sphere.dir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge "Go to DIYbiosphere Gitter chatroom"
+[issues]: https://github.com/DIYbiosphere/sphere/issues "Go to GitHub Issues"
+[Gitter chatroom]: https://gitter.im/DIYbiosphere/sphere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge "Go to DIYbiosphere Gitter chatroom"
 [join us on Slack]: https://diybiosphere.herokuapp.com/ "Request an invite to DIYbiosphere Slack team"
 [DIYbiosphere.slack.com]: https://diybiosphere.slack.com "Go to the DIYbiosphere Slack Team page"
 [DIYbiosphere organization]: https://github.com/DIYbiosphere "Go to the DIYbiosphere organization GitHub page"

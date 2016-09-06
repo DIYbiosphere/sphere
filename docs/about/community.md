@@ -72,14 +72,14 @@ Anyone can become a Director. Directors are expected to have the following chara
 - Willingness to dedicate some time to improving DIYbiosphere.
 
 
-[Repository]: https://github.com/DIYbiosphere/sphere.dir "Go to DIYbiosphere repository"
+[Repository]: https://github.com/DIYbiosphere/sphere "Go to DIYbiosphere repository"
 [DIYbiosphere organization]: https://github.com/DIYbiosphere "Go to the DIYbiosphere organization GitHub page"
 [Request membership]: /docs/help/contributing/#membership-request "How to request membership"
 [here]: https://help.github.com/articles/repository-permission-levels-for-an-organization/ "Learn about permission levels from GitHub"
 [workflow management]: /docs/help/workflow/ "Learn how tickets are managed and organized"
 [adding an entry]: /docs/help/tutorials/add-entry/ "How to add an entry"
 [editing an entry]: /docs/help/tutorials/edit-entry/ "How to edit an entry"
-[editable branch]: https://github.com/DIYbiosphere/sphere.dir/tree/editable "Go directly to the "
+[editable branch]: https://github.com/DIYbiosphere/sphere/tree/editable "Go directly to the "
 [adding]: /docs/help/tutorials/add-entry-member/ "How to add an entry"
 [editing]: /docs/help/tutorials/edit-entry-member/ "How to edit an entry"
 [add]: /docs/help/tutorials/add-entry-teams/ "How to add an entry"

@@ -4,7 +4,7 @@ manager: sabgaby
 collection: Project
 title: DIYbiosphere
 
-logo: https://raw.githubusercontent.com/DIYbiosphere/sphere.dir/master/img/Logo.png
+logo: https://raw.githubusercontent.com/DIYbiosphere/sphere/master/img/Logo.png
 website: http://sphere.diybio.org/
 since: 2016
 
@@ -29,11 +29,11 @@ city: Geneva
 country: Switzerland
 
 
-github: https://github.com/DIYbiosphere/sphere.dir
+github: https://github.com/DIYbiosphere/sphere
 
 twitter: https://twitter.com/DIYbiosphere/
 slack: https://slack.io.com/DIYbiosphere/
-gitter: https://gitter.im/DIYbiosphere/sphere.dir?utm_source=share-link&utm_medium=link&utm_campaign=share-link
+gitter: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link
 
 tags:
 - database

@@ -85,8 +85,8 @@ If your PR does not pass the Travis build DO NOT merge! Check either in Travis o
 
 [Code of Conduct]: http://sphere.diybio.org/docs/about/coc/
 [Copyright Terms]: http://sphere.diybio.org/docs/about/copyright/license/
-[Issues]: https://github.com/DIYbiosphere/sphere.dir/issues
-[Pull Requests]: https://github.com/DIYbiosphere/sphere.dir/pulls
+[Issues]: https://github.com/DIYbiosphere/sphere/issues
+[Pull Requests]: https://github.com/DIYbiosphere/sphere/pulls
 <<<<<<< HEAD
 [Getting Started]: /docs/help/getting-started
 [Eli5 Guide]: /docs/help/eli5-guide/
@@ -94,10 +94,10 @@ If your PR does not pass the Travis build DO NOT merge! Check either in Travis o
 [adding a new entry]: /docs/help/tutorials/add-entry/
 [editing an entry]: /docs/help/tutorials/edit-entry/
 [Github issues]: https://guides.github.com/features/issues/
-[Issues tab]: https://github.com/DIYbiosphere/sphere.dir/issues
-[project’s issues]: https://github.com/DIYbiosphere/sphere.dir/issues
+[Issues tab]: https://github.com/DIYbiosphere/sphere/issues
+[project’s issues]: https://github.com/DIYbiosphere/sphere/issues
 [coders]: https://github.com/orgs/DIYbiosphere/teams/coders
-[Gitter]: https://gitter.im/DIYbiosphere/sphere.dir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
+[Gitter]: https://gitter.im/DIYbiosphere/sphere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
 [Slack]: https://diybiosphere.slack.com/
 [request an invite]: https://diybiosphere.herokuapp.com/
 [1]: #
@@ -134,5 +134,5 @@ http://mozillascience.github.io/working-open-workshop/contributing/
 [milestones]: /help/workflow/#milestones
 [boards]: /help/workflow/#boards
 [installation instructions]: /help/install/
-[Travis]: https://travis-ci.org/DIYbiosphere/sphere.dir
+[Travis]: https://travis-ci.org/DIYbiosphere/sphere
 >>>>>>> master

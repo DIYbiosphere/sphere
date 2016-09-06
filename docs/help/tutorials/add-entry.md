@@ -16,7 +16,7 @@ The tutorials [for members] is [6 steps] and for team members (managers, editors
 >>>>>>> master
 
 
-1. **Fork** the [sphere.dir] repository to make changes
+1. **Fork** the [sphere] repository to make changes
 2. In your forked copy, open the collection folder of your new entry and **Create new file** named 'EntryName-ZZ.md'. Learn more about [entry collections] and [naming convention].
 3. **Copy and paste [entry template]**
 4. **Fill in your entry**
@@ -32,7 +32,7 @@ Thank you for your contribution! :heart:
 
 
 [helpful hints]: /docs/help/hints/
-[sphere.dir]: https://github.com/DIYbiosphere/sphere.dir
+[sphere]: https://github.com/DIYbiosphere/sphere
 [editing tutorial]: /docs/help/tutorials/edit-entry
 [6 steps]: /docs/help/tutorials/add-entry-member
 [4 steps]: /docs/help/tutorials/add-entry-teams

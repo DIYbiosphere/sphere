@@ -1,26 +1,39 @@
 .infobox {
   font-family: $fonts;
-  border: 0.5px solid;
-  padding: 0em 2em;
+  width: 300px;
+  float: right;
+  margin: 0 1em;
 
   .octicon-link-external {
-    font-size: 0.8em;
     padding-left: 2px;
     vertical-align: top;
+    color: $warm-gray;
+    font-size: 12px;
   }
 
   .octicon-link {
-    font-size: 0.8em;
     padding-left: 2px;
     vertical-align: top;
-  }
-
-  a {
-    color: $warm-gray;
+    padding-top: 2px;
   }
 }
 
+.datafields {
+    border: 1px solid $primary;
+    padding: 0.6em;
+}
 
+.keywords {
+    border-bottom: 1px solid $primary;
+    border-left: 1px solid $primary;
+    border-right: 1px solid $primary;
+    padding: 0.6em;
+}
+
+.entry-logo {
+  max-height: 80px;
+  max-width: 160px;
+}
 .infobox p {
   display: inline;
 }
@@ -30,19 +43,8 @@
   font-weight: 600;
 }
 
-.infobox-content {
-  margin-top: 0.2em;
-  text-align: left;
-}
-
-.infobox-item {
-  padding: .2em;
-  line-height: 130%;
-  color: #B0CADB;
-}
-
 .infobox-icon {
   border: 0;
   background-color: $default;
-
+  padding: 0 5px 0 0;
 }

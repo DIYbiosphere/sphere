@@ -1,0 +1,12 @@
+  <div class="col-sm-9 text-left">
+<!--TODO:"About" should change to a code that reflects the location of the file. the double >> should only show if there is file after-->
+    <a href="#" class="link selectable">{{ page.title }}</a>
+      {% include reading-time.html %}
+  </div>
+  <div class="col-sm-3 text-right">
+    <a href="{{site.github.repository_url}}/blob/master/{{page.path}}"
+      class="link selectable" target="_blank">
+      <i class="fa fa-pencil"></i> Edit this page
+    </a>
+    <p>Lastest Commit: {{ page.last_modified | date_to_string }}</p>
+  </div>

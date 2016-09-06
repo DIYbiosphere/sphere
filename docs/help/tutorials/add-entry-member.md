@@ -27,7 +27,7 @@ Thank you for your contribution! :heart:
 
 [editing tutorial]: /docs/help/tutorials/edit-entry-member
 [helpful hints]: /docs/help/hints/
-[editable branch]: https://github.com/DIYbiosphere/sphere.dir/tree/editable
+[editable branch]: https://github.com/DIYbiosphere/sphere/tree/editable
 [7 steps]: /docs/help/tutorials/add-entry
 [4 steps]: /docs/help/tutorials/add-entry-teams
 [development community]: #

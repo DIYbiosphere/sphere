@@ -11,5 +11,5 @@ title: Frequently Asked Questions (FAQ)
 
 
 [new issue]: #
-[Gitter]: https://badges.gitter.im/DIYbiosphere/sphere.dir.svg)](https://gitter.im/DIYbiosphere/sphere.dir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
+[Gitter]: https://badges.gitter.im/DIYbiosphere/sphere.svg)](https://gitter.im/DIYbiosphere/sphere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
 [Slack]: https://diybiosphere.herokuapp.com/badge.svg)](https://diybiosphere.herokuapp.com

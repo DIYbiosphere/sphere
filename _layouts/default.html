@@ -2,17 +2,21 @@
 <html>
 
   {% include head.html %}
-<article>
-  <body>
-    <div id="page-wrap">
+
+
+  <body class="container-fluid">
+    <div>
 
     {% include header.html %}
 
-    <div class="main-content container">
+    <div class="main-content">
       {{content}}
     </div>
-</article>
-    {% include footer.html %}
+
+    <div class="row">
+      {% include footer.html %}
+    </div>
+
 
     <!-- used across all pages -->
     {% include omnisearch-modal.html %}
@@ -40,7 +44,7 @@
     <!-- Embeded Gitter chat -->
     <script>
       ((window.gitter = {}).chat = {}).options = {
-        room: 'DIYbiosphere/sphere.dir',
+        room: 'DIYbiosphere/sphere',
       };
     </script>
     <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
