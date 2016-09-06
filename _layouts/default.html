@@ -2,17 +2,21 @@
 <html>
 
   {% include head.html %}
-<article>
-  <body>
-    <div id="page-wrap">
+
+
+  <body class="container-fluid">
+    <div>
 
     {% include header.html %}
 
-    <div class="main-content container">
+    <div class="main-content">
       {{content}}
     </div>
-</article>
-    {% include footer.html %}
+
+    <div class="row">
+      {% include footer.html %}
+    </div>
+
 
     <!-- used across all pages -->
     {% include omnisearch-modal.html %}
