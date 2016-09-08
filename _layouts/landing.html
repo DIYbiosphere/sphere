@@ -20,7 +20,7 @@
       </div>
       <div class="row text-center">
         <div class="col-sm-offset-3 col-sm-3">
-          <form id="search-form">
+          <form id="search-form" method="GET" action="/database/">
             <div class="input-addon">
               <i class="fa fa-sliders input-icon-right"></i>
               <i class="fa fa-search input-icon-left"></i>
@@ -75,7 +75,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js" type="text/javascript"></script>
-    <script src="{{ '/js/landing.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+    <!--<script src="{{ '/js/landing.js' | prepend: site.baseurl }}" type="text/javascript"></script>-->
+    {% javascript landing %}
     <script>
       ((window.gitter = {}).chat = {}).options = {
         room: 'DIYbiosphere/diybiosphere.io'

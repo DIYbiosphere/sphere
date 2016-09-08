@@ -35,8 +35,8 @@
       <script src="https://cdn.datatables.net/buttons/1.1.2/js/dataTables.buttons.min.js" type="text/javascript"></script>
       <script src="https://cdn.datatables.net/buttons/1.1.2/js/buttons.html5.min.js" type="text/javascript"></script>
       <script src="{{ '/js/entries.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+      {% javascript entries %}
     {% endif %}
-
     {% if page.layout == 'entry' %}
       <script src="{{ '/js/entry.js' | prepend: site.baseurl }}" type="text/javascript"></script>
     {% endif %}
