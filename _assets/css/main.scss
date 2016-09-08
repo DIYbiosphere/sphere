@@ -1,6 +1,3 @@
----
----
-
 /* Import sass files */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300|Source+Code+Pro:400,300");
 $fonts: 'Source Sans Pro', sans-serif;
@@ -12,7 +9,7 @@ $monospace: 'Source Code Pro', monospace;
 /* Base css */
 @import "base";
 
-@import "vendor/bootstrap";
+@import 'bootstrap';
 @import "vendor/gitter-sidecar";
 
 @import "partials/header";
@@ -27,10 +24,8 @@ $monospace: 'Source Code Pro', monospace;
 @import "modules/typed-cursor";
 @import "modules/buttons";
 @import "modules/issues-labels";
-/* Padding and margins */
 
 @import "modules/world-map";
-/* Infobox styles */
 
 
 /**
