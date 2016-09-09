@@ -1,11 +1,12 @@
 .footer {
-  margin-top: 5em;
-  background-color: $light-gray;
+  margin-top: 3em;
+  margin-left: 0;
+  background-color: $default;
   padding-top: 1.5em;
-  text-align: center;
+  text-align: left;
   a {
     text-decoration: none;
-    color: black;
+    color: $primary;
   }
 
   a:hover {
@@ -13,21 +14,64 @@
     color: $hyperlink;
   }
 }
-.subfooter {
-  margin: auto;
-  width: 70%;
-  align-content: center;
-}
 
-.last-footer {
+.badges {
+  background-color: $light-gray;
+  border-bottom: 2px solid $primary;
+  text-align: center;
+  padding-top: 12px;
   ul {
     list-style: none;
-    text-align: left;
-    text-align: center;
+
     li {
-      display: inline;
-      text-align: left;
-      padding-right: 8px;
+      display: inline-block;
+      text-align: center;
+      padding-right: 10px;
     }
   }
+}
+  .slackin {
+    vertical-align: -7px;
+}
+
+.help-links {
+  padding: $pad 0;
+  a {
+    color: $primary;
+  }
+
+  ul {
+    list-style: none;
+  }
+}
+
+.legal-footer {
+  background-color: $primary;
+  color: $default;
+  padding: 10px 0;
+  text-align: center;
+  a {
+    color: $default;
+    text-decoration: underline;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline;
+      text-align: center;
+    }
+  }
+
+}
+
+.footer-socials {
+  margin-right: 5px;
+}
+
+.link-title {
+  font-weight: 600;
+  font-size: 1.2em;
+  padding-bottom: 3px;
 }

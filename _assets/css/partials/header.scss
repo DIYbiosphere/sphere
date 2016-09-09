@@ -2,7 +2,6 @@
   background-color: $default;
   font-family: $fonts;
   font-weight: 600;
-  min-height: 90px;
   line-height: 3em;
   border-bottom: $primary solid 3px;
 }
@@ -12,8 +11,7 @@
 }
 
 .navbar .navbar-nav li a {
-  color: #000000;
-  text-transform: uppercase;
+  color: $primary;
   line-height: 3em
 
 }

@@ -2,7 +2,7 @@ html, body {
   overflow-x: hidden;
   color: black;
   font-family: $fonts !important;
-  
+
   a {
     color: $hyperlink;
     cursor: pointer;
@@ -10,13 +10,14 @@ html, body {
 
     &:hover {
       color: $hyperlink;
+      text-decoration: underline;
     }
   }
 
 }
 
 blockquote {
-  font-size: 12px;
+  font-size: 1em;
 }
 
 h1 {
@@ -39,10 +40,10 @@ h5 {
 *  otherwise they are blocked by the top navbar
 */
 h2:before,
-h3:before { 
-  display: block; 
-  content: ""; 
-  margin: -113px 0 0; 
+h3:before {
+  display: block;
+  content: "";
+  margin: -113px 0 0;
   height: 113px;
 }
 
@@ -55,13 +56,28 @@ h3:before {
   position: relative
 }
 
-.reading-time {
-  font-family: $monospace;
-  margin-top: -10px;
-  margin-bottom: 15px;
-  color: black;
-  font-weight: 300;
-  font-size: 0.8em;
-  letter-spacing: -0.9px;
-  padding: 0.5em;
+/*
+
+
+#page-wrap {
+  min-width: 960px;
+  width: 90%;
+  max-width: 1200px;
+  align-content: center;
+}
+*/
+
+
+.icons {
+  display: inline;
+  fill: currentColor;
+  width: 0.9em;
+  height: 0.9em;
+  a {
+    fill: $hyperlink;
+
+    &:hover {
+      fill: red;
+    }
+  }
 }

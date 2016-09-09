@@ -1,10 +1,10 @@
 ---
 layout: docs
-permalink: /help/tutorials/using-atom/
+permalink: /docs/help/tutorials/using-atom/
 title: How to Use Atom
 ---
 
-In addition, we highly recommend you download the following packages for Atom:
+Atom is an open-source text editor developed by GitHub. It is available for MacOS, Windows, and Linux. We highly recommend it and our tutorials assume you use Atom and have downloaded the following packages:
 
   - [Markdown-writer for atom]: Makes Atom a better Markdown editor.
   - [Atom beautify]: Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, and SQL in Atom.

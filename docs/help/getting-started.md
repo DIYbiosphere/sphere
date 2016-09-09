@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /help/getting-started/
+permalink: /docs/help/getting-started/
 title: Getting Started
 ---
 
@@ -12,19 +12,19 @@ This is the kickstart guide to getting familiar with _using_ the database, and _
 The database refers to all the entries of DIYbio initiatives.
 
 ### Searching Through the Database
-You can access the entries at: [sphere.diybio.org]. In the home page you can directly search for entries with keywords (i.e. Lab, Geneva, Bioscope) or do an Advanced Search with predetermined filters. Your Search Query will return a Table of Entries that match your Search. You can further search, filter and sort the table. The search bar in the navigation bar searches throughout all the site including the documentation.
+You can access the entries at: [sphere.diybio.org]. In the home page you can directly search for entries with keywords (i.e. Lab, Geneva, Bioscope) or do an Advanced Search with predetermined filters. Your Search Query will return a Table of Entries that match your search query. You can further search, filter and sort the table. The search bar in the navigation bar searches throughout all the site including the documentation.
 
 ### Structure of Entries
-Entries are divided into eight collections: _Projects_, _Startups_, _Labs_, _Incubators_, _Groups_, _Networks_, _Events_, and _Others_. For a more detailed description of these see the [classification of entries].
+Entries are divided into eight collections: _Projects_, _Startups_, _Labs_, _Incubators_, _Groups_, _Networks_, _Events_, and _Others_. For a more detailed description of these see the [collection of entries].
 
-Each entry two parts: a body of text that contains the descriptive story of the initiative (About, History), and an infobox in the top right-hand corner which contains the entry's data. For a more detailed explanation see the [fields of infobox].
+Each entry has two parts: a body of text that contains the descriptive content of the initiative (About, History), and an infobox in the top right-hand corner which contains the entry's data. Learn more about the [fields in infobox].
 
 ### Obtaining the Dataset
 The data collected in the infobox is completely open and free to (re)use. There are three ways to download it.
 
 - **Table of Entries**: Every search query that returns the table of entries can be downloaded as a CSV file.
 - **Entire Table**: All the data in the 'front-matter' of the all entries is aggregated and compiled as a CSV file and can be downloaded as the [complete dataset].
-- **Source**: The source-files of the entries are in the [sphere.dir] repository in GitHub in each collection folder.
+- **Source**: The source-files of the entries are in the [sphere] repository in GitHub in each collection folder.
 
 
 ## Contributing to the Database
@@ -51,35 +51,35 @@ There are many ways you can contribute to the project. Please follow our [Contri
 [Join our development community!] We maintain a more active discussion and conversation on our [Slack Team], [Request an invite!].
 
 
-[overview]: /about/overview/
-[basic components of the database]: /help/basics/#database
+[overview]: /docs/about/overview/
+[basic components of the database]: /docs/help/basics/#database
 [sphere.diybio.org]: http://sphere.diybio.org
-[classification of entries]: /help/basics/
-[fields of infobox]: /help/basics/
+[classification of entries]: /docs/help/basics/
+[fields of infobox]: /docs/help/basics/
 <!-- TODO: add link to complete dataset -->
 [complete dataset]: #
 [sign-up]: https://github.com/join
-[ELI5]: /help/eli5-guide/
-[sphere.dir]: https://github.com/DIYbiosphere/sphere.dir
-[Helpful hints]: /help/hints/
-[code of conduct]: /about/coc/
+[ELI5]: /docs/help/eli5-guide/
+[sphere]: https://github.com/DIYbiosphere/sphere
+[Helpful hints]: /docs/help/hints/
+[code of conduct]: /docs/about/coc/
 [Github glossary]: https://help.github.com/articles/github-glossary/
-[Database]: /help/basics/#Database
-[Documentation]: /help/basics/#Documentation
-[Development]: /help/basics/#Development
-[Design]: /help/basics/#Design
-[simple markdown]: /help/simple-markdown/
-[complaint]: /help/contributing/#report-a-bug
-[question]: /help/contributing/#ask-a-question
-[idea]: /help/contributing/#make-a-suggestion
-[vote]: /help/workflow/#adding-reactions
-[Contributing guidelines]: /help/contributing/
-[Issues]: https://github.com/DIYbiosphere/sphere.dir/issues
-[easy]: https://github.com/DIYbiosphere/sphere.dir/labels/easy
-[feedback]: https://github.com/DIYbiosphere/sphere.dir/labels/feedback%20wanted
-[critical]: https://github.com/DIYbiosphere/sphere.dir/labels/critical
-[help]: https://github.com/DIYbiosphere/sphere.dir/labels/help%20wanted
-[resolving]: https://github.com/DIYbiosphere/sphere.dir/labels/resolution%20needed
-[Join our development community!]: /help/contributing/#requesting-membership
+[Database]: /docs/help/basics/#Database
+[Documentation]: /docs/help/basics/#Documentation
+[Development]: /docs/help/basics/#Development
+[Design]: /docs/help/basics/#Design
+[simple markdown]: /docs/help/simple-markdown/
+[complaint]: /docs/help/contributing/#report-a-bug
+[question]: /docs/help/contributing/#ask-a-question
+[idea]: /docs/help/contributing/#make-a-suggestion
+[vote]: /docs/help/workflow/#adding-reactions
+[Contributing guidelines]: /docs/help/contributing/
+[Issues]: https://github.com/DIYbiosphere/sphere/issues
+[easy]: https://github.com/DIYbiosphere/sphere/labels/easy
+[feedback]: https://github.com/DIYbiosphere/sphere/labels/feedback%20wanted
+[critical]: https://github.com/DIYbiosphere/sphere/labels/critical
+[help]: https://github.com/DIYbiosphere/sphere/labels/help%20wanted
+[resolving]: https://github.com/DIYbiosphere/sphere/labels/resolution%20needed
+[Join our development community!]: /docs/help/contributing/#membership-request
 [Slack Team]: https://diybiosphere.slack.com/
 [Request an invite!]: https://diybiosphere.herokuapp.com/

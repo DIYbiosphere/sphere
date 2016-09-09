@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /news/blog/
+permalink: /docs/news/blog/
 title: Blog
 ---
 

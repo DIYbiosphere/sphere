@@ -1,10 +1,10 @@
 ---
 layout: docs
 title: Installation Instructions
-permalink: /help/tutorials/install/
+permalink: /docs/help/tutorials/install/
 ---
 
-This section details how to edit locally on your desktop.
+_This section details how to edit locally on your desktop._
 
 We recommend you use [GitHub Desktop] as a Git Client; available for MacOS and Windows, and [Atom] as a text editor; available for MacOS, Windows and Linux. See our guides on [using Atom] and [using GitHub Desktop].
 
@@ -33,14 +33,14 @@ Some of these steps require that you use a Terminal, which is a direct line (a c
 Go to the repository and click clone on GitHub Desktop.
   - Terminal:
 ```
-git clone https://github.com/DIYbiosphere/sphere.dir.git
+git clone https://github.com/DIYbiosphere/sphere.git
 ```
 
 5. Open the repository root folder
  - Desktop: Right click on the repository and
 or drag the folder into your terminal (mac users)
  - Terminal:
-``` cd \YourFilePath\sphere.dir ```
+``` cd \YourFilePath\sphere ```
 
 
 5. Install dependencies using [Bundler]
@@ -66,7 +66,7 @@ jekyll serve
 The views logic is done using [JQuery](https://jquery.com/).
 
 All the initiatives are stored in a single json file:
-[initiatives.json](https://github.com/DIYbiosphere/sphere.dir/blob/gh-pages/js/data/initiatives.json)
+[initiatives.json](https://github.com/DIYbiosphere/sphere/blob/gh-pages/js/data/initiatives.json)
 
 The main SCSS content is in the /css folder. and as you can see there are @import
 statements that reference other files located in the /\_sass folder. This allows
@@ -80,9 +80,9 @@ to have a modular and cleaner design.
 ## Continuous Integration
 The project is integrated with [Travis-CI](https://travis-ci.org/), so every
 time someone pushes to the master branch of the
-[repository](https://github.com/DIYbiosphere/sphere.dir),
+[repository](https://github.com/DIYbiosphere/sphere),
 [Travis](https://travis-ci.org/) builds the site using Jekyll and push it to the
-[gh-pages](https://github.com/DIYbiosphere/sphere.dir/tree/gh-pages) branch.
+[gh-pages](https://github.com/DIYbiosphere/sphere/tree/gh-pages) branch.
 
 ---
 
@@ -102,8 +102,8 @@ xcode-select — install
 
 [GitHub Desktop]: https://desktop.github.com/
 [Atom]: https://atom.io/
-[using atom]: /help/tutorials/
-[using Github Desktop]:
+[using atom]: /docs/help/tutorials/using-atom/
+[using Github Desktop]: docs/help/tutorials/
 [file icons]: https://atom.io/packages/file-icons
 [pigments]: https://atom.io/packages/pigments
 [todo-show]: https://atom.io/packages/todo-show

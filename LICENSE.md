@@ -1,12 +1,10 @@
 ---
 layout: docs
-permalink: /about/copyright/license/
+permalink: /docs/about/copyright/license/
 title: Copyright License for humans
 ---
 
-
-**The copyright of the DIYbiosphere is designed to be as permissive as possible to eliminate all uncertainty for potential users, encouraging maximal reuse and sharing of information.**
-**All the work in this project is freely available to use, modify and distribute**   :two_hearts:
+**All the work in this project, except where otherwise noted\*, is freely available to use, modify and distribute** :two_hearts:
 
 Overall the Work in this Project is divided as:
 
@@ -22,14 +20,17 @@ Overall the Work in this Project is divided as:
 
 Your contributions are shared under these copyright terms. You can review the "Contributor License Agreement" ([CLA]) to understand in legal terms the authorship rights granted and/or waived from your Contributions.
 
+The copyright of the DIYbiosphere is designed to be as permissive as possible to eliminate all uncertainty for potential users, encouraging maximal reuse and sharing of information.
 
 ### Copyright Attribution
-You may attribute our Work as “© DIYbiosphere contributors”.
+You may attribute our Work as “© DIYbiosphere contributors” to recognize the amazing effort of our contributors. Because DIYbiosphere _is_ its contributors you may omit the word “contributors” if space is limited.
 
-Because DIYbiosphere _is_ its contributors you may omit the word “contributors” if space is limited.
+---
 
-{% include _notices/note.html title="We appreciate credit!" text="Although attribution is not compulsory when (re)using the database, you may do so if you want to acknowledge the work of our contributors. They are awesome and deserve it!" %}
+#### *otherwise noted
+Content that shared/uploaded to the project and
 
-[CC0]: /about/copyright/cc0/
-[MIT License]: /about/copyright/mit/
-[CLA]: /about/copyright/cla/
+
+[CC0]: /docs/about/copyright/cc0/
+[MIT License]: /docs/about/copyright/mit/
+[CLA]: /docs/about/copyright/cla/

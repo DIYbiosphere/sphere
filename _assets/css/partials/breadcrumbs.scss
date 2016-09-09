@@ -1,0 +1,25 @@
+.breadcrumbs {
+  font-family: $monospace;
+  font-size: 0.85em;
+  letter-spacing: -0.5px;
+  a {
+    color: $primary;
+
+    .octicon {
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+   li {
+     display: inline;
+     padding-bottom: 3px;
+   }
+
+  }
+
+.commits {
+  float:right;
+}

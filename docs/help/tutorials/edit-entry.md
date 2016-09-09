@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /help/tutorials/edit-entry/
+permalink: /docs/help/tutorials/edit-entry/
 title: Editing an Entry
 ---
 > Draft
@@ -9,9 +9,9 @@ This is the tutorial (7 steps) to edit an entry. To add a new entry go to our [A
 
 Tutorial for members is [6 steps] and for team members (managers, editors) is [4 steps]. Learn more about our [development community]
 
-{% include _notices/warning.html title="Before you begin, you should:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/about/copyright/license/)." %}
+{% include _notices/warning.html title="Before you begin, you should:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/docs/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/docs/about/copyright/license/)." %}
 
-1. **Fork** the [sphere.dir] repository to make changes
+1. **Fork** the [sphere] repository to make changes
 2. In your forked copy, open the _database folder, find the file that you want to edit. and Click Edit
 4. **Make your changes**
 5. To save your changes **Commit changes**. Don't forget to add in a title.
@@ -23,13 +23,13 @@ Tutorial for members is [6 steps] and for team members (managers, editors) is [4
 Thank you for your contribution! :heart:
 
 
-[helpful hints]: /help/hints/
-[sphere.dir]: https://github.com/DIYbiosphere/sphere.dir
-[add an entry]: help/tutorials/add-entry
-[6 steps]: /help/tutorials/add-entry-member
-[4 steps]: /help/tutorials/add-entry-teams
+[helpful hints]: /docs/help/hints/
+[sphere]: https://github.com/DIYbiosphere/sphere
+[add an entry]: /docs/help/tutorials/add-entry
+[6 steps]: /docs/help/tutorials/add-entry-member
+[4 steps]: /docs/help/tutorials/add-entry-teams
 [development community]: #
 [entry template]: https://gist.githubusercontent.com/ahuacatl/954444c7f15a27190b0fd52e0021a58c/raw/91412b5ba78fb082b349776cf0a75d3c82f35da0/front-matter-template.md
 [classification of entries]: #
 [naming convention]: #
-[installation]: /help/install/
+[installation]: /docs/help/install/

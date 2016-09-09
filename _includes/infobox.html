@@ -1,0 +1,104 @@
+  <div class="infobox">
+    <div class="datafields">
+    <h3 class="infobox-title">
+
+      <a class="link text-dark selectable" href="{{ page.website }}" target="_blank">
+        {% if page.logo %}
+          <img class="entry-logo"  src="{{ page.logo }}" /> <i class="octicon octicon-link-external"></i>
+        {% else %}
+          {{ page.title }} <i class="octicon octicon-link-external"></i>
+      </a>
+        {% endif %}
+
+      </h3>
+        {% if page.since %}
+        <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="founded">
+        <span style="cursor:help"><i class="octicon octicon-gift"></i></span></button> {{ page.since }}
+          <br/>
+        {% endif %}
+
+      {% if page.host %}
+        {% assign host = page.host %}
+        {% if host.name %}
+        <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Parent/Host">
+        <span style="cursor:help"><i class="octicon octicon-home"></i></span></button>
+          {{ host.name }}
+          {% if host.sphere %}
+            <a href="{{ page.host.biosphere | site.baseUrl }}">
+              <i class="octicon octicon-link"></i> </a>
+          {% endif %}
+          {% if host.web %}
+            <a href="{{ page.host.web | site.baseUrl }}">
+              <i class="octicon octicon-link-external"></i> </a>
+          {% endif %}
+          <br/>
+        {% endif %}
+      {% endif %}
+
+      {% if page.type %}
+      <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Type">
+      <span style="cursor:help"><i class="octicon octicon-gear"></i></span></button> {{ page.type }}
+      <br/>
+      {% endif %}
+    {% if page.affiliates %}
+    <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Affiliates">
+    <span style="cursor:help"><i class="octicon octicon-organization"></i></span></button>
+      {% for affiliate in page.affiliates %}
+        {% if affiliate.name %}
+          {{ affiliate.name }}
+        {% endif %}
+        {% if affiliate.sphere %}
+          <a href="{{ affiliate.sphere }}"><i class="octicon octicon-link"></i></a>
+        {% endif %}
+        {% if affiliate.web %}
+          <a href="{{ affiliate.web }}"><i class="octicon octicon-link-external"></i></a>
+        {% endif %}
+        {% unless forloop.last %}
+          {% if affiliate.name != null %}
+            ,
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+      <br/>
+    {% endif %}
+
+    {% if page.address %}
+    <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Address">
+    <span style="cursor:help"><i class="octicon octicon-location"></i></span></button>
+      {{ page.address }}
+      <br>
+    {% endif %}
+
+    {% if page.directions %}
+      {{ page.directions }}
+      <br/>
+      <a href="#" title="View in map"> <i class="octicon octicon-link-external"></i> </a>
+      <br/>
+    {% endif %}
+
+    {% if page.city or page.state or page.country %}
+    <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Location">
+   <span style="cursor:help"><i class="octicon octicon-globe"></i></span></button> {{ page.city }}
+      {% if page.state %}, {% endif %}
+    {% endif %}
+    {% if page.state %}
+      {{ page.state }}
+      <br>{% if page.country %}, {% endif %}
+    {% endif %}
+    {% if page.country %}
+      {{ page.country }}
+      <br>
+    {% endif %}
+  </div>
+  <div class="keywords">
+    {% if page.tags %}
+        <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Keywords">
+        <span style="cursor:help"><i class="octicon octicon-tag"></i></button> {{ page.tags | array_to_sentence_string }}
+    {% endif %}
+</div>
+
+  <div class="socials">
+    {% include social-icons.html %}
+  </div>
+
+</div>

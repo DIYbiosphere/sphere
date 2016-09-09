@@ -1,30 +1,20 @@
 ---
 layout: default
 ---
-<div class="">
+
   <div class="row">
-    <div class="col-sm-3">
-      {% include sidemenu.html %}
+    <div class="side-menu col-sm-3">
+      {% include sidebar.html %}
     </div>
 
     <div class="col-sm-9">
-      <div class="row submenu">
-        <div class="col-sm-6 text-left">
-<!--TODO:"About" should change to a code that reflects the location of the file. the double >> should only show if there is file after-->
-          <a href="#" class="link selectable">{{ page.title }}</a>
-        </div>
-        <div class="col-sm-6 text-right">
-          <a href="{{site.github.repository_url}}/blob/master/{{page.path}}"
-            class="link selectable" target="_blank">
-            <i class="fa fa-pencil"></i> Edit this page
-          </a>
-        </div>
+      <div class="row breadcrumbs">
+        {% include breadcrumbs.html %}
       </div>
-      <div class="docs">
+      <div class="docs container-fluid">
         <div class="mar-no">
           <h1>{{ page.title }}</h1>
-        </div>
-      {% include reading-time.html %}
+        </div class="main-content">
         {{content}}
       </div>
     </div>

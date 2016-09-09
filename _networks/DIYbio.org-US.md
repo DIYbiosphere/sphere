@@ -3,7 +3,7 @@ manager: jasonbobe
 
 collection: Network
 title: DIYbio.org
-logo: https://raw.githubusercontent.com/DIYbiosphere/sphere.dir/master/img/Logo.png
+logo: https://raw.githubusercontent.com/DIYbiosphere/sphere/master/img/Logo.png
 website: https://diybio.org
 since: 2008
 

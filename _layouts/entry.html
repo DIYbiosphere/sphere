@@ -1,138 +1,32 @@
 ---
 layout: default
 ---
-<div class="row submenu">
-  <div class="col-sm-6 text-left">
-    <a href="/database/" class="link selectable">
+<div class="container-fluid">
+  <div class="row">
+    <a href="/database/">
       Database
     </a>
-    <i class="fa fa-angle-double-right"></i>
-    <a href="/database/{{ page.collection | downcase }}s/" class="link selectable">
+    /
+    <a href="/database/{{ page.collection | downcase }}/">
       {{ page.collection | capitalize }}
     </a>
-    <i class="fa fa-angle-double-right"></i>
-    <a href="#" class="link selectable">{{ page.title }}</a>
+    /
+    <a href="#">{{ page.title | capitalize }}</a>
   </div>
-  <div class="col-sm-6 text-right">
-    <a href="{{site.github.repository_url}}/blob/master/{{page.path}}"
-      class="link selectable" target="_blank">
-      <i class="fa fa-pencil"></i> Edit this page
-    </a>
-  </div>
-</div>
 
-<div class="mar-no">
-  <h1>{{ page.title }}</h1>
-</div>
+Lastest Commit: {{ page.last_modified }}
+
 <div class="row">
-
-  <div class="col-sm-4 col-md-push-8">
-    <div class="infobox mar-all">
-      <h3 class="infobox-title">
-
-        <a class="link text-dark selectable" href="{{ page.website }}" target="_blank">
-          {% if page.logo %}
-            <img class="entry-logo" max-height="10%" width="70%" src="{{ page.logo }}" /> <i class="octicon octicon-link-external"></i>
-          {% else %}
-            {{ page.title }} <i class="octicon octicon-link-external"></i>
-        </a>
-          {% endif %}
-
-        </h3>
-          {% if page.since %}
-          <button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Foundation-Extinction">
-          <i class="octicon octicon-gift"></i></button> {{ page.since }}
-            <br/>
-          {% endif %}
-
-        {% if page.host %}
-          {% assign host = page.host %}
-          {% if host.name %}
-          <button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Parent/Host">
-          <i class="octicon octicon-home"></i></button>
-            {{ host.name }}
-            {% if host.sphere %}
-              <a href="{{ page.host.biosphere | site.baseUrl }}">
-                <i class="octicon octicon-link"></i> </a>
-            {% endif %}
-            {% if host.web %}
-              <a href="{{ page.host.web | site.baseUrl }}">
-                <i class="octicon octicon-link-external"></i> </a>
-            {% endif %}
-            <br/>
-          {% endif %}
-        {% endif %}
-
-        {% if page.type %}
-        <button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Type">
-        <i class="octicon octicon-gear"></i></button> {{ page.type }}
-        <br/>
-        {% endif %}
-      {% if page.affiliates %}
-      <button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Affiliates">
-      <i class="octicon octicon-organization"></i></button></i>
-        {% for affiliate in page.affiliates %}
-          {% if affiliate.name %}
-            {{ affiliate.name }}
-          {% endif %}
-          {% if affiliate.sphere %}
-            <a href="{{ affiliate.sphere }}"><i class="octicon octicon-link"></i></a>
-          {% endif %}
-          {% if affiliate.web %}
-            <a href="{{ affiliate.web }}"><i class="octicon octicon-link-external"></i></a>
-          {% endif %}
-          {% unless forloop.last %}
-            {% if affiliate.name != null %}
-              ,
-            {% endif %}
-          {% endunless %}
-        {% endfor %}
-        <br/>
-      {% endif %}
-
-      {% if page.address %}
-      <button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Address">
-      <i class="octicon octicon-location"></i></button></i>
-        {{ page.address }}
-        <br>
-      {% endif %}
-
-      {% if page.directions %}
-        {{ page.directions }}
-        </br>
-        <a href="#" title="View in map"> <i class="octicon octicon-link-external"></i> </a>
-        <br>
-      {% endif %}
-
-      {% if page.city or page.state or page.country %}
-      <button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Location">
-     <i class="octicon octicon-globe"></i></button></i> {{ page.city }}
-        {% if page.state %}, {% endif %}
-      {% endif %}
-      {% if page.state %}
-        {{ page.state }}
-        {% if page.country %}, {% endif %}
-      {% endif %}
-      {% if page.country %}
-        {{ page.country }}
-        <br>
-      {% endif %}
-      {% if page.tags %}
-        <hr/>
-        <div class="mar-btm">
-          <button class="infobox-icon" data-toggle="tooltip" data-placement="left" title="Keywords">
-          <i class="octicon octicon-tag"></i></button> {{ page.tags | array_to_sentence_string }}
-        </div>
-      {% endif %}
-    </div>
-    <div class="mar-all text-right">
-      {% include social-icons.html %}
-    </div>
+  <div class="mar-no">
+    <h1>{{ page.title }}</h1>
   </div>
-
-  <div class="col-sm-8 col-md-pull-4">
+  <div>
+  {% include infobox.html %}
+  </div>
+  <div class="container-fluid">
     {{content}}
-    <span class="text-weak">Last update: {{ page.last_modified_at | date: '%Y-%m-%d' }}</span>
   </div>
+
+</div>
 
 </div>

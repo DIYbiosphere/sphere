@@ -1,5 +1,5 @@
 /* Import sass files */
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300|Source+Code+Pro:400,300");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300|Source+Code+Pro:400,300");
 $fonts: 'Source Sans Pro', sans-serif;
 $monospace: 'Source Code Pro', monospace;
 
@@ -9,22 +9,24 @@ $monospace: 'Source Code Pro', monospace;
 /* Base css */
 @import "base";
 
-@import 'bootstrap';
+@import "bootstrap";
 @import "vendor/gitter-sidecar";
 
 @import "partials/header";
 @import "partials/footer";
-@import "partials/submenu";
-@import "partials/sidemenu";
+@import "partials/breadcrumbs";
+@import "partials/sidebar";
 @import "partials/notices";
 @import "partials/infobox";
+@import "partials/docs";
 /* Padding and margins */
 @import "modules/utils";
 @import "modules/clipboard";
 @import "modules/typed-cursor";
 @import "modules/buttons";
 @import "modules/issues-labels";
-
+@import "modules/brands-colors";
+@import "modules/socials";
 @import "modules/world-map";
 
 
@@ -51,22 +53,22 @@ $monospace: 'Source Code Pro', monospace;
 
 .input-addon {
   position: relative;
-  
+
   input {
     padding-left:  30px;
     padding-right: 30px;
   }
-  
+
   .fa {
     padding: 10px;
     position: absolute;
     pointer-events: none;
   }
-  
+
   .input-icon-left  {
     left:  0px;
   }
-  
+
   .input-icon-right {
     right: 0px;
   }
@@ -76,9 +78,4 @@ $monospace: 'Source Code Pro', monospace;
   min-height: 20em;
   height: 25em;
   width: 70%;
-}
-
-.docs {
-  font-size: 16px;
-  line-height: 1.6;
 }

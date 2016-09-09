@@ -1,6 +1,6 @@
 ---
 layout: repo-doc
-permalink: /news/roadmap/
+permalink: /docs/news/roadmap/
 title: Roadmap
 ---
 > Draft
@@ -37,9 +37,9 @@ We want to create a fully functional map where you can select Earth, or a subreg
 Fully functional queries and filters and overlay tools that can let the user select what collection of initiative, from what period, and with what type of backing they want to visualize in the map.
 For the networks, it would be nice to visualize these as linked initiatives.
 
-[Getting started]: /help/getting-started
-[Contributing guidelines]: /contributing
+[Getting started]: /docs/help/getting-started
+[Contributing guidelines]: /docs/contributing
 [Milestones]: #
 [Issue management]: #
-[Changelog]: /changelog
+[Changelog]: /docs/changelog
 [Milestone:Minimal Viable Product]: https://github.com/DIYbiosphere/diybiosphere.io/milestones/Minimal%20Viable%20Product

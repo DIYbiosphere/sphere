@@ -1,47 +1,78 @@
-<footer class="footer">
-  <div class="row text-center subfooter">
-    <div class="col-sm-3">
-      <b><a href="#">Learn More</a></b>
-      <ul class="list-unstyled">
-        <li> <a href="/about/">About Us</a> </li>
-        <li> <a href="/roadmap/">Road map</a> </li>
-        <li> <a href="/help/faq/">FAQ</a> </li>
+<footer class="container-fluid footer">
+
+  <div class="row badges">
+    <ul class="list-unstyled">
+      <li><a href='https://github.com/DIYbiosphere/sphere'><img src='https://img.shields.io/github/stars/diybiosphere/sphere.svg?style=social&label=Star&maxAge=2592000' alt='Star diybiosphere/sphere!'/></a></li>
+      <li><a href='https://github.com/DIYbiosphere/sphere'><img src='https://img.shields.io/github/forks/diybiosphere/sphere.svg?style=social&label=Fork&maxAge=2592000' alt='Fork diybiosphere/sphere!'/></a></li>
+<!--      <li><a href='https://www.gratipay.com/Shields/'><img src='https://img.shields.io/gratipay/Shields.svg?style=social&label=Donate&maxAge=2592000' alt='Donate to us!'/></a></li> -->
+      <li class="slackin"><script src="https://diybiosphere.herokuapp.com/slackin.js" async defer></script></li>
+      <li><a href='https://twitter.com/DIYbiosphere'><img src='https://img.shields.io/twitter/follow/diybiosphere.svg?style=social&label=Follow&maxAge=2592000' alt='Follow @diybiosphere'></a></li>
+    </ul>
+  </div>
+
+
+  <div class="row help-links list-unstyled">
+    <div class="col-sm-3 col-xs-6">
+      <ul>
+        <li class="link-title">DIYBIOSPHERE</li>
+        <li> <a href="/docs/about/getting-started/">Overview</a></li>
+        <li> <a href="/docs/news/roadmap/">Roadmap</li>
+        <li> <a href="/docs/about/community">Organization</a></li>
+        <li> <a href="/docs/about/partners">Partners</a></li>
       </ul>
     </div>
-    <div class="col-sm-3">
-      <b><a href="#">Contribute</a></b>
-      <ul class="list-unstyled">
-        <li> <a href="/help/getting-started/">Getting Started!</a> </li>
-        <li> <a href="/help/tutorials/">Add your initiative</a> </li>
-        <li> <a href="/help/tutorials/">Update an entry</a> </li>
+    <div class="col-sm-3 col-xs-6">
+      <ul>
+        <li class="link-title">DATABASE</li>
+        <li> <a href="/docs/help/getting-started/">Getting Started!</a></li>
+        <li> <a href="/docs/help/basics/database/#collection-of-entries">Entry Collections</li>
+        <li> <a href="/docs/help/basics/database/#data-fields">Data Fields</a></li>
+        <li> <a href="/docs/help/basics/database/#data-fields">Get Dataset</a></li>
       </ul>
     </div>
-    <div class="col-sm-3">
-      <b>Get Involved</b>
-      <ul class="list-unstyled">
-        <li> <a href="/help/getting-started/">Become a member</a> </li>
-        <li> <a href="/faq/">Help edit content</a> </li>
-        <li> <a href="https://diybiosphere.slack.com/">Join us on Slack</a> </li>
+    <div class="col-sm-3 col-xs-6">
+      <ul>
+        <li class="link-title">CONTRIBUTE</li>
+        <li> <a href="/docs/help/contributing">Contributing Guide</a></li>
+        <li> <a href="/docs/help/tutorials/add-entry">Adding a New Entry</a></li>
+        <li> <a href="/docs/help/tutorials/edit-entry">Editing an Entry</a></li>
+        <li> <a href="https://github.com/DIYbiosphere/sphere/issues">Jump into our Issues</a></li>
       </ul>
     </div>
-    <div class="col-sm-3">
-      <b>Connect with Us</b>
-      <ul class="list-unstyled">
-        <li> <a href="#" target="_blank">Star us on GitHub</a> </li>
-        <li> <a href="https://twitter.com/DIYbiosphere" target="_blank">Follow us on Twitter</a> </li>
-        <li> <a href="https://gitter.im/DIYbiosphere/sphere.dir" target="_blank">Chat with us on Gitter</a> </li>
+    <div class="col-sm-3 col-xs-6">
+      <ul>
+        <li class="link-title">CONNECT</li>
+        <li><a href="/docs/help/contributing/#membership-request">Community</a></li>
+        <li> <a href="/docs/help/contributing/#membership-request">Join Us!</a></li>
+        <li> Get invite to Slack</li>
+        <li class="footer-socials">
+            <a href="https://github.com/DIYbiosphere/sphere">{% svgicon octoface %}</a>
+            <a href="https://gitter.im/DIYbiosphere/sphere.dir?utm_source=share-link&utm_medium=link&utm_campaign=share-link">{% svgicon gitter %} </a>
+            <a href="https://diybiosphere.slack.com/messages/general/">{% svgicon slack %}</a>
+            <a href="https://twitter.com/DIYbiosphere">{% svgicon twitter %}</a>
+            <a href="https://twitter.com/DIYbiosphere">{% svgicon gratipay %}</a>
+        </li>
       </ul>
     </div>
   </div>
-  <hr/>
-  <div class="text-center pad-btm last-footer">
-    <ul>
-      <li> <a href="https://github.com/DIYbiosphere/sphere.dir" target="_blank"> <i class="fa fa-github-alt"></i> </a> </li>
-      <li> <a href="https://twitter.com/DIYbiosphere" target="_blank"> <i class="fa fa-twitter"></i> </a> </li>
-      <li> <a href="https://diybiosphere.slack.com/" target="_blank"> <i class="fa fa-slack"></i> </a> </li>
-      <li> <a href="https://gitter.im/DIYbiosphere/sphere.dir" target="_blank">{% include gitter.html %} </a><li>
-      <li> | </li>
-      <li> <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/"> <img src="https://licensebuttons.net/p/zero/1.0/80x15.png" style="border-style: none;" alt="CC0" /> </a></li>
-      <li> Unless otherwise noted </li>
-  </div>
+
+  <div class="row legal-footer">
+      <ul>
+        <li> <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">{% svgicon cc %}{% svgicon cc0 %}</a> </li>
+        <li>  Except where <a href="/docs/help/tutorials/noting-copyright/">otherwise noted</a>, content on this site is dedicated to the public domain </li>
+        <li> | </li>
+        <li> <a href="/docs/about/copyright/license/">Terms of (re)Use</a></li>
+        <li> | </li>
+        <li> <a href="docs/about/copyright/cla/">Contributor Terms</a></li>
+        <li> | </li>
+        <li> <a href="/docs/about/coc/">Code of Conduct</a></li>
+        <li> | </li>
+        <li> <a href="/docs/help/faq/">FAQ</a></li>
+      </ul>
+      <ul>
+
+      </ul>
+    </div>
+
+
 </footer>
