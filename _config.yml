@@ -14,6 +14,16 @@ twitter:
 # Excluded files and dirs
 exclude: [script, Gemfile, Gemfile.lock, README.md, DataReusePlan.txt]
 
+# Jekyll assets
+assets:
+  compress: 
+    css: sass
+    js: uglifier
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
+
 # Where things are
 source:       .
 destination:  ./_site
