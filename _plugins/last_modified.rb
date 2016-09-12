@@ -6,7 +6,7 @@ module LastModified
 		@site.pages.each do |page|
 			set_last_modified_date(page)
 		end
-		@site.posts.each do |post|
+		@site.posts.docs.each do |post|
 			set_last_modified_date(post)
 		end
     end

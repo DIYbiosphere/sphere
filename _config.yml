@@ -23,6 +23,20 @@ assets:
     browsers:
       - "last 2 versions"
       - "IE > 9"
+  assets:
+    - "*.png"
+    - "*.gif"
+    - "*.jpg"
+    - "*.svg"
+  sources:
+    - _assets
+    - _assets/img
+    - _assets/images
+    - _assets/screencaptures
+    - _assets/screenshots
+    - _assets/js
+    - _assets/css
+    - _assets/fonts
 
 # Where things are
 source:       .
