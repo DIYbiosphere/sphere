@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/help/getting-started/
+permalink: /docs/intro/getting-started/
 title: Getting Started
 ---
 

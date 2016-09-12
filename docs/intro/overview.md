@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/about/overview/
+permalink: /docs/intro/overview/
 title: Overview of the DIYbiosphere
 ---
 

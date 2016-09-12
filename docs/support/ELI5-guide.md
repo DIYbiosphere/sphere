@@ -8,19 +8,10 @@ This is a super-simple/101/beginner/crash-course/for-dummies guide to help out t
 
 ### Explaining GitHub
 
-{% include _oi/GitHub.html %} is a web platform that helps users collaborate on a _collection of files_, called {% include _oi/repo.html %} **repository** or **repo**, by providing _version control_ based on the **Git** software. Git usually runs by using the {% include _oi/terminal.html %} _command-line_ of your local machine, using GitHub is easier as it provides a visual interface accessible by any {% include _oi/browser.html %} browser, or you can download GitHub {% include _oi/desktop.html %} Desktop and work locally on your machine.
+ is a web platform that helps users collaborate on a _collection of files_, called  **repository** or **repo**, by providing _version control_ based on the **Git** software. Git usually runs by using the  _command-line_ of your local machine, using GitHub is easier as it provides a visual interface accessible by any browser, or you can download GitHub Desktop and work locally on your machine.
 
-Git works by saving _snapshots_, called {% include _oi/commit.html %} commits, of the changes in the repository; making changes easy to track and reverse.
+Git works by saving _snapshots_, called  commits, of the changes in the repository; making changes easy to track and reverse.
 
-{% include _oi/fork.html %} Fork
-
-{% include _oi/branch.html %} Branch
-
-{% include _oi/merge.html %} Merge
-
-{% include _oi/branch.html %} Branch
-
-{% include _oi/pullrequest.html %} Pull Request
 
 
 

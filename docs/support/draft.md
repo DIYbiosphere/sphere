@@ -4,8 +4,6 @@ permalink: /draft/
 title: Draft
 ---
 
-
-
 As a Manager you may want to subscribe to your initiative's changes. To do this you need to set up an RSS feed of changes
 http://stackoverflow.com/questions/9732779/how-to-watch-only-a-directory-in-a-github-repository
 http://stackoverflow.com/questions/7353538/setting-up-an-github-commit-rss-feed
@@ -13,17 +11,29 @@ http://stackoverflow.com/questions/7353538/setting-up-an-github-commit-rss-feed
 {% include places.html %}
 
 
-<svg width="16px" height="14px" viewBox="0 1 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <path d="M16,9 L13,6 L13,2 L11,2 L11,4 L8,1 L0,9 L2,9 L3,14 C3,14.55 3.45,15 4,15 L12,15 C12.55,15 13,14.55 13,14 L14,9 L16,9 L16,9 Z M12,14 L9,14 L9,10 L7,10 L7,14 L4,14 L2.81,7.69 L8,2.5 L13.19,7.69 L12,14 L12,14 Z" fill-rule="evenodd"></path>
-</svg>
-
-{% svgicon flask %}
+- Browser Desktop and this is a continuation.
 
 This is the plugin of {% svgicon facebook %} Facebook.
 
-<svg width="14" height="13" viewBox="0 1 14 13" xmlns="http://www.w3.org/2000/svg"><path d="M13 4h-1.38c.19-.33.33-.67.36-.91.06-.67-.11-1.22-.52-1.61C11.1 1.1 10.65 1 10.1 1h-.11c-.53.02-1.11.25-1.53.58-.42.33-.73.72-.97 1.2-.23-.48-.55-.88-.97-1.2-.42-.32-1-.58-1.53-.58h-.03c-.56 0-1.06.09-1.44.48-.41.39-.58.94-.52 1.61.03.23.17.58.36.91H1.98c-.55 0-1 .45-1 1v3h1v5c0 .55.45 1 1 1h9c.55 0 1-.45 1-1V8h1V5c0-.55-.45-1-1-1H13zm-4.78-.88c.17-.36.42-.67.75-.92.3-.23.72-.39 1.05-.41h.09c.45 0 .66.11.8.25s.33.39.3.95c-.05.19-.25.61-.5 1h-2.9l.41-.88v.01zM4.09 2.04c.13-.13.31-.25.91-.25.31 0 .72.17 1.03.41.33.25.58.55.75.92L7.2 4H4.3c-.25-.39-.45-.81-.5-1-.03-.56.16-.81.3-.95l-.01-.01zM7 12.99H3V8h4v5-.01zm0-6H2V5h5v2-.01zm5 6H8V8h4v5-.01zm1-6H8V5h5v2-.01z" fill-rule="evenodd"/></svg>
+- Introduction
+  - <i class="fa fa-binoculars"></i> Overview
+  - Getting Started
+- About
+  - Organization
+    - Values
+    - Mission
+  - Community
+  - Partners
+  - Communication
+- <i class="fa fa-legal"></i> Legal
+  - Copyright Terms
+  - License Agreement
+  - Code of Conduct
+- Support
+- news
+-
+- Resources
 
-{% svgicon blog %}
 
 <i class="fa fa-heart-o"></i>
 

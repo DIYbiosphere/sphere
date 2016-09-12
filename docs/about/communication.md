@@ -1,7 +1,7 @@
 ---
 layout: docs
-permalink: /docs/about/contact/
-title: Contact
+permalink: /docs/about/communication/
+title: Communication
 ---
 
 _In this section we lay out the different communication platforms you can use to get in contact with the [development community]._

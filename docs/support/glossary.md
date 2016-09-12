@@ -9,21 +9,21 @@ In this section we
 
 ## GitHub Terms
 
-{% include _oi/zap.html %} **GitHub** a service that hosts repositories online and uses Git for version control
+ **GitHub** a service that hosts repositories online and uses Git for version control
 
-{% include _oi/zap.html %} **Git** a software that tracks all changes to a collection of documents
+ **Git** a software that tracks all changes to a collection of documents
 
 **Version Control** a way to track changes to a document or collection of documents.
 
-{% include _oi/zap.html %} **fork** a cloned copy of a project
+ **fork** a cloned copy of a project
 
-{% include _oi/zap.html %} **branch**
+ **branch**
 
-{% include _oi/zap.html %} **commit**
+**commit**
 
-{% include _oi/zap.html %} **issue**
+**issue**
 
-{% include _oi/zap.html %} **pull request**
+**pull request**
 
 **merge**
 
