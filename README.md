@@ -2,14 +2,15 @@
 [![Dependency Status](https://www.versioneye.com/user/projects/57cfedcac07f2e0042bf94db/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/57cfedcac07f2e0042bf94db)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0-lightgrey.svg)](http://sphere.diybio.org/license/)
 ![](https://reposs.herokuapp.com/?path=DIYbiosphere/sphere&color=yellowgreen)
-[![GitHub contributors](https://img.shields.io/github/contributors/cdnjs/cdnjs.svg?maxAge=2592000)](https://github.com/DIYbiosphere/sphere)
-[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?maxAge=2592000)](https://github.com/DIYbiosphere/sphere)
+[![GitHub contributors](https://img.shields.io/github/contributors/diybiosphere/sphere.svg?maxAge=2592000)](https://github.com/DIYbiosphere/sphere)
+
+[![Gratipay Team](https://img.shields.io/gratipay/team/diybiosphere.svg?maxAge=2592000)](https://gratipay.com/DIYbiosphere/)
 [![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/sphere.svg)](https://gitter.im/DIYbiosphere/sphere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Slack Status](https://diybiosphere.herokuapp.com/badge.svg)](https://diybiosphere.herokuapp.com)
 
 
 
-# ![](assets/images/sphere/sphere-logo-long.png)
+# ![](_assets/images/sphere/sphere-logo-long.png)
 
 
 :tada: Welcome to the DIYbiophere repository :tada:
