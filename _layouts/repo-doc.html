@@ -1,19 +1,19 @@
 ---
 layout: default
 ---
-<div class="">
-  <div class="row">
-    <div class="col-sm-3">
-      {% include sidebar.html %}
-    </div>
 
-    <div class="col-sm-9">
-      <div class="row breadcrumbs">
-        {% include breadcrumbs.html %}
-      </div>
-      <div class="docs">
-          {{content}}
-      </div>
+<div class="row">
+  <div class="side-menu col-sm-3">
+    {% include sidebar.html %}
+  </div>
+
+  <div class="col-sm-9 container-fluid">
+    <div class="breadcrumbs">
+      {% include breadcrumbs.html %}
+    </div>
+    <div>
+      {{content}}
     </div>
   </div>
+</div>
 </div>

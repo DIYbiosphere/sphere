@@ -7,14 +7,12 @@ layout: default
       {% include sidebar.html %}
     </div>
 
-    <div class="col-sm-9">
-      <div class="row breadcrumbs">
+    <div class="col-sm-9 container-fluid">
+      <div class="breadcrumbs">
         {% include breadcrumbs.html %}
       </div>
-      <div class="docs container-fluid">
-        <div class="mar-no">
+      <div>
           <h1>{{ page.title }}</h1>
-        </div class="main-content">
         {{content}}
       </div>
     </div>
