@@ -4,6 +4,7 @@
   font-weight: 600;
   line-height: 3em;
   border-bottom: $primary solid 3px;
+  height: 90px;
 }
 
 .navbar .navbar-nav ul {
@@ -43,8 +44,9 @@ navbar .navbar-nav li a .caret {
 }
 
 .logo {
-  width: 110px;
+  max-width: 140px;
   vertical-align: middle;
+  max-height: 70px;
 }
 
 /*

@@ -1,37 +1,45 @@
 html, body {
   overflow-x: hidden;
-  color: black;
+  color: $primary;
   font-family: $fonts !important;
 
   a {
-    color: $hyperlink;
+    color: $primary;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: underline;
 
     &:hover {
       color: $hyperlink;
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 
 }
 
+article {
+  a[href^="http"]:after {
+       content: " " url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=);
+  }
+}
+
 blockquote {
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 h1 {
+  color: $primary;
   border-bottom: 1px solid $fine-gray;
-  font-weight: 600 !important;
+  font-weight: 700 !important;
   padding-top: 30px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 h2,
 h3,
 h4,
 h5 {
-  font-weight: 600 !important;
+  color: $primary;
+  font-weight: 700 !important;
   padding-bottom: 5px;
 }
 
