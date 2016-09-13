@@ -14,7 +14,7 @@ twitter:
 # Excluded files and dirs
 exclude: [script, Gemfile, Gemfile.lock, README.md, DataReusePlan.txt, .assets-cache, .sass-cache]
 
-# Jekyll assets
+# Jekyll assets plugin
 assets:
   compress:
     css: sass

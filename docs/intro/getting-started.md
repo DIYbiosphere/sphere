@@ -4,41 +4,35 @@ permalink: /docs/intro/getting-started/
 title: Getting Started
 ---
 
-> Please revise Draft!
+_This is the kickstart guide to getting familiar with **using** the database, and **contributing** to the project of the DIYbiosphere. For a more general introduction of the project see our [Overview]_
 
-This is the kickstart guide to getting familiar with _using_ the database, and _contributing_ to the project of the DIYbiosphere. For a more general introduction of the project see our [Overview]. Look out for [helpful hints].
+
+The Database is the core of the DIYbiosphere project. It refers to all the information gathered on DIYbio initatives. It's structure, components and organization are explained in the [Basics of the Database] section. The key ideas are:
+
+- **[Entry Collections]:** entries are divided into: _Projects_, _Startups_, _Labs_, _Incubators_, _Groups_, _Networks_, _Events_, and _Others_.
+- **[Typology of Initiatives]:** initiatives are categorized under a 'type' of organization: _Community/Grassroots_, _Primary/Secondary School_, _University/College_, _Non-Profit/NGO_, _For-Profit_, _Museum_, _State/Local Government_, and _Other_.
+- **[Anatomy of an Entry]:** entries display narrative text which describes the intiative (history, mission) and data contained in an infobox (location, founding date). Learn more about the [data fields].
+
+> Tip: Hover over icons for explanation
+> The icons in the infobox display a simple description of its meaning:
 
 ## Using the Database
-The database refers to all the entries of DIYbio initiatives.
-
-### Searching Through the Database
-You can access the entries at: [sphere.diybio.org]. In the home page you can directly search for entries with keywords (i.e. Lab, Geneva, Bioscope) or do an Advanced Search with predetermined filters. Your Search Query will return a Table of Entries that match your search query. You can further search, filter and sort the table. The search bar in the navigation bar searches throughout all the site including the documentation.
-
-### Structure of Entries
-Entries are divided into eight collections: _Projects_, _Startups_, _Labs_, _Incubators_, _Groups_, _Networks_, _Events_, and _Others_. For a more detailed description of these see the [collection of entries].
-
-Each entry has two parts: a body of text that contains the descriptive content of the initiative (About, History), and an infobox in the top right-hand corner which contains the entry's data. Learn more about the [fields in infobox].
-
-### Obtaining the Dataset
-The data collected in the infobox is completely open and free to (re)use. There are three ways to download it.
-
-- **Table of Entries**: Every search query that returns the table of entries can be downloaded as a CSV file.
-- **Entire Table**: All the data in the 'front-matter' of the all entries is aggregated and compiled as a CSV file and can be downloaded as the [complete dataset].
-- **Source**: The source-files of the entries are in the [sphere] repository in GitHub in each collection folder.
-
+You can access the entries at: [sphere.diybio.org]. In the home page you can directly search for entries with keywords (i.e. Lab, Geneva, Bioscope) or do an Advanced Search with predetermined filters. Your Search Query will return a Table of Entries that match your search query. You can further search, filter and sort the table.
 
 ## Contributing to the Database
-The **only requirement** you need to contribute is a GitHub account, so [Sign up] if you don't have one. If you are new to GitHub we made an [ELI5 guide] (Explain like I'm 5) for the utterly confused. :smile:
+The **only requirement** you need to contribute is a GitHub account ([sign up]). If you are new to GitHub check the [ELI5 guide] (Explain like I'm 5), made especially for the utterly confused. :smile:
 
 {% include _notices/note.html title="By contributing you agree to..." text="Abide by our [Code of Conduct](/about/coc/), and consent to our [Copyright terms](/about/license/)." %}
 
 ### _What_ can you contribute to?
-There are four types of work in the project; briefly explained with links for each to a more detailed description of their configurations.
+There are four types of work in the project:
 
-- **[Database]**: is the entries of the DIYbio initiatives. These are plain text files in Markdown. No skills required to contribute! Learn how [simple markdown] really is!
-- **[Documentation]**: or **docs**, is all the explanatory material related to the project (like guides and tutorials). These are also plain text files.
-- **[Development]**: is the code that converts the text files into data and a readable website. Coding skills are helpful.
-- **[Design]** is all about the user experience, the aesthetics and interface of the website. Design skills recommended.
+- **Database**: is the entries of the DIYbio initiatives. These are plain text files in Markdown. No skills required to contribute! Learn how [simple markdown] really is!
+- **Documentation**: or **docs**, is all the explanatory material related to the project (like guides and tutorials). These are also plain text files.
+- **Development**: is the code that converts the text files into data and a readable website. Coding skills are helpful.
+- **Design** is all about the user experience, the aesthetics and interface of the website. Design skills recommended.
+
+To learn more about how these works are structured, go to the [Basics] section. To directly contribute, go to our Issues tab and search f
 
 ### _How_ do you contribute
 There are many ways you can contribute to the project. Please follow our [Contributing guidelines]. We organize the development of the project with [Issues]:
@@ -52,7 +46,10 @@ There are many ways you can contribute to the project. Please follow our [Contri
 
 
 [overview]: /docs/about/overview/
-[basic components of the database]: /docs/help/basics/#database
+[Basics of the Database]: /docs/basics/database/
+[Entry Collections]:
+[Typology of Initiatives]:
+[Anatomy of an Entry]:
 [sphere.diybio.org]: http://sphere.diybio.org
 [classification of entries]: /docs/help/basics/
 [fields of infobox]: /docs/help/basics/

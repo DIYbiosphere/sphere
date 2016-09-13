@@ -14,8 +14,8 @@
       var search = $('#search').val();
       window.location = baseUrl + '/database?q='+search;
     });
-    
-    $.getJSON("/js/data/database.json").then(resp => {
+
+    $.getJSON("/assets/js/data/database.json").then(resp => {
       let database = resp.database;
       let regions = [], countries = [];
       database.forEach(entry => {
@@ -35,14 +35,14 @@
         console.log(countries);
       });
     });
-    
+
     $('#advanced-search').on('submit', function(e) {
       e.preventDefault();
       let $status = $('[name="status"]:checked');
       let $collection = $('[name="collection"]:checked');
       let $type = $('[name="type"]:checked');
       let search = {};
-      
+
       let lastUpdated = $('#lastUpdated').val();
       let establishedIni = $('#establishedIni').val();
       let establishedEnd = $('#establishedEnd').val();
@@ -52,7 +52,7 @@
       let status = $.map($status, (el) => $(el).val()).join(",");
       let collection = $.map($collection, (el) => $(el).val()).join(",");
       let type = $.map($type, (el) => $(el).val()).join(",");
-      
+
       if(lastUpdated) search.lastUpdated = lastUpdated;
       if(establishedIni) search.establishedIni = establishedIni;
       if(establishedEnd) search.establishedEnd = establishedEnd;
@@ -62,11 +62,11 @@
       if(status.length > 0) search.status = status;
       if(collection.length > 0) search.collection = collection;
       if(type.length > 0) search.type = type;
-      
+
       let params = $.param(search);
       // console.log(params);
       window.location = `/database?filters=true&${params}`;
-      
+
     });
 
     $('#blinking').typed(typedConfig);
@@ -81,7 +81,7 @@
       .on('click', function() {
         var name = $(this).prop('id').replace(/-+/g, ' ');;
         window.location = baseUrl + '/database?q='+name;
-      });    
+      });
   });
 
 })($)

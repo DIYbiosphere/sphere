@@ -4,7 +4,7 @@ permalink: /docs/help/basics/database/
 title: Basics of the Database
 ---
 
-_In this section we detail the basic structure, components, and organization of the Database_
+_In this section we detail the basic structure, components, and organization of the Database. If you want to **contribute** to the database, go [here]_
 
 The Database encompases all the information on the DIYbio initiatives added to the DIYbiosphere project. Each initiative has its own _Entry_ for composing and displaying its particular information. Entries are accessible as webpages at [sphere.diybio.org] and as text files in the [sphere repository] in GitHub, where they can be edited as well (how to [edit an entry]).
 
@@ -43,7 +43,7 @@ Iniatiatives are categorized depending on the type of organizaiton from which it
 - **Other**
 
 > Tip: Other with an answer:
-> Unlike the collection of Other, in the typology. It is possible to create a new type of initiatiave. 
+> Unlike the collection of Other, in the typology. It is possible to create a new type of initiatiave.
 
 ## Anatomy of an Entry
 The information contained in each of them is divided in two parts, the _data_ and the _description_.
@@ -85,3 +85,10 @@ The body of text refers to the written description of the initiative.
 
   - **About**
   - **History**
+
+  ### Obtaining the Dataset
+  There are three ways to download it.
+
+  - **Table of Entries**: Every search query that returns the table of entries can be downloaded as a CSV file.
+  - **Entire Table**: All the data in the 'front-matter' of the all entries is aggregated and compiled as a CSV file and can be downloaded as the [complete dataset].
+  - **Source**: The source-files of the entries are in the [sphere] repository in GitHub in each collection folder.

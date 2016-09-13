@@ -10,3 +10,8 @@ The design, refers to all concerning the user experience; the aesthetics and int
 ## Name
 
 ## Logo
+
+## Assets
+
+## User interface
+Breadcrumbs and last commit:

@@ -1,7 +1,7 @@
 (function($) {
 
 	$(document).ready(function() {
-		
+
 		/**
 		 * This DataTable will contain all the info from all collections accross the
 		 * site, they're stored in a json file and the table will be populated via
@@ -84,7 +84,7 @@
 									'</a>';
 							}
 							if(data.sphere !== null) {
-								sphere = 
+								sphere =
 									'<a class="link selectable" href="'+ baseUrl + data.sphere +'">' +
 										'<i class="fa fa-external-link"></i>'
 									'</a>';
@@ -114,14 +114,14 @@
 				"infoFiltered": "from _MAX_ total"
 			}
 		});
-		
+
 		$('#entries tfoot td').each( function () {
 			let $this = $(this)
 			let title = $this.text();
 			let id = title.toLowerCase();
 			$this.html( `<input id="${id}" type="text" placeholder="Search ${title}" />` );
 		});
-		
+
 		// Apply the search
 		$table.columns().every( function () {
 			var _this = this;
@@ -140,7 +140,7 @@
 		 *
 		 * Get all database from the generated file and populates the table.
 		*/
-		$.getJSON(baseUrl + '/js/data/database.json')
+		$.getJSON(baseUrl + 'assets/js/data/database.json')
 			.done(function(resp) { // when request succeded...
 				var data = [];
 				var database = resp.database;
@@ -181,7 +181,7 @@
 	}); // end document ready
 
 	/********** Other methods **********/
-	
+
 	function getCollection() {
 		var pathname = window.location.pathname;
 		var chunks = pathname.split("/");

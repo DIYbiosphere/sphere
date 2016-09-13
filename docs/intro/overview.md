@@ -4,16 +4,15 @@ permalink: /docs/intro/overview/
 title: Overview of the DIYbiosphere
 ---
 
-_In this section we give a general overview of the entire project by answering some questions._
+_In this section we give a general overview of the entire project_
 
-**_What is it?_**
-The DIYbiosphere is a participatory project to create a database of Do-It-Yourself Biology (DIYbio) initiatives from all over the world.
 
-**_What is the purpose?_**
-One is to have a shared and common platform for the DIYbio community; to increase visibility of initiatives and connect people and ideas in all its possibilities. Two is to gather data about the DIYbio community; to map and visualize it in all its diversity across time and space in the hopes that we may learn more about the movement and its futures.
+The DIYbiosphere is a participatory project to create a database of Do-It-Yourself Biology (DIYbio) initiatives from all over the world. It has two main goals. One is to have a shared and common platform for the DIYbio community; to increase visibility of initiatives and connect people and ideas in all its possibilities. And two is to gather data about the DIYbio community; to map and visualize it in all its diversity across time and space in the hopes that we may learn more about the movement and its futures.
+
+The project is completely open(-source); anyone can access the database on our website: [sphere.diybio.org], and contribute to it in our repository: [DIYbiosphere/sphere] on GitHub. The project relies on the work of volunteer contributors to maintain the database (write entries) and manage the development of the project. The development is directed by members of the [DIYbiosphere organization] in GitHub. [Join in] and get involved! :dancers:
 
 **_How did it start?_**
-The project was proposed as a way to gather and share the rough data on DIYbio labs being collected by PhD student Gabriela Sanchez (@sabgaby) as part of her research. The project was backed by the [Citizen Sciences] research team at the University of Geneva and by the [DIYbio.org] network.
+
 
 **_What does it contribute?_**
 The database will replace the list of DIYbio labs indexed in the [Local] section in the DIYbio.org website as a more accurate and distributed way of cataloguing DIYbio labs and other initiatives. We also envision the project as a reference point for journalists, academics, governmental agencies, and so on.
@@ -25,7 +24,7 @@ The entries of database is divided into eight collections: Projects, Startups, L
 The database functions similar to a wiki, with descriptive content and data displayed in a box, but we use [GitHub Pages] instead to host and build the content into the website from simple text files using [Markdown] syntax and [Jekyll]'s liquid language. If you want to get technical your can read more in our [Development] section.
 
 **_How is it participatory?_**
-The project is completely open(-source); anyone can access the database on our website: [sphere.diybio.org], and contribute to it in our repository: [DIYbiosphere/sphere] on GitHub. The project relies on the work of volunteer contributors to maintain the database (write entries) and manage the development of the project. The development is directed by members of the [DIYbiosphere organization] in GitHub. [Join in] and get involved! :dancers:
+
 
 **_Who participates?_**
 We expect that individuals from the DIYbio community will be the main users and contributors of the project. However, we also believe the database will be of interest to DIYbio supporters and followers.
