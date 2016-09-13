@@ -7,9 +7,12 @@ gem 'uglifier'
 gem 'sprockets'
 gem 'sprockets-es6'
 gem 'html-proofer'
-gem 'jekyll-gist',              '~> 1.4'
-gem 'jekyll-assets'
-gem 'jekyll-sitemap',           '~> 0.11.0'
-gem 'jekyll-seo-tag',           '~> 2.0'
-gem 'jekyll-mentions',          '~> 1.1.3'
-gem 'jekyll-github-metadata',   '~> 2.0.2'
+
+group :jekyll_plugins do
+  gem 'jekyll-gist',              '~> 1.4'
+  gem 'jekyll-assets'
+  gem 'jekyll-sitemap',           '~> 0.11.0'
+  gem 'jekyll-seo-tag',           '~> 2.0'
+  gem 'jekyll-mentions',          '~> 1.1.3'
+  gem 'jekyll-github-metadata',   '~> 2.0.2'
+end
