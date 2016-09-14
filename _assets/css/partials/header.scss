@@ -1,7 +1,7 @@
 .navbar {
   background-color: $default;
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 1.4em;
   border-bottom: $primary solid 3px;
   height: 90px;
 
@@ -9,10 +9,18 @@
   padding-top: 100;
   vertical-align: middle;
   line-height: 90px;
+
+    .navl2 {
+    line-height: 30px;
+    }
   }
 
   a {
     text-decoration: none;
+  }
+
+  .fa {
+    padding-right: 10px;
   }
 }
 

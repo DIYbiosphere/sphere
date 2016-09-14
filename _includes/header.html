@@ -24,23 +24,23 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             DATABASE <span class="fa fa-chevron-down"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="{{ '/database/' | prepend: site.baseurl }}"><i class="fa fa-list"></i>
+            <li class="navl2"><a href="{{ '/database/' | prepend: site.baseurl }}"><i class="fa fa-list"></i>
     			  All</a> </li>
-    			  <li><a href="{{ '/database/projects/' | prepend: site.baseurl }}"><i class="fa fa-briefcase"></i>
+    			  <li class="navl2"><a href="{{ '/database/projects/' | prepend: site.baseurl }}"><i class="fa fa-briefcase"></i>
     			  Projects</a></li>
-    			  <li><a href="{{ '/database/startups/' | prepend: site.baseurl }}"><i class="fa fa-rocket"></i>
+    			  <li class="navl2"><a href="{{ '/database/startups/' | prepend: site.baseurl }}"><i class="fa fa-rocket"></i>
     			  Startups</a></li>
-    			  <li><a href="{{ '/database/labs/' | prepend: site.baseurl }}"><i class="fa fa-flask"></i>
+    			  <li class="navl2"><a href="{{ '/database/labs/' | prepend: site.baseurl }}"><i class="fa fa-flask"></i>
     			  Labs</a></li>
-    			  <li><a href="{{ '/database/incubators/' | prepend: site.baseurl }}"><i class="fa fa-leaf"></i>
+    			  <li class="navl2"><a href="{{ '/database/incubators/' | prepend: site.baseurl }}"><i class="fa fa-leaf"></i>
     			  Incubators</a></li>
-    			  <li><a href="{{ '/database/groups/' | prepend: site.baseurl }}"><i class="fa fa-group"></i>
+    			  <li class="navl2"><a href="{{ '/database/groups/' | prepend: site.baseurl }}"><i class="fa fa-group"></i>
     			  Groups</a></li>
-    			  <li><a href="{{ '/database/networks/' | prepend: site.baseurl }}"><i class="fa fa-share-alt"></i>
+    			  <li class="navl2"><a href="{{ '/database/networks/' | prepend: site.baseurl }}"><i class="fa fa-share-alt"></i>
     			  Networks</a></li>
-    			  <li><a href="{{ '/database/events/' | prepend: site.baseurl }}"><i class="fa fa-ticket"></i>
+    			  <li class="navl2"><a href="{{ '/database/events/' | prepend: site.baseurl }}"><i class="fa fa-ticket"></i>
     			  Events</a></li>
-    			  <li><a href="{{ '/database/events/' | prepend: site.baseurl }}"><i class="fa fa-umbrella"></i>
+    			  <li class="navl2"><a href="{{ '/database/events/' | prepend: site.baseurl }}"><i class="fa fa-umbrella"></i>
     			  Others</a></li>
           </ul>
         </li>
@@ -48,21 +48,37 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             DOCUMENTATION <span class="fa fa-chevron-down"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
+            <ul class="dropdown-menu">
+              <li class="navl2"><a href="#"><i class="fa fa-bullhorn"></i>
+              Introduction</a></li>
+              <li class="navl2"><a href="#"><i class="fa fa-info-circle"></i>
+              About Us</a></li>
+              <li class="navl2"><a href="#"><i class="fa fa-cubes"></i>
+              The Basics</a></li>
+              <li class="navl2"><a href="#"><i class="fa fa-copyright"></i>
+              Copyright</a></li>
+              <li class="navl2"><a href="#"><i class="fa fa-support"></i>
+              Support</a></li>
+              <li class="navl2"><a href="#"><i class="fa fa-graduation-cap"></i>
+              Tutorials</a></li>
+              <li class="navl2"><a href="#"><i class="fa fa-thumb-tack"></i>
+              Resources</a></li>
+              <li class="navl2"><a href="#"><i class="fa fa-newspaper-o"></i>
+              News</a></li>
+            </ul>
         </li>
+
         <li> | </li>
+
         <li><a href="{{ site.github.repository_url }}"><i class="fa fa-github"></i>
         GITHUB</a></li>
+
         <li><a href="https://diybio.org"><img src="https://diybiology.files.wordpress.com/2008/11/diybio-logo_980x626.gif" style="max-height:1em;">
         DIYBIO</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+<span id="baseUrl" style="dispay:none;">{{ site.baseurl }}</span>
+
 </header>

@@ -1,9 +1,200 @@
 <div class="side-nav">
-<div role="navigation" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+<div role="navigation">
     <h4> DOCUMENTATION </h4>
 
     <input id="docsearch" class="docsearch" type="search" name="docsearch" placeholder="Search Docs"/>
 
+
+  <div class="nav-panel panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="folding-buttons">
+
+        <a href="#"><button class="openall" data-toggle="tooltip" data-placement="top" title="Unfold All">
+        <span style="cursor:pointer">{% svgicon oi-unfold %}</span></button> </a>
+        <a href="#"><button class="closeall" data-toggle="tooltip" data-placement="top" title="Fold all">
+        <span style="cursor:pointer">{% svgicon oi-fold %}</span></button> </a>
+
+    </div>
+
+<!-- Introduction -->
+      <div class="panel">
+          <div class="panel-heading" role="tab" id="introH">
+               <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#introP" aria-expanded="true" aria-controls="introP"><i class="fa fa-bullhorn"></i>
+                INTRODUCTION</a>
+              </h4>
+
+          </div>
+          <div id="introP" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="introH">
+              <div class="panel-body">
+                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                Getting Started</a><br>
+                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                Overview</a>
+              </div>
+          </div>
+      </div>
+<!-- About -->
+      <div class="panel">
+          <div class="panel-heading" role="tab" id="aboutH">
+               <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#aboutP" aria-expanded="false" aria-controls="aboutP"><i class="fa fa-info-circle"></i>
+            ABOUT US
+                ABOUT US</a></h4>
+          </div>
+
+          <div id="aboutP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="aboutH">
+              <div class="panel-body">
+                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                Organization</a><br>
+                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                Community</a><br>
+                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                Partners</a><br>
+                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                Code of Conduct</a><br>
+                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                Communication</a>
+              </div>
+            </div>
+        </div>
+<!-- Copyright -->
+      <div class="panel">
+            <div class="panel-heading" role="tab" id="copyrightH">
+               <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#copyrightP" aria-expanded="false" aria-controls="copyrightP"><i class="fa fa-copyright"></i>
+                COPYRIGHT</a></h4>
+            </div>
+
+            <div id="copyrightP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="copyrightH">
+              <div class="panel-body">
+                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                License Terms</a><br>
+                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                Contributor Agreement</a>
+              </div>
+            </div>
+          </div>
+<!-- Basics -->
+      <div class="panel">
+        <div class="panel-heading" role="tab" id="basicsH">
+          <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#basicsP" aria-expanded="false" aria-controls="basicsP"><i class="fa fa-cubes"></i>
+          THE BASICS</a></h4>
+
+          </div>
+          <div id="basicsP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="basicsH">
+              <div class="panel-body">
+                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                Database</a><br>
+                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                Development</a><br>
+                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                Documentation</a><br>
+                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                Design</a><br>
+              </div>
+          </div>
+      </div>
+<!-- Support -->
+      <div class="panel">
+            <div class="panel-heading" role="tab" id="supportH">
+               <h4 class="panel-title">
+                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#supportP" aria-expanded="false" aria-controls="supportP"><i class="fa fa-support"></i>
+                   SUPPORT
+                 </a>
+               </h4>
+             </div>
+
+              <div id="supportP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="supportH">
+                <div class="panel-body">
+                  <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                  Contributing Guide</a><br>
+                  <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                  Workflow</a><br>
+                  <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                  FAQ</a><br>
+                  <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                  Getting Help</a><br>
+               </div>
+              </div>
+            </div>
+<!-- Tutorials -->
+      <div class="panel">
+        <div class="panel-heading" role="tab" id="tutorialsH">
+         <h4 class="panel-title">
+           <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#tutorialsP" aria-expanded="false" aria-controls="tutorialsP"><i class="fa fa-graduation-cap"></i>
+             Tutorials
+           </a>
+         </h4>
+        </div>
+
+        <div id="tutorialsP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tutorialsH">
+          <div class="panel-body">
+            <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+            How to Write in the Database</a><br>
+            <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+            Workflow</a><br>
+            <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+            FAQ</a><br>
+            <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+            Getting Help</a><br>
+         </div>
+        </div>
+      </div>
+<!-- Resources -->
+      <div class="panel">
+          <div class="panel-heading" role="tab" id="resourcesH">
+               <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#resourcesP" aria-expanded="false" aria-controls="resourcesH"><i class="fa fa-thumb-tack"></i>
+            RESOURCES
+          </a>
+        </h4>
+
+          </div>
+          <div id="resourcesP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="resourcesH">
+              <div class="panel-body">
+                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                ELI5 Guide</a><br>
+                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                Glossary</a><br>
+                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                Hints</a><br>
+                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                Markdown Cheatsheet</a><br>
+              </div>
+          </div>
+      </div>
+<!-- News -->
+      <div class="panel">
+          <div class="panel-heading" role="tab" id="headingThree">
+               <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-newspaper-o"></i>
+            NEWS
+          </a>
+        </h4>
+
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="panel-body">
+                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                ELI5 Guide</a><br>
+                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                Glossary</a><br>
+                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                Hints</a><br>
+                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                Markdown Cheatsheet</a><br>
+              </div>
+          </div>
+      </div>
+
+
+  </div>
+
+</div>
+</div>
+
+<!--
   <ul class="treeview">
 
     <li><a href="#"><i class="fa fa-bullhorn"></i>
@@ -15,7 +206,7 @@
         Overview</a>
       </ul>
     </li>
-
+    <li role="separator" class="divider"></li>
     <li><a href="#"><i class="fa fa-info-circle"></i>
     ABOUT US</a>
       <ul>
@@ -134,8 +325,7 @@
     </li>
 
   </ul>
-        </div>
-
+</div> -->
         <!-- collapse menu
         <li class="nav-l1"><a role="button" data-toggle="collapse" href="#newsNav" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-newspaper-o"></i>
           News <i class="fa fa-chevron-down"></i></li>
@@ -151,5 +341,3 @@
           </div>
         </div>
         -->
-
-</div>
