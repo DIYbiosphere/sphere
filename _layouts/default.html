@@ -17,7 +17,6 @@
 
 
     <!-- used across all pages -->
-    {% include omnisearch-modal.html %}
     <script src="https://www.google.com/jsapi"></script>
     <script type="text/javascript">
         google.load('search', '1', {style: google.loader.themes.MINIMALIST});
@@ -54,7 +53,7 @@
         $('[data-toggle="tooltip"]').tooltip();
       });
     </script>
-    
+
     <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
     <script type="text/javascript">
       docsearch({
@@ -64,6 +63,9 @@
         debug: false // Set debug to true if you want to inspect the dropdown
       });
     </script>
+
+    {% javascript treeview %}
+
   </div>
   </body>
 

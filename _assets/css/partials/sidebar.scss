@@ -1,14 +1,11 @@
-.side-menu {
-  border-right: 2px solid $light-gray;
+.side-nav {
   height: 100%;
-  background-color: $light-gray;
-  .side-menu-title {
-    padding-top: 1em;
-    font-size: 115%;
-  }
+  color: $primary;
+  font-size: 0.95em;
 
   h3 {
     padding-top: 0px;
+    text-align: center;
   }
 
   ul {
@@ -20,7 +17,7 @@
   }
 
   a {
-    color: black;
+    color: currentColor;
     margin-left: .5em;
     text-decoration: none;
 
@@ -31,7 +28,93 @@
   }
 }
 
-.sticky {
-  position: relative;
-  top: 0;
+
+div.panel:first-child {
+    margin-top:20px;
+}
+
+div.treeview {
+    min-width: 100px;
+    min-height: 100px;
+
+    max-height: 256px;
+    overflow:auto;
+    font-weight: 400;
+
+	padding: 4px;
+
+	margin-bottom: 20px;
+
+	color: black;
+
+	border: solid 1px $warm-gray;
+	border-radius: 4px;
+}
+div.treeview ul:first-child:before {
+    display: none;
+}
+.treeview, .treeview ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+
+	color: $primary;
+}
+.treeview ul {
+    margin-left:1em;
+    position:relative
+}
+.treeview ul ul {
+    margin-left:.5em
+}
+.treeview ul:before {
+    content:"";
+    display:block;
+    width:0;
+    position:absolute;
+    top:0;
+    left:0;
+    border-left:1px solid $warm-gray;
+
+    /* creates a more theme-ready standard for the bootstrap themes */
+    bottom:2px;
+}
+.treeview li {
+    margin:0;
+    padding:0 1em;
+    line-height:2em;
+    font-weight:700;
+    position:relative
+}
+.treeview ul li:before {
+    content:"";
+    display:block;
+    width:10px;
+    height:0;
+    /*border-top:1px solid $warm-gray; */
+    margin-top:-1px;
+    position:absolute;
+    top:1em;
+    left:0
+}
+.tree-indicator {
+    margin-right:1px;
+
+    cursor:pointer;
+    color: $warm-gray;
+}
+.treeview li a {
+    text-decoration: none;
+    color:inherit;
+    font-weight: 400 !important;
+    cursor:pointer;
+}
+.treeview li button, .treeview li button:active, .treeview li button:focus {
+    text-decoration: none;
+    color:inherit;
+    border:none;
+    background:transparent;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    outline: 0;
 }

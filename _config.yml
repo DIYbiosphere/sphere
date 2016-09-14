@@ -31,9 +31,6 @@ assets:
   sources:
     - _assets
     - _assets/img
-    - _assets/images
-    - _assets/screencaptures
-    - _assets/screenshots
     - _assets/js
     - _assets/css
     - _assets/fonts

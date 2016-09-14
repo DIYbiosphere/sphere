@@ -2,6 +2,11 @@
   padding: 0.6em;
 }
 
-.twitter-infobox {
+#twitter-infobox:hover {
   color: green;
+}
+
+svg:hover #twitter-infobox {
+  fill: red;
+  color: yellow;
 }

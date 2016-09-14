@@ -1,10 +1,19 @@
 .navbar {
   background-color: $default;
-  font-family: $fonts;
-  font-weight: 600;
-  line-height: 3em;
+  font-weight: 700;
+  font-size: 1.5em;
   border-bottom: $primary solid 3px;
   height: 90px;
+
+  li {
+  padding-top: 100;
+  vertical-align: middle;
+  line-height: 90px;
+  }
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .navbar .navbar-nav ul {
@@ -12,50 +21,27 @@
 }
 
 .navbar .navbar-nav li a {
+  display: inline-block;
   color: $primary;
-  line-height: 3em
-
 }
 
 .navbar .navbar-nav li a:hover {
-  color: $secondary;
+  color: $hyperlink;
   text-decoration: none;
+  background-color: $default;
 }
 
-navbar .navbar-nav li a .caret {
+.navbar .navbar-nav li a .fa-chevron-down {
   color: $warm-gray;
+  font-size: 12px;
 }
 
-.omnisearch {
-  height: 30px;
-  .input-icon-left {
-    padding-top: 15px !important;
-  }
-  .input-icon-right {
-    padding-top: 15px !important;
-  }
-}
-
-.menu-heading-logo {
-  width: 3.5em;
-  margin-bottom: -1em;
-  margin-top: -1.4em;
-  margin-right: 0em;
-}
 
 .logo {
-  max-width: 140px;
+  max-height: 60px;
   vertical-align: middle;
-  max-height: 70px;
 }
 
 /*
 * Overwrite default values
 */
-#tipue_search_input {
-  color: black;
-  width: 100%;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background: none;
-}

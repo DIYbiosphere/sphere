@@ -1,107 +1,155 @@
-<div role="navigation">
-  <ul>
+<div class="side-nav">
+<div role="navigation" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
     <h4> DOCUMENTATION </h4>
-<<<<<<< HEAD
 
-    <li class="side-menu-title"> <i class="fa fa-bullhorn"></i>
-    Introduction </li>
-      <li><a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-binoculars"></i>
-      Overview</a></li>
-      <li><a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-flag-o"></i>
-      Getting Started</a></li>
+    <input id="docsearch" class="docsearch" type="search" name="docsearch" placeholder="Search Docs"/>
 
-    <li class="side-menu-title"> <i class="fa fa-info-circle"></i>
-    About Us</li>
-      <li><a href="{{ '/docs/about/organization/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-university"></i>
-      Organization</a></li>
-      <li><a href="{{ '/docs/about/community/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-user"></i>
-      Community</a></li>
-      <li><a href="{{ '/docs/about/partners/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-child"></i>
-      Partners</a></li>
-      <li><a href="{{ '/docs/about/coc/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-heart"></i>
-      Code of Conduct</a></li>
-      <li><a href="{{ '/docs/about/communication/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-send"></i>
-      Communication</a></li>
+  <ul class="treeview">
 
-    <li class="side-menu-title"> <i class="fa fa-cubes"></i>
-    The Basics </li>
-      <li><a href="{{ '/docs/help/contributing/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-database"></i>
-      Database</a></li>
-      <li><a href="{{ '/docs/help/tutorials/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-code"></i>
-      Development</a></li>
-      <li><a href="{{ '/docs/help/faq/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-book"></i>
-      Documentation</a></li>
-      <li><a href="{{ '/docs/help/faq/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-paint-brush"></i>
-      Design</a></li>
+    <li><a href="#"><i class="fa fa-bullhorn"></i>
+    INTRODUCTION</a>
+      <ul>
+        <li><a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+        Getting Started</a></li>
+        <li><a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+        Overview</a>
+      </ul>
+    </li>
 
-    <li class="side-menu-title"> <i class="fa fa-support"></i>
-    Support </li>
-      <li><a href="{{ '/docs/help/contributing/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-star"></i>
-=======
-    <input id="docsearch" class="docsearch form-control" type="text" name="docsearch"/>
-    
-  <li class="side-menu-title"> <i class="fa fa-info-circle"></i>
-    ABOUT </li>
-  <li><a href="{{ '/docs/about/overview/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-binoculars"></i>
-    Overview</a></li>
-  <li><a href="{{ '/docs/about/community/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-sitemap"></i>
-    Development Community</a></li>
-  <li><a href="{{ '/docs/about/coc/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-heart-o"></i>
-    Code of Conduct</a></li>
-  <li><a href="{{ '/docs/about/copyright/license/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-copyright"></i>
-    Copyright Terms</a></li>
-  <li><a href="{{ '/docs/about/copyright/cla/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-check-square-o"></i>
-    License Agreement</a></li>
-  <li><a href="{{ '/docs/about/contact/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-send"></i>
-    Contact</a></li>
+    <li><a href="#"><i class="fa fa-info-circle"></i>
+    ABOUT US</a>
+      <ul>
+        <li><a href="{{ '/docs/about/organization/' | prepend: site.baseurl }}">
+        Organization</a></li>
+        <li><a href="{{ '/docs/about/community/' | prepend: site.baseurl }}">
+        Community</a>
+        <li><a href="{{ '/docs/about/partners/' | prepend: site.baseurl }}">
+        Partners</a>
+        <li><a href="{{ '/docs/about/coc/' | prepend: site.baseurl }}">
+        Code of Conduct</a>
+        <li><a href="{{ '/docs/about/communication/' | prepend: site.baseurl }}">
+        Communication</a>
+      </ul>
+    </li>
 
-    <li class="side-menu-title"> <i class="fa fa-support"></i> HELP </li>
-    <li><a href="{{ '/docs/help/getting-started/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-flag-o"></i>
-      Getting started</a></li>
-    <li><a href="{{ '/docs/help/contributing/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-star"></i>
->>>>>>> master
-      Contributing guide</a></li>
-      <li><a href="{{ '/docs/help/contributing/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-play-circle"></i>
-      Workflow</a></li>
-      <li><a href="{{ '/docs/help/eli5-guide/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-puzzle-piece"></i>
-      Eli5 Guide</a></li>
-      <li><a href="{{ '/docs/help/glossary/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-paragraph"></i>
-      Glossary</a></li>
-      <li><a href="{{ '/docs/help/tutorials/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-graduation-cap"></i>
-      Tutorials</a></li>
-      <li><a href="{{ '/docs/help/faq/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-question-circle"></i>
-      FAQ</a></li>
-      <li><a href="{{ '/docs/help/faq/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-medkit"></i>
-      Getting Help</a></li>
+    <li><a href="#"><i class="fa fa-cubes"></i>
+    THE BASICS</a>
+      <ul>
+        <li><a href="{{ '/docs/basics/databse/' | prepend: site.baseurl }}">
+        Database</a></li>
+        <li><a href="{{ '/docs/basics/development/' | prepend: site.baseurl }}">
+        Development</a>
+            				<ul>
+            					<li><a href="#">GitHub</a></li>
+            					<li><a href="#">Jekyll</a>
+                        <ul>
+            							<li><a href="#">Plugins</a></li>
+            						</ul>
+            					</li>
+                      <li><a href="#">Travis</a></li>
+            					<li><a href="#">Algolia</a>
+            						<ul>
+            							<li><a href="#">Search</a></li>
+            							<li><a href="#">DocSearch</a></li>
+            							<li><a href="#">Places</a></li>
+            						</ul>
+            					</li>
+            				</ul>
+            			</li>
+        <li><a href="{{ '/docs/basics/documentation/' | prepend: site.baseurl }}">
+        Documentation</a></li>
+        <li><a href="{{ '/docs/basics/design/' | prepend: site.baseurl }}">
+        Design</a></li>
+      </ul>
+    </li>
 
-    <li class="side-menu-title"> <i class="fa fa-thumb-tack"></i>
-    Resources </li>
-      <li><a href="{{ '/docs/help/hints/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-compass"></i>
-      Hints</a></li>
-      <li><a href="{{ '/docs/help/sitemap/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-sitemap"></i>
-      Site Map</a></li>
+    <li><a href="#"><i class="fa fa-copyright"></i>
+    COPYRIGHT</a>
+      <ul>
+        <li><a href="{{ '/docs/copyright/license/' | prepend: site.baseurl }}">
+        License Terms</a></li>
+        <li><a href="{{ '/docs/copyright/cla/' | prepend: site.baseurl }}">
+        Contributor Agreement</a></li>
+      </ul>
+    </li>
 
-    <li class="side-menu-title"> <i class="fa fa-newspaper-o"></i>
-    News </li>
-      <li><a href="{{ '/docs/about/overview/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-repeat"></i>
-      Changelong</a></li>
-      <li><a href="{{ '/docs/about/community/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-road"></i>
-      Roadmap</a></li>
-      <li><a href="{{ '/docs/about/community/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-commenting"></i>
-      Blog</a></li>
+    <li><a href="#"><i class="fa fa-support"></i>
+    SUPPORT</a>
+      <ul>
+        <li><a href="{{ '/docs/support/contributing/' | prepend: site.baseurl }}">
+        Contributing Guide</a></li>
+        <li><a href="{{ '/docs/support/workflow/' | prepend: site.baseurl }}">
+        Workflow</a></li>
+        <li><a href="{{ '/docs/support/resources/' | prepend: site.baseurl }}">
+        Resources</a>
+          <ul>
+            <li><a href="{{ '/docs/support/resources/eli5/' | prepend: site.baseurl }}">
+            ELI5</a></li>
+            <li><a href="{{ '/docs/support/resources/glossary/' | prepend: site.baseurl }}">
+            Glossary</a></li>
+            <li><a href="{{ '/docs/support/resources/hints/' | prepend: site.baseurl }}">
+            Hints</a></li>
+            <li><a href="{{ '/docs/support/allicons/' | prepend: site.baseurl }}">
+            All icons</a></li>
+          </ul>
+        </li>
+        <li><a href="{{ '/docs/about/cla/' | prepend: site.baseurl }}">
+        FAQ</a></li>
+        <li><a href="{{ '/docs/about/cla/' | prepend: site.baseurl }}">
+        Getting Help</a></li>
+      </ul>
+    </li>
 
-    <li class="side-menu-title"> <i class="fa fa-copyright"></i>
-    Copyright </li>
-      <li><a href="{{ '/docs/about/overview/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-creative-commons"></i>
-      License Terms</a></li>
-      <li><a href="{{ '/docs/about/community/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-check-square-o"></i>
-      Contributor Agreement</a></li>
-      <li><a href="{{ '/docs/about/community/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-check-bsn"></i>
-      Noting Copyright</a></li>
+    <li><a href="#"><i class="fa fa-graduation-cap"></i>
+    TUTORIALS</a>
+      <ul>
+        <li><a href="{{ '/docs/about/license/' | prepend: site.baseurl }}">
+        Contributing Guide</a></li>
+        <li><a href="{{ '/docs/about/cla/' | prepend: site.baseurl }}">
+        Workflow</a></li>
+        <li><a href="{{ '/docs/about/cla/' | prepend: site.baseurl }}">
+        Resources</a>
+          <ul>
+            <li><a href="#">ELI5</a></li>
+            <li><a href="#">Glossary</a></li>
+            <li><a href="#">Hints</a></li>
+            <li><a href="#">Site Map</a></li>
+          </ul>
+        </li>
+        <li><a href="{{ '/docs/about/cla/' | prepend: site.baseurl }}">
+        FAQ</a></li>
+        <li><a href="{{ '/docs/about/cla/' | prepend: site.baseurl }}">
+        Getting Help</a></li>
+      </ul>
+    </li>
+
+    <li><a href="#"><i class="fa fa-newspaper-o"></i>
+    NEWS</a>
+      <ul>
+        <li><a href="{{ '/docs/about/license/' | prepend: site.baseurl }}">
+        License Terms</a></li>
+        <li><a href="{{ '/docs/about/cla/' | prepend: site.baseurl }}">
+        Contributor Agreement</a></li>
+      </ul>
+    </li>
+
   </ul>
+        </div>
 
-
-
-
+        <!-- collapse menu
+        <li class="nav-l1"><a role="button" data-toggle="collapse" href="#newsNav" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-newspaper-o"></i>
+          News <i class="fa fa-chevron-down"></i></li>
+        </a>
+        <div class="collapse" id="newsNav">
+          <div>
+            <li class="nav-l2"><a href="{{ '/docs/about/overview/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-repeat"></i>
+            Changelong</a></li>
+            <li class="nav-l2"><a href="{{ '/docs/about/community/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-road"></i>
+            Roadmap</a></li>
+            <li class="nav-l2"><a href="{{ '/docs/about/community/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-commenting"></i>
+            Blog</a></li>
+          </div>
+        </div>
+        -->
 
 </div>

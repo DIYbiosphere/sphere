@@ -1,10 +1,10 @@
 html, body {
   overflow-x: hidden;
-  color: $primary;
+  color: $primary !important;
   font-family: $fonts !important;
 
   a {
-    color: $primary;
+    color: currentColor;
     cursor: pointer;
     text-decoration: underline;
 
@@ -18,7 +18,13 @@ html, body {
 
 article {
   a[href^="http"]:after {
-       content: " " url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=);
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    content: "";
+    background: url('/assets/img/external-link.png') no-repeat 0 0;
+    background-size: 100%;
   }
 }
 
@@ -27,9 +33,9 @@ blockquote {
 }
 
 h1 {
-  color: $primary;
+  color: $primary !important;
   border-bottom: 1px solid $fine-gray;
-  font-weight: 700 !important;
+  font-weight: 600 !important;
   padding-top: 30px;
   padding-bottom: 10px;
 }
@@ -38,11 +44,22 @@ h2,
 h3,
 h4,
 h5 {
-  color: $primary;
-  font-weight: 700 !important;
+  color: $primary !important;
+  font-weight: 600 !important;
   padding-bottom: 5px;
 }
 
+strong {
+  font-weight: 600 !important;
+}
+
+em {
+  font-weight: 400i !important;
+}
+
+strong em {
+  font-weight: 600i !important;
+}
 /**
 *  This keeps hash tag links visible,
 *  otherwise they are blocked by the top navbar
@@ -81,11 +98,22 @@ h3:before {
   fill: currentColor;
   width: 0.9em;
   height: 0.9em;
+  vertical-align: middle;
   a {
     fill: $hyperlink;
 
     &:hover {
       fill: red;
     }
+  }
+}
+
+.labels {
+  display: inline;
+  height: 10px;
+  width: auto;
+  a {
+    fill: currrentColor;
+    text-decoration: none;
   }
 }
