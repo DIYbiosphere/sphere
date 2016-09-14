@@ -6,11 +6,11 @@ permalink: /docs/help/tutorials/install/
 
 _This section details how to edit locally on your desktop._
 
-We recommend you use [GitHub Desktop] as a Git Client; available for MacOS and Windows, and [Atom] as a text editor; available for MacOS, Windows and Linux. See our guides on [using Atom] and [using GitHub Desktop].
+We recommend you use [GitHub Desktop] as a Git Client; available for MacOS and Windows, and [Atom] as a text editor; available for MacOS, Windows and Linux. See our guides on [using Atom] and [using GitHub Desktop]. All of our tutorials are made for these softwares.
 
-{% include _notices/note.html title="Recommended software is really recommendable" text="To simplify things, all of our tutorials are with our recommended software and packages" %}
+{% include _notices/note.html title="Installation requires a Terminal" text="A terminal is a direct line (command line) with your computer. It's as easy as copy-paste" %}
 
-Some of these steps require that you use a Terminal, which is a direct line (a command line) with your computer. If you are a first-time user, don't be intimidated, it is as easy as copy-paste!
+
 
 1. Install [ruby](https://www.ruby-lang.org/en/documentation/installation/) and (MacOS users can skip this step.
 
