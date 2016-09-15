@@ -1,13 +1,11 @@
 .side-nav {
   height: 100%;
   color: $primary;
-  font-size: 0.95em;
-  min-width: 300px;
-  font-size: 1em;
+  font-size: 0.9em;
 
-  h3 {
-    padding-top: 0px;
-    text-align: center;
+  h4 {
+    text-align: left;
+    font-weight: 700;
   }
 
   ul {
@@ -38,12 +36,13 @@
   font-weight: 400;
   font-size: 1em !important;
 }
+
 .folding-buttons {
   text-align: right;
   padding-right: 8px;
 
   .icons {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 }
 

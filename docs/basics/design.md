@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/help/basics/design/
+permalink: /docs/basics/design/
 title: Basics of the Design
 ---
 

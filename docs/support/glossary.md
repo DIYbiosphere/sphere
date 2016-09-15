@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/help/glossary/
+permalink: /docs/resources/glossary/
 title: Glossary of Terms
 ---
 > Draft

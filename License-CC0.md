@@ -1,6 +1,6 @@
 ---
 layout: repo-doc
-permalink: /docs/about/copyright/cc0/
+permalink: /docs/copyright/cc0/
 title: CC0 Public Domain Dedication
 ---
 

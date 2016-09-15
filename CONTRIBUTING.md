@@ -1,6 +1,6 @@
 ---
 layout: repo-doc
-permalink: /docs/help/contributing/
+permalink: /docs/support/contributing/
 title: Contributing
 ---
 

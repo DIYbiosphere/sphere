@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Contributor License Agreement
-permalink: /docs/about/copyright/cla/
+permalink: /docs/copyright/cla/
 ---
 
 Thank You for Your interest in making a Contribution to the DIYbiosphere Project. :purple_heart:

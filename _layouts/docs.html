@@ -3,9 +3,6 @@ layout: default
 ---
 
   <div class="container-fluid">
-    <div class="side-nav col-sm-3">
-      {% include sidebar.html %}
-    </div>
 
     <div class="col-sm-9 container-fluid">
       <div class="breadcrumbs">
@@ -17,6 +14,9 @@ layout: default
         {{content}}
       </div>
     </article>
-    </div>
 
+    </div>
+    <div class="side-nav col-sm-3">
+      {% include sidebar.html %}
+    </div>
   </div>

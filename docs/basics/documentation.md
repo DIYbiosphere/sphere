@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/help/basics/documentation/
+permalink: /docs/basics/documentation/
 title: Basics of the Documentation
 ---
 

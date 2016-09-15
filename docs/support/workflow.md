@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /help/workflow/
+permalink: /docs/support/workflow/
 title: Workflow Management
 ---
 

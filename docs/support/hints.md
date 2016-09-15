@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/help/hints/
+permalink: /docs/resources/hints/
 title: Helpful Hints
 ---
 > Draft

@@ -27,8 +27,58 @@
   color: red;
 }
 
+.search-form {
+	position: absolute;
+	right: 1px;
+	top: 1px;
+  margin-right: 0;
+}
 
+.search-field {
+	background-color: transparent;
+	background-image: url('/assets/img/oi-search.png');
+	background-position: 5px center;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	border: none;
+	cursor: pointer;
+	height: 37px;
+	margin: 3px 0;
+	padding: 0 0 0 34px;
+	position: relative;
+	-webkit-transition: width 800ms ease, background 800ms ease;
+	transition:         width 800ms ease, background 800ms ease;
+	width: 0;
+  font-weight: 400;
+  font-size: 0.95em;
+}
 
+.docsearch {
+  position: static;
+  background-color: #fff;
+	border: 1px solid black;
+	cursor: text;
+	outline: 0;
+	width: 230px;
+}
+
+.search-field:focus {
+	background-color: #fff;
+	border: 1px solid black;
+	cursor: text;
+	outline: 0;
+	width: 230px;
+}
+
+.search-submit {
+  display: none;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+}
+
+/*
 input {
 	outline: none;
   vertical-align: middle;
@@ -66,7 +116,7 @@ input[type=search]:focus {
 	border-color: $primary;
 }
 
-/* Demo 2 */
+/* Demo 2
 #demo-2 input[type=search] {
 	width: 15px;
   height: 15px;
@@ -90,3 +140,4 @@ input[type=search]:focus {
 #demo-2 input::-webkit-input-placeholder {
 	color: transparent;
 }
+*/

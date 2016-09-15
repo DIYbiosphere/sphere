@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/help/basics/development/
+permalink: /docs/basics/development/
 title: Basics of the Development
 ---
 

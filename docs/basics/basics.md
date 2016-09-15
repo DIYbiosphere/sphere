@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/help/basics/
+permalink: /docs/basics/
 title: Basics of the DIYbiosphere project
 ---
 

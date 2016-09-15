@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/help/basics/database/
+permalink: /docs/basics/database/
 title: Basics of the Database
 ---
 
