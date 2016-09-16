@@ -5,21 +5,17 @@
 
 
   <body class="container-fluid">
-    <div>
-
     {% include header.html %}
 
-    <div class="main-content">
+    <div class="main-content row">
       {{content}}
     </div>
 
-    <div class="row">
       {% include footer.html %}
-    </div>
+
 
 
     <!-- used across all pages -->
-    {% include omnisearch-modal.html %}
     <script src="https://www.google.com/jsapi"></script>
     <script type="text/javascript">
         google.load('search', '1', {style: google.loader.themes.MINIMALIST});
@@ -49,13 +45,14 @@
       };
     </script>
     <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
     <script>
       $(function() {
         //initialize tooltips
         $('[data-toggle="tooltip"]').tooltip();
       });
     </script>
-    
+
     <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
     <script type="text/javascript">
       docsearch({
@@ -65,7 +62,10 @@
         debug: false // Set debug to true if you want to inspect the dropdown
       });
     </script>
-  </div>
+
+    {% javascript collapse %}
+        {% javascript activeaccordion %}
+
   </body>
 
 </html>

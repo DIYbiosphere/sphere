@@ -1,6 +1,6 @@
 ---
 layout: repo-doc
-permalink: /docs/about/copyright/mit/
+permalink: /docs/copyright/mit/
 title: The MIT License
 ---
 

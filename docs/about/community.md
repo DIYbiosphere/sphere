@@ -43,20 +43,20 @@ To edit, teams have to only commit changes. See tutorials to [add] and [edit] en
 
 **The teams in the DIYbiosphere organization are:**
 
-#### • Managers
+#### Managers
 Users in the [Managers Team] are all those responsable for the entry of their own initiative.  Managers should also join the _Collection Team_ their entry belongs to: **[Projects Team]**, **[Startups Team]**, **[Labs Team]**, **[Incubators Team]**, **[Groups Team]**, **[Networks Team]**, **[Events Team]**, and **[Others Team]**.
 
 **Every entry should have a manager!!**
 
-#### • Editors
+#### Editors
 Users who are active in the management and development of all (non-software) content should be part of the [Editors Team]. As editors they are in charge of curating the database and all of its entries.
 
 Managers are not involved in discussions about the the development of the project, this is the job of the Editors. Managers will be braught to the discussion at later stages before implementing any changes to the structure or content of the entries.
 
-#### • Coders
+#### Coders
 Users with coding skills and/or who are interested in the coding part of the project should join the [Coders Team]. Coders are in charge of the code that sustains the project and implement any enhancements or features to the software.
 
-#### • Directors
+#### Directors
 Are users that have owner permissions. The [Directors Team] oversees the general direction and development of the project. Their reponsabilities include:
 
 - Inviting people to join the organization

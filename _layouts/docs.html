@@ -1,22 +1,20 @@
 ---
 layout: default
 ---
-
-  <div class="row">
-    <div class="side-menu col-sm-3">
-      {% include sidebar.html %}
-    </div>
-
-    <div class="col-sm-9">
-      <div class="row breadcrumbs">
+<div class="docs-content">
+    <div class="col-sm-9 docs-text">
+      <div class="breadcrumbs">
         {% include breadcrumbs.html %}
       </div>
-      <div class="docs container-fluid">
-        <div class="mar-no">
+      <article>
+      <div>
           <h1>{{ page.title }}</h1>
-        </div class="main-content">
         {{content}}
       </div>
+    </article>
+
+  </div>
+    <div class="side-nav col-sm-3">
+      {% include sidebar.html %}
     </div>
   </div>
-</div>

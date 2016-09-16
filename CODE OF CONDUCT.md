@@ -3,10 +3,18 @@ layout: docs
 title: Code of Conduct
 permalink: /docs/about/coc/
 ---
+_The purpose of the Code of Conduct is to delineate a common understanding of what constitutes a welcoming and enriching working environment_
 
-This Code of Conduct\* (CoC) applies to project spaces and public spaces when an individual is representing the project or its community, online and offline.
+This Code of Conduct (CoC) applies to project spaces and public spaces when an individual is representing the project or its community, online and offline.
 
 As contributors of this project, we are committed to having a **welcoming environment for all people to contribute**, and we pledge to value them as human beings and foster an atmosphere of kindness, cooperation, and understanding. We take the [Contributor Covenant] as a way to express these values.
+
+We strive to:
+- Be open
+- Be empathetic
+- Be collaborative
+- Be inquisitive
+- Be respectful
 
 We want to sustain a **harassment-free experience for everyone**, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion or sexual identity and orientation.
 
@@ -35,3 +43,4 @@ Project directors are obliged to maintain the confidentiality of the incident's 
 [Contributor covenant]: http://contributor-covenant.org/
 [Project director]: https://github.com/orgs/DIYbiosphere/teams/directors
 [1]: http://contributor-covenant.org/version/1/4/
+[2]: https://www.apache.org/foundation/policies/conduct

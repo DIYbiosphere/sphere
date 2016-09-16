@@ -1,38 +1,69 @@
 html, body {
   overflow-x: hidden;
-  color: black;
+  color: $primary !important;
   font-family: $fonts !important;
 
   a {
-    color: $hyperlink;
+    color: currentColor;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: underline;
 
     &:hover {
       color: $hyperlink;
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 
 }
 
+article {
+  a[href^="http"]:after {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    content: "";
+    background: url('/assets/img/external-link.png') no-repeat 0 0;
+    background-size: 100%;
+  }
+}
+
 blockquote {
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 h1 {
+  color: $primary !important;
   border-bottom: 1px solid $fine-gray;
   font-weight: 600 !important;
   padding-top: 30px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 h2,
 h3,
 h4,
 h5 {
+  color: $primary !important;
   font-weight: 600 !important;
   padding-bottom: 5px;
+}
+
+strong {
+  font-weight: 600 !important;
+}
+
+em {
+  font-weight: 400i !important;
+}
+
+strong em {
+  font-weight: 600i !important;
+}
+
+code {
+  background-color: #212121 !important;
+  color: $default !important;
 }
 
 /**
@@ -71,13 +102,24 @@ h3:before {
 .icons {
   display: inline;
   fill: currentColor;
-  width: 0.9em;
-  height: 0.9em;
+  vertical-align: baseline;
+  height: 0.8em;
+  width: 0.8em;
   a {
     fill: $hyperlink;
 
     &:hover {
       fill: red;
     }
+  }
+}
+
+.labels {
+  display: inline;
+  height: 10px;
+  width: auto;
+  a {
+    fill: currrentColor;
+    text-decoration: none;
   }
 }

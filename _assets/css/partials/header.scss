@@ -1,9 +1,27 @@
 .navbar {
   background-color: $default;
-  font-family: $fonts;
-  font-weight: 600;
-  line-height: 3em;
+  font-weight: 700;
+  font-size: 1.3em;
   border-bottom: $primary solid 3px;
+  height: $nav-height;
+
+  li {
+  padding-top: 100;
+  vertical-align: middle;
+  line-height: 90px;
+
+    .navl2 {
+    line-height: 30px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .fa {
+    padding-right: 10px;
+  }
 }
 
 .navbar .navbar-nav ul {
@@ -11,49 +29,36 @@
 }
 
 .navbar .navbar-nav li a {
+  display: inline-block;
   color: $primary;
-  line-height: 3em
-
 }
 
 .navbar .navbar-nav li a:hover {
-  color: $secondary;
+  color: $hyperlink;
   text-decoration: none;
+  background-color: $default;
 }
 
-navbar .navbar-nav li a .caret {
+.navbar .navbar-nav li a .fa-chevron-down {
   color: $warm-gray;
+  font-size: 12px;
 }
 
-.omnisearch {
-  height: 30px;
-  .input-icon-left {
-    padding-top: 15px !important;
-  }
-  .input-icon-right {
-    padding-top: 15px !important;
-  }
-}
-
-.menu-heading-logo {
-  width: 3.5em;
-  margin-bottom: -1em;
-  margin-top: -1.4em;
-  margin-right: 0em;
-}
 
 .logo {
-  width: 110px;
+  max-height: 70px;
+  padding-top: 5px;
   vertical-align: middle;
+  line-height: 90;
 }
 
 /*
 * Overwrite default values
 */
-#tipue_search_input {
-  color: black;
-  width: 100%;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background: none;
+
+.dropdown-menu {
+
+  span {
+    margin-right: 10px;
+  }
 }

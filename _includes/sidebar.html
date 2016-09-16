@@ -1,44 +1,203 @@
-<div class="side-menu" role="navigation">
-  <ul>
+
+<div role="navigation">
+  <div class="sidenav-wrapper">
     <h4> DOCUMENTATION </h4>
-    <input id="docsearch" class="docsearch form-control" type="text" name="docsearch"/>
-    
-  <li class="side-menu-title"> <i class="fa fa-info-circle"></i>
-    ABOUT </li>
-  <li><a href="{{ '/docs/about/overview/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-binoculars"></i>
-    Overview</a></li>
-  <li><a href="{{ '/docs/about/community/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-sitemap"></i>
-    Development Community</a></li>
-  <li><a href="{{ '/docs/about/coc/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-heart-o"></i>
-    Code of Conduct</a></li>
-  <li><a href="{{ '/docs/about/copyright/license/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-copyright"></i>
-    Copyright Terms</a></li>
-  <li><a href="{{ '/docs/about/copyright/cla/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-check-square-o"></i>
-    License Agreement</a></li>
-  <li><a href="{{ '/docs/about/contact/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-send"></i>
-    Contact</a></li>
 
-    <li class="side-menu-title"> <i class="fa fa-support"></i> HELP </li>
-    <li><a href="{{ '/docs/help/getting-started/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-flag-o"></i>
-      Getting started</a></li>
-    <li><a href="{{ '/docs/help/contributing/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-star"></i>
-      Contributing guide</a></li>
-    <li><a href="{{ '/docs/help/basics/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-puzzle-piece"></i>
-      Basics</a></li>
-    <li><a href="{{ '/docs/help/tutorials/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-book"></i>
-      Tutorials</a></li>
-    <li><a href="{{ '/docs/help/faq/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-question"></i>
-      FAQ</a></li>
 
-    <li class="side-menu-title"> <i class="fa fa-thumb-tack"></i> QUICK RESOURCES </li>
-    <li><a href="{{ '/docs/help/eli5-guide/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-sitemap"></i>
-      Eli5 Guide</a></li>
-    <li><a href="{{ '/docs/help/glossary/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-sitemap"></i>
-      Glossary</a></li>
-    <li><a href="{{ '/docs/help/hints/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-sitemap"></i>
-      Hints</a></li>
-    <li><a href="{{ '/docs/help/sitemap/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-sitemap"></i>
-      Site Map</a></li>
-  </ul>
+    <div>
+    <form>
+      <input id="docsearch" type="search" class="docsearch search-field" name="docsearch" placeholder="Search Documentation"/>
+    </form>
+  </div>
 
+
+
+  <div class="nav-panel panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="folding-buttons">
+
+        <a href="#"><button class="openall" data-toggle="tooltip" data-placement="top" title="Unfold All">
+        <span style="cursor:pointer">{% svgicon oi-unfold %}</span></button> </a>
+        <a href="#"><button class="closeall" data-toggle="tooltip" data-placement="top" title="Fold all">
+        <span style="cursor:pointer">{% svgicon oi-fold %}</span></button> </a>
+
+    </div>
+
+<!-- Introduction -->
+      <div class="panel">
+          <div class="panel-heading" role="tab" id="introH">
+               <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#introP" aria-expanded="true" aria-controls="introP">{% svgicon fa-road %}
+                INTRODUCTION</a>
+              </h4>
+
+          </div>
+          <div id="introP" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="introH">
+              <div class="panel-body">
+                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                Getting Started</a><br>
+                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                Overview</a>
+              </div>
+          </div>
+      </div>
+<!-- About -->
+      <div class="panel">
+          <div class="panel-heading" role="tab" id="aboutH">
+               <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#aboutP" aria-expanded="false" aria-controls="aboutP">{% svgicon fa-info-circle %}
+                ABOUT US</a></h4>
+          </div>
+
+          <div id="aboutP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="aboutH">
+              <div class="panel-body">
+                <a href="{{ '/docs/about/organization/' | prepend: site.baseurl }}">
+                Organization</a><br>
+                <a href="{{ '/docs/about/community/' | prepend: site.baseurl }}">
+                Community</a><br>
+                <a href="{{ '/docs/about/partners/' | prepend: site.baseurl }}">
+                Partners</a><br>
+                <a href="{{ '/docs/about/coc/' | prepend: site.baseurl }}">
+                Code of Conduct</a><br>
+                <a href="{{ '/docs/about/communication/' | prepend: site.baseurl }}">
+                Communication</a>
+              </div>
+            </div>
+        </div>
+<!-- Copyright -->
+      <div class="panel">
+            <div class="panel-heading" role="tab" id="copyrightH">
+               <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#copyrightP" aria-expanded="false" aria-controls="copyrightP">{% svgicon fa-copyright %}
+                COPYRIGHT</a></h4>
+            </div>
+
+            <div id="copyrightP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="copyrightH">
+              <div class="panel-body">
+                <a href="{{ '/docs/copyright/license/' | prepend: site.baseurl }}">
+                License Terms</a><br>
+                <a href="{{ '/docs/copyright/cla/' | prepend: site.baseurl }}">
+                Contributor Agreement</a>
+              </div>
+            </div>
+          </div>
+<!-- Basics -->
+      <div class="panel">
+        <div class="panel-heading" role="tab" id="basicsH">
+          <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#basicsP" aria-expanded="false" aria-controls="basicsP">{% svgicon fa-cubes %}
+          THE BASICS</a></h4>
+
+          </div>
+          <div id="basicsP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="basicsH">
+              <div class="panel-body">
+                <a href="{{ '/docs/basics/database/' | prepend: site.baseurl }}">
+                Database</a><br>
+                <a href="{{ '/docs/basics/development/' | prepend: site.baseurl }}">
+                Development</a><br>
+                <a href="{{ '/docs/basics/documentation/' | prepend: site.baseurl }}">
+                Documentation</a><br>
+                <a href="{{ '/docs/basics/design/' | prepend: site.baseurl }}">
+                Design</a><br>
+              </div>
+          </div>
+      </div>
+<!-- Support -->
+      <div class="panel">
+            <div class="panel-heading" role="tab" id="supportH">
+               <h4 class="panel-title">
+                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#supportP" aria-expanded="false" aria-controls="supportP">{% svgicon fa-life-ring %}
+                   SUPPORT
+                 </a>
+               </h4>
+             </div>
+
+              <div id="supportP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="supportH">
+                <div class="panel-body">
+                  <a href="{{ '/docs/support/contributing/' | prepend: site.baseurl }}">
+                  Contributing Guide</a><br>
+                  <a href="{{ '/docs/support/workflow/' | prepend: site.baseurl }}">
+                  Workflow</a><br>
+                  <a href="{{ '/docs/support/faq/' | prepend: site.baseurl }}">
+                  FAQ</a><br>
+                  <a href="{{ '/docs/support/help/' | prepend: site.baseurl }}">
+                  Getting Help</a><br>
+               </div>
+              </div>
+            </div>
+<!-- Tutorials -->
+      <div class="panel">
+        <div class="panel-heading" role="tab" id="tutorialsH">
+         <h4 class="panel-title">
+           <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#tutorialsP" aria-expanded="false" aria-controls="tutorialsP">{% svgicon fa-book %}
+             Tutorials
+           </a>
+         </h4>
+        </div>
+
+        <div id="tutorialsP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tutorialsH">
+          <div class="panel-body">
+            <a href="{{ '/docs/tutorials/writing-entries/' | prepend: site.baseurl }}">
+            How to Write for the Database</a><br>
+            <a href="{{ '/docs/tutorials/atom/' | prepend: site.baseurl }}">
+            How to Use Atom</a><br>
+            <a href="{{ '/docs/tutorials/github/' | prepend: site.baseurl }}">
+            How to Use GitHub</a><br>
+            <a href="{{ '/docs/tutorials/github-desktop/' | prepend: site.baseurl }}">
+            How to Use GitHub Desktop
+            </a><br>
+         </div>
+        </div>
+      </div>
+<!-- Resources -->
+      <div class="panel">
+          <div class="panel-heading" role="tab" id="resourcesH">
+               <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#resourcesP" aria-expanded="false" aria-controls="resourcesH">{% svgicon fa-thumb-tack %}
+            RESOURCES
+          </a>
+        </h4>
+
+          </div>
+          <div id="resourcesP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="resourcesH">
+              <div class="panel-body">
+                <a href="{{ '/docs/resources/eli5/' | prepend: site.baseurl }}">
+                ELI5 Guide</a><br>
+                <a href="{{ '/docs/resources/glossary/' | prepend: site.baseurl }}">
+                Sphere Glossary</a><br>
+                <a href="{{ '/docs/resources/getting-started/' | prepend: site.baseurl }}">
+                Hints</a><br>
+                <a href="{{ '/docs/resources/markdown/' | prepend: site.baseurl }}">
+                Markdown Writing Cheatsheet</a><br>
+                <a href="{{ '/docs/resources/liquid/' | prepend: site.baseurl }}">
+                Jekyll Writing Cheatsheet</a><br>
+              </div>
+          </div>
+      </div>
+<!-- News -->
+      <div class="panel">
+          <div class="panel-heading" role="tab" id="headingThree">
+               <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">{% svgicon fa-bullhorn %}
+            NEWS
+          </a>
+        </h4>
+
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="panel-body">
+                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                ELI5 Guide</a><br>
+                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                Glossary</a><br>
+                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                Hints</a><br>
+                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                Markdown Cheatsheet</a><br>
+              </div>
+          </div>
+      </div>
+
+
+  </div>
+</div>
 </div>

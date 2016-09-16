@@ -1,6 +1,6 @@
 ---
 layout: repo-doc
-permalink: /docs/help/contributing/
+permalink: /docs/support/contributing/
 title: Contributing
 ---
 
@@ -83,8 +83,8 @@ Please consider the following before submitting a new PR:
 If your PR does not pass the Travis build DO NOT merge! Check either in Travis or in Github, why it did not pass... make changes to your repository to fix these. Please also fix changes by hound. Commit these changes to your branch or fork. sync them. and wait for the checks to pass again!
 
 
-[Code of Conduct]: http://sphere.diybio.org/docs/about/coc/
-[Copyright Terms]: http://sphere.diybio.org/docs/about/copyright/license/
+[Code of Conduct]: /docs/about/coc/
+[Copyright Terms]: /docs/copyright/license/
 [Issues]: https://github.com/DIYbiosphere/sphere/issues
 [Pull Requests]: https://github.com/DIYbiosphere/sphere/pulls
 [Getting Started]: /docs/help/getting-started

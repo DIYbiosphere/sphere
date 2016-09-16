@@ -1,11 +1,12 @@
-.side-menu {
-  .side-menu-title {
-    padding-top: 1em;
-    font-size: 115%;
-  }
+.side-nav {
+  height: 100%;
+  color: $primary;
+  font-size: 0.9em;
+  background-color: $fine-gray;
 
-  h3 {
-    padding-top: 0px;
+  h4 {
+    text-align: left;
+    font-weight: 700;
   }
 
   ul {
@@ -17,7 +18,7 @@
   }
 
   a {
-    color: black;
+    color: currentColor;
     margin-left: .5em;
     text-decoration: none;
 
@@ -28,7 +29,53 @@
   }
 }
 
-.sticky {
-  position: relative;
-  top: 0;
+.panel {
+  background-color: transparent;
+
+  span {
+    margin-right: 10px;
+  }
+}
+
+.panel-heading {
+  padding-left: 0;
+}
+
+.panel-title {
+  font-weight: 400;
+  font-size: 1em !important;
+}
+
+.folding-buttons {
+  text-align: right;
+  padding-right: 8px;
+  .icons {
+    font-size: 1.3em;
+  }
+}
+
+.openall,
+.closeall {
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+.panel-title > a:after {
+    font-family: FontAwesome;
+    content:"\f077";
+    padding-right: 5px;
+    float: right;
+}
+.panel-title > a.collapsed:after {
+    content:"\f078";
+}
+.panel-title > a:hover,
+.panel-title > a:active,
+.panel-title > a:focus  {
+    text-decoration:none;
+}
+
+.active {
+  color: red;
 }

@@ -1,9 +1,11 @@
 .breadcrumbs {
-  font-family: $monospace;
-  font-size: 0.85em;
-  letter-spacing: -0.5px;
+  padding-top: 10px;
+  font-wight: 300;
+  font-size: 0.9em;
+  color: $primary;
+
   a {
-    color: $primary;
+    color: currentColor;
 
     .octicon {
     }
@@ -22,4 +24,8 @@
 
 .commits {
   float:right;
+}
+
+.crumbs {
+  font-size: 1em;
 }

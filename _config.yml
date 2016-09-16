@@ -12,11 +12,11 @@ twitter:
 
 
 # Excluded files and dirs
-exclude: [script, Gemfile, Gemfile.lock, README.md, DataReusePlan.txt]
+exclude: [script, Gemfile, Gemfile.lock, README.md, DataReusePlan.txt, .assets-cache, .sass-cache]
 
-# Jekyll assets
+# Jekyll assets plugin
 assets:
-  compress: 
+  compress:
     css: sass
     js: uglifier
   autoprefixer:
@@ -31,9 +31,6 @@ assets:
   sources:
     - _assets
     - _assets/img
-    - _assets/images
-    - _assets/screencaptures
-    - _assets/screenshots
     - _assets/js
     - _assets/css
     - _assets/fonts

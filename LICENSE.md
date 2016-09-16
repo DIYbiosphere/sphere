@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/about/copyright/license/
+permalink: /docs/copyright/license/
 title: Copyright License for humans
 ---
 

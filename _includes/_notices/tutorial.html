@@ -1,7 +1,7 @@
-<a class="tutorial" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+<a class="tutorial" role="button" data-toggle="collapse" href="#{{ include.idref }}" aria-expanded="false" aria-controls="collapseExample">
   <i class="octicon octicon-mortar-board"></i>{{ include.title }}
 </a>
-<div class="collapse" id="collapseExample">
+<div class="collapse" id="{{ include.idref }}">
   <div class="tutorial-box">
     {{ include.text | markdownify }}
   </div>
