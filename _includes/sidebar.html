@@ -1,8 +1,8 @@
 
 <div role="navigation">
-  <div>
+  <div class="sidenav-wrapper">
     <h4> DOCUMENTATION </h4>
-  </div>
+
 
     <div>
     <form>
@@ -26,7 +26,7 @@
       <div class="panel">
           <div class="panel-heading" role="tab" id="introH">
                <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#introP" aria-expanded="true" aria-controls="introP"><i class="fa fa-road"></i>
+                <a data-toggle="collapse" data-parent="#accordion" href="#introP" aria-expanded="true" aria-controls="introP">{% svgicon fa-road %}
                 INTRODUCTION</a>
               </h4>
 
@@ -44,7 +44,7 @@
       <div class="panel">
           <div class="panel-heading" role="tab" id="aboutH">
                <h4 class="panel-title">
-                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#aboutP" aria-expanded="false" aria-controls="aboutP"><i class="fa fa-info-circle"></i>
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#aboutP" aria-expanded="false" aria-controls="aboutP">{% svgicon fa-info-circle %}
                 ABOUT US</a></h4>
           </div>
 
@@ -67,7 +67,7 @@
       <div class="panel">
             <div class="panel-heading" role="tab" id="copyrightH">
                <h4 class="panel-title">
-                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#copyrightP" aria-expanded="false" aria-controls="copyrightP"><i class="fa fa-copyright"></i>
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#copyrightP" aria-expanded="false" aria-controls="copyrightP">{% svgicon fa-copyright %}
                 COPYRIGHT</a></h4>
             </div>
 
@@ -84,7 +84,7 @@
       <div class="panel">
         <div class="panel-heading" role="tab" id="basicsH">
           <h4 class="panel-title">
-          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#basicsP" aria-expanded="false" aria-controls="basicsP"><i class="fa fa-cubes"></i>
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#basicsP" aria-expanded="false" aria-controls="basicsP">{% svgicon fa-cubes %}
           THE BASICS</a></h4>
 
           </div>
@@ -105,7 +105,7 @@
       <div class="panel">
             <div class="panel-heading" role="tab" id="supportH">
                <h4 class="panel-title">
-                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#supportP" aria-expanded="false" aria-controls="supportP"><i class="fa fa-support"></i>
+                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#supportP" aria-expanded="false" aria-controls="supportP">{% svgicon fa-life-ring %}
                    SUPPORT
                  </a>
                </h4>
@@ -128,7 +128,7 @@
       <div class="panel">
         <div class="panel-heading" role="tab" id="tutorialsH">
          <h4 class="panel-title">
-           <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#tutorialsP" aria-expanded="false" aria-controls="tutorialsP"><i class="fa fa-book"></i>
+           <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#tutorialsP" aria-expanded="false" aria-controls="tutorialsP">{% svgicon fa-book %}
              Tutorials
            </a>
          </h4>
@@ -138,11 +138,12 @@
           <div class="panel-body">
             <a href="{{ '/docs/tutorials/writing-entries/' | prepend: site.baseurl }}">
             How to Write for the Database</a><br>
-            <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+            <a href="{{ '/docs/tutorials/atom/' | prepend: site.baseurl }}">
             How to Use Atom</a><br>
-            <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
-            How to Use GitHub(Desktop)</a><br>
-            <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+            <a href="{{ '/docs/tutorials/github/' | prepend: site.baseurl }}">
+            How to Use GitHub</a><br>
+            <a href="{{ '/docs/tutorials/github-desktop/' | prepend: site.baseurl }}">
+            How to Use GitHub Desktop
             </a><br>
          </div>
         </div>
@@ -151,7 +152,7 @@
       <div class="panel">
           <div class="panel-heading" role="tab" id="resourcesH">
                <h4 class="panel-title">
-          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#resourcesP" aria-expanded="false" aria-controls="resourcesH"><i class="fa fa-thumb-tack"></i>
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#resourcesP" aria-expanded="false" aria-controls="resourcesH">{% svgicon fa-thumb-tack %}
             RESOURCES
           </a>
         </h4>
@@ -159,14 +160,16 @@
           </div>
           <div id="resourcesP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="resourcesH">
               <div class="panel-body">
-                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                <a href="{{ '/docs/resources/eli5/' | prepend: site.baseurl }}">
                 ELI5 Guide</a><br>
-                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
-                Glossary</a><br>
-                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                <a href="{{ '/docs/resources/glossary/' | prepend: site.baseurl }}">
+                Sphere Glossary</a><br>
+                <a href="{{ '/docs/resources/getting-started/' | prepend: site.baseurl }}">
                 Hints</a><br>
-                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
-                Markdown Cheatsheet</a><br>
+                <a href="{{ '/docs/resources/markdown/' | prepend: site.baseurl }}">
+                Markdown Writing Cheatsheet</a><br>
+                <a href="{{ '/docs/resources/liquid/' | prepend: site.baseurl }}">
+                Jekyll Writing Cheatsheet</a><br>
               </div>
           </div>
       </div>
@@ -174,7 +177,7 @@
       <div class="panel">
           <div class="panel-heading" role="tab" id="headingThree">
                <h4 class="panel-title">
-          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-bullhorn"></i>
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">{% svgicon fa-bullhorn %}
             NEWS
           </a>
         </h4>
@@ -196,5 +199,5 @@
 
 
   </div>
-
+</div>
 </div>

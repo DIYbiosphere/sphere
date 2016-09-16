@@ -47,7 +47,7 @@
 
 .logo {
   max-height: 70px;
-  padding-top: 10px;
+  padding-top: 5px;
   vertical-align: middle;
   line-height: 90;
 }
@@ -55,3 +55,10 @@
 /*
 * Overwrite default values
 */
+
+.dropdown-menu {
+
+  span {
+    margin-right: 10px;
+  }
+}

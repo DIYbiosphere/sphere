@@ -2,11 +2,13 @@
   display: table;
   width: 100%;
   margin:0 auto;
+
 }
 
 .docs-text {
   float: none;
   display: table-cell;
+    padding-bottom: 50px;
 }
 
 .side-nav {
@@ -16,6 +18,10 @@ vertical-align: top;
 padding-left: 0;
 padding-right: 0;
 width: 20%;
+}
+
+.sidenav-wrapper {
+  padding: 20px;
 }
 
 .docs-row {
