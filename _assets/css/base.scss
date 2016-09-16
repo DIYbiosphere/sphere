@@ -60,6 +60,12 @@ em {
 strong em {
   font-weight: 600i !important;
 }
+
+code {
+  background-color: #212121 !important;
+  color: $default !important;
+}
+
 /**
 *  This keeps hash tag links visible,
 *  otherwise they are blocked by the top navbar
@@ -96,9 +102,9 @@ h3:before {
 .icons {
   display: inline;
   fill: currentColor;
-  width: 0.9em;
-  height: 0.9em;
-  vertical-align: middle;
+  vertical-align: baseline;
+  height: 0.8em;
+  width: 0.8em;
   a {
     fill: $hyperlink;
 

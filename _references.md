@@ -1,3 +1,4 @@
+
 <!-- EXTERNAL LINKS -->
 [diybio]: https://diybio.org/ "Go to DIYbio.org homepage"
 [citizen_sciences]: http://citizensciences.net/ "Go to Citizen Sciences homepage"
@@ -28,6 +29,7 @@
 
 [slack]: https://diybiosphere.slack.com/
 [invite]: https://diybiosphere.herokuapp.com/
+[gitter]: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link "Go to repository chat on Gitter"
 
 
 <!-- INTERNAL LINKS -->
@@ -64,13 +66,14 @@
 
 
 <!-- HEADING LINKS -->
-[permissions]: /docs/about/community/
+[permissions]: /docs/about/community/#access-levels
+[teams]: /docs/about/community/#teams
 [collections]: /docs/basics/database/#entry-collections
 [typology]: /docs/basics/database/#typology-of-initiatives
 [anatomy]: /docs/basics/database/#anatomy-of-an-entry
 [fields]: /docs/basics/database/#data-fields
 [join]: /docs/support/contributing/#membership-request "How to request membership"
 [s_bug]: /docs/support/contributing/#report-a-bug
-[s_qquestion]: /docs/support/contributing/#ask-a-question
+[s_question]: /docs/support/contributing/#ask-a-question
 [s_suggestion]: /docs/help/contributing/#make-a-suggestion
-[vote]: /docs/support/workflow/#adding-reactions
+[voting]: /docs/support/workflow/#adding-reactions

@@ -5,15 +5,14 @@
 
 
   <body class="container-fluid">
-    <div>
-
     {% include header.html %}
-    <div class="main-content">
+
+    <div class="main-content row">
       {{content}}
     </div>
-    <div class="row">
+
       {% include footer.html %}
-    </div>
+
 
 
     <!-- used across all pages -->
@@ -67,7 +66,6 @@
     {% javascript treeview %}
     {% javascript collapse %}
 
-  </div>
   </body>
 
 </html>

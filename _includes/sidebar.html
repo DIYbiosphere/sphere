@@ -1,4 +1,4 @@
-<div class="side-nav">
+
 <div role="navigation">
   <div>
     <h4> DOCUMENTATION </h4>
@@ -50,15 +50,15 @@
 
           <div id="aboutP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="aboutH">
               <div class="panel-body">
-                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                <a href="{{ '/docs/about/organization/' | prepend: site.baseurl }}">
                 Organization</a><br>
-                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                <a href="{{ '/docs/about/community/' | prepend: site.baseurl }}">
                 Community</a><br>
-                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                <a href="{{ '/docs/about/partners/' | prepend: site.baseurl }}">
                 Partners</a><br>
-                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                <a href="{{ '/docs/about/coc/' | prepend: site.baseurl }}">
                 Code of Conduct</a><br>
-                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                <a href="{{ '/docs/about/communication/' | prepend: site.baseurl }}">
                 Communication</a>
               </div>
             </div>
@@ -73,9 +73,9 @@
 
             <div id="copyrightP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="copyrightH">
               <div class="panel-body">
-                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                <a href="{{ '/docs/copyright/license/' | prepend: site.baseurl }}">
                 License Terms</a><br>
-                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                <a href="{{ '/docs/copyright/cla/' | prepend: site.baseurl }}">
                 Contributor Agreement</a>
               </div>
             </div>
@@ -90,13 +90,13 @@
           </div>
           <div id="basicsP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="basicsH">
               <div class="panel-body">
-                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                <a href="{{ '/docs/basics/database/' | prepend: site.baseurl }}">
                 Database</a><br>
-                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                <a href="{{ '/docs/basics/development/' | prepend: site.baseurl }}">
                 Development</a><br>
-                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                <a href="{{ '/docs/basics/documentation/' | prepend: site.baseurl }}">
                 Documentation</a><br>
-                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                <a href="{{ '/docs/basics/design/' | prepend: site.baseurl }}">
                 Design</a><br>
               </div>
           </div>
@@ -113,13 +113,13 @@
 
               <div id="supportP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="supportH">
                 <div class="panel-body">
-                  <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                  <a href="{{ '/docs/support/contributing/' | prepend: site.baseurl }}">
                   Contributing Guide</a><br>
-                  <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                  <a href="{{ '/docs/support/workflow/' | prepend: site.baseurl }}">
                   Workflow</a><br>
-                  <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
+                  <a href="{{ '/docs/support/faq/' | prepend: site.baseurl }}">
                   FAQ</a><br>
-                  <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                  <a href="{{ '/docs/support/help/' | prepend: site.baseurl }}">
                   Getting Help</a><br>
                </div>
               </div>
@@ -136,14 +136,14 @@
 
         <div id="tutorialsP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tutorialsH">
           <div class="panel-body">
-            <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
-            How to Write in the Database</a><br>
+            <a href="{{ '/docs/tutorials/writing-entries/' | prepend: site.baseurl }}">
+            How to Write for the Database</a><br>
             <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
-            Workflow</a><br>
+            How to Use Atom</a><br>
             <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
-            FAQ</a><br>
+            How to Use GitHub(Desktop)</a><br>
             <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
-            Getting Help</a><br>
+            </a><br>
          </div>
         </div>
       </div>
@@ -198,152 +198,3 @@
   </div>
 
 </div>
-</div>
-
-<!--
-  <ul class="treeview">
-
-    <li><a href="#"><i class="fa fa-bullhorn"></i>
-    INTRODUCTION</a>
-      <ul>
-        <li><a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
-        Getting Started</a></li>
-        <li><a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
-        Overview</a>
-      </ul>
-    </li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#"><i class="fa fa-info-circle"></i>
-    ABOUT US</a>
-      <ul>
-        <li><a href="{{ '/docs/about/organization/' | prepend: site.baseurl }}">
-        Organization</a></li>
-        <li><a href="{{ '/docs/about/community/' | prepend: site.baseurl }}">
-        Community</a>
-        <li><a href="{{ '/docs/about/partners/' | prepend: site.baseurl }}">
-        Partners</a>
-        <li><a href="{{ '/docs/about/coc/' | prepend: site.baseurl }}">
-        Code of Conduct</a>
-        <li><a href="{{ '/docs/about/communication/' | prepend: site.baseurl }}">
-        Communication</a>
-      </ul>
-    </li>
-
-    <li><a href="#"><i class="fa fa-cubes"></i>
-    THE BASICS</a>
-      <ul>
-        <li><a href="{{ '/docs/basics/databse/' | prepend: site.baseurl }}">
-        Database</a></li>
-        <li><a href="{{ '/docs/basics/development/' | prepend: site.baseurl }}">
-        Development</a>
-            				<ul>
-            					<li><a href="#">GitHub</a></li>
-            					<li><a href="#">Jekyll</a>
-                        <ul>
-            							<li><a href="#">Plugins</a></li>
-            						</ul>
-            					</li>
-                      <li><a href="#">Travis</a></li>
-            					<li><a href="#">Algolia</a>
-            						<ul>
-            							<li><a href="#">Search</a></li>
-            							<li><a href="#">DocSearch</a></li>
-            							<li><a href="#">Places</a></li>
-            						</ul>
-            					</li>
-            				</ul>
-            			</li>
-        <li><a href="{{ '/docs/basics/documentation/' | prepend: site.baseurl }}">
-        Documentation</a></li>
-        <li><a href="{{ '/docs/basics/design/' | prepend: site.baseurl }}">
-        Design</a></li>
-      </ul>
-    </li>
-
-    <li><a href="#"><i class="fa fa-copyright"></i>
-    COPYRIGHT</a>
-      <ul>
-        <li><a href="{{ '/docs/copyright/license/' | prepend: site.baseurl }}">
-        License Terms</a></li>
-        <li><a href="{{ '/docs/copyright/cla/' | prepend: site.baseurl }}">
-        Contributor Agreement</a></li>
-      </ul>
-    </li>
-
-    <li><a href="#"><i class="fa fa-support"></i>
-    SUPPORT</a>
-      <ul>
-        <li><a href="{{ '/docs/support/contributing/' | prepend: site.baseurl }}">
-        Contributing Guide</a></li>
-        <li><a href="{{ '/docs/support/workflow/' | prepend: site.baseurl }}">
-        Workflow</a></li>
-        <li><a href="{{ '/docs/support/resources/' | prepend: site.baseurl }}">
-        Resources</a>
-          <ul>
-            <li><a href="{{ '/docs/support/resources/eli5/' | prepend: site.baseurl }}">
-            ELI5</a></li>
-            <li><a href="{{ '/docs/support/resources/glossary/' | prepend: site.baseurl }}">
-            Glossary</a></li>
-            <li><a href="{{ '/docs/support/resources/hints/' | prepend: site.baseurl }}">
-            Hints</a></li>
-            <li><a href="{{ '/docs/support/allicons/' | prepend: site.baseurl }}">
-            All icons</a></li>
-          </ul>
-        </li>
-        <li><a href="{{ '/docs/about/cla/' | prepend: site.baseurl }}">
-        FAQ</a></li>
-        <li><a href="{{ '/docs/about/cla/' | prepend: site.baseurl }}">
-        Getting Help</a></li>
-      </ul>
-    </li>
-
-    <li><a href="#"><i class="fa fa-graduation-cap"></i>
-    TUTORIALS</a>
-      <ul>
-        <li><a href="{{ '/docs/about/license/' | prepend: site.baseurl }}">
-        Contributing Guide</a></li>
-        <li><a href="{{ '/docs/about/cla/' | prepend: site.baseurl }}">
-        Workflow</a></li>
-        <li><a href="{{ '/docs/about/cla/' | prepend: site.baseurl }}">
-        Resources</a>
-          <ul>
-            <li><a href="#">ELI5</a></li>
-            <li><a href="#">Glossary</a></li>
-            <li><a href="#">Hints</a></li>
-            <li><a href="#">Site Map</a></li>
-          </ul>
-        </li>
-        <li><a href="{{ '/docs/about/cla/' | prepend: site.baseurl }}">
-        FAQ</a></li>
-        <li><a href="{{ '/docs/about/cla/' | prepend: site.baseurl }}">
-        Getting Help</a></li>
-      </ul>
-    </li>
-
-    <li><a href="#"><i class="fa fa-newspaper-o"></i>
-    NEWS</a>
-      <ul>
-        <li><a href="{{ '/docs/about/license/' | prepend: site.baseurl }}">
-        License Terms</a></li>
-        <li><a href="{{ '/docs/about/cla/' | prepend: site.baseurl }}">
-        Contributor Agreement</a></li>
-      </ul>
-    </li>
-
-  </ul>
-</div> -->
-        <!-- collapse menu
-        <li class="nav-l1"><a role="button" data-toggle="collapse" href="#newsNav" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-newspaper-o"></i>
-          News <i class="fa fa-chevron-down"></i></li>
-        </a>
-        <div class="collapse" id="newsNav">
-          <div>
-            <li class="nav-l2"><a href="{{ '/docs/about/overview/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-repeat"></i>
-            Changelong</a></li>
-            <li class="nav-l2"><a href="{{ '/docs/about/community/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-road"></i>
-            Roadmap</a></li>
-            <li class="nav-l2"><a href="{{ '/docs/about/community/' | prepend: site.baseurl }}" class="side-menu-link"><i class="fa fa-commenting"></i>
-            Blog</a></li>
-          </div>
-        </div>
-        -->

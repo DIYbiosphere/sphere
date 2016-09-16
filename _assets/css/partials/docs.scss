@@ -1,5 +1,28 @@
+.docs-content {
+  display: table;
+  width: 100%;
+  margin:0 auto;
+}
 
+.docs-text {
+  float: none;
+  display: table-cell;
+}
 
-.borders {
-  border: 1px solid red;
+.side-nav {
+  float: none;
+  display: table-cell;
+vertical-align: top;
+padding-left: 0;
+padding-right: 0;
+width: 20%;
+}
+
+.docs-row {
+    height: 100%;
+    margin: 0;
+    display: table-row;
+    &:before, &:after {
+        content: none;
+    }
 }

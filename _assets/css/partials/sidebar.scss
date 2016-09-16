@@ -2,6 +2,7 @@
   height: 100%;
   color: $primary;
   font-size: 0.9em;
+  background-color: $fine-gray;
 
   h4 {
     text-align: left;
@@ -28,6 +29,8 @@
   }
 }
 
+
+
 .panel-heading {
   padding-left: 0;
 }
@@ -49,7 +52,7 @@
 .openall,
 .closeall {
   border: 0;
-  background-color: $default;
+  background-color: transparent;
   padding: 0;
 }
 .panel-title > a:after {
