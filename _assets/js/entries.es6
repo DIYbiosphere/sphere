@@ -140,7 +140,7 @@
 		 *
 		 * Get all database from the generated file and populates the table.
 		*/
-		$.getJSON(baseUrl + 'assets/js/data/database.json')
+		$.getJSON('/data/database.json')
 			.done(function(resp) { // when request succeded...
 				var data = [];
 				var database = resp.database;
