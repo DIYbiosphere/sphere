@@ -4,7 +4,6 @@ gem 'sanitize',                 '~> 4.3.0'
 gem 'bootstrap-sass',           '~> 3.3.7'
 gem 'mini_magick',              '~> 4.5.1'
 gem 'uglifier',                 '~> 3.0.2'
-gem 'sprockets',                '~> 3.7.0'
 gem 'sprockets-es6',            '~> 0.9.1'
 gem 'html-proofer',             '~> 3.0.6'
 
