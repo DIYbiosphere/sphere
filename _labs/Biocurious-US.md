@@ -12,7 +12,7 @@ host:
   sphere:
   web:
 
-type:
+type: Non-profit
 
 affiliates:
   name:
@@ -31,8 +31,6 @@ state: California
 country: United States
 
 tags:
--
--
 
 email: info@biocurious.org
 blog:
@@ -67,6 +65,3 @@ We’re building a community biology lab for amateurs, inventors, entrepreneurs,
 
 ## History
 BioCurious was co-founded by 6 entrepreneurs in 2010: Eri Gentry, Kristina Hathaway, Josh Perfetto, Raymond McCauley, Joseph Jackson, and Tito Jankowski. Countless other people helped BioCurious get off the ground in those early days, including 239 backers on Kickstarter, where we raised our original $35,319. See the BioCurious launch page on Kickstarter.
-
----
-Text taken from initiative's website

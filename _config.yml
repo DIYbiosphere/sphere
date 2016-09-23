@@ -54,6 +54,7 @@ gems:
   - jekyll-seo-tag
   - jekyll-mentions
   - jekyll-github-metadata
+  - jekyll-admin
 
 # Collections
 collections:

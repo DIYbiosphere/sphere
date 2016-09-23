@@ -62,8 +62,7 @@ strong em {
 }
 
 code {
-  background-color: #212121 !important;
-  color: $default !important;
+  background-color: $fine-gray !important;
 }
 
 /**
@@ -102,24 +101,14 @@ h3:before {
 .icons {
   display: inline;
   fill: currentColor;
-  vertical-align: baseline;
-  height: 0.8em;
-  width: 0.8em;
+  vertical-align: middle;
+  height: 0.9em;
+  width: 1em;
   a {
     fill: $hyperlink;
 
     &:hover {
       fill: red;
     }
-  }
-}
-
-.labels {
-  display: inline;
-  height: 10px;
-  width: auto;
-  a {
-    fill: currrentColor;
-    text-decoration: none;
   }
 }
