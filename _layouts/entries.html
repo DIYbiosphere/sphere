@@ -17,4 +17,4 @@ layout: default
   {{content}}
 </div>
 
-<div class="mar-top text-weak">updated: {{ page.last_modified_at | date: '%Y-%m-%d' }}</div>
+<div class="mar-top text-weak">updated: {{ page.last_modified | date_to_string }}</div>

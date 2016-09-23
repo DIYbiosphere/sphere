@@ -15,7 +15,7 @@
       window.location = baseUrl + '/database?q='+search;
     });
 
-    $.getJSON("/assets/js/data/database.json").then(resp => {
+    $.getJSON("/data/database.json").then(resp => {
       let database = resp.database;
       let regions = [], countries = [];
       database.forEach(entry => {
