@@ -14,5 +14,6 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag',           '~> 2.0'
   gem 'jekyll-mentions',          '~> 1.2.0'
   gem 'jekyll-github-metadata',   '~> 2.0.2'
-  gem 'jekyll-admin',             '~> 0.1.0'
+# FIXME: jekyll-admin error durign travis build for some reason
+#  gem 'jekyll-admin',             '~> 0.1.0'
 end
