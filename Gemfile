@@ -15,4 +15,5 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag',           '~> 2.0'
   gem 'jekyll-mentions',          '~> 1.1.3'
   gem 'jekyll-github-metadata',   '~> 2.0.2'
+  gem 'jekyll-admin'
 end

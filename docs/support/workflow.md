@@ -6,9 +6,9 @@ title: Workflow Management
 
 _In this section we detail the workflow of how the project is managed, specifically Issues and Pull Requests (PR), collectively refered to here as Tickets._
 
-{% include _notices/note.html title="Only members can manage tickets" text="Members of the [development Community](/about/community) have the privilege and the **responsability** to organize tickets to facilitate the collective workflow of the development of the project." %}
+{% include _notices/note.html title="Only members can manage tickets" text="Members of the [development Community][community] have the privilege and the **responsability** to organize tickets to facilitate the collective workflow of the development of the project." %}
 
-Tickets are classified and organized by [Labels](#labels), [Milestones](#milestones), [Epics](#epics) and [Boards](#boards). The two latter are features of [ZenHub] which we use for project management. It is free and has native integration with GitHub and works for Chrome and Firefox.
+Tickets are classified and organized by [Labels](#labels), [Milestones](#milestones), [Epics](#epics) and [Boards](#boards). The two latter are features of [ZenHub][zenhub] which we use for project management. It is free and has native integration with GitHub and works for Chrome and Firefox.
 
 The following explains how the current practices for managing tickets in the DIYbiosphere project.
 
@@ -70,6 +70,8 @@ https://guides.github.com/features/issues/
 ## Assignment
 Assigning tasks to users help the community know who they can reach out to to help with an issue or to collaborate and discuss further an issue or PR. Only members and outside collaborators can be assigned tasks.
 
+## Projects
+
 ## Additional organization of tickets
 Tickets
 
@@ -81,14 +83,10 @@ In addition. It is also useful to add checklists. If the ticket is too complicat
 
 
 
-## Additional organization of issues
-
-
-
 ### Adding reactions
 You can add reactions, a.k.a. emojis, to comments and text messages on
 
 
 ### Removing duplicates
 
-[ZenHub]: https://www.zenhub.com/
+[ZenHub]:

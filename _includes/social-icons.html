@@ -5,7 +5,7 @@
 {% endif %}
 
 {% if page.email %}
-  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Github">
+  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Email">
     <a href="mailto:{{ page.email }}">{% svgicon mail-o %}</a>
   </button>
 {% endif %}
@@ -95,7 +95,7 @@
 {% endif %}
 
 {% if page.forum %}
-  <button class="socials-btn" data-toggle="tooltip" data-placement="top" title="Forum">
+  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Forum">
     <a href="{{ page.forum }}"><i class="fa fa-comments-o"></i></a>
   </button>
 {% endif %}

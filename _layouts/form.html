@@ -178,10 +178,10 @@ layout: docs
 
  <div class="form-group">
     <label for="inputPassword3" class="col-sm-3 control-label"><span class="octicon octicon-globe"></span> Location: Country</label>
-    <div class="col-sm-9">
-      <input type="title" class="form-control" id="inputPassword3" placeholder="Mexico">
+    <div class="col-sm-9 f16">
+        <input type="search" id="country" class="form-control" placeholder="Mexico" />
+      </div>
     </div>
-  </div>
 
 
 
@@ -194,6 +194,14 @@ layout: docs
   <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
 </label>
     </div>
+
+    <div class="form-group">
+       <label for="inputPassword3" class="col-sm-3 control-label"><span class="octicon octicon-globe"></span> Location: Country</label>
+       <div class="col-sm-9 f16">
+           <input type="search" id="country" class="form-control" placeholder="Mexico" />
+         </div>
+       </div>
+
 
  <div class="form-group">
     <label for="inputPassword3" class="col-sm-3 control-label"><span class="octicon octicon-tag"></span> Keywords</label>
@@ -224,4 +232,97 @@ layout: docs
     </div>
   </div>
 </form>
-</div>
+
+<link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags16.css" />
+
+
+<!-- Country Search -->
+<script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script>
+<script>
+(function() {
+  var placesAutocomplete = places({
+    container: document.querySelector('#country'),
+    type: 'country',
+    templates: {
+      suggestion: function(suggestion) {
+        return '<i class="flag ' + suggestion.countryCode + '"></i> ' +
+          suggestion.highlight.name;
+      }
+    }
+  });
+})();
+</script>
+
+<form action="/billing" class="form">
+  <div class="form-group">
+    <label for="form-address">Address*</label>
+    <input type="search" class="form-control" id="form-address" placeholder="Where do you live?" />
+  </div>
+  <div class="form-group">
+    <label for="form-address2">Address 2</label>
+    <input type="text" class="form-control" id="form-address2" placeholder="Street number and name" />
+  </div>
+  <div class="form-group">
+    <label for="form-city">City*</label>
+    <input type="text" class="form-control" id="form-city" placeholder="City">
+  </div>
+  <div class="form-group">
+    <label for="form-zip">ZIP code*</label>
+    <input type="text" class="form-control" id="form-zip" placeholder="ZIP code">
+  </div>
+</form>
+
+<!-- Address Search and autocomplete -->
+<script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script>
+<script>
+(function() {
+  var placesAutocomplete = places({
+    container: document.querySelector('#form-address'),
+    type: 'address',
+    templates: {
+      value: function(suggestion) {
+        return suggestion.name;
+      }
+    }
+  });
+  placesAutocomplete.on('change', function resultSelected(e) {
+    document.querySelector('#form-address2').value = e.suggestion.administrative || '';
+    document.querySelector('#form-city').value = e.suggestion.city || '';
+    document.querySelector('#form-zip').value = e.suggestion.postcode || '';
+  });
+})();
+</script>
+
+
+<input type="search" id="city" class="form-control" placeholder="In which city do you live?" />
+
+<script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script>
+<script>
+(function() {
+  var placesAutocomplete = places({
+    container: document.querySelector('#city'),
+    type: 'city',
+    aroundLatLngViaIP: false,
+    templates: {
+      value: function(suggestion) {
+        return suggestion.name;
+      }
+    }
+  });
+})();
+</script>
+
+
+
+
+  </div>
+
+<!--
+http://bootsnipp.com/snippets/featured/dynamic-form-fields-add-amp-remove-bs3
+http://bootsnipp.com/snippets/featured/extended-form-controls
+http://jsfiddle.net/PhFNm/1/
+http://jsfiddle.net/hj8xsm94/
+http://jsfiddle.net/mblase75/pTA3Y/
+
+
+-->

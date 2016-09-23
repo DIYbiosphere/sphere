@@ -1,34 +1,24 @@
 ---
 layout: default
 ---
-<div class="container-fluid">
-  <div class="row">
-    <a href="/database/">
-      Database
-    </a>
-    /
-    <a href="/database/{{ page.collection | downcase }}/">
-      {{ page.collection | capitalize }}
-    </a>
-    /
-    <a href="#">{{ page.title | capitalize }}</a>
+<div class="entry-contents container-fluid">
+
+  <div class="breadcrumbs">
+    {% include cookiecrumbs.html %}
   </div>
 
-Lastest Commit: {{ page.last_modified }}
-
-<div class="row">
-  <div class="mar-no">
-    <h1>{{ page.title }}</h1>
-  </div>
-  <div>
-  {% include infobox.html %}
-  </div>
-<article>
-  <div class="container-fluid">
-    {{content}}
-  </div>
-</article>
-
-</div>
+    <article>
+    <div class="entry-text">
+      <div>
+        <h1>{{ page.title }}</h1>
+      </div>
+      <div>
+      {% include infobox.html %}
+      </div>
+      <div>
+        {{content}}
+      </div>
+    </div>
+    </article>
 
 </div>

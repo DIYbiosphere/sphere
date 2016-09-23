@@ -1,0 +1,16 @@
+<div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#{{ include.heading1 }}" aria-controls="{{ include.heading1 }}" role="tab" data-toggle="tab">{{ include.heading1 | markdownify }}</a></li>
+    <li role="presentation"><a href="#{{ include.heading2 }}" aria-controls="{{ include.heading2 }}" role="tab" data-toggle="tab">{{ include.heading2 | markdownify }}</a></li>
+    <li role="presentation"><a href="#{{ include.heading3 }}" aria-controls="{{ include.heading3 }}" role="tab" data-toggle="tab">{{ include.heading3 | markdownify }}</a></li>  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="{{ include.heading1 }}">{{ include.text1 | markdownify }}</div>
+    <div role="tabpanel" class="tab-pane" id="{{ include.heading2 }}">{{ include.text2 | markdownify }}</div>
+    <div role="tabpanel" class="tab-pane" id="{{ include.heading3 }}">{{ include.text3 | markdownify }}</div>
+   </div>
+
+</div>

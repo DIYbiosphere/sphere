@@ -61,6 +61,7 @@ This is a cheatsheet for showing svg icons in markdown
 **OCTICONS:**
 {% svgicon oi-alert %} oi-alert |
 {% svgicon oi-book %} oi-book |
+{% svgicon oi-gift %} oi-gift |
 
 **OCTICONS UNOFFICIAL:**
 {% svgicon oi-boards %} oi-boards |

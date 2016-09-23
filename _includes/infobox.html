@@ -1,7 +1,107 @@
   <div class="infobox">
-    <div class="datafields">
-    <h3 class="infobox-title">
 
+    <table class="box-info">
+      <tr>
+        <th colspan="2">
+          <h3 class="infobox-title">
+            <a class="link text-dark selectable" href="{{ page.website }}" target="_blank">
+            {% if page.logo %}
+              <img class="entry-logo"  src="{{ page.logo }}" />
+            {% else %}
+              {{ page.title }}
+            </a>
+            {% endif %}
+          </h3>
+        </th>
+      </tr>
+
+      {% if page.since %}
+        <tr>
+          <th> <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="founded"><span style="cursor:help">
+          {% svgicon oi-gift %} </span></button></th>
+          <td>{{ page.since }}</td>
+        </tr>
+      {% endif %}
+
+      {% if page.host %}
+      {% assign host = page.host %}
+      <tr>
+        {% if host.name %}
+        <th> <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Parent/Host"><span style="cursor:help">
+        {% svgicon oi-home %}</span></button></th>
+        <td> {% if host.web %} <a class="link text-dark selectable" href="{{ page.host.web | site.baseUrl }}"> {% endif %}
+        {{ host.name }}
+        {% if host.web %} </a> {% endif %}
+        </td>
+        {% endif %}
+      </tr>
+      {% endif %}
+
+      {% if page.type %}
+      <tr>
+        <th> <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Type"><span style="cursor:help">
+        {% svgicon oi-gear %}</span></button></th>
+        <td>{{ page.type }}</td>
+      </tr>
+      {% endif %}
+
+      {% if page.affiliates %}
+        <tr>
+          <th> <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Type"><span style="cursor:help">
+          {% svgicon oi-users %}</span></button></th>
+          <td>{{ page.type }}</td>
+        </tr>
+      {% endif %}
+
+      {% if page.address %}
+        <tr>
+          <th> <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Type"><span style="cursor:help">
+          {% svgicon oi-location %}</span></button></th>
+          <td>{{ page.address }}
+            {% if page.directions %}
+            <br>{{ page.directions }}
+            {% endif %}
+          </td>
+        </tr>
+        {% endif %}
+
+      {% if page.city or page.state or page.country %}
+      <tr>
+        <th> <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Type"><span style="cursor:help">
+        {% svgicon oi-globe %}</span></button></th>
+        <td>{{ page.city }}{% if page.city and page.state %}, {% endif %}
+        {% if page.state %}
+        {{ page.state }} {% endif %}
+        {% if page.city or page.state %}<br> {% endif %}
+        {% if page.country %}
+          {{ page.country }}
+          {% endif %}
+        </td>
+      </tr>
+      {% endif %}
+
+      {% if page.tags %}
+      <tr class="info-tags">
+        <th><button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Type"><span style="cursor:help">
+        {% svgicon oi-tag %}</span></button></th>
+        <td>{{ page.tags | array_to_sentence_string }}</td>
+      </tr>
+      {% endif %}
+
+
+      <tr class="info-socials">
+        <th colspan="2">
+        {% include social-icons.html %}</th>
+      </tr>
+
+
+
+      </table>
+
+  <!--
+    <div class="datafields">
+
+    <h3 class="infobox-title">
       <a class="link text-dark selectable" href="{{ page.website }}" target="_blank">
         {% if page.logo %}
           <img class="entry-logo"  src="{{ page.logo }}" /> <i class="octicon octicon-link-external"></i>
@@ -9,11 +109,11 @@
           {{ page.title }} <i class="octicon octicon-link-external"></i>
       </a>
         {% endif %}
-
       </h3>
+
         {% if page.since %}
         <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="founded">
-        <span style="cursor:help"><i class="octicon octicon-gift"></i></span></button> {{ page.since }}
+        <span style="cursor:help"> {% svgicon oi-gift %} </span></button> {{ page.since }}
           <br/>
         {% endif %}
 
@@ -21,7 +121,7 @@
         {% assign host = page.host %}
         {% if host.name %}
         <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Parent/Host">
-        <span style="cursor:help"><i class="octicon octicon-home"></i></span></button>
+        <span style="cursor:help">{% svgicon oi-home %}</span></button>
           {{ host.name }}
           {% if host.sphere %}
             <a href="{{ page.host.biosphere | site.baseUrl }}">
@@ -37,12 +137,13 @@
 
       {% if page.type %}
       <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Type">
-      <span style="cursor:help"><i class="octicon octicon-gear"></i></span></button> {{ page.type }}
+      <span style="cursor:help">{% svgicon oi-gear %}</span></button> {{ page.type }}
       <br/>
       {% endif %}
+
     {% if page.affiliates %}
     <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Affiliates">
-    <span style="cursor:help"><i class="octicon octicon-organization"></i></span></button>
+    <span style="cursor:help">{% svgicon oi-users %}</span></button>
       {% for affiliate in page.affiliates %}
         {% if affiliate.name %}
           {{ affiliate.name }}
@@ -64,7 +165,7 @@
 
     {% if page.address %}
     <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Address">
-    <span style="cursor:help"><i class="octicon octicon-location"></i></span></button>
+    <span style="cursor:help">{% svgicon oi-location %}</span></button>
       {{ page.address }}
       <br>
     {% endif %}
@@ -78,7 +179,7 @@
 
     {% if page.city or page.state or page.country %}
     <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Location">
-   <span style="cursor:help"><i class="octicon octicon-globe"></i></span></button> {{ page.city }}
+   <span style="cursor:help">{% svgicon oi-globe %}</span></button> {{ page.city }}
       {% if page.state %}, {% endif %}
     {% endif %}
     {% if page.state %}
@@ -90,15 +191,20 @@
       <br>
     {% endif %}
   </div>
+
+
   <div class="keywords">
     {% if page.tags %}
         <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Keywords">
-        <span style="cursor:help"><i class="octicon octicon-tag"></i></button> {{ page.tags | array_to_sentence_string }}
+        <span style="cursor:help">{% svgicon oi-tag %}</i></button> {{ page.tags | array_to_sentence_string }}
     {% endif %}
 </div>
 
   <div class="socials">
     {% include social-icons.html %}
   </div>
+
+
+-->
 
 </div>
