@@ -54,11 +54,6 @@
 }
 
 .docsearch {
-  position: static;
-  background-color: #fff;
-	border: 1px solid black;
-	cursor: text;
-	outline: 0;
 	width: 230px;
 }
 
@@ -76,4 +71,50 @@
 
 input[type="search"] {
   -webkit-appearance: textfield;
+}
+
+.form-control {
+
+  :focus {
+  border: 1px solid black;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -moz-transition: none;
+  -webkit-transition: none;
+  }
+}
+
+.search-input {
+  border: 1px solid black;
+  border-radius: 0;
+  :focus {
+  border: 1px solid black;
+  box-shadow: none;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -moz-transition: none !important;
+  -webkit-transition: none !important;
+  }
+}
+
+.landing-search {
+  width: 500px;
+}
+
+.nav-search {
+  width: 100px;
+}
+
+.btn-sliders {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: none;
+}
+
+.btn-search {
+  color: white;
+  background: black;
+  border: 1px solid black;
+  border-radius: 0;
 }

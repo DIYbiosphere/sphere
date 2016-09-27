@@ -16,6 +16,12 @@ html, body {
 
 }
 
+.center-content {
+  max-width: 1080px;
+margin: 0 auto !important;
+float: none !important;
+}
+
 article {
   a[href^="http"]:after {
     display: inline-block;

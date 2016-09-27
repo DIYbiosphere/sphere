@@ -1,13 +1,11 @@
 
 <div role="navigation">
   <div class="sidenav-wrapper">
-    <h4> DOCUMENTATION </h4>
-
-
-    <div>
-    <form>
-      <input id="docsearch" type="search" class="docsearch search-field" name="docsearch" placeholder="Search Documentation"/>
-    </form>
+  <div class="input-group docsearch">
+    <input id="docsearch" type="search" name="docsearch" class="form-control search-input" aria-label="..." placeholder="Search Documentation">
+    <div class="input-group-btn">
+      <button class="btn btn-default btn-search" type="button"><i class="fa fa-search"></i></button>
+    </div>
   </div>
 
 
@@ -33,10 +31,13 @@
           </div>
           <div id="introP" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="introH">
               <div class="panel-body">
+                <a href="{{ '/docs/welcome/' | prepend: site.baseurl }}">
+                Welcome!</a><br>
+                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
+                Overview</a><br>
                 <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
                 Getting Started</a><br>
-                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
-                Overview</a>
+
               </div>
           </div>
       </div>

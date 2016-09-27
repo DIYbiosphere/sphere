@@ -1,22 +1,62 @@
 .docs-content {
-  display: table;
-  width: 100%;
-  margin:0 auto;
+  max-width: $max-content-width;
+  margin: auto;
+  display: flex;
+  height: 100%;
 }
+
 
 .docs-text {
-  float: none;
-  display: table-cell;
-    padding-bottom: 50px;
+  padding-bottom: 50px;
+  flex: 0 0 75%;
+  height: 100%;
 }
 
+
 .side-nav {
-  float: none;
-  display: table-cell;
-vertical-align: top;
-padding-left: 0;
-padding-right: 0;
-width: 20%;
+  height: 100%;
+  color: $primary;
+  vertical-align: top;
+  font-size: 0.9em;
+  background: $fine-gray;
+  position: relative;
+  height: 100%;
+  flex: 0 0 25%;
+
+  &:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100vw;
+    z-index:-1;
+    background: $fine-gray;
+  }
+
+  h4 {
+    text-align: left;
+    font-weight: 700;
+  }
+
+  ul {
+    padding-right: 37px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: currentColor;
+    margin-left: .5em;
+    text-decoration: none;
+
+    &:hover {
+      color: $hyperlink;
+      cursor: pointer;
+    }
+  }
 }
 
 .sidenav-wrapper {

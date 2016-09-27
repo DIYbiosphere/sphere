@@ -10,51 +10,253 @@
       {% include header.html %}
     </div>
 
-    <div class="parallax-window" data-parallax="scroll" data-image-src="/assets/images/sphere/header.jpg">
-      <div class="row pad-btm">
-        <div class="col-sm-offset-3 col-sm-6">
-          <h3 class="text-center">
-            The <b>DIYbiosphere</b> is a participatory project to create an open database
-            of Do-it-Yourself Biology initiatives from all over the world.
-          </h3>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="/assets/img/header.jpg">
+      <div class="center-content hero-box">
+        <div class="row pad-btm">
+            <h3 class="text-center">
+              A database of Do-It-Yourself Biology (DIYbio) initiatives <br> from all over the world
+            </h3>
         </div>
-      </div>
+
       <div class="row text-center">
-        <div class="col-sm-offset-3 col-sm-3">
-          <form id="search-form" method="GET" action="/database/">
-            <div class="input-addon">
-              <i class="fa fa-sliders input-icon-right"></i>
-              <i class="fa fa-search input-icon-left"></i>
-              <input id="search" class="form-control" type="text"
-                placeholder="Search database" autofocus>
+        <div class="input-group landing-search center-content">
+          <input type="text" class="form-control search-input" aria-label="..." placeholder="Search DIYbio initiatives">
+            <div class="input-group-btn">
+              <button class="btn btn-default btn-sliders" type="button" data-toggle="modal" data-target="#search-modal"><i class="fa fa-sliders"></i></button>
+              <button class="btn btn-default btn-search" type="button"><i class="fa fa-search"></i></button>
             </div>
-          </form>
-          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#search-modal">
-            Show more filters
-          </button>
         </div>
-        <div class="col-sm-1">
-          <h3 style="color:black; margin-top:0.2em; font-weight:700;">OR</h3>
-        </div>
-        <div class="col-sm-3 text-left">
-          <a class="btn btn-dark" href="{{ '/help/tutorials/add-entry/' | prepend: site.baseurl }}"
-            style="text-transform: none" target="_blank">
-            <i class="fa fa-plus"></i>
-            Add DIYbio initiative
-          </a>
+
+
+        <h4 style="color:black; margin-top:0.2em; font-weight:700;">OR</h4>
+
+          <div class="center-content center-block">
+            <a class="btn btn-dark" href="{{ '/docs/tutorials/add-entry/' | prepend: site.baseurl }}"
+              style="text-transform: none" target="_blank">
+              <i class="fa fa-plus"></i>
+              Add DIYbio initiative
+            </a>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="container text-center">
-      <h3 class="text-strong">Discover initiatives in <span id="blinking"></span></h3>
-      <p class="text-strong">(select a region)</p>
-
-      <div class="row">
-        {% include world-map.html %}
+    <div class="description-black">
+      <div class="center-content">
+      The DIYbiosphere is a Participatory Project! <br>
+      Anyone can add and edit entries to the database <br>
+      and participate in the development of the project
       </div>
-
     </div>
+
+    <div class="features row">
+      <div class="center-content">
+        <div><h3>Features</h3></div>
+          <div class="col-sm-4">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      {% svgicon fa-search %} Search Query
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    Search initiatives by name, location, keywords. or use the advanced filter with predetermined filters
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      {% svgicon fa-list %} Table of Entries</a></h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    Search initiatives by name, location, keywords. or use the advanced filter with predetermined filters
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      {% svgicon fa-filter %} Sort and Filter</a></h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    Search initiatives by name, location, keywords. or use the advanced filter with predetermined filters
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFour">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      {% svgicon fa-map %} Visualize in a Map</a></h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                  <div class="panel-body">
+                    Search initiatives by name, location, keywords. or use the advanced filter with predetermined filters
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFive">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      {% svgicon fa-tags %} Tag Clouds</a></h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                  <div class="panel-body">
+                    Search initiatives by name, location, keywords. or use the advanced filter with predetermined filters
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingSix">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      {% svgicon fa-compass %} Navigate an Entry</a></h4>
+                </div>
+                <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                  <div class="panel-body">
+                    Search initiatives by name, location, keywords. or use the advanced filter with predetermined filters
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingSeven">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                      {% svgicon fa-pencil-square-o %} Easy Editing on GitHub</a></h4>
+                </div>
+                <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                  <div class="panel-body">
+                    Search initiatives by name, location, keywords. or use the advanced filter with predetermined filters
+                  </div>
+                </div>
+              </div>
+
+
+
+          </div>
+        </div>
+
+        <div class="col-sm-8">
+          <img src="/assets/img/browser.png" class="browser">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="collections">
+      <div class="center-content">
+        <div class="row">
+          Entries are divided into eight collections:
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3 collection-box">
+            <div class="circle-collection center-block">{% svgicon fa-briefcase %}</div>
+            <h4>Projects</h4>
+          Have particular aims, such as designing an instrument or an educational workshop
+          </div>
+
+          <div class="col-sm-3 collection-box">
+            <div class="circle-collection center-block">{% svgicon fa-flask %}</div>
+            <h4>Labs</h4>
+            Have particular aims, such as designing an instrument or an educational workshop
+          </div>
+
+          <div class="col-sm-3 collection-box">
+            <div class="circle-collection center-block">{% svgicon fa-users %}</div>
+            <h4>Groups</h4>
+            Have particular aims, such as designing an instrument or an educational workshop
+          </div>
+
+          <div class="col-sm-3 collection-box">
+            <div class="circle-collection center-block">{% svgicon fa-ticket %}</div>
+            <h4>Events</h4>
+            Have particular aims, such as designing an instrument or an educational workshop
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3 collection-box">
+            <div class="circle-collection center-block">{% svgicon fa-rocket %}</div>
+            <h4>Startups</h4>
+            Have particular aims, such as designing an instrument or an educational workshop
+          </div>
+          <div class="col-sm-3 collection-box">
+            <div class="circle-collection center-block">{% svgicon fa-leaf %}</div>
+            <h4>Incubators</h4>
+            Have particular aims, such as designing an instrument or an educational workshop
+          </div>
+          <div class="col-sm-3 collection-box">
+            <div class="circle-collection center-block">{% svgicon fa-share-alt %}</div>
+            <h4>Networks</h4>
+            Have particular aims, such as designing an instrument or an educational workshop
+          </div>
+          <div class="col-sm-3 collection-box">
+            <div class="circle-collection center-block">{% svgicon fa-umbrella %}</div>
+            <h4>Others</h4>
+            Have particular aims, such as designing an instrument or an educational workshop
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="counters row">
+      <div class="center-content">
+        <div class="col-sm-3">
+          <div class="counters-heading">176</div>
+          Total database entries
+        </div>
+
+        <div class="col-sm-3">
+          <div class="counters-heading">4</div>
+          Total dataset downloads
+        </div>
+
+        <div class="col-sm-3">
+          <div class="counters-heading">15</div>
+          Total database contirbutors
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <div class="featured-entries">
+      <div class="center-content row">
+        Bioscope is the featured entry
+      </div>
+    </div>
+
+    <div class="coded">
+      <div class="center-content row">
+        <div>
+          <img src="/assets/img/sphere-coded.png">
+          <img src="/assets/img/diybio.png">
+          <img src="/assets/img/unige.png">
+          <img src="/assets/img/github-logo.png">
+          <img src="/assets/img/jekyll.png">
+          <img src="/assets/img/travis.png">
+          <img src="/assets/img/algolia.png">
+      </div>
+    </div>
+
 
     <div class="row">
       {% include footer.html %}

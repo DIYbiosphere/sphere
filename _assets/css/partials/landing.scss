@@ -1,0 +1,85 @@
+.hero-box {
+  align-content: center;
+}
+
+.description-black {
+  background: $primary;
+  color: $default;
+  padding: 3em 0;
+  text-align: center;
+}
+
+.features {
+  background: $default;
+  padding: 3em 0;
+
+  .panel-heading {
+    background: white;
+    box-shadow: none !important;
+  }
+
+  .panel-title {
+    padding-left: 1em;
+    a {
+    text-decoration: none;
+    }
+  }
+  .panel-body {
+    border: 1px solid white !important;
+    box-shadow: none !important;
+  }
+}
+
+.collections {
+  background: $light-gray;
+  text-align: center;
+  padding: 3em 0;
+}
+
+.collection-box {
+  padding: 2em;
+}
+
+.circle-collection {
+  background-color:white;
+  border-radius:100px;
+  width:70px;
+  height:70px;
+  text-align: center;
+  align-content: center;
+
+.icons {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+}
+
+.counters {
+  background: $medium-gray;
+  color: $default;
+  padding: 3em 0;
+  text-align: center;
+
+  .col-sm-3 {
+  float: none;
+  display: inline-block;
+  text-align: center;
+  }
+}
+
+.counters-heading {
+  color: $default;
+  font-size: 2.5em;
+}
+
+.browser {
+  width: 700px
+}
+
+.featured-entries {
+  height: 300px;
+}
+
+.coded {
+  background: $fine-gray;
+}
