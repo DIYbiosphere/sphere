@@ -1,15 +1,31 @@
 
-<!-- EXTERNAL LINKS -->
+
 [diybio]: https://diybio.org/ "Go to DIYbio.org homepage"
 [citizen_sciences]: http://citizensciences.net/ "Go to Citizen Sciences homepage"
 [gh_pages]: https://pages.github.com/ "Learn about GitHub Pages from GitHub"
 [markdown]: https://guides.github.com/features/mastering-markdown/ "Learn about Markdown from GitHub"
 [jekyll]: https://jekyllrb.com/ "Go to Jekyll's homepage"
+[zenhub]: https://www.zenhub.com/
 [sphere]: http://sphere.diybio.org "Go to DIYbiosphere homepage"
 [gh_sign]: https://github.com/join
 [gh_glossary]: https://help.github.com/articles/github-glossary/
+[gh_permissions]: https://help.github.com/articles/repository-permission-levels-for-an-organization/ "Learn about permission levels from GitHub"
 
 [gh_org]: https://github.com/DIYbiosphere "Go to the DIYbiosphere organization GitHub page"
+[gh_members]: https://github.com/orgs/DIYbiosphere/people "See all members of the DIYbiosphere organization"
+[gh_teams]: https://github.com/orgs/DIYbiosphere/teams "See all teams of the DIYbiosphere"
+[gh_managers]: https://github.com/orgs/DIYbiosphere/teams/managers "See all Managers"
+[gh_projects]: https://github.com/orgs/DIYbiosphere/teams/projects "See all Project managers"
+[gh_startups]: https://github.com/orgs/DIYbiosphere/teams/startups "See all Startup managers"
+[gh_labs]: https://github.com/orgs/DIYbiosphere/teams/labs "See all Lab managers"
+[gh_incubators]: https://github.com/orgs/DIYbiosphere/teams/incubators "See all Incubator managers"
+[gh_groups]: https://github.com/orgs/DIYbiosphere/teams/groups "See all Group managers"
+[gh_networks]: https://github.com/orgs/DIYbiosphere/teams/networks "See all Network managers"
+[gh_events]: https://github.com/orgs/DIYbiosphere/teams/events "See all Event managers"
+[gh_others]: https://github.com/orgs/DIYbiosphere/teams/others "See all Other managers"
+[gh_editors]: https://github.com/orgs/DIYbiosphere/teams/editors "See all Editors"
+[gh_coders]: https://github.com/orgs/DIYbiosphere/teams/coders "See all Coders"
+[gh_directors]: https://github.com/orgs/DIYbiosphere/teams/directors "See all Directors"
 [gh_repo]: https://github.com/DIYbiosphere/sphere "Go to DIYbiosphere database repository"
 [gh_issues]: https://github.com/DIYbiosphere/sphere/issues "Go to our GitHub Issues"
 [gh_bug]: https://github.com/DIYbiosphere/sphere/labels/bug
@@ -32,7 +48,7 @@
 [gitter]: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link "Go to repository chat on Gitter"
 
 
-<!-- INTERNAL LINKS -->
+
 [overview]: /docs/intro/overview/
 [starting]: /docs/intro/getting-started/ "How to use and contribute to the database"
 [organization]: /docs/about/organization/
@@ -65,14 +81,19 @@
 [edit-team]: /docs/support/tutorials/edit-entry-teams/
 
 
-<!-- HEADING LINKS -->
+
+[values]: /docs/about/organization/#our-values
 [permissions]: /docs/about/community/#access-levels
+[members]: /docs/about/community/#members
 [teams]: /docs/about/community/#teams
+[directors]: /docs/about/community/#directors
 [collections]: /docs/basics/database/#entry-collections
 [typology]: /docs/basics/database/#typology-of-initiatives
 [anatomy]: /docs/basics/database/#anatomy-of-an-entry
 [fields]: /docs/basics/database/#data-fields
-[join]: /docs/support/contributing/#membership-request "How to request membership"
+[join]: /docs/support/contributing/#submitting-issues "How to request membership"
+[join]: /docs/support/contributing/#membership-request
+
 [s_bug]: /docs/support/contributing/#report-a-bug
 [s_question]: /docs/support/contributing/#ask-a-question
 [s_suggestion]: /docs/help/contributing/#make-a-suggestion

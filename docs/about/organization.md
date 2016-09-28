@@ -6,25 +6,28 @@ title: DIYbiosphere Organization
 
 _In this section we detail the ins and outs of DIYbiosphere as an open organization_
 
-DIYbiosphere is a participatory project to create a database of DIYbio initiatives. The project is managed by the DIYbiosphere Organization and its [development community]. As an Open organization, we are able to more organize a large number of individuables with more fluidity but allows some form of structure by having tha same vision for the project.
+The DIYbiosphere is a participatory project to create a database of DIYbio initiatives. The project is managed by the [DIYbiosphere Organization][gh_org] and its [development community][community]. As an open organization, we are able to fluidly organize a large number of contributors while maintaining and striving towards a shared vision for the project.
 
-being collected by PhD student Gabriela Sanchez (@sabgaby) as part of her research. The project was backed by the [Citizen Sciences] research team at the University of Geneva and by the [DIYbio.org] network.
+#### Our Mission
+To provide an open platform for DIYbio initiatives to **share** and **learn** about and from each other. To encourage the DIYbio community to engage with one another and to facilitate the free flow of knowledge and resources. We want to generate opportunities and potentials by creating a common project to collaborate on. To have a shared space where the DIYbio community can connect, meet, support, and work together.
 
-## Identity
-Who we are
+#### Our Vision
+The information we gather (share) will give valuable insights (learn) about the diversity of the DIYbio movement; the different places, sizes, intentions, and hopes that configure and motivate the community and its participants. The DIYbiosphere is more than an index, a list, or a directory of DIYbio initiatives, its purpose is to get a sense of the DIYbio community: _who_ we are, _what_ we want, and _where_ we are heading.
 
-### Mission
-What we do
+#### Our Core Values
+The way that we work, collaborate, and engage with other members of the DIYbiosphere community should always value:
 
-### Vision
-What we want
+- **Openness:** to enable contributors to (re)use and modify the project and participate in its development, and to keep communication public and transparent (except when sensitive) as a way to encourage conversations and keep track of them.
+- **Equality:** ensure anyone can participate by creating an inclusive and friendly environment. Encourage wider use and greater participation by making things accesible, easy to use and contribute.
+- **Respect:** treat each other with kindness and value others' contributions, opinions, and beliefs. Do not be mean or insulting. Harassment and other exclusionary behavior are not acceptable.
+- **Collaboration:** nurture a culture that fosters working together. To trust each others judgements and areas of expertise. We also urge contributors to actively participate and take on responsabilities in the project.
+- **Community:** to permeate a sense of community in everything we do. Understand that we need to work together and depend on each other's work, help, and expertise.
 
-### Values
-touchstones when making dificult decisions, guide overall decisions.
 
-### Business Model
-how de plan for sustainably executing our mission, in pursuit of our vision according to our values. The business model comes from turning our insides (mission, vision, values) outwards. Who are our 'customers'? What do they need and want? How are we going to serve them? Who will partner with us?
 
-https://about.gitlab.com/handbook/
-http://inside.gratipay.com/big-picture/welcome
-https://github.com/gratipay/guide/blob/master/identity.md
+We have a [Code of Conduct][coc] which establishes a common understanding of what is deemed a welcoming and friendly working environment as well as establishing how to deal with unacceptable behavior.
+
+#### Our Governance
+
+
+## Our Partners

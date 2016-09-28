@@ -2,15 +2,14 @@
 [![Dependency Status](https://www.versioneye.com/user/projects/57cfedcac07f2e0042bf94db/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/57cfedcac07f2e0042bf94db)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0-lightgrey.svg)](http://sphere.diybio.org/license/)
 ![](https://reposs.herokuapp.com/?path=DIYbiosphere/sphere&color=yellowgreen)
-[![GitHub contributors](https://img.shields.io/github/contributors/diybiosphere/sphere.svg?maxAge=2592000)](https://github.com/DIYbiosphere/sphere)
-
+[![HitCount](https://hitt.herokuapp.com/DIYbiosphere/sphere.svg)](https://github.com/DIYbiosphere/sphere)
 [![Gratipay Team](https://img.shields.io/gratipay/team/diybiosphere.svg?maxAge=2592000)](https://gratipay.com/DIYbiosphere/)
 [![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/sphere.svg)](https://gitter.im/DIYbiosphere/sphere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Slack Status](https://diybiosphere.herokuapp.com/badge.svg)](https://diybiosphere.herokuapp.com)
 
 
 
-# ![](_assets/images/sphere/sphere-logo-long.png)
+# ![](_assets/img/sphere-logo-long.png)
 
 
 :tada: Welcome to the DIYbiophere repository :tada:
@@ -67,20 +66,20 @@ If you wish to credit our work, please do so as “© DIYbiosphere contributors�
 [entry]: http://sphere.diybio.org/database/projects/DIYbiosphere-ZZ "Go to DIYbiosphere entry page"
 [github pages]: https://pages.github.com/ "Learn about GitHub Pages"
 [Markdown]: https://guides.github.com/features/mastering-markdown/ "Learn about Markdown from GitHub"
-[add]: http://sphere.diybio.org/docs/help/tutorials/add-entry/ "How to add an entry"
-[update/edit]: http://sphere.diybio.org/docs/help/tutorials/edit-entry/ "How to edit an entry"
+[add]: http://sphere.diybio.org/docs/tutorials/add-entry/ "How to add an entry"
+[update/edit]: http://sphere.diybio.org/docs/tutorials/edit-entry/ "How to edit an entry"
 [issues]: https://github.com/DIYbiosphere/sphere/issues "Go to GitHub Issues"
 [Gitter chatroom]: https://gitter.im/DIYbiosphere/sphere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge "Go to DIYbiosphere Gitter chatroom"
 [join us on Slack]: https://diybiosphere.herokuapp.com/ "Request an invite to DIYbiosphere Slack team"
 [DIYbiosphere.slack.com]: https://diybiosphere.slack.com "Go to the DIYbiosphere Slack Team page"
 [DIYbiosphere organization]: https://github.com/DIYbiosphere "Go to the DIYbiosphere organization GitHub page"
-[request membership]: http://sphere.diybio.org/docs/help/contributing/#membership-request "How to request membership"
+[request membership]: http://sphere.diybio.org/docs/support/contributing/#membership-request "How to request membership"
 [overview]: http://sphere.diybio.org/docs/about/overview "See an overview of the DIYbiosphere Project"
 [road map]: http://sphere.diybio.org/docs/news/roadmap/ "See our Roadmap for the DIYbiosphere project"
-[Getting started]: http://sphere.diybio.org/docs/help/getting-started/ "How to use and contribute to the project"
-[Contributing guidelines]: http://sphere.diybio.org/docs/help/contributing/ "How to Issues and Pull Requests"
-[ELI5 guide]: http://sphere.diybio.org/docs/help/ELI5/ "Learn GitHub easy"
+[Getting started]: http://sphere.diybio.org/docs/intro/getting-started/ "How to use and contribute to the project"
+[Contributing guidelines]: http://sphere.diybio.org/docs/support/contributing/ "How to Issues and Pull Requests"
+[ELI5 guide]: http://sphere.diybio.org/docs/resources/ELI5/ "Learn GitHub easy"
 [MIT]: https://opensource.org/licenses/MIT "Go to MIT license"
 [CC0]: https://creativecommons.org/publicdomain/zero/1.0/ "Go to CC0 license"
-[LICENSE]: http://sphere.diybio.org/docs/about/copyright/license/ "See a human-readable license of the DIYbiosphere"
-[CLA]: http://sphere.diybio.org/docs/about/copyright/cla/ "See in legal terms the IPR of the DIYbiosphere"
+[LICENSE]: http://sphere.diybio.org/docs/copyright/license/ "See a human-readable license of the DIYbiosphere"
+[CLA]: http://sphere.diybio.org/docs/copyright/cla/ "See in legal terms the IPR of the DIYbiosphere"

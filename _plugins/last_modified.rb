@@ -9,6 +9,11 @@ module LastModified
 		@site.posts.docs.each do |post|
 			set_last_modified_date(post)
 		end
+		@site.documents.each do |collection|
+			if(collection.respond_to? :data)
+				set_last_modified_date_collection(collection)
+			end
+		end
     end
 
 	def source(post_or_page)
@@ -21,5 +26,12 @@ module LastModified
 		last_modified.strip!
 		post_or_page.data["last_modified"] = last_modified
 	end
+
+	def set_last_modified_date_collection(collection)
+		last_modified = `git log -1 --format="%ad" -- "#{collection.path}"`
+		last_modified.strip!
+		collection.data["last_modified"] = last_modified
+	end
+
   end
 end
