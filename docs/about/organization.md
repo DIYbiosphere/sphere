@@ -2,9 +2,8 @@
 layout: docs
 permalink: /docs/about/organization/
 title: DIYbiosphere Organization
+summary: In this section we detail the ins and outs of DIYbiosphere as an open organization
 ---
-
-_In this section we detail the ins and outs of DIYbiosphere as an open organization_
 
 The DIYbiosphere is a participatory project to create a database of DIYbio initiatives. The project is managed by the [DIYbiosphere Organization][gh_org] and its [development community][community]. As an open organization, we are able to fluidly organize a large number of contributors while maintaining and striving towards a shared vision for the project.
 

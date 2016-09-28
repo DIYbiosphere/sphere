@@ -82,4 +82,20 @@
 
 .coded {
   background: $fine-gray;
+  color: $warm-gray;
+
+  ul {
+    list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+  }
+
+  li {
+    display: inline-block;
+  }
+}
+
+.coded-block {
+  display: inline;
 }

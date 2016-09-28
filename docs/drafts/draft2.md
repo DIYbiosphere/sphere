@@ -1,8 +1,12 @@
 ---
 layout: docs
-permalink: /draft2/
+permalink: /docs/about/draft2/
 title: Draft
+crumb: about
+summary:
 ---
+
+
 
 As a Manager you may want to subscribe to your initiative's changes. To do this you need to set up an RSS feed of changes
 http://stackoverflow.com/questions/9732779/how-to-watch-only-a-directory-in-a-github-repository
@@ -39,3 +43,6 @@ Explanation [here](http://blog.okfn.org/2013/07/02/git-and-github-for-data/) on 
 {% include_relative whatever.md %}
 {% endcapture %}
 {{ mark | markdownify }}
+
+
+---

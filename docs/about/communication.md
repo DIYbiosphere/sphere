@@ -2,9 +2,8 @@
 layout: docs
 permalink: /docs/about/communication/
 title: Communication
+summary: In this section we lay out the different communication platforms the [development community][community] uses
 ---
-
-_In this section we lay out the different communication platforms the [development community][community] uses._
 
 
 
