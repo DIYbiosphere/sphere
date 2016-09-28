@@ -15,7 +15,7 @@
       window.location = baseUrl + '/database?q='+search;
     });
 
-    $.getJSON("/assets/js/data/database.json").then(resp => {
+    $.getJSON("/data/database.json").then(resp => {
       let database = resp.database;
       let regions = [], countries = [];
       database.forEach(entry => {
@@ -23,7 +23,6 @@
         let $country = $('#country');
         let region = entry.region ? entry.region.trim() : '';
         let country = entry.country ? entry.country.trim() : '';
-        console.log(country);
         if(region && !regions.includes(region)) {
           regions.push(region);
           $region.append(`<option value="${region}">${region}</option>`);
@@ -32,7 +31,6 @@
           countries.push(country);
           $country.append(`<option value="${country}">${country}</option>`);
         }
-        console.log(countries);
       });
     });
 
@@ -64,7 +62,6 @@
       if(type.length > 0) search.type = type;
 
       let params = $.param(search);
-      // console.log(params);
       window.location = `/database?filters=true&${params}`;
 
     });

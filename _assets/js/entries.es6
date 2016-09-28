@@ -28,7 +28,7 @@
 					"name": "title",
 					"data": "title",
 					"render": function(data, type, row) {
-						return '<a class="link selectable" href="'+ baseUrl + row.url +'">'+ data +'</a>';
+            return `<a class="link selectable" href="${row.url}">${data}</a>`;
 					}
 				},
 				{
@@ -78,18 +78,20 @@
 						if(data !== null) {
 							name = data.name || '';
 							if(data.web !== null) {
-								web =
-									'<a class="link selectable" href="'+ baseUrl + data.web +'">' +
-										'<i class="fa fa-link"></i>' +
-									'</a>';
+								web = `
+                  <a class="link selectable" href="${data.web}">
+                    <i class="fa fa-link"></i>
+                  </a>
+                `;
 							}
 							if(data.sphere !== null) {
-								sphere =
-									'<a class="link selectable" href="'+ baseUrl + data.sphere +'">' +
-										'<i class="fa fa-external-link"></i>'
-									'</a>';
+								sphere = `
+                  <a class="link selectable" href="${data.sphere}">
+                    <i class="fa fa-external-link"></i>
+                  </a>
+                `;
 							}
-							return name + ' ' + web + ' ' + sphere;
+							return `${name} ${web} ${sphere}`;
 						} else return '';
 					}
 				},
@@ -140,7 +142,7 @@
 		 *
 		 * Get all database from the generated file and populates the table.
 		*/
-		$.getJSON(baseUrl + 'assets/js/data/database.json')
+		$.getJSON('/data/database.json')
 			.done(function(resp) { // when request succeded...
 				var data = [];
 				var database = resp.database;
@@ -155,7 +157,7 @@
 			})
 			.fail(function(jqxhr, textStatus, error) { // when request failed...
 				console.error('failure getting database...');
-				console.error(textStatus + ', ' + error);
+				console.error(`${textStatus}, ${error}`);
 			});
 
 

@@ -6,16 +6,16 @@
   <meta http-equiv="Content-Language" content="{{site.active_lang}}">
 
   <link rel="icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.rawgit.com/Tipue/Tipue-Search/master/tipuesearch/tipuesearch.css">
-
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css" />
+  
   {% if page.layout != 'landing' %}
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css" />
   {% endif %}
-
-  <!--<link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">-->
+  
   {% css main %}
+  
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
@@ -33,16 +33,9 @@
     ga('send', 'pageview');
   </script>
 
-  <!-- github buttons -->
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
-
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
 
-<!-- algolia places -->
-<script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script>
-
-<!-- Adding leaflet -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/leaflet/1/leaflet.css" />
-<script src="https://cdn.jsdelivr.net/leaflet/1/leaflet.js"></script>
+  <!-- Adding leaflet -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/leaflet/1/leaflet.css" />
 
 </head>
