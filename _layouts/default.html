@@ -7,61 +7,45 @@
     {% include header.html %}
     <div class="main-content row">
       {{content}}
-  </div>
-      {% include footer.html %}
+    </div>
 
-
+    {% include footer.html %}
 
     <!-- used across all pages -->
-    <script src="https://www.google.com/jsapi"></script>
+    <!--<script src="https://www.google.com/jsapi"></script>
     <script type="text/javascript">
         google.load('search', '1', {style: google.loader.themes.MINIMALIST});
         google.setOnLoadCallback(function(){
           new google.search.CustomSearchControl('002058816176939038659:qw61inx0ugu').draw('cse');
         }, true);
-    </script>
+    </script>-->
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script>var baseUrl = $('#baseUrl').text();</script>
+
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearchLite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/leaflet/1/leaflet.js"></script>
+    <!-- Embeded Gitter chat -->
+    <script>((window.gitter = {}).chat = {}).options = { room: 'DIYbiosphere/sphere' };</script>
+    <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+    {% js main %}
+
     {% if page.layout == 'entries' %}
       <script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js" type="text/javascript"></script>
       <script src="https://cdn.datatables.net/buttons/1.1.2/js/dataTables.buttons.min.js" type="text/javascript"></script>
       <script src="https://cdn.datatables.net/buttons/1.1.2/js/buttons.html5.min.js" type="text/javascript"></script>
-      <script src="{{ '/js/entries.js' | prepend: site.baseurl }}" type="text/javascript"></script>
       {% javascript entries %}
     {% endif %}
 
-    {% if page.layout == 'entry' %}
-      <script src="{{ '/js/entry.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+    {% if page.layout == 'docs' %}
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+      {% javascript docs %}
+      {% javascript collapse %}
+      {% javascript activeaccordion %}
     {% endif %}
-
-    <!-- Embeded Gitter chat -->
-    <script>
-      ((window.gitter = {}).chat = {}).options = {
-        room: 'DIYbiosphere/sphere',
-      };
-    </script>
-    <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-
-    <script>
-      $(function() {
-        //initialize tooltips
-        $('[data-toggle="tooltip"]').tooltip();
-      });
-    </script>
-
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
-    <script type="text/javascript">
-      docsearch({
-        apiKey: '3fbbeadab8062263c32927092022ff52',
-        indexName: 'diybio',
-        inputSelector: '#docsearch',
-        debug: false // Set debug to true if you want to inspect the dropdown
-      });
-    </script>
-
-    {% javascript collapse %}
-    {% javascript activeaccordion %}
 
   </body>
 

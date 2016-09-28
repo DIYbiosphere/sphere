@@ -1,7 +1,5 @@
 #!/bin/bash
 set -e # halt script on error
 
-bundle exec jekyll algolia push
 bundle exec jekyll build
-#JEKYLL_ENV=production bundle exec jekyll build
 # bundle exec htmlproofer ./_site --disable-external --allow-hash-href 

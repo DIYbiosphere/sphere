@@ -22,7 +22,6 @@ $monospace: 'Source Code Pro', monospace;
 @import "partials/entry";
 @import "partials/landing";
 
-/* Padding and margins */
 @import "modules/utils";
 @import "modules/clipboard";
 @import "modules/typed-cursor";
@@ -41,17 +40,10 @@ $monospace: 'Source Code Pro', monospace;
 padding-top: $nav-height;
 }
 
-
 .parallax-window {
     background: transparent;
     min-height: 43em;
     padding-top: 15em;
-}
-
-.hero-background {
-  background: url("/assets/images/sphere/header.jpg") no-repeat;
-  background-size: cover;
-  height: 25%;
 }
 
 .input-addon {
