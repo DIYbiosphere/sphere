@@ -2,6 +2,7 @@
 layout: docs
 permalink: /docs/help/tutorials/add-entry/
 title: Adding a New Entry
+summary: In this section
 ---
 
 {% include _notices/warning.html title="Before you begin, you should:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/docs/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/docs/about/copyright/license/)." %}

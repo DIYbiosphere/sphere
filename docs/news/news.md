@@ -2,5 +2,5 @@
 layout: docs
 permalink: /docs/news/
 title: News
-summary:
+summary: In this section
 ---

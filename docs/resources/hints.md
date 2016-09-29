@@ -2,8 +2,8 @@
 layout: docs
 permalink: /docs/resources/hints/
 title: Helpful Hints
+summary: In this section
 ---
-> Draft
 
 Throughout our documentation you may find the following hint boxes. They are meant to be helpful. Here they are explained:
 

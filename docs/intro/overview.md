@@ -2,6 +2,7 @@
 layout: docs
 permalink: /docs/intro/overview/
 title: Overview of the DIYbiosphere
+summary: In this section
 ---
 
 _In this section we give a general overview of the entire project_

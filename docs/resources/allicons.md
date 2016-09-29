@@ -1,7 +1,8 @@
 ---
 layout: docs
-permalink: /allicons/
+permalink: /docs/resources/icons/
 title: SVG Icons Cheatsheet
+summary: In this section
 ---
 
 This is a cheatsheet for showing svg icons in markdown

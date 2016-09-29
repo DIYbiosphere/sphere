@@ -1,5 +1,6 @@
 .hero-box {
   align-content: center;
+
 }
 
 .description-black {
@@ -7,6 +8,18 @@
   color: $default;
   padding: 3em 0;
   text-align: center;
+}
+
+.landing-heading {
+  font-size: 1.6em;
+  padding: 1em 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.description-text {
+  font-style: italic;
+  font-size: 1.3em;
 }
 
 .features {
@@ -77,12 +90,14 @@
 }
 
 .featured-entries {
-  height: 300px;
+  height: 500px;
 }
 
 .coded {
   background: $fine-gray;
   color: $warm-gray;
+  padding-top: 2em;
+  padding-bottom: 2em;
 
   ul {
     list-style-type: none;
@@ -96,6 +111,19 @@
   }
 }
 
-.coded-block {
-  display: inline;
+.coded-box {
+padding: 0 1em;
+vertical-align: top;
+}
+
+.coded-heading {
+  padding-bottom: 2px;
+}
+
+.coded-li {
+  padding-right: 10px;
+}
+
+.sphere-coded {
+  padding-right: 30px;
 }

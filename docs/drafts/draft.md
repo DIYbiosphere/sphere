@@ -2,31 +2,6 @@
 layout: docs
 permalink: /draft/
 
-
-title: Biocurious
-website: http://biocurious.org/
-since: 2010
-
-host:
-  name: gaby
-  web: http://biocurious.org/
-
-type: non-profit
-
-
-address: 845 Stewart Drive
-directions: 2nd floor 10B
-postcode: 94085
-city: Sunnyvale
-state: California
-country: United States
-
-tags:
-  - Lab
-  - open-source
-
-email: info@biocurious.org
-
 ---
 
 

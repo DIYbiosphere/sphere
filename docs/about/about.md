@@ -1,8 +1,6 @@
 ---
 layout: docs
 permalink: /docs/about/
-title: Draft
-summary:
+title: About
+summary: The About Us section explains how the project is managed and developed
 ---
-
-hello thi is the about

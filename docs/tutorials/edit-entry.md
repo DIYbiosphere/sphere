@@ -2,8 +2,8 @@
 layout: docs
 permalink: /docs/help/tutorials/edit-entry/
 title: Editing an Entry
+summary: In this section
 ---
-> Draft
 
 This is the tutorial (7 steps) to edit an entry. To add a new entry go to our [Add an entry] tutorial. Keep a look out for our [helpful hints]!
 

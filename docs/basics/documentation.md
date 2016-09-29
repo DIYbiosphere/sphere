@@ -2,6 +2,7 @@
 layout: docs
 permalink: /docs/basics/documentation/
 title: Basics of the Documentation
+summary: In this section
 ---
 
 The documentation refers to all guides, tutorials, and reference manuals that pertain to the project. These are in plain text files in markdown sytax. In addition, there are several add-ins that make the formatting easier, such as hints, GIFS and expandable tutorials and pop-overs.

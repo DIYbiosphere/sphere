@@ -4,7 +4,7 @@
 ![](https://reposs.herokuapp.com/?path=DIYbiosphere/sphere&color=yellowgreen)
 [![HitCount](https://hitt.herokuapp.com/DIYbiosphere/sphere.svg)](https://github.com/DIYbiosphere/sphere)
 [![Gratipay Team](https://img.shields.io/gratipay/team/diybiosphere.svg?maxAge=2592000)](https://gratipay.com/DIYbiosphere/)
-[![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/sphere.svg)](https://gitter.im/DIYbiosphere/sphere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/sphere.svg)]([![Gitter](https://badges.gitter.im/DIYbiosphere/sphere.dir.svg)](https://gitter.im/DIYbiosphere/sphere.dir?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Slack Status](https://diybiosphere.herokuapp.com/badge.svg)](https://diybiosphere.herokuapp.com)
 
 

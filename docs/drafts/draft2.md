@@ -2,8 +2,6 @@
 layout: docs
 permalink: /docs/about/draft2/
 title: Draft
-crumb: about
-summary:
 ---
 
 

@@ -2,6 +2,7 @@
 layout: docs
 permalink: /docs/help/tutorials/add-entry-teams/
 title: Adding a New Entry for Teams
+summary: In this section
 ---
 > Draft
 

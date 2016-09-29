@@ -2,9 +2,10 @@
 layout: docs
 permalink: /docs/basics/
 title: Basics of the DIYbiosphere project
+summary: In this section we detail how the design
 ---
 
-In this section we detail how the design
+
 
 ---
 

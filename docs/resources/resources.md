@@ -2,5 +2,5 @@
 layout: docs
 permalink: /docs/resources/
 title: Resources
-summary:
+summary: In this section
 ---

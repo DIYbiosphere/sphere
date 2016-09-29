@@ -2,10 +2,8 @@
 layout: docs
 permalink: /docs/resources/glossary/
 title: Glossary of Terms
+summary: In this section we
 ---
-> Draft
-
-In this section we
 
 ## GitHub Terms
 

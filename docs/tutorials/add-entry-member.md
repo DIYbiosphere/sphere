@@ -2,8 +2,8 @@
 layout: docs
 permalink: /docs/help/tutorials/add-entry-member/
 title: Adding a New Entry for Members
+summary: In this section
 ---
-> Draft
 
 This is the tutorial (6 steps) to add a new entry for members. To edit an existing entry go to our [editing tutorial]. Keep a look out for our [helpful hints]!
 

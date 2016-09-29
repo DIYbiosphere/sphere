@@ -2,5 +2,5 @@
 layout: docs
 permalink: /docs/intro/
 title: Introduction
-summary:
+summary: In this section
 ---

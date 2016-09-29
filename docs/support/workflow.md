@@ -2,9 +2,8 @@
 layout: docs
 permalink: /docs/support/workflow/
 title: Workflow Management
+summary: In this section we detail the workflow of how the project is managed, specifically Issues and Pull Requests (PR), collectively refered to here as Tickets
 ---
-
-_In this section we detail the workflow of how the project is managed, specifically Issues and Pull Requests (PR), collectively refered to here as Tickets._
 
 {% include _notices/note.html title="Only members can manage tickets" text="Members of the [development Community][community] have the privilege and the **responsability** to organize tickets to facilitate the collective workflow of the development of the project." %}
 

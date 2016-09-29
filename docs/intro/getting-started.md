@@ -2,6 +2,7 @@
 layout: docs
 permalink: /docs/intro/getting-started/
 title: Getting Started
+summary: In this section
 ---
 
 _This is the kickstart guide to getting familiar with **using** the database, and **contributing** to the project of the DIYbiosphere. For a more general introduction of the project see our [Overview][overview]_
