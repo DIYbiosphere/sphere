@@ -20,7 +20,10 @@ $monospace: 'Source Code Pro', monospace;
 @import "partials/infobox";
 @import "partials/docs";
 @import "partials/entry";
+@import "partials/autocomplete";
+@import "partials/search-bar";
 @import "partials/landing";
+
 
 @import "modules/utils";
 @import "modules/clipboard";
