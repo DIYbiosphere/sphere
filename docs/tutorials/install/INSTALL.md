@@ -1,18 +1,39 @@
 ---
 layout: docs
 title: Installation Instructions
-permalink: /docs/help/tutorials/install/
+permalink: /docs/tutorials/install/
+summary: This section details how to edit locally on your desktop
 ---
-
-_This section details how to edit locally on your desktop._
-
-We recommend you use [GitHub Desktop] as a Git Client; available for MacOS and Windows, and [Atom] as a text editor; available for MacOS, Windows and Linux. See our guides on [using Atom] and [using GitHub Desktop]. All of our tutorials are made for these softwares.
-
-{% include _notices/note.html title="Installation requires a Terminal" text="A terminal is a direct line (command line) with your computer. It's as easy as copy-paste" %}
 
 We recommend you use [GitHub Desktop][github_desktop] as a Git Client; available for MacOS and Windows, and [Atom][atom] as a text editor; available for MacOS, Windows and Linux. See our guides on [using Atom] and [using GitHub Desktop].
 
 
+{% include _notices/tip.html title="Really download GitHub Desktop and Atom" text="All of our tutorials are using these software programs as well as the recommended plugins for Atom." %}
+
+
+{% include tabs.html heading1="MAC" text1="she is an amazing comic" heading2="WINDOWS" text2="she has been harrassed on twitter" heading3="LINUX" text3="nothung hello" %}
+
+<ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#">{% svgicon apple %} MAC</a></li>
+  <li role="presentation"><a href="#">{% svgicon windows %} WINDOWS</a></li>
+  <li role="presentation"><a href="/docs/tutorials/install/platform-linux">{% svgicon linux %} LINUX</a></li>
+</ul>
+
+
+Steps for installation vary according to your operating system, choose yours
+
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">{% svgicon apple %} MAC</a></li>
+  <li role="presentation"><a href="#whatever" aria-controls="whatever" role="tab" data-toggle="tab">{% svgicon windows %} WINDOWS</a></li>
+  <li role="presentation"><a href="#horse" aria-controls="horse" role="tab" data-toggle="tab">{% svgicon linux %} LINUX</a></li>  </ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div role="tabpanel" class="tab-pane active" id="home">This is s a home text</div>
+  <div role="tabpanel" class="tab-pane" id="whatever">hello</div>
+  <div role="tabpanel" class="tab-pane" id="horse">nothing</div>
+ </div>
 
 1. Install [ruby](https://www.ruby-lang.org/en/documentation/installation/) and (MacOS users can skip this step.
 
@@ -20,6 +41,9 @@ We recommend you use [GitHub Desktop][github_desktop] as a Git Client; available
   ```
   gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
   ```
+
+
+
 
 
 3. Install rvm
