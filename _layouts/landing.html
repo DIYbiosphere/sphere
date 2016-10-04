@@ -19,11 +19,13 @@
         </div>
 
       <div class="row text-center">
-        <div class="input-group landing-search center-content">
-          <input id="search" type="text" class="form-control search-input" aria-label="..." placeholder="Search DIYbio initiatives">
-            <div class="input-group-btn">
-              <button class="btn btn-default btn-sliders" type="button" data-toggle="modal" data-target="#search-modal"><i class="fa fa-sliders"></i></button>
-              <button class="btn btn-default btn-search" type="button"><i class="fa fa-search"></i></button>
+        <div class="col-sm-offset-3 col-sm-3">
+          <form id="search-form" method="GET" action="/database/">
+            <div class="input-addon">
+              <i class="fa fa-sliders input-icon-right"></i>
+              <i class="fa fa-search input-icon-left"></i>
+              <input id="search" class="form-control" type="search"
+                placeholder="Search database" autofocus data-algolia-search="true">
             </div>
         </div>
 
@@ -372,6 +374,7 @@
 <!-- Gitter sidecar script -->
     <script>((window.gitter = {}).chat = {}).options = {room: 'DIYbiosphere/sphere.dir'};</script>
     <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+    <script src="http://twitter.github.com/hogan.js/builds/3.0.1/hogan-3.0.1.js"></script>
     {% js main %}
 </div>
 
