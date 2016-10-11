@@ -29,7 +29,7 @@ If you want to make changes locally on your computer, follow the [Installation I
 ---
 
 ## Submitting Issues
-We use [Issues] to keep track of the development of the project.
+We use [Issues] to keep track of the development of the project. See our [Submit an Issue] tutorial for step-by-step instructions.
 
 #### Before Submitting
 Please consider the following before submitting a new issue:
@@ -54,7 +54,7 @@ Share with us a suggestion for a new feature or an enhancement. Please follow th
 - Share examples and references and include links, images, and GIFs.
 
 ### Ask a question
- You can also asks questions in our [Gitter chatroom], in our [Slack channels] or direct message to a member in either platform. You can freely enter the chatroom and you can [request an invite] to our Slack team.
+Make sure that your title has a `?` question mark. You can also asks questions in our [Gitter chatroom], in our [Slack channels] or direct message to a member in either platform. You can freely enter the chatroom and you can [request an invite] to our Slack team.
 
 Make sure to check out our [FAQs] for a list of common questions.
 
@@ -63,14 +63,24 @@ Submit a new issue with the Title: 'Membership request' and in the Comment secti
 
 As a [member] of the [DIYbiosphere organization] in GitHub, you enjoy more access permissions to the project!
 
+
+### Report a broken link
+Didn't find the page you were looking for? If you know how to fix it, please go ahead and do so. If not, then please submit a new issue with the Title 'Broken link'. In the Comment section please:
+
+- note the name of the page you were at before you encountered the 404 Error
+- specify the name of the link you clicked that lead to the 404 page
+- copy and paste the URL of the 404 Error page
+
+
 ## Making Commits
 Good commits speed the reviewing process and facilitate tracking past changes. If you are making many changes that are unrelated, or your commit title has the word 'and', split the commits! Please follow these guidelines for your commit messages:
 
 1. **Title**: Describe the change and why it was necessary. Use imperative (like 'Add' not 'Added'), Capitalize first letter, don't end with period, and limit to 50 characters.
 2. **Comments**: Describe in further detail _why_ the change was made and _how_. If addressing an Issue link to it!
 
+
 ## Submitting Pull Requests
-When you are ready to merge your work, submit a Pull Request (PR) for review :wink:
+When you are ready to merge your work, submit a Pull Request (PR) for review of our fork or branch :wink: See our [submitting a pull request] tutorial for step-by-step instructions.
 
 #### Before you submit a Pull Request
 Please consider the following before submitting a new PR:
@@ -87,26 +97,26 @@ If your PR does not pass the Travis build DO NOT merge! Check either in Travis o
 [Copyright Terms]: /docs/copyright/license/
 [Issues]: https://github.com/DIYbiosphere/sphere/issues
 [Pull Requests]: https://github.com/DIYbiosphere/sphere/pulls
-[Getting Started]: /docs/help/getting-started
-[Eli5 Guide]: /docs/help/eli5-guide/
-[tutorials]: /docs/help/tutorials/
-[adding a new entry]: /docs/help/tutorials/add-entry/
-[editing an entry]: /docs/help/tutorials/edit-entry/
-[Github issues]: https://guides.github.com/features/issues/
+[Getting Started]: /docs/introduction/getting-started
+[Eli5 Guide]: /docs/support/eli5-guide/
+[tutorials]: /docs/tutorials/
+[adding a new entry]: /docs/tutorials/add-entry/
+[editing an entry]: /docs/tutorials/edit-entry/
+[Installation Instructions]: /docs/tutorials/install/
 [Issues tab]: https://github.com/DIYbiosphere/sphere/issues
 [project’s issues]: https://github.com/DIYbiosphere/sphere/issues
 [coders]: https://github.com/orgs/DIYbiosphere/teams/coders
 [Gitter]: https://gitter.im/DIYbiosphere/sphere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
 [Slack]: https://diybiosphere.slack.com/
 [request an invite]: https://diybiosphere.herokuapp.com/
-[FAQs]: /docs/help/faq/
+[FAQs]: /docs/support/faq/
 [Teams]: /docs/about/community/#Teams
 [member]: /docs/about/community/#member
-[DIYbiosphere organization]: /docs/about/community/
+[DIYbiosphere organization]: /docs/about/organization/
 [permission levels]: /docs/about/community/#permission-levels
-[duplicates]: /docs/help/workflow/#removing-duplicates
-[vote]: /docs/help/workflow/#adding-reactions
-[Classify]: /docs/help/workflow/
-[labels]: /docs/help/workflow/#labels
-[milestones]: /docs/help/workflow/#milestones
-[boards]: /docs/help/workflow/#boards
+[duplicates]: /docs/support/workflow/#removing-duplicates
+[vote]: /docs/support/workflow/#adding-reactions
+[Classify]: /docs/support/workflow/
+[labels]: /docs/support/workflow/#labels
+[milestones]: /docs/support/workflow/#milestones
+[boards]: /docs/support/workflow/#boards

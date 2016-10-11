@@ -1,14 +1,12 @@
 ---
 layout: docs
-permalink: /docs/help/tutorials/add-entry-teams/
-title: Adding a New Entry for Teams
-summary: In this section
+permalink: /docs/tutorials/add-entry/teams/
+tab: teams
+title: Adding a New Entry
+summary: Tutorial for adding a new entry for team members (4 steps)
 ---
-> Draft
 
-This is the tutorial (4 steps) to add a new entry for team members. To edit an existing entry go to our [editing tutorial]. Keep a look out for our [helpful hints]!
-
-Tutorial for non-members is [7 steps] and for members is [6 steps]. Learn more about our [development community]
+{% include_relative add-tabs-nav.md %}
 
 
 1. In your [master branch] of the repository, open the _database folder and choose a class folder for your new entry and **Create new file** named 'EntryName-ZZ.md'. Learn more about our [classification of entries] and [naming convention].

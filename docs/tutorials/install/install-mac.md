@@ -1,12 +1,14 @@
 ---
 layout: docs
-title: Install for Mac
-permalink: /docs/tutorials/install-mac/
+title: Install to Work Locally
+permalink: /docs/tutorials/install/mac/
+tab: mac
 summary: This section details how to edit locally on your desktop
 ---
 
+{% include_relative install-tabs-nav.md %}
 
-### Mac users
+
 1. Install all the command line tools
 	- Copy the following command line
 	- Paste in your terminal

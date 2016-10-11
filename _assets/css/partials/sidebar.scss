@@ -50,3 +50,11 @@
 .panel-title > a:focus  {
     text-decoration:none;
 }
+
+.panel-body {
+  ul {
+    padding-left: 0;
+    margin-left: 0;
+    list-style-type: none;
+  }
+}

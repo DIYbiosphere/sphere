@@ -1,11 +1,10 @@
 ---
 layout: docs
-permalink: /docs/resources/eli5/
+permalink: /docs/support/eli5/
 title: Explain Like I'm 5 (ELI5) Guide
-summary: In this section
+summary: In this section you find a super-simple/101/beginner/crash-course/for-dummies guide to help out the utterly confused and introduce them to the basic terms and concepts to work with the DIYbiosphere project.
 ---
 
-This is a super-simple/101/beginner/crash-course/for-dummies guide to help out the utterly confused and introduce them to the basic terms and concepts to work with the DIYbiosphere project.
 
 ### Explaining GitHub
 

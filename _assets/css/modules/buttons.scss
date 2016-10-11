@@ -122,3 +122,19 @@ input[type="search"] {
   border: 1px solid black;
   border-radius: 0;
 }
+
+.nav-tabs {
+  margin-bottom: 1em;
+  text-decoration: none;
+  color: $medium-gray;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.current-tab {
+  a {
+  color: black !important;
+  }
+}

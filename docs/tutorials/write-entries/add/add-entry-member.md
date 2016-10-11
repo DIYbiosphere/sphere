@@ -1,9 +1,12 @@
 ---
 layout: docs
-permalink: /docs/help/tutorials/add-entry-member/
-title: Adding a New Entry for Members
-summary: In this section
+permalink: /docs/tutorials/add-entry/members/
+tab: members
+title: Adding a New Entry
+summary: Tutorial for adding a new entry for members of the DIYbiosphere organization (6 steps)
 ---
+
+{% include_relative add-tabs-nav.md %}
 
 This is the tutorial (6 steps) to add a new entry for members. To edit an existing entry go to our [editing tutorial]. Keep a look out for our [helpful hints]!
 

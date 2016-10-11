@@ -32,6 +32,16 @@ article {
     background: url('/assets/img/external-link.png') no-repeat 0 0;
     background-size: 100%;
   }
+
+  a[href^="/#"]:after {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    content: "";
+    background: url('/assets/img/external-link.png') no-repeat 0 0;
+    background-size: 100%;
+  }
 }
 
 blockquote {

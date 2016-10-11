@@ -2,13 +2,12 @@
 layout: docs
 title: Contributor License Agreement
 permalink: /docs/copyright/cla/
+summary: In this section we explain in a more precise legal language the contributor terms for the project; the rights waived and granted from contirbutions
 ---
 
-Thank You for Your interest in making a Contribution to the DIYbiosphere Project. :purple_heart:
+The purpose of a Contributor License Agreement (CLA) is to state the "contractual" agreement of the Intellectual Property Rights (IPR) assigned to the Contributions made to an open-source project. This CLA follows the copyright terms stated in our [License][license].
 
-The purpose of a Contributor License Agreement (CLA) is to state the "contractual" agreement of the Intellectual Property Rights (IPR) assigned to the Contributions made to an open-source project.
-
-{% include _notices/warning.html title="This CLA is <b>not</b> a legally binding document" text="Instead, it’s purpose is to clarify the IPR of the Contributions You choose to Submit to Us. To fully understand these issues You should read in full the legal codes of our licenses: [MIT](/about/copyright/mit/) license and [CC0](/about/copyright/cc0/) public domain dedication" %}
+{% include _notices/warning.html title="This CLA is not a legally binding document" text="Instead, it’s purpose is to clarify the IPR of the Contributions You choose to Submit to Us. To fully understand these issues You should read in full the legal codes of our licenses: [MIT][mit] license and [CC0][cc0] public domain dedication" %}
 
 **By Contributing to Our Project, You accept and agree to the following terms and conditions for Your present and future Contributions Submitted to Us.**
 
@@ -26,10 +25,6 @@ The purpose of a Contributor License Agreement (CLA) is to state the "contractua
 
 1. The rights that You waive and/or the rights that You grant to Us are effective on the date You first Submitted a Contribution to Us. Any and all Contributions Submitted to Us we will make available under the public domain if they pertain to the Database, and under the MIT license if they pertain to the Software.
 
-1. Please note that we have no obligation to accept or include Your Contributions to the Project, and that we may remove Your Contributions at any time if we suspect it might directly infringe on a third-party’s IPR, as well if Your Contributions do not comply with our [Code of Conduct].
+1. Please note that we have no obligation to accept or include Your Contributions to the Project, and that we may remove Your Contributions at any time if we suspect it might directly infringe on a third-party’s IPR, as well if Your Contributions do not comply with our [Code of Conduct][coc].
 
-{% include _notices/tldr.html title="I freely share my contributions" text=" I concede the rights of my Contributions under a free license and those pertaining to the database to the public domain" %}
-
-
-[Licenses]: /docs/about/copyright/license/
-[Code of Conduct]: /docs/about/coc/
+{% include _notices/tldr.html title="I freely share my contributions" text=" I concede the rights of my Contributions to the Software under a free license [(MIT)][mit] and those pertaining to the database to the public domain [(CC0)][cc0]" %}
