@@ -1,18 +1,13 @@
 ---
 layout: docs
-permalink: /draft2/
+permalink: /docs/about/draft2/
 title: Draft
 ---
 
-As a Manager you may want to subscribe to your initiative's changes. To do this you need to set up an RSS feed of changes
-http://stackoverflow.com/questions/9732779/how-to-watch-only-a-directory-in-a-github-repository
-http://stackoverflow.com/questions/7353538/setting-up-an-github-commit-rss-feed
 
 
-Why use Github?
-Explanation [here](http://blog.okfn.org/2013/07/02/git-and-github-for-data/) on a case of git and github for data by the okfn.
 
-{% include tabs.html heading1=" MAC" text1="she is an amazing comic" heading2="WINDOWS" text2="she has been harrassed on twitter" heading3="LINUX" text3="she stars in this movie as a subway worker"%}
+{% include tabs.html heading1="MAC" text1="she is an amazing comic" heading2="WINDOWS" text2="she has been harrassed on twitter" heading3="LINUX" text3="she stars in this movie as a subway worker" %}
 
 
 {% include_relative whatever.md %}
@@ -35,7 +30,8 @@ Explanation [here](http://blog.okfn.org/2013/07/02/git-and-github-for-data/) on 
 </div>
 
 
-{% capture mark %}
-{% include_relative whatever.md %}
-{% endcapture %}
-{{ mark | markdownify }}
+Why use Github?
+Explanation [here](http://blog.okfn.org/2013/07/02/git-and-github-for-data/) on a case of git and github for data by the okfn.
+
+
+---

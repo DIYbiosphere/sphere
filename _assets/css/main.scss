@@ -22,7 +22,8 @@ $monospace: 'Source Code Pro', monospace;
 @import "partials/entry";
 @import "partials/autocomplete";
 @import "partials/search-bar";
-
+@import "partials/landing";
+@import "partials/404";
 
 @import "modules/utils";
 @import "modules/clipboard";
@@ -32,6 +33,7 @@ $monospace: 'Source Code Pro', monospace;
 @import "modules/brands-colors";
 @import "modules/socials";
 @import "modules/world-map";
+@import "modules/carousel";
 
 
 /**

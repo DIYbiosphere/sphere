@@ -2,6 +2,7 @@
 layout: docs
 permalink: /docs/basics/design/
 title: Basics of the Design
+summary: In this section
 ---
 
 

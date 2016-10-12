@@ -1,7 +1,7 @@
 .navbar {
   background-color: $default;
   font-weight: 700;
-  font-size: 1.3em;
+  font-size: 1.2em;
   border-bottom: $primary solid 3px;
   height: $nav-height;
 
@@ -39,13 +39,12 @@
 }
 
 .navbar .navbar-nav li a .fa-chevron-down {
-  color: $warm-gray;
   font-size: 12px;
 }
 
 
 .logo {
-  max-height: 70px;
+  max-height: 60px;
   padding-top: 5px;
   vertical-align: middle;
   line-height: 90;

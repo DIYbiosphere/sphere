@@ -2,9 +2,8 @@
 layout: docs
 permalink: /docs/about/community/
 title: Development Community
+summary: In this section we explain the composition of our contributing community and the roles and privileges of members of the development community
 ---
-
-_In this section we explain the composition of our contributing community and the development community_
 
 Any, and all users who contribute to the project are considered _contributors_. The _development community_ refers to members of the [DIYbiosphere organization][gh_org] in GitHub. [Members][members] have greater access permissions to the project and can be part of [Teams][teams] who are key members with distict roles in the development and enjoy greater access privileges. Submit an issue to [request membership][join] and join us!
 
@@ -34,7 +33,7 @@ All [Members][gh_members] of the organization have _Write_ permissions. In addit
 - Have Issues and PR assigned to them
 - Edit and delete anyone's comments
 
-To edit, members have to _commit_ changes to the [editable branch][editable], submit a pull request, merge it themselves or wait for feedback from the community. See the tutorials for [adding][add-member] and [editing][editing-member] an entry for members.
+To edit, members have to _commit_ changes to the [editable branch][gh_editable], submit a pull request, merge it themselves or wait for feedback from the community. See the tutorials for [adding][add-members] and [editing][edit-members] an entry for members.
 
 ### Teams
 Members can join [Teams][gh_teams] which have specific functions and permissions. As a team member you have **direct commit** permissions to the master branch, no need for pull requests. Each team has a Team Maintainer who can add members to the team.
@@ -44,7 +43,7 @@ To edit, teams have to only commit changes. See tutorials to [add][add-teams] an
 **The teams in the DIYbiosphere organization are:**
 
 #### Managers
-Users in the [Managers Team][gh_managers] are all those responsable for the entry of their own initiative.  Managers should also join the _Collection Team_ their entry belongs to: [**Projects Team**], [**Startups Team**], [**Labs Team**], [**Incubators Team**], [**Groups Team**], [**Networks Team**], [**Events Team**], and [**Others Team**].
+Users in the [Managers Team][gh_managers] are all those responsable for the entry of their own initiative.  Managers should also join the _Collection Team_ their entry belongs to: [**Projects Team**][gh_projects], [**Startups Team**][gh_startups], [**Labs Team**][gh_labs], [**Incubators Team**][gh_incubators], [**Groups Team**][gh_groups], [**Networks Team**][gh_networks], [**Events Team**][gh_events], and [**Others Team**][gh_others].
 
 **Every entry should have a manager!!**
 
@@ -69,4 +68,7 @@ Anyone can become a Director. Directors are expected to have the following chara
 - A good grasp of the DIYbiosphere project
 - A solid track record of being constructive and helpful
 - Significant contributions to the project’s goal, in any form
-- Willingness to dedicate some time to improving DIYbiosphere.
+- Willingness to dedicate some time to improving DIYbiosphere
+
+
+{% include _notices/tldr.html title="Members have more writing privileges and Teams define roles and topics" text="Anyone can contribute, but by joining as a Member and Team member, you can get more involved in the development of the project and you require less steps to contribute. Ask to [join][join]!" %}

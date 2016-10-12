@@ -16,8 +16,24 @@ html, body {
 
 }
 
+.center-content {
+  max-width: 1080px;
+margin: 0 auto !important;
+float: none !important;
+}
+
 article {
   a[href^="http"]:after {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    content: "";
+    background: url('/assets/img/external-link.png') no-repeat 0 0;
+    background-size: 100%;
+  }
+
+  a[href^="/#"]:after {
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -73,8 +89,8 @@ h2:before,
 h3:before {
   display: block;
   content: "";
-  margin: -113px 0 0;
-  height: 113px;
+  margin: -200px 0 0;
+  height: 200px;
 }
 
 .img-thumb {

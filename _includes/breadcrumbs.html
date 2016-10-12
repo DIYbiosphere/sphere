@@ -1,6 +1,18 @@
 <div>
  <ul class="crumbs">
-   <li><a href="#">{{ page.title }}</a></li>
+     {% assign crumbs = page.url | split: '/' %}
+     {% for crumb in crumbs offset:1 %}
+       <li {% if forloop.last %}class="active"{% endif %}>
+         {% unless forloop.last %}
+           <a href="/{% for crumb in crumbs offset:1 limit:forloop.index %}{{crumb}}/{% endfor %}">
+             {{ crumb | capitalize }}
+           </a> /
+         {% else %}
+           {{ crumb | capitalize }}
+         {% endunless %}
+       </li>
+     {% endfor %}
+
    <li class="commits"><a href="{{site.github.repository_url}}/blob/master/{{page.path}}" target="_blank">
      <i class="fa fa-pencil"></i> Edit this page</a></li>
   </ul>
@@ -9,6 +21,6 @@
   <div>
     <ul>
       <li> {% include reading-time.html %} </li>
-      <li class="commits">Lastest Commit: {{ page.last_modified | date_to_string }} </li>
+      <li class="commits">Latest commit: {{ page.last_modified | date_to_string }} </li>
      </ul>
   </div>

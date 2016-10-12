@@ -2,13 +2,12 @@
 layout: docs
 title: Code of Conduct
 permalink: /docs/about/coc/
+summary: In this section we delineate a common understanding of what constitutes a welcoming and enriching working environment
 ---
-
-_The purpose of the Code of Conduct is to delineate a common understanding of what constitutes a welcoming and enriching working environment_
 
 This Code of Conduct (CoC)\* applies to project spaces and public spaces when an individual is representing the project or its community, online and offline.
 
-As contributors of this project, as part of keeping to [Our Core Values][values], we are committed to having a welcoming and fun environment for all people to contribute, and we pledge to value them as human beings and foster an atmosphere of kindness, cooperation, and understanding. We want to sustain a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion or sexual identity and orientation.
+As as part of keeping to [Our Values][values], we are committed to having a welcoming environment for all people to contribute, and we pledge to value them as human beings and foster an atmosphere of kindness, cooperation, and understanding. We want to sustain a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion or sexual identity and orientation.
 
 Unacceptable behavior includes, but is not limited to:
 
@@ -32,7 +31,7 @@ Address the wrongdoer, sharing your feelings in response to their behavior and h
 
 Unacceptable material or language may be directly removed or rejected by members of [development community][community].
 
-#### **Reporting**
+#### **Report it**
 Contact a [project director][gh_directors]\*\* if you do not feel comfortable addressing the wrongdoer. Contributors with unacceptable behavior ­­­— be it inappropriate, threatening, offensive or harmful — shall be banned temporarily or permanently. Project directors are obliged to maintain the confidentiality of the incident's reporter, and commited to fairly and consistently reviewing all reports and applying these principles to the project, those who don't may be suspended or removed as directors.
 
 {% include _notices/tldr.html title="Be respectful!!" text="Don't be gross or rude to others; offenders will be &quot;prosecuted&quot;. Report offenses to a [project director][gh_directors]**" %}
@@ -41,7 +40,4 @@ Contact a [project director][gh_directors]\*\* if you do not feel comfortable ad
 \* Based on the [Contributor Covenant Code of Conduct v1.4.0][1]. <br>
 \*\* If you are not a member of the DIYbiosphere organization, then you may report offenses to @sabgaby
 
-
-
 [1]: http://contributor-covenant.org/version/1/4/
-https://adainitiative.org/2014/07/23/handling-harassment-incidents-swiftly-and-safely/

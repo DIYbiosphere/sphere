@@ -1,13 +1,11 @@
 
 <div role="navigation">
   <div class="sidenav-wrapper">
-    <h4> DOCUMENTATION </h4>
-
-
-    <div>
-    <form>
-      <input id="docsearch" type="search" class="docsearch search-field" name="docsearch" placeholder="Search Documentation"/>
-    </form>
+  <div class="input-group docsearch">
+    <input id="docsearch" type="search" name="docsearch" class="form-control search-input" aria-label="..." placeholder="Search Documentation">
+    <div class="input-group-btn">
+      <button class="btn btn-default btn-search" type="button"><i class="fa fa-search"></i></button>
+    </div>
   </div>
 
 
@@ -26,17 +24,28 @@
       <div class="panel">
           <div class="panel-heading" role="tab" id="introH">
                <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#introP" aria-expanded="false" aria-controls="introP">{% svgicon fa-road %}
+                <a data-toggle="collapse" data-parent="#accordion" href="#introP" aria-expanded="false" aria-controls="introP">
+                  {% svgicon fa-road %}
                 INTRODUCTION</a>
               </h4>
 
           </div>
           <div id="introP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="introH">
               <div class="panel-body">
-                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
-                Getting Started</a><br>
-                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
-                Overview</a>
+                <ul>
+                  <li>
+                    <a href="{{ '/docs/introduction/welcome/' | prepend: site.baseurl }}">
+                    Welcome!</a>
+                  </li>
+                  <li>
+                    <a href="{{ '/docs/introduction/overview/' | prepend: site.baseurl }}">
+                    Overview</a>
+                  </li>
+                  <li>
+                    <a href="{{ '/docs/introduction/getting-started/' | prepend: site.baseurl }}">
+                    Getting Started</a>
+                  </li>
+                </ul>
               </div>
           </div>
       </div>
@@ -44,22 +53,31 @@
       <div class="panel">
           <div class="panel-heading" role="tab" id="aboutH">
                <h4 class="panel-title">
-                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#aboutP" aria-expanded="false" aria-controls="aboutP">{% svgicon fa-info-circle %}
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#aboutP" aria-expanded="false" aria-controls="aboutP">
+                  {% svgicon fa-info-circle %}
                 ABOUT US</a></h4>
           </div>
 
           <div id="aboutP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="aboutH">
               <div class="panel-body">
-                <a href="{{ '/docs/about/organization/' | prepend: site.baseurl }}">
-                Organization</a><br>
-                <a href="{{ '/docs/about/community/' | prepend: site.baseurl }}">
-                Community</a><br>
-                <a href="{{ '/docs/about/partners/' | prepend: site.baseurl }}">
-                Partners</a><br>
-                <a href="{{ '/docs/about/coc/' | prepend: site.baseurl }}">
-                Code of Conduct</a><br>
-                <a href="{{ '/docs/about/communication/' | prepend: site.baseurl }}">
-                Communication</a>
+                <ul>
+                  <li>
+                    <a href="{{ '/docs/about/organization/' | prepend: site.baseurl }}">
+                    Organization</a>
+                  </li>
+                  <li>
+                    <a href="{{ '/docs/about/community/' | prepend: site.baseurl }}">
+                    Community</a>
+                  </li>
+                  <li>
+                    <a href="{{ '/docs/about/coc/' | prepend: site.baseurl }}">
+                    Code of Conduct</a>
+                  </li>
+                  <li>
+                    <a href="{{ '/docs/about/communication/' | prepend: site.baseurl }}">
+                    Communication</a>
+                  </li>
+              </ul>
               </div>
             </div>
         </div>
@@ -67,16 +85,31 @@
       <div class="panel">
             <div class="panel-heading" role="tab" id="copyrightH">
                <h4 class="panel-title">
-                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#copyrightP" aria-expanded="false" aria-controls="copyrightP">{% svgicon fa-copyright %}
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#copyrightP" aria-expanded="false" aria-controls="copyrightP">
+                  {% svgicon fa-copyright %}
                 COPYRIGHT</a></h4>
             </div>
 
             <div id="copyrightP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="copyrightH">
               <div class="panel-body">
-                <a href="{{ '/docs/copyright/license/' | prepend: site.baseurl }}">
-                License Terms</a><br>
-                <a href="{{ '/docs/copyright/cla/' | prepend: site.baseurl }}">
-                Contributor Agreement</a>
+                <ul>
+                  <li>
+                    <a href="{{ '/docs/copyright/license/' | prepend: site.baseurl }}">
+                    Copyright Terms</a>
+                  </li>
+                  <li>
+                    <a href="{{ '/docs/copyright/cla/' | prepend: site.baseurl }}">
+                    Contributor Agreement</a>
+                  </li>
+                  <li>
+                    <a href="{{ '/docs/copyright/mit/' | prepend: site.baseurl }}">
+                    MIT License</a>
+                  </li>
+                  <li>
+                    <a href="{{ '/docs/copyright/cc0/' | prepend: site.baseurl }}">
+                    CC0 Dedication</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -84,20 +117,31 @@
       <div class="panel">
         <div class="panel-heading" role="tab" id="basicsH">
           <h4 class="panel-title">
-          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#basicsP" aria-expanded="false" aria-controls="basicsP">{% svgicon fa-cubes %}
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#basicsP" aria-expanded="false" aria-controls="basicsP">
+            {% svgicon fa-cubes %}
           THE BASICS</a></h4>
 
           </div>
           <div id="basicsP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="basicsH">
               <div class="panel-body">
-                <a href="{{ '/docs/basics/database/' | prepend: site.baseurl }}">
-                Database</a><br>
-                <a href="{{ '/docs/basics/development/' | prepend: site.baseurl }}">
-                Development</a><br>
-                <a href="{{ '/docs/basics/documentation/' | prepend: site.baseurl }}">
-                Documentation</a><br>
-                <a href="{{ '/docs/basics/design/' | prepend: site.baseurl }}">
-                Design</a><br>
+                <ul>
+                  <li>
+                    <a href="{{ '/docs/basics/database/' | prepend: site.baseurl }}">
+                    Database</a>
+                  </li>
+                  <li>
+                    <a href="{{ '/docs/basics/development/' | prepend: site.baseurl }}">
+                    Development</a>
+                  </li>
+                  <li>
+                    <a href="{{ '/docs/basics/documentation/' | prepend: site.baseurl }}">
+                    Documentation</a>
+                  </li>
+                  <li>
+                    <a href="{{ '/docs/basics/design/' | prepend: site.baseurl }}">
+                    Design</a>
+                  </li>
+                </ul>
               </div>
           </div>
       </div>
@@ -105,7 +149,8 @@
       <div class="panel">
             <div class="panel-heading" role="tab" id="supportH">
                <h4 class="panel-title">
-                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#supportP" aria-expanded="false" aria-controls="supportP">{% svgicon fa-life-ring %}
+                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#supportP" aria-expanded="false" aria-controls="supportP">
+                   {% svgicon fa-life-ring %}
                    SUPPORT
                  </a>
                </h4>
@@ -113,14 +158,30 @@
 
               <div id="supportP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="supportH">
                 <div class="panel-body">
-                  <a href="{{ '/docs/support/contributing/' | prepend: site.baseurl }}">
-                  Contributing Guide</a><br>
-                  <a href="{{ '/docs/support/workflow/' | prepend: site.baseurl }}">
-                  Workflow</a><br>
-                  <a href="{{ '/docs/support/faq/' | prepend: site.baseurl }}">
-                  FAQ</a><br>
-                  <a href="{{ '/docs/support/help/' | prepend: site.baseurl }}">
-                  Getting Help</a><br>
+                  <ul>
+                    <li>
+                      <a href="{{ '/docs/support/contributing/' | prepend: site.baseurl }}">
+                      Contributing Guide</a>
+                    </li>
+                    <li>
+                      <a href="{{ '/docs/support/workflow/' | prepend: site.baseurl }}">
+                      Workflow</a>
+                    </li>
+
+                    <li>
+                      <a href="{{ '/docs/support/eli5/' | prepend: site.baseurl }}">
+                      ELI5 Guide</a>
+                    </li>
+
+                    <li>
+                      <a href="{{ '/docs/support/faq/' | prepend: site.baseurl }}">
+                      FAQ</a>
+                    </li>
+                    <li>
+                      <a href="{{ '/docs/support/help/' | prepend: site.baseurl }}">
+                      Getting Help</a>
+                    </li>
+                  </ul>
                </div>
               </div>
             </div>
@@ -128,7 +189,8 @@
       <div class="panel">
         <div class="panel-heading" role="tab" id="tutorialsH">
          <h4 class="panel-title">
-           <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#tutorialsP" aria-expanded="false" aria-controls="tutorialsP">{% svgicon fa-book %}
+           <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#tutorialsP" aria-expanded="false" aria-controls="tutorialsP">
+             {% svgicon fa-book %}
              Tutorials
            </a>
          </h4>
@@ -136,15 +198,32 @@
 
         <div id="tutorialsP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tutorialsH">
           <div class="panel-body">
-            <a href="{{ '/docs/tutorials/writing-entries/' | prepend: site.baseurl }}">
-            How to Write for the Database</a><br>
-            <a href="{{ '/docs/tutorials/atom/' | prepend: site.baseurl }}">
-            How to Use Atom</a><br>
-            <a href="{{ '/docs/tutorials/github/' | prepend: site.baseurl }}">
-            How to Use GitHub</a><br>
-            <a href="{{ '/docs/tutorials/github-desktop/' | prepend: site.baseurl }}">
-            How to Use GitHub Desktop
-            </a><br>
+            <ul>
+              <li>
+                <a href="{{ '/docs/tutorials/writing-entries/' | prepend: site.baseurl }}">
+                Writing Entries</a>
+              </li>
+              <li>
+                <a href="{{ '/docs/tutorials/atom/' | prepend: site.baseurl }}">
+                Using Atom</a>
+              </li>
+              <li>
+                <a href="{{ '/docs/tutorials/github/' | prepend: site.baseurl }}">
+                Using GitHub</a>
+              </li>
+              <li>
+                <a href="{{ '/docs/tutorials/github-desktop/' | prepend: site.baseurl }}">
+                Installation
+                </a>
+              </li>
+              <li>
+
+              </li>
+            </ul>
+
+
+
+
          </div>
         </div>
       </div>
@@ -152,7 +231,8 @@
       <div class="panel">
           <div class="panel-heading" role="tab" id="resourcesH">
                <h4 class="panel-title">
-          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#resourcesP" aria-expanded="false" aria-controls="resourcesH">{% svgicon fa-thumb-tack %}
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#resourcesP" aria-expanded="false" aria-controls="resourcesH">
+            {% svgicon fa-thumb-tack %}
             RESOURCES
           </a>
         </h4>
@@ -160,16 +240,14 @@
           </div>
           <div id="resourcesP" class="panel-collapse collapse" role="tabpanel" aria-labelledby="resourcesH">
               <div class="panel-body">
-                <a href="{{ '/docs/resources/eli5/' | prepend: site.baseurl }}">
-                ELI5 Guide</a><br>
                 <a href="{{ '/docs/resources/glossary/' | prepend: site.baseurl }}">
                 Sphere Glossary</a><br>
                 <a href="{{ '/docs/resources/getting-started/' | prepend: site.baseurl }}">
-                Hints</a><br>
+                Type of Hints</a><br>
                 <a href="{{ '/docs/resources/markdown/' | prepend: site.baseurl }}">
-                Markdown Writing Cheatsheet</a><br>
+                Markdown Syntax</a><br>
                 <a href="{{ '/docs/resources/liquid/' | prepend: site.baseurl }}">
-                Jekyll Writing Cheatsheet</a><br>
+                Jekyll Syntax</a><br>
               </div>
           </div>
       </div>
@@ -177,7 +255,8 @@
       <div class="panel">
           <div class="panel-heading" role="tab" id="headingThree">
                <h4 class="panel-title">
-          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">{% svgicon fa-bullhorn %}
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            {% svgicon fa-bullhorn %}
             NEWS
           </a>
         </h4>
@@ -185,14 +264,12 @@
           </div>
           <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="panel-body">
-                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
-                ELI5 Guide</a><br>
-                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
-                Glossary</a><br>
-                <a href="{{ '/docs/intro/getting-started/' | prepend: site.baseurl }}">
-                Hints</a><br>
-                <a href="{{ '/docs/intro/overview/' | prepend: site.baseurl }}">
-                Markdown Cheatsheet</a><br>
+                <a href="{{ '/docs/news/blog/' | prepend: site.baseurl }}">
+                Blog</a><br>
+                <a href="{{ '/docs/news/roadmap/' | prepend: site.baseurl }}">
+                Roadmap</a><br>
+                <a href="{{ '/docs/news/changelog/' | prepend: site.baseurl }}">
+                Changelog</a><br>
               </div>
           </div>
       </div>

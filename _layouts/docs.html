@@ -2,19 +2,22 @@
 layout: default
 ---
 <div class="docs-content">
-    <div class="col-sm-9 docs-text">
+    <div class="docs-text container-fluid">
       <div class="breadcrumbs">
         {% include breadcrumbs.html %}
       </div>
       <article>
       <div>
           <h1>{{ page.title }}</h1>
+          <div class="summary"> {{ page.summary }} </div>
         {{content}}
       </div>
     </article>
 
   </div>
-    <div class="side-nav col-sm-3">
+  <aside>
+    <div class="side-nav">
       {% include sidebar.html %}
     </div>
+  </aside>
   </div>

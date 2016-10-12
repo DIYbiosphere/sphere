@@ -11,16 +11,15 @@
     </div>
 
     <div class="parallax-window" data-parallax="scroll" data-image-src="/assets/img/header.jpg">
-      <div class="row pad-btm">
-        <div class="col-sm-offset-3 col-sm-6">
-          <h3 class="text-center">
-            The <b>DIYbiosphere</b> is a participatory project to create an open database
-            of Do-it-Yourself Biology initiatives from all over the world.
-          </h3>
+      <div class="center-content hero-box">
+        <div class="row pad-btm">
+            <h3 class="text-center hero-heading">
+              A database of Do-It-Yourself Biology (DIYbio) initiatives <br> from all over the world
+            </h3>
         </div>
-      </div>
+
       <div class="row text-center">
-        <div class="col-sm-offset-3 col-sm-3">
+        <div >
           <form id="search-form" method="GET" action="/database/">
             <div class="input-addon">
               <i class="fa fa-sliders input-icon-right"></i>
@@ -28,33 +27,327 @@
               <input id="search" class="form-control" type="search"
                 placeholder="Search database" autofocus data-algolia-search="true">
             </div>
-          </form>
-          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#search-modal">
-            Show more filters
-          </button>
         </div>
-        <div class="col-sm-1">
-          <h3 style="color:black; margin-top:0.2em; font-weight:700;">OR</h3>
-        </div>
-        <div class="col-sm-3 text-left">
-          <a class="btn btn-dark" href="{{ '/help/tutorials/add-entry/' | prepend: site.baseurl }}"
-            style="text-transform: none" target="_blank">
-            <i class="fa fa-plus"></i>
-            Add DIYbio initiative
-          </a>
+
+
+
+        <h4 style="color:black; margin-top:0.2em; font-weight:700;">OR</h4>
+
+          <div class="center-content center-block">
+            <a class="btn btn-dark" href="{{ '/docs/tutorials/add-entry/' | prepend: site.baseurl }}"
+              style="text-transform: none" target="_blank">
+              <i class="fa fa-plus"></i>
+              Add DIYbio initiative
+            </a>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="container text-center">
-      <h3 class="text-strong">Discover initiatives in <span id="blinking"></span></h3>
-      <p class="text-strong">(select a region)</p>
-
-      <div class="row">
-        {% include world-map.html %}
+    <div class="description-black">
+      <div class="center-content">
+      <div class="landing-heading"> The DIYbiosphere is a Participatory Project!</div>
+      <p class="description-text"> Anyone can add and edit entries to the database <br>
+      and participate in the development of the project </p>
       </div>
-
     </div>
+
+    <div class="features row">
+      <div class="center-content">
+        <div class="landing-heading text-center">Features</div>
+          <div class="col-sm-4">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      {% svgicon fa-search %} Search Query
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    Search initiatives by name, location, keywords. or use the advanced filter with predetermined filters
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      {% svgicon fa-list %} Table of Entries</a></h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    The results of the search query are displayed in a table.
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      {% svgicon fa-filter %} Sort and Filter</a></h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    Use the
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFour">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      {% svgicon fa-map %} Visualize in a Map</a></h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                  <div class="panel-body">
+                    Mark locations in a map. Click on the markers for a popup to the entries data and link to them
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFive">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      {% svgicon fa-tags %} Tag Clouds</a></h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                  <div class="panel-body">
+                    Tags are displayed
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingSix">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      {% svgicon fa-compass %} Navigate an Entry</a></h4>
+                </div>
+                <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                  <div class="panel-body">
+                    Search initiatives by name, location, keywords. or use the advanced filter with predetermined filters
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingSeven">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                      {% svgicon fa-pencil-square-o %} Easy Editing on GitHub</a></h4>
+                </div>
+                <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                  <div class="panel-body">
+                    Search initiatives by name, location, keywords. or use the advanced filter with predetermined filters
+                  </div>
+                </div>
+              </div>
+
+
+
+          </div>
+        </div>
+
+        <div class="col-sm-8">
+          <img src="/assets/img/browser.png" class="browser">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="collections">
+      <div class="center-content">
+        <div class="row">
+          Entries are divided into eight collections:
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3 collection-box">
+            <div class="circle-collection center-block"><a href="#">{% svgicon fa-briefcase %}</a></div>
+            <a href="#"><h4>Projects</h4></a>
+          Have particular aims, such as designing an instrument or an educational workshop
+          </div>
+
+          <div class="col-sm-3 collection-box">
+            <div class="circle-collection center-block"><a href="#">{% svgicon fa-flask %}</a></div>
+            <a href="#"><h4>Labs</h4></a>
+            Dedicated physical spaces, static or mobile, with materials and equipment
+          </div>
+
+          <div class="col-sm-3 collection-box">
+            <div class="circle-collection center-block"><a href="#">{% svgicon fa-users %}</a></div>
+            <a href="#"><h4>Groups</h4></a>
+            Associations of people (online and offline) interested in DIYbio
+          </div>
+
+          <div class="col-sm-3 collection-box">
+            <div class="circle-collection center-block"><a href="#">{% svgicon fa-ticket %}</a></div>
+            <a href="#"><h4>Events</h4></a>
+            Global or regional events by and/or for the DIYbio community
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3 collection-box">
+            <div class="circle-collection center-block"><a href="#">{% svgicon fa-rocket %}</a></div>
+            <a href="#"><h4>Startups</h4></a>
+            Entrepreneurial ventures and generally concern products or services
+          </div>
+          <div class="col-sm-3 collection-box">
+            <div class="circle-collection center-block"><a href="#">{% svgicon fa-leaf %}</a></div>
+            <a href="#"><h4>Incubators</h4></a>
+            Organizations and spaces that help projects and startups to develop
+          </div>
+          <div class="col-sm-3 collection-box">
+            <div class="circle-collection center-block"><a href="#">{% svgicon fa-share-alt %}</a></div>
+            <a href="#"><h4>Networks</h4></a>
+            Organizations that facilitate communication and collaboration
+          </div>
+          <div class="col-sm-3 collection-box">
+            <div class="circle-collection center-block"><a href="#">{% svgicon fa-umbrella %}</a></div>
+            <a href="#"><h4>Others</h4></a>
+            Umbrella term for the rest of misfit entries. New collections may arise
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="counters row">
+      <div class="center-content">
+        <div class="col-sm-3">
+          <div class="counters-heading">176</div>
+          Total database entries
+        </div>
+
+        <div class="col-sm-3">
+          <div class="counters-heading">4</div>
+          Total dataset downloads
+        </div>
+
+        <div class="col-sm-3">
+          <div class="counters-heading">15</div>
+          Total database contirbutors
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <div class="featured-entries">
+      <div class="center-content row">
+        <p class="landing-heading">Recently added entries</p>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+             <!-- Indicators -->
+             <ol class="carousel-indicators">
+               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+               <li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+             </ol>
+             <div class="carousel-inner" role="listbox">
+               <div class="item active">
+                 <div class="container">
+                   <div class="carousel-caption">
+                     <h1>Example headline.</h1>
+                     <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+
+                   </div>
+                   </div>
+               </div>
+               <div class="item">
+                 <div class="container">
+                   <div class="carousel-caption">
+                     <h1>Another example headline.</h1>
+                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+                   </div>
+                 </div>
+               </div>
+               <div class="item">
+                 <div class="container">
+                   <div class="carousel-caption">
+                     <h1>One more for good measure.</h1>
+                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+               <span> <i class="fa fa-chevron-left"></i> </span>
+               <span class="sr-only">Previous</span>
+             </a>
+             <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+               <span> <i class="fa fa-chevron-right"></i></span>
+               <span class="sr-only">Next</span>
+             </a>
+           </div><!-- /.carousel -->
+
+
+      </div>
+    </div>
+
+    <div class="coded">
+      <div class="center-content text-center row">
+        <ul>
+          <li class="coded-box sphere-coded">
+            <img src="/assets/img/sphere-coded.png">
+          </li>
+
+          <li class="coded-box">
+              <p class="coded-heading">Supported by</a>
+              <ul>
+                <li class="coded-li">
+                  <a href="#"><img src="/assets/img/diybio.png"></a>
+                </li>
+                <li>
+                  <a href="#"><img src="/assets/img/unige.png"></a>
+                </li>
+              </ul>
+          </li>
+
+          <li class="coded-box">
+              <p class="coded-heading">Hosting by</p>
+              <ul>
+                <li>
+                  <a href="#"><img src="/assets/img/github-logo.png"></a>
+                </li>
+              </ul>
+          </li>
+
+          <li class="coded-box">
+              <p class="coded-heading">Powered by</p>
+              <ul>
+                <li class="coded-li">
+                  <a href="#"><img src="/assets/img/jekyll.png"></a>
+                </li>
+
+                <li>
+                  <a href="#"><img src="/assets/img/travis.png"></a>
+                </li>
+              </ul>
+          </li>
+
+          <li class="coded-box">
+              <p class="coded-heading">Search by</p>
+              <ul>
+                <li>
+                  <a href="#"><img src="/assets/img/algolia.png"></a>
+                </li>
+              </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
 
     <div class="row">
       {% include footer.html %}
@@ -84,6 +377,9 @@
     <script src="http://twitter.github.com/hogan.js/builds/3.0.1/hogan-3.0.1.js"></script>
     {% js main %}
 </div>
+
+{% javascript carousel %}
+
   </body>
 
 </html>

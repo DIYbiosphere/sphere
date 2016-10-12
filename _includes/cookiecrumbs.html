@@ -17,6 +17,6 @@
   <div>
     <ul>
       <li> {% include reading-time.html %} </li>
-      <li class="commits">Lastest Commit: </li>
+      <li class="commits">Latest commit: {{ page.last_modified | date_to_string }} </li>
      </ul>
   </div>

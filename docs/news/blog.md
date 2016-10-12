@@ -2,6 +2,7 @@
 layout: docs
 permalink: /docs/news/blog/
 title: Blog
+summary: in this section
 ---
 
 

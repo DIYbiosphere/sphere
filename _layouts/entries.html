@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
+<div class="center-content">
 <div class="row breadcrumbs">
   <div class="col-sm-6 text-left">
-  <!--TODO:"About" should change to a code that reflects the location of the file. the double >> should only show if there is file after-->
     <a href="#" class="link selectable">{{ page.title }}</a>
   </div>
   <div class="col-sm-6 text-right">
@@ -16,5 +16,4 @@ layout: default
   <span id="collection" class="hidden" style="display:none">{{ page.collection }}</span>
   {{content}}
 </div>
-
-<div class="mar-top text-weak">updated: {{ page.last_modified | date_to_string }}</div>
+</div>

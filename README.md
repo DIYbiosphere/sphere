@@ -4,7 +4,7 @@
 ![](https://reposs.herokuapp.com/?path=DIYbiosphere/sphere&color=yellowgreen)
 [![HitCount](https://hitt.herokuapp.com/DIYbiosphere/sphere.svg)](https://github.com/DIYbiosphere/sphere)
 [![Gratipay Team](https://img.shields.io/gratipay/team/diybiosphere.svg?maxAge=2592000)](https://gratipay.com/DIYbiosphere/)
-[![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/sphere.svg)](https://gitter.im/DIYbiosphere/sphere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/sphere.svg)]([![Gitter](https://badges.gitter.im/DIYbiosphere/sphere.svg)](https://gitter.im/DIYbiosphere/sphere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Slack Status](https://diybiosphere.herokuapp.com/badge.svg)](https://diybiosphere.herokuapp.com)
 
 
@@ -54,7 +54,7 @@ Get a general [Overview] of the entire project page and where it is heading next
 See our [Getting Started] guide to _using_ and _contributing_ to the project. We have an [ELI5 guide] (Explain Like I'm 5) for the utterly GitHub confused.
 
 ## Copyright
-The work in this project is freely available to use, modify and distribute.
+**The work in this project is freely available to use, modify and distribute.**
 
 The **content** of the project (entries, data, etc.) is available under the public domain [CC0], and the underlying **source-code** (HTML, JS, etc.) used to format and display that content is available under the [MIT] License.
 
@@ -76,7 +76,7 @@ If you wish to credit our work, please do so as “© DIYbiosphere contributors�
 [request membership]: http://sphere.diybio.org/docs/support/contributing/#membership-request "How to request membership"
 [overview]: http://sphere.diybio.org/docs/about/overview "See an overview of the DIYbiosphere Project"
 [road map]: http://sphere.diybio.org/docs/news/roadmap/ "See our Roadmap for the DIYbiosphere project"
-[Getting started]: http://sphere.diybio.org/docs/intro/getting-started/ "How to use and contribute to the project"
+[Getting started]: http://sphere.diybio.org/docs/introduction/getting-started/ "How to use and contribute to the project"
 [Contributing guidelines]: http://sphere.diybio.org/docs/support/contributing/ "How to Issues and Pull Requests"
 [ELI5 guide]: http://sphere.diybio.org/docs/resources/ELI5/ "Learn GitHub easy"
 [MIT]: https://opensource.org/licenses/MIT "Go to MIT license"

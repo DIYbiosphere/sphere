@@ -1,34 +1,3 @@
-.side-nav {
-  height: 100%;
-  color: $primary;
-  font-size: 0.9em;
-  background-color: $fine-gray;
-
-  h4 {
-    text-align: left;
-    font-weight: 700;
-  }
-
-  ul {
-    padding-right: 37px;
-  }
-
-  li {
-    list-style: none;
-  }
-
-  a {
-    color: currentColor;
-    margin-left: .5em;
-    text-decoration: none;
-
-    &:hover {
-      color: $hyperlink;
-      cursor: pointer;
-    }
-  }
-}
-
 .panel {
   background-color: transparent;
 
@@ -44,6 +13,7 @@
 .panel-title {
   font-weight: 400;
   font-size: 1em !important;
+  text-decoration: none;
 }
 
 .folding-buttons {
@@ -60,22 +30,31 @@
   background-color: transparent;
   padding: 0;
   margin: 0;
+
 }
 .panel-title > a:after {
+    font-size: 0.7em;
+    padding-top: 3px;
     font-family: FontAwesome;
-    content:"\f068";
+    content: '\f068';
+    width: 10px;
     padding-right: 5px;
     float: right;
 }
 .panel-title > a.collapsed:after {
-    content:"\f067";
+    content: '\f067';
 }
+
 .panel-title > a:hover,
 .panel-title > a:active,
 .panel-title > a:focus  {
     text-decoration:none;
 }
 
-.active {
-  color: red;
+.panel-body {
+  ul {
+    padding-left: 0;
+    margin-left: 0;
+    list-style-type: none;
+  }
 }

@@ -1,10 +1,9 @@
 ---
 layout: docs
-permalink: /docs/intro/getting-started/
+permalink: /docs/introduction/getting-started/
 title: Getting Started
+summary: In this section we give a kickstart guide to getting familiar with using the database, and contributing to the project of the DIYbiosphere.
 ---
-
-_This is the kickstart guide to getting familiar with **using** the database, and **contributing** to the project of the DIYbiosphere. For a more general introduction of the project see our [Overview][overview]_
 
 
 The DIYbiosphere is a collaborative project to create a worldwide Database of DIYbio initiatives.
@@ -17,14 +16,11 @@ The Database is the core of the DIYbiosphere project. It's structure, components
 For an example, check the database' entry on the [DIYbiosphere][e_sphere]! :wink:
 
 ## Using the Database
-Users can access the entries of the database at: [sphere.diybio.org][sphere]. To search the whole database, use the _Search Bar_ located in the home page and in the top navigation bar (it expands once clicked). Use keywords such as 'Lab', 'Geneva', 'Bioscope'.
-To refine the search, press the button to use the _Advanced Search_ with predetermined filters.
-<!--TODO: add GIF -->
-The _Search Query_ will return a _Table of Entries_ with matching entries. To refine the search, use the search, filter and sort buttons.
-<!--TODO: add GIF -->
+Users can access the entries of the database at: [sphere.diybio.org][sphere]. To search the whole database, use the _Search Bar_ located in the home page and in the top navigation bar. You can search by name or by location.
+The _Search Query_ will return a _List of Entries_ with matching entries. To refine the search, use the search, filter and sort buttons.
 
 ### Downloading the Dataset
-In the Table of Entries, users can download a CSV file of the results shown. The entire dataset can be downloaded in the release page.
+In the List of Entries, users can download a CSV file of the results shown. The entire dataset can be downloaded in the release page.
 
 ## Contributing to the Database
 The **only requirement** you need to contribute is a GitHub account ([sign up][gh_sign]). If you are new to GitHub check the [ELI5 guide][eli5] (Explain like I'm 5), made especially for the utterly confused. :smile:
