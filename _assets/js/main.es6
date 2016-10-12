@@ -10,12 +10,12 @@
     
     let suggestionTemplate = Hogan.compile(`
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-4">
           {{#logo}}
             <img src="{{logo}}" alt="logo" class="img-responsive" />
           {{/logo}}
         </div>
-        <div class="col-sm-6">        
+        <div class="col-sm-8">        
           <div>{{{ _highlightResult.title.value }}}</div>
           <div>{{ country }}</div>
           <div>{{ collection }}</div>
