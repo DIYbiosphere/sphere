@@ -2,7 +2,7 @@
 layout: docs
 permalink: /docs/about/community/
 title: Development Community
-summary: In this section we explain the composition of our contributing community and the roles and privileges of members of the development community
+summary: The composition of our contributing community and the roles and privileges of members of the development community
 ---
 
 Any, and all users who contribute to the project are considered _contributors_. The _development community_ refers to members of the [DIYbiosphere organization][gh_org] in GitHub. [Members][members] have greater access permissions to the project and can be part of [Teams][teams] who are key members with distict roles in the development and enjoy greater access privileges. Submit an issue to [request membership][join] and join us!

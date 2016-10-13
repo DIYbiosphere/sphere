@@ -1,6 +1,9 @@
 ---
 layout: docs
-permalink: /docs/help/tutorials/edit-entry-teams/
-title: Editing an Entry for Teams
+permalink: /docs/tutorials/edit-entry/teams/
+tab: teams
+title: Editing an Entry
 summary: In this section
 ---
+
+{% include_relative edit-tabs-nav.md %}

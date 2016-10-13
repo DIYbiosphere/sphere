@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/resources/simple-md/
+permalink: /docs/resources/markdown-syntax/
 title: Simple Markdown
 summary: In this section
 ---

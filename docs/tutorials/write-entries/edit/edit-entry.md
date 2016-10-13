@@ -1,13 +1,13 @@
 ---
 layout: docs
-permalink: /docs/help/tutorials/edit-entry/
+permalink: /docs/tutorials/edit-entry/contributors/
+tab: contributors
 title: Editing an Entry
-summary: In this section
+summary: Tutorial for editing an entry for contributors (7 steps)
 ---
 
-This is the tutorial (7 steps) to edit an entry. To add a new entry go to our [Add an entry] tutorial. Keep a look out for our [helpful hints]!
+{% include_relative edit-tabs-nav.md %}
 
-Tutorial for members is [6 steps] and for team members (managers, editors) is [4 steps]. Learn more about our [development community]
 
 {% include _notices/warning.html title="Before you begin, you should:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/docs/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/docs/about/copyright/license/)." %}
 

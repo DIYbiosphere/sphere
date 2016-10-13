@@ -5,6 +5,8 @@
 [gh_pages]: https://pages.github.com/ "Learn about GitHub Pages from GitHub"
 [markdown]: https://guides.github.com/features/mastering-markdown/ "Learn about Markdown from GitHub"
 [jekyll]: https://jekyllrb.com/ "Go to Jekyll's homepage"
+[git]: https://git-scm.com/
+[git_download]: https://git-scm.com/downloads
 [zenhub]: https://www.zenhub.com/
 [sphere]: http://sphere.diybio.org "Go to DIYbiosphere homepage"
 [gh_sign]: https://github.com/join

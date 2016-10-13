@@ -2,7 +2,7 @@
 layout: docs
 title: Contributor License Agreement
 permalink: /docs/copyright/cla/
-summary: In this section we explain in a more precise legal language the contributor terms for the project; the rights waived and granted from contirbutions
+summary: In a precise legal language the contributor terms for the project; the rights waived and granted from contributions
 ---
 
 The purpose of a Contributor License Agreement (CLA) is to state the "contractual" agreement of the Intellectual Property Rights (IPR) assigned to the Contributions made to an open-source project. This CLA follows the copyright terms stated in our [License][license].

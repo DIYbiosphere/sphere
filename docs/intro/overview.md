@@ -2,7 +2,7 @@
 layout: docs
 permalink: /docs/introduction/overview/
 title: Overview of the DIYbiosphere
-summary: In this section we give a general overview of the entire project
+summary: General outlook of the entire project; a short summary.
 ---
 
 The DIYbiosphere is a participatory project to create a **database** of Do-It-Yourself Biology (DIYbio) initiatives from all over the world. It has two main goals. One is to have a shared and common platform for the DIYbio community; to increase visibility of initiatives and connect people and ideas in all its possibilities. And two is to gather data about the DIYbio community; to map and visualize it in all its diversity across time and space in the hopes that we may learn more about the movement and its futures.

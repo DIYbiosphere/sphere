@@ -2,53 +2,58 @@
 layout: docs
 permalink: /docs/support/eli5/
 title: Explain Like I'm 5 (ELI5) Guide
-summary: In this section you find a super-simple/101/beginner/crash-course/for-dummies guide to help out the utterly confused and introduce them to the basic terms and concepts to work with the DIYbiosphere project.
+summary: A super-simple/101/beginner/crash-course/for-dummies guide to help out the utterly confused
 ---
 
-
-### Explaining GitHub
-
- is a web platform that helps users collaborate on a _collection of files_, called  **repository** or **repo**, by providing _version control_ based on the **Git** software. Git usually runs by using the  _command-line_ of your local machine, using GitHub is easier as it provides a visual interface accessible by any browser, or you can download GitHub Desktop and work locally on your machine.
-
-Git works by saving _snapshots_, called  commits, of the changes in the repository; making changes easy to track and reverse.
+The best way to introduce the basic terms and concepts to work with the DIYbiosphere project is to explain why it uses GitHub in the first place and then explain why it uses GitHub Pages.
 
 
+## Why use GitHub
+The DIYbiosphere project is essentialy a _shared folder_ with a bunch of files inside. Sharing a collection of files among multiple users, presents a technical problem. How can users collaborate simultaneously on the same files without overwriting each others changes or locking the files from being edited by others?
+
+### Using Git
+The DIYbiosphere project uses {% svgicon git %} **Git**, a popular _distributed version control software_ that tracks changes to the files made by multiple users. If you [download Git][git_download] to your computer, you can turn any folder into a Git folder called a {% svgicon oi-repo %} **repository** or **repo** for short. Git creates a subfolder in your repo named `.git`, where it stores the files of the entire revision history of your repo. Every time you want to save the changes you have made you {% svgicon oi-git-commit %} _commit_ those changes to Git. You create a journal of of their modifications. different versions, it records, takes snapshots. you can review these changes or revert them. With git all contributors have a copy of the code and its journal.
+With Git you don't need a server since you can use the git repository locally, but if you want to collaborate with others you should use a server to act as the master copy. you need to push and pull changes from one computer to another. Git is distributed because every machine that downloads the repo has a copy stored of all the code and the revision history.
+You can update your own local copies from others changes by pulling the changes into you local repo. pull updates from each other.
+
+Git also supports other features such as branching. which allos to develop the same repo seperately over time without interfering with one another. These can subsequengly be merged into a single version.
+
+[15 min to learn git](https://try.github.io/levels/1/challenges/1)
+
+{% svgicon oi-repo-clone %}
+{% svgicon oi-repo-force-push %}
+{% svgicon oi-repo-forked %}
+{% svgicon oi-repo-pull %}
+{% svgicon oi-repo-push %}
+{% svgicon oi-sync %}
+{% svgicon oi-gist %}
+{% svgicon oi-git-branch %}
+{% svgicon oi-git-commit %}
+{% svgicon oi-git-compare %}
+{% svgicon oi-git-merge %}
+{% svgicon oi-git-pull-request %}
+{% svgicon oi-markdown %}
+{% svgicon oi-terminal %}
+{% svgicon oi-browser %}
+{% svgicon oi-versions %}
 
 
-The flagship functionality of GitHub is “forking” – copying a repository from one user’s account to another. This enables you to take a project that you don’t have write access to and modify it under your own account. If you make changes you’d like to share, you can send a notification called a “pull request” to the original owner. That user can then, with a click of a button, merge the changes found in your repo with the original repo.
-
-In addition, GitHub integrates a ticket system called **Issues** to keep track of tasks, bugs, feature requests and more. GitHub also allows users to comment, discuss, and react to Issues and Pull Requests. GitHub enables users to form organizations
-
-{% include _notices/note.html title="You should also know..." text="Keep track of our issues, and learn more about the DIYbiosphere organization and how you can join" %}
 
 
-### Explain the DIYbiosphere
+
+
+
+
+
+
+
+### Using GitHub
+{% svgicon github %} Github is a a remote server that collaborators check into. It is a centralized area where contributors can organize and trck their code and changes. Github is just another contributor that everyone pushes their changes to.
+Github is a service that hosts public repos for free, it also improves accesability by being online and a useful graphical interface that makes it more easy friendly. With Github instead of sycronizing, merging amongs themselves, we all merge with GitHub.
+
+
+
+## Why use GitHub Pages
 The DIYbiosphere project is stored as the sphere repository, which holds the the entries of the database, as well as source code that builds and formats those files into a website.
 
-
-## Forking
-
-Pros
-
-Keeps branches separated by user
-Reduces clutter in the primary repository
-Your team process reflects the outside contributor process
-Cons
-
-Makes it more difficult to see all of the branches that are active (or inactive, for that matter)
-Collaborating on a branch is trickier (the fork owner needs to add the person as a collaborator)
-You need to understand the concept of multiple remotes in Git
-Requires additional mental bookkeeping
-This will make the workflow more difficult for people who aren't super comfortable with Git
-
-## Branching
-
-Pros
-
-Keeps all of the work being done around a project in one place
-All collaborators can push to the same branch to collaborate on it
-There's only one Git remote to deal with
-Cons
-
-Branches that get abandoned can pile up more easily
-Your team contribution process doesn't match the outside contributor process
+The DIYbiosphere is an _open_ and _collaborative_ project to create a database of DIYbio initiatives accesible via a website (sphere.diybio.org). The project is essentialy a _shared folder_ that contains the files for each entry in the database, and the files that code and build the database into the website (the software).
