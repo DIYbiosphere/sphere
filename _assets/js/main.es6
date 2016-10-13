@@ -9,8 +9,17 @@
     });
     
     let suggestionTemplate = Hogan.compile(`
-      <div class="">
-        <div class="">{{ _highlightResult.title.value }}
+      <div class="row">
+        <div class="col-sm-4">
+          {{#logo}}
+            <img src="{{logo}}" alt="logo" class="img-responsive" />
+          {{/logo}}
+        </div>
+        <div class="col-sm-8">        
+          <div>{{{ _highlightResult.title.value }}}</div>
+          <div>{{ country }}</div>
+          <div>{{ collection }}</div>
+        </div>
       </div>
     `);
     
@@ -25,8 +34,9 @@
       source: $.fn.autocomplete.sources.hits(index, { hitsPerPage: 4 }),
       displayKey: 'title',
       templates: {
-        suggestion: suggestion => suggestion._highlightResult.title.value,
-        // suggestion: suggestion => suggestionTemplate.render(suggestion),
+        header: `<div class="pad-all text-strong">Results</div>`,
+        // suggestion: suggestion => suggestion._highlightResult.title.value,
+        suggestion: suggestion => suggestionTemplate.render(suggestion),
         footer: `
           <div class="pad-all">
             <a href="https://www.algolia.com">
@@ -38,6 +48,7 @@
       }
     }]).on('autocomplete:selected', (event, suggestion, dataset) => {
       window.location = suggestion.url;
+      // console.log(suggestion)
     });
   });
 })($, Hogan);
