@@ -1,7 +1,104 @@
 (function($) {
 
 	$(document).ready(function() {
+    
+    /** Leaflet map stuff */
+    let center = new L.LatLng(50.5, 30.51);
+    let map = new L.Map('map', {center: center, zoom: 15});
 
+    let positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+    }).addTo(map);
+
+    let marker = new L.Marker(center);
+    map.addLayer(marker);
+
+    marker.bindPopup("<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p><p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>");
+    
+    
+    /** Instantsearch stuff */
+    const APPLICATION_ID = 'ITI5JHZJM9';
+    const SEARCH_ONLY_API_KEY = '5828bf68d90dbb0251e6ce88aabe2e07';
+    const INDEX_NAME = 'diybiosphere';
+    
+    let emptyTemplate =
+      '<div class="text-center">No results found matching <strong>{{query}}</strong>.</div>';
+    
+    let hitTemplate = `
+      <div class="row" style="
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        border-color: #DDDDDD;
+        padding: 10px 0px 10px 5px;">
+        <div class="col-sm-2">
+          <img src="{{ logo }}" alt="logo" class="img-responsive" />
+        </div>
+        <div class="col-sm-8">
+          <div>
+            <b>{{{ _highlightResult.title.value }}}</b>
+            <a href="{{url}}" class="text-info"><i class="fa fa-link"></i></a>
+            <a href="{{website}}" class="text-info" target="_blank"><i class="fa fa-external-link"></i></a>
+          </div>
+          <div>
+            <p>{{ text }}</p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div style="
+            border: 0.5px solid;
+            border-color: #DDDDDD;
+            width: 130px;
+            padding: 5px 5px 5px 10px">
+            {{#collection}}
+              <div><i class="fa fa-lg fa-flask"></i><b>{{ collection }}</b></div>
+            {{/collection}}
+            {{#since}}
+              <div><i class="fa fa-gift"></i> {{ since }}</div>
+            {{/since}}
+            {{#host.name}}
+              <div><i class="fa fa-home"></i> {{ host.name }}</div>
+            {{/host.name}}
+            {{#country}}
+            <div><i class="fa fa-globe"></i> {{city}}, {{country}}</div>
+            {{/country}}
+          </div>
+        </div>
+      </div>`;
+    
+    let search = instantsearch({
+      appId: APPLICATION_ID,
+      apiKey: SEARCH_ONLY_API_KEY,
+      indexName: INDEX_NAME,
+      urlSync: true
+    });
+    
+    search.addWidget(
+      instantsearch.widgets.searchBox({
+        container: '#search-box',
+        placeholder: 'Search for entries...'
+      })
+    );
+    
+    search.addWidget(
+      instantsearch.widgets.hits({
+        container: '#hits-container',
+        templates: {
+          empty: emptyTemplate,
+          item: hitTemplate
+        },
+        hitsPerPage: 3
+      })
+    );
+
+    search.addWidget(
+      instantsearch.widgets.pagination({
+        container: '#pagination-container'
+      })
+    );
+    
+    search.start();
+    
+    
 		/**
 		 * This DataTable will contain all the info from all collections accross the
 		 * site, they're stored in a json file and the table will be populated via
