@@ -7,13 +7,41 @@ permalink: /database/
   <h1>Table of all Initiatives</h1>
 </div>
 <div class="content mar-no pad-no">
-  
+    
   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingFive">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            {% svgicon fa-tags %} VISUALIZE TAGS IN A CLOUD</a></h4>
+      </div>
+      <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+        <div class="panel-body">
+          Tags are displayed
+        </div>
+      </div>
+    </div>
+    
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingFour">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            {% svgicon fa-map %} PIN ENTRIES IN A MAP</a></h4>
+      </div>
+      <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+        <div class="panel-body">
+          Mark locations in a map. Click on the markers for a popup to the entries data and link to them
+          <div id="map" style="height:500px;"></div>
+        </div>
+      </div>
+    </div>
+    
     <div class="panel panel-default">
       <div class="panel-heading" role="tab" id="headingOne">
         <h4 class="panel-title">
           <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-            {% svgicon fa-search %} Search Query
+            {% svgicon fa-filter %} REFINE SEARCH
           </a>
         </h4>
       </div>
@@ -27,83 +55,20 @@ permalink: /database/
     <div class="panel panel-default">
       <div class="panel-heading" role="tab" id="headingTwo">
         <h4 class="panel-title">
-          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            {% svgicon fa-list %} Table of Entries</a></h4>
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            {% svgicon fa-list %} LIST OF ENTRIES</a></h4>
       </div>
-      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
         <div class="panel-body">
-          The results of the search query are displayed in a table.
+          <input id="search-box" type="text" />
+          <div id="hits-container"></div>
+          <div id="pagination-container"></div>
         </div>
       </div>
     </div>
 
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingThree">
-        <h4 class="panel-title">
-          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            {% svgicon fa-filter %} Sort and Filter</a></h4>
-      </div>
-      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-        <div class="panel-body">
-          Use the
-        </div>
-      </div>
-    </div>
-
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingFour">
-        <h4 class="panel-title">
-          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-            {% svgicon fa-map %} Visualize in a Map</a></h4>
-      </div>
-      <div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFour">
-        <div class="panel-body">
-          Mark locations in a map. Click on the markers for a popup to the entries data and link to them
-          <div id="map" style="height:500px;"></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingFive">
-        <h4 class="panel-title">
-          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-            {% svgicon fa-tags %} Tag Clouds</a></h4>
-      </div>
-      <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-        <div class="panel-body">
-          Tags are displayed
-        </div>
-      </div>
-    </div>
-
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingSix">
-        <h4 class="panel-title">
-          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-            {% svgicon fa-compass %} Navigate an Entry</a></h4>
-      </div>
-      <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-        <div class="panel-body">
-          Search initiatives by name, location, keywords. or use the advanced filter with predetermined filters
-        </div>
-      </div>
-    </div>
-
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingSeven">
-        <h4 class="panel-title">
-          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-            {% svgicon fa-pencil-square-o %} Easy Editing on GitHub</a></h4>
-      </div>
-      <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
-        <div class="panel-body">
-          Search initiatives by name, location, keywords. or use the advanced filter with predetermined filters
-        </div>
-      </div>
-    </div>
   </div>
   
-  {% include search-table.html %}
+  <!--{% include search-table.html %}-->
 
 </div>
