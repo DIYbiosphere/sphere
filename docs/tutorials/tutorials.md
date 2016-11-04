@@ -23,6 +23,14 @@ title: Tutorials
 - [Using GitHub Desktop](/docs/help/tutorials/using-githubdesktop/)
 - [Screen Capture GIFs](#How-to-make-screen-capture-GIFs)
 
+- cloning the repository
+- creating a commit
+- push repo
+- pull from repository
+- sync
+- merge histories
+- resolve conflict
+
 ---
 
 

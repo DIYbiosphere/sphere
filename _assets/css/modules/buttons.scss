@@ -125,8 +125,7 @@ input[type="search"] {
 
 .nav-tabs {
   margin-bottom: 1em;
-  text-decoration: none;
-  color: $medium-gray;
+  color: $warm-gray;
 
   a {
     text-decoration: none;
@@ -137,4 +136,52 @@ input[type="search"] {
   a {
   color: black !important;
   }
+}
+
+.nav-pills {
+  color: $warm-gray;
+  margin-bottom: 1em;
+
+  li a {
+    margin-right: 5px;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  .active a {
+    background: black !important;
+    color: white !important;
+    padding: 5px;
+  }
+}
+
+.pills-interface {
+  padding-right: 15px;
+
+  li a {
+    padding: 2px;
+    text-decoration: none;
+    margin: 0;
+  }
+
+  li.active a {
+    background: white !important;
+    border: 1px solid black;
+    color: black !important;
+    padding: 2px;
+  }
+}
+
+.btn-interface {
+  border: none;
+  background: white;
+  margin: 0;
+  padding: 0 3px;
+}
+
+.title-pills {
+  color: black;
+  padding: 3px;
+  font-family: $monospace;
+  font-size: 0.9em;
 }

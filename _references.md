@@ -3,15 +3,20 @@
 [diybio]: https://diybio.org/ "Go to DIYbio.org homepage"
 [citizen_sciences]: http://citizensciences.net/ "Go to Citizen Sciences homepage"
 [gh_pages]: https://pages.github.com/ "Learn about GitHub Pages from GitHub"
+[github]: https://github.com
 [markdown]: https://guides.github.com/features/mastering-markdown/ "Learn about Markdown from GitHub"
 [jekyll]: https://jekyllrb.com/ "Go to Jekyll's homepage"
 [git]: https://git-scm.com/
 [git_download]: https://git-scm.com/downloads
 [zenhub]: https://www.zenhub.com/
 [sphere]: http://sphere.diybio.org "Go to DIYbiosphere homepage"
+[rvm]: https://rvm.io/rvm/install
 [gh_sign]: https://github.com/join
 [gh_glossary]: https://help.github.com/articles/github-glossary/
 [gh_permissions]: https://help.github.com/articles/repository-permission-levels-for-an-organization/ "Learn about permission levels from GitHub"
+[gh_desktop]: https://desktop.github.com
+[gh_atom]: https://atom.io
+
 
 [gh_editable]: https://github.com/DIYbiosphere/sphere/tree/editable
 [gh_org]: https://github.com/DIYbiosphere "Go to the DIYbiosphere organization GitHub page"
@@ -92,6 +97,8 @@
 [edit-members]: /docs/tutorials/edit-entry-members/
 [edit-teams]: /docs/tutorials/edit-entry-teams/
 [noting-copyright]: /docs/tutorials/noting-copyright/
+[how-desktop]: /docs/tutorials/using-github-desktop
+[how-atom]: /docs/tutorials/using-github-desktop
 [news]: /docs/news/
 [blog]: /docs/news/blog/
 [changelog]: /docs/news/changelog/

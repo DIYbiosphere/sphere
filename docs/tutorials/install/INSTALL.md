@@ -5,7 +5,7 @@ permalink: /docs/tutorials/install/
 summary: This section details how to edit locally on your desktop
 ---
 
-We recommend you use [GitHub Desktop][github_desktop] as a Git Client; available for MacOS and Windows, and [Atom][atom] as a text editor; available for MacOS, Windows and Linux. See our guides on [using Atom] and [using GitHub Desktop].
+
 
 
 {% include _notices/tip.html title="Really download GitHub Desktop and Atom" text="All of our tutorials are using these software programs as well as the recommended plugins for Atom." %}

@@ -2,7 +2,7 @@
 layout: docs
 title: Code of Conduct
 permalink: /docs/about/coc/
-summary: In this section we delineate a common understanding of what constitutes a welcoming and enriching working environment
+summary: Common understanding of what constitutes a welcoming and enriching working environment
 ---
 
 This Code of Conduct (CoC)\* applies to project spaces and public spaces when an individual is representing the project or its community, online and offline.

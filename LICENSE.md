@@ -1,13 +1,13 @@
 ---
 layout: docs
 permalink: /docs/copyright/license/
-title: Copyright License
-summary: In this section we explain in simple english the terms of (re)use and the share permissions for the project
+title: Copyright License Terms
+summary: Terms of (re)use and the share permissions for the project in simple english
 ---
 
 **All the work in this project, except where otherwise noted\*, is freely available to use, modify and distribute** :two_hearts:
 
-The copyright of the DIYbiosphere is designed to be as permissive as possible to eliminate all uncertainty for potential users, encouraging maximal reuse and sharing of information. The project covers two types of Work which require different copyright terms.
+The project covers two types of Work which require different copyright terms.
 
 Overall the Work in this Project is divided as:
 
@@ -20,7 +20,7 @@ Overall the Work in this Project is divided as:
     - You cannot: hold the author liable.
     - You must: include the copyright and license notice in all copies or substantial uses of the work.
 
-All Contributions Submitted to the Project are shared under these copyright terms. You can review the "Contributor License Agreement" ([CLA][cla]) to understand in legal terms the authorship rights granted and/or waived from your Contributions.
+All Contributions Submitted to the Project are shared under these copyright terms. You can review the the Contributor Terms or "Contributor License Agreement" ([CLA][cla]) to understand in legal terms the authorship rights granted and/or waived from your Contributions.
 
 ### Copyright Attribution
 You may attribute our Work as "© DIYbiosphere contributors" to recognize the amazing effort of our contributors. If space is limited, attribute as "© DIYbiosphere".
@@ -28,6 +28,6 @@ You may attribute our Work as "© DIYbiosphere contributors" to recognize the am
 ---
 
 #### *otherwise noted
-Contributions that are shared/uploaded to the Database part should explicitly note their copyright terms if the author(s) do not waive authorship rights to their work. For example, you may upload an image that is hosted in Flickr if the copyright is CC-BY, in which case the caption must have a link to the original source and a note on the copyright license.
+Contributions that are shared/uploaded to the Database part should explicitly note their copyright terms if the author(s) do not waive authorship or grant rights to their work. For example, you may upload an image that is hosted in Flickr if the copyright is CC-BY, in which case the caption must have a link to the original source and a note on the copyright license.
 
 Please follow our instructions for [noting copyright][noting-copyright].

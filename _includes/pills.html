@@ -1,0 +1,28 @@
+
+<div class="pills-interface">
+  <ul class="nav nav-pills">
+    <li class="title-pills"> Choose Interface: </li>
+    {% if browser == "blank" %} {% else %}<li class="active"><a data-toggle="pill" href="#{{ include.id1 }}"><button type="button" class="btn-interface" data-toggle="tooltip" data-placement="top" title="Browser">
+  {% svgicon oi-browser %}
+</button></a></li> {% endif %}
+    <li><a data-toggle="pill" href="#{{ include.id2 }}">
+      <button type="button" class="btn-interface" data-toggle="tooltip" data-placement="top" title="Desktop">
+  {% svgicon oi-device-desktop %}
+</button></a></li>
+    <li><a data-toggle="pill" href="#{{ include.id3 }}"><button type="button" class="btn-interface" data-toggle="tooltip" data-placement="top" title="Terminal">
+  {% svgicon oi-terminal %}
+</button></a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="{{ include.id1 }}" class="tab-pane fade in active">
+      <p>{{ include.browser | markdownify }}</p>
+    </div>
+    <div id="{{ include.id2 }}" class="tab-pane fade">
+      <p>{{ include.desktop | markdownify }}</p>
+    </div>
+    <div id="{{ include.id3 }}" class="tab-pane fade">
+      <p>{{ include.terminal | markdownify }}</p>
+    </div>
+  </div>
+</div>

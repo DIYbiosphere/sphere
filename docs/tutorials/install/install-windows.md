@@ -3,7 +3,7 @@ layout: docs
 title: Install to Work Locally
 permalink: /docs/tutorials/install/windows/
 tab: windows
-summary: This section details how to edit locally on your desktop
+summary: Installation instructions to work with the repository locally according to your operating system, choose yours.
 ---
 
 {% include_relative install-tabs-nav.md %}

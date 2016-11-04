@@ -1,7 +1,7 @@
 ---
 layout: docs
 permalink: /docs/help/tutorials/using-atom/
-title: How to Use Atom
+title: Atom
 ---
 
 Atom is an open-source text editor developed by GitHub. It is available for MacOS, Windows, and Linux. We highly recommend it and our tutorials assume you use Atom and have downloaded the following packages:
