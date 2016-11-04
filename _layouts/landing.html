@@ -363,19 +363,23 @@
     </script>-->
 
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js" type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js" type="text/javascript"></script>
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearchLite.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.js"></script>
-    {% js landing %}
+    <script src="{{ "semantic/dist/semantic.min.js" | prepend: site.baseurl }}"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js" type="text/javascript"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js" type="text/javascript"></script>-->
+    <!--<script async defer src="https://buttons.github.io/buttons.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearchLite.min.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.js"></script>-->
+    <!--{% js landing %}-->
 <!-- Gitter sidecar script -->
-    <script>((window.gitter = {}).chat = {}).options = {room: 'DIYbiosphere/sphere'};</script>
-    <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-    <script src="http://twitter.github.com/hogan.js/builds/3.0.1/hogan-3.0.1.js"></script>
-    {% js main %}
+    <!--<script>((window.gitter = {}).chat = {}).options = {room: 'DIYbiosphere/sphere'};</script>-->
+    <!--<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>-->
+    <!--<script src="http://twitter.github.com/hogan.js/builds/3.0.1/hogan-3.0.1.js"></script>-->
+    <!--{% js main %}-->
+    <script type="text/javascript">
+      $('.ui.dropdown').dropdown();
+    </script>
 </div>
 
 <!--{% javascript carousel %}-->
