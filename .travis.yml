@@ -12,7 +12,7 @@ before_script:
 
 script:
    - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./script/cibuild; fi'
-   - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash ./script/cibuild_pull_requests; fi'
+   - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash ./script/cibuild_pull_request; fi'
 
 after_success: ./script/gh_pages_push
 
