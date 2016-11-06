@@ -1,14 +1,17 @@
 <header>
   <nav>
-    <div class="ui huge secondary pointing borderless stacked menu">
+    <div class="ui huge borderless menu">
       <div class="ui container">
         <!-- logo -->
         <div class="item">
-          <a href="{{ site.baseurl }}/">
-          <img class="small image" src="/assets/img/sphere-logo-alpha.png"></a>
+          <a href="{{ site.baseurl }}">
+          <img class="ui small image" src="/assets/img/sphere-logo-alpha.png"></a>
         </div>
         <!-- right menu -->
         <div class="right menu">
+          <div class="item">
+            {% include search-bar.html %}
+          </div>
           <div class="ui dropdown item">
             Database
             <i class="angle down icon"></i>
@@ -31,17 +34,16 @@
             Documentation
             <i class="angle down icon"></i>
             <div class="menu">
-              <a class="item" href="{{ 'database/introduction/' | prepend: site.baseurl }}"><i class="flag outline icon"></i> Introduction</a>
-              <a class="item" href="{{ 'database/about/' | prepend: site.baseurl }}"><i class="info circle icon"></i> About Us</a>
-              <a class="item" href="{{ 'database/copyright/' | prepend: site.baseurl }}"><i class="copyright icon"></i> Copyright </a>
-              <a class="item" href="{{ 'database/basics/' | prepend: site.baseurl }}"><i class="cubes icon"></i> The Basics</a>
-              <a class="item" href="{{ 'database/support/' | prepend: site.baseurl }}"><i class="life ring icon"></i> Support </a>
-              <a class="item" href="{{ 'database/tutorials/' | prepend: site.baseurl }}"><i class="book icon"></i> Tutorials</a>
-              <a class="item" href="{{ 'database/resources/' | prepend: site.baseurl }}"><i class="share alternate icon"></i> Resources </a>
-              <a class="item" href="{{ 'database/news/' | prepend: site.baseurl }}"><i class="announcement icon"></i> News</a>
+              <a class="item" href="{{ 'docs/introduction/' | prepend: site.baseurl }}"><i class="flag outline icon"></i> Introduction</a>
+              <a class="item" href="{{ 'docs/about/' | prepend: site.baseurl }}"><i class="info circle icon"></i> About Us</a>
+              <a class="item" href="{{ 'docs/copyright/' | prepend: site.baseurl }}"><i class="copyright icon"></i> Copyright </a>
+              <a class="item" href="{{ 'docs/basics/' | prepend: site.baseurl }}"><i class="cubes icon"></i> The Basics</a>
+              <a class="item" href="{{ 'docs/support/' | prepend: site.baseurl }}"><i class="life ring icon"></i> Support </a>
+              <a class="item" href="{{ 'docs/tutorials/' | prepend: site.baseurl }}"><i class="book icon"></i> Tutorials</a>
+              <a class="item" href="{{ 'docs/resources/' | prepend: site.baseurl }}"><i class="pin icon"></i> Resources </a>
+              <a class="item" href="{{ 'docs/news/' | prepend: site.baseurl }}"><i class="announcement icon"></i> Updates</a>
             </div>
           </div>
-
 
           <a class="item" href="{{ site.github.repository_url }}"><i class="github icon"></i> GitHub</a>
           <a class="item" href="https://diybio.org"> DIYbio</a>

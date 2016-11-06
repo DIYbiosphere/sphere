@@ -1,107 +1,67 @@
-{% if page.github %}
-  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Github">
-    <a href="{{ page.github }}">{% svgicon octoface %}</a>
-  </button>
-{% endif %}
-
 {% if page.email %}
-  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Email">
-    <a href="mailto:{{ page.email }}">{% svgicon mail-o %}</a>
-  </button>
-{% endif %}
-
-{% if page.rss %}
-  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="RSS">
-    <a href="{{ page.rss }}"><i class="fa fa-rss"></i></a>
-  </button>
-{% endif %}
-
-{% if page.irc %}
-  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="IRC">
-    <a href="{{ page.irc }}">{% svgicon irc %}</a>
-  </button>
-{% endif %}
-
-
-{% if page.twitter %}
-  <button class="infobox-icon" id="twitter-infobox" data-toggle="tooltip" data-placement="top" title="Twitter">
-    <a href="{{ page.twitter }}">{% svgicon twitter %}</a>
-  </button>
-{% endif %}
-
-{% if page.facebook %}
-  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Facebook">
-    <a href="{{ page.facebook }}">{% svgicon facebook-square %}</a>
-  </button>
-{% endif %}
-
-{% if page.slack %}
-  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Slack">
-    <a href="{{ page.slack }}">{% svgicon slack %}</a>
-  </button>
-{% endif %}
-
-{% if page.instagram %}
-  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Instagram">
-    <a href="{{ page.instagram }}">{% svgicon instagram %}</a>
-  </button>
-{% endif %}
-
-{% if page.flickr %}
-  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Flickr">
-    <a href="{{ page.flickr }}">{% svgicon flickr %}</a>
-  </button>
-{% endif %}
-
-{% if page.vimeo %}
-  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Vimeo">
-    <a href="{{ page.vimeo }}">{% svgicon vimeo %}</a>
-  </button>
-{% endif %}
-
-{% if page.youtube %}
-  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="YouTube">
-    <a href="{{ page.youtube }}">{% svgicon youtube %}</a>
-  </button>
-{% endif %}
-
-{% if page.gitter %}
-  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Gitter">
-    <a href="{{ page.gitter }}">{% svgicon gitter %}</a>
-  </button>
-{% endif %}
-
-{% if page.trello %}
-  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Trello">
-    <a href="{{ page.trello }}">{% svgicon trello %}</a>
-  </button>
-{% endif %}
-
-{% if page.pinterest %}
-  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Pinterest">
-    <a href="{{ page.pinterest }}">{% svgicon pinterest %}</a>
-  </button>
-{% endif %}
-{% if page.google+ %}
-  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Google+">
-    <a href="{{ page.google+ }}">{% svgicon google+ %}</a>
-  </button>
-{% endif %}
-
-{% if page.linkedin %}
-  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="LinkedIn">
-    <a href="{{ page.linkedin }}">{% svgicon linkedin %}</a>
-  </button>
+  <a href="mailto:{{ page.email }}"><span data-tooltip="Email"><i class="mail icon"></i></span></a>
 {% endif %}
 
 {% if page.forum %}
-  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Forum">
-    <a href="{{ page.forum }}"><i class="fa fa-comments-o"></i></a>
-  </button>
+  <a href="{{ page.forum }}"><span data-tooltip="Forum"><i class="talk icon"></i></span></a>
 {% endif %}
 
-{% if page.mailing_list %}
-  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Mailing List">
-    <a href="{{ page.mailing_list }}"><i class="fa fa-envelope-o"></i></a>
+
+{% if page.github %}
+  <a href="{{ page.github }}"><span data-tooltip="GitHub"><i class="github icon"></i></span></a>
+{% endif %}
+
+
+{% if page.rss %}
+  <a href="{{ page.rss }}"><span data-tooltip="GitHub"><i class="rss icon"></i></span></a>
+{% endif %}
+
+{% if page.twitter %}
+  <a href="{{ page.twitter }}"><span data-tooltip="Twitter"><i class="twitter icon"></i></span></a>
+{% endif %}
+
+{% if page.facebook %}
+  <a href="{{ page.facebook }}"><span data-tooltip="Facebook"><i class="facebook icon"></i></span></a>
+{% endif %}
+
+{% if page.slack %}
+  <a href="{{ page.slack }}"><span data-tooltip="Slack"><i class="slack icon"></i></span></a>
+{% endif %}
+
+{% if page.instagram %}
+  <a href="{{ page.instagram }}"><span data-tooltip="Instagram"><i class="instagram icon"></i></span></a>
+{% endif %}
+
+{% if page.flickr %}
+  <a href="{{ page.flickr }}"><span data-tooltip="Flickr"><i class="flickr icon"></i></span></a>
+{% endif %}
+
+{% if page.vimeo %}
+  <a href="{{ page.vimeo }}"><span data-tooltip="Vimeo"><i class="vimeo icon"></i></span></a>
+{% endif %}
+
+{% if page.youtube %}
+<a href="{{ page.youtube }}"><span data-tooltip="YouTube"><i class="youtube icon"></i></span></a>
+{% endif %}
+
+<!-- {% if page.gitter %}
+  <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Gitter">
+    <a href="{{ page.gitter }}">{% svgicon gitter %}</a>
   </button>
+{% endif %} -->
+
+{% if page.trello %}
+  <a href="{{ page.trello }}"><span data-tooltip="Trello"><i class="trello icon"></i></span></a>
+{% endif %}
+
+{% if page.pinterest %}
+<a href="{{ page.pinterest }}"><span data-tooltip="Pinterest"><i class="pinterest icon"></i></span></a>
+{% endif %}
+
+{% if page.google+ %}
+<a href="{{ page.google+ }}"><span data-tooltip="Google +"><i class="google plus icon"></i></span></a>
+{% endif %}
+
+{% if page.linkedin %}
+<a href="{{ page.linkedin }}"><span data-tooltip="Linkedin"><i class="linked icon"></i></span></a>
 {% endif %}

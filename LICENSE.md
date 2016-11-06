@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/copyright/license/
+permalink: docs/copyright/license/
 title: Copyright License Terms
 summary: Terms of (re)use and the share permissions for the project in simple english
 ---

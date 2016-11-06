@@ -31,7 +31,7 @@ a subfolder in your repo named `.git` where it stores  Every time you want to sa
 When multiple users collaborate on a repo, they all have copies stored locally in their computers.
 When multiple users want to collaborate using Git they must coordinate on maintaining the _master copy_ of the repo, which is the most up-to-date version of the desired version of the project.
 
-{% include _notices/eli5.html title="Using a server is better but not essential" text="Technically, you could send a copy of your repo by email to your collaborator. She downloads the repo to her computer, commits her changes, and send it back to you to merge the changes. Using a server, or the cloud." %}
+{% include help.html title="Using a server is better but not essential" text="Technically, you could send a copy of your repo by email to your collaborator. She downloads the repo to her computer, commits her changes, and send it back to you to merge the changes. Using a server, or the cloud." %}
 
 Technically, you could copy or {% svgicon oi-repo-clone %} **clone repo** into a USB or send it by email to another collaborator so she could work on the repo as well.
 

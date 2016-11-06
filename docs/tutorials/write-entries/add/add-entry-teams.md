@@ -16,7 +16,7 @@ summary: Tutorial for adding a new entry for team members (4 steps)
 
 **Rejoice!** your entry is now part of the DIYbiosphere database! :clap: :clap:
 
-{% include _notices/note.html title="Commits are not immediate" text="The repository has to be parsed and built by TRAVIS CI. Check the [build](https://travis-ci.org/DIYbiosphere/sphere), to see if your commit has passed." %}
+{% include info.html title="Commits are not immediate" text="The repository has to be parsed and built by TRAVIS CI. Check the [build](https://travis-ci.org/DIYbiosphere/sphere), to see if your commit has passed." %}
 
 Thank you for your contribution! :heart:
 

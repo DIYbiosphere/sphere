@@ -71,4 +71,4 @@ Anyone can become a Director. Directors are expected to have the following chara
 - Willingness to dedicate some time to improving DIYbiosphere
 
 
-{% include _notices/tldr.html title="Members have more writing privileges and Teams define roles and topics" text="Anyone can contribute, but by joining as a Member and Team member, you can get more involved in the development of the project and you require less steps to contribute. Ask to [join][join]!" %}
+{% include help.html title="Members have more writing privileges and Teams define roles and topics" text="Anyone can contribute, but by joining as a Member and Team member, you can get more involved in the development of the project and you require less steps to contribute. Ask to [join][join]!" %}

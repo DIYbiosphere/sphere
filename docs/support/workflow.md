@@ -5,7 +5,7 @@ title: Workflow Management
 summary: In this section we detail the workflow of how the project is managed, specifically Issues and Pull Requests (PR), collectively refered to here as Tickets
 ---
 
-{% include _notices/note.html title="Only members can manage tickets" text="Members of the [development Community][community] have the privilege and the **responsability** to organize tickets to facilitate the collective workflow of the development of the project." %}
+{% include info.html title="Only members can manage tickets" text="Members of the [development Community][community] have the privilege and the **responsability** to organize tickets to facilitate the collective workflow of the development of the project." %}
 
 Tickets are classified and organized by [Labels](#labels), [Milestones](#milestones), [Epics](#epics) and [Boards](#boards). The two latter are features of [ZenHub][zenhub] which we use for project management. It is free and has native integration with GitHub and works for Chrome and Firefox.
 
@@ -29,7 +29,7 @@ Labels are for categorizing and filtering tickets. The following labels are curr
 - {% include _labels/question.html %} are questions that need answers
 - {% include _labels/resolution.html %} are tickets that need to be resolved soon
 
-{% include _notices/note.html title="Labels can be for PRs" text="Labels will be applied mostly to Issues. However, when PRs require review or encounter problems in merging, labels may be applied to indicate any additional information (like 'critical', 'help wanted')." %}
+{% include info.html title="Labels can be for PRs" text="Labels will be applied mostly to Issues. However, when PRs require review or encounter problems in merging, labels may be applied to indicate any additional information (like 'critical', 'help wanted')." %}
 
 
 ## Epics
@@ -41,7 +41,7 @@ Epics is a feature by ZenHub that groups issues together. Epics are useful to im
 - It relates to other issues of a similar theme of work
 
 
-{% include _notices/tip.html title="Keep issues simple" text="Making issues as modular as possible encourages contributors to take it on." %}
+{% include info.html title="Keep issues simple" text="Making issues as modular as possible encourages contributors to take it on." %}
 
 ## Milestones
 Milestones track the progress of the development through the opening and closing of tickets. Milestones are useful for associating tickets with specific features, project

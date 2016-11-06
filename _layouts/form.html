@@ -1,257 +1,89 @@
 ---
-layout: docs
+layout: default
 ---
 
-<div class="container-fluid">
-  <p>This is a user-friendly form for adding a new entry. Submit completed form to download a file text to upload into the database. Follow tutorial for uploading file.
-   </p>
-  <p> Hover over text to see a tips. * Mandatory
-  <form class="form-horizontal">
+<div class="ui grid container">
 
-  <div class="form-group">
-    <label for="inputPassword3" class="col-sm-3 control-label"><span class="octicon octicon-file-directory"></span> Entry Collection</label>
-    <div class="col-sm-9">
-    <select class="form-control">
-      <option><i class="fa fa-cog"></i> Project</option>
-  <option>Startup</option>
-  <option>Lab</option>
-  <option>Incubator</option>
-  <option>Group</option>
-  <option>Network</option>
-  <option>Event</option>
-  <option>Other</option>
-</select>
-   </div>
-    </div>
-
-  <div class="form-group">
-    <label for="inputManager" class="col-sm-3 control-label"><span class="octicon octicon-key"></span> Entry Manager (GitHub Username)</label>
-    <div class="col-sm-9">
-      <input type="manager" class="form-control" id="inputEmail3" placeholder="@ahuacatl">
+  <!-- Collection -->
+  <div class="eight wide column">
+    <div class="header"><i class="folder icon"></i> Collection</div>
+    <select class="ui dropdown">
+      <option value="">Collection</option>
+      <option value="project">Project</option>
+      <option value="startup">Startup</option>
+      <option value="lab">Lab</option>
+      <option value="incubator">Incubator</option>
+      <option value="group">Group</option>
+      <option value="network">Network</option>
+      <option value="event">Event</option>
+      <option value="other">Other</option>
+    </select>
+  </div>
+  <!-- Manager -->
+  <div class="eight wide column">
+    <div class="header"><i class="privacy icon"></i> Entry Manager</div>
+    <div class="ui fluid input">
+      <input type="text" placeholder="e.g. ahuacatl">
     </div>
   </div>
-  <div class="form-group">
-    <label for="inputPassword3" class="col-sm-3 control-label"><span class="octicon octicon-star"></span> Title of Initiative</label>
-    <div class="col-sm-9">
-      <input type="title" class="form-control" id="inputPassword3" placeholder="Avocado Lab">
-    </div>
-  </div>
- <div class="form-group">
-    <label for="inputPassword3" class="col-sm-3 control-label"><span class="octicon octicon-file-media"></span> Logo URL</label>
-    <div class="col-sm-9">
-      <input type="title" class="form-control" id="inputPassword3" placeholder="http://imagesource.jpg">
-    </div>
-  </div>
- <div class="form-group">
-    <label for="inputPassword3" class="col-sm-3 control-label"><span class="octicon octicon-link-external"></span> Homepage URL</label>
-    <div class="col-sm-9">
-      <input type="title" class="form-control" id="inputPassword3" placeholder="http://Avocado.lab">
-    </div>
-  </div>
-
-    <div class="form-group">
-    <label for="inputPassword3" class="col-sm-3 control-label"><span class="octicon octicon-gift"></span> Year of beginning</label>
-    <div class="col-sm-3">
-      <input type="title" class="form-control" id="inputPassword3" placeholder="1989">
-    </div>
-    <label for="inputPassword3" class="col-sm-3 control-label">Year of ending</label>
-    <div class="col-sm-3">
-      <input type="title" class="form-control" id="inputPassword3" placeholder="2020">
-    </div>
-  </div>
-  EVENT
-        <div class="form-group">
-    <label for="inputPassword3" class="col-sm-3 control-label"><span class="octicon octicon-calendar"></span> Dates: From</label>
-    <div class="col-sm-3">
-      <input type="title" class="form-control" id="inputPassword3" placeholder="1989">
-    </div>
-    <label for="inputPassword3" class="col-sm-3 control-label">To</label>
-    <div class="col-sm-3">
-      <input type="title" class="form-control" id="inputPassword3" placeholder="2020">
-    </div>
-  </div>
-
-
-    <div class="form-group">
-    <label for="inputPassword3" class="col-sm-9 control-label"><span class="octicon octicon-home"></span> Host: Is your initiative hosted by a parent institution or organization?</label>
-  <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
-</label>
-<label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
-</label>
-    </div>
-
-  <div class="form-group">
-    <label for="inputPassword3" class="col-sm-3 control-label"> Name of Host</label>
-    <div class="col-sm-9">
-      <input type="title" class="form-control" id="inputPassword3" placeholder="FoodHack Space">
-    </div>
-  </div>
-
-     <div class="form-group">
-    <label for="inputPassword3" class="col-sm-3 control-label"><span class="octicon octicon-link-external"></span> Host Homepage URL</label>
-    <div class="col-sm-9">
-      <input type="title" class="form-control" id="inputPassword3" placeholder="http://FoodHackSpace.org">
-    </div>
-  </div>
-
-    <div class="form-group">
-    <label for="inputPassword3" class="col-sm-9 control-label">Does the host organization have an entry in the DIYbiosphere database?</label>
-  <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
-</label>
-<label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
-</label>
-    </div>
-
- <div class="form-group">
-    <label for="inputPassword3" class="col-sm-3 control-label"><span class="octicon octicon-link"></span> Database entry URL</label>
-    <div class="col-sm-9">
-      <input type="title" class="form-control" id="inputPassword3" placeholder="http://sphere.diybio.org/database/incubator/FoodHackSpace-ZZ">
-    </div>
-  </div>
-
-  <div class="form-group">
-    <label for="inputPassword3" class="col-sm-3 control-label"><span class="octicon octicon-zap"></span> Type of Initiative</label>
-    <div class="col-sm-9">
-    <select class="form-control">
-  <option>Community</option>
-  <option>Primary/Secondary School</option>
-  <option>University/College</option>
-  <option>Non-profit/NGO</option>
-  <option>For-profit</option>
-  <option>Museum</option>
-  <option>State/Local Government</option>
-  <option>Other</option>
-</select>
-   </div>
-    </div>
-
-    <div class="form-group">
-    <label for="inputPassword3" class="col-sm-9 control-label"><span class="octicon octicon-organization"></span> Affiliates: Do you want to share your affiliations? (Like Partners, Networks, Sponsors) </label>
-  <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
-</label>
-<label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
-</label>
-    </div>
-
-  <div class="form-group">
-    <label for="inputPassword3" class="col-sm-3 control-label"></span> Name of Affiliation</label>
-    <div class="col-sm-9">
-      <input type="title" class="form-control" id="inputPassword3" placeholder="Guacamole Institute">
-    </div>
-  </div>
-
-     <div class="form-group">
-    <label for="inputPassword3" class="col-sm-3 control-label"><span class="octicon octicon-link-external"></span> Affilliate Homepage URL</label>
-    <div class="col-sm-9">
-      <input type="title" class="form-control" id="inputPassword3" placeholder="http://GuacamoleInstitute.mx">
-    </div>
-  </div>
-
-    <div class="form-group">
-    <label for="inputPassword3" class="col-sm-9 control-label">Does this affiliate have an entry in the DIYbiosphere database?</label>
-  <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
-</label>
-<label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
-</label>
-    </div>
-
- <div class="form-group">
-    <label for="inputPassword3" class="col-sm-3 control-label"><span class="octicon octicon-link"></span> Database entry URL</label>
-    <div class="col-sm-9">
-      <input type="title" class="form-control" id="inputPassword3" placeholder="http://sphere.diybio.org/database/group/GuacamoleInstitute-MX">
-    </div>
-  </div>
-
-      <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default"><i class="fa fa-plus"></i> Add an Affiliate</button>
-    </div>
-  </div>
-
- <div class="form-group">
-    <label for="inputPassword3" class="col-sm-3 control-label"><span class="octicon octicon-globe"></span> Location: Country</label>
-    <div class="col-sm-9 f16">
-        <input type="search" id="country" class="form-control" placeholder="Mexico" />
+  <!-- Name of Initiative -->
+  <div class="sixteen wide column">
+    <div class="header"><i class="star icon"></i>Name of Initiative</div>
+      <div class="ui fluid input">
+        <input type="text" placeholder="e.g. Avocado Lab">
       </div>
-    </div>
-
-
-
- <div class="form-group">
-    <label for="inputPassword3" class="col-sm-9 control-label"><span class="octicon octicon-location"></span> Address: Do you have a physical location? <label>
-  <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
-</label>
-<label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
-</label>
-    </div>
-
-    <div class="form-group">
-       <label for="inputPassword3" class="col-sm-3 control-label"><span class="octicon octicon-globe"></span> Location: Country</label>
-       <div class="col-sm-9 f16">
-           <input type="search" id="country" class="form-control" placeholder="Mexico" />
-         </div>
-       </div>
-
-
- <div class="form-group">
-    <label for="inputPassword3" class="col-sm-3 control-label"><span class="octicon octicon-tag"></span> Keywords</label>
-    <div class="col-sm-9">
-      <input type="title" class="form-control" id="inputPassword3" placeholder="food lab, agriculture">
-    </div>
+  </div>
+  <!-- Homepage URL -->
+  <div class="sixteen wide column">
+    <div class="header"><i class="external icon"></i>Homepage URL</div>
+      <div class="ui fluid input">
+        <input type="text" placeholder="e.g. https://avocadolab.io/">
+      </div>
+  </div>
+  <!-- Logo URL -->
+  <div class="sixteen wide column">
+    <div class="header"><i class="image icon"></i>Logo URL</div>
+      <div class="ui fluid input">
+        <input type="text" placeholder="e.g. https://avocadolab.io/logo.png">
+      </div>
+  </div>
+<!-- Established -->
+  <div class="eight wide column">
+    <div class="header">  <i class="gift icon"></i>Since</div>
+      <div class="ui input">
+        Year of beginning: <input type="text" placeholder="e.g. 1967">
+      </div>
   </div>
 
- <div class="form-group">
-    <label for="inputPassword3" class="col-sm-3 control-label"><i class="fa fa-facebook"></i> Facebook page</label>
-    <div class="col-sm-9">
-      <input type="title" class="form-control" id="inputPassword3" placeholder="https://facebook.com/AvocadoLab">
-    </div>
+  <div class="eight wide column">
+    <div class="header">  <i class="image icon"></i>Established</div>
+      <div class="ui input">
+        Year of ending: <input type="text" placeholder="e.g. 2020">
+      </div>
   </div>
-
-  <div class="form-group">
-    <label for="inputPassword3" class="col-sm-3 control-label"><i class="fa fa-twitter"></i> Twitter page</label>
-    <div class="col-sm-9">
-      <input type="title" class="form-control" id="inputPassword3" placeholder="https://twitter.com/AvocadoLab">
+<!-- Dates for Events -->
+<div class="eight wide column">
+  <div class="header">  <i class="image icon"></i>Dates</div>
+    <div class="ui input">
+      Start date: <input type="text" placeholder="e.g. 1967">
     </div>
-  </div>
-    <hr>
+</div>
 
-
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default">Generate Text File <i class="fa fa-file-text-o"></i></button>
+<div class="eight wide column">
+  <div class="header">  <i class="image icon"></i>Established</div>
+    <div class="ui input">
+      End date: <input type="text" placeholder="e.g. 1967">
     </div>
+</div>
+
+
+<!-- Address with Algolia Places -->
+  <div class="eight wide column">
+    <div class="header">  <i class="map marker icon"></i>Address</div>
+      <div class="ui fluid input f16">
+        <input type="search" id="city" placeholder="e.g. Michoacan" />
+      </div>
   </div>
-</form>
-
-<link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags16.css" />
-
-
-<!-- Country Search -->
-<script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script>
-<script>
-(function() {
-  var placesAutocomplete = places({
-    container: document.querySelector('#country'),
-    type: 'country',
-    templates: {
-      suggestion: function(suggestion) {
-        return '<i class="flag ' + suggestion.countryCode + '"></i> ' +
-          suggestion.highlight.name;
-      }
-    }
-  });
-})();
-</script>
 
 <form action="/billing" class="form">
   <div class="form-group">
@@ -272,8 +104,52 @@ layout: docs
   </div>
 </form>
 
-<!-- Address Search and autocomplete -->
+
+
+
+<!-- City with Algolia Places -->
+<div class="item">
+  <i class="world icon"></i>
+  <div class="content">
+    <a class="header">Country</a>
+    <div class="description">
+      <div class="ui fluid input f16">
+        <input type="search" id="city" placeholder="e.g. Michoacan" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Country with Algolia Places -->
+  <link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags16.css" />
+  <div class="item">
+    <i class="flag icon"></i>
+    <div class="content">
+      <a class="header">Country</a>
+      <div class="description">
+        <div class="ui fluid input f16">
+          <input type="search" id="country" placeholder="e.g. Mexico" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+</div> <!-- close list -->
+
+
+</div> <!-- close column -->
+</div> <!-- close container -->
+
+<!-- Algolia places -->
 <script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script>
+
+<!-- Address and autocomplete -->
 <script>
 (function() {
   var placesAutocomplete = places({
@@ -294,9 +170,7 @@ layout: docs
 </script>
 
 
-<input type="search" id="city" class="form-control" placeholder="In which city do you live?" />
-
-<script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script>
+<!-- City Search -->
 <script>
 (function() {
   var placesAutocomplete = places({
@@ -313,16 +187,18 @@ layout: docs
 </script>
 
 
-
-
-  </div>
-
-<!--
-http://bootsnipp.com/snippets/featured/dynamic-form-fields-add-amp-remove-bs3
-http://bootsnipp.com/snippets/featured/extended-form-controls
-http://jsfiddle.net/PhFNm/1/
-http://jsfiddle.net/hj8xsm94/
-http://jsfiddle.net/mblase75/pTA3Y/
-
-
--->
+<!-- Country Search -->
+<script>
+(function() {
+  var placesAutocomplete = places({
+    container: document.querySelector('#country'),
+    type: 'country',
+    templates: {
+      suggestion: function(suggestion) {
+        return '<i class="flag ' + suggestion.countryCode + '"></i> ' +
+          suggestion.highlight.name;
+      }
+    }
+  });
+})();
+</script>

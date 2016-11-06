@@ -1,74 +1,60 @@
 ---
-layout: entries
+layout: default
 title: Database
-permalink: /database/
+permalink: database/
 ---
-<div>
-  <h1>Table of all Initiatives</h1>
-</div>
-<div class="content mar-no pad-no">
-    
-  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-    
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingFive">
-        <h4 class="panel-title">
-          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-            {% svgicon fa-tags %} VISUALIZE TAGS IN A CLOUD</a></h4>
-      </div>
-      <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-        <div class="panel-body">
-          Tags are displayed
-        </div>
-      </div>
-    </div>
-    
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingFour">
-        <h4 class="panel-title">
-          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            {% svgicon fa-map %} PIN ENTRIES IN A MAP</a></h4>
-      </div>
-      <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-        <div class="panel-body">
-          Mark locations in a map. Click on the markers for a popup to the entries data and link to them
-          <div id="map" style="height:500px;"></div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingOne">
-        <h4 class="panel-title">
-          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-            {% svgicon fa-filter %} REFINE SEARCH
-          </a>
-        </h4>
-      </div>
-      <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-        <div class="panel-body">
-          Search initiatives by name, location, keywords. or use the advanced filter with predetermined filters
-        </div>
-      </div>
-    </div>
 
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingTwo">
-        <h4 class="panel-title">
-          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-            {% svgicon fa-list %} LIST OF ENTRIES</a></h4>
-      </div>
-      <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
-        <div class="panel-body">
-          <input id="search-box" type="text" />
-          <div id="hits-container"></div>
-          <div id="pagination-container"></div>
-        </div>
-      </div>
-    </div>
+<div class="ui grid container">
+  <div class="sixteen wide column">
+    <div class="ui fluid accordion vertical menu">
+          <div class="item">
+            <a class="title"><i class="dropdown icon"></i> <b><i class="tags icon"></i> Visualize Tags in a Cloud</b></a>
+            <div class="content menu">
+              Tags are displayed
+            </div>
+          </div>
+          <div class="item">
+            <a class="title"><i class="dropdown icon"></i>
+               <b><i class="map icon"></i> Pin Entries in a Map</b></a>
+              <div class="content menu">
+                <div class="panel-body">
+                  Mark locations in a map. Click on the markers for a popup to the entries data and link to them
+                  <div id="map" style="height:500px;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <a class="title"><i class="dropdown icon"></i>
+                 <b><i class="filter icon"></i>Refine Search</b></a>
+                <div class="content menu">
+                  Search initiatives by name, location, keywords. or use the advanced filter with predetermined filters
 
-  </div>
-  
-  <!--{% include search-table.html %}-->
+                </div>
+              </div>
+              <div class="item">
+                <a class="title"><i class="dropdown icon"></i>
+                  <b><i class="list icon"></i>List of Entries</b></a>
+                <div class="content menu">
+                  <div class="panel-body">
+                    <input id="search-box" type="text" />
+                    <div id="hits-container"></div>
+                    <div id="pagination-container"></div>
+                  </div>
+                </div>
+              </div>
 
-</div>
+
+
+
+            </div> <!-- close accordion -->
+
+
+
+</div> <!-- close 16 column -->
+</div> <!-- close grid container -->
+
+<script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+<script src="{{ "semantic/dist/semantic.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript">
+  $('.ui.accordion').accordion();
+</script>

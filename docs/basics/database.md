@@ -8,7 +8,7 @@ summary: In this section we detail the basic structure, components, and organiza
 
 The Database encompases all the information on the DIYbio initiatives added to the DIYbiosphere project. Each initiative has its own _Entry_ for composing and displaying its particular information. Entries are accessible as webpages at [sphere.diybio.org][sphere] and as text files in the [sphere repository][gh_repo] in GitHub, where they can be edited as well (how to [edit an entry][edit]).
 
-{% include _notices/eli5.html title="Entries are files and webpages" text="Entries are created and edited as text files in markdown format `entry.md` which is then displayed as a webpage" %}
+{% include help.html title="Entries are files and webpages" text="Entries are created and edited as text files in markdown format `entry.md` which is then displayed as a webpage" %}
 
 To facilitate the organization of the Initiatives in the Database, a series of [entry collections] are used to aggregate similar initiatives.
 
@@ -25,7 +25,7 @@ The entries are divided into eight collections:
 - {% svgicon fa-umbrella %} **Others**: Is an umbrella term for all the rest. Eventually as new entries begin to define themselves a new collection will be created to accommodate them.
 
 
-{% include _notices/tip.html title="Creating new collections" text="When suffiecient entries in the Other collection necessitate a new collection. This aggregation may come from a significant number of tags, or keywords that would warrant the creation of a new collection" %}
+{% include info.html title="Creating new collections" text="When suffiecient entries in the Other collection necessitate a new collection. This aggregation may come from a significant number of tags, or keywords that would warrant the creation of a new collection" %}
 
 In addition to organizing entries into different collections, a [typology of initiatives] has been established as a way to understand the background/classification/type/nature of the initiative.
 
@@ -41,7 +41,7 @@ Iniatiatives are categorized depending on the type of organizaiton from which it
 - **State/Local Goverment**
 - **Other**
 
-{% include _notices/note.html title="Other initiative" text="The typology is much more flexible, and the other category necessitates an text answer" %}
+{% include info.html title="Other initiative" text="The typology is much more flexible, and the other category necessitates an text answer" %}
 
 ## Anatomy of an Entry
 The information contained in each of them is divided in two parts, the _data_ (data fields) and the _description_ (body of text).

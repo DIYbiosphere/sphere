@@ -25,7 +25,7 @@ In the List of Entries, users can download a CSV file of the results shown. The 
 ## Contributing to the Database
 The **only requirement** you need to contribute is a GitHub account ([sign up][gh_sign]). If you are new to GitHub check the [ELI5 guide][eli5] (Explain like I'm 5), made especially for the utterly confused. :smile:
 
-{% include _notices/warning.html title="By contributing you agree to:" text="Abide by our [Code of Conduct][coc], and consent to our [Copyright terms][license]" %}
+{% include warning.html title="By contributing you agree to:" text="Abide by our [Code of Conduct][coc], and consent to our [Copyright terms][license]" %}
 
 Contribute to the database by [adding][add] a new entry, or [editing/updating][edit] an existing one. Follow our tutorials! The steps differ depending on your [access level][permissions].
 

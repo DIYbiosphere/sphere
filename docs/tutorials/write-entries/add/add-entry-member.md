@@ -14,7 +14,7 @@ Tutorial for non-members is [7 steps] and for team members (managers, editors) i
 
 
 
-{% include _notices/warning.html title="Before you begin, you should:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/docs/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/docs/about/copyright/license/)." %}
+{% include warning.html title="Before you begin, you should:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/docs/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/docs/about/copyright/license/)." %}
 
 1. In the [editable branch] of the repository, open the _database folder and choose a class folder for your new entry and **Create new file** named 'EntryName-ZZ.md'. Learn more about our [classification of entries] and [naming convention].
 2. **Copy and paste [entry template]**

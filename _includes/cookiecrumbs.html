@@ -1,22 +1,25 @@
-<div>
- <ul class="crumbs">
-   <li> <a href="/database/">
-     Database
-   </a>
-    /
-   <a href="/database/{{ page.collection | downcase }}/">
-     {{ page.collection | capitalize }}
-   </a>
-    /
-   {{ page.title }} </li>
-   <li class="commits"><a href="{{site.github.repository_url}}/blob/master/{{page.path}}" target="_blank">
-     <i class="fa fa-pencil"></i> Edit this page</a></li>
-  </ul>
+<div class="two column row">
+  <div class="column">
+    <div class="ui breadcrumb">
+      <a class="section" href="database/">Database</a>
+      <div class="divider"> / </div>
+      <a class="section" href="database/{{ page.collection | downcase }}/">{{ page.collection | capitalize }}</a>
+      <div class="divider"> / </div>
+      <div class="active section">{{ page.title }}</div>
+    </div>
   </div>
 
-  <div>
-    <ul>
-      <li> {% include reading-time.html %} </li>
-      <li class="commits">Latest commit: {{ page.last_modified | date_to_string }} </li>
-     </ul>
+  <div class="column right aligned">
+    <a href="{{site.github.repository_url}}/blob/master/{{page.path}}" target="_blank">
+      <i class="edit icon"></i> Edit this page</a>
+    </div>
+
+
+  <div class="column">
+    {% include reading-time.html %}
   </div>
+
+  <div class="column right aligned">
+    Latest commit: {{ page.last_modified | date_to_string }}
+  </div>
+</div> <!-- close row -->

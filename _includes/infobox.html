@@ -1,210 +1,102 @@
-  <div class="infobox">
+<div class="ui basic segment right floated">
+  <div class="ui segments">
+    <div class="ui padded segment">
 
-    <table class="box-info">
-      <tr>
-        <th colspan="2">
-          <h3 class="infobox-title">
-            <a class="link text-dark selectable" href="{{ page.website }}" target="_blank">
+      <!-- Logo or Name of Page -->
+        <div>
+          <h3>
+            <a href="{{ page.website }}" target="_blank">
             {% if page.logo %}
-              <img class="entry-logo"  src="{{ page.logo }}" />
+              <img class="ui image small" src="{{ page.logo }}" />
             {% else %}
               {{ page.title }}
             </a>
             {% endif %}
           </h3>
-        </th>
-      </tr>
+        </div>
 
-      {% if page.since %}
-        <tr>
-          <th> <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="founded"><span style="cursor:help">
-          {% svgicon oi-gift %} </span></button></th>
-          <td>{{ page.since }}</td>
-        </tr>
-      {% endif %}
+        <div class="ui hidden divider"></div>
 
-      {% if page.host %}
-      {% assign host = page.host %}
-      <tr>
-        {% if host.name %}
-        <th> <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Parent/Host"><span style="cursor:help">
-        {% svgicon oi-home %}</span></button></th>
-        <td> {% if host.web %} <a class="link text-dark selectable" href="{{ page.host.web | site.baseUrl }}"> {% endif %}
-        {{ host.name }}
-        {% if host.web %} </a> {% endif %}
-        </td>
-        {% endif %}
-      </tr>
-      {% endif %}
+      <!-- Since -->
+        <div>
+          {% if page.since %}
+            <span data-tooltip="Established since"><i class="gift icon"></i></span>
+            {{ page.since }}
+          {% endif %}
+        </div>
 
-      {% if page.type %}
-      <tr>
-        <th> <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Type"><span style="cursor:help">
-        {% svgicon oi-gear %}</span></button></th>
-        <td>{{ page.type }}</td>
-      </tr>
-      {% endif %}
+      <!-- Host organization -->
+        <div>
+          {% if page.host %}
+          {% assign host = page.host %}
+          {% if host.name %}
+          <span data-tooltip="Host organization"><i class="home icon"></i></span>
+              {% if host.web %} <a href="{{ page.host.web | site.baseUrl }}"> {% endif %}
+            {{ host.name }}
+          {% endif %}
+          {% endif %}
+        </div>
 
-      {% if page.affiliates %}
-        <tr>
-          <th> <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Type"><span style="cursor:help">
-          {% svgicon oi-users %}</span></button></th>
-          <td>{{ page.type }}</td>
-        </tr>
-      {% endif %}
+      <!-- Type of Organization -->
+        <div>
+          {% if page.type %}
+            <span data-tooltip="Type of (host) organization"><i class="building icon"></i></span>
+            {{ page.type }}
+          {% endif %}
+        </div>
 
-      {% if page.address %}
-        <tr>
-          <th> <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Type"><span style="cursor:help">
-          {% svgicon oi-location %}</span></button></th>
-          <td>{{ page.address }}
+      <!-- Affiliates
+          {% if page.affiliates %}
+          <div class="two wide column">
+            <span data-tooltip="Important affiliates"><i class="university icon"></i></span>
+          </div>
+
+          <div class="fourteen wide column">
+            {{ page.affiliates }}
+          </div>
+          {% endif %} -->
+
+      <!-- Location -->
+        <!-- Address -->
+        <div>
+          {% if page.address %}
+            <span data-tooltip="Address + special directions"><i class="marker icon"></i></span>
+            {{ page.address }}
             {% if page.directions %}
             <br>{{ page.directions }}
             {% endif %}
-          </td>
-        </tr>
-        {% endif %}
-
-      {% if page.city or page.state or page.country %}
-      <tr>
-        <th> <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Type"><span style="cursor:help">
-        {% svgicon oi-globe %}</span></button></th>
-        <td>{{ page.city }}{% if page.city and page.state %}, {% endif %}
-        {% if page.state %}
-        {{ page.state }} {% endif %}
-        {% if page.city or page.state %}<br> {% endif %}
-        {% if page.country %}
-          {{ page.country }}
           {% endif %}
-        </td>
-      </tr>
-      {% endif %}
+        </div>
 
+        <!-- City and country -->
+        <div>
+          {% if page.city or page.state or page.country %}
+            <span data-tooltip="Geographic location"><i class="world icon"></i></span>
+            {{ page.city }}{% if page.city and page.state %}, {% endif %}
+            {% if page.state %}
+            {{ page.state }} {% endif %}
+            {% if page.city or page.state %}<br> {% endif %}
+            {% if page.country %}
+            {{ page.country }}
+            {% endif %}
+          {% endif %}
+        </div>
+
+
+
+
+    </div>
+    <div class="ui padded segment">
+    <!-- Tags -->
       {% if page.tags %}
-      <tr class="info-tags">
-        <th><button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Type"><span style="cursor:help">
-        {% svgicon oi-tag %}</span></button></th>
-        <td>{{ page.tags | array_to_sentence_string }}</td>
-      </tr>
+      <span data-tooltip="Tags"><i class="tags icon"></i></span>
+      {{ page.tags | array_to_sentence_string }}
       {% endif %}
+    </div>
 
+    <div class="ui secondary segment">
+      {% include social-icons.html %}
+    </div>
 
-      <tr class="info-socials">
-        <th colspan="2">
-        {% include social-icons.html %}</th>
-      </tr>
-
-
-
-      </table>
-
-  <!--
-    <div class="datafields">
-
-    <h3 class="infobox-title">
-      <a class="link text-dark selectable" href="{{ page.website }}" target="_blank">
-        {% if page.logo %}
-          <img class="entry-logo"  src="{{ page.logo }}" /> <i class="octicon octicon-link-external"></i>
-        {% else %}
-          {{ page.title }} <i class="octicon octicon-link-external"></i>
-      </a>
-        {% endif %}
-      </h3>
-
-        {% if page.since %}
-        <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="founded">
-        <span style="cursor:help"> {% svgicon oi-gift %} </span></button> {{ page.since }}
-          <br/>
-        {% endif %}
-
-      {% if page.host %}
-        {% assign host = page.host %}
-        {% if host.name %}
-        <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Parent/Host">
-        <span style="cursor:help">{% svgicon oi-home %}</span></button>
-          {{ host.name }}
-          {% if host.sphere %}
-            <a href="{{ page.host.biosphere | site.baseUrl }}">
-              <i class="octicon octicon-link"></i> </a>
-          {% endif %}
-          {% if host.web %}
-            <a href="{{ page.host.web | site.baseUrl }}">
-              <i class="octicon octicon-link-external"></i> </a>
-          {% endif %}
-          <br/>
-        {% endif %}
-      {% endif %}
-
-      {% if page.type %}
-      <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Type">
-      <span style="cursor:help">{% svgicon oi-gear %}</span></button> {{ page.type }}
-      <br/>
-      {% endif %}
-
-    {% if page.affiliates %}
-    <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Affiliates">
-    <span style="cursor:help">{% svgicon oi-users %}</span></button>
-      {% for affiliate in page.affiliates %}
-        {% if affiliate.name %}
-          {{ affiliate.name }}
-        {% endif %}
-        {% if affiliate.sphere %}
-          <a href="{{ affiliate.sphere }}"><i class="octicon octicon-link"></i></a>
-        {% endif %}
-        {% if affiliate.web %}
-          <a href="{{ affiliate.web }}"><i class="octicon octicon-link-external"></i></a>
-        {% endif %}
-        {% unless forloop.last %}
-          {% if affiliate.name != null %}
-            ,
-          {% endif %}
-        {% endunless %}
-      {% endfor %}
-      <br/>
-    {% endif %}
-
-    {% if page.address %}
-    <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Address">
-    <span style="cursor:help">{% svgicon oi-location %}</span></button>
-      {{ page.address }}
-      <br>
-    {% endif %}
-
-    {% if page.directions %}
-      {{ page.directions }}
-      <br/>
-      <a href="#" title="View in map"> <i class="octicon octicon-link-external"></i> </a>
-      <br/>
-    {% endif %}
-
-    {% if page.city or page.state or page.country %}
-    <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Location">
-   <span style="cursor:help">{% svgicon oi-globe %}</span></button> {{ page.city }}
-      {% if page.state %}, {% endif %}
-    {% endif %}
-    {% if page.state %}
-      {{ page.state }}
-      <br>{% if page.country %}, {% endif %}
-    {% endif %}
-    {% if page.country %}
-      {{ page.country }}
-      <br>
-    {% endif %}
-  </div>
-
-
-  <div class="keywords">
-    {% if page.tags %}
-        <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Keywords">
-        <span style="cursor:help">{% svgicon oi-tag %}</i></button> {{ page.tags | array_to_sentence_string }}
-    {% endif %}
-</div>
-
-  <div class="socials">
-    {% include social-icons.html %}
-  </div>
-
-
--->
-
-</div>
+  </div> <!-- close segments -->
+</div> <!-- close basic segment -->

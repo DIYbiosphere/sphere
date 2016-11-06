@@ -2,24 +2,16 @@
 layout: default
 ---
 
-<div class="entry-contents container-fluid center-content">
-
-  <div class="breadcrumbs">
+<div class="ui grid container">
     {% include cookiecrumbs.html %}
-  </div>
 
     <article>
-    <div class="entry-text">
-      <div>
         <h1>{{ page.title }}</h1>
-      </div>
-      <div>
-      {% include infobox.html %}
-      </div>
-      <div>
-        {{content}}
-      </div>
-    </div>
-    </article>
+        <div class="ui divider"></div>
 
+      {% include infobox.html %}
+
+        {{content}}
+
+    </article>
 </div>

@@ -7,7 +7,7 @@ summary: The contributor terms for the project stated in a precise legal languag
 
 The purpose of a Contributor License Agreement (CLA) is to state the "contractual" agreement of the Intellectual Property Rights (IPR) assigned to the Contributions made to an open-source project. This CLA follows the copyright terms stated in our [License][license].
 
-{% include _notices/warning.html title="This CLA is not a legally binding document" text="Instead, it’s purpose is to clarify the IPR of the Contributions You choose to Submit to Us. To fully understand these issues You should read in full the legal codes of our licenses: [MIT][mit] license and [CC0][cc0] public domain dedication" %}
+{% include warning.html title="This CLA is not a legally binding document" text="Instead, it’s purpose is to clarify the IPR of the Contributions You choose to Submit to Us. To fully understand these issues You should read in full the legal codes of our licenses: [MIT][mit] license and [CC0][cc0] public domain dedication" %}
 
 **By Contributing to Our Project, You accept and agree to the following terms and conditions for Your present and future Contributions Submitted to Us.**
 
@@ -27,4 +27,4 @@ The purpose of a Contributor License Agreement (CLA) is to state the "contractua
 
 1. Please note that we have no obligation to accept or include Your Contributions to the Project, and that we may remove Your Contributions at any time if we suspect it might directly infringe on a third-party’s IPR, as well if Your Contributions do not comply with our [Code of Conduct][coc].
 
-{% include _notices/tldr.html title="I freely share my contributions" text=" I concede the rights of my Contributions to the Software under a free license [(MIT)][mit] and those pertaining to the database to the public domain [(CC0)][cc0]" %}
+{% include help.html title="I freely share my contributions" text=" I concede the rights of my Contributions to the Software under a free license [(MIT)][mit] and those pertaining to the database to the public domain [(CC0)][cc0]" %}

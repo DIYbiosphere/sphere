@@ -2,19 +2,19 @@
 layout: default
 ---
 
-<div class="docs-content">
-    <div class="col-sm-9 docs-text">
-      <div class="breadcrumbs">
-        {% include breadcrumbs.html %}
-      </div>
-      <article>
-      <div>
-        {{content}}
-      </div>
-    </article>
+  <div class="ui grid container">
 
-  </div>
-    <div class="side-nav col-sm-3">
-      {% include sidebar.html %}
+    <div class="twelve wide column">
+      {% include breadcrumbs.html %}
+      <article>
+        {{content}}
+      </article>
     </div>
-  </div>
+
+    <div class="four wide column">
+      <aside>
+          {% include sidebar.html %}
+      </aside>
+    </div>
+
+  </div> <!-- close grid container -->

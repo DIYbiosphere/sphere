@@ -1,67 +1,56 @@
 ---
 layout: default
 title: "404"
-permalink: /404.html
+permalink: 404.html
 ---
 
+<div class="ui grid container">
+  <div class="two column row">
+    <div class="column">
+      <img class="ui image" src="/assets/img/diybio-octocat.png">
+    </div>
+    <div class="column">
+      <h3>oops!</h3>
+      <h1>404</h1>
+      <h2>Page not Found</h2>
+    </div>
+  </div>
+  <div class="column"></div>
+  <div class="column"></div>
+</div>
 
-<div class="row error-page">
-<div class="row text-center">
-  <ul>
-    <li class="octocat">
-      <img src="/assets/img/diybio-octocat.png">
-    </li>
-    <li class="octocat">
-      <p class="oops"> oops! </p>
-      <p class="error-404"> 404 </p>
-      <p class="not-found"> Page not found </p>
-    </li>
-  </ul>
- </div>
+<div class="ui container center aligned">
+<button class="ui labeled black icon button">
+  <i class="chevron left icon"></i>
+  Go Back
+</button>
 
- <div class="error-rows">
-   <div class="center-content text-center row">
-     <ul>
-       <li class="error-box">
-         What to do now?
-       </li>
+<button class="ui labeled black icon button">
+  <i class="home icon"></i>
+  Homepage
+</button>
 
-       <li class="error-box">
-         <p class="text-center">
-             <a href="/" class="btn btn-dark" role="button">Go Back</a>
-         </p>
-       </li>
+<button class="ui labeled black icon button">
+  <i class="unlinkify icon"></i>
+  Report Broken Link
+</button>
+</div>
 
-       <li class="error-box">
-         <p class="text-center">
-             <a href="/" class="btn btn-dark" role="button">Homepage</a>
-         </p>
-       </li>
+<div class="ui horizontal divider">
+  Or
+</div>
 
-       <li class="error-box">
-         <p class="text-center">
-             <a href="/docs/support/contributing/#report-a-broken-link" class="btn btn-dark" role="button">Report Broken Link</a>
-         </p>
-       </li>
-     </ul>
-   </div>
-
-   <div class="center-content text-center row">
-     <ul>
-       <li class="error-box">
-        Search Database
-       </li>
-
-       <li class="error-box">
-         or
-       </li>
-
-       <li class="error-box">
-         Search documentation
-       </li>
-     </ul>
-   </div>
- </div>
-
-
+<div class="ui container center aligned">
+  <div class="ui right action left icon input">
+    <i class="search icon"></i>
+    <input type="text" placeholder="Search">
+    <div class="ui basic floating dropdown button">
+      <div class="text">Database</div>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <div class="item">Database</div>
+        <div class="item">Documentation</div>
+      </div>
+    </div>
+  </div>
 </div>
