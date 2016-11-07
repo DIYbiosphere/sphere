@@ -1,25 +1,15 @@
-html, body {
-  overflow-x: hidden;
-  color: $primary !important;
-  font-family: $fonts !important;
+/**
+*  Sticky Footer by https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+*/
 
-  a {
-    color: currentColor;
-    cursor: pointer;
-    text-decoration: underline;
-
-    &:hover {
-      color: $hyperlink;
-      text-decoration: none;
-    }
-  }
-
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-.center-content {
-  max-width: 1080px;
-margin: 0 auto !important;
-float: none !important;
+.Site-content {
+  flex: 1;
 }
 
 article {
@@ -44,30 +34,7 @@ article {
   }
 }
 
-blockquote {
-  font-size: 0.8em;
-}
 
-code {
-  color: black !important;
-}
-
-h1 {
-  color: $primary !important;
-  border-bottom: 1px solid $fine-gray;
-  font-weight: 600 !important;
-  padding-top: 30px;
-  padding-bottom: 10px;
-}
-
-h2,
-h3,
-h4,
-h5 {
-  color: $primary !important;
-  font-weight: 600 !important;
-  padding-bottom: 5px;
-}
 
 strong {
   font-weight: 600 !important;
@@ -89,46 +56,3 @@ code {
 *  This keeps hash tag links visible,
 *  otherwise they are blocked by the top navbar
 */
-h2:before,
-h3:before {
-  display: block;
-  content: "";
-  margin: -200px 0 0;
-  height: 200px;
-}
-
-.img-thumb {
-  @extend .img-responsive;
-  padding-top: 1.5em;
-}
-
-.affix-bottom {
-  position: relative
-}
-
-/*
-
-
-#page-wrap {
-  min-width: 960px;
-  width: 90%;
-  max-width: 1200px;
-  align-content: center;
-}
-*/
-
-
-.icons {
-  display: inline;
-  fill: currentColor;
-  vertical-align: middle;
-  height: 0.9em;
-  width: 1em;
-  a {
-    fill: $hyperlink;
-
-    &:hover {
-      fill: red;
-    }
-  }
-}
