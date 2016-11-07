@@ -13,14 +13,17 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css" />
   <link rel="stylesheet" type="text/css" href="{{ "semantic/dist/semantic.min.css" | prepend: site.baseurl }}">
 
+  <link href="//cdnjs.cloudflare.com/ajax/libs/cc-icons/1.2.1/css/cc-icons.min.css" rel="stylesheet">
+
+
   {% if page.layout != 'landing' %}
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css" />
   {% endif %}
 
 
-<!--
+
   {% css main %}
--->
+
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

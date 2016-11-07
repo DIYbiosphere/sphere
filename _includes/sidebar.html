@@ -1,14 +1,17 @@
 
 <!-- <div class="ui dividing right rail" style="min-height: 380px;">
   <div class="ui sticky fixed top" style="left: 908px; width: 238px !important; height: 380px !important; margin-top: 30px;"> -->
-  <div class="ui left icon fluid input">
-    <input type="text" placeholder="Search Documentation">
-    <i class="search icon"></i>
-  </div>
 
-    <div class="ui fluid accordion vertical text menu">
+
+    <div class="ui fluid accordion vertical menu">
       <div class="item">
-        <a class="title"><i class="dropdown icon"></i> <b><i class="flag outline icon"></i> Introduction</b></a>
+        <div class="ui left icon fluid input">
+          <input type="text" placeholder="Search Documentation">
+          <i class="search icon"></i>
+        </div>
+      </div>
+      <div class="item">
+        <div class="title"><i class="dropdown icon"></i> <b><i class="flag outline icon"></i> Introduction</b></div>
         <div class="content menu">
           <a class="item" href="docs/introcution/welcome/">Welcome!</a>
           <a class="item" href="docs/introcution/overview/">Overview</a>
@@ -16,8 +19,8 @@
         </div>
       </div>
       <div class="item">
-        <a class="title"><i class="dropdown icon"></i>
-           <b><i class="info circle icon"></i> About Us</b></a>
+        <div class="title"><i class="dropdown icon"></i>
+           <b><i class="info circle icon"></i> About Us</b></div>
           <div class="content menu">
             <a class="item" href="#header">Organization</a>
             <a class="item" href="#text">Development Community</a>
@@ -26,8 +29,8 @@
           </div>
         </div>
         <div class="item">
-          <a class="title"><i class="dropdown icon"></i>
-             <b><i class="copyright icon"></i>Copyright</b></a>
+          <div class="title"><i class="dropdown icon"></i>
+             <b><i class="copyright icon"></i>Copyright</b></div>
             <div class="content menu">
               <a class="item" href="#hover">Terms of (re)use</a>
               <a class="item" href="#down">Contributor Terms</a>
@@ -36,8 +39,8 @@
             </div>
           </div>
           <div class="item">
-            <a class="title"><i class="dropdown icon"></i>
-              <b><i class="cubes icon"></i>The Basics</b></a>
+            <div class="title"><i class="dropdown icon"></i>
+              <b><i class="cubes icon"></i>The Basics</b></div>
             <div class="content menu">
               <a class="item" href="#fixed">Database</a>
               <a class="item" href="#stackable">Development</a>
@@ -46,8 +49,8 @@
             </div>
           </div>
           <div class="item">
-            <a class="title"><i class="dropdown icon"></i>
-              <b><i class="life ring icon"></i>Support</b></a>
+            <div class="title"><i class="dropdown icon"></i>
+              <b><i class="life ring icon"></i>Support</b></div>
             <div class="content menu">
               <a class="item" href="#fixed">Contributing Guide</a>
               <a class="item" href="#stackable">Ticket Workflow</a>
@@ -57,8 +60,8 @@
             </div>
           </div>
           <div class="item">
-            <a class="title"><i class="dropdown icon"></i>
-              <b><i class="book icon"></i>Tutorials</b></a>
+            <div class="title"><i class="dropdown icon"></i>
+              <b><i class="book icon"></i>Tutorials</b></div>
             <div class="content menu">
               <a class="item" href="#fixed">Adding Entries</a>
               <a class="item" href="#stackable">Editing Entries</a>
@@ -70,8 +73,8 @@
           </div>
 
           <div class="item">
-            <a class="title"><i class="dropdown icon"></i>
-              <b><i class="pin icon"></i>Resources</b></a>
+            <div class="title"><i class="dropdown icon"></i>
+              <b><i class="pin icon"></i>Resources</b></div>
             <div class="content menu">
               <a class="item" href="#fixed">Sphere Glossary</a>
               <a class="item" href="#stackable">Hints</a>
@@ -82,8 +85,8 @@
           </div>
 
           <div class="item">
-            <a class="title"><i class="dropdown icon"></i>
-              <b><i class="announcement icon"></i>Updates</b></a>
+            <div class="title"><i class="dropdown icon"></i>
+              <b><i class="announcement icon"></i>Updates</b></div>
             <div class="content menu">
               <a class="item" href="#fixed">Blog</a>
               <a class="item" href="#stackable">Roadmap</a>
@@ -97,6 +100,9 @@
 
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
     <script src="{{ "semantic/dist/semantic.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript">
+      $('.ui.dropdown').dropdown();
+    </script>
     <script type="text/javascript">
       $('.ui.accordion').accordion();
     </script>

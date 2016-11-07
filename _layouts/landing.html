@@ -8,12 +8,11 @@
 
 
   <div class="ui padded grid">
-
   <!-- Heading -->
     <div class="row">
       <div class="ui grid container">
         <div class="sixteen wide column center aligned">
-          <h1>A database of Do-It-Yourself Biology (DIYbio) initiatives <br> from all over the world</h1>
+          <h1 class="ui header">A database of Do-It-Yourself Biology (DIYbio) initiatives <br> from all over the world</h1>
           <div class="ui center aligned basic segment container">
             <div class="ui left icon fluid input">
               <input type="text" placeholder="Search Entries by Name or Location">
@@ -32,248 +31,275 @@
         </div> <!-- close 16 column -->
       </div> <!-- close grid container -->
     </div> <!-- close row-->
-
   <!-- Description -->
     <div class="row black">
       <div class="ui grid container">
         <div class="sixteen wide column center aligned">
-          <h3>The DIYbiosphere is a Participatory Project! </h3>
-            <p>Anyone can add and edit entries to the database <br>
-            and participate in the development of the project </p>
+          <h3 class="ui header">The DIYbiosphere is a Participatory Project! </h3>
+            Anyone can add and edit entries to the database <br>
+            and participate in the development of the project
         </div> <!-- close 16 column -->
       </div> <!-- close grid container -->
     </div> <!-- close row -->
-
   <!-- Feature -->
     <div class="row">
       <div class="ui grid container">
         <div class="sixteen wide column center aligned">
           <h3>Features</h3>
         </div>
-
+      </div>
+      <div class="ui stackable grid container">
+        <!-- Feature accordion -->
         <div class="six wide column">
-          <div class="ui styled fluid accordion" data-vivaldi-spatnav-clickable="1">
-
-            <div class="active title">
-              <i class="search icon"></i>
-              Search Query
-            </div>
-              <div class="active content">
+          <div class="ui fluid accordion vertical menu" data-vivaldi-spatnav-clickable="1">
+            <div class="item">
+              <div class="active title"><i class="dropdown icon"></i>
+                <i class="search icon"></i>
+                Search Query
+              </div>
+              <div class="active menu content">
                 <p>Search initiatives by name, location, keywords. or use the advanced filter with predetermined filters</p>
               </div>
-
-            <div class="title">
-              <i class="list icon"></i>
-              Table of Entries
-            </div>
-            <div class="content">
-              <p>The results of the search query are displayed in a table</p>
             </div>
 
-            <div class="title">
-              <i class="filter icon"></i>
-              Sort and Filter
-            </div>
-            <div class="content">
-              <p>Use the buttons to sort and filter through the databse</p>
-            </div>
-
-            <div class="title">
-              <i class="map icon"></i>
-              Visualize in a Map
-            </div>
-            <div class="content">
-              <p>Mark locations in a map. Click on the markers for a popup to the entries data and link to them</p>
+            <div class="item">
+              <div class="title"><i class="dropdown icon"></i>
+                <i class="list icon"></i>
+                Table of Entries
+              </div>
+              <div class="content menu">
+                <p>The results of the search query are displayed in a table</p>
+              </div>
             </div>
 
-            <div class="title">
-              <i class="tags icon"></i>
-              Tag Clouds
-            </div>
-            <div class="content">
-              <p>Tags are displayed as</p>
+
+            <div class="item">
+              <div class="title"><i class="dropdown icon"></i>
+                <i class="filter icon"></i>
+                Sort and Filter
+              </div>
+              <div class="content menu">
+                <p>Use the buttons to sort and filter through the databse</p>
+              </div>
             </div>
 
-            <div class="title">
-              <i class="compass icon"></i>
-              Navigate and Entry
-            </div>
-            <div class="content">
-              <p>How initiatives are displayed</p>
-            </div>
-
-            <div class="title">
-              <i class="edit icon"></i>
-              Easy Editing on Github
-            </div>
-            <div class="content">
-              <p>All entries and documentation is editable right through GitHub</p>
+            <div class="item">
+              <div class="title"><i class="dropdown icon"></i>
+                <i class="map icon"></i>
+                Visualize in a Map
+              </div>
+              <div class="content menu">
+                <p>Mark locations in a map. Click on the markers for a popup to the entries data and link to them</p>
+              </div>
             </div>
 
-          </div> <!-- close accordion -->      </div>
+            <div class="item">
+              <div class="title"><i class="dropdown icon"></i>
+                <i class="tags icon"></i>
+                Tag Clouds
+              </div>
+              <div class="content menu">
+                <p>Tags are displayed as</p>
+              </div>
+            </div>
 
+            <div class="item">
+              <div class="title"><i class="dropdown icon"></i>
+                <i class="compass icon"></i>
+                Navigate and Entry
+              </div>
+              <div class="content menu">
+                <p>How initiatives are displayed</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="title"><i class="dropdown icon"></i>
+                <i class="edit icon"></i>
+                Easy Editing on Github
+              </div>
+              <div class="content">
+                <p>All entries and documentation is editable right through GitHub</p>
+              </div>
+            </div>
+
+
+          </div> <!-- close accordion -->
+        </div> <!-- close 6 column -->
+        <!-- Feature browser -->
         <div class="ten wide column">
           <img class="ui fluid image" src="/assets/img/browser.png">
         </div>
       </div> <!-- close grid container -->
     </div> <!-- close row -->
-
   <!-- Collections -->
     <div class="row">
       <div class="ui grid container">
         <div class="sixteen wide column center aligned">
           <h3>Collections</h3>
         </div>
-        <div class="four wide column">
-          <h2 class="ui center aligned icon header">
-            <i class="circular travel icon"></i>
-            Projects
-          </h2>
-            Have particular aims, such as designing an instrument or an educational workshop
-        </div>
-        <div class="four wide column">
-          <h2 class="ui center aligned icon header">
-            <i class="circular lab icon"></i>
-            Labs
-          </h2>
-            Dedicated physical spaces, static or mobile, with materials and equipment
-        </div>
-        <div class="four wide column">
-          <h2 class="ui center aligned icon header">
-            <i class="circular users icon"></i>
-            Groups
-          </h2>
-            Associations of people (online and offline) interested in DIYbio
-        </div>
-        <div class="four wide column">
-          <h2 class="ui center aligned icon header">
-            <i class="circular ticket icon"></i>
-            Events
-          </h2>
-            Global or regional events by and/or for the DIYbio community
-        </div>
       </div>
-    </div>
 
+        <div class="ui grid container">
+          <div class="doubling four column row">
+            <div class="column">
+              <h2 class="ui center aligned icon header">
+                <i class="circular travel icon"></i>
+                Projects
+              </h2>
+                Have particular aims, such as designing an instrument or an educational workshop
+            </div>
+
+            <div class="column">
+              <h2 class="ui center aligned icon header">
+                <i class="circular lab icon"></i>
+                Labs
+              </h2>
+                Dedicated physical spaces, static or mobile, with materials and equipment
+            </div>
+            <div class="column">
+              <h2 class="ui center aligned icon header">
+                <i class="circular users icon"></i>
+                Groups
+              </h2>
+                Associations of people (online and offline) interested in DIYbio
+            </div>
+            <div class="column">
+              <h2 class="ui center aligned icon header">
+                <i class="circular ticket icon"></i>
+                Events
+              </h2>
+                Global or regional events by and/or for the DIYbio community
+            </div>
+          </div> <!--  close doubling row -->
+        </div> <!-- close grid container -->
+      </div>  <!-- close row -->
+
+      <div class="row">
+        <div class="ui grid container">
+          <div class="doubling four column row">
+            <div class="column">
+              <h2 class="ui center aligned icon header">
+                <i class="circular rocket icon"></i>
+                Startups
+              </h2>
+                Entrepreneurial ventures and generally concern products or services
+            </div>
+            <div class="column">
+              <h2 class="ui center aligned icon header">
+                <i class="circular leaf icon"></i>
+                Incubators
+              </h2>
+                Organizations and spaces that help projects and startups to develop
+            </div>
+            <div class="column">
+              <h2 class="ui center aligned icon header">
+                <i class="circular share alternate icon"></i>
+                Networks
+              </h2>
+                Organizations that facilitate communication and collaboration
+            </div>
+            <div class="column">
+              <h2 class="ui center aligned icon header">
+                <i class="circular umbrella icon"></i>
+                Others
+              </h2>
+                Umbrella term for the rest of misfit entries. New collections may arise
+            </div>
+          </div> <!-- close doubling row -->
+        </div> <!-- close grid container -->
+      </div> <!-- close row -->
+  <!-- Counter -->
     <div class="row">
       <div class="ui grid container">
-        <div class="four wide column">
-          <h2 class="ui center aligned icon header">
-            <i class="circular rocket icon"></i>
-            Startups
-          </h2>
-            Entrepreneurial ventures and generally concern products or services
-        </div>
-        <div class="four wide column">
-          <h2 class="ui center aligned icon header">
-            <i class="circular leaf icon"></i>
-            Incubators
-          </h2>
-            Organizations and spaces that help projects and startups to develop
-        </div>
-        <div class="four wide column">
-          <h2 class="ui center aligned icon header">
-            <i class="circular share alternate icon"></i>
-            Networks
-          </h2>
-            Organizations that facilitate communication and collaboration
-        </div>
-        <div class="four wide column">
-          <h2 class="ui center aligned icon header">
-            <i class="circular umbrella icon"></i>
-            Others
-          </h2>
-            Umbrella term for the rest of misfit entries. New collections may arise
-        </div>
+        <div class="sixteen wide column">
+          <div class="ui three statistics">
+            <div class="statistic">
+              <div class="value">
+                176
+              </div>
+              <div class="label">
+                Entries
+              </div>
+            </div>
+            <div class="statistic">
+              <div class="value">
+                16
+              </div>
+              <div class="label">
+                Downloads
+              </div>
+            </div>
+            <div class="statistic">
+              <div class="value">
+                33
+              </div>
+              <div class="label">
+                Contributors
+              </div>
+            </div>
+          </div> <!-- close statistics -->
+        </div> <!-- close 16 column -->
       </div> <!-- close grid container -->
     </div> <!-- close row -->
-
-  <!-- Counter -->
-    <div class="row grey">
-    <div class="ui grid container">
-      <div class="sixteen wide column">
-        <div class="ui three statistics">
-          <div class="statistic">
-            <div class="value">
-              176
-            </div>
-            <div class="label">
-              Entries
-            </div>
-          </div>
-          <div class="statistic">
-            <div class="value">
-              16
-            </div>
-            <div class="label">
-              Downloads
-            </div>
-          </div>
-          <div class="statistic">
-            <div class="value">
-              33
-            </div>
-            <div class="label">
-              Contributors
-            </div>
-          </div>
-        </div> <!-- close statistics -->
-      </div> <!-- close 16 column -->
-    </div> <!-- close grid container -->
-  </div> <!-- close row -->
-
   <!-- Featured Entry -->
-
-
   <!-- Supported -->
+    <div class="row primaryColor ">
+     <div class="ui grid container center aligned">
+       <div class="sixteen wide column">
+         <div class="ui middle aligned five equal width column grid">
+             <!-- Coded with Love -->
+             <div class="column">
+                  <img src="/assets/img/sphere-coded.png">
+             </div>
+             <!-- Supported by: -->
+             <div class="column">
+                Supported by
+               <div class="ui two column grid">
+                 <div class="six wide column">
+                   <a href="https://diybio.org"><img src="assets/img/diybio.png"></a>
+                 </div>
+                 <div class="ten wide column">
+                   <a href="http://www.unige.ch"><img src="/assets/img/unige.png"></a>
+                 </div>
+               </div>
+             </div>
+             <!-- Hosted by: -->
+             <div class="column">
+                Hosted by
+               <div class="ui one column grid">
+                 <div class="column">
+                   <a href="https://pages.github.com"><img src="/assets/img/github-logo.png"></a>
+                 </div>
+               </div>
+             </div>
+             <!-- Powered by: -->
+             <div class="column">
+                Powered by
+               <div class="ui two column grid">
+                 <div class="column">
+                   <a href="https://jekyllrb.com"><img src="/assets/img/jekyll.png"></a>
+                 </div>
+                 <div class="column">
+                   <a href="https://travis-ci.org"><img src="/assets/img/travis.png"></a>
+                 </div>
+               </div>
+             </div>
+             <!-- Search by: -->
+             <div class="column">
+               Search by
+               <div class="ui one column grid">
+                 <div class="column">
+                   <a href="https://www.algolia.com"><img src="/assets/img/algolia.png"></a>
+                 </div>
+               </div>
+             </div>
+           </div> <!-- close 5 column grid -->
+         </div> <!-- close 16 column -->
+       </div> <!-- close grid container -->
+     </div> <!-- close row -->
+  </div> <!-- close padded grid -->
 
-  </div> <!-- close paded grid-->
-
-  <!-- Supported -->
-  <div class="ui grid">
-  <div class="seven column row grey">
-    <div class="column">
-      <img src="/assets/img/sphere-coded.png">
-    </div>
-    <div class="column">
-      Supported by
-      <div class="ui grid">
-        <div class="eight wide column">
-          <a href="https://diybio.org"><img src="assets/img/diybio.png"></a>
-        </div>
-        <div class="eight wide column">
-          <a href="http://www.unige.ch"><img src="/assets/img/unige.png"></a>
-        </div>
-      </div>
-    </div>
-    <div class="column">
-      Hosting by
-      <div class="ui grid">
-        <div class="sixteen wide column">
-          <a href="https://pages.github.com"><img src="/assets/img/github-logo.png"></a>
-        </div>
-      </div>
-    </div>
-    <div class="column">
-      Powered by
-      <div class="ui grid">
-        <div class="eight wide column">
-          <a href="https://jekyllrb.com"><img src="/assets/img/jekyll.png"></a>
-        </div>
-        <div class="eight wide column">
-          <a href="https://travis-ci.org"><img src="/assets/img/travis.png"></a>
-        </div>
-      </div>
-    </div>
-    <div class="column">
-      Search by
-      <div class="ui grid">
-        <div class="sixteen wide column">
-          <a href="https://www.algolia.com"><img src="/assets/img/algolia.png"></a>
-        </div>
-      </div>
-    </div>
-  </div>
 
 
       {% include footer.html %}
