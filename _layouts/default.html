@@ -23,12 +23,15 @@
 
     {% if page.layout == 'docs' %}
     <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+    <script type="text/javascript">$('.menu .item').tab();</script>
+    <script type="text/javascript">$('.tabular.menu .item').tab();</script>
+
+
+
       {% javascript docs %}
     {% endif %}
 
-    <script type="text/javascript">
-      $('.ui.dropdown').dropdown();
-    </script>
+    <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
 
   </body>
 

@@ -1,133 +1,98 @@
 ---
 layout: default
-permalink: draft/
+permalink: /draft/
 ---
+<div class="ui container">
 
 
-<div class="ui padded grid">
-
-  <div class="row olive">
-    <div class="ui grid container">
-      <div class="sixteen wide column">
-        <div class="ui red inverted segment">Hero</div>
-      </div>
+<div class="ui card">
+  <a class="image" href="#">
+    <img src="/assets/img/header.jpg">
+  </a>
+  <div class="content">
+    <a class="header" href="#">Steve Jobes</a>
+    <div class="meta">
+      <a>Last Seen 2 days ago</a>
     </div>
   </div>
-
-  <div class="row black">
-    <div class="ui grid container">
-      <div class="sixteen wide column">
-        <div class="ui orange inverted segment">Description</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row yellow">
-    <div class="ui grid container">
-      <div class="sixteen wide column">
-        <div class="ui purple inverted segment">Features</div>
-      </div>
-      <div class="six wide column">
-        <div class="ui pink inverted segment">Features</div>
-      </div>
-      <div class="ten wide column">
-        <div class="ui blue inverted segment">Features</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row teal">
-    <div class="ui grid container">
-      <div class="sixteen wide column">
-        <div class="ui inverted segment">Collections</div>
-      </div>
-      <div class="four wide column">
-        <div class="ui violet inverted segment">Event</div>
-      </div>
-      <div class="four wide column">
-        <div class="ui violet inverted segment">Other</div>
-      </div>
-      <div class="four wide column">
-        <div class="ui violet inverted segment">Startup</div>
-      </div>
-      <div class="four wide column">
-        <div class="ui violet inverted segment">Incubator</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row teal">
-    <div class="ui grid container">
-      <div class="four wide column">
-        <div class="ui violet inverted segment">Project</div>
-      </div>
-      <div class="four wide column">
-        <div class="ui violet inverted segment">Lab</div>
-      </div>
-      <div class="four wide column">
-        <div class="ui violet inverted segment">Group</div>
-      </div>
-      <div class="four wide column">
-        <div class="ui violet inverted segment">Network</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row green">
-    <div class="ui equal width grid container">
-      <div class="column">
-        <div class="ui orange inverted segment">Count</div>
-      </div>
-      <div class="column">
-        <div class="ui orange inverted segment">Contributors</div>
-      </div>
-      <div class="column">
-        <div class="ui orange inverted segment">Forks</div>
-      </div>
-    </div>
-  </div>
-
-
 </div>
 
-<div class="ui padded grid">
-  <div class="row olive">
-    <div class="ui grid container">
-      <div class="sixteen wide column">
+<a class="ui card" href="http://www.dog.com">
+  <div class="content">
+    <div class="header">Cute Dog</div>
+    <div class="meta">
+      <span class="category">Animals</span>
+    </div>
+    <div class="description">
+      <p></p>
+    </div>
+  </div>
+  <div class="extra content">
+    <div class="right floated author">
+      <img class="ui avatar image" src="/assets/img/header.jpg"> Matt
+    </div>
+  </div>
+</a>
 
-        <div class="ui two column grid">
-          <div class="column">
-            <div class="ui three column grid">
-              <div class="column">
-                <div class="ui blue inverted segment">Count</div>
-              </div>
-              <div class="column">
-                <div class="ui blue inverted segment">Count</div>
-              </div>
-              <div class="column">
-                <div class="ui blue inverted segment">Count</div>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="ui blue inverted segment">Count</div>
-          </div>
-          <div class="column">
-            <div class="ui blue inverted segment">Count</div>
-          </div>
-          <div class="column">
-            <div class="ui grid">
-              <div class="ten wide column">
-                <div class="ui blue inverted segment">Count</div>
-              </div>
-              <div class="six wide column">
-                <div class="ui blue inverted segment">Count</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+<div class="ui divided items">
+  <div class="item">
+    <div class="image">
+      <img src="/assets/img/header.jpg">
+    </div>
+    <div class="content">
+      <a class="header">12 Years a Slave</a>
+      <div class="meta">
+        <span class="cinema">Union Square 14</span>
+      </div>
+      <div class="description">
+        <p></p>
+      </div>
+      <div class="extra">
+        <div class="ui label">IMAX</div>
+        <div class="ui label"><i class="globe icon"></i> Additional Languages</div>
       </div>
     </div>
   </div>
+  <div class="item">
+    <div class="image">
+      <img src="/assets/img/header.jpg">
+    </div>
+    <div class="content">
+      <a class="header">My Neighbor Totoro</a>
+      <div class="meta">
+        <span class="cinema">IFC Cinema</span>
+      </div>
+      <div class="description">
+        <p></p>
+      </div>
+      <div class="extra">
+        <div class="ui right floated primary button">
+          Buy tickets
+          <i class="right chevron icon"></i>
+        </div>
+        <div class="ui label">Limited</div>
+      </div>
+    </div>
+  </div>
+  <div class="item">
+    <div class="image">
+      <img src="/assets/img/header.jpg">
+    </div>
+    <div class="content">
+      <a class="header">Watchmen</a>
+      <div class="meta">
+        <span class="cinema">IFC</span>
+      </div>
+      <div class="description">
+        <p></p>
+      </div>
+      <div class="extra">
+        <div class="ui right floated primary button">
+          Buy tickets
+          <i class="right chevron icon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
