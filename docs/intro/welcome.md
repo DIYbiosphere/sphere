@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: docs/introduction/welcome/
+permalink: /docs/introduction/welcome/
 title: Welcome to the docs!
 ---
 
