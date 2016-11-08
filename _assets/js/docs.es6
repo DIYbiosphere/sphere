@@ -1,4 +1,8 @@
 (function($) {
+  
+  $('.menu .item').tab();
+  $('.tabular.menu .item').tab();
+  
   docsearch({
     apiKey: '3fbbeadab8062263c32927092022ff52',
     indexName: 'diybio',
