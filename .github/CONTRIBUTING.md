@@ -1,5 +1,5 @@
 ---
-layout: repo-doc
+layout: docs
 permalink: /docs/support/contributing/
 title: Contributing
 ---
