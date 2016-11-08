@@ -12,12 +12,14 @@
 
     {% include footer.html %}
 
+
+    <script src="https://www.google.com/jsapi"></script>
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
     <script src="{{ "semantic/dist/semantic.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
+    <script type="text/javascript">$('.ui.accordion').accordion();</script>
 
     {% if page.layout == 'entries' %}
-
-
       {% javascript entries %}
     {% endif %}
 
@@ -25,13 +27,8 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
     <script type="text/javascript">$('.menu .item').tab();</script>
     <script type="text/javascript">$('.tabular.menu .item').tab();</script>
-
-
-
       {% javascript docs %}
     {% endif %}
-
-    <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
 
   </body>
 
