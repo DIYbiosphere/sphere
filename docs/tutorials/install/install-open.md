@@ -1,6 +1,6 @@
 
-{% include pills.html
-browser="blank" id1="openb"
+{% include tabs.html id="open"
+browser="blank"
 
 desktop="
 Click `+` and select the `Clone` tab look for the `sphere` repo
@@ -9,7 +9,7 @@ Click `+` and select the `Clone` tab look for the `sphere` repo
 - **Non-members**: should have forked the repo and have access to `YOUR-USER-NAME/sphere` repository
 
 Choose a location for the folder and click `Clone`
-" id2="opend"
+"
 terminal="
 Copy and paste the following line into the Terminal
 
@@ -19,4 +19,4 @@ git clone https://github.com/DIYbiosphere/sphere.git
 
 
 
-" id3="opent" %}
+" %}

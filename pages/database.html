@@ -7,54 +7,44 @@ permalink: database/
 <div class="ui grid container">
   <div class="sixteen wide column">
     <div class="ui fluid accordion vertical menu">
-          <div class="item">
-            <div class="title"><i class="dropdown icon"></i> <b><i class="tags icon"></i> Visualize Tags in a Cloud</b></div>
+      <div class="item">
+        <div class="title"><i class="dropdown icon"></i> <b><i class="tags icon"></i> Visualize Tags in a Cloud</b></div>
+        <div class="content menu">
+          Tags are displayed
+        </div>
+      </div>
+      <div class="item">
+        <div class="title"><i class="dropdown icon"></i>
+           <b><i class="map icon"></i> Pin Entries in a Map</b></div>
+          <div class="content menu">
+            <div class="panel-body">
+              Mark locations in a map. Click on the markers for a popup to the entries data and link to them
+              <div id="map" style="height:500px;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="title"><i class="dropdown icon"></i>
+             <b><i class="filter icon"></i>Refine Search</b></div>
             <div class="content menu">
-              Tags are displayed
+              {% include refine-search.html %}
             </div>
           </div>
           <div class="item">
             <div class="title"><i class="dropdown icon"></i>
-               <b><i class="map icon"></i> Pin Entries in a Map</b></div>
-              <div class="content menu">
-                <div class="panel-body">
-                  Mark locations in a map. Click on the markers for a popup to the entries data and link to them
-                  <div id="map" style="height:500px;"></div>
-                </div>
+              <b><i class="list icon"></i>List of Entries</b></div>
+            <div class="content menu">
+              <div class="panel-body">
+                <input id="search-box" type="text" />
+                <div id="hits-container"></div>
+                <div id="pagination-container"></div>
               </div>
             </div>
-            <div class="item">
-              <div class="title"><i class="dropdown icon"></i>
-                 <b><i class="filter icon"></i>Refine Search</b></div>
-                <div class="content menu">
-                  Search initiatives by name, location, keywords. or use the advanced filter with predetermined filters
-
-                </div>
-              </div>
-              <div class="item">
-                <div class="title"><i class="dropdown icon"></i>
-                  <b><i class="list icon"></i>List of Entries</b><div>
-                <div class="content menu">
-                  <div class="panel-body">
-                    <input id="search-box" type="text" />
-                    <div id="hits-container"></div>
-                    <div id="pagination-container"></div>
-                  </div>
-                </div>
-              </div>
-
-
-
-
-            </div> <!-- close accordion -->
-
-
-
-</div> <!-- close 16 column -->
+          </div>
+        </div> <!-- close accordion -->
+    </div> <!-- close 16 column -->
 </div> <!-- close grid container -->
 
 <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
 <script src="{{ "semantic/dist/semantic.min.js" | prepend: site.baseurl }}"></script>
-<script type="text/javascript">
-  $('.ui.accordion').accordion();
-</script>
+<script type="text/javascript">$('.ui.accordion').accordion();</script>
