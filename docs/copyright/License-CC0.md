@@ -1,5 +1,5 @@
 ---
-layout: repo-doc
+layout: docs
 permalink: /docs/copyright/cc0/
 title: CC0 Public Domain Dedication
 ---

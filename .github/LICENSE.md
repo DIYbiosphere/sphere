@@ -1,5 +1,5 @@
 ---
-layout: repo-doc
+layout: docs
 permalink: /docs/copyright/mit/
 title: The MIT License
 ---

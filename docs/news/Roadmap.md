@@ -1,5 +1,5 @@
 ---
-layout: repo-doc
+layout: docs
 permalink: /docs/news/roadmap/
 title: Roadmap
 summary: In this section we detail
