@@ -1,0 +1,34 @@
+
+.navbeer {
+    height: 60px !important;
+}
+.navbeer-brand {
+    display: inline-block;
+}
+    .navbeer-brand img {
+        height: 60px !important;
+        line-height: 60px !important;
+    }
+    /*
+        In case of you are using text for the Brand Name instead image,
+        put your text inside a span tag
+    */
+    .navbeer-brand span {
+        line-height: 60px !important;
+        white-space: nowrap;
+        margin-left: 15px;
+        color: #ccc;
+    }
+.navbeer-sandwich {
+    position: relative !important;
+    display: none;
+}
+.navbeer-sandwich-icon {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.navbeer-sandwich .menu .icon {
+    position: absolute !important;
+    top: 40% !important;
+    right: 10px !important;
+}
