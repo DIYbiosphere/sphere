@@ -24,10 +24,64 @@
     {% endif %}
 
     {% if page.layout == 'docs' %}
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
-    <script type="text/javascript">$('.menu .item').tab();</script>
-    <script type="text/javascript">$('.tabular.menu .item').tab();</script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+      <script type="text/javascript">$('.menu .item').tab();</script>
+      <script type="text/javascript">$('.tabular.menu .item').tab();</script>
       {% javascript docs %}
+    {% endif %}
+
+    {% if page.layout == 'form' %}
+    <!-- Algolia places -->
+      <script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script>
+      <!-- Address and autocomplete -->
+      <script>
+      (function() {
+        var placesAutocomplete = places({
+          container: document.querySelector('#form-address'),
+          type: 'address',
+          templates: {
+            value: function(suggestion) {
+              return suggestion.name;
+            }
+          }
+        });
+        placesAutocomplete.on('change', function resultSelected(e) {
+          document.querySelector('#form-address2').value = e.suggestion.administrative || '';
+          document.querySelector('#form-city').value = e.suggestion.city || '';
+          document.querySelector('#form-zip').value = e.suggestion.postcode || '';
+        });
+      })();
+      </script>
+      <!-- City Search -->
+      <script>
+      (function() {
+        var placesAutocomplete = places({
+          container: document.querySelector('#city'),
+          type: 'city',
+          aroundLatLngViaIP: false,
+          templates: {
+            value: function(suggestion) {
+              return suggestion.name;
+            }
+          }
+        });
+      })();
+      </script>
+      <!-- Country Search -->
+      <script>
+      (function() {
+        var placesAutocomplete = places({
+          container: document.querySelector('#country'),
+          type: 'country',
+          templates: {
+            suggestion: function(suggestion) {
+              return '<i class="flag ' + suggestion.countryCode + '"></i> ' +
+                suggestion.highlight.name;
+            }
+          }
+        });
+      })();
+      </script>
     {% endif %}
 
   </body>
