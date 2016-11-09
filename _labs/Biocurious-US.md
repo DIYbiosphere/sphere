@@ -1,27 +1,13 @@
 ---
 manager:
-collection: Lab
 
 title: Biocurious
+summary: Biocurious is a community lab located in California
 logo: http://biocurious.org/wordpress/wp-content/uploads/2014/11/logo1.png
 website: http://biocurious.org/
 since: 2010
 
-host:
-  name:
-  sphere:
-  web:
-
 type: Non-profit
-
-affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
-
 
 address: 845 Stewart Drive
 directions:
@@ -31,29 +17,17 @@ state: California
 country: United States
 
 tags:
+  - open source
+  - synthetic biology
+  - hardware
+  - paid
+  - mycology
 
 email: info@biocurious.org
-blog:
-rss:
-wiki:
 forum: https://groups.google.com/forum/#!forum/biocurious
-mailinglist:
-irc:
-gitter:
-slack:
 meetup: http://www.meetup.com/biocurious/
 twitter: https://twitter.com/biocuriouslab
 facebook: https://www.facebook.com/BioCurious
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
 ---
 
 

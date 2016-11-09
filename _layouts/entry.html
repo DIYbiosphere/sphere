@@ -3,17 +3,23 @@ layout: default
 ---
 
 <div class="ui grid container">
-  {% include breadcrumbs.html %}
-  <div>
-    <h1 class="ui header">{{ page.title }}
-    <div class="ui divider"></div>
-    <div class="ui sub header">{{ page.summary }}</div>
-    </h1>
+  <div class="sixteen wide column">
+    {% include breadcrumbs.html %}
   </div>
+
+  <div class="sixteen wide column">
+    <div>
+      <h1 class="ui header">
+        {{ page.title }}
+        <div class="ui sub header">{{ page.summary }}</div>
+      </h1>
+      <div class="ui divider"></div>
+    </div>
     <div>
       {% include infobox.html %}
       <article>
         {{content}}
       </article>
     </div>
+  </div>
 </div>
