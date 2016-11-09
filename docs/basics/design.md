@@ -1,6 +1,7 @@
 ---
 layout: docs
 permalink: /docs/basics/design/
+crumb: basics
 title: Basics of the Design
 summary: In this section
 ---

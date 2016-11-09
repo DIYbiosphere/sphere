@@ -9,7 +9,7 @@ summary: Tutorial for editing an entry for contributors (7 steps)
 {% include_relative edit-tabs-nav.md %}
 
 
-{% include warning.html title="Before you begin, you should:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/docs/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/docs/about/copyright/license/)." %}
+{% include warning.html title="Before you begin, you should:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/docs/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/docs/about/copyright/terms-of-use/)." %}
 
 1. **Fork** the [sphere] repository to make changes
 2. In your forked copy, open the _database folder, find the file that you want to edit. and Click Edit

@@ -1,6 +1,7 @@
 ---
 layout: docs
 permalink: /docs/basics/database/
+crumb: basics
 title: Basics of the Database
 summary: In this section we detail the basic structure, components, and organization of the Database
 ---

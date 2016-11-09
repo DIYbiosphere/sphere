@@ -1,6 +1,7 @@
 ---
 layout: docs
 permalink: /docs/support/eli5/
+crumb: support
 title: Explain Like I'm 5 (ELI5) Guide
 summary: A super-simple/101/beginner/crash-course/for-dummies guide to help out the utterly confused
 ---

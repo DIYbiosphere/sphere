@@ -1,7 +1,8 @@
 ---
 layout: docs
-title: Contributor License Agreement
-permalink: /docs/copyright/cla/
+permalink: /docs/copyright/contributor-terms/
+crumb: copyright
+title: Contributor Terms
 summary: The contributor terms for the project stated in a precise legal language, i.e. the rights waived and granted from contributions
 ---
 

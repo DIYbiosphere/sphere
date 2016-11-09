@@ -1,6 +1,7 @@
 ---
 layout: docs
 permalink: /docs/tutorials/add-entry/contributors/
+crumb: tutorials
 tab: contributors
 title: Adding a New Entry
 summary: Tutorial for adding a new entry for contributors (7 steps)

@@ -1,6 +1,7 @@
 ---
 layout: docs
 permalink: /docs/about/community/
+crumb: about
 title: Development Community
 summary: The composition of our contributing community and the roles and privileges of members of the development community
 ---

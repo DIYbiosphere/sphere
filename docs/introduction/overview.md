@@ -1,6 +1,7 @@
 ---
 layout: docs
 permalink: /docs/introduction/overview/
+crumb: introduction
 title: Overview of the DIYbiosphere
 summary: General outlook of the entire project; a short summary.
 ---

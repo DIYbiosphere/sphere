@@ -67,10 +67,10 @@
 [coc]: /docs/about/coc/
 [communication]: /docs/about/communication/
 [copyright]: /docs/copyright/
-[license]: /docs/copyright/license/
+[license]: /docs/copyright/terms-of-use/
 [cc0]: /docs/copyright/cc0/
 [mit]: /docs/copyright/mit/
-[cla]: /docs/copyright/cla/
+[cla]: /docs/copyright/contributor-terms/
 [basics]: /docs/basics/
 [database]: /docs/basics/database/
 [development]: /docs/basics/development/
@@ -99,10 +99,10 @@
 [noting-copyright]: /docs/tutorials/noting-copyright/
 [how-desktop]: /docs/tutorials/using-github-desktop
 [how-atom]: /docs/tutorials/using-github-desktop
-[news]: /docs/news/
-[blog]: /docs/news/blog/
-[changelog]: /docs/news/changelog/
-[roadmap]: /docs/news/roadmap
+[news]: /docs/updates/
+[blog]: /docs/updates/blog/
+[changelog]: /docs/updates/changelog/
+[roadmap]: /docs/updates/roadmap
 
 
 [values]: /docs/about/organization/#our-values

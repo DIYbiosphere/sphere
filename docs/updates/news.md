@@ -1,6 +1,7 @@
 ---
 layout: docs
-permalink: /docs/news/
+permalink: /docs/updates/
+crumb: updates
 title: News
 summary: In this section
 ---

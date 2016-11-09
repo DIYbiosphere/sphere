@@ -94,7 +94,7 @@ If your PR does not pass the Travis build DO NOT merge! Check either in Travis o
 
 
 [Code of Conduct]: /docs/about/coc/
-[Copyright Terms]: /docs/copyright/license/
+[Copyright Terms]: /docs/copyright/terms-of-use/
 [Issues]: https://github.com/DIYbiosphere/sphere/issues
 [Pull Requests]: https://github.com/DIYbiosphere/sphere/pulls
 [Getting Started]: /docs/introduction/getting-started

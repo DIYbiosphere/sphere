@@ -1,6 +1,7 @@
 ---
 layout: docs
-permalink: /docs/help/tutorials/using-atom/
+permalink: /docs/tutorials/using-atom/
+crumb: tutorials
 title: Atom
 ---
 

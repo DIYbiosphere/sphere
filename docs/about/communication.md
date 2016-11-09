@@ -1,6 +1,7 @@
 ---
 layout: docs
 permalink: /docs/about/communication/
+crumb: about
 title: Communication
 summary: The different external and internal communication platforms the development community uses
 ---

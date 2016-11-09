@@ -1,6 +1,7 @@
 ---
 layout: docs
 permalink: /docs/resources/hints/
+crumb: resources
 title: Helpful Hints
 summary: In this section
 ---

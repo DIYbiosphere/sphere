@@ -1,6 +1,7 @@
 ---
 layout: docs
-permalink: /docs/news/roadmap/
+permalink: /docs/updates/roadmap/
+crumb: updates
 title: Roadmap
 summary: In this section we detail
 ---

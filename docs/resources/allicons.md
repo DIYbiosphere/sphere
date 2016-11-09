@@ -1,6 +1,7 @@
 ---
 layout: docs
 permalink: /docs/resources/icons/
+crumb: resources
 title: SVG Icons Cheatsheet
 summary: In this section
 ---

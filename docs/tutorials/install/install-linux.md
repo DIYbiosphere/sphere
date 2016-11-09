@@ -2,6 +2,7 @@
 layout: docs
 title: Install to Work Locally
 permalink: /docs/tutorials/install/linux
+crumb: tutorials
 tab: linux
 summary: Installation instructions to work with the repository locally according to your operating system, choose yours.
 ---

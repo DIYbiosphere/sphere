@@ -1,6 +1,7 @@
 ---
 layout: docs
 permalink: /docs/introduction/welcome/
+crumb: introduction
 title: Welcome to the docs!
 ---
 

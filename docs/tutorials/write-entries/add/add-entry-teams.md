@@ -1,6 +1,7 @@
 ---
 layout: docs
 permalink: /docs/tutorials/add-entry/teams/
+crumb: tutorials
 tab: teams
 title: Adding a New Entry
 summary: Tutorial for adding a new entry for team members (4 steps)

@@ -1,6 +1,7 @@
 ---
 layout: docs
 permalink: /docs/about/organization/
+crumb: about
 title: DIYbiosphere Organization
 summary: The DIYbiosphere as an open organization. Our vision, mission, values, governance and partners
 ---

@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/DIYbiosphere/sphere.svg?branch=master)](https://travis-ci.org/DIYbiosphere/sphere)
 [![Dependency Status](https://www.versioneye.com/user/projects/57cfedcac07f2e0042bf94db/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/57cfedcac07f2e0042bf94db)
-[![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0-lightgrey.svg)](http://sphere.diybio.org/license/)
+[![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0-lightgrey.svg)](http://sphere.diybio.org/terms-of-use/)
 ![](https://reposs.herokuapp.com/?path=DIYbiosphere/sphere&color=yellowgreen)
 [![HitCount](https://hitt.herokuapp.com/DIYbiosphere/sphere.svg)](https://github.com/DIYbiosphere/sphere)
 [![Gratipay Team](https://img.shields.io/gratipay/team/diybiosphere.svg?maxAge=2592000)](https://gratipay.com/DIYbiosphere/)
@@ -75,11 +75,11 @@ If you wish to credit our work, please do so as “© DIYbiosphere contributors�
 [DIYbiosphere organization]: https://github.com/DIYbiosphere "Go to the DIYbiosphere organization GitHub page"
 [request membership]: http://sphere.diybio.org/docs/support/contributing/#membership-request "How to request membership"
 [overview]: http://sphere.diybio.org/docs/about/overview "See an overview of the DIYbiosphere Project"
-[road map]: http://sphere.diybio.org/docs/news/roadmap/ "See our Roadmap for the DIYbiosphere project"
+[road map]: http://sphere.diybio.org/docs/updates/roadmap/ "See our Roadmap for the DIYbiosphere project"
 [Getting started]: http://sphere.diybio.org/docs/introduction/getting-started/ "How to use and contribute to the project"
 [Contributing guidelines]: http://sphere.diybio.org/docs/support/contributing/ "How to Issues and Pull Requests"
 [ELI5 guide]: http://sphere.diybio.org/docs/resources/ELI5/ "Learn GitHub easy"
 [MIT]: https://opensource.org/licenses/MIT "Go to MIT license"
 [CC0]: https://creativecommons.org/publicdomain/zero/1.0/ "Go to CC0 license"
-[LICENSE]: http://sphere.diybio.org/docs/copyright/license/ "See a human-readable license of the DIYbiosphere"
-[CLA]: http://sphere.diybio.org/docs/copyright/cla/ "See in legal terms the IPR of the DIYbiosphere"
+[LICENSE]: http://sphere.diybio.org/docs/copyright/terms-of-use/ "See a human-readable license of the DIYbiosphere"
+[CLA]: http://sphere.diybio.org/docs/copyright/contributor-terms/ "See in legal terms the IPR of the DIYbiosphere"

@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/news/changelog/
+permalink: /docs/updates/changelog/
 title: Changelog
 ---
 # Changelog

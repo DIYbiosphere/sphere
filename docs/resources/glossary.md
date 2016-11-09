@@ -1,6 +1,7 @@
 ---
 layout: docs
 permalink: /docs/resources/glossary/
+crumb: resources
 title: Glossary of Terms
 summary: In this section we
 ---

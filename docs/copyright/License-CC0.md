@@ -1,6 +1,7 @@
 ---
 layout: docs
 permalink: /docs/copyright/cc0/
+crumb: copyright
 title: CC0 Public Domain Dedication
 ---
 
