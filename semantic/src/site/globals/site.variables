@@ -19,12 +19,13 @@
 
 /*-------------------
        Links
---------------------*/
+
 
 @linkColor           : currentColor;
 @linkUnderline       : underline;
 @linkHoverColor      : @primaryColor;
 @linkHoverUnderline  : none;
+--------------------*/
 
 /*-------------------
     Focused Input
