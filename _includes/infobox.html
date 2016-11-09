@@ -1,4 +1,4 @@
-<div class="ui basic segment right floated">
+<div class="ui basic segment right floated compact infobox">
   <div class="ui segments">
     <div class="ui padded segment">
 
@@ -82,21 +82,22 @@
           {% endif %}
         </div>
 
-
-
-
     </div>
-    <div class="ui padded segment">
     <!-- Tags -->
-      {% if page.tags %}
-      <span data-tooltip="Tags"><i class="tags icon"></i></span>
-      {{ page.tags | array_to_sentence_string }}
-      {% endif %}
-    </div>
 
-    <div class="ui secondary segment">
-      {% include social-icons.html %}
+
+
+
+
+
+    {% if page.tags !='' %}
+    <div class="ui padded segment">
+      <span data-tooltip="Tags"><i class="tags icon"></i></span>
+        {% for tag in page.tags %}
+        <div class="ui tiny label">{{ tag }}</div>
+        {% endfor %}
     </div>
+    {% endif %}
 
   </div> <!-- close segments -->
 </div> <!-- close basic segment -->

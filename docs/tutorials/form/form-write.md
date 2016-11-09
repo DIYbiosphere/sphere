@@ -15,14 +15,14 @@ step: write
          <i class="dropdown icon"></i>
          <div class="default text">Collection</div>
          <div class="menu">
-             <div class="item" data-value="project">Project</div>
-             <div class="item" data-value="startup">Startup</div>
-             <div class="item" data-value="lab">Lab</div>
-             <div class="item" data-value="incubator">Incubator</div>
-             <div class="item" data-value="group">Group</div>
-             <div class="item" data-value="network">Network</div>
-             <div class="item" data-value="event">Event</div>
-             <div class="item" data-value="other">Other</div>
+             <div class="item" data-value="project"><i class="travel icon"></i> Project</div>
+             <div class="item" data-value="startup"><i class="rocket icon"></i> Startup</div>
+             <div class="item" data-value="lab"><i class="lab icon"></i> Lab</div>
+             <div class="item" data-value="incubator"><i class="leaf icon"></i> Incubator</div>
+             <div class="item" data-value="group"><i class="users icon"></i> Group</div>
+             <div class="item" data-value="network"><i class="share alternative icon"></i> Network</div>
+             <div class="item" data-value="event"><i class="ticket icon"></i> Event</div>
+             <div class="item" data-value="other"><i class="umbrella icon"></i> Other</div>
          </div>
      </div>
   </div>

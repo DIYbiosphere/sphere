@@ -12,6 +12,11 @@
   flex: 1;
 }
 
+.infobox {
+  min-width: 250px;
+  width: 300px;
+}
+
 article {
   a[href^="http"]:after {
     display: inline-block;

@@ -1,98 +1,136 @@
 ---
 layout: default
 permalink: /draft/
+
+
+
+title: Biocurious
+summary: Biocurious is a community lab located in California
+logo: http://biocurious.org/wordpress/wp-content/uploads/2014/11/logo1.png
+website: http://biocurious.org/
+since: 2010
+
+type: Non-profit
+
+address: 845 Stewart Drive
+directions:
+postcode: 94085
+city: Sunnyvale
+state: California
+country: United States
+
+tags:
+  - open source
+  - synthetic biology
+  - hardware
+  - paid
+  - mycology
+
+email: info@biocurious.org
+forum: https://groups.google.com/forum/#!forum/biocurious
+meetup: http://www.meetup.com/biocurious/
+twitter: https://twitter.com/biocuriouslab
+facebook: https://www.facebook.com/BioCurious
 ---
 <div class="ui container">
 
-
-<div class="ui card">
-  <a class="image" href="#">
-    <img src="/assets/img/header.jpg">
-  </a>
-  <div class="content">
-    <a class="header" href="#">Steve Jobes</a>
-    <div class="meta">
-      <a>Last Seen 2 days ago</a>
-    </div>
-  </div>
-</div>
-
-<a class="ui card" href="http://www.dog.com">
-  <div class="content">
-    <div class="header">Cute Dog</div>
-    <div class="meta">
-      <span class="category">Animals</span>
-    </div>
-    <div class="description">
-      <p></p>
-    </div>
-  </div>
-  <div class="extra content">
-    <div class="right floated author">
-      <img class="ui avatar image" src="/assets/img/header.jpg"> Matt
-    </div>
-  </div>
-</a>
-
-<div class="ui divided items">
-  <div class="item">
+  <div class="ui card">
     <div class="image">
       <img src="/assets/img/header.jpg">
     </div>
     <div class="content">
-      <a class="header">12 Years a Slave</a>
+      <a class="header">{{ page.title }}</a>
       <div class="meta">
-        <span class="cinema">Union Square 14</span>
+        <span class="date">Joined in 2013</span>
       </div>
       <div class="description">
-        <p></p>
+        {{ page.summary }}
       </div>
-      <div class="extra">
-        <div class="ui label">IMAX</div>
-        <div class="ui label"><i class="globe icon"></i> Additional Languages</div>
-      </div>
+    </div>
+    <div class="extra content">
+      <a>
+        <i class="tags icon"></i>
+        22 Friends
+      </a>
     </div>
   </div>
-  <div class="item">
-    <div class="image">
-      <img src="/assets/img/header.jpg">
-    </div>
-    <div class="content">
-      <a class="header">My Neighbor Totoro</a>
-      <div class="meta">
-        <span class="cinema">IFC Cinema</span>
+
+
+  <div class="ui divided items">
+    <div class="item">
+      <div class="image">
+        <img src="/assets/img/header.jpg">
       </div>
-      <div class="description">
-        <p></p>
-      </div>
-      <div class="extra">
-        <div class="ui right floated primary button">
-          Buy tickets
-          <i class="right chevron icon"></i>
+      <div class="content">
+        <a class="header">{{ page.title }}</a>
+        <div class="meta">
+          <span class="cinema"></span>
         </div>
-        <div class="ui label">Limited</div>
+        <div class="description">
+          <p>{{ page.summary }}</p>
+        </div>
+        <div class="extra">
+        {% for tag in page.tags %}
+        <div class="ui tiny label">{{ tag }}</div>
+        {% endfor %}
+        </div>
       </div>
     </div>
-  </div>
-  <div class="item">
-    <div class="image">
-      <img src="/assets/img/header.jpg">
-    </div>
-    <div class="content">
-      <a class="header">Watchmen</a>
-      <div class="meta">
-        <span class="cinema">IFC</span>
+    <div class="item">
+      <div class="image">
+        <img src="/assets/img/header.jpg">
       </div>
-      <div class="description">
-        <p></p>
+      <div class="content">
+        <a class="header">My Neighbor Totoro</a>
+        <div class="meta">
+          <span class="cinema">IFC Cinema</span>
+        </div>
+        <div class="description">
+          <p></p>
+        </div>
+        <div class="extra">
+          <div class="ui right floated primary button">
+            Buy tickets
+            <i class="right chevron icon"></i>
+          </div>
+          <div class="ui label">Limited</div>
+        </div>
+        </div>
+        </div>
+    <div class="item">
+      <div class="image">
+        <img src="/assets/img/header.jpg">
       </div>
-      <div class="extra">
-        <div class="ui right floated primary button">
-          Buy tickets
-          <i class="right chevron icon"></i>
+      <div class="content">
+        <a class="header">Watchmen</a>
+        <div class="meta">
+          <span class="cinema">IFC</span>
+        </div>
+        <div class="description">
+          <p></p>
+        </div>
+        <div class="extra">
+          <div class="ui right floated primary button">
+            Buy tickets
+            <i class="right chevron icon"></i>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+
+
+    <button class="ui circular facebook icon mini button">
+      <i class="facebook icon"></i>
+    </button>
+    <button class="ui circular twitter icon mini button">
+      <i class="twitter icon"></i>
+    </button>
+    <button class="ui circular linkedin icon mini button">
+      <i class="linkedin icon"></i>
+    </button>
+    <button class="ui circular google plus mini icon button">
+      <i class="google plus icon"></i>
+    </button>
+
 </div>
