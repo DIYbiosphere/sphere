@@ -3,13 +3,13 @@ layout: docs
 permalink: /docs/about/community/
 crumb: about
 title: Development Community
-summary: The composition of our contributing community and the roles and privileges of members of the development community
+summary: The roles and privileges of our contributing and developing community
 ---
 
 Any, and all users who contribute to the project are considered _contributors_. The _development community_ refers to members of the [DIYbiosphere organization][gh_org] in GitHub. [Members][members] have greater access permissions to the project and can be part of [Teams][teams] who are key members with distict roles in the development and enjoy greater access privileges. Submit an issue to [request membership][join] and join us!
 
 ## Access Permission Levels
-There are different access levels: _Read_, _Write_, _Admin_, and _Owner_. Github [explains them][gh_permissions] in detail but we explain the most most important and relevant ones in this page.
+There are different access levels: _Read_, _Write_, _Admin_, and _Owner_. Github [explains them][gh_permissions] in detail but we explain the most important and relevant ones in this page.
 
 ## Non-members
 Anyone with a GitHub account can contribute to the DIYbiosphere project. Their contributions require more steps to complete. Basic actions of non-members are:
@@ -30,7 +30,7 @@ All [Members][gh_members] of the organization have _Write_ permissions. In addit
 
 - See other members and mention them, like @ahuacatl
 - See teams, create new teams, be team maintainer, and mention them, like [@DIYbiosphere/editors][gh_editors]
-- Manage Issues and Pull Requests (PR); close, merge (PRs), reopen, assign, apply labels, milestones. See our [workflow management][workflow] of tickets.
+- Manage Issues and Pull Requests (PR); close, merge, reopen, assign, apply labels, milestones. See our [workflow management][workflow] of tickets.
 - Have Issues and PR assigned to them
 - Edit and delete anyone's comments
 

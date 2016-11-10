@@ -3,7 +3,7 @@ layout: docs
 permalink: /docs/about/organization/
 crumb: about
 title: DIYbiosphere Organization
-summary: The DIYbiosphere as an open organization. Our vision, mission, values, governance and partners
+summary: Our vision, mission, values, governance and partners
 ---
 
 The DIYbiosphere is a participatory project to create a database of DIYbio initiatives. The project is managed by the [DIYbiosphere Organization][gh_org] and its [development community][community]. As an open organization, we are able to fluidly organize a large number of contributors while maintaining and striving towards a shared vision for the project.

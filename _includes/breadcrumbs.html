@@ -3,7 +3,7 @@
     {% if page.layout == "entry" %}
     <!-- Breadcrumb for Database -->
       <div class="column">
-        <div class="ui small breadcrumb">
+        <div class="ui breadcrumb">
           <a class="section" href="/database/">Database</a>
           <div class="divider"> / </div>
           <a class="section" href="/database/{{ page.collection | downcase }}/">{{ page.collection | capitalize }}</a>
@@ -15,15 +15,15 @@
     {% else %}
     <!-- Breadcrumb for Documentation -->
     <div class="column">
-      <div class="ui small breadcrumb">
-          <a class="section" href="/database/">Documentation</a>
+      <div class="ui breadcrumb">
+          <a class="section" href="/docs/">Documentation</a>
           {% if page.crumb %}
           <div class="divider"> / </div>
-          <a class="section" href="/database/{{ page.crumb | downcase }}/">{{ page.crumb | capitalize }}</a>
+          <a class="section" href="/docs/{{ page.crumb }}/">{{ page.crumb | capitalize }}</a>
           {% endif %}
           {% if page.crumb2 %}
           <div class="divider"> / </div>
-          <a class="section" href="/database/{{ page.crumb | downcase }}/{{ page.crumb2 | downcase }}/">{{ page.crumb2 | capitalize }}</a>
+          <a class="section" href="/docs/{{ page.crumb }}/{{ page.crumb2 | downcase }}/">{{ page.crumb2 | capitalize }}</a>
           {% endif %}
           <div class="divider"> / </div>
           <div class="active section">{{ page.title }}</div>

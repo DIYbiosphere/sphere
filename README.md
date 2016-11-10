@@ -2,9 +2,8 @@
 [![Dependency Status](https://www.versioneye.com/user/projects/57cfedcac07f2e0042bf94db/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/57cfedcac07f2e0042bf94db)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0-lightgrey.svg)](http://sphere.diybio.org/terms-of-use/)
 ![](https://reposs.herokuapp.com/?path=DIYbiosphere/sphere&color=yellowgreen)
-[![HitCount](https://hitt.herokuapp.com/DIYbiosphere/sphere.svg)](https://github.com/DIYbiosphere/sphere)
 [![Gratipay Team](https://img.shields.io/gratipay/team/diybiosphere.svg?maxAge=2592000)](https://gratipay.com/DIYbiosphere/)
-[![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/sphere.svg)]([![Gitter](https://badges.gitter.im/DIYbiosphere/sphere.svg)](https://gitter.im/DIYbiosphere/sphere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/sphere.svg)](https://gitter.im/DIYbiosphere/sphere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Slack Status](https://diybiosphere.herokuapp.com/badge.svg)](https://diybiosphere.herokuapp.com)
 
 

@@ -1,16 +1,20 @@
-<div id="{{ include.id }}">
-  <div class="ui top attached tabular menu">
-    <a class="item active" data-tab="#{{ include.id }}1"><span data-tooltip="Browser"><i class="browser icon"></i></span></a>
-    <a class="item" data-tab="#{{ include.id }}2"><span data-tooltip="GitHub Desktop"><i class="laptop icon"></i></span></a>
-    <a class="item" data-tab="#{{ include.id }}3"><span data-tooltip="Terminal"><i class="terminal icon"></i></span></a>
+<div id="{{ include.id }}" class="ui grid">
+  <div class="two wide column">
+    <div class="ui small vertical fluid tabular menu">
+      <a class="item active" data-tab="#{{ include.id }}1"><span data-tooltip="Browser"><i class="browser icon"></i></span></a>
+      <a class="item" data-tab="#{{ include.id }}2"><span data-tooltip="GitHub Desktop"><i class="laptop icon"></i></span></a>
+      <a class="item" data-tab="#{{ include.id }}3"><span data-tooltip="Terminal"><i class="terminal icon"></i></span></a>
+    </div>
   </div>
-  <div class="ui bottom attached tab segment active" data-tab="#{{ include.id }}1">
-    {{ include.browser | markdownify }}
-  </div>
-  <div class="ui bottom attached tab segment" data-tab="#{{ include.id }}2">
-    {{ include.desktop | markdownify }}
-  </div>
-  <div class="ui bottom attached tab segment" data-tab="#{{ include.id }}3">
-    {{ include.terminal | markdownify }}
+  <div class="fourteen wide streched column">
+    <div class="ui tab stacked segment active" data-tab="#{{ include.id }}1">
+      {{ include.browser | markdownify }}
+    </div>
+    <div class="ui tab stacked segment" data-tab="#{{ include.id }}2">
+      {{ include.desktop | markdownify }}
+    </div>
+    <div class="ui tab stacked segment" data-tab="#{{ include.id }}3">
+      {{ include.terminal | markdownify }}
+    </div>
   </div>
 </div>

@@ -5,8 +5,7 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta http-equiv="Content-Language" content="{{site.active_lang}}">
 
-  <!-- DocSearch -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
+
 
   <!-- SEMANTIC -->
   <link rel="icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}" type="image/x-icon">
@@ -16,8 +15,6 @@
   <link rel="stylesheet" type="text/css" href="{{ "semantic/dist/semantic.min.css" | prepend: site.baseurl }}">
 
   <link href="//cdnjs.cloudflare.com/ajax/libs/cc-icons/1.2.1/css/cc-icons.min.css" rel="stylesheet">
-
-
 
   {% if page.layout != 'landing' %}
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css" />
@@ -53,6 +50,7 @@
   <!-- instantsearch -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css">
 
-  <!-- Load navgoco -->
+  <!-- DocSearch -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
 
 </head>

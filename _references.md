@@ -67,10 +67,10 @@
 [coc]: /docs/about/coc/
 [communication]: /docs/about/communication/
 [copyright]: /docs/copyright/
-[license]: /docs/copyright/terms-of-use/
+[terms-of-use]: /docs/copyright/terms-of-use/
 [cc0]: /docs/copyright/cc0/
 [mit]: /docs/copyright/mit/
-[cla]: /docs/copyright/contributor-terms/
+[contributor-terms]: /docs/copyright/contributor-terms/
 [basics]: /docs/basics/
 [database]: /docs/basics/database/
 [development]: /docs/basics/development/
