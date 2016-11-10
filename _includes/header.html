@@ -9,9 +9,12 @@
         </div>
         <!-- right menu -->
         <div class="right menu">
+          {% if page.layout == "entries" %}
+          {% else %}
           <div class="item">
             {% include search-bar.html %}
           </div>
+          {% endif %}
           <div class="ui dropdown item">
             Database
             <i class="angle down icon"></i>
