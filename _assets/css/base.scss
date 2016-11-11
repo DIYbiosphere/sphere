@@ -12,6 +12,17 @@
   flex: 1;
 }
 
+.hero-image {
+  background-image: url(/assets/img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.testing {
+  padding-top: 8em;
+}
+
 .infobox {
   min-width: 250px;
   width: 300px;

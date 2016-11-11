@@ -34,26 +34,28 @@ facebook: https://www.facebook.com/BioCurious
 ---
 <div class="ui container">
 
+This is a draft for view formats for the list of entries
+
+<!-- Card -->
   <div class="ui card">
+
     <div class="image">
       <img src="/assets/img/header.jpg">
     </div>
     <div class="content">
       <a class="header">{{ page.title }}</a>
       <div class="meta">
-        <span class="date">Joined in 2013</span>
+        <span class="date">{{ page.host }} | {{ page.type }} </span>
       </div>
       <div class="description">
         {{ page.summary }}
       </div>
     </div>
     <div class="extra content">
-      <a>
-        <i class="tags icon"></i>
-        22 Friends
-      </a>
+        <i class="marker icon"></i>
+        {{ page.city }}, {{ page.country }}
     </div>
-  </div>
+  </div> <!-- close card -->
 
 
   <div class="ui divided items">
@@ -64,7 +66,7 @@ facebook: https://www.facebook.com/BioCurious
       <div class="content">
         <a class="header">{{ page.title }}</a>
         <div class="meta">
-          <span class="cinema"></span>
+          <span class="cinema"> {{ page.host }} | {{ page.type }} </span>
         </div>
         <div class="description">
           <p>{{ page.summary }}</p>
@@ -118,6 +120,69 @@ facebook: https://www.facebook.com/BioCurious
       </div>
     </div>
   </div>
+
+
+  <table class="ui selectable sortable celled table">
+  <thead>
+    <tr>
+    <th data-vivaldi-spatnav-clickable="1">Collection</th>
+    <th data-vivaldi-spatnav-clickable="1">Name</th>
+    <th data-vivaldi-spatnav-clickable="1">Since</th>
+    <th data-vivaldi-spatnav-clickable="1">Host</th>
+    <th data-vivaldi-spatnav-clickable="1">Type</th>
+    <th data-vivaldi-spatnav-clickable="1">City</th>
+    <th data-vivaldi-spatnav-clickable="1">Country</th>
+    <th data-vivaldi-spatnav-clickable="1">Latest commit</th>
+  </tr></thead>
+  <tbody>
+    <tr>
+      <td>{{ page.collection }}</td>
+      <td>{{ page.title }}</td>
+      <td>{{ page.since }}</td>
+      <td>{{ page.host }}</td>
+      <td>{{ page.type }}</td>
+      <td>{{ page.city }}</td>
+      <td>{{ page.country }}</td>
+      <td>09 Nov 2016</td>
+    </tr>
+    <tr>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+    </tr>
+    <tr>
+    <td>Cell</td>
+    <td>Cell</td>
+    <td>Cell</td>
+    <td>Cell</td>
+    <td>Cell</td>
+    <td>Cell</td>
+    <td>Cell</td>
+    <td>Cell</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><th colspan="8">
+      <div class="ui right floated pagination menu">
+        <a class="icon item">
+          <i class="left chevron icon"></i>
+        </a>
+        <a class="item">1</a>
+        <a class="item">2</a>
+        <a class="item">3</a>
+        <a class="item">4</a>
+        <a class="icon item">
+          <i class="right chevron icon"></i>
+        </a>
+      </div>
+    </th>
+  </tr></tfoot>
+</table>
 
 
     <button class="ui circular facebook icon mini button">

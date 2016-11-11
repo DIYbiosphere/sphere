@@ -1,6 +1,5 @@
 # Site settings
 title: DIYbiosphere
-email: contact@contact.com
 description: "A collaborative database of Do-it-Yourself Biology initiatives"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "sphere.diybio.org"
@@ -97,11 +96,6 @@ collections:
 
 # Default Values
 defaults:
-  -
-    scope:
-      path: ''
-    values:
-      layout: landing
   -
     scope:
       type: posts

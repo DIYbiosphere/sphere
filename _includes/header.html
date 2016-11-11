@@ -9,7 +9,7 @@
         </div>
         <!-- right menu -->
         <div class="right menu">
-          {% if page.layout == "entries" %}
+          {% if page.layout == "entries" or page.layout == "landing" %}
           {% else %}
           <div class="item">
             {% include search-bar.html %}

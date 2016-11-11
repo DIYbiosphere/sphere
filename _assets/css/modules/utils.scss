@@ -1,17 +1,31 @@
-.mar-no {
+.marginless {
   margin-top: .5em;
   margin-left: 0em;
   margin-right: 0em;
   margin-bottom: 0em;
 }
 
-.mar-btm {
+.margin.bottom {
   margin-bottom: $mar;
 }
 
-.mar-top {
+.margin.top {
+  margin-top: $mar;
+
+  &.double {
+    margin-top: $mar*2;
+  }
+}
+
+.margin .bottom {
+  margin-bottom: $mar;
+}
+
+.margin .top {
   margin-top: $mar;
 }
+
+
 
 .mar-lft {
   margin-left: $mar;
@@ -23,6 +37,14 @@
   margin-right: $mar;
   margin-bottom: $mar;
 }
+
+.mar-all {
+  margin-top: $mar;
+  margin-left: $mar;
+  margin-right: $mar;
+  margin-bottom: $mar;
+}
+
 
 .pad-no  {
   padding-top: 0em;
