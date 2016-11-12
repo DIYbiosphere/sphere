@@ -2,7 +2,7 @@
 
     {% if page.layout == "entry" %}
     <!-- Breadcrumb for Database -->
-      <div class="column">
+      <div class="column xo paddingless">
         <div class="ui breadcrumb">
           <a class="section" href="/database/">Database</a>
           <div class="divider"> / </div>
@@ -14,7 +14,7 @@
 
     {% else %}
     <!-- Breadcrumb for Documentation -->
-    <div class="column">
+    <div class="column xo paddingless">
       <div class="ui breadcrumb">
           <a class="section" href="/docs/">Documentation</a>
           {% if page.crumb %}
@@ -31,13 +31,13 @@
     </div>
     {% endif %}
 
-    <div class="column right aligned">
+    <div class="column right aligned xo paddingless">
       <i class="edit icon"></i> <a href="{{site.github.repository_url}}/blob/master/{{page.path}}" target="_blank">
          Edit this page</a>
       </div>
 
 
-    <div class="column">
+    <div class="column xo padding top without">
       <i class="wait icon"></i>
         {% assign words = content | number_of_words %}
         {% if words < 360 %}
@@ -47,7 +47,7 @@
         {% endif %}
     </div>
 
-    <div class="column right aligned">
+    <div class="column right aligned xo padding top without">
       Latest commit: {{ page.last_modified | date_to_string }}
     </div>
   </div> <!-- close row -->

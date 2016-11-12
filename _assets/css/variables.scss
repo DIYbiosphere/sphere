@@ -2,20 +2,17 @@
 * Variables used across css files
 */
 $pad: 1.5em;
-$mar: 1.5em;
+$mar: 1em;
 
 /**
 * Main color palette
 */
 
-$default: #ffffff;
-$primary: #000000;
-$secondary: #8E5C90;
-
-$light-gray: #dadada;
-$fine-gray: #eeeeee;
-$warm-gray: #9b9b9b;
-$medium-gray: #6F6F6F;
+$black: #1B1C1D;
+$lightBlack: #545454;
+$grey: #767676;
+$lightGrey: #DCDDDE;
+$darkWhite: #F3F3F3;
 
 //** colors for github issues labels**//
 $bug-color: #ed5e5f;

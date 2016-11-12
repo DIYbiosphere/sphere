@@ -7,15 +7,13 @@
           <h3>
             <a href="{{ page.website }}" target="_blank">
             {% if page.logo %}
-              <img class="ui image small" src="{{ page.logo }}" />
+              <img class="ui small centered image" src="{{ page.logo }}" />
             {% else %}
-              {{ page.title }}
+              <h2 class="ui center aligned header">{{ page.title }}<h2>
             </a>
             {% endif %}
           </h3>
         </div>
-
-        <div class="ui hidden divider"></div>
 
       <!-- Since -->
         <div>
@@ -84,12 +82,6 @@
 
     </div>
     <!-- Tags -->
-
-
-
-
-
-
     {% if page.tags !='' %}
     <div class="ui padded segment">
       <span data-tooltip="Tags"><i class="tags icon"></i></span>

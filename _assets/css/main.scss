@@ -4,13 +4,7 @@
 @import "variables";
 
 @import "vendor/navbeer";
+@import "modules/utils";
 
 /* Base css */
 @import "base";
-
-
-
-/**
-* since the top menu is fixed top, .main-content should always have a padding top
-* according to the navbar's size
-*/

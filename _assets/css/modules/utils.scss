@@ -1,90 +1,76 @@
-.marginless {
-  margin-top: .5em;
-  margin-left: 0em;
-  margin-right: 0em;
-  margin-bottom: 0em;
+.xo.marginless {
+  margin: 0em;
 }
 
-.margin.bottom {
+.xo.paddingless {
+  padding: 0em;
+}
+
+.xo.marginfull {
+  margin: $mar;
+}
+
+.xo.margin.bottom {
   margin-bottom: $mar;
-}
 
-.margin.top {
-  margin-top: $mar;
-
-  &.double {
-    margin-top: $mar*2;
+  &.twofold {
+  margin-bottom: ($mar*2);
+  }
+  &.fourfold {
+  margin-bottom: ($mar*4);
+  }
+  &.eightfold {
+  margin-bottom: ($mar*8);
   }
 }
 
-.margin .bottom {
-  margin-bottom: $mar;
+.xo.padding.bottom {
+  padding-bottom: $mar;
+
+  &.without {
+    padding-bottom: 0em !important;
+  }
+
+  &.twofold {
+  padding-bottom: ($mar*2);
+  }
+  &.fourfold {
+  padding-bottom: ($mar*4);
+  }
+  &.eightfold {
+  padding-bottom: ($mar*8);
+  }
 }
 
-.margin .top {
-  margin-top: $mar;
+.xo.padding.top {
+  padding-top: $mar;
+
+  &.without {
+    padding-top: 0em !important;
+  }
+
+  &.twofold {
+  padding-top: ($mar*2);
+  }
+  &.fourfold {
+  padding-top: ($mar*4);
+  }
+  &.eightfold {
+  padding-top: ($mar*8);
+  }
 }
 
 
-
-.mar-lft {
-  margin-left: $mar;
+.xo.lightGrey {
+  background-color: $lightGrey;
 }
 
-.mar-all {
-  margin-top: $mar;
-  margin-left: $mar;
-  margin-right: $mar;
-  margin-bottom: $mar;
+.xo.darkWhite {
+  background-color: $darkWhite;
 }
 
-.mar-all {
-  margin-top: $mar;
-  margin-left: $mar;
-  margin-right: $mar;
-  margin-bottom: $mar;
-}
-
-
-.pad-no  {
-  padding-top: 0em;
-  padding-left: 0em;
-  padding-right: 0em;
-  padding-bottom: 0em;
-}
-
-.pad-btm {
-  padding-bottom: $pad;
-}
-
-.pad-top {
-  padding-top: $pad;
-}
-
-.pad-lft {
-  padding-left: $pad;
-}
-
-.pad-all {
-  padding-top: $pad;
-  padding-left: $pad;
-  padding-right: $pad;
-  padding-bottom: $pad;
-}
-
-.bg-no {
-  background-color: inherit;
-  color: #777;
-}
-
-.bg-dark {
-  background-color: black;
-  color: white !important;
-}
-
-.selectable:hover {
-  cursor: pointer;
-  background-color: #F2F2F2;
+.xo.lightBlack {
+  background-color: $lightBlack;
 }
 
 .link {
