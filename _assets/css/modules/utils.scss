@@ -27,6 +27,10 @@
 .xo.padding.bottom {
   padding-bottom: $mar;
 
+  &.half {
+    padding-bottom: ($mar/2) !important;
+  }
+
   &.without {
     padding-bottom: 0em !important;
   }
@@ -44,6 +48,10 @@
 
 .xo.padding.top {
   padding-top: $mar;
+
+  &.half {
+    padding-top: ($mar/2) !important;
+  }
 
   &.without {
     padding-top: 0em !important;
@@ -71,30 +79,4 @@
 
 .xo.lightBlack {
   background-color: $lightBlack;
-}
-
-.link {
-  cursor: pointer;
-  text-decoration: none !important;
-}
-
-.link:hover {
-  color: black;
-}
-
-.text-weak {
-  font-weight: 100;
-}
-
-.text-dark {
-  color: black;
-}
-
-.text-small {
-  font-size: .75em;
-  line-height: 100%;
-}
-
-.text-strong {
-  font-weight: 700;
 }

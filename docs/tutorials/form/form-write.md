@@ -124,7 +124,6 @@ step: write
       </div>
     </div>
     <!-- Country with Algolia Places -->
-    <link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags16.css" />
     <div class="field">
       <label><i class="flag icon"></i> Country</label>
       <div class="f16">

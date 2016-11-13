@@ -1,15 +1,8 @@
 ---
 layout: docs
-permalink: /docs/about/draft2/
+permalink: /draft2/
 title: Draft
 ---
-
-
-
-
-{% include_relative whatever.md %}
-
-<div>
 
 
 

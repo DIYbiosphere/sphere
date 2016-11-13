@@ -1,0 +1,23 @@
+.slider-range-container {
+  position: relative;
+  width: 300px;
+
+  #slider-range {
+    height: 4px;
+    background: #F5F5F5;
+    border: 0;
+
+    .ui-slider-handle {
+      width: 16px;
+      height: 16px;
+      border: 0;
+      border-radius: 50%;
+      background: #000;
+      top: -0.4rem;
+    }
+
+    .ui-slider-range {
+      background: #000;
+    }
+  }
+}

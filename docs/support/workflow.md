@@ -14,21 +14,20 @@ The following explains how the current practices for managing tickets in the DIY
 
 ## Labels
 Labels are for categorizing and filtering tickets. The following labels are currently in place:
-
-- {% include _labels/bug.html %} are errors, undesired results or behaviors
-- {% include _labels/critical.html %} are high-priority tickets
-- {% include _labels/database.html %} pertain to content and data
-- {% include _labels/design.html %} pertain to the design
-- {% include _labels/development.html %} pertain to the development of the code
-- {% include _labels/documentation.html %} pertain to the documentation
-- {% include _labels/easy.html %} are relatively simple, or for beginner contributors
-- {% include _labels/enhancement.html %} are incremental or gradual improvements
-- {% include _labels/Epic.html %} are part of an [Epic](#epics) issue
-- {% include _labels/feature.html %} are new attributes, characteristics or functions
-- {% include _labels/feedback.html %} are tickets that need opinions and comments
-- {% include _labels/help.html %} are tickets that need other users to attend to
-- {% include _labels/question.html %} are questions that need answers
-- {% include _labels/resolution.html %} are tickets that need to be resolved soon
+- <a class="ui orange tiny label">bug</a> are errors, undesired results or behaviors
+- <a class="ui red tiny label">critical</a> are high-priority tickets
+- <a class="ui violet tiny label">database</a> pertain to content and data
+- <a class="ui brown tiny label">design</a> pertain to the design
+- <a class="ui blue tiny label">development</a> pertain to the development of the code
+- <a class="ui green tiny label">docs</a> pertain to the documentation
+- <a class="ui yellow tiny label">easy</a> are relatively simple, or for beginner contributors
+- <a class="ui purple tiny label">enhancement</a> are incremental or gradual improvements
+- <a class="ui basic tiny label">Epic</a> are part of an [Epic](#epics) issue
+- <a class="ui pink tiny label">feature request</a> are new attributes, characteristics or functions
+- <a class="ui olive tiny label">feedback wanted</a> are tickets that need opinions and comments
+- <a class="ui teal tiny label">help wanted</a> are tickets that need other users to attend to
+- <a class="ui grey tiny label">question</a> are questions that need answers
+- <a class="ui black tiny label">resolution needed</a> are tickets that need to be resolved soon
 
 {% include info.html title="Labels can be for PRs" text="Labels will be applied mostly to Issues. However, when PRs require review or encounter problems in merging, labels may be applied to indicate any additional information (like 'critical', 'help wanted')." %}
 
