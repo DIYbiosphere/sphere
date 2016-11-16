@@ -1,4 +1,4 @@
- The steps to add an entry to the database differ depending on your [access permisions][permissions] to the repository: follow the following steps respectively if you are a contributor (not a member), a member, or a member of a team.
+ The steps to add an entry to the library differ depending on your [access permisions][permissions] to the repository: follow the following steps respectively if you are a contributor (not a member), a member, or a member of a team.
 
 {% include info.html title="Provisional tutorials" text="A simplified fill-out form is being created to faciliate adding a new entry. The form will render a markdown file to download and upload to its respective collection" %}
 

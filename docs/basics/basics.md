@@ -11,7 +11,7 @@ summary: In this section we detail how the design
 
 ### Table of Contents
 
-- [Database]
+- [Library]
   - [adding for non-members](/docs/help/tutorials/add-entry/)
   - [adding for members](/docs/help/tutorials/add-entry-members/)
   - [adding for teams](/docs/help/tutorials/add-entry-teams/)

@@ -18,22 +18,22 @@ We really appreciate your interest in our project and we would :heart: your cont
 > At the moment, we are working hard :sweat_smile: to develop a "Minimum Viable Product" (MVP) as they say in the _techbiz_. Please help us by contributing so we can eventually share it with early adopters! :metal:
 
 ## About
-[The DIYbiosphere] is a participatory project to create a database of Do-It-Yourself Biology (DIYbio) initiatives from all over the world. The project is public; open for anyone to add and edit entries, as well as to shape the overall project. The goal is to have a shared and common platform that can connect people and ideas in all its possibilities. With the open data we gather we plan to map and visualize the DIYbio community in all its diversity across time and space in the hopes that we may learn more about the movement and its futures.
+[The DIYbiosphere] is a participatory project to create a library of Do-It-Yourself Biology (DIYbio) initiatives from all over the world. The project is public; open for anyone to add and edit entries, as well as to shape the overall project. The goal is to have a shared and common platform that can connect people and ideas in all its possibilities. With the open data we gather we plan to map and visualize the DIYbio community in all its diversity across time and space in the hopes that we may learn more about the movement and its futures.
 
-We have our own [entry] in the database! Go check it out!
+We have our own [entry] in the library! Go check it out!
 
 ### How it works
-The database functions similar to a wiki. Each entry has it's own webpage with a written description and a box displaying some of the initiative's data. Instead of using the wiki software we use [GitHub Pages] to host and build the database from simple text files with [Markdown] syntax.
+The library functions similar to a wiki. Each entry has it's own webpage with a written description and a box displaying some of the initiative's data. Instead of using the wiki software we use [GitHub Pages] to host and build the library from simple text files with [Markdown] syntax.
 
 ## Participate!
 You can engage with the DIYbiosphere is many ways (in increasing order of engagement):
 
 #### Connect
-- **Share this project** with your friends and followers! They might be interested in using the database or contributing to it!
+- **Share this project** with your friends and followers! They might be interested in using the library or contributing to it!
 - :star: **Star the project on GitHub**! Starring helps attract potential contributors, especially expert and master contributors!
 
 #### Contribute
-- Jump into writing entries in the Database:
+- Jump into writing entries in the library:
     - **[Add] a new entry**:  whether it's your initiative or someone else's
     - **[Update/edit] an existing entry**: mispellings, outdated information, or just inaccurate, help us keep the entries error-free!
 - Jump into our [Issues], please follow our [Contributing Guidelines]:
@@ -62,7 +62,7 @@ You can review our [License] file for a human-readable version of the copyright,
 If you wish to credit our work, please do so as “© DIYbiosphere contributors” or “© DIYbiosphere”
 
 [The DIYbiosphere]: http://sphere.diybio.org/ "Go to main website"
-[entry]: http://sphere.diybio.org/database/projects/DIYbiosphere-ZZ "Go to DIYbiosphere entry page"
+[entry]: http://sphere.diybio.org/library/projects/DIYbiosphere-ZZ "Go to DIYbiosphere entry page"
 [github pages]: https://pages.github.com/ "Learn about GitHub Pages"
 [Markdown]: https://guides.github.com/features/mastering-markdown/ "Learn about Markdown from GitHub"
 [add]: http://sphere.diybio.org/docs/tutorials/add-entry/ "How to add an entry"

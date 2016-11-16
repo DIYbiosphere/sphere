@@ -12,7 +12,7 @@ The project covers two types of Work which require different copyright terms.
 
 Overall the Work in this Project is divided as:
 
-- the **Database** which includes all the Content (text, images) and Data in the entries and is dedicated to the Public Domain with [CC0][cc0], which allows for a completely free use of the work.
+- the **Library** which includes all the Content (text, images) and Data in the entries and is dedicated to the Public Domain with [CC0][cc0], which allows for a completely free use of the work.
     - You can: use, modify, distribute original or derivative works for ANY purpose; personal, commercial, etc.
     - You cannot: hold liable, or make patent claims.
 
@@ -29,6 +29,6 @@ You may attribute our Work as "© DIYbiosphere contributors" to recognize the am
 ---
 
 #### *otherwise noted
-Contributions that are shared/uploaded to the Database part should explicitly note their copyright terms if the author(s) do not waive authorship or grant rights to their work. For example, you may upload an image that is hosted in Flickr if the copyright is CC-BY, in which case the caption must have a link to the original source and a note on the copyright license.
+Contributions that are shared/uploaded to the Library part should explicitly note their copyright terms if the author(s) do not waive authorship or grant rights to their work. For example, you may upload an image that is hosted in Flickr if the copyright is CC-BY, in which case the caption must have a link to the original source and a note on the copyright license.
 
 Please follow our instructions for [noting copyright][noting-copyright].

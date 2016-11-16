@@ -16,7 +16,7 @@ The following explains how the current practices for managing tickets in the DIY
 Labels are for categorizing and filtering tickets. The following labels are currently in place:
 - <a class="ui orange tiny label">bug</a> are errors, undesired results or behaviors
 - <a class="ui red tiny label">critical</a> are high-priority tickets
-- <a class="ui violet tiny label">database</a> pertain to content and data
+- <a class="ui violet tiny label">library</a> pertain to content and data
 - <a class="ui brown tiny label">design</a> pertain to the design
 - <a class="ui blue tiny label">development</a> pertain to the development of the code
 - <a class="ui green tiny label">docs</a> pertain to the documentation

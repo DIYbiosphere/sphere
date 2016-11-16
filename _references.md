@@ -34,11 +34,11 @@
 [gh_editors]: https://github.com/orgs/DIYbiosphere/teams/editors "See all Editors"
 [gh_coders]: https://github.com/orgs/DIYbiosphere/teams/coders "See all Coders"
 [gh_directors]: https://github.com/orgs/DIYbiosphere/teams/directors "See all Directors"
-[gh_repo]: https://github.com/DIYbiosphere/sphere "Go to DIYbiosphere database repository"
+[gh_repo]: https://github.com/DIYbiosphere/sphere "Go to DIYbiosphere library repository"
 [gh_issues]: https://github.com/DIYbiosphere/sphere/issues "Go to our GitHub Issues"
 [gh_bug]: https://github.com/DIYbiosphere/sphere/labels/bug
 [gh_critical]: https://github.com/DIYbiosphere/sphere/labels/critical
-[gh_database]: https://github.com/DIYbiosphere/sphere/labels/database
+[gh_library]: https://github.com/DIYbiosphere/sphere/labels/library
 [gh_design]: https://github.com/DIYbiosphere/sphere/labels/design
 [gh_development]: https://github.com/DIYbiosphere/sphere/labels/development
 [gh_docs]: https://github.com/DIYbiosphere/sphere/labels/docs
@@ -59,7 +59,7 @@
 [docs]: /docs/
 [introduction]: /docs/introduction/
 [overview]: /docs/introduction/overview/
-[starting]: /docs/introduction/getting-started/ "How to use and contribute to the database"
+[starting]: /docs/introduction/getting-started/ "How to use and contribute to the library"
 [about]: /docs/about/
 [organization]: /docs/about/organization/
 [community]: /docs/about/community/
@@ -72,10 +72,10 @@
 [mit]: /docs/copyright/mit/
 [contributor-terms]: /docs/copyright/contributor-terms/
 [basics]: /docs/basics/
-[database]: /docs/basics/database/
+[library]: /docs/basics/library/
 [development]: /docs/basics/development/
 [documentation]: /docs/basics/documentation/
-[design]: /docs/basics/database/
+[design]: /docs/basics/library/
 [support]: /docs/support
 [contributing]: /docs/support/contributing/
 [workflow]: /docs/support/workflow/
@@ -87,7 +87,7 @@
 [hints]: /docs/resources/hints/
 [md_syntax]: /docs/resources/markdown-syntax/
 [jekyll_syntax]: /docs/resources/jekyll-syntax/
-[e_sphere]: /database/projects/DIYbiosphere-ZZ/
+[e_sphere]: /library/projects/DIYbiosphere-ZZ/
 
 [tutorials]: /docs/tutorials/
 [add]: /docs/tutorials/add-entry/ "How to add an entry"
@@ -110,10 +110,10 @@
 [members]: /docs/about/community/#members
 [teams]: /docs/about/community/#teams
 [directors]: /docs/about/community/#directors
-[collections]: /docs/basics/database/#entry-collections
-[typology]: /docs/basics/database/#typology-of-initiatives
-[anatomy]: /docs/basics/database/#anatomy-of-an-entry
-[fields]: /docs/basics/database/#data-fields
+[collections]: /docs/basics/library/#entry-collections
+[typology]: /docs/basics/library/#typology-of-initiatives
+[anatomy]: /docs/basics/library/#anatomy-of-an-entry
+[fields]: /docs/basics/library/#data-fields
 [join]: /docs/support/contributing/#submitting-issues "How to request membership"
 [join]: /docs/support/contributing/#membership-request
 

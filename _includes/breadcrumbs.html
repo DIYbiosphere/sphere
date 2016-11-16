@@ -1,12 +1,12 @@
   <div class="ui two column grid">
 
     {% if page.layout == "entry" %}
-    <!-- Breadcrumb for Database -->
+    <!-- Breadcrumb for Library -->
       <div class="column xo paddingless">
         <div class="ui breadcrumb">
-          <a class="section" href="/database/">Database</a>
+          <a class="section" href="/library/">Library</a>
           <div class="divider"> / </div>
-          <a class="section" href="/database/{{ page.collection | downcase }}/">{{ page.collection | capitalize }}</a>
+          <a class="section" href="/library/{{ page.collection | downcase }}/">{{ page.collection | capitalize }}</a>
           <div class="divider"> / </div>
           <div class="active section">{{ page.title }}</div>
         </div>

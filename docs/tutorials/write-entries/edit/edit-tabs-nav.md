@@ -1,4 +1,4 @@
- The steps to edit an entry to the database differ depending on your [access permisions][permissions] to the repository: follow the following steps respectively if you are a contributor (not a member), a member, or a member of a team.
+ The steps to edit an entry to the library differ depending on your [access permisions][permissions] to the repository: follow the following steps respectively if you are a contributor (not a member), a member, or a member of a team.
 
 
 <ul class="nav nav-tabs">

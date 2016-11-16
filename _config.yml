@@ -1,6 +1,6 @@
 # Site settings
 title: DIYbiosphere
-description: "A collaborative database of Do-it-Yourself Biology initiatives"
+description: "A collaborative library of Do-it-Yourself Biology initiatives"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "sphere.diybio.org"
 permalink: /updates/:year/:month/:day/:title
@@ -64,35 +64,35 @@ collections:
   projects:
     title: Projects
     output: true
-    permalink: /database/projects/
+    permalink: /library/projects/
   startups:
     title: Startups
     output: true
-    permalink: /database/startups/
+    permalink: /library/startups/
   labs:
     title: Labs
     output: true
-    permalink: /database/labs/
+    permalink: /library/labs/
   incubators:
     title: Incubators
     output: true
-    permalink: /database/incubators/
+    permalink: /library/incubators/
   groups:
     title: Groups
     output: true
-    permalink: /database/groups/
+    permalink: /library/groups/
   networks:
     title: Networks
     output: true
-    permalink: /database/networks/
+    permalink: /library/networks/
   events:
     title: Events
     output: true
-    permalink: /database/events/
+    permalink: /library/events/
   others:
     title: Others
     output: true
-    permalink: /database/others/
+    permalink: /library/others/
 
 # Default Values
 defaults:
@@ -106,46 +106,46 @@ defaults:
       type: projects
     values:
       layout: entry
-      permalink: /database/projects/:title
+      permalink: /library/projects/:title
   -
     scope:
       type: startups
     values:
       layout: entry
-      permalink: /database/startups/:title
+      permalink: /library/startups/:title
   -
     scope:
       type: labs
     values:
       layout: entry
-      permalink: /database/labs/:title
+      permalink: /library/labs/:title
   -
     scope:
       type: incubators
     values:
       layout: entry
-      permalink: /database/incubators/:title
+      permalink: /library/incubators/:title
   -
     scope:
       type: groups
     values:
       layout: entry
-      permalink: /database/groups/:title
+      permalink: /library/groups/:title
   -
     scope:
       type: networks
     values:
       layout: entry
-      permalink: /database/networks/:title
+      permalink: /library/networks/:title
   -
     scope:
       type: events
     values:
       layout: entry
-      permalink: /events/:title
+      permalink: /library/events/:title
   -
     scope:
       type: others
     values:
       layout: entry
-      permalink: /others/:title
+      permalink: /library/others/:title

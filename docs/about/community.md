@@ -20,7 +20,7 @@ Anyone with a GitHub account can contribute to the DIYbiosphere project. Their c
 - Edit and delete their own comments
 - Edit wikis
 
-To edit the database, non-members have to fork, commit changes, submit a pull request, and wait for the merge by a member. See tutorials for [adding an entry][add] and [editing an entry][edit].
+To edit the library, non-members have to fork, commit changes, submit a pull request, and wait for the merge by a member. See tutorials for [adding an entry][add] and [editing an entry][edit].
 
 ### Outside Collaborators
 Non-members can be assigned more permission levels by making them _Outside Collaborators_ and specifying their access level.
@@ -49,7 +49,7 @@ Users in the [Managers Team][gh_managers] are all those responsable for the entr
 **Every entry should have a manager!!**
 
 #### Editors
-Users who are active in the management and development of all (non-software) content should be part of the [Editors Team][gh_editors]. As editors they are in charge of curating the database and all of its entries.
+Users who are active in the management and development of all (non-software) content should be part of the [Editors Team][gh_editors]. As editors they are in charge of curating the library and all of its entries.
 
 Managers are not involved in discussions about the the development of the project, this is the job of the Editors. Managers will be braught to the discussion at later stages before implementing any changes to the structure or content of the entries.
 

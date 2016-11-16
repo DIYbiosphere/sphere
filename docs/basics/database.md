@@ -1,17 +1,17 @@
 ---
 layout: docs
-permalink: /docs/basics/database/
+permalink: /docs/basics/library/
 crumb: basics
-title: Basics of the Database
-summary: In this section we detail the basic structure, components, and organization of the Database
+title: Basics of the Library
+summary: In this section we detail the basic structure, components, and organization of the library
 ---
 
 
-The Database encompases all the information on the DIYbio initiatives added to the DIYbiosphere project. Each initiative has its own _Entry_ for composing and displaying its particular information. Entries are accessible as webpages at [sphere.diybio.org][sphere] and as text files in the [sphere repository][gh_repo] in GitHub, where they can be edited as well (how to [edit an entry][edit]).
+The library encompases all the information on the DIYbio initiatives added to the DIYbiosphere project. Each initiative has its own _Entry_ for composing and displaying its particular information. Entries are accessible as webpages at [sphere.diybio.org][sphere] and as text files in the [sphere repository][gh_repo] in GitHub, where they can be edited as well (how to [edit an entry][edit]).
 
 {% include help.html title="Entries are files and webpages" text="Entries are created and edited as text files in markdown format `entry.md` which is then displayed as a webpage" %}
 
-To facilitate the organization of the Initiatives in the Database, a series of [entry collections] are used to aggregate similar initiatives.
+To facilitate the organization of the Initiatives in the library, a series of [entry collections] are used to aggregate similar initiatives.
 
 ## Entry Collections
 The entries are divided into eight collections:

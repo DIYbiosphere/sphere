@@ -9,7 +9,7 @@ We really appreciate your interest in our project. We :heartpulse: contributions
 
 The following is a set of guidelines for submiting [Issues](#Submitting-Issues) and [Pull requests](#Submitting-Pull-Requests), and for making [Commit messages](#Making-Commits).
 
-Check out the [Getting Started] guide to learn how to _use_ and _contribute_ to the database. We also have an [ELI5 guide] (Explain like I'm 5) for the utterly GitHub confused! See our [tutorials], like for [adding a new entry] or [editing an entry].
+Check out the [Getting Started] guide to learn how to _use_ and _contribute_ to the library. We also have an [ELI5 guide] (Explain like I'm 5) for the utterly GitHub confused! See our [tutorials], like for [adding a new entry] or [editing an entry].
 
 If you want to make changes locally on your computer, follow the [Installation Instructions]. :heart_eyes: :computer:
 

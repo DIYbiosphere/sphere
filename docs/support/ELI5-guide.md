@@ -69,9 +69,9 @@ Github is a service that hosts public repos for free, it also improves accesabil
 
 
 ## Why use GitHub Pages
-The DIYbiosphere project is stored as the sphere repository, which holds the the entries of the database, as well as source code that builds and formats those files into a website.
+The DIYbiosphere project is stored as the sphere repository, which holds the the entries of the library, as well as source code that builds and formats those files into a website.
 
-The DIYbiosphere is an _open_ and _collaborative_ project to create a database of DIYbio initiatives accesible via a website (sphere.diybio.org). The project is essentialy a _shared folder_ that contains the files for each entry in the database, and the files that code and build the database into the website (the software).
+The DIYbiosphere is an _open_ and _collaborative_ project to create a library of DIYbio initiatives accesible via a website (sphere.diybio.org). The project is essentialy a _shared folder_ that contains the files for each entry in the library, and the files that code and build the library into the website (the software).
 
 ---
 There are other great Beginner Guides to Git check out:

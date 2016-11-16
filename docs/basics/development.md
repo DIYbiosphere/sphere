@@ -6,7 +6,7 @@ title: Basics of the Development
 summary: In this section
 ---
 
-By development we mean all the software behind the database, that is all the source-code that formats, displays, and builds the database into the website. The basic technology
+By development we mean all the software behind the library, that is all the source-code that formats, displays, and builds the library into the website. The basic technology
 
 The software used involves Github, to host the files. GitHub pages to build the files into a website using the stating website generator Jekyll. To continuously build the website we use Travis CI.
 

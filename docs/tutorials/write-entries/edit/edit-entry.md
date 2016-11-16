@@ -12,13 +12,13 @@ summary: Tutorial for editing an entry for contributors (7 steps)
 {% include warning.html title="Before you begin, you should:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/docs/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/docs/about/copyright/terms-of-use/)." %}
 
 1. **Fork** the [sphere] repository to make changes
-2. In your forked copy, open the _database folder, find the file that you want to edit. and Click Edit
+2. In your forked copy, open the _library folder, find the file that you want to edit. and Click Edit
 4. **Make your changes**
 5. To save your changes **Commit changes**. Don't forget to add in a title.
 6. When you are ready to merge your changes to the original repository **Submit a Pull Request (PR)**. Don't forget to add a title and in the description, please
-7. A member will revise your PR, request additional commits from you or approve the PR and merge your changes to the original database.
+7. A member will revise your PR, request additional commits from you or approve the PR and merge your changes to the original library.
 
-**Rejoice!** your entry is now part of the DIYbiosphere database! :clap: :clap:
+**Rejoice!** your entry is now part of the DIYbiosphere library! :clap: :clap:
 
 Thank you for your contribution! :heart:
 

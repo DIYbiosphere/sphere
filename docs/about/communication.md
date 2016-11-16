@@ -22,7 +22,7 @@ Is a very popular communication platform that offers integration with other serv
 For the moment, there is no preference on what communication platform will be used more often. As the project gains members and contributors, the most popular communication platform will win.
 
 #### Twitter
-As many other organizations, we also have a twitter. For the moment it is somewhat inactive during alpha release. Once we go to beta release we will set up some automatic tweets for every new entry added to the database.
+As many other organizations, we also have a twitter. For the moment it is somewhat inactive during alpha release. Once we go to beta release we will set up some automatic tweets for every new entry added to the library.
 
 #### Blog
 The Blog is intended for the humans in the project. For the contributors to be able to share their experiences, what they like or don't and what they have learned on the project. It will start after beta release.

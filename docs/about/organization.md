@@ -6,7 +6,7 @@ title: DIYbiosphere Organization
 summary: Our vision, mission, values, governance and partners
 ---
 
-The DIYbiosphere is a participatory project to create a database of DIYbio initiatives. The project is managed by the [DIYbiosphere Organization][gh_org] and its [development community][community]. As an open organization, we are able to fluidly organize a large number of contributors while maintaining and striving towards a shared vision for the project.
+The DIYbiosphere is a participatory project to create a library of DIYbio initiatives. The project is managed by the [DIYbiosphere Organization][gh_org] and its [development community][community]. As an open organization, we are able to fluidly organize a large number of contributors while maintaining and striving towards a shared vision for the project.
 
 #### Our Mission
 To provide an open platform for DIYbio initiatives to **share** and **learn** about and from each other. To encourage the DIYbio community to engage with one another and to facilitate the free flow of knowledge and resources. We want to generate opportunities and potentials by creating a common project to collaborate on. To have a shared space where the DIYbio community can connect, meet, support, and work together.
