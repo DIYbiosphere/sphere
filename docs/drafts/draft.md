@@ -41,9 +41,9 @@ This is a draft for view formats for the list of entries
 <!-- Card -->
   <div class="ui card">
     <div class="content">
-      <a class="header">{{ page.title }}</a>
+      <a class="header"><i class="lab icon"></i> {{ page.title }}</a>
       <div class="meta">
-        <span class="date">{{ page.since }} </span>
+        <span class="date">Lab | {{ page.since }} </span>
       </div>
       <div class="description">
         {{ page.summary }}
@@ -55,7 +55,6 @@ This is a draft for view formats for the list of entries
     </div>
   </div> <!-- close card -->
 
-
   <div class="ui divided items">
     <div class="item">
       <div class="image">
@@ -65,13 +64,10 @@ This is a draft for view formats for the list of entries
         <a class="header">{{ page.title }}</a>
         <div class="meta">
           <span class="right floated"><i class="marker icon"></i>{{ page.city }}, {{ page.country }}</span>
-          <span class="cinema"> {{ page.since }} </span>
+          <span class="cinema"> Lab | {{ page.type }} </span>
         </div>
         <div class="description">
           <p>{{ page.summary }}</p>
-        </div>
-        <div class="extra content">
-         {{ page.host }} | {{ page.type }}
         </div>
         <div class="extra">
         {% for tag in page.tags %}

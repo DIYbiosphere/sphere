@@ -1,0 +1,105 @@
+<div class="ui segment right floated compact infobox">
+
+        <table class="ui very basic compact table">
+        <tbody>
+          <tr>
+            <!-- Logo or Name of Page -->
+            <td colspan="2">
+              <h3>
+                <a href="{{ page.website }}" target="_blank">
+                {% if page.logo %}
+                  <img class="ui small centered image" src="{{ page.logo }}" />
+                {% else %}
+                  <h2 class="ui center aligned header">{{ page.title }}<h2>
+                </a>
+                {% endif %}
+              </h3>
+            </td>
+          </tr>
+          <!-- Since -->
+          {% if page.since %}
+          <tr>
+            <td>
+              Formation:
+            </td>
+            <td>
+              {{ page.since }}
+            </td>
+            </tr>
+            {% endif %}
+          </tr>
+          <!-- Host organization -->
+          {% if page.host %}
+          {% assign host = page.host %}
+          {% if host.name %}
+          <tr>
+            <td>
+              Host:
+            </td>
+            <td>
+              {% if host.web %} <a href="{{ page.host.web | site.baseUrl }}"> {% endif %}
+            {{ host.name }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endif %}
+          <!-- Type of Organization -->
+          {% if page.type %}
+          <tr>
+            <td>
+              Type:
+            </td>
+            <td>
+              {{ page.type }}
+            </td>
+          </tr>
+          {% endif %}
+          <!-- Location -->
+          <!-- Address -->
+          {% if page.address %}
+          <tr>
+            <td>
+              Location:
+            </td>
+            <td>
+              {{ page.address }}{% if page.directions %},{{ page.directions }}{% endif %}
+            </td>
+          </tr>
+        {% endif %}
+        <!-- City and country -->
+        {% if page.city or page.state or page.country %}
+          <tr>
+            <td>
+              {% unless page.address %} Location: {% endunless %}
+            </td>
+            <td>
+              {{ page.city }}
+              {% if page.city and page.state %}, {% endif %}
+              {% if page.state %}
+              {{ page.state }} {% endif %}
+              {% if page.city or page.state %}<br> {% endif %}
+              {% if page.country %}
+              {{ page.country }}
+              {% endif %}
+            </td>
+          </tr>
+        {% endif %}
+        <!-- Tags -->
+
+          {% if page.tags !='' %}
+          <tr>
+            <td>
+              Keywords:
+            </td>
+            <td>
+              {% for tag in page.tags %}
+              <div class="ui tiny label">{{ tag }}</div>
+              {% endfor %}
+            </td>
+          </tr>
+          {% endif %}
+
+        </tbody>
+      </table>
+
+</div> <!-- close basic segment -->

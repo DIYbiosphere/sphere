@@ -18,7 +18,7 @@
       <!-- Since -->
         <div>
           {% if page.since %}
-            <span data-tooltip="Established since"><i class="gift icon"></i></span>
+            <span data-tooltip="Established since"><i class="gift grey icon"></i></span>
             {{ page.since }}
           {% endif %}
         </div>
@@ -28,7 +28,7 @@
           {% if page.host %}
           {% assign host = page.host %}
           {% if host.name %}
-          <span data-tooltip="Host organization"><i class="home icon"></i></span>
+          <span data-tooltip="Host organization"><i class="home grey icon"></i></span>
               {% if host.web %} <a href="{{ page.host.web | site.baseUrl }}"> {% endif %}
             {{ host.name }}
           {% endif %}
@@ -38,7 +38,7 @@
       <!-- Type of Organization -->
         <div>
           {% if page.type %}
-            <span data-tooltip="Type of (host) organization"><i class="building icon"></i></span>
+            <span data-tooltip="Type of (host) organization"><i class="building grey icon"></i></span>
             {{ page.type }}
           {% endif %}
         </div>
@@ -58,7 +58,7 @@
         <!-- Address -->
         <div>
           {% if page.address %}
-            <span data-tooltip="Address + special directions"><i class="marker icon"></i></span>
+            <span data-tooltip="Address + special directions"><i class="marker grey icon"></i></span>
             {{ page.address }}
             {% if page.directions %}
             <br>{{ page.directions }}
@@ -69,7 +69,7 @@
         <!-- City and country -->
         <div>
           {% if page.city or page.state or page.country %}
-            <span data-tooltip="Geographic location"><i class="world icon"></i></span>
+            <span data-tooltip="Geographic location"><i class="world grey icon"></i></span>
             {{ page.city }}{% if page.city and page.state %}, {% endif %}
             {% if page.state %}
             {{ page.state }} {% endif %}
@@ -84,7 +84,7 @@
     <!-- Tags -->
     {% if page.tags !='' %}
     <div class="ui padded segment">
-      <span data-tooltip="Tags"><i class="tags icon"></i></span>
+      <span data-tooltip="Tags"><i class="tags grey icon"></i></span>
         {% for tag in page.tags %}
         <div class="ui tiny label">{{ tag }}</div>
         {% endfor %}

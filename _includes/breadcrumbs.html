@@ -32,12 +32,11 @@
     {% endif %}
 
     <div class="column right aligned xo paddingless">
-      <i class="edit icon"></i> <a href="{{site.github.repository_url}}/blob/master/{{page.path}}" target="_blank">
-         Edit this page</a>
-      </div>
+      Latest commit: {{ page.last_modified | date_to_string }}
+    </div>
 
 
-    <div class="column xo padding top without">
+    <div class="column xo padding top without middle aligned">
       <i class="wait icon"></i>
         {% assign words = content | number_of_words %}
         {% if words < 360 %}
@@ -47,7 +46,29 @@
         {% endif %}
     </div>
 
+
+
     <div class="column right aligned xo padding top without">
-      Latest commit: {{ page.last_modified | date_to_string }}
+      <div class="ui icon compact tiny menu">
+        <a class="item" data-vivaldi-spatnav-clickable="1" data-tooltip="Edit this Page on GitHub" href="{{site.github.repository_url}}/blob/master/{{page.path}}" target="_blank">
+          <i class="edit icon"></i>
+        </a>
+        <a class="item" data-vivaldi-spatnav-clickable="1" data-tooltip="Submit a Bug Report" href="{{site.github.repository_url}}/blob/master/{{page.path}}" target="_blank">
+          <i class="bug icon"></i>
+        </a>
+        <a class="item" data-tooltip="Select a Language">
+          <i class="world icon"></i>
+            <div class="ui inline dropdown">
+              <div class="text">EN</div>
+              <i class="dropdown icon"></i>
+              <div class="menu">
+                <div class="header">Select language</div>
+                <div class="active item" data-text="EN">English</div>
+                <div class="item" data-text="FR">French</div>
+                <div class="item" data-text="ES">Spanish</div>
+              </div>
+            </div>
+        </a>
+      </div>
     </div>
   </div> <!-- close row -->
