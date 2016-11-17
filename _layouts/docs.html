@@ -5,23 +5,23 @@ layout: default
 <div class="ui grid container xo top padding">
 
   <div class="four wide column">
-    <aside>
-        {% include sidebar.html %}
-    </aside>
+      <aside>
+          {% include sidebar.html %}
+      </aside>
   </div>
 
   <div class="twelve wide column">
-    {% include breadcrumbs.html %}
-    <article class="xo padding top twofold">
-        <h1 class="ui header">
-          {{ page.title }}
-          <div class="ui sub header">{{ page.summary }}</div>
-        </h1>
-        <div class="ui divider"></div>
-      {{content}}
-    </article>
+    <div id="docs-context">
+      {% include breadcrumbs.html %}
+      <article class="xo padding top twofold">
+          <h1 class="ui header">
+            {{ page.title }}
+            <div class="ui fitted divider"></div>
+            <div class="sub header">{{ page.summary }}</div>
+          </h1>
+        {{content}}
+      </article>
+    </div>
   </div>
-
-
 
 </div> <!-- close grid container -->
