@@ -25,42 +25,33 @@
       '<div class="text-center">No results found matching <strong>{{query}}</strong>.</div>';
     
     let hitTemplate = `
-      <div class="row" style="
+      <div style="
         border-top: 1px solid;
         border-bottom: 1px solid;
         border-color: #DDDDDD;
         padding: 10px 0px 10px 5px;">
-        <div class="col-sm-2">
-          <img src="{{ logo }}" alt="logo" class="img-responsive" />
-        </div>
-        <div class="col-sm-8">
-          <div>
-            <b>{{{ _highlightResult.title.value }}}</b>
-            <a href="{{url}}" class="text-info"><i class="fa fa-link"></i></a>
-            <a href="{{website}}" class="text-info" target="_blank"><i class="fa fa-external-link"></i></a>
-          </div>
-          <div>
-            <p>{{ text }}</p>
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <div style="
-            border: 0.5px solid;
-            border-color: #DDDDDD;
-            width: 130px;
-            padding: 5px 5px 5px 10px">
-            {{#collection}}
-              <div><i class="fa fa-lg fa-flask"></i><b>{{ collection }}</b></div>
-            {{/collection}}
-            {{#since}}
-              <div><i class="fa fa-gift"></i> {{ since }}</div>
-            {{/since}}
-            {{#host.name}}
-              <div><i class="fa fa-home"></i> {{ host.name }}</div>
-            {{/host.name}}
-            {{#country}}
-            <div><i class="fa fa-globe"></i> {{city}}, {{country}}</div>
-            {{/country}}
+        <div class="ui two column grid container">
+          <div class="row">
+            <div class="two wide column">
+              <img src="http://photos1.meetupstatic.com/photos/event/a/9/2/f/global_438763311.jpeg" alt="logo" class="img-responsive" />
+            </div>
+            <div class="eigth wide column">
+              <div>Berkley Biolabs</div>
+              <div>
+                <p>
+                  The Bioscope is a public laboratory of the life and biomedical sciences from the University of Geneva.
+                </p>
+              </div>
+            </div>
+            <div class="six wide column">
+              <div style="border: 0.5px solid; width: 120px; padding: 5px 5px 5px 10px">
+                <div><i class="fa fa-lg fa-flask"></i>Lab</div>
+                <div><i class="fa fa-gift"></i> 2014</div>
+                <div><i class="fa fa-home"></i> University of Geneva</div>
+                <div><i class="fa fa-bolt"></i> University</div>
+                <div><i class="fa fa-globe"></i> Geneva, Switzerland</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>`;
