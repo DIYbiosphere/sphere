@@ -55,6 +55,24 @@ This is a draft for view formats for the list of entries
     </div>
   </div> <!-- close card -->
 
+  <div class="ui segment">
+    <div class="ui grid">
+      <div class="two column row">
+        <div class="column">
+          <h3 class="ui header">
+            {{ page.title }}
+            <div class="sub header">
+            {{ collection }} | {{ page.type }}
+            </div>
+          </h3>
+        </div>
+        <div class="column">
+        <i class="marker icon"></i> {{ page.city }}, {{ page.country }}
+        </div>
+      </div>
+    </div> <!-- close grid -->
+  </div> <!-- close segment -->
+
   <div class="ui divided items">
     <div class="item">
       <div class="image">
@@ -119,6 +137,36 @@ This is a draft for view formats for the list of entries
     </div>
   </div>
 
+  <div style="padding: 10px 0px 10px 5px;">
+    <div class="ui two column grid container">
+      <div class="row">
+        <div class="two wide column">
+          <img class="ui fluid image" src="{{ logo }}" alt="logo" class="img-responsive" />
+        </div>
+        <div class="ten wide column">
+          <h4 class="ui header">{{{ _highlightResult.title.value }}}<h4/>
+          <div>
+            <p>{{{ _highlightResult.text.value }}}</p>
+          </div>
+          <div style="padding-top:10%"><i class="tags icon"></i>{{ tags }}</div>
+        </div>
+        <div class="four wide column">
+          <div style="width: 70%; border: 0.5px solid gainsboro; padding: 20px 10px 20px 15px;">
+            <div>
+              <i class="large icons">
+                <i class="large thin circle icon"></i>
+                <i class="small lab icon"></i>
+              </i> {{ collection }}
+            </div>
+            <div><i class="gift icon"></i> {{ since }}</div>
+            <div><i class="home icon"></i> {{ host.name }}</div>
+            <div><i class="lightning icon"></i> University</div>
+            <div><i class="globe icon"></i> {{ city }}, {{ country }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <button class="ui circular facebook icon mini button">
       <i class="facebook icon"></i>
