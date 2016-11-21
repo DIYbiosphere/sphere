@@ -2,6 +2,11 @@ div[role="search"] {
   all: initial !important;
 }
 
+// sibling selector
+.algolia-autocomplete + .icon {
+  padding-left: 10px;
+}
+
 .algolia-autocomplete {
   all: initial;
   width: 100%;
