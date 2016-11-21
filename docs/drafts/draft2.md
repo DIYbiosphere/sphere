@@ -9,7 +9,34 @@ title: Draft
 Why use Github?
 Explanation [here](http://blog.okfn.org/2013/07/02/git-and-github-for-data/) on a case of git and github for data by the okfn.
 
+<div class="item">
+  <a href='https://github.com/DIYbiosphere/sphere'><img src='https://img.shields.io/github/stars/diybiosphere/sphere.svg?style=social&label=Star&maxAge=2592000' alt='Star diybiosphere/sphere!'/></a>
+</div>
 
+
+<div class="ui left labeled button" tabindex="0">
+  <a class="ui basic right pointing label">
+    2,048
+  </a>
+  <div class="ui button">
+    <i class="heart icon"></i> Like
+  </div>
+</div>
+
+
+<p xmlns:dct="http://purl.org/dc/terms/">
+  <a rel="license"
+     href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="https://licensebuttons.net/p/zero/1.0/80x15.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <a rel="dct:publisher"
+     href="http://sphere.diybio.org/">
+    <span property="dct:title">DIYbiosphere</span></a>
+  has waived all copyright and related or neighboring rights to
+  <span property="dct:title">Sphere</span>.
+</p>
 
 
 ## Forking

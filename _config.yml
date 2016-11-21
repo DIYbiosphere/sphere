@@ -1,7 +1,7 @@
 # Site settings
 title: DIYbiosphere
 description: "A collaborative library of Do-it-Yourself Biology initiatives"
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "sphere.diybio.org"
 permalink: /updates/:year/:month/:day/:title
 repository: "DIYbiosphere/sphere"
