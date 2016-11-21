@@ -19,13 +19,14 @@
   background-attachment: fixed;
 }
 
-.masthead {
-  padding: 8em 0em;
-}
 
 .infobox {
   min-width: 250px;
   width: 300px;
+
+  table tr td {
+    border-top: 0px !important;
+  }
 }
 
 nav {
