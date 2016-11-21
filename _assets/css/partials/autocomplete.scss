@@ -1,6 +1,10 @@
+div[role="search"] {
+  all: initial !important;
+}
 
 .algolia-autocomplete {
-  width: 50%;
+  all: initial;
+  width: 100%;
 
   .aa-hint {
     color: #999
@@ -27,8 +31,8 @@
     }
 
     .aa-suggestion span {
-      font-weight: bold;
       font-style: normal;
+      background-color: gainsboro
     }
 
   }
