@@ -19,17 +19,24 @@
   background-attachment: fixed;
 }
 
-.masthead {
-  padding: 8em 0em;
-}
 
 .infobox {
   min-width: 250px;
   width: 300px;
+
+  table tr td {
+    border-top: 0px !important;
+  }
 }
 
 nav {
-  border-bottom: 2px solid #1B1C1D;
+  border-bottom: 3px solid $black;
+
+  .diybio-logo {
+    height: 16px;
+    max-width: 30px;
+    padding-right: 8px;
+  }
 }
 
 article {
@@ -43,15 +50,16 @@ article {
     background-size: 100%;
   }
 
-  a[href^="/#"]:after {
+  a[href*="#"]:before {
     display: inline-block;
     width: 10px;
     height: 10px;
-    margin-right: 3px;
+    margin-left: 3px;
     content: "";
-    background: url('/assets/img/external-link.png') no-repeat 0 0;
+    background: url('/assets/img/heading-link.png') no-repeat 0 0;
     background-size: 100%;
   }
+
 }
 
 
@@ -70,6 +78,13 @@ strong em {
 
 code {
   background-color: $lightGrey !important;
+}
+
+footer {
+
+  .border-footer {
+    border-top: 1px solid $grey;
+  }
 }
 
 /**

@@ -15,11 +15,11 @@
 
     <!-- Google Analytics -->
     <script src="https://www.google.com/jsapi"></script>
+
     <!-- JQuery & Semantic UI -->
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
     <script src="{{ "semantic/dist/semantic.min.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
-    <script type="text/javascript">$('.ui.accordion').accordion();</script>
 
     <!-- Algolia search & components -->
     <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearchLite.min.js"></script>
@@ -36,7 +36,10 @@
 
     <!-- Main JS file -->
     {% javascript main %}
-    {% javascript landing %}
+
+    {% if page.layout == 'landing' %}
+      <script type="text/javascript">$('.ui.accordion').accordion();</script>
+    {% endif %}
 
     {% if page.layout == 'entries' %}
     <script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js" type="text/javascript"></script>
@@ -50,6 +53,7 @@
       <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
       <script type="text/javascript">$('.menu .item').tab();</script>
       <script type="text/javascript">$('.tabular.menu .item').tab();</script>
+      <script type="text/javascript">$('.ui.accordion').accordion({onOpen: function (item) {setCookie('acordionIndex',this.index);}}).accordion('open', getCookie('acordionIndex'));</script>
       {% javascript docs %}
     {% endif %}
 

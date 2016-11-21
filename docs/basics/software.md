@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/basics/development/
+permalink: /docs/basics/software/
 crumb: basics
 title: Basics of the Development
 summary: In this section

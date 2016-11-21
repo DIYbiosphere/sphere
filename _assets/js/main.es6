@@ -45,9 +45,9 @@
       templates: {
         suggestion: suggestion => HIT_TEMPLATE.render(suggestion),
         footer: `
-          <div class="ui vertical segment">
-            <a href="https://www.algolia.com" class="ui medium image">
-              <img src="https://www.algolia.com/static_assets/images/press/downloads/powered-by-algolia.svg">
+          <div class="ui vertical padded right aligned segment">
+            <a href="https://www.algolia.com">
+              <img src="/assets/img/poweredBy-Algolia.svg">
             </a>
           </div>
         `

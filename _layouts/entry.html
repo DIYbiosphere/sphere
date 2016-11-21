@@ -6,14 +6,14 @@ layout: default
   <div class="sixteen wide column">
     {% include breadcrumbs.html %}
     <article class="xo top padding twofold">
-      <h1 class="ui header">
+      <h1 class="ui header xo padding bottom">
         {{ page.title }}
-        <div class="ui sub header">{{ page.summary }}</div>
+        <div class="ui fitted divider"></div>
+        <div class="sub header">{{ page.summary }}</div>
       </h1>
-      <div class="ui divider"></div>
     </article>
     <div>
-      {% include infobox.html %}
+      {% include info-box.html %}
       <article>
         {{content}}
       </article>
