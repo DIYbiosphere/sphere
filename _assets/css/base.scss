@@ -39,7 +39,7 @@ nav {
   }
 }
 
-article {
+article:not([class=button][class=image][class=label]) {
   a[href^="http"]:after {
     display: inline-block;
     width: 10px;
@@ -83,7 +83,7 @@ code {
 footer {
 
   .border-footer {
-    border-top: 1px solid $grey;
+    border-top: 1px solid $lightGrey;
   }
 }
 

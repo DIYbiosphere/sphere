@@ -80,3 +80,30 @@
 .xo.lightBlack {
   background-color: $lightBlack;
 }
+
+
+.xo.text {
+  &.smaller {
+    font-size: 0.50em;
+
+    &.fairly {
+      font-size: 0.70em;
+    }
+
+    &.slightly {
+      font-size: 0.80em;
+    }
+
+    &.barely {
+      font-size: 0.90em;
+    }
+  }
+
+  &.bigger {
+    font-size: 1.5em;
+
+    &.slightly {
+      font-size: 1.25em;
+    }
+  }
+}

@@ -13,88 +13,133 @@ Explanation [here](http://blog.okfn.org/2013/07/02/git-and-github-for-data/) on 
   <a href='https://github.com/DIYbiosphere/sphere'><img src='https://img.shields.io/github/stars/diybiosphere/sphere.svg?style=social&label=Star&maxAge=2592000' alt='Star diybiosphere/sphere!'/></a>
 </div>
 
-
-<div class="ui left labeled button" tabindex="0">
-  <a class="ui basic right pointing label">
-    2,048
+<div class="ui mini left labeled button" tabindex="0">
+  <a class="ui mini basic grey label">
+    Get invite to Slack
   </a>
-  <div class="ui button">
-    <i class="heart icon"></i> Like
+  <div class="ui mini icon grey button">
+    <i class="send icon"></i>
   </div>
 </div>
 
-
-<p xmlns:dct="http://purl.org/dc/terms/">
-  <a rel="license"
-     href="http://creativecommons.org/publicdomain/zero/1.0/">
-    <img src="https://licensebuttons.net/p/zero/1.0/80x15.png" style="border-style: none;" alt="CC0" />
+<div class="ui mini labeled button" tabindex="0">
+  <div class="ui mini icon black button">
+    <i class="star icon"></i>
+  </div>
+  <a class="ui mini basic black left pointing label">
+    12
   </a>
-  <br />
-  To the extent possible under law,
-  <a rel="dct:publisher"
-     href="http://sphere.diybio.org/">
-    <span property="dct:title">DIYbiosphere</span></a>
-  has waived all copyright and related or neighboring rights to
-  <span property="dct:title">Sphere</span>.
-</p>
+</div>
+
+<div class="ui mini labeled button" tabindex="0">
+  <div class="ui mini icon black button">
+    <i class="fork icon"></i>
+  </div>
+  <a class="ui mini basic black left pointing label">
+    11
+  </a>
+</div>
+
+<div class="ui labeled button" tabindex="0">
+  <div class="ui red button">
+    <i class="heart icon"></i> Like
+  </div>
+  <a class="ui basic red left pointing label">
+    1,048
+  </a>
+</div>
+
+<div class="ui mini labeled button" tabindex="0">
+  <div class="ui mini icon button">
+    <i class="gittip icon"></i>
+  </div>
+  <a class="ui mini basic left pointing label">
+    $0.05/week
+  </a>
+</div>
+
+<div class="ui mini labeled button" tabindex="0">
+  <div class="ui mini icon button">
+    <i class="slack icon"></i>
+  </div>
+  <a class="ui mini basic left pointing label">
+    3/3
+  </a>
+</div>
+
+<div class="ui mini labeled button" tabindex="0">
+  <div class="ui mini icon button">
+    <i class="twitter icon"></i>
+  </div>
+  <a class="ui mini basic left pointing label">
+    2
+  </a>
+</div>
 
 
-## Forking
+<div>
+  <a class="coded-with-love link">
+    <img src="/assets/img/sphere-coded.png">
+  </a>
+  <div class="ui fluid popup bottom left transition hidden" style="top: 554px; left: 1px; bottom: auto; right: auto; width: 960px;">
+    <div class="ui four column relaxed grid">
+      <div class="column">
+        <h4 class="ui grey center aligned header">Supported by</h4>
+        <div class="ui two column grid">
+          <div class="six wide column">
+            <a href="https://diybio.org"><img src="/assets/img/diybio.png"></a>
+          </div>
+          <div class="ten wide column">
+            <a href="http://www.unige.ch"><img src="/assets/img/unige.png"></a>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <h4 class="ui grey center aligned header">Hosted by</h4>
+        <div class="ui one column grid">
+          <div class="column">
+            <a href="https://pages.github.com"><img src="/assets/img/github-logo.png"></a>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <h4 class="ui grey center aligned header">Powered by</h4>
+        <div class="ui two column grid">
+          <div class="column">
+            <a href="https://jekyllrb.com"><img src="/assets/img/jekyll.png"></a>
+          </div>
+          <div class="column">
+            <a href="https://travis-ci.org"><img src="/assets/img/travis.png"></a>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <h4 class="ui grey center aligned header">Search by</h4>
+        <div class="column">
+          <a href="https://www.algolia.com"><img src="/assets/img/algolia.png"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-Pros
-
-Keeps branches separated by user
-Reduces clutter in the primary repository
-Your team process reflects the outside contributor process
-Cons
-
-Makes it more difficult to see all of the branches that are active (or inactive, for that matter)
-Collaborating on a branch is trickier (the fork owner needs to add the person as a collaborator)
-You need to understand the concept of multiple remotes in Git
-Requires additional mental bookkeeping
-This will make the workflow more difficult for people who aren't super comfortable with Git
-
-## Branching
-
-Pros
-
-Keeps all of the work being done around a project in one place
-All collaborators can push to the same branch to collaborate on it
-There's only one Git remote to deal with
-Cons
-
-Branches that get abandoned can pile up more easily
-Your team contribution process doesn't match the outside contributor process
-
-
-[–]m00n3r 311 points 5 years ago
-5 year old explanation:
-You and Billy decide to draw a picture together with crayons, but you both want to be able to work on it from home. The teacher makes 2 photocopies of what you have started and you both take a copy home (pulling/checking out). You both add more things to the drawing and when you come back to school tomorrow, the teacher cuts and pastes the bits you added / changed and then photocopies that (merging). If you both colored in the same area, someone has to choose which portion to use (resolving a conflict). And since there are photocopies every time something is changed, you can throw away all the new ones if you don't like what you've done (reverting). https://www.reddit.com/r/explainlikeimfive/comments/jgoxv/eli5_how_do_you_use_git_and_github/
-
-
-You and your friend want to play the same RPG video game together (We're going to go with Chronotrigger here, because every 5 year old should be playing that imo), but you want to do it without being in the same room, and without having a constant internet connection to a centralized server. Even more tricky, you guys want to play through the same saved game together, but without coordinating time slots or copying the saved game file to each other every time you're finished with it.
-The system that manages all of that, is Git. It allows you to play the same game simultaneously, offline, and you guys can even go in different directions in the story line. Say, one person decides to fight Lavos, and the other decides to go get Magus. You've got the game going in two different directions, but when you come online to merge the two of them, Git understands how to bring it all together, and it does it's best attempt to merge your storylines. Sometimes, you perform story arcs in direct conflict with each other (one person decides to let Magus join the party, and the other decides to fight him). In this case, you have a conflict, and you have to resolve it (choose one of the arcs as cannon) and go on from there.
-The server that runs the software that lets you manage this, and stores the global saved game you and your friend keep working off of (branching from), has some built in features for you and your friend to communicate with each other. This is Github. It's also got some cool reports and graphs for you and your friend to see other storylines that other people who are using your global saved game file have tried, and gives you the opportunity to use their story arcs as well, if you like how they work with your game
-
-GitHub is a web platform that helps users collaborate on a _collection of files_. The shared folder containing these files is a called  **repository** or **repo**.
-
-Based on a software called **Git**, GitHub provides _version control_ to the files in the repo. If you download Git to your computer, you can turn any folder into a Git repository. Git tracks changes to the files by saving _snapshots_. With Git, multiple users are able  which allows users to work simultaneously on the files separetely and to combine them without overwriting changes made by users on one file that conflicts with another.
-
-Git works by saving _snapshots_, called  commits, of the changes in the repository; making changes easy to track and reverse.
-
-Git usually runs by using the  _command-line_ of your local machine, using GitHub is easier as it provides a visual interface accessible by any browser, or you can download GitHub Desktop and work locally on your machine.
-
-GitHub is a web platform that helps users collaborate on a _collection of files_,  called  **repository** or **repo**, by providing _version control_ based on the **Git** software. Git usually runs by using the  _command-line_ of your local machine, using GitHub is easier as it provides a visual interface accessible by any browser, or you can download GitHub Desktop and work locally on your machine.
-
-Git works by saving _snapshots_, called  commits, of the changes in the repository; making changes easy to track and reverse.
-
-- git clone: will 'clone', or copy a remote repository to a destination which is local to your machine via the command line
-- git pull: will update your local repository (where you cloned to), with code from that remote repository
-- git status: will show you the status of any changes you have in yout working tree (working tree is all the files of the current repository that git sees).
-- git add: will add files to the staging location after they're changed (or if they're untracked, will mark them to be tracked after the next commit)
-- git commit: will apply your staged changes (throught git add) to the repository. A commit is accompnied by a message that explains the changes you just made to the files.
-- git push: updates a remote repository with your latest commit.
-- git log: show you a list of changes that have happende since the beginning of time.
+<svg class="icon" id="gitter" viewBox="0 0 16 16" style="width:100%; min-height:0.3em; max-height:1em;">
+  <path fill-rule="evenodd" d="M3,0 L4.53557335,0 L4.53557335,10.1342937 L3,10.1342937 L3,0 L3,0 Z M12.3359182,2.45679476 L13.8713689,2.45679476 L13.8713689,10.1342937 L12.3359182,10.1342937 L12.3359182,2.45679476 L12.3359182,2.45679476 Z M6.13244703,2.45679476 L7.66789778,2.45679476 L7.66789778,16 L6.13244703,16 L6.13244703,2.45679476 L6.13244703,2.45679476 Z M9.20347113,2.45679476 L10.7390445,2.45679476 L10.7390445,16 L9.20347113,16 L9.20347113,2.45679476 L9.20347113,2.45679476 Z"></path>
+</svg>
 
 
----
+
+
+
+<button class="js-gitter-toggle-chat-button">Toggle Chat</button>
+<button class="js-gitter-toggle-chat-button" data-gitter-toggle-chat-state="true">Open Chat</button>
+
+
+<button class="ui labeled icon button js-gitter-toggle-chat-button" data-gitter-toggle-chat-state="true">
+  <i class="pause icon"></i>
+  Pause
+</button>
+
+<a href="http://google.com" class="ui medium image">
+  <img src="/assets/img/header.jpg">
+</a>

@@ -20,6 +20,7 @@
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
     <script src="{{ "semantic/dist/semantic.min.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
+    <script type="text/javascript">$('.coded-with-love').popup({inline: true,hoverable: true,position: 'top left',delay: {hide: 300}});</script>
 
     <!-- Algolia search & components -->
     <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearchLite.min.js"></script>
@@ -30,7 +31,7 @@
 
 
     <!-- Embeded Gitter chat -->
-    <script>((window.gitter = {}).chat = {}).options = { room: 'DIYbiosphere/sphere' };</script>
+    <script>((window.gitter = {}).chat = {}).options = { room: 'DIYbiosphere/sphere', activationElement: false };</script>
     <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
     <!-- Main JS file -->
