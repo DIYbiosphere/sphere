@@ -3,17 +3,17 @@
 	$(document).ready(function() {
     
     /** Leaflet map stuff */
-    let center = new L.LatLng(50.5, 30.51);
-    let map = new L.Map('map', {center: center, zoom: 15});
+    // let center = new L.LatLng(50.5, 30.51);
+    // let map = new L.Map('map', {center: center, zoom: 15});
 
-    let positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
-    }).addTo(map);
+    // let positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+    //     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+    // }).addTo(map);
 
-    let marker = new L.Marker(center);
-    map.addLayer(marker);
+    // let marker = new L.Marker(center);
+    // map.addLayer(marker);
 
-    marker.bindPopup("<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p><p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>");
+    // marker.bindPopup("<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p><p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>");
     
     
     /** Instantsearch stuff */
@@ -25,36 +25,36 @@
       '<div class="text-center">No results found matching <strong>{{query}}</strong>.</div>';
     
     let hitTemplate = `
-      <div style="
-        border-top: 1px solid;
-        border-bottom: 1px solid;
-        border-color: #DDDDDD;
-        padding: 10px 0px 10px 5px;">
-        <div class="ui two column grid container">
-          <div class="row">
-            <div class="two wide column">
-              <img src="http://photos1.meetupstatic.com/photos/event/a/9/2/f/global_438763311.jpeg" alt="logo" class="img-responsive" />
+    <div style="padding: 10px 0px 10px 5px;">
+      <div class="ui two column grid container">
+        <div class="row">
+          <div class="two wide column">
+            <img class="ui fluid image" src="{{ logo }}" alt="logo" class="img-responsive" />
+          </div>
+          <div class="ten wide column">
+            <h4 class="ui header">{{{ _highlightResult.title.value }}}</h4>
+            <div>
+              <p>{{{ _highlightResult.text.value }}}</p>
             </div>
-            <div class="eigth wide column">
-              <div>Berkley Biolabs</div>
+            <div style="padding-top:10%"><i class="tags icon"></i>{{ tags }}</div>
+          </div>
+          <div class="four wide column">
+            <div style="width: 70%; border: 0.5px solid gainsboro; padding: 20px 10px 20px 15px;">
               <div>
-                <p>
-                  The Bioscope is a public laboratory of the life and biomedical sciences from the University of Geneva.
-                </p>
-              </div>
-            </div>
-            <div class="six wide column">
-              <div style="border: 0.5px solid; width: 120px; padding: 5px 5px 5px 10px">
-                <div><i class="fa fa-lg fa-flask"></i>Lab</div>
-                <div><i class="fa fa-gift"></i> 2014</div>
-                <div><i class="fa fa-home"></i> University of Geneva</div>
-                <div><i class="fa fa-bolt"></i> University</div>
-                <div><i class="fa fa-globe"></i> Geneva, Switzerland</div>
+                <i class="large icons">
+                  <i class="large thin circle icon"></i>
+                  <i class="small lab icon"></i>
+                </i> {{ collection }}
+              <div><i class="gift icon"></i> {{ since }}</div>
+                <div><i class="home icon"></i> {{ host.name }}</div>
+                <!-- div><i class="lightning icon"></i> University</div -->
+                <div><i class="globe icon"></i> {{ city }}, {{ country }}</div>
               </div>
             </div>
           </div>
         </div>
-      </div>`;
+      </div>
+    </div>`;
     
     let search = instantsearch({
       appId: APPLICATION_ID,
