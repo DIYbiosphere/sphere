@@ -2,6 +2,24 @@ div[role="search"] {
   all: initial !important;
 }
 
+.ui.left.icon.input {
+  .algolia-autocomplete {
+    .aa-input {
+      padding-left: 15px !important;
+    }
+  }
+  &.fluid {
+    .aa-input {
+      padding-left: 35px !important;
+    }
+  }
+  .ais-search-box {
+    .ais-search-box--input {
+      padding-left: 35px !important;
+    }
+  }
+}
+
 // sibling selector
 .algolia-autocomplete + .icon {
   padding-left: 10px;

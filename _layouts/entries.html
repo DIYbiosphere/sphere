@@ -469,7 +469,7 @@ layout: default
       <!-- Search bar -->
       <div class="ten wide column">
         <div class="ui left icon fluid input">
-          <input type="text" placeholder="Search Entries by Name or Location">
+          <input id="search-box" type="text" placeholder="Search Entries by Name or Location">
           <i class="search icon"></i>
         </div>
 
@@ -560,6 +560,8 @@ layout: default
       <!-- RESULTS -->
       <div class="sixteen wide column">
         <!-- Table -->
+        <div id="hits-container"></div>
+        <div id="pagination-container"></div>
         <table class="ui selectable single line sortable celled table">
           <thead>
             <tr>
