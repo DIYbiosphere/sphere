@@ -2,18 +2,52 @@
 
 	$(document).ready(function() {
     
+    // $('.menu .item').tab();
+    // $('[data-tab].item').tab();
+    
+    /**
+		 * Bring in the data!
+		 * @see "data/database.json"
+		 *
+		 * Get all database from the generated file and populates the table.
+		*/
+		$.getJSON('/data/database.json')
+			.done(function(resp) { // when request succeded...
+				var data = [];
+				var database = resp.database;
+				var collection = getCollection();
+				console.log('collection to use: ', collection);
+				if(collection) {
+					data = database.filter(function(initiative) { // filter by collection
+						return initiative.collection === collection;
+					});
+				} else data = database;
+				$table.rows.add(data).draw(); // add data and 'refresh' the table.
+			})
+			.fail(function(jqxhr, textStatus, error) { // when request failed...
+				console.error('failure getting database...');
+				console.error(`${textStatus}, ${error}`);
+			});
+    
     /** Leaflet map stuff */
-    // let center = new L.LatLng(50.5, 30.51);
-    // let map = new L.Map('map', {center: center, zoom: 15});
+    let center = new L.LatLng(50.5, 30.51);
+    // let map = new L.Map('map-container', {center: center, zoom: 15});
+    let map = L.map('map-container').setView([51.505, -0.09], 13);
 
     // let positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
     //     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
     // }).addTo(map);
+    const MAPBOX_TOKEN = 'pk.eyJ1IjoiY3ViZTUiLCJhIjoiY2l2eDltdXRxMDFmczJ1cGRrcTN3M3NiNSJ9.MPdk_yTt0MwRQsll8CnSeg';
+    L.tileLayer(`https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}?access_token=${MAPBOX_TOKEN}`, {
+      attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+      maxZoom: 18,
+      accessToken: MAPBOX_TOKEN
+    }).addTo(map);
 
-    // let marker = new L.Marker(center);
-    // map.addLayer(marker);
+    let marker = new L.Marker(center);
+    map.addLayer(marker);
 
-    // marker.bindPopup("<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p><p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>");
+    marker.bindPopup("<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p><p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>");
     
     
     /** Instantsearch stuff */
@@ -21,10 +55,10 @@
     const SEARCH_ONLY_API_KEY = '5828bf68d90dbb0251e6ce88aabe2e07';
     const INDEX_NAME = 'diybiosphere';
     
-    let emptyTemplate =
+    const EMPTY_TEMPLATE =
       '<div class="text-center">No results found matching <strong>{{query}}</strong>.</div>';
     
-    let hitTemplate = `
+    const HIT_TEMPLATE = `
     <div style="padding: 10px 0px 10px 5px;">
       <div class="ui two column grid container">
         <div class="row">
@@ -70,14 +104,67 @@
       })
     );
     
+    // search.addWidget(
+    //   instantsearch.widgets.clearAll({
+    //     container: '#clear-all',
+    //     templates: {
+    //       link: 'Clear'
+    //     },
+    //     autoHideContainer: false
+    //   })
+    // );
+    
+    // search.addWidget(
+    //   instantsearch.widgets.currentRefinedValues({
+    //     container: '#current-refined-values',
+    //     clearAll: 'after'
+    //   })
+    // );
+    
+    search.addWidget(
+      instantsearch.widgets.stats({
+        container: '#stats-container'
+      })
+    );
+    
     search.addWidget(
       instantsearch.widgets.hits({
         container: '#hits-container',
         templates: {
-          empty: emptyTemplate,
-          item: hitTemplate
+          empty: EMPTY_TEMPLATE,
+          item: HIT_TEMPLATE
         },
         hitsPerPage: 3
+      })
+    );
+    
+    // search.addWidget(
+    //   instantsearch.widgets.menu({
+    //     container: '#collection',
+    //     attributeName: 'collection',
+    //     limit: 10,
+    //     templates: {
+    //       header: 'Collection'
+    //     }
+    //   })
+    // );
+    
+    // search.addWidget(
+    //   instantsearch.widgets.refinementList({
+    //     container: '#types',
+    //     attributeName: 'type',
+    //     operator: 'or',
+    //     limit: 10,
+    //     templates: {
+    //       header: 'Types'
+    //     }
+    //   })
+    // );
+    
+    search.addWidget(
+      instantsearch.widgets.rangeSlider({
+        container: '#since',
+        attributeName: 'since'
       })
     );
 
@@ -223,30 +310,6 @@
 				}
 			});
 		});
-
-		/**
-		 * Bring in the data!
-		 * @see "data/database.json"
-		 *
-		 * Get all database from the generated file and populates the table.
-		*/
-		$.getJSON('/data/database.json')
-			.done(function(resp) { // when request succeded...
-				var data = [];
-				var database = resp.database;
-				var collection = getCollection();
-				console.log('collection to use: ', collection);
-				if(collection) {
-					data = database.filter(function(initiative) { // filter by collection
-						return initiative.collection === collection;
-					});
-				} else data = database;
-				$table.rows.add(data).draw(); // add data and 'refresh' the table.
-			})
-			.fail(function(jqxhr, textStatus, error) { // when request failed...
-				console.error('failure getting database...');
-				console.error(`${textStatus}, ${error}`);
-			});
 
 
 		/********** Event listeners **********/

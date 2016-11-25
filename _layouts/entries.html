@@ -18,6 +18,31 @@ layout: default
           </button>
         </div>
       </div>
+      <!--<div class="row">
+        <div class="sixteen wide column">
+          <div id="clear-all"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="sixteen wide column">
+          <div id="current-refined-values"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="sixteen wide column">
+          <div id="collection"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="sixteen wide column">
+          <div id="types"></div>
+        </div>
+      </div>-->
+      <!--<div class="row">
+        <div class="sixteen wide column">
+          <div id="since"></div>
+        </div>
+      </div>-->
       <!-- Collection -->
       <div class="row">
         <div class="sixteen wide column xo padding bottom">
@@ -133,7 +158,8 @@ layout: default
           <i class="gift icon"></i> <b>Established</b>
         </div>
         <div class="sixteen wide column">
-          <div class="ui small form">
+          <div id="since"></div>
+          <!--<div class="ui small form">
             <div class="inline fields">
               <div class="eight wide field">
                 <label>From</label>
@@ -148,7 +174,8 @@ layout: default
                 </div>
               </div>
             </div>
-          </div> <!-- close form -->
+          </div>-->
+          <!-- close form -->
         </div> <!-- close column -->
       </div> <!-- close row -->
       <!-- Dates -->
@@ -483,7 +510,8 @@ layout: default
       </div>
       <!-- Results matching-->
       <div class="eight wide column">
-        <b>8</b> Matching Entries
+        <!--<b>8</b> Matching Entries-->
+        <div id="stats-container"></div>
       </div>
       <!-- Results per page -->
       <div class="eight wide column right aligned">
@@ -524,20 +552,34 @@ layout: default
         <!-- View as -->
         <div class="column center aligned">
           View As:
-          <div class="ui compact text tiny menu">
-            <a class="active item" data-tooltip="Sortable Table">
+          <div class="ui compact tiny secondary menu">
+            <a class="item" data-tooltip="Sortable Table" data-tab="table">
               <i class="table icon"></i>
             </a>
-            <a class="item" data-tooltip="Picture List">
+            <a class="item active" data-tooltip="Picture List" data-tab="pictureList">
               <i class="list layout icon"></i>
             </a>
-            <a class="item" data-tooltip="Card Grid">
+            <a class="item" data-tooltip="Card Grid" data-tab="card">
               <i class="grid layout icon"></i>
             </a>
-            <a class="item" data-tooltip="Marked Map">
+            <a class="item" data-tooltip="Marked Map" data-tab="map">
               <i class="map icon"></i>
             </a>
           </div>
+          <!--<div class="ui tab segment active" data-tab="table">
+            Table
+            <div id="hits-container"></div>
+            <div id="pagination-container"></div>
+          </div>
+          <div class="ui tab segment" data-tab="pictureList">
+            Picture
+          </div>
+          <div class="ui tab segment" data-tab="card">
+            Card
+          </div>
+          <div class="ui tab segment" data-tab="map">
+            Map
+          </div>-->
         </div>
         <!-- Pagination -->
         <div class="column right aligned">
@@ -558,10 +600,19 @@ layout: default
       <div class="sixteen wide column ui divider"></div>
 
       <!-- RESULTS -->
-      <div class="sixteen wide column">
-        <!-- Table -->
+      <div class="sixteen wide column" data-tab="pictureListView">
         <div id="hits-container"></div>
         <div id="pagination-container"></div>
+      </div>
+      
+      <!-- Map container -->
+      <div class="sixteen wide column" data-tab="mapView">
+        Map container
+        <div id="map-container" style="height:370px;"></div>
+      </div>
+      
+      <div class="sixteen wide column" data-tab="tableView">
+        <!-- Table -->
         <table class="ui selectable single line sortable celled table">
           <thead>
             <tr>

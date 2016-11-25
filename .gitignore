@@ -4,4 +4,4 @@ _site
 .jekyll-metadata
 .vscode
 Gemfile.lock
-node_modules
+node_modules/
