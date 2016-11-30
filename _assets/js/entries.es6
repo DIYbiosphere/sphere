@@ -77,13 +77,19 @@
               <div>
                 <i class="large icons">
                   <i class="large thin circle icon"></i>
-                  <i class="small lab icon"></i>
+                  <i class="small icon collection-icon" data-collection="{{collection}}"></i>
                 </i> {{ collection }}
-              <div><i class="gift icon"></i> {{ since }}</div>
-                <div><i class="home icon"></i> {{ host.name }}</div>
-                <!-- div><i class="lightning icon"></i> University</div -->
-                <div><i class="globe icon"></i> {{ city }}, {{ country }}</div>
-              </div>
+	      </div>
+	      {{ #since }}
+		<div><i class="gift icon"></i> {{ since }}</div>
+	      {{ /since }}
+	      {{ #host }}
+		<div><i class="home icon"></i> {{ host.name }}</div>
+	      {{ /host }}
+              <!-- div><i class="lightning icon"></i> University</div --> <!-- Here goes the type -->
+              {{ #country }}
+	      <div><i class="globe icon"></i> {{ city }}, {{ country }}</div>
+	      {{ /country }}
             </div>
           </div>
         </div>
@@ -175,8 +181,26 @@
     );
     
     search.start();
-    
-    
+   
+    search.once('render', () => {
+       // Set icon depending of collection
+      console.log($('.collection-icon'))
+      $('.collection-icon').each((idx, el) => {
+	let $el = $(el);
+	let dataCollection = $el.data('collection');
+	console.log(dataCollection);
+      	if(dataCollection === 'Lab') $el.addClass('lab');
+      	if(dataCollection === 'Group') $el.addClass('users');
+      	if(dataCollection === 'Event') $el.addClass('ticket');
+      	if(dataCollection === 'Other') $el.addClass('umbrella');
+      	if(dataCollection === 'Project') $el.addClass('travel');
+      	if(dataCollection === 'Network') $el.addClass('share alternate');
+      	if(dataCollection === 'Startup') $el.addClass('rocket');
+      	if(dataCollection === 'Incubator') $el.addClass('leaf');
+    	}); 
+    });
+ 
+   
 		/**
 		 * This DataTable will contain all the info from all collections accross the
 		 * site, they're stored in a json file and the table will be populated via
