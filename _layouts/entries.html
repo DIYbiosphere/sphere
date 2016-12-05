@@ -11,16 +11,13 @@ layout: default
         <div class="column">
           <h3 class="ui header">Refine by</h3>
         </div>
-        <div class="column right aligned">
-          <button class="ui mini icon button" data-tooltip="Reset All Filters">
-            <i class="erase icon"></i>
-            Clear
-          </button>
+        <div id="clear-all" class="column right aligned">
+          <!-- Generated using algolia's api' -->
         </div>
       </div>
-      <!--<div class="row">
+      <div class="row">
         <div class="sixteen wide column">
-          <div id="clear-all"></div>
+          <div id="hits-per-page-selector"></div>
         </div>
       </div>
       <div class="row">
@@ -37,14 +34,19 @@ layout: default
         <div class="sixteen wide column">
           <div id="types"></div>
         </div>
-      </div> -->
-      <!--<div class="row">
+      </div> 
+      <div class="row">
         <div class="sixteen wide column">
           <div id="since"></div>
         </div>
-      </div>-->
-      <!-- Collection -->
+      </div>
       <div class="row">
+        <div class="sixteen wide column">
+          <div id="tags"></div>
+        </div>
+      </div> 
+      <!-- Collection -->
+      <!--<div class="row">
         <div class="sixteen wide column xo padding bottom">
           <i class="folder open icon"></i> <b>Collection</b>
         </div>
@@ -97,9 +99,9 @@ layout: default
           <div class="xo text fairly smaller">Others</div>
         </div>
 
-      </div> <!-- close row -->
+      </div>  <!-- close row -->
       <!-- Type of initiative -->
-      <div class="row">
+      <!--<div class="row">
         <div class="sixteen wide column xo padding bottom">
           <i class="settings icon"></i> <b>Type of Initiative</b>
         </div>
@@ -151,15 +153,16 @@ layout: default
             <label>Other</label>
           </div>
         </div>
-      </div> <!-- close row -->
+      </div>-->
+      <!-- close row -->
       <!-- Since -->
-      <div class="row">
+      <!--<div class="row">
         <div class="sixteen wide column xo padding bottom">
           <i class="gift icon"></i> <b>Established</b>
         </div>
         <div class="sixteen wide column">
           <div id="since"></div>
-          <!--<div class="ui small form">
+          <div class="ui small form">
             <div class="inline fields">
               <div class="eight wide field">
                 <label>From</label>
@@ -174,12 +177,11 @@ layout: default
                 </div>
               </div>
             </div>
-          </div>-->
-          <!-- close form -->
-        </div> <!-- close column -->
-      </div> <!-- close row -->
+          </div>
+        </div>
+      </div>-->
       <!-- Dates -->
-      <div class="row">
+      <!--<div class="row">
         <div class="sixteen wide column xo padding bottom">
           <i class="calendar icon"></i> <b>Dates (for Events)</b>
         </div>
@@ -199,9 +201,9 @@ layout: default
                 </div>
               </div>
             </div>
-          </div> <!-- close form -->
-        </div> <!-- close column -->
-      </div> <!-- close row -->
+          </div>
+        </div>
+      </div>-->
       <!-- Location -->
       <div class="row">
         <div class="sixteen wide column xo padding bottom">
@@ -460,7 +462,7 @@ layout: default
         </div> <!-- close 16 column -->
       </div> <!-- close row -->
       <!-- Tags -->
-      <div class="row">
+      <!--<div class="row">
         <div class="sixteen wide column xo padding bottom">
           <i class="tags icon"></i> <b>Tags</b>
         </div>
@@ -483,7 +485,7 @@ layout: default
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
     </div> <!-- close grid -->
   </div> <!-- close 4 column -->
   <!-- SHO RESULTS -->

@@ -66,7 +66,9 @@
             <img class="ui fluid image" src="{{ logo }}" alt="logo" class="img-responsive" />
           </div>
           <div class="ten wide column">
-            <h4 class="ui header">{{{ _highlightResult.title.value }}}</h4>
+            <h4 class="ui header">
+              <a href="{{url}}">{{{ _highlightResult.title.value }}}</a>
+            </h4>
             <div>
               <p>{{{ _highlightResult.text.value }}}</p>
             </div>
@@ -79,21 +81,22 @@
                   <i class="large thin circle icon"></i>
                   <i class="small icon collection-icon" data-collection="{{collection}}"></i>
                 </i> {{ collection }}
-	      </div>
-	      {{ #since }}
-		<div><i class="gift icon"></i> {{ since }}</div>
-	      {{ /since }}
-	      {{ #host }}
-		<div><i class="home icon"></i> {{ host.name }}</div>
-	      {{ /host }}
+              </div>
+              {{ #since }}
+                <div><i class="gift icon"></i> {{ since }}</div>
+              {{ /since }}
+              {{ #host }}
+                <div><i class="home icon"></i> {{ host.name }}</div>
+              {{ /host }}
               <!-- div><i class="lightning icon"></i> University</div --> <!-- Here goes the type -->
               {{ #country }}
-	      <div><i class="globe icon"></i> {{ city }}, {{ country }}</div>
-	      {{ /country }}
+                <div><i class="globe icon"></i> {{ city }}, {{ country }}</div>
+              {{ /country }}
             </div>
           </div>
         </div>
       </div>
+      <hr/>
     </div>`;
     
     let search = instantsearch({
@@ -110,22 +113,26 @@
       })
     );
     
-    // search.addWidget(
-    //   instantsearch.widgets.clearAll({
-    //     container: '#clear-all',
-    //     templates: {
-    //       link: 'Clear'
-    //     },
-    //     autoHideContainer: false
-    //   })
-    // );
+    search.addWidget(
+      instantsearch.widgets.clearAll({
+        container: '#clear-all',
+        templates: {
+          link: `
+          <button class="ui mini icon button" data-tooltip="Reset All Filters">
+            <i class="erase icon"></i>
+            Clear
+          </button>`
+        },
+        autoHideContainer: false
+      })
+    );
     
-    // search.addWidget(
-    //   instantsearch.widgets.currentRefinedValues({
-    //     container: '#current-refined-values',
-    //     clearAll: 'after'
-    //   })
-    // );
+    search.addWidget(
+      instantsearch.widgets.currentRefinedValues({
+        container: '#current-refined-values',
+        clearAll: 'after'
+      })
+    );
     
     search.addWidget(
       instantsearch.widgets.stats({
@@ -144,33 +151,70 @@
       })
     );
     
-    // search.addWidget(
-    //   instantsearch.widgets.menu({
-    //     container: '#collection',
-    //     attributeName: 'collection',
-    //     limit: 10,
-    //     templates: {
-    //       header: 'Collection'
-    //     }
-    //   })
-    // );
+    search.addWidget(
+      instantsearch.widgets.refinementList({
+        container: '#collection',
+        attributeName: 'collection',
+        operator: 'or',
+        limit: 10,
+        cssClasses: {
+          item: 'float-left pad-sides'
+        },
+        templates: {
+          header: `<i class="folder open icon"></i> <b>Collection</b>`,
+          // item: `
+          //   <div class="ui checkbox">
+          //     <input type="checkbox" name="{{name}}">
+          //     <label>{{name}} &mdash; {{count}}</label>
+          //   </div>`
+          item: `
+            <button class="ui basic circular icon button" data-tooltip="{{name}}s">
+              <i class="icon collection-icon" data-collection="{{name}}"></i>
+            </button>
+            <div class="xo text fairly smaller">{{name}} &mdash; {{count}}</div>`
+        }
+      })
+    );
     
-    // search.addWidget(
-    //   instantsearch.widgets.refinementList({
-    //     container: '#types',
-    //     attributeName: 'type',
-    //     operator: 'or',
-    //     limit: 10,
-    //     templates: {
-    //       header: 'Types'
-    //     }
-    //   })
-    // );
+    search.addWidget(
+      instantsearch.widgets.refinementList({
+        container: '#types',
+        attributeName: 'type',
+        operator: 'or',
+        limit: 10,
+        templates: {
+          header: `<i class="settings icon"></i> <b>Type of Initiative</b>`,
+          item: `
+            <div class="ui checkbox">
+              <input type="checkbox" name="{{name}}">
+              <label>{{name}} &mdash; {{count}}</label>
+            </div>`
+        }
+      })
+    );
     
     search.addWidget(
       instantsearch.widgets.rangeSlider({
         container: '#since',
-        attributeName: 'since'
+        attributeName: 'since',
+        templates: {
+          header: `<i class="gift icon"></i> <b>Established</b>`
+        }
+      })
+    );
+    
+    search.addWidget(
+      instantsearch.widgets.refinementList({
+        container: '#tags',
+        attributeName: 'tags',
+        templates: {
+          header: `<i class="tags icon"></i> <b>Tags</b>`,
+          item: `
+            <div class="ui checkbox">
+              <input type="checkbox" name="{{name}}">
+              <label>{{name}} &mdash; {{count}}</label>
+            </div>`
+        }
       })
     );
 
@@ -180,15 +224,31 @@
       })
     );
     
+    search.addWidget(
+      instantsearch.widgets.hitsPerPageSelector({
+        container: '#hits-per-page-selector',
+        cssClasses: {
+          root: 'dropdown'
+        },
+        options: [
+          {value: 5, label: '5 per page'},
+          {value: 10, label: '10 per page'},
+          {value: 25, label: '25 per page'},
+          {value: 50, label: '50 per page'},
+          {value: 100, label: '100 per page'}
+        ]
+      })
+    );
+    
     search.start();
    
-    search.once('render', () => {
+    search.on('render', () => {
        // Set icon depending of collection
       console.log($('.collection-icon'))
       $('.collection-icon').each((idx, el) => {
-	let $el = $(el);
-	let dataCollection = $el.data('collection');
-	console.log(dataCollection);
+        let $el = $(el);
+        let dataCollection = $el.data('collection');
+        console.log(dataCollection);
       	if(dataCollection === 'Lab') $el.addClass('lab');
       	if(dataCollection === 'Group') $el.addClass('users');
       	if(dataCollection === 'Event') $el.addClass('ticket');
