@@ -162,11 +162,6 @@
         },
         templates: {
           header: `<i class="folder open icon"></i> <b>Collection</b>`,
-          // item: `
-          //   <div class="ui checkbox">
-          //     <input type="checkbox" name="{{name}}">
-          //     <label>{{name}} &mdash; {{count}}</label>
-          //   </div>`
           item: `
             <button class="ui basic circular icon button" data-tooltip="{{name}}s">
               <i class="icon collection-icon" data-collection="{{name}}"></i>
@@ -217,10 +212,27 @@
         }
       })
     );
+    
+    search.addWidget(
+      instantsearch.widgets.sortBySelector({
+        container: '#sort-by-container',
+        indices: [
+          {name: 'instant_search', label: 'Most relevant'},
+          {name: 'instant_search_price_asc', label: 'Lowest price'},
+          {name: 'instant_search_price_desc', label: 'Highest price'}
+        ]
+      })
+    );
 
     search.addWidget(
       instantsearch.widgets.pagination({
-        container: '#pagination-container'
+        container: '#pagination-container',
+        padding: 3, //number of pages on each side
+        cssClasses: {
+          link: 'item',
+          active: 'active',
+          disabled: 'disabled'
+        }
       })
     );
     
