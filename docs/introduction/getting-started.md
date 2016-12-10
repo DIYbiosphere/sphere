@@ -6,14 +6,14 @@ title: Getting Started
 summary: Get familiar with using the library and contributing to the project of the DIYbiosphere
 ---
 
-The DIYbiosphere is a collaborative project to create a worldwide Library of DIYbio initiatives.
-The Library is the core of the DIYbiosphere project. It's structure, components and organization are explained in the [Basics of the Library][library] section. The key ideas are:
+The DIYbiosphere is a collaborative project to create a worldwide library of DIYbio initiatives.
+The library is the core of the DIYbiosphere project. It's structure, components and organization are explained in the [Basics of the Library][library] section. The key ideas are:
 
 - **[Entry Collections][collections]:** entries are divided into: _Projects_, _Startups_, _Labs_, _Incubators_, _Groups_, _Networks_, _Events_, and _Others_.
-- **[Typology of Initiatives][typology]:** initiatives are categorized under a 'type' of organization: _Community/Grassroots_, _Primary/Secondary School_, _University/College_, _Non-Profit/NGO_, _For-Profit_, _Museum_, _State/Local Government_, and _Other_.
+- **[Organizational Categories][categories]:** initiatives are classified under a 'category' of organizational structure: _Community/Grassroots_, _Primary/Secondary School_, _University/College_, _Non-Profit/NGO_, _For-Profit_, _Museum_, _State/Local Government_, and _Other_.
 - **[Anatomy of an Entry][anatomy]:** entries display narrative text which describes the intiative (history, mission) and data contained in an infobox (location, founding date). Learn more about the [Data Fields][fields].
 
-For an example, check the library' entry on the [DIYbiosphere][e_sphere]! :wink:
+For an example, check the entry on the [DIYbiosphere][e_sphere]! :wink:
 
 ## Using the Library
 Users can access the entries of the library at: [sphere.diybio.org][sphere]. To search the whole library, use the _Search Bar_ located in the home page and in the top navigation bar. You can search by name or by location.

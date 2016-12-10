@@ -111,7 +111,7 @@
 [teams]: /docs/about/community/#teams
 [directors]: /docs/about/community/#directors
 [collections]: /docs/basics/library/#entry-collections
-[typology]: /docs/basics/library/#typology-of-initiatives
+[categories]: /docs/basics/library/#organizational-categories
 [anatomy]: /docs/basics/library/#anatomy-of-an-entry
 [fields]: /docs/basics/library/#data-fields
 [join]: /docs/support/contributing/#submitting-issues "How to request membership"

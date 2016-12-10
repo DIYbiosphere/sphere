@@ -28,9 +28,9 @@ The entries are divided into eight collections:
 
 {% include info.html title="Creating new collections" text="When suffiecient entries in the Other collection necessitate a new collection. This aggregation may come from a significant number of tags, or keywords that would warrant the creation of a new collection" %}
 
-In addition to organizing entries into different collections, a [typology of initiatives] has been established as a way to understand the background/classification/type/nature of the initiative.
+In addition to organizing entries into different collections, a [Organizational Categories] has been established as a way to understand the background/classification/type/nature of the initiative.
 
-## Typology of Initiatives
+## Organizational Categories
 Iniatiatives are categorized depending on the type of organizaiton from which it stems from or where its support comes from.
 
 - **Community/Grassroots**
@@ -42,7 +42,7 @@ Iniatiatives are categorized depending on the type of organizaiton from which it
 - **State/Local Goverment**
 - **Other**
 
-{% include info.html title="Other initiative" text="The typology is much more flexible, and the other category necessitates an text answer" %}
+{% include info.html title="Other initiative" text="The Categorization is much more flexible, and the other category necessitates an text answer" %}
 
 ## Anatomy of an Entry
 The information contained in each of them is divided in two parts, the _data_ (data fields) and the _description_ (body of text).
