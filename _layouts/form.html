@@ -5,14 +5,15 @@ layout: default
 <div class="ui vertically padded grid container xo top padding fourfold">
   <!-- Title -->
   <div class="sixteen wide column">
-    <h1 class="ui header">Adding a New Entry
+    <h1 class="ui header">Adding a new entry
       <div class="ui fitted divider"></div>
-      <div class="sub header">How to add a new entry to the library</div>
+      <div class="sub header">Instructions for how to add a new entry to the library</div>
     </h1>
   </div>
   <!-- Steps -->
   <div class="sixteen wide column">
-    The steps for adding a new entry are essentially the following:
+    <p>Amazing!! A whole new entry for the Library! Thank you for having the interest and taking the time to contribute to the DIYbiosphere project!!</p>
+    <p>The process for adding a new entry is just 3 small steps: first, fill in the following form with the data and description of your initiative. Then, a text file will be generated for you entry which you have to save to your drive. Finally, you have to upload the file to the repository in the collection folder, some additional steps apply depending on whether you are a non-member, member, or team member.</p>
   </div>
 
   <div class="sixteen wide column center aligned">
@@ -32,10 +33,7 @@ layout: default
         </div>
       </div>
       <div {% if page.step == "write" %} class="step" {% elsif page.step == "save" %} class="step" {% else %} class="active step" {% endif %}>
-        <i class="big icons">
-          <i class="file text outline icon"></i>
-          <i class="arrow circle up corner add icon"></i>
-        </i>
+        <i class="upload icon"></i>
         <div class="content">
           <div class="title"><a href="/form/upload/">Upload</a></div>
           <div class="description">to GitHub</div>

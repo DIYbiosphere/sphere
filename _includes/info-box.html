@@ -16,25 +16,210 @@
               </h3>
             </td>
           </tr>
-          <!-- Since -->
+          <!-- motto -->
+          <!-- Predecessor -->
+          <!-- Successor -->
+
+
+          <!-- Since/Formation -->
           {% if page.since %}
-          <tr class="top aligned">
+          <tr>
             <td>
-              <span data-tooltip="Established since"><i class="gift grey icon"></i></span>
+              Start Date:
             </td>
             <td>
               {{ page.since }}
             </td>
             </tr>
-            {% endif %}
           </tr>
+          {% endif %}
+          <!-- Start-Date -->
+          {% if page.start-date %}
+          <tr>
+            <td>
+              Start Date:
+            </td>
+            <td>
+              {{ page.start-date }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+          <!-- End-Date -->
+          {% if page.end-date %}
+          <tr>
+            <td>
+              End Date:
+            </td>
+            <td>
+              {{ page.end-date }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+          <!-- Type -->
+          {% if page.type-org %}
+          <tr>
+            <td>
+              Type:
+            </td>
+            <td>
+              {{ page.type-org }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+          <!-- Status -->
+          {% if page.status %}
+          <tr>
+            <td>
+              Type:
+            </td>
+            <td>
+              {{ page.status }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+          <!-- Purpose -->
+          {% if page.purpose %}
+          <tr>
+            <td>
+              Type:
+            </td>
+            <td>
+              {{ page.purpose }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+          <!-- Headquarters -->
+          {% if page.headquarters %}
+          <tr>
+            <td>
+              Type:
+            </td>
+            <td>
+              {{ page.headquarters }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+          <!-- Membership -->
+          {% if page.membership %}
+          <tr>
+            <td>
+              Type:
+            </td>
+            <td>
+              {{ page.membership }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+          <!-- Founders -->
+          {% if page.founders %}
+          <tr>
+            <td>
+              Type:
+            </td>
+            <td>
+              {{ page.founders }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+          <!-- Authors -->
+          {% if page.authors %}
+          <tr>
+            <td>
+              Type:
+            </td>
+            <td>
+              {{ page.authors }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+          <!-- Main organization -->
+          {% if page.main-org %}
+          <tr>
+            <td>
+              Type:
+            </td>
+            <td>
+              {{ page.main-org }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+          <!-- Parent organization -->
+          {% if page.parent-org %}
+          <tr>
+            <td>
+              Type:
+            </td>
+            <td>
+              {{ page.parent-org }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+          <!-- Affilliations -->
+          {% if page.affilliations %}
+          <tr>
+            <td>
+              Type:
+            </td>
+            <td>
+              {{ page.afilliations }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+          <!-- Budget -->
+          {% if page.budget %}
+          <tr>
+            <td>
+              Type:
+            </td>
+            <td>
+              {{ page.budget }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+          <!-- Num of staff -->
+          {% if page.num-staff %}
+          <tr>
+            <td>
+              Type:
+            </td>
+            <td>
+              {{ page.num-staff }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+          <!-- Num of volunteers -->
+          {% if page.num-volunteers %}
+          <tr>
+            <td>
+              Type:
+            </td>
+            <td>
+              {{ page.num-volunteers }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
           <!-- Host organization -->
           {% if page.host %}
           {% assign host = page.host %}
           {% if host.name %}
           <tr class="top aligned">
             <td>
-              <span data-tooltip="Host organization"><i class="sitemap grey icon"></i></span>
+              Parent Organization:
             </td>
             <td>
               {% if host.web %} <a href="{{ page.host.web | site.baseUrl }}"> {% endif %}
@@ -47,7 +232,7 @@
           {% if page.type %}
           <tr class="top aligned">
             <td>
-              <span data-tooltip="Type of organization"><i class="lightning grey icon"></i></span>
+              Type:
             </td>
             <td>
               {{ page.type }}
@@ -79,9 +264,9 @@
           </tr>
         <!-- Tags -->
           {% if page.tags !='' %}
-          <tr class="top aligned">
+          <tr>
             <td>
-              <i class="tags grey icon"></i>
+              Keywords:
             </td>
             <td>
               {% for tag in page.tags %}

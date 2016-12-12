@@ -4,7 +4,7 @@ manager: sabgaby
 collection: Project
 title: DIYbiosphere
 
-logo: https://raw.githubusercontent.com/DIYbiosphere/sphere/master/img/Logo.png
+logo: https://github.com/DIYbiosphere/sphere/blob/master/_assets/img/sphere-logo-alpha.png?raw=true
 website: http://sphere.diybio.org/
 since: 2016
 
