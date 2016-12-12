@@ -212,17 +212,6 @@
         }
       })
     );
-    
-    search.addWidget(
-      instantsearch.widgets.sortBySelector({
-        container: '#sort-by-container',
-        indices: [
-          {name: 'instant_search', label: 'Most relevant'},
-          {name: 'instant_search_price_asc', label: 'Lowest price'},
-          {name: 'instant_search_price_desc', label: 'Highest price'}
-        ]
-      })
-    );
 
     search.addWidget(
       instantsearch.widgets.pagination({
@@ -239,9 +228,9 @@
     search.addWidget(
       instantsearch.widgets.hitsPerPageSelector({
         container: '#hits-per-page-selector',
-        cssClasses: {
-          root: 'dropdown'
-        },
+        // cssClasses: {
+        //   root: 'dropdown'
+        // },
         options: [
           {value: 5, label: '5 per page'},
           {value: 10, label: '10 per page'},
