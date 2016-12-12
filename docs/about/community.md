@@ -51,7 +51,7 @@ Users in the [Managers Team][gh_managers] are all those responsable for the entr
 #### Editors
 Users who are active in the management and development of all (non-software) content should be part of the [Editors Team][gh_editors]. As editors they are in charge of curating the library and all of its entries.
 
-Managers are not involved in discussions about the the development of the project, this is the job of the Editors. Managers will be braught to the discussion at later stages before implementing any changes to the structure or content of the entries.
+Managers are not involved in discussions about the development of the project, this is the job of the Editors. Managers will be braught to the discussion at later stages before implementing any changes to the structure or content of the entries.
 
 #### Coders
 Users with coding skills and/or who are interested in the coding part of the project should join the [Coders Team][gh_coders]. Coders are in charge of the code that sustains the project and implement any enhancements or features to the software.
@@ -70,6 +70,3 @@ Anyone can become a Director. Directors are expected to have the following chara
 - A solid track record of being constructive and helpful
 - Significant contributions to the project’s goal, in any form
 - Willingness to dedicate some time to improving DIYbiosphere
-
-
-{% include help.html title="Members have more writing privileges and Teams define roles and topics" text="Anyone can contribute, but by joining as a Member and Team member, you can get more involved in the development of the project and you require less steps to contribute. Ask to [join][join]!" %}

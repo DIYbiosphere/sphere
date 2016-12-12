@@ -10,15 +10,15 @@ title: Tutorials
 
 ### Table of Contents
 
-- Adding New Entries
+- [Writing Entries]
+  - [Adding Images]
+
+- [Form to Add a New Entry]
+- [Editing Entries]
   - [adding for non-members](/docs/help/tutorials/add-entry/)
   - [adding for members](/docs/help/tutorials/add-entry-members/)
   - [adding for teams](/docs/help/tutorials/add-entry-teams/)
-- Editing Entries
-  - [editing for non-members](/docs/help/tutorials/edit-entry/)
-  - [editing for members](/docs/help/tutorials/edit-entry-members/)
-  - [editing for teams](/docs/help/tutorials/edit-entry-teams/)
-- [Installation Instructions](/docs/help/tutorials/install/)
+- [Working Locally (Install)](/docs/help/tutorials/install/)
 - [Using Atom](/docs/help/tutorials/using-atom/)
 - [Using GitHub Desktop](/docs/help/tutorials/using-githubdesktop/)
 - [Screen Capture GIFs](#How-to-make-screen-capture-GIFs)

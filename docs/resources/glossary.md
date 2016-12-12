@@ -3,38 +3,53 @@ layout: docs
 permalink: /docs/resources/glossary/
 crumb: resources
 title: Glossary of Terms
-summary: In this section we
+summary: A sort of DIYbiosphere "urban" dictionary in alphabetical order
 ---
 
-## GitHub Terms
+**Commit**
 
- **GitHub** a service that hosts repositories online and uses Git for version control
+**Branch**
 
- **Git** a software that tracks all changes to a collection of documents
+**Development community** or just **community**
 
-**Version Control** a way to track changes to a document or collection of documents.
-
- **fork** a cloned copy of a project
-
- **branch**
-
-**commit**
-
-**issue**
-
-**pull request**
-
-**merge**
-
-**repository** or **repo** the collection of files of you project.
-
-## Project Terms
-
-**DIYbiosphere** or **sphere** refers to the project, it includes the
+**DIYbiosphere** refers to the project, it includes the
 
 **DIYbiosphere organization** or just **organization**
 
-**development community**
+**Fork** a cloned copy of a project
+
+**Git** a software that tracks all changes to a collection of documents
+
+**GitHub** a service that hosts repositories online and uses Git for version control
+
+**GitHub Pages**
+
+**Gitter**
+
+
+**Issue**
+
+**Merge**
+
+**Pull request** or **PR**
+
+**Slack**
+
+**Ticket**
+
+**Version Control** a way to track changes to a document or collection of documents.
+
+**Repository** or **Repo** the collection of files of you project.
+
+**Jekyll**
+
+**Front matter**
+
+**Travis**
+
+**Markdown syntax** or **markdown**
+
+
 
 **library**
 
@@ -48,15 +63,17 @@ summary: In this section we
 
 **front matter**
 
-**infobox** refers to the box located in the top-right hand corner of an entry's page and contains the factual data related to the entry. The entry's fields are explained here.
+**Software**
 
-**fields** usually refers to the the information required in the front matter of each entry and shown in the infobox
+**Infobox** refers to the box located in the top-right hand corner of an entry's page and contains the factual data related to the entry. The entry's fields are explained here.
 
-**body of text**
+**Data Fields** usually refers to the the information required in the front matter of each entry and shown in the infobox
 
-**content**
+**Body of text**
 
-**code of conduct**
+**Content**
+
+**Code of Conduct**
 
 **contributor license agreement**
 
@@ -64,15 +81,8 @@ summary: In this section we
 
 **ELI5**
 
-**contribution**
+**Contribution**
 
-**project**
+**Project**
 
-**lab**
-
-
-## Other Terms
-
-**Gitter**
-
-**Slack**
+**Lab**

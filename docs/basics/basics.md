@@ -2,25 +2,37 @@
 layout: docs
 permalink: /docs/basics/
 title: Basics of the DIYbiosphere project
-summary: In this section we detail how the design
+summary: The real documentation of the structure of the project
 ---
 
-
+In the Basics section you find one of the most detailed descriptions of the project and how it is designed and structured.
 
 ---
 
-### Table of Contents
-
-- [Library]
-  - [adding for non-members](/docs/help/tutorials/add-entry/)
-  - [adding for members](/docs/help/tutorials/add-entry-members/)
-  - [adding for teams](/docs/help/tutorials/add-entry-teams/)
-- [Development]
-  - [editing for non-members](/docs/help/tutorials/edit-entry/)
-  - [editing for members](/docs/help/tutorials/edit-entry-members/)
-  - [editing for teams](/docs/help/tutorials/edit-entry-teams/)
-- [Documentation](/docs/help/tutorials/install/)
-- [Design](/docs/help/tutorials/using-atom/)
-
+### Table of Contents of the **Basics** section
+- [Library][library]
+  - [Entry Collections]
+  - [Organizational Categories]
+  - [Anatomy of an Entry]
+    - [Data Fields]
+    - [Body of Text]
+  - [Obtaining the Dataset]
+- [Software][software]
+  - [GitHub Repository]
+  - [GitHub Pages]
+    - [Build by Jekyll]
+    - [Continuous Integration by Travis]
+  - [Search by Algolia]
+    - [DocSearch]
+    - [Algolia Places]
+- [Documentation]
+  - [Format]
+  - [Using includes]
+    - [Relative includes]
+- [Design]
+  - [Name]
+  - [Logo]
+  - [Assets]
+    - [Semantic UI]
 
 ---

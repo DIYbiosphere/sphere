@@ -9,25 +9,28 @@ summary: In this section we detail the workflow of how the project is managed, s
 {% include info.html title="Only members can manage tickets" text="Members of the [development Community][community] have the privilege and the **responsability** to organize tickets to facilitate the collective workflow of the development of the project." %}
 
 Tickets are classified and organized by [Labels](#labels), [Milestones](#milestones), [Epics](#epics) and [Boards](#boards). The two latter are features of [ZenHub][zenhub] which we use for project management. It is free and has native integration with GitHub and works for Chrome and Firefox.
+A good ticket should have a concise and clear title.
+See our Contributing Guidelines for submitting issues, PRs. Title and descriptions can often follow the same as good commit messages.
+In addition. It is also useful to add checklists. If the ticket is too complicated for checklists.. consider turning it into an epic.
 
 The following explains how the current practices for managing tickets in the DIYbiosphere project.
 
 ## Labels
 Labels are for categorizing and filtering tickets. The following labels are currently in place:
-- <a class="ui orange tiny label">bug</a> are errors, undesired results or behaviors
-- <a class="ui red tiny label">critical</a> are high-priority tickets
-- <a class="ui violet tiny label">library</a> pertain to content and data
-- <a class="ui brown tiny label">design</a> pertain to the design
-- <a class="ui blue tiny label">development</a> pertain to the development of the code
-- <a class="ui green tiny label">docs</a> pertain to the documentation
-- <a class="ui yellow tiny label">easy</a> are relatively simple, or for beginner contributors
-- <a class="ui purple tiny label">enhancement</a> are incremental or gradual improvements
-- <a class="ui basic tiny label">Epic</a> are part of an [Epic](#epics) issue
-- <a class="ui pink tiny label">feature request</a> are new attributes, characteristics or functions
-- <a class="ui olive tiny label">feedback wanted</a> are tickets that need opinions and comments
-- <a class="ui teal tiny label">help wanted</a> are tickets that need other users to attend to
-- <a class="ui grey tiny label">question</a> are questions that need answers
-- <a class="ui black tiny label">resolution needed</a> are tickets that need to be resolved soon
+- {% include label/bug.html %} are errors, undesired results or behaviors
+- {% include label/critical.html %} are high-priority tickets
+- {% include label/library.html %} pertain to content and data
+- {% include label/design.html %} pertain to the design
+- {% include label/software.html %} pertain to the development of the code
+- {% include label/docs.html %} pertain to the documentation
+- {% include label/easy.html %} are relatively simple, or for beginner contributors
+- {% include label/enhancement.html %} are incremental or gradual improvements
+- {% include label/Epic.html %} are part of an [Epic](#epics) issue
+- {% include label/feature.html %} are new attributes, characteristics or functions
+- {% include label/feedback.html %} are tickets that need opinions and comments
+- {% include label/help.html %} are tickets that need other users to attend to
+- {% include label/question.html %} are questions that need answers
+- {% include label/resolution.html %} are tickets that need to be resolved soon
 
 {% include info.html title="Labels can be for PRs" text="Labels will be applied mostly to Issues. However, when PRs require review or encounter problems in merging, labels may be applied to indicate any additional information (like 'critical', 'help wanted')." %}
 
@@ -74,18 +77,8 @@ Assigning tasks to users help the community know who they can reach out to to he
 ## Additional organization of tickets
 Tickets
 
-
-## Creating a good ticket
-A good ticket should have a concise and clear title.
-See our Contributing Guidelines for submitting issues, PRs. Title and descriptions can often follow the same as good commit messages.
-In addition. It is also useful to add checklists. If the ticket is too complicated for checklists.. consider turning it into an epic.
-
-
-
 ### Adding reactions
 You can add reactions, a.k.a. emojis, to comments and text messages on
 
 
 ### Removing duplicates
-
-[ZenHub]:

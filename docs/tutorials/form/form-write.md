@@ -156,5 +156,5 @@ step: write
     </div>
 
 
-    <button class="ui labeled icon secondary button" type="submit"><i class="download icon"></i> Download text file</button>
+    <button class="ui labeled icon secondary button" type="submit"><i class="download icon"></i> Next Step</button>
   </form>

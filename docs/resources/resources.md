@@ -2,5 +2,5 @@
 layout: docs
 permalink: /docs/resources/
 title: Resources
-summary: In this section
+summary: Reference (cheat)sheets for working with the DIYbiosphere
 ---

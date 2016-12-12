@@ -57,20 +57,47 @@
 
 
 [docs]: /docs/
+
 [introduction]: /docs/introduction/
 [overview]: /docs/introduction/overview/
 [starting]: /docs/introduction/getting-started/ "How to use and contribute to the library"
+[using-library]: /docs/introduction/getting-started/#using-the-library
+[downloading-dataset]: /docs/introduction/getting-started/#downloading-the-dataset
+[contributing-library]: /docs/introduction/getting-started/#contributing-to-the-library
+[contributing-development]: /docs/introduction/getting-started/#contributing-to-the-development
+[getting-involved]: /docs/introduction/getting-started/#getting-more-involved
+
 [about]: /docs/about/
 [organization]: /docs/about/organization/
+[mission]: /docs/about/organization/#our-mission
+[vision]: /docs/about/organization/#our-vision
+[values]: /docs/about/organization/#our-values
+[governance]: /docs/about/organization/#our-governance
+[partners]: /docs/about/organization/#our-partners
 [community]: /docs/about/community/
-[partners]: /docs/about/partners/
+[permissions]: /docs/about/community/#access-permission-levels
+[non-members]: /docs/about/community/#non-members
+[collaborators]: /docs/about/community/#outside-collaborators
+[members]: /docs/about/community/#members
+[teams]: /docs/about/community/#teams
+[managers]: /docs/about/community/#managers
+[editors]: /docs/about/community/#editors
+[coders]: /docs/about/community/#coders
+[directors]: /docs/about/community/#directors
 [coc]: /docs/about/coc/
 [communication]: /docs/about/communication/
+[c_issues]: /docs/about/community/#github-issues
+[c_gitter]: /docs/about/community/#gitter
+[c_slack]: /docs/about/community/#slack
+[c_twitter]: /docs/about/community/#twitter
+[c_blog]: /docs/about/community/#blog
 [copyright]: /docs/copyright/
-[terms-of-use]: /docs/copyright/terms-of-use/
 [cc0]: /docs/copyright/cc0/
 [mit]: /docs/copyright/mit/
+[terms-of-use]: /docs/copyright/terms-of-use/
+[attribution]: /docs/copyright/terms-of-use/#copyright-attribution
 [contributor-terms]: /docs/copyright/contributor-terms/
+
 [basics]: /docs/basics/
 [library]: /docs/basics/library/
 [development]: /docs/basics/development/
@@ -105,11 +132,7 @@
 [roadmap]: /docs/updates/roadmap
 
 
-[values]: /docs/about/organization/#our-values
-[permissions]: /docs/about/community/#access-levels
-[members]: /docs/about/community/#members
-[teams]: /docs/about/community/#teams
-[directors]: /docs/about/community/#directors
+
 [collections]: /docs/basics/library/#entry-collections
 [categories]: /docs/basics/library/#organizational-categories
 [anatomy]: /docs/basics/library/#anatomy-of-an-entry

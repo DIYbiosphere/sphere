@@ -46,22 +46,6 @@ Git also allows {% svgicon oi-git-branch %} **branching**. the _master_ branch i
 [15 min to learn git](https://try.github.io/levels/1/challenges/1)
 
 
-{% svgicon oi-repo-force-push %}
-{% svgicon oi-repo-forked %}
-{% svgicon oi-repo-pull %}
-{% svgicon oi-repo-push %}
-{% svgicon oi-sync %}
-{% svgicon oi-gist %}
-
-
-{% svgicon oi-git-merge %}
-{% svgicon oi-git-pull-request %}
-{% svgicon oi-markdown %}
-{% svgicon oi-terminal %}
-{% svgicon oi-browser %}
-
-
-
 ### Using GitHub
  is a a remote server that collaborators check into. It is a centralized area where contributors can organize and trck their code and changes. Github is just another contributor that everyone pushes their changes to.
 Github is a service that hosts public repos for free, it also improves accesability by being online and a useful graphical interface that makes it more easy friendly. With Github instead of sycronizing, merging amongs themselves, we all merge with GitHub.

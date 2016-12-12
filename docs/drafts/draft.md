@@ -37,6 +37,10 @@ facebook: https://www.facebook.com/BioCurious
 
 This is a draft for view formats for the list of entries
 
+<a href="http://google.com" class="ui medium image">
+  <img src="http://biocurious.org/wordpress/wp-content/uploads/2014/11/logo1.png">
+</a>
+
 
 <!-- Card -->
   <div class="ui card">

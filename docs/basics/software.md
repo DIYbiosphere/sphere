@@ -21,20 +21,3 @@ time someone pushes to the master branch of the
 [repository](https://github.com/DIYbiosphere/sphere),
 [Travis](https://travis-ci.org/) builds the site using Jekyll and push it to the
 [gh-pages](https://github.com/DIYbiosphere/sphere/tree/gh-pages) branch.
-
-### Algolia
-#### DocSearch
-
-#### Algolia Places
-
-
-## Languages
-### Markdown
-
-### YAML
-
-### Liquid
-
-### HTML
-
-### CSS and SCSS

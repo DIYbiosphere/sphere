@@ -1,10 +1,9 @@
 ---
 layout: docs
 permalink: /docs/copyright/mit/
-title: The MIT License
+title: Copyright for Software
+summary: Legal copyright code for the Software, licensed under the MIT license
 ---
-
-# The MIT License (MIT)
 
 Copyright (c) 2016 DIYbiosphere contributors
 
