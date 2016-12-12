@@ -41,6 +41,11 @@ This is a draft for view formats for the list of entries
   <img src="http://biocurious.org/wordpress/wp-content/uploads/2014/11/logo1.png">
 </a>
 
+<button class="ui basic right labeled icon tiny button">
+  Do an Advanced Search
+  <i class="options icon"></i>
+</button></a>
+
 
 <!-- Card -->
   <div class="ui card">
