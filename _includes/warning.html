@@ -2,7 +2,7 @@
   <i class="warning icon"></i>
   <div class="content">
     <div class="header">
-       {{ include.title }}
+       {{ include.title | markdownify }}
     </div>
     <p>{{ include.text | markdownify }}</p>
   </div>

@@ -1,48 +1,90 @@
 {% if page.email %}
-  <a href="mailto:{{ page.email }}"><span data-tooltip="Email"><i class="mail icon"></i></span></a>
+  <a href="mailto:{{ page.email }}">
+    <button class="ui circular icon mini button" data-tooltip="Send an email">
+      <i class="mail icon"></i>
+    </button>
+  </a>
 {% endif %}
 
 {% if page.forum %}
-  <a href="{{ page.forum }}"><span data-tooltip="Forum"><i class="talk icon"></i></span></a>
+  <a href="{{ page.forum }}">
+    <button class="ui circular icon mini button" data-tooltip="Join the forum">
+      <i class="talk icon"></i>
+    </button>
+  </a>
 {% endif %}
 
-
 {% if page.github %}
-  <a href="{{ page.github }}"><span data-tooltip="GitHub"><i class="github icon"></i></span></a>
+  <a href="{{ page.github }}">
+    <button class="ui circular github icon mini button" data-tooltip="Star/Follow on GitHub">
+      <i class="github icon"></i>
+    </button>
+  </a>
 {% endif %}
 
 
 {% if page.rss %}
-  <a href="{{ page.rss }}"><span data-tooltip="GitHub"><i class="rss icon"></i></span></a>
+  <a href="{{ page.rss }}">
+    <button class="ui circular icon rss mini button" data-tooltip="Subscribe to RSS">
+      <i class="rss icon"></i>
+    </button>
+  </a>
 {% endif %}
 
 {% if page.twitter %}
-  <a href="{{ page.twitter }}"><span data-tooltip="Twitter"><i class="twitter icon"></i></span></a>
+  <a href="{{ page.twitter }}">
+    <button class="ui circular twitter icon mini button" data-tooltip="Follow on Twitter">
+      <i class="twitter icon"></i>
+    </button>
+  </a>
 {% endif %}
 
 {% if page.facebook %}
-  <a href="{{ page.facebook }}"><span data-tooltip="Facebook"><i class="facebook icon"></i></span></a>
+  <a href="{{ page.facebook }}">
+    <button class="ui circular facebook icon mini button" data-tooltip="Follow on Facebook">
+      <i class="facebook icon"></i>
+    </button>
+  </a>
 {% endif %}
 
 {% if page.slack %}
-  <a href="{{ page.slack }}"><span data-tooltip="Slack"><i class="slack icon"></i></span></a>
+  <a href="{{ page.slack }}">
+    <button class="ui circular slack icon mini button" data-tooltip="Slack">
+      <i class="slack icon"></i>
+    </button>
+  </a>
 {% endif %}
 
 {% if page.instagram %}
-  <a href="{{ page.instagram }}"><span data-tooltip="Instagram"><i class="instagram icon"></i></span></a>
+  <a href="{{ page.instagram }}">
+    <button class="ui circular instagram icon mini button" data-tooltip="Follow on Instagram">
+      <i class="instagram icon"></i>
+    </button>
+  </a>
 {% endif %}
 
 {% if page.flickr %}
-  <a href="{{ page.flickr }}"><span data-tooltip="Flickr"><i class="flickr icon"></i></span></a>
+  <a href="{{ page.flickr }}">
+    <button class="ui circular flickr icon mini button" data-tooltip="Follow on Flickr">
+      <i class="flickr icon"></i>
+    </button>
+  </a>
 {% endif %}
 
 {% if page.vimeo %}
-  <a href="{{ page.vimeo }}"><span data-tooltip="Vimeo"><i class="vimeo icon"></i></span></a>
+  <a href="{{ page.vimeo }}">
+    <button class="ui circular vimeo icon mini button" data-tooltip="Follow on Vimeo">
+      <i class="vimeo icon"></i>
+    </button>
+  </a>
 {% endif %}
 
 {% if page.youtube %}
-<a href="{{ page.youtube }}"><span data-tooltip="YouTube"><i class="youtube icon"></i></span></a>
-{% endif %}
+<a href="{{ page.youtube }}">
+  <button class="ui circular youtube icon mini button" data-tooltip="Subscribe on YouTube">
+    <i class="youtube icon"></i>
+  </button>
+</a>{% endif %}
 
 <!-- {% if page.gitter %}
   <button class="infobox-icon" data-toggle="tooltip" data-placement="top" title="Gitter">
@@ -51,17 +93,31 @@
 {% endif %} -->
 
 {% if page.trello %}
-  <a href="{{ page.trello }}"><span data-tooltip="Trello"><i class="trello icon"></i></span></a>
-{% endif %}
+<a href="{{ page.trello }}">
+  <button class="ui circular trello icon mini button" data-tooltip="Follow on Trello">
+    <i class="trello icon"></i>
+  </button>
+</a>{% endif %}
 
 {% if page.pinterest %}
-<a href="{{ page.pinterest }}"><span data-tooltip="Pinterest"><i class="pinterest icon"></i></span></a>
-{% endif %}
+<a href="{{ page.pinterest }}">
+  <button class="ui circular icon pinterest mini button" data-tooltip="Follow on Pinterest">
+    <i class="pinterest icon"></i>
+  </button>
+</a>{% endif %}
 
 {% if page.google+ %}
-<a href="{{ page.google+ }}"><span data-tooltip="Google +"><i class="google plus icon"></i></span></a>
+  <a href="{{ page.google+ }}">
+    <button class="ui circular google plus icon mini button" data-tooltip="Follow on google +">
+      <i class="google plus icon"></i>
+    </button>
+  </a>
 {% endif %}
 
 {% if page.linkedin %}
-<a href="{{ page.linkedin }}"><span data-tooltip="Linkedin"><i class="linked icon"></i></span></a>
+  <a href="{{ page.linkedin }}">
+    <button class="ui circular linkedin icon mini button" data-tooltip="Connect on Linkedin">
+      <i class="linkedin icon"></i>
+    </button>
+  </a>
 {% endif %}

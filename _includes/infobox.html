@@ -15,7 +15,7 @@
           </h3>
         </div>
 
-      <!-- Since -->
+      <!-- since -->
         <div>
           {% if page.since %}
             <span data-tooltip="Established since"><i class="gift grey icon"></i></span>
@@ -58,7 +58,7 @@
         <!-- Address -->
         <div>
           {% if page.address %}
-            <span data-tooltip="Address + special directions"><i class="marker grey icon"></i></span>
+            <span data-tooltip="Address + special directions">Location:</span>
             {{ page.address }}
             {% if page.directions %}
             <br>{{ page.directions }}
@@ -69,7 +69,7 @@
         <!-- City and country -->
         <div>
           {% if page.city or page.state or page.country %}
-            <span data-tooltip="Geographic location"><i class="world grey icon"></i></span>
+            <span data-tooltip="Geographic location">Location:</i></span>
             {{ page.city }}{% if page.city and page.state %}, {% endif %}
             {% if page.state %}
             {{ page.state }} {% endif %}

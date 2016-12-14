@@ -1,5 +1,5 @@
-<div class="ui segment right floated compact infobox">
-
+<div class="ui basic segment right floated compact infobox">
+  <div class="ui segment">
         <table id="infobox" class="ui very basic compact table">
         <tbody>
           <tr>
@@ -21,7 +21,7 @@
           <!-- Successor -->
 
 
-          <!-- Since/Formation -->
+          <!-- since/Formation -->
           {% if page.since %}
           <tr>
             <td>
@@ -33,14 +33,14 @@
             </tr>
           </tr>
           {% endif %}
-          <!-- Start-Date -->
-          {% if page.start-date %}
+          <!-- since -->
+          {% if page.since %}
           <tr>
             <td>
               Start Date:
             </td>
             <td>
-              {{ page.start-date }}
+              {{ page.since }}
             </td>
             </tr>
           </tr>
@@ -242,7 +242,7 @@
           <!-- Location -->
           <tr class="top aligned">
             <td>
-              <span data-tooltip="Established since"><i class="marker grey icon"></i></span>
+              <span data-tooltip="Established since">Location:</span>
             </td>
             <td>
               <!-- Address -->
@@ -278,5 +278,6 @@
 
         </tbody>
       </table>
-
+    </div>
+  {% include social-icons.html %}
 </div> <!-- close basic segment -->
