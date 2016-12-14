@@ -7,7 +7,7 @@ logo: http://biocurious.org/wordpress/wp-content/uploads/2014/11/logo1.png
 website: http://biocurious.org/
 start-date: 2010
 
-type: Non-profit
+type-org: Non-profit
 
 address: 845 Stewart Drive
 directions:

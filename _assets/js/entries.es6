@@ -68,7 +68,7 @@
 				<span class="right floated"><i class="marker icon"></i>{{ city }}, {{#country}} {{ country }} {{/country}}</span>
 			    <a href="{{url}}" class="header">{{{ _highlightResult.title.value }}}</a>
 			    <div class="meta">
-			      <span class="cinema"> {{#collection}} {{collection}} {{/collection}}| {{#type}} {{ type }} {{/type}} </span>
+			      <span class="cinema"> {{#collection}} {{collection}} {{/collection}}| {{#type-org}} {{ type-org }} {{/type-org}} </span>
 			    </div>
 			    <div class="description">
 			      <p>{{{ _highlightResult.text.value }}}</p>
@@ -154,7 +154,7 @@
     search.addWidget(
       instantsearch.widgets.refinementList({
         container: '#types',
-        attributeName: 'type',
+        attributeName: 'type-org',
         operator: 'or',
         limit: 10,
         templates: {
@@ -286,8 +286,8 @@
 				{
 					"visible": true,
 					"targets": 3,
-					"name": "type",
-					"data": "type"
+					"name": "type-org",
+					"data": "type-org"
 				},
 				{
 					"visible": true,

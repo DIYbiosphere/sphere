@@ -57,7 +57,7 @@ In the entry file, the data is collected between two lines of three consecutive 
 - **start-date** and end date if it applies; these entries are "inactive". In the Events class, this reflects the event's calendar
 - **expiration**
 - **host**
-- **type**
+- **type-org**
 - **affiliates**
 - Location:
   - **address**

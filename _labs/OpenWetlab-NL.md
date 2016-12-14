@@ -13,7 +13,7 @@ host:
   sphere:
   web: http://waag.org/en
 
-type:
+type-org:
 
 affiliates:
   name:

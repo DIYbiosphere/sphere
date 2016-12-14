@@ -12,7 +12,7 @@ host:
   sphere:
   web: http://www.fablabsd.org/
 
-type:
+type-org:
 
 affiliates:
   name:

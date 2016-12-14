@@ -8,7 +8,7 @@ website: http://genspace.org/
 since: 2010
 
 
-type: Non-profit
+type-org: Non-profit
 
 
 address: 33 Flatbush Avenue

@@ -12,7 +12,7 @@ host:
   sphere:
   web: http://www.unil.ch/interface/home.html
 
-type: University
+type-org: University
 
 affiliates:
   name:

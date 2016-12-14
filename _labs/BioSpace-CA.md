@@ -12,7 +12,7 @@ host:
   sphere:
   web: http://www.makerspace.ca/cpages/home
 
-type:
+type-org:
 
 affiliates:
   name:

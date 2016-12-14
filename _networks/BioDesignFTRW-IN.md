@@ -12,7 +12,7 @@ host:
   sphere:
   web:
 
-type:
+type-org:
 
 affiliates:
   name: EPFL

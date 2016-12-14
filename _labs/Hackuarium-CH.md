@@ -12,7 +12,7 @@ host:
   sphere:
   web: http://univercity.ch/
 
-type:
+type-org:
 
 affiliates:
   name:

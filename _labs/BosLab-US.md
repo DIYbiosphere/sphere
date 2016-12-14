@@ -13,7 +13,7 @@ host:
   sphere:
   web:
 
-type: Non-profit
+type-org: Non-profit
 
 affiliates:
   name:

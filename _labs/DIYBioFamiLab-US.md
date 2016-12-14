@@ -12,7 +12,7 @@ host:
   sphere:
   web: https://familab.org/
 
-type:
+type-org:
 
 affiliates:
   name:

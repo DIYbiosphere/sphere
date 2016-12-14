@@ -19,7 +19,7 @@
               <h3 class="ui header">
                 {{{ _highlightResult.title.value }}}
                 <div class="sub header">
-                  {{ collection }} | {{ type }}
+                  {{ collection }} | {{ type-org }}
                 </div>
               </h3>
             </div>

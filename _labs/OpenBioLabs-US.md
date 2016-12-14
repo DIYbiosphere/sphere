@@ -12,7 +12,7 @@ host:
   sphere:
   web: http://schoolfactory.org/
 
-type: Non-Profit
+type-org: Non-Profit
 
 affiliates:
   name:

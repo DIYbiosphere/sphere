@@ -12,7 +12,7 @@ host:
   sphere:
   web: http://heliosmakerspace.ca/
 
-type:
+type-org:
 
 affiliates:
   name:

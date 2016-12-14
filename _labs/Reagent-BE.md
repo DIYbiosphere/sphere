@@ -8,7 +8,7 @@ logo: image
 website: "DIYbiosphere.github.io"
 start-date: 2016
 host: "[DIYbio.org](https://diybio.org/)(https://diybio.org)"
-type: Non-profit
+type-org: Non-profit
 collaborators: "[CitizenSciences.net](http://citizensciences.net/)"
 
 latitude: "46.204391"

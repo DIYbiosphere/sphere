@@ -12,7 +12,7 @@ host:
   sphere:
   web: https://london.hackspace.org.uk/
 
-type:
+type-org:
 
 affiliates:
   name:

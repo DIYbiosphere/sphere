@@ -12,7 +12,7 @@ host:
   sphere:
   web: https://hacklab.to/
 
-type:
+type-org:
 
 affiliates:
   name:

@@ -12,7 +12,7 @@ host:
   sphere:
   web: https://garoa.net.br/wiki/P%C3%A1gina_principal
 
-type:
+type-org:
 
 affiliates:
   name:

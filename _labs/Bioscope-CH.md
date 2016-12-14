@@ -12,7 +12,7 @@ host:
   sphere:
   web:
 
-type: University
+type-org: University
 
 affiliates:
   name:

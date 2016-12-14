@@ -12,7 +12,7 @@ host:
   sphere:
   web: https://realraum.at/wiki/doku.php?id=realraum
 
-type:
+type-org:
 
 affiliates:
   name:

@@ -12,7 +12,7 @@ host:
   sphere:
   web: http://www.makerlabs.com/
 
-type:
+type-org:
 
 affiliates:
   name:

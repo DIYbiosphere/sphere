@@ -12,7 +12,7 @@ host:
   sphere:
   web:
 
-type: Community
+type-org: Community
 
 affiliates:
   name:

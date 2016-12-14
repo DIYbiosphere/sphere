@@ -12,7 +12,7 @@ host:
   sphere:
   web: http://irnas.eu/
 
-type:
+type-org:
 
 affiliates:
   name:

@@ -12,7 +12,7 @@ host:
   sphere:
   web: https://labitat.dk/
 
-type:
+type-org:
 
 affiliates:
   name:

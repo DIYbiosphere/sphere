@@ -12,7 +12,7 @@ host:
   sphere:
   web: http://lajollalibrary.org/
 
-type:
+type-org:
 
 affiliates:
   name:
