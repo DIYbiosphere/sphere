@@ -1,10 +1,10 @@
 (function($) {
 
 	$(document).ready(function() {
-    
+
     // $('.menu .item').tab();
     // $('[data-tab].item').tab();
-    
+
     /**
 		 * Bring in the data!
 		 * @see "data/database.json"
@@ -28,7 +28,7 @@
 				console.error('failure getting database...');
 				console.error(`${textStatus}, ${error}`);
 			});
-    
+
     /** Leaflet map stuff */
     let center = new L.LatLng(50.5, 30.51);
     // let map = new L.Map('map-container', {center: center, zoom: 15});
@@ -48,98 +48,74 @@
     map.addLayer(marker);
 
     marker.bindPopup("<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p><p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>");
-    
-    
+
+
     /** Instantsearch stuff */
     const APPLICATION_ID = 'ITI5JHZJM9';
     const SEARCH_ONLY_API_KEY = '5828bf68d90dbb0251e6ce88aabe2e07';
     const INDEX_NAME = 'diybiosphere';
-    
+
     const EMPTY_TEMPLATE =
       '<div class="text-center">No results found matching <strong>{{query}}</strong>.</div>';
-    
+
     const HIT_TEMPLATE = `
-    <div style="padding: 10px 0px 10px 5px;">
-      <div class="ui two column grid container">
-        <div class="row">
-          <div class="two wide column">
-            <img class="ui fluid image" src="{{ logo }}" alt="logo" class="img-responsive" />
-          </div>
-          <div class="ten wide column">
-            <h4 class="ui header">
-              <a href="{{url}}">{{{ _highlightResult.title.value }}}</a>
-            </h4>
-            <div>
-              <p>{{{ _highlightResult.text.value }}}</p>
-            </div>
-            <div style="padding-top:10%"><i class="tags icon"></i>{{ tags }}</div>
-          </div>
-          <div class="four wide column">
-            <div style="width: 70%; border: 0.5px solid gainsboro; padding: 20px 10px 20px 15px;">
-              <div>
-                <i class="large icons">
-                  <i class="large thin circle icon"></i>
-                  <i class="small icon collection-icon" data-collection="{{collection}}"></i>
-                </i> {{ collection }}
-              </div>
-              {{ #since }}
-                <div><i class="gift icon"></i> {{ since }}</div>
-              {{ /since }}
-              {{ #host }}
-                <div><i class="home icon"></i> {{ host.name }}</div>
-              {{ /host }}
-              <!-- div><i class="lightning icon"></i> University</div --> <!-- Here goes the type -->
-              {{ #country }}
-                <div><i class="globe icon"></i> {{ city }}, {{ country }}</div>
-              {{ /country }}
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr/>
-    </div>`;
-    
+		<div class="ui link relaxed items">
+			<div class="item">
+			  <div class="ui small image">
+			    <img class="ui middle aligned" src="{{ logo }}" alt="logo">
+			  </div>
+			  <div class="content">
+				<span class="right floated"><i class="marker icon"></i>{{ city }}, {{#country}} {{ country }} {{/country}}</span>
+			    <a href="{{url}}" class="header">{{{ _highlightResult.title.value }}}</a>
+			    <div class="meta">
+			      <span class="cinema"> {{#collection}} {{collection}} {{/collection}}| {{#type}} {{ type }} {{/type}} </span>
+			    </div>
+			    <div class="description">
+			      <p>{{{ _highlightResult.text.value }}}</p>
+			    </div>
+			    <div class="extra">
+			    <div class="ui tiny label">{{ tags }}</div>
+			    </div>
+			  </div>
+			</div>
+			<hr>
+		</div>
+    `;
+
     let search = instantsearch({
       appId: APPLICATION_ID,
       apiKey: SEARCH_ONLY_API_KEY,
       indexName: INDEX_NAME,
       urlSync: true
     });
-    
+
     search.addWidget(
       instantsearch.widgets.searchBox({
         container: '#search-box',
         placeholder: 'Search for entries...'
       })
     );
-    
+
     search.addWidget(
-      instantsearch.widgets.clearAll({
-        container: '#clear-all',
-        templates: {
-          link: `
-          <button class="ui mini icon button" data-tooltip="Reset All Filters">
+      instantsearch.widgets.currentRefinedValues({
+        container: '#current-refined-values',
+        clearAll: 'after',
+				templates: {
+          clearAll: `
+          <button class="ui mini icon red button" data-tooltip="Reset All Filters">
             <i class="erase icon"></i>
             Clear
           </button>`
         },
-        autoHideContainer: false
       })
     );
-    
-    search.addWidget(
-      instantsearch.widgets.currentRefinedValues({
-        container: '#current-refined-values',
-        clearAll: 'after'
-      })
-    );
-    
+
     search.addWidget(
       instantsearch.widgets.stats({
         container: '#stats-container'
       })
     );
-    
+
     search.addWidget(
       instantsearch.widgets.hits({
         container: '#hits-container',
@@ -147,10 +123,13 @@
           empty: EMPTY_TEMPLATE,
           item: HIT_TEMPLATE
         },
+				cssClasses: {
+					root: 'ui divided items'
+				},
         hitsPerPage: 3
       })
     );
-    
+
     search.addWidget(
       instantsearch.widgets.refinementList({
         container: '#collection',
@@ -158,19 +137,20 @@
         operator: 'or',
         limit: 10,
         cssClasses: {
-          item: 'float-left pad-sides'
+          item: 'pad-sides'
         },
         templates: {
-          header: `<i class="folder open icon"></i> <b>Collection</b>`,
+          header: `<b>Collection</b>`,
           item: `
-            <button class="ui basic circular icon button" data-tooltip="{{name}}s">
-              <i class="icon collection-icon" data-collection="{{name}}"></i>
-            </button>
-            <div class="xo text fairly smaller">{{name}} &mdash; {{count}}</div>`
+						<div class="ui checkbox">
+              <input type="checkbox" name="{{name}}">
+              <label><i class="icon collection-icon" data-collection="{{name}}"></i>{{name}} <div class="ui tiny circular label"> {{count}} </div> </label>
+            </div>
+						`
         }
       })
     );
-    
+
     search.addWidget(
       instantsearch.widgets.refinementList({
         container: '#types',
@@ -178,36 +158,36 @@
         operator: 'or',
         limit: 10,
         templates: {
-          header: `<i class="settings icon"></i> <b>Type of Initiative</b>`,
+          header: `<b>Type of Initiative</b>`,
           item: `
             <div class="ui checkbox">
               <input type="checkbox" name="{{name}}">
-              <label>{{name}} &mdash; {{count}}</label>
+              <label>{{name}} <div class="ui tiny circular label"> {{count}} </div> </label>
             </div>`
         }
       })
     );
-    
+
     search.addWidget(
       instantsearch.widgets.rangeSlider({
         container: '#since',
         attributeName: 'since',
         templates: {
-          header: `<i class="gift icon"></i> <b>Established</b>`
+          header: `<b>Year</b>`
         }
       })
     );
-    
+
     search.addWidget(
       instantsearch.widgets.refinementList({
         container: '#tags',
         attributeName: 'tags',
         templates: {
-          header: `<i class="tags icon"></i> <b>Tags</b>`,
+          header: `<b>Keywords</b>`,
           item: `
             <div class="ui checkbox">
               <input type="checkbox" name="{{name}}">
-              <label>{{name}} &mdash; {{count}}</label>
+              <label>{{name}} <div class="ui tiny circular label"> {{count}} </div> </label>
             </div>`
         }
       })
@@ -224,7 +204,7 @@
         }
       })
     );
-    
+
     search.addWidget(
       instantsearch.widgets.hitsPerPageSelector({
         container: '#hits-per-page-selector',
@@ -240,9 +220,9 @@
         ]
       })
     );
-    
+
     search.start();
-   
+
     search.on('render', () => {
        // Set icon depending of collection
       console.log($('.collection-icon'))
@@ -258,10 +238,10 @@
       	if(dataCollection === 'Network') $el.addClass('share alternate');
       	if(dataCollection === 'Startup') $el.addClass('rocket');
       	if(dataCollection === 'Incubator') $el.addClass('leaf');
-    	}); 
+    	});
     });
- 
-   
+
+
 		/**
 		 * This DataTable will contain all the info from all collections accross the
 		 * site, they're stored in a json file and the table will be populated via
