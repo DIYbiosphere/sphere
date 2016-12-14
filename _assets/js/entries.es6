@@ -142,8 +142,8 @@
 
     search.addWidget(
       instantsearch.widgets.refinementList({
-        container: '#types',
-        attributeName: 'type-org',
+        container: '#type-org',
+        attributeName: 'type',
         operator: 'or',
         limit: 10,
         templates: {
