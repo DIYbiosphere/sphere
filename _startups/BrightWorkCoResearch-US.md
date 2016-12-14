@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Startup
+  Startup
 title:
 logo:
 website:

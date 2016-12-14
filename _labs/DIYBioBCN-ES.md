@@ -1,6 +1,6 @@
 ---
 manager:
-collection: Lab
+  Lab
 
 title: DIY Bio Barcelona
 logo: http://www.diybcn.org/wp-content/uploads/2016/05/diybio_BCN_header-2.png

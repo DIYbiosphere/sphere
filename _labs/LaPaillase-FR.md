@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Lab
+  Lab
 title: La Paillase
 logo:
 website:

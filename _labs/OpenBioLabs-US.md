@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Lab
+  Lab
 title: Charlottesville Open Bio Labs
 logo: http://openbiolabs.org/wp-content/uploads/2015/04/COBL_web_logo.png
 website: http://openbiolabs.org/

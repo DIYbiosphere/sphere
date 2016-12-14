@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Group
+  Group
 title: Gene Garage
 logo: https://pbs.twimg.com/profile_images/720372470839005187/SE-7LrWi_400x400.jpg
 website:

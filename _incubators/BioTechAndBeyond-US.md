@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Incubator
+  Incubator
 title:
 logo:
 website:

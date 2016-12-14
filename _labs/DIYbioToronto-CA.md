@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Lab
+  Lab
 title: DIYbio Toronto
 logo:
 website: http://diybio.to/

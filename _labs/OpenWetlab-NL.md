@@ -1,6 +1,6 @@
 ---
 manager:
-collection: Lab
+  Lab
 
 class: Lab
 title: Open Wetlab

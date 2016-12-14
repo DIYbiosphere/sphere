@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Lab
+  Lab
 title: DIYbio Belgium
 logo: https://pbs.twimg.com/profile_images/429222116198596609/0sU_gvhB_400x400.jpeg
 website: http://www.diybio.be/index.php/en/

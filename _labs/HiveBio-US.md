@@ -1,6 +1,6 @@
 ---
 manager:
-collection: Lab
+  Lab
 
 title: HiveBio
 logo: https://pbs.twimg.com/profile_images/506940646242799616/umLtASDs.png

@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Lab
+  Lab
 title: Bio Art Laboratores
 logo: http://bioartlab.com/bioartlab.com/wp-content/themes/bioartlab.com/dist/images/logo.png
 website: http://bioartlab.com/
@@ -12,7 +12,7 @@ host:
   sphere:
   web:
 
-type-org:
+type-org: University
 
 affiliates:
   name:

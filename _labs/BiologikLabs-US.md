@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Lab
+  Lab
 title: Biologik Labs
 logo:
 website: http://www.biologiklabs.org/

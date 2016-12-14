@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Network
+  Network
 title:
 logo:
 website:

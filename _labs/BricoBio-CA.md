@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Lab
+  Lab
 title: Bricobio
 logo: http://brico.bio/images/logo.png
 website: http://brico.bio/

@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Lab
+  Lab
 title: F-lab
 logo:
 website: http://f-lab.cc/

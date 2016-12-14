@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Project
+  Project
 title:
 logo:
 website:

@@ -1,7 +1,7 @@
 ---
 title: Reagent
 
-collection: Lab
+  Lab
 
 
 logo: image

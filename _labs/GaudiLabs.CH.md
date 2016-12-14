@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Lab
+  Lab
 title: GaudiLabs
 logo: http://www.gaudi.ch/GaudiLabs/wp-content/uploads/cropped-GaudiLabs2.png
 website: http://www.gaudi.ch/GaudiLabs/

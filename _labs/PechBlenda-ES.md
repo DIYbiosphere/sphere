@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Lab
+  Lab
 title: PechBlenda Lab
 logo:
 website: https://pechblenda.hotglue.me/

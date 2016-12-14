@@ -1,6 +1,6 @@
 ---
 manager:
-collection: Lab
+  Lab
 
 title: BiologiGaragen
 logo: http://biologigaragen.org/wp-content/uploads/2015/01/cropped-Logo-black-no-text-70x70px.png

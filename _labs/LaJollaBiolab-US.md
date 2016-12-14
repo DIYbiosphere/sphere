@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Lab
+  Lab
 title: La Jolla Bio Lab
 logo:
 website: http://lajollalibrary.org/your-library/bio-lab/

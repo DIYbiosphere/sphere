@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Lab
+  Lab
 title: Hackuarium
 logo: http://hackuarium.cleverapps.io/wp-content/uploads/2015/08/logo.png
 website: http://www.hackuarium.ch/en/

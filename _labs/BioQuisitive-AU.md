@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Lab
+  Lab
 title: BuiQuisitive
 logo: http://bioquisitive.org.au/wp-content/uploads/2015/07/new-logo.png
 website: http://bioquisitive.org.au/

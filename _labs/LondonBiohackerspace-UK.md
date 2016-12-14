@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Lab
+  Lab
 title: London Biohackspace
 logo: https://biohackspace.org/wp-content/uploads/2014/07/Biohack_logo.png
 website: https://biohackspace.org/

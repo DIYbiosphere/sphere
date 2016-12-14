@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Lab
+  Lab
 title: BioNyfiken
 logo: http://www.bionyfiken.se/wp-content/uploads/2015/07/Med-vita.png
 website: http://www.bionyfiken.se/

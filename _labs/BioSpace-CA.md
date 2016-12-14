@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Lab
+  Lab
 title: BioSpace
 logo:
 website: http://www.opensciencenet.org/

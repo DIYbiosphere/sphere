@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Lab
+  Lab
 title: MadLab Biolab
 logo:
 website: https://madlab.org.uk/community-biotechnology/

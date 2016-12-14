@@ -1,7 +1,7 @@
 ---
 manager:
 
-collection: Lab
+  Lab
 title: Garoa Open BioLab
 logo:
 website: https://garoa.net.br/wiki/Garoa_Open_BioLab
