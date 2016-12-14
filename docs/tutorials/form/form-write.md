@@ -50,7 +50,7 @@ step: write
   <!-- Established -->
   <div class="fields">
     <div class="required field">
-      <label><i class="gift icon"></i> Since</label>
+      <label><i class="gift icon"></i> since</label>
       <input type="text" name="since" placeholder="Year of founding (YYYY)">
     </div>
     <div class="field">

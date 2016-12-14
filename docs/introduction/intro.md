@@ -12,10 +12,13 @@ The next step depends on your interests. If you want to learn more about the org
 ---
 
 ### Table of Contents of **Introduction** Section
-- [Overview][overview]
-- [Getting Started][starting]
-  - [Using the Library][using-library]
-    - [Downloading the dataset][downloading-dataset]
-  - [Contributing to the Library][contributing-library]
-  - [Contributing to the Project][contributing-development]
-  - [Getting more involved][getting-involved]
+
+[Overview][overview]
+
+[Getting Started][starting]
+
+- [Using the Library][using-library]
+  - [Downloading the dataset][downloading-dataset]
+- [Contributing to the Library][contributing-library]
+- [Contributing to the Project][contributing-development]
+- [Getting more involved][getting-involved]

@@ -1,10 +1,11 @@
 ---
 layout: docs
 permalink: /docs/support/contributing/
-title: Contributing
+crumb: support
+title: Contributing Guide
+summary:
 ---
 
-# Contributing Guide
 We really appreciate your interest in our project. We :heartpulse: contributions! By contributing, you agree to abide to our [Code of Conduct] and consent to our [Copyright Terms].
 
 The following is a set of guidelines for submiting [Issues](#Submitting-Issues) and [Pull requests](#Submitting-Pull-Requests), and for making [Commit messages](#Making-Commits).
@@ -17,14 +18,18 @@ If you want to make changes locally on your computer, follow the [Installation I
 
 ### Table of Contents
 
-- [Submitting Issues](#submitting-issues)
-  - [Bugs](#report-a-bug)
-  - [Suggestions](#make-a-suggestion)
-  - [Questions](#ask-a-question)
-  - [Membership requests](#membership-request)
-- [Making Commits](#making-commits)
-- [Submitting Pull requests](#submiting-Pull-Requests)
-  - [Merging]()
+[Submitting Issues](#submitting-issues)
+
+- [Bugs](#report-a-bug)
+- [Suggestions](#make-a-suggestion)
+- [Questions](#ask-a-question)
+- [Membership requests](#membership-request)
+
+[Making Commits](#making-commits)
+
+[Submitting Pull requests](#submiting-Pull-Requests)
+
+- [Merging]()
 
 ---
 

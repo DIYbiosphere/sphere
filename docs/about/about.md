@@ -9,27 +9,34 @@ The DIYbiosphere project is maintained by volunteer contributors and managed und
 
 
 ### Table of Contents of **About** Us section
-- [Organization][organization]
-  - [Our Mission][mission]
-  - [Our Vision][vision]
-  - [Our Values][values]
-  - [Our Governance][governance]
-  - [Our Partners][partners]
-- [Development Community][community]
-  - [Access Permission Levels][permissions]
-  - [Non-members][non-members]
-    - [Outside Collaborators][collaborators]
-  - [Members][members]
-    - [Teams][teams]
-      - [Managers][managers]
-      - [Editors][editors]
-      - [Coders][coders]
-      - [Directors][directors]
-- [Code of Conduct][coc]
-  - [Dealing with Unacceptable Behavior][behavior]
-- [Communication][communication]
-  - [GitHub Issues][c_issues]
-  - [Gitter][c_gitter]
-  - [Slack][c_slack]
-  - [Twitter][c_twitter]
-  - [Blog][c_blog]
+[**Organization**][organization]
+
+- [Our Mission][mission]
+- [Our Vision][vision]
+- [Our Values][values]
+- [Our Governance][governance]
+- [Our Partners][partners]
+
+[**Development Community**][community]
+
+- [Access Permission Levels][permissions]
+- [Non-members][non-members]
+  - [Outside Collaborators][collaborators]
+- [Members][members]
+- [Teams][teams]
+  - [Managers][managers]
+  - [Editors][editors]
+  - [Coders][coders]
+  - [Directors][directors]
+
+[**Code of Conduct**][coc]
+
+- [Dealing with Unacceptable Behavior][behavior]
+
+[**Communication**][communication]
+
+- [GitHub Issues][c_issues]
+- [Gitter][c_gitter]
+- [Slack][c_slack]
+- [Twitter][c_twitter]
+- [Blog][c_blog]

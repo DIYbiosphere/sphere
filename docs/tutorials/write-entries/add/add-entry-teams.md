@@ -4,10 +4,10 @@ permalink: /docs/tutorials/add-entry/teams/
 crumb: tutorials
 tab: teams
 title: Adding a New Entry
-summary: Tutorial for adding a new entry for team members (4 steps)
+summary: Instructions for how to add a new entry
 ---
 
-{% include_relative add-tabs-nav.md %}
+{% include_relative add-entry-tabs.md %}
 
 
 1. In your [master branch] of the repository, open the _library folder and choose a class folder for your new entry and **Create new file** named 'EntryName-ZZ.md'. Learn more about our [classification of entries] and [naming convention].
@@ -20,14 +20,3 @@ summary: Tutorial for adding a new entry for team members (4 steps)
 {% include info.html title="Commits are not immediate" text="The repository has to be parsed and built by TRAVIS CI. Check the [build](https://travis-ci.org/DIYbiosphere/sphere), to see if your commit has passed." %}
 
 Thank you for your contribution! :heart:
-
-[editing tutorial]: /docs/help/tutorials/edit-entry-teams
-[helpful hints]: /docs/help/hints/
-[sphere]: https://github.com/DIYbiosphere/sphere
-[6 steps]: #
-[4 steps]: #
-[development community]: #
-[entry template]: https://gist.githubusercontent.com/ahuacatl/954444c7f15a27190b0fd52e0021a58c/raw/91412b5ba78fb082b349776cf0a75d3c82f35da0/front-matter-template.md
-[classification of entries]: #
-[naming convention]: #
-[installation]: /docs/help/install/

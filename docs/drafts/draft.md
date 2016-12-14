@@ -37,15 +37,35 @@ facebook: https://www.facebook.com/BioCurious
 
 This is a draft for view formats for the list of entries
 
-<a href="http://google.com" class="ui medium image">
-  <img src="http://biocurious.org/wordpress/wp-content/uploads/2014/11/logo1.png">
-</a>
+<div class="ui vertical segment">
+<a class="header">{{ page.title }}</a>
+{% for tag in page.tags %}
+<div class="ui tiny label">{{ tag }}</div>
+{% endfor %}
+</div>
+<div class="ui vertical segment">
+  <p></p>
+</div>
 
-<button class="ui basic right labeled icon tiny button">
-  Do an Advanced Search
-  <i class="options icon"></i>
-</button></a>
 
+<div class="item">
+  <div class="image">
+    <img src="{{ logo }}" alt="logo">
+  </div>
+  <div class="content">
+    <a href="{{url}}" class="header">{{{ _highlightResult.title.value }}}</a>
+    <div class="meta">
+      <span class="right floated"><i class="marker icon"></i>{{ city }}, {{ country }}</span>
+      <span class="cinema"> {{collection}} | {{ type }} </span>
+    </div>
+    <div class="description">
+      <p>{{{ _highlightResult.text.value }}}</p>
+    </div>
+    <div class="extra">
+    <div class="ui tiny label">{{ tags }}</div>
+    </div>
+  </div>
+</div>
 
 <!-- Card -->
   <div class="ui card">
@@ -145,49 +165,5 @@ This is a draft for view formats for the list of entries
       </div>
     </div>
   </div>
-
-  <div style="padding: 10px 0px 10px 5px;">
-    <div class="ui two column grid container">
-      <div class="row">
-        <div class="two wide column">
-          <img class="ui fluid image" src="{{ logo }}" alt="logo" class="img-responsive" />
-        </div>
-        <div class="ten wide column">
-          <h4 class="ui header">{{{ _highlightResult.title.value }}}<h4/>
-          <div>
-            <p>{{{ _highlightResult.text.value }}}</p>
-          </div>
-          <div style="padding-top:10%"><i class="tags icon"></i>{{ tags }}</div>
-        </div>
-        <div class="four wide column">
-          <div style="width: 70%; border: 0.5px solid gainsboro; padding: 20px 10px 20px 15px;">
-            <div>
-              <i class="large icons">
-                <i class="large thin circle icon"></i>
-                <i class="small lab icon"></i>
-              </i> {{ collection }}
-            </div>
-            <div><i class="gift icon"></i> {{ since }}</div>
-            <div><i class="home icon"></i> {{ host.name }}</div>
-            <div><i class="lightning icon"></i> University</div>
-            <div><i class="globe icon"></i> {{ city }}, {{ country }}</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-    <button class="ui circular facebook icon mini button">
-      <i class="facebook icon"></i>
-    </button>
-    <button class="ui circular twitter icon mini button">
-      <i class="twitter icon"></i>
-    </button>
-    <button class="ui circular linkedin icon mini button">
-      <i class="linkedin icon"></i>
-    </button>
-    <button class="ui circular google plus mini icon button">
-      <i class="google plus icon"></i>
-    </button>
 
 </div>

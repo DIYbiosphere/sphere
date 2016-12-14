@@ -4,10 +4,10 @@ permalink: /docs/tutorials/add-entry/members/
 crumb: tutorials
 tab: members
 title: Adding a New Entry
-summary: Tutorial for adding a new entry for members of the DIYbiosphere organization (6 steps)
+summary: Instructions for how to add a new entry
 ---
 
-{% include_relative add-tabs-nav.md %}
+{% include_relative add-entry-tabs.md %}
 
 This is the tutorial (6 steps) to add a new entry for members. To edit an existing entry go to our [editing tutorial]. Keep a look out for our [helpful hints]!
 
@@ -28,14 +28,3 @@ Tutorial for non-members is [7 steps] and for team members (managers, editors) i
 **Rejoice!** your entry is now part of the DIYbiosphere library! :clap: :clap:
 
 Thank you for your contribution! :heart:
-
-[editing tutorial]: /docs/help/tutorials/edit-entry-member
-[helpful hints]: /docs/help/hints/
-[editable branch]: https://github.com/DIYbiosphere/sphere/tree/editable
-[7 steps]: /docs/help/tutorials/add-entry
-[4 steps]: /docs/help/tutorials/add-entry-teams
-[development community]: #
-[entry template]: https://gist.githubusercontent.com/ahuacatl/954444c7f15a27190b0fd52e0021a58c/raw/91412b5ba78fb082b349776cf0a75d3c82f35da0/front-matter-template.md
-[classification of entries]: #
-[naming convention]: #
-[installation]: /docs/help/install/

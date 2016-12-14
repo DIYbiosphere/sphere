@@ -2,13 +2,13 @@
 layout: docs
 permalink: docs/copyright/terms-of-use/
 crumb: copyright
-title: Copyright License Terms
-summary: Terms of (re)use and the share permissions for the project in simple english
+title: Terms of Use
+summary: Copyright License Terms for the project in simple english
 ---
 
-**All the work in this project, except where otherwise noted\*, is freely available to use, modify and distribute** :two_hearts:
+**All the work in this project, except where [otherwise noted][noting-copyright], is freely available to use, modify and distribute** :two_hearts:
 
-The project covers two types of Work which require different copyright terms:
+The project covers two types of Work which require different copyright terms. The fully understand these terms the complete legal codes should be reviewed. The following is a human readable summary:
 
 - the **Library** which includes all the Content (text, images) and Data in the entries and is dedicated to the Public Domain with [CC0][cc0], which allows for a completely free use of the work.
     - You can: use, modify, distribute original or derivative works for ANY purpose; personal, commercial, etc.
@@ -22,11 +22,6 @@ The project covers two types of Work which require different copyright terms:
 All Contributions Submitted to the Project are shared under these copyright terms. You can review the [Contributor Terms][contributor-terms] modeled as a "Contributor License Agreement" to understand in legal terms the authorship rights granted and/or waived from your Contributions.
 
 ### Copyright Attribution
-You may attribute our Work as "© DIYbiosphere contributors" to recognize the amazing effort of our contributors. If space is limited, attribute as "© DIYbiosphere".
+You may attribute our Work as "© DIYbiosphere contributors" to recognize the amazing effort of our contributors. If space is limited, attribute as "© DIYbiosphere", and link to the [sphere repository][sphere].
 
----
-
-#### *otherwise noted
-Contributions that are shared/uploaded to the Library part should explicitly note their copyright terms if the author(s) do not waive authorship or grant rights to their work. For example, you may upload an image that is hosted in Flickr if the copyright is CC-BY, in which case the caption must have a link to the original source and a note on the copyright license.
-
-Please follow our instructions for [noting copyright][noting-copyright].
+{% include warning.html title="NOT APPLICABLE to 'Logos' nor 'Embedded Content'" text="Logos follow their own respective Intellectual Property Rights (whether copyrights or trademarks) and cannot be made available to the public domain under the CC0 dedication. <br> Embeded Content are considered links to Content elsewhere and follow the Terms of Use or Service as stated in their own platforms (Gists, Flickr, Youtube, etc.)." %}

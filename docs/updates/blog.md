@@ -7,4 +7,4 @@ summary: in this section
 ---
 
 
-> Draft: This is where we will make more personal updates on the development of the project
+> This is where we will make more personal updates on the development of the project

@@ -77,52 +77,6 @@ Explanation [here](http://blog.okfn.org/2013/07/02/git-and-github-for-data/) on 
 </div>
 
 
-<div>
-  <a class="coded-with-love link">
-    <img src="/assets/img/sphere-coded.png">
-  </a>
-  <div class="ui fluid popup bottom left transition hidden" style="top: 554px; left: 1px; bottom: auto; right: auto; width: 960px;">
-    <div class="ui four column relaxed grid">
-      <div class="column">
-        <h4 class="ui grey center aligned header">Supported by</h4>
-        <div class="ui two column grid">
-          <div class="six wide column">
-            <a href="https://diybio.org"><img src="/assets/img/diybio.png"></a>
-          </div>
-          <div class="ten wide column">
-            <a href="http://www.unige.ch"><img src="/assets/img/unige.png"></a>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <h4 class="ui grey center aligned header">Hosted by</h4>
-        <div class="ui one column grid">
-          <div class="column">
-            <a href="https://pages.github.com"><img src="/assets/img/github-logo.png"></a>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <h4 class="ui grey center aligned header">Powered by</h4>
-        <div class="ui two column grid">
-          <div class="column">
-            <a href="https://jekyllrb.com"><img src="/assets/img/jekyll.png"></a>
-          </div>
-          <div class="column">
-            <a href="https://travis-ci.org"><img src="/assets/img/travis.png"></a>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <h4 class="ui grey center aligned header">Search by</h4>
-        <div class="column">
-          <a href="https://www.algolia.com"><img src="/assets/img/algolia.png"></a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <svg class="icon" id="gitter" viewBox="0 0 16 16" style="width:100%; min-height:0.3em; max-height:1em;">
   <path fill-rule="evenodd" d="M3,0 L4.53557335,0 L4.53557335,10.1342937 L3,10.1342937 L3,0 L3,0 Z M12.3359182,2.45679476 L13.8713689,2.45679476 L13.8713689,10.1342937 L12.3359182,10.1342937 L12.3359182,2.45679476 L12.3359182,2.45679476 Z M6.13244703,2.45679476 L7.66789778,2.45679476 L7.66789778,16 L6.13244703,16 L6.13244703,2.45679476 L6.13244703,2.45679476 Z M9.20347113,2.45679476 L10.7390445,2.45679476 L10.7390445,16 L9.20347113,16 L9.20347113,2.45679476 L9.20347113,2.45679476 Z"></path>
 </svg>
