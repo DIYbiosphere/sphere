@@ -5,7 +5,7 @@ collection: Lab
 title: Symbiolab
 logo:
 website: http://irnas.eu/symbiolab.html
-since: 2014
+start-date: 2014
 
 host:
   name: Institute for Development of Advanced Applied Systems

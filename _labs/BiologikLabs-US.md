@@ -5,7 +5,7 @@ collection: Lab
 title: Biologik Labs
 logo:
 website: http://www.biologiklabs.org/
-since: 2013
+start-date: 2013
 
 host:
   name:

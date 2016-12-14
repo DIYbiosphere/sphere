@@ -5,7 +5,7 @@ collection: Lab
 title: BioSpace
 logo:
 website: http://www.opensciencenet.org/
-since: 2013-2015
+start-date: 2013-2015
 
 host:
   name: Victoria Makerspace

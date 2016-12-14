@@ -5,7 +5,7 @@ collection: Lab
 title: Bricobio
 logo: http://brico.bio/images/logo.png
 website: http://brico.bio/
-since: 2013
+start-date: 2013
 
 host:
   name: Helios Makerspace

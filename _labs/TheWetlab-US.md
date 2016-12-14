@@ -5,7 +5,7 @@ collection: Lab
 title: The Wet Lab
 logo:
 website: http://www.wetlab.org/
-since: 2013
+start-date: 2013
 
 host:
   name: Fab Lab San Diego

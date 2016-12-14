@@ -5,7 +5,7 @@ collection: Lab
 title: Biodidact
 logo: http://2.cdn.site.mobi/l/m.biodidact.net/2c51g0/64ed30cc9f72af41364ef93225e79676/0/150
 website: http://biodidact.net/
-since: 2014
+start-date: 2014
 
 host:
   name:

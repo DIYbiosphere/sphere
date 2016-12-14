@@ -170,8 +170,8 @@
 
     search.addWidget(
       instantsearch.widgets.rangeSlider({
-        container: '#since',
-        attributeName: 'since',
+        container: '#start-date',
+        attributeName: 'start-date',
         templates: {
           header: `<b>Year</b>`
         }
@@ -280,8 +280,8 @@
 				{
 					"visible": true,
 					"targets": 2,
-					"name": "since",
-					"data": "since"
+					"name": "start-date",
+					"data": "start-date"
 				},
 				{
 					"visible": true,

@@ -5,7 +5,7 @@ collection: Lab
 title: Garoa Open BioLab
 logo:
 website: https://garoa.net.br/wiki/Garoa_Open_BioLab
-since: 2011
+start-date: 2011
 
 host:
   name: Garao Hacker Clube

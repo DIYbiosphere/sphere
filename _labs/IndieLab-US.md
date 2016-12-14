@@ -5,7 +5,7 @@ collection: Lab
 title: Indie Lab RVA
 logo: http://rva.indielab.co/wp-content/uploads/2015/08/Indie_lab_logo_banner.png
 website: http://rva.indielab.co/
-since: 2012
+start-date: 2012
 
 host:
   name:

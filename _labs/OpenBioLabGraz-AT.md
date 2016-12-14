@@ -5,7 +5,7 @@ collection: Lab
 title: Open bioLab Graz Austria
 logo: https://realraum.at/wiki/lib/exe/fetch.php?media=hplogoklein.png
 website: https://realraum.at/wiki/doku.php?id=olga:olga
-since: 2013
+start-date: 2013
 
 host:
   name: Real Raum

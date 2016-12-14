@@ -5,7 +5,7 @@ collection: Lab
 title: DIYbio FamiLab
 logo:
 website: https://forums.familab.org/diy-bio/
-since: 2014
+start-date: 2014
 
 host:
   name: FamiLAB

@@ -5,7 +5,7 @@ collection: Lab
 title: La Jolla Bio Lab
 logo:
 website: http://lajollalibrary.org/your-library/bio-lab/
-since: 2015
+start-date: 2015
 
 host:
   name: La Jolla Public Library

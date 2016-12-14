@@ -5,7 +5,7 @@ collection: Lab
 title: DIYbio Toronto
 logo:
 website: http://diybio.to/
-since: 2013
+start-date: 2013
 
 host:
   name: HackLab

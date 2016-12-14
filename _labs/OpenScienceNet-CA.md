@@ -5,7 +5,7 @@ collection: Lab
 title: Open Science Network
 logo:
 website: http://www.opensciencenet.org/
-since: 2010
+start-date: 2010
 
 host:
   name: MakerLabs

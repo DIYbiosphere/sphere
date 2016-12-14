@@ -5,7 +5,7 @@ collection: Lab
 title: BiologiGaragen
 logo: http://biologigaragen.org/wp-content/uploads/2015/01/cropped-Logo-black-no-text-70x70px.png
 website: http://biologigaragen.org/
-since: 2010
+start-date: 2010
 
 host:
   name: Labitat

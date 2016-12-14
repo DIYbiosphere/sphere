@@ -5,7 +5,7 @@ collection: Lab
 title: Bio Foundry
 logo: http://foundry.bio/wp-content/themes/TrendyRoom/content/logo.png
 website: http://foundry.bio/
-since: 2014
+start-date: 2014
 
 host:
   name:

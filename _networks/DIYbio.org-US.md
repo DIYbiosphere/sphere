@@ -5,7 +5,7 @@ collection: Network
 title: DIYbio.org
 logo: https://raw.githubusercontent.com/DIYbiosphere/sphere/master/img/Logo.png
 website: https://diybio.org
-since: 2008
+start-date: 2008
 
 host:
   name:

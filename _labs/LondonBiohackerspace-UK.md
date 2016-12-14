@@ -5,7 +5,7 @@ collection: Lab
 title: London Biohackspace
 logo: https://biohackspace.org/wp-content/uploads/2014/07/Biohack_logo.png
 website: https://biohackspace.org/
-since: 2009
+start-date: 2009
 
 host:
   name: London Hackspace

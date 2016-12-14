@@ -8,7 +8,7 @@ title: Biocurious
 summary: Biocurious is a community lab located in California
 logo: http://biocurious.org/wordpress/wp-content/uploads/2014/11/logo1.png
 website: http://biocurious.org/
-since: 2010
+start-date: 2010
 
 host: Hackerspace One
 type: Non-profit
@@ -72,7 +72,7 @@ This is a draft for view formats for the list of entries
     <div class="content">
       <a class="header"><i class="lab icon"></i> {{ page.title }}</a>
       <div class="meta">
-        <span class="date">Lab | {{ page.since }} </span>
+        <span class="date">Lab | {{ page.start-date }} </span>
       </div>
       <div class="description">
         {{ page.summary }}

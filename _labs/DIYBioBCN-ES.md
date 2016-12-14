@@ -5,7 +5,7 @@ collection: Lab
 title: DIY Bio Barcelona
 logo: http://www.diybcn.org/wp-content/uploads/2016/05/diybio_BCN_header-2.png
 website: http://www.diybcn.org/
-since: 2014
+start-date: 2014
 
 host:
   name: MADE

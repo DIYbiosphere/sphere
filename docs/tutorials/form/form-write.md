@@ -50,8 +50,8 @@ step: write
   <!-- Established -->
   <div class="fields">
     <div class="required field">
-      <label><i class="gift icon"></i> since</label>
-      <input type="text" name="since" placeholder="Year of founding (YYYY)">
+      <label><i class="gift icon"></i> start-date</label>
+      <input type="text" name="start-date" placeholder="Year of founding (YYYY)">
     </div>
     <div class="field">
       <label>Until</label>

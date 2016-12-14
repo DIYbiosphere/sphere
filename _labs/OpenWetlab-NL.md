@@ -6,7 +6,7 @@ class: Lab
 title: Open Wetlab
 logo:
 website: https://waag.org/en/lab/open-wetlab
-since: 2012
+start-date: 2012
 
 host:
   name: Waag Society

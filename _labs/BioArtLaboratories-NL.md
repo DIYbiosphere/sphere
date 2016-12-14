@@ -5,7 +5,7 @@ collection: Lab
 title: Bio Art Laboratores
 logo: http://bioartlab.com/bioartlab.com/wp-content/themes/bioartlab.com/dist/images/logo.png
 website: http://bioartlab.com/
-since: 2012
+start-date: 2012
 
 host:
   name:
