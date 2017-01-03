@@ -18,21 +18,31 @@
           </tr>
           <!-- motto -->
           <!-- Predecessor -->
-          <!-- Successor -->
-
-
-          <!-- start-date/Formation -->
-          {% if page.start-date %}
+          {% if page.predecessor %}
           <tr>
             <td>
-              Start Date:
+              Predecessor:
             </td>
             <td>
-              {{ page.start-date }}
+              {{ page.predecessor }}
             </td>
             </tr>
           </tr>
           {% endif %}
+
+          <!-- Successor -->
+          {% if page.successor %}
+          <tr>
+            <td>
+              Successor:
+            </td>
+            <td>
+              {{ page.successor }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
           <!-- start-date -->
           {% if page.start-date %}
           <tr>
@@ -45,6 +55,7 @@
             </tr>
           </tr>
           {% endif %}
+
           <!-- End-Date -->
           {% if page.end-date %}
           <tr>
@@ -57,11 +68,12 @@
             </tr>
           </tr>
           {% endif %}
+
           <!-- Type -->
           {% if page.type-org %}
           <tr>
             <td>
-              type-org:
+              Type:
             </td>
             <td>
               {{ page.type-org }}
@@ -69,11 +81,12 @@
             </tr>
           </tr>
           {% endif %}
+
           <!-- Status -->
           {% if page.status %}
           <tr>
             <td>
-              type-org:
+              Status:
             </td>
             <td>
               {{ page.status }}
@@ -81,11 +94,12 @@
             </tr>
           </tr>
           {% endif %}
+
           <!-- Purpose -->
           {% if page.purpose %}
           <tr>
             <td>
-              type-org:
+              Purpose:
             </td>
             <td>
               {{ page.purpose }}
@@ -93,11 +107,12 @@
             </tr>
           </tr>
           {% endif %}
+
           <!-- Headquarters -->
           {% if page.headquarters %}
           <tr>
             <td>
-              type-org:
+              Headquarters:
             </td>
             <td>
               {{ page.headquarters }}
@@ -105,11 +120,12 @@
             </tr>
           </tr>
           {% endif %}
+
           <!-- Membership -->
           {% if page.membership %}
           <tr>
             <td>
-              type-org:
+              Membership:
             </td>
             <td>
               {{ page.membership }}
@@ -117,11 +133,12 @@
             </tr>
           </tr>
           {% endif %}
+
           <!-- Founders -->
           {% if page.founders %}
           <tr>
             <td>
-              type-org:
+              Founders:
             </td>
             <td>
               {{ page.founders }}
@@ -133,7 +150,7 @@
           {% if page.authors %}
           <tr>
             <td>
-              type-org:
+              Authors:
             </td>
             <td>
               {{ page.authors }}
@@ -141,11 +158,12 @@
             </tr>
           </tr>
           {% endif %}
+
           <!-- Main organization -->
           {% if page.main-org %}
           <tr>
             <td>
-              type-org:
+              Main Organization:
             </td>
             <td>
               {{ page.main-org }}
@@ -153,11 +171,12 @@
             </tr>
           </tr>
           {% endif %}
+
           <!-- Parent organization -->
           {% if page.parent-org %}
           <tr>
             <td>
-              type-org:
+              Parent Organization:
             </td>
             <td>
               {{ page.parent-org }}
@@ -165,11 +184,12 @@
             </tr>
           </tr>
           {% endif %}
+
           <!-- Affilliations -->
           {% if page.affilliations %}
           <tr>
             <td>
-              type-org:
+              Affiliations:
             </td>
             <td>
               {{ page.afilliations }}
@@ -177,11 +197,12 @@
             </tr>
           </tr>
           {% endif %}
+
           <!-- Budget -->
           {% if page.budget %}
           <tr>
             <td>
-              type-org:
+              Budget:
             </td>
             <td>
               {{ page.budget }}
@@ -189,11 +210,12 @@
             </tr>
           </tr>
           {% endif %}
+
           <!-- Num of staff -->
           {% if page.num-staff %}
           <tr>
             <td>
-              type-org:
+              Staff:
             </td>
             <td>
               {{ page.num-staff }}
@@ -201,11 +223,12 @@
             </tr>
           </tr>
           {% endif %}
+
           <!-- Num of volunteers -->
           {% if page.num-volunteers %}
           <tr>
             <td>
-              type-org:
+              Volunteers:
             </td>
             <td>
               {{ page.num-volunteers }}
@@ -213,6 +236,7 @@
             </tr>
           </tr>
           {% endif %}
+
           <!-- Host organization -->
           {% if page.host %}
           {% assign host = page.host %}
@@ -228,17 +252,7 @@
           </tr>
           {% endif %}
           {% endif %}
-          <!-- Type of Organization -->
-          {% if page.type %}
-          <tr class="top aligned">
-            <td>
-              type-org:
-            </td>
-            <td>
-              {{ page.type }}
-            </td>
-          </tr>
-          {% endif %}
+
           <!-- Location -->
           <tr class="top aligned">
             <td>
@@ -247,7 +261,7 @@
             <td>
               <!-- Address -->
               {% if page.address %}
-              {{ page.address }}{% if page.directions %}, {{ page.directions }}{% endif %} <br>
+              {{ page.address }}{% if page.directions | append ','%} {{ page.directions }}{% endif %} <br>
               {% endif %}
               <!-- City and country -->
               {% if page.city or page.state or page.country %}

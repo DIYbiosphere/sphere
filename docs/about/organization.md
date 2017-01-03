@@ -6,7 +6,7 @@ title: DIYbiosphere Organization
 summary: Our vision, mission, values, governance and partners
 ---
 
-The DIYbiosphere is a participatory project to create a library of DIYbio initiatives. The project is managed by the [DIYbiosphere Organization][gh_org] and its [development community][community]. As an open organization, we are able to fluidly organize a large number of contributors while maintaining and striving towards a shared vision for the project.
+The DIYbiosphere is a participatory project to create a library of DIYbio initiatives. The project is managed by the [DIYbiosphere Organization][gh_org] and its [development community]. As an open organization, we are able to fluidly organize a large number of contributors while maintaining and striving towards a shared vision for the project.
 
 #### Our Mission
 To provide an open platform for DIYbio initiatives to **share** and **learn** about and from each other. To encourage the DIYbio community to engage with one another and to facilitate the free flow of knowledge and resources. We want to generate opportunities and potentials by creating a common project to collaborate on. To have a shared space where the DIYbio community can connect, meet, support, and work together.
@@ -23,12 +23,12 @@ The way that we work, collaborate, and engage with other members of the DIYbiosp
 - **Collaboration:** nurture a culture that fosters working together. To trust each others judgements and areas of expertise. We also urge contributors to actively participate and take on responsabilities in the project.
 - **Community:** to permeate a sense of community in everything we do. Understand that we need to work together and depend on each others' work, help, and expertise.
 
-We have a [Code of Conduct][coc] which establishes a common understanding of what is deemed a welcoming and friendly working environment as well as establishing how to deal with unacceptable behavior and its consequences.
+We have a [Code of Conduct] which establishes a common understanding of what is deemed a welcoming and friendly working environment as well as establishing how to deal with unacceptable behavior and its consequences.
 
 #### Our Governance
-The overall management of the project is the responsability of all members of the [DIYbiosphere organization][gh_org]. However, the [directors][directors] have a leadership role in terms of organizing the [development community][community] and the [development of the project][roadmap].
+The overall management of the project is the responsability of all members of the [DIYbiosphere organization][gh_org]. However, the [directors] have a leadership role in terms of organizing the [development community] and the [development of the project][roadmap].
 
 ## Our Partners
 The project is done in partnership with the [DIYbio.org][diybio] organization, and the support of the University of Geneva.
 
-Hopefully, more partners will follow.
+Hopefully, more partners will follow. :kissing_closed_eyes:

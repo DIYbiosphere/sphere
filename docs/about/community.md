@@ -6,7 +6,7 @@ title: Development Community
 summary: The roles and privileges of our contributing and developing community
 ---
 
-Any, and all users who contribute to the project are considered _contributors_. The _development community_ refers to members of the [DIYbiosphere organization][gh_org] in GitHub. [Members][members] have greater access permissions to the project and can be part of [Teams][teams] who are key members with distict roles in the development and enjoy greater access privileges. Submit an issue to [request membership][join] and join us!
+Any, and all users who contribute to the project are considered _contributors_. The _development community_ refers to members of the [DIYbiosphere organization][gh_org] in GitHub. [Members] have greater access permissions to the project and can be part of [Teams] who are key members with distict roles in the development and enjoy greater access privileges. Submit an issue to [request membership][join] and join us!
 
 ## Access Permission Levels
 There are different access levels: _Read_, _Write_, _Admin_, and _Owner_. Github [explains them][gh_permissions] in detail but we explain the most important and relevant ones in this page.
@@ -62,7 +62,7 @@ Are users that have owner permissions. The [Directors Team][gh_directors] overse
 - Inviting people to join the organization
 - Manage teams and collaborators (add/remove, promote team maintainers)
 - Manage the settings of the organization
-- Enforce the [Code of Conduct][coc]
+- Enforce the [Code of Conduct]
 
 Anyone can become a Director. Directors are expected to have the following characteristics
 
