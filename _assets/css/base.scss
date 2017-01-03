@@ -39,7 +39,7 @@ nav {
   }
 }
 
-article:not([class=button][class=image][class=label]) {
+article:not(.label) {
   a[href^="http"]:after {
     display: inline-block;
     width: 10px;
