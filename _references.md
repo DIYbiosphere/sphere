@@ -60,21 +60,21 @@
 
 [introduction]: /docs/introduction/
 [overview]: /docs/introduction/overview/
-[starting]: /docs/introduction/getting-started/ "How to use and contribute to the library"
-[using-library]: /docs/introduction/getting-started/#using-the-library
-[downloading-dataset]: /docs/introduction/getting-started/#downloading-the-dataset
-[contributing-library]: /docs/introduction/getting-started/#contributing-to-the-library
-[contributing-development]: /docs/introduction/getting-started/#contributing-to-the-development
-[getting-involved]: /docs/introduction/getting-started/#getting-more-involved
+[getting started]: /docs/introduction/getting-started/ "How to use and contribute to the library"
+[using the library]: /docs/introduction/getting-started/#using-the-library
+[downloading the dataset]: /docs/introduction/getting-started/#downloading-the-dataset
+[contributing to the library]: /docs/introduction/getting-started/#contributing-to-the-library
+[contributing to the development]: /docs/introduction/getting-started/#contributing-to-the-development
+[getting more involved]: /docs/introduction/getting-started/#getting-more-involved
 
-[about]: /docs/about/
+[about us]: /docs/about/
 [organization]: /docs/about/organization/
-[mission]: /docs/about/organization/#our-mission
-[vision]: /docs/about/organization/#our-vision
-[values]: /docs/about/organization/#our-values
-[governance]: /docs/about/organization/#our-governance
-[partners]: /docs/about/organization/#our-partners
-[community]: /docs/about/community/
+[our mission]: /docs/about/organization/#our-mission
+[our vision]: /docs/about/organization/#our-vision
+[our values]: /docs/about/organization/#our-values
+[our governance]: /docs/about/organization/#our-governance
+[our partners]: /docs/about/organization/#our-partners
+[development community]: /docs/about/community/
 [permissions]: /docs/about/community/#access-permission-levels
 [non-members]: /docs/about/community/#non-members
 [collaborators]: /docs/about/community/#outside-collaborators
@@ -84,7 +84,7 @@
 [editors]: /docs/about/community/#editors
 [coders]: /docs/about/community/#coders
 [directors]: /docs/about/community/#directors
-[coc]: /docs/about/coc/
+[code of conduct]: /docs/about/coc/
 [communication]: /docs/about/communication/
 [c_issues]: /docs/about/community/#github-issues
 [c_gitter]: /docs/about/community/#gitter
@@ -94,19 +94,19 @@
 [copyright]: /docs/copyright/
 [cc0]: /docs/copyright/cc0/
 [mit]: /docs/copyright/mit/
-[terms-of-use]: /docs/copyright/terms-of-use/
+[terms of use]: /docs/copyright/terms-of-use/
 [attribution]: /docs/copyright/terms-of-use/#copyright-attribution
-[contributor-terms]: /docs/copyright/contributor-terms/
+[contributor terms]: /docs/copyright/contributor-terms/
 
-[basics]: /docs/basics/
+[the basics]: /docs/basics/
 [library]: /docs/basics/library/
-[development]: /docs/basics/development/
+[software]: /docs/basics/software/
 [documentation]: /docs/basics/documentation/
 [design]: /docs/basics/library/
 [support]: /docs/support
-[contributing]: /docs/support/contributing/
+[contributing guide]: /docs/support/contributing/
 [workflow]: /docs/support/workflow/
-[eli5]: /docs/support/eli5-guide/
+[eli5 guide]: /docs/support/eli5-guide/
 [faq]: /docs/support/faq/
 [help]: /docs/support/help/
 [resources]: /docs/resources/
@@ -126,7 +126,7 @@
 [noting-copyright]: /docs/tutorials/noting-copyright/
 [how-desktop]: /docs/tutorials/using-github-desktop
 [how-atom]: /docs/tutorials/using-github-desktop
-[news]: /docs/updates/
+[updates]: /docs/updates/
 [blog]: /docs/updates/blog/
 [changelog]: /docs/updates/changelog/
 [roadmap]: /docs/updates/roadmap
@@ -134,7 +134,7 @@
 
 
 [collections]: /docs/basics/library/#entry-collections
-[categories]: /docs/basics/library/#organizational-categories
+[type-org]: /docs/basics/library/#organizational-types
 [anatomy]: /docs/basics/library/#anatomy-of-an-entry
 [fields]: /docs/basics/library/#data-fields
 [join]: /docs/support/contributing/#submitting-issues "How to request membership"
