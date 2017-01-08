@@ -66,34 +66,42 @@ collections:
     title: Projects
     output: true
     permalink: /library/projects/
+    collection: project
   startups:
     title: Startups
     output: true
     permalink: /library/startups/
+    collection: startup
   labs:
     title: Labs
     output: true
     permalink: /library/labs/
+    collection: lab
   incubators:
     title: Incubators
     output: true
     permalink: /library/incubators/
+    collection: incubator
   groups:
     title: Groups
     output: true
     permalink: /library/groups/
+    collection: group
   networks:
     title: Networks
     output: true
     permalink: /library/networks/
+    collection: network
   events:
     title: Events
     output: true
     permalink: /library/events/
+    collection: event
   others:
     title: Others
     output: true
     permalink: /library/others/
+    collection: other
 
 # Default Values
 defaults:
