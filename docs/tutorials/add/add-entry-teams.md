@@ -7,7 +7,7 @@ title: Adding a New Entry
 summary: Instructions for how to add a new entry
 ---
 
-{% _include tabs/add-entry-tabs.md %}
+{% include tabs/add-entry-tabs.md %}
 
 
 1. In your [master branch] of the repository, open the _library folder and choose a class folder for your new entry and **Create new file** named 'EntryName-ZZ.md'. Learn more about our [classification of entries] and [naming convention].

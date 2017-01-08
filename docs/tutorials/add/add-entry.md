@@ -7,7 +7,7 @@ title: Adding a New Entry
 summary: Instructions for how to add a new entry
 ---
 
-{% _include tabs/add-entry-tabs.md %}
+{% include tabs/add-entry-tabs.md %}
 
 
 1. **Fork** the [sphere][sphere] repository to make changes

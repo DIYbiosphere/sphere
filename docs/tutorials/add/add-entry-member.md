@@ -7,7 +7,7 @@ title: Adding a New Entry
 summary: Instructions for how to add a new entry
 ---
 
-{% _include tabs/add-entry-tabs.md %}
+{% include tabs/add-entry-tabs.md %}
 
 This is the tutorial (6 steps) to add a new entry for members. To edit an existing entry go to our [editing tutorial]. Keep a look out for our [helpful hints]!
 
