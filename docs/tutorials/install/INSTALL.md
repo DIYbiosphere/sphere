@@ -7,7 +7,7 @@ tab: mac
 summary: Installation instructions to work with the repository locally according to your operating system, choose yours.
 ---
 
-{% include_relative install-tabs.md %}
+{% _include tabs/install-tabs.md %}
 
 
 ##### 1. Open Terminal

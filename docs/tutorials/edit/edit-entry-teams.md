@@ -7,4 +7,4 @@ title: Editing an Entry
 summary:  Instructions for how to add a new entry
 ---
 
-{% include_relative edit-entry-tabs.md %}
+{% _include tabs/edit-entry-tabs.md %}
