@@ -11,23 +11,23 @@
 		 *
 		 * Get all database from the generated file and populates the table.
 		*/
-		$.getJSON('/data/database.json')
-			.done(function(resp) { // when request succeded...
-				var data = [];
-				var database = resp.database;
-				var collection = getCollection();
-				console.log('collection to use: ', collection);
-				if(collection) {
-					data = database.filter(function(initiative) { // filter by collection
-						return initiative.collection === collection;
-					});
-				} else data = database;
-				$table.rows.add(data).draw(); // add data and 'refresh' the table.
-			})
-			.fail(function(jqxhr, textStatus, error) { // when request failed...
-				console.error('failure getting database...');
-				console.error(`${textStatus}, ${error}`);
-			});
+		// $.getJSON('/data/database.json')
+		// 	.done(function(resp) { // when request succeded...
+		// 		var data = [];
+		// 		var database = resp.database;
+		// 		var collection = getCollection();
+		// 		console.log('collection to use: ', collection);
+		// 		if(collection) {
+		// 			data = database.filter(function(initiative) { // filter by collection
+		// 				return initiative.collection === collection;
+		// 			});
+		// 		} else data = database;
+		// 		$table.rows.add(data).draw(); // add data and 'refresh' the table.
+		// 	})
+		// 	.fail(function(jqxhr, textStatus, error) { // when request failed...
+		// 		console.error('failure getting database...');
+		// 		console.error(`${textStatus}, ${error}`);
+		// 	});
 
     /** Mapbox initialization */
     const MAPBOX_TOKEN = 'pk.eyJ1IjoiY3ViZTUiLCJhIjoiY2l2eDltdXRxMDFmczJ1cGRrcTN3M3NiNSJ9.MPdk_yTt0MwRQsll8CnSeg';
@@ -212,6 +212,8 @@
 
     search.addWidget(mapboxWidget());
 
+    search.addWidget(tableWidget());
+
     search.start();
 
     search.on('render', () => {
@@ -297,6 +299,29 @@
       };
       return mapboxWidget;
     }
+    
+    function tableWidget() {
+      let tableWidget = {
+        getConfiguration: searchParams => {},
+        init: options => {},
+        render: options => {
+          console.log('tableWidget render options: ', options);
+          let hits = options.results.hits;
+          var data = [];
+          // var database = resp.database;
+          // var collection = getCollection();
+          // console.log('collection to use: ', collection);
+          // if(collection) {
+          //   data = database.filter(function(initiative) { // filter by collection
+          //     return initiative.collection === collection;
+          //   });
+          // } else data = database;
+          $table.rows().remove();
+          $table.rows.add(hits).draw(); // add data and 'refresh' the table.
+        }
+      };
+      return tableWidget;
+    }
 
 		/**
 		 * This DataTable will contain all the info from all collections accross the
@@ -307,8 +332,8 @@
 		 *   "dom": https://datatables.net/reference/option/dom
 		 *   "buttons": dataTable.buttons @see https://datatables.net/extensions/buttons/
 		*/
-		var $table = $('#entries').DataTable({
-			"paging": true,
+		var $table = $('#library-table').DataTable({
+			"paging": false,
 			"ordering": true,
 			"dom": '<"top"i<"pull-right"B>>rt<"bottom"ip<"clear">>',
 			"buttons": [{
@@ -321,6 +346,12 @@
 				{
 					"visible": true,
 					"targets": 0,
+					"name": "collection",
+					"data": "collection"
+				},
+				{
+					"visible": true,
+					"targets": 1,
 					"name": "title",
 					"data": "title",
 					"render": function(data, type, row) {
@@ -329,43 +360,13 @@
 				},
 				{
 					"visible": true,
-					"targets": 1,
-					"name": "collection",
-					"data": "collection"
-				},
-				{
-					"visible": true,
 					"targets": 2,
-					"name": "start-date",
-					"data": "start-date"
+					"name": "since",
+					"data": "since"
 				},
-				{
+        {
 					"visible": true,
 					"targets": 3,
-					"name": "type-org",
-					"data": "type-org"
-				},
-				{
-					"visible": true,
-					"targets": 4,
-					"name": "city",
-					"data": "city"
-				},
-				{
-					"visible": true,
-					"targets": 5,
-					"name": "country",
-					"data": "country"
-				},
-				{
-					"visible": true,
-					"targets": 6,
-					"name": "state",
-					"data": "state"
-				},
-				{
-					"visible": true,
-					"targets": 7,
 					"name": "host",
 					"data": "host",
 					"render": function(data, type, row) {
@@ -391,17 +392,37 @@
 						} else return '';
 					}
 				},
-				{
-					"visible": false,
-					"targets": 8,
-					"name": "region",
-					"data": "region"
+        {
+					"visible": true,
+					"targets": 4,
+					"name": "type",
+					"data": "type"
 				},
 				{
-					"visible": false,
-					"targets": 9,
+					"visible": true,
+					"targets": 5,
+					"name": "city",
+					"data": "city"
+				},
+				{
+					"visible": true,
+					"targets": 6,
+					"name": "country",
+					"data": "country"
+				},
+        {
+					"visible": true,
+					"targets": 7,
+					"name": "lastest-commit",
+					"data": "posted_at",
+          "render": (data, type, row) => `${new Date(data).toLocaleDateString()}`
+				},
+				{
+					"visible": true,
+					"targets": 8,
 					"name": "tags",
-					"data": "tags"
+					"data": "tags",
+          "render": (data, type, row) => `${data.join(',')}`
 				}
 			],
 			"language": {
