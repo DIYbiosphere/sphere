@@ -6,7 +6,7 @@ title: Editing an Entry
 summary:  Instructions for how to add a new entry
 ---
 
-{% include_relative edit-entry-tabs.md %}
+{% include tabs/edit-entry-tabs.md %}
 
 
 {% include warning.html title="Before you begin, you should:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/docs/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/docs/about/copyright/terms-of-use/)." %}
