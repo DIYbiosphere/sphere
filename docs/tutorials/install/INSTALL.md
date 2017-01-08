@@ -32,11 +32,11 @@ Copy and paste the following line into the Terminal
 ##### 4. Clone/Fork the repository
 Members have permission to clone the repository, non-members will have to fork first and then follow these steps with their forked repository
 
-{% include_relative install-clone.md %}
+{% include subtabs/install-clone.md %}
 
 
 ##### 5. Open the repository root folder
-{% include_relative install-open.md %}
+{% include subtabs/install-open.md %}
 
 
  - Desktop: Right click on the repository and
