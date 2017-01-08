@@ -143,7 +143,7 @@
     search.addWidget(
       instantsearch.widgets.refinementList({
         container: '#type-org',
-        attributeName: 'type',
+        attributeName: 'type-org',
         operator: 'or',
         limit: 10,
         templates: {
@@ -361,8 +361,8 @@
 				{
 					"visible": true,
 					"targets": 2,
-					"name": "since",
-					"data": "since"
+					"name": "start-date",
+					"data": "start-date"
 				},
         {
 					"visible": true,
@@ -395,8 +395,8 @@
         {
 					"visible": true,
 					"targets": 4,
-					"name": "type",
-					"data": "type"
+					"name": "type-org",
+					"data": "type-org"
 				},
 				{
 					"visible": true,
@@ -414,8 +414,7 @@
 					"visible": true,
 					"targets": 7,
 					"name": "lastest-commit",
-					"data": "posted_at",
-          "render": (data, type, row) => `${new Date(data).toLocaleDateString()}`
+					"data": "last_modified"
 				},
 				{
 					"visible": true,
