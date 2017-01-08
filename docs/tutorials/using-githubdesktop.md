@@ -1,7 +1,8 @@
 ---
 layout: docs
-permalink: /docs/help/tutorials/using-githubdesktop/
-title: How to Use GitHub Desktop
+permalink: /docs/tutorials/using-github-desktop/
+crumb: tutorials
+title: GitHub Desktop
 ---
 
 

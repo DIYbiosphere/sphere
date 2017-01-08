@@ -1,0 +1,6 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@invertedItemTextColor: @invertedMutedTextColor ;
+@invertedtextMenuHeaderColor: @white;

@@ -1,67 +1,37 @@
 ---
 layout: default
 title: "404"
-permalink: /404.html
+permalink: 404.html
 ---
 
-
-<div class="row error-page">
-<div class="row text-center">
-  <ul>
-    <li class="octocat">
-      <img src="/assets/img/diybio-octocat.png">
-    </li>
-    <li class="octocat">
-      <p class="oops"> oops! </p>
-      <p class="error-404"> 404 </p>
-      <p class="not-found"> Page not found </p>
-    </li>
-  </ul>
- </div>
-
- <div class="error-rows">
-   <div class="center-content text-center row">
-     <ul>
-       <li class="error-box">
-         What to do now?
-       </li>
-
-       <li class="error-box">
-         <p class="text-center">
-             <a href="/" class="btn btn-dark" role="button">Go Back</a>
-         </p>
-       </li>
-
-       <li class="error-box">
-         <p class="text-center">
-             <a href="/" class="btn btn-dark" role="button">Homepage</a>
-         </p>
-       </li>
-
-       <li class="error-box">
-         <p class="text-center">
-             <a href="/docs/support/contributing/#report-a-broken-link" class="btn btn-dark" role="button">Report Broken Link</a>
-         </p>
-       </li>
-     </ul>
-   </div>
-
-   <div class="center-content text-center row">
-     <ul>
-       <li class="error-box">
-        Search Database
-       </li>
-
-       <li class="error-box">
-         or
-       </li>
-
-       <li class="error-box">
-         Search documentation
-       </li>
-     </ul>
-   </div>
- </div>
-
+<div class="ui grid text container xo top bottom padding eightfold">
+  <div class="two column centered row">
+    <div class="six wide column center aligned">
+      <img class="ui image centered" src="/assets/img/diybio-octocat.png">
+    </div>
+    <div class="four wide column center aligned">
+      <h2 class="ui center aligned header">oops!</h2>
+      <h1 class="ui center aligned header"><div class="ui huge header">404</div></h1>
+      <h3 class="ui center aligned header">Page not Found</h3>
+    </div>
+  </div>
+  <div class="one column row xo top padding twofold">
+    <div class="column center aligned">
+      <a href="#" onclick="history.go(-1)">
+      <button class="ui labeled black icon button">
+        <i class="chevron left icon"></i>
+        Go Back
+      </button>
+      </a>
+      <a href="{{ site.baseurl }}"><button class="ui labeled black icon button">
+        <i class="home icon"></i>
+        Go to Homepage
+      </button></a>
+      <a href="https://github.com/DIYbiosphere/sphere/issues/new"><button class="ui labeled black icon button">
+      <i class="unlinkify icon"></i>
+      Report Broken Link
+      </button></a>
+    </div>
+  </div>
 
 </div>

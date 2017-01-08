@@ -1,6 +1,7 @@
 ---
 layout: docs
-permalink: /docs/resources/faq/
+permalink: /docs/support/faq/
+crumb: support
 title: Frequently Asked Questions (FAQ)
 summary: In this section
 ---

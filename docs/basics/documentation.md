@@ -1,6 +1,7 @@
 ---
 layout: docs
 permalink: /docs/basics/documentation/
+crumb: basics
 title: Basics of the Documentation
 summary: In this section
 ---

@@ -1,14 +1,15 @@
 ---
 layout: docs
 permalink: /docs/about/community/
+crumb: about
 title: Development Community
-summary: In this section we explain the composition of our contributing community and the roles and privileges of members of the development community
+summary: The roles and privileges of our contributing and developing community
 ---
 
-Any, and all users who contribute to the project are considered _contributors_. The _development community_ refers to members of the [DIYbiosphere organization][gh_org] in GitHub. [Members][members] have greater access permissions to the project and can be part of [Teams][teams] who are key members with distict roles in the development and enjoy greater access privileges. Submit an issue to [request membership][join] and join us!
+Any, and all users who contribute to the project are considered _contributors_. The _development community_ refers to members of the [DIYbiosphere organization][gh_org] in GitHub. [Members] have greater access permissions to the project and can be part of [Teams] who are key members with distict roles in the development and enjoy greater access privileges. Submit an issue to [request membership][join] and join us!
 
 ## Access Permission Levels
-There are different access levels: _Read_, _Write_, _Admin_, and _Owner_. Github [explains them][gh_permissions] in detail but we explain the most most important and relevant ones in this page.
+There are different access levels: _Read_, _Write_, _Admin_, and _Owner_. Github [explains them][gh_permissions] in detail but we explain the most important and relevant ones in this page.
 
 ## Non-members
 Anyone with a GitHub account can contribute to the DIYbiosphere project. Their contributions require more steps to complete. Basic actions of non-members are:
@@ -19,7 +20,7 @@ Anyone with a GitHub account can contribute to the DIYbiosphere project. Their c
 - Edit and delete their own comments
 - Edit wikis
 
-To edit the database, non-members have to fork, commit changes, submit a pull request, and wait for the merge by a member. See tutorials for [adding an entry][add] and [editing an entry][edit].
+To edit the library, non-members have to fork, commit changes, submit a pull request, and wait for the merge by a member. See tutorials for [adding an entry][add] and [editing an entry][edit].
 
 ### Outside Collaborators
 Non-members can be assigned more permission levels by making them _Outside Collaborators_ and specifying their access level.
@@ -29,7 +30,7 @@ All [Members][gh_members] of the organization have _Write_ permissions. In addit
 
 - See other members and mention them, like @ahuacatl
 - See teams, create new teams, be team maintainer, and mention them, like [@DIYbiosphere/editors][gh_editors]
-- Manage Issues and Pull Requests (PR); close, merge (PRs), reopen, assign, apply labels, milestones. See our [workflow management][workflow] of tickets.
+- Manage Issues and Pull Requests (PR); close, merge, reopen, assign, apply labels, milestones. See our [workflow management][workflow] of tickets.
 - Have Issues and PR assigned to them
 - Edit and delete anyone's comments
 
@@ -48,9 +49,9 @@ Users in the [Managers Team][gh_managers] are all those responsable for the entr
 **Every entry should have a manager!!**
 
 #### Editors
-Users who are active in the management and development of all (non-software) content should be part of the [Editors Team][gh_editors]. As editors they are in charge of curating the database and all of its entries.
+Users who are active in the management and development of all (non-software) content should be part of the [Editors Team][gh_editors]. As editors they are in charge of curating the library and all of its entries.
 
-Managers are not involved in discussions about the the development of the project, this is the job of the Editors. Managers will be braught to the discussion at later stages before implementing any changes to the structure or content of the entries.
+Managers are not involved in discussions about the development of the project, this is the job of the Editors. Managers will be braught to the discussion at later stages before implementing any changes to the structure or content of the entries.
 
 #### Coders
 Users with coding skills and/or who are interested in the coding part of the project should join the [Coders Team][gh_coders]. Coders are in charge of the code that sustains the project and implement any enhancements or features to the software.
@@ -61,7 +62,7 @@ Are users that have owner permissions. The [Directors Team][gh_directors] overse
 - Inviting people to join the organization
 - Manage teams and collaborators (add/remove, promote team maintainers)
 - Manage the settings of the organization
-- Enforce the [Code of Conduct][coc]
+- Enforce the [Code of Conduct]
 
 Anyone can become a Director. Directors are expected to have the following characteristics
 
@@ -69,6 +70,3 @@ Anyone can become a Director. Directors are expected to have the following chara
 - A solid track record of being constructive and helpful
 - Significant contributions to the project’s goal, in any form
 - Willingness to dedicate some time to improving DIYbiosphere
-
-
-{% include _notices/tldr.html title="Members have more writing privileges and Teams define roles and topics" text="Anyone can contribute, but by joining as a Member and Team member, you can get more involved in the development of the project and you require less steps to contribute. Ask to [join][join]!" %}

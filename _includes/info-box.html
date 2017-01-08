@@ -1,0 +1,297 @@
+<div class="ui basic segment right floated compact infobox">
+  <div class="ui segment">
+        <table id="infobox" class="ui very basic compact table">
+        <tbody>
+          <tr>
+            <!-- Logo or Name of Page -->
+            <td colspan="2">
+              <h3>
+                <a href="{{ page.website }}" target="_blank">
+                {% if page.logo %}
+                  <img class="ui small centered image" src="{{ page.logo }}" />
+                {% else %}
+                  <h2 class="ui center aligned header">{{ page.title }}<h2>
+                </a>
+                {% endif %}
+              </h3>
+            </td>
+          </tr>
+          <!-- motto -->
+          <!-- Predecessor -->
+          {% if page.predecessor %}
+          <tr>
+            <td>
+              Predecessor:
+            </td>
+            <td>
+              {{ page.predecessor }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Successor -->
+          {% if page.successor %}
+          <tr>
+            <td>
+              Successor:
+            </td>
+            <td>
+              {{ page.successor }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- start-date -->
+          {% if page.start-date %}
+          <tr>
+            <td>
+              Start Date:
+            </td>
+            <td>
+              {{ page.start-date }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- End-Date -->
+          {% if page.end-date %}
+          <tr>
+            <td>
+              End Date:
+            </td>
+            <td>
+              {{ page.end-date }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Type -->
+          {% if page.type-org %}
+          <tr>
+            <td>
+              Type:
+            </td>
+            <td>
+              {{ page.type-org }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Status -->
+          {% if page.status %}
+          <tr>
+            <td>
+              Status:
+            </td>
+            <td>
+              {{ page.status }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Purpose -->
+          {% if page.purpose %}
+          <tr>
+            <td>
+              Purpose:
+            </td>
+            <td>
+              {{ page.purpose }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Headquarters -->
+          {% if page.headquarters %}
+          <tr>
+            <td>
+              Headquarters:
+            </td>
+            <td>
+              {{ page.headquarters }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Membership -->
+          {% if page.membership %}
+          <tr>
+            <td>
+              Membership:
+            </td>
+            <td>
+              {{ page.membership }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Founders -->
+          {% if page.founders %}
+          <tr>
+            <td>
+              Founders:
+            </td>
+            <td>
+              {{ page.founders }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+          <!-- Authors -->
+          {% if page.authors %}
+          <tr>
+            <td>
+              Authors:
+            </td>
+            <td>
+              {{ page.authors }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Main organization -->
+          {% if page.main-org %}
+          <tr>
+            <td>
+              Main Organization:
+            </td>
+            <td>
+              {{ page.main-org }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Parent organization -->
+          {% if page.parent-org %}
+          <tr>
+            <td>
+              Parent Organization:
+            </td>
+            <td>
+              {{ page.parent-org }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Affilliations -->
+          {% if page.affilliations %}
+          <tr>
+            <td>
+              Affiliations:
+            </td>
+            <td>
+              {{ page.afilliations }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Budget -->
+          {% if page.budget %}
+          <tr>
+            <td>
+              Budget:
+            </td>
+            <td>
+              {{ page.budget }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Num of staff -->
+          {% if page.num-staff %}
+          <tr>
+            <td>
+              Staff:
+            </td>
+            <td>
+              {{ page.num-staff }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Num of volunteers -->
+          {% if page.num-volunteers %}
+          <tr>
+            <td>
+              Volunteers:
+            </td>
+            <td>
+              {{ page.num-volunteers }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Host organization -->
+          {% if page.host %}
+          {% assign host = page.host %}
+          {% if host.name %}
+          <tr class="top aligned">
+            <td>
+              Parent Organization:
+            </td>
+            <td>
+              {% if host.web %} <a href="{{ page.host.web | site.baseUrl }}"> {% endif %}
+            {{ host.name }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endif %}
+
+          <!-- Location -->
+          <tr class="top aligned">
+            <td>
+              <span data-tooltip="Established start-date">Location:</span>
+            </td>
+            <td>
+              <!-- Address -->
+              {% if page.address %}
+              {{ page.address }}{% if page.directions | append ','%} {{ page.directions }}{% endif %} <br>
+              {% endif %}
+              <!-- City and country -->
+              {% if page.city or page.state or page.country %}
+              {{ page.city }}
+              {% if page.city and page.state %}, {% endif %}
+              {% if page.state %}
+              {{ page.state }} {% endif %}
+              {% if page.city or page.state %}<br> {% endif %}
+              {% if page.country %}
+              {{ page.country }}
+              {% endif %}
+              {% endif %}
+            </td>
+          </tr>
+        <!-- Tags -->
+          {% if page.tags !='' %}
+          <tr>
+            <td>
+              Keywords:
+            </td>
+            <td>
+              {% for tag in page.tags %}
+              {{ tag }}
+              {% endfor %}
+            </td>
+          </tr>
+          {% endif %}
+
+        </tbody>
+      </table>
+    </div>
+  {% include social-icons.html %}
+</div> <!-- close basic segment -->

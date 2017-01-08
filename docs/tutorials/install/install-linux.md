@@ -2,11 +2,12 @@
 layout: docs
 title: Install to Work Locally
 permalink: /docs/tutorials/install/linux
+crumb: tutorials
 tab: linux
-summary: Tutorial for install
+summary: Installation instructions to work with the repository locally according to your operating system, choose yours.
 ---
 
-{% include_relative install-tabs-nav.md %}
+{% include_relative install-tabs.md %}
 
 1. Install [ruby](https://www.ruby-lang.org/en/documentation/installation/)
 

@@ -1,8 +1,8 @@
 /* WHAT */
 TITLE: DIYbiosphere
-DESCRIPTION: The DIYbiosphere is a participatory project to create and maintain a worldwide database of Do-It-Yourself Biology (DIYbio) initiatives; a common and open directory to connect people and ideas.
+DESCRIPTION: The DIYbiosphere is a participatory project to create and maintain a worldwide library of Do-It-Yourself Biology (DIYbio) initiatives.
 DOI: TBD
-SUBJECT: open data, DIYbio, citizen science, biohacking, open-source
+SUBJECT: open-source, open data, software, database, Do-it-Yourself Biology, DIYbio, citizen science, biohacking,
 
 /* WHO */
 DATA COLLECTORS: DIYbiosphere contributors
@@ -15,7 +15,7 @@ LOCATION: Earth
 HEADQUARTERS: Geneva, Switzerland
 
 /* WHEN */
-RELEASE DATE: 2017-01-01
+RELEASE DATE: 2017-05-10
 
 /* HOW */
 DATA COLLECTION: by DIYbiosphere contributors

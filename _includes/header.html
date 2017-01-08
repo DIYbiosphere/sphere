@@ -1,81 +1,56 @@
 <header>
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ site.baseurl }}/">
-      <img src="/assets/img/sphere-logo-alpha.png" class="logo"></a>
-    </div>
+  <nav>
+    <div class="ui huge borderless menu">
+      <div class="ui container">
+        <!-- logo -->
+        <div class="item">
+          <a href="/">
+          <img class="ui image" src="/assets/img/sphere-logo-alpha.png"></a>
+        </div>
+        <!-- right menu -->
+        <div class="right menu">
+          {% if page.layout == "entries" or page.layout == "landing" %}
+          {% else %}
+          <div class="item">
+            {% include search-bar.html %}
+          </div>
+          {% endif %}
+          <div class="ui dropdown item">
+            <b>LIBRARY</b>
+            <i class="angle down icon"></i>
+            <div class="menu">
+              <a class="item" href="{{ '/library/' | prepend: site.baseUrl }}"><i class="archive icon"></i> All Entries</a>
+              <div class="divider"></div>
+              <div class="header">By Collection</div>
+              <a class="item" href="{{ '/library/projects/' | prepend: site.baseUrl }}"><i class="travel icon"></i> Projects</a>
+              <a class="item" href="{{ '/library/startups/' | prepend: site.baseUrl }}"><i class="rocket icon"></i> Startups </a>
+              <a class="item" href="{{ '/library/labs/' | prepend: site.baseUrl }}"><i class="lab icon"></i> Labs</a>
+              <a class="item" href="{{ '/library/incubators/' | prepend: site.baseUrl }}"><i class="leaf icon"></i> Incubators </a>
+              <a class="item" href="{{ '/library/groups/' | prepend: site.baseUrl }}"><i class="users icon"></i> Groups</a>
+              <a class="item" href="{{ '/library/networks/' | prepend: site.baseUrl }}"><i class="share alternate icon"></i> Networks </a>
+              <a class="item" href="{{ '/library/events/' | prepend: site.baseUrl }}"><i class="ticket icon"></i> Events</a>
+              <a class="item" href="{{ '/library/others/' | prepend: site.baseUrl }}"><i class="umbrella icon"></i> Others </a>
+            </div>
+          </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li>
-          {% include search-bar.html %}
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            DATABASE <span class="fa fa-chevron-down"></span></a>
-          <ul class="dropdown-menu">
-            <li class="navl2"><a href="{{ '/database/' | prepend: site.baseurl }}">{% svgicon fa-list %}
-    			  All</a> </li>
-    			  <li class="navl2"><a href="{{ '/database/projects/' | prepend: site.baseurl }}">{% svgicon fa-briefcase %}
-    			  Projects</a></li>
-    			  <li class="navl2"><a href="{{ '/database/startups/' | prepend: site.baseurl }}">{% svgicon fa-rocket %}
-    			  Startups</a></li>
-    			  <li class="navl2"><a href="{{ '/database/labs/' | prepend: site.baseurl }}">{% svgicon fa-flask %}
-    			  Labs</a></li>
-    			  <li class="navl2"><a href="{{ '/database/incubators/' | prepend: site.baseurl }}">{% svgicon fa-leaf %}
-    			  Incubators</a></li>
-    			  <li class="navl2"><a href="{{ '/database/groups/' | prepend: site.baseurl }}">{% svgicon fa-users %}
-    			  Groups</a></li>
-    			  <li class="navl2"><a href="{{ '/database/networks/' | prepend: site.baseurl }}">{% svgicon fa-share-alt %}
-    			  Networks</a></li>
-    			  <li class="navl2"><a href="{{ '/database/events/' | prepend: site.baseurl }}">{% svgicon fa-ticket %}
-    			  Events</a></li>
-    			  <li class="navl2"><a href="{{ '/database/events/' | prepend: site.baseurl }}">{% svgicon fa-umbrella %}
-    			  Others</a></li>
-          </ul>
-        </li>
+          <div class="ui dropdown item">
+            <b>DOCUMENTATION</b>
+            <i class="angle down icon"></i>
+            <div class="menu">
+              <a class="item" href="{{ '/docs/introduction/' | prepend: site.baseUrl }}"><i class="flag outline icon"></i> Introduction</a>
+              <a class="item" href="{{ '/docs/about/' | prepend: site.baseUrl }}"><i class="info circle icon"></i> About Us</a>
+              <a class="item" href="{{ '/docs/copyright/' | prepend: site.baseUrl }}"><i class="copyright icon"></i> Copyright </a>
+              <a class="item" href="{{ '/docs/basics/' | prepend: site.baseUrl }}"><i class="puzzle icon"></i> The Basics</a>
+              <a class="item" href="{{ '/docs/support/' | prepend: site.baseUrl }}"><i class="life ring icon"></i> Support </a>
+              <a class="item" href="{{ '/docs/tutorials/' | prepend: site.baseUrl }}"><i class="book icon"></i> Tutorials</a>
+              <a class="item" href="{{ '/docs/updates/' | prepend: site.baseUrl }}"><i class="announcement icon"></i> Updates</a>
+            </div>
+          </div>
 
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            DOCUMENTATION <span class="fa fa-chevron-down"></span></a>
-            <ul class="dropdown-menu">
-              <li class="navl2"><a href="{{ '/docs/introduction/welcome/' | prepend: site.baseurl }}">{% svgicon fa-road %}
-              Introduction</a></li>
-              <li class="navl2"><a href="{{ '/docs/about/organization/' | prepend: site.baseurl }}">{% svgicon fa-info-circle %}
-              About Us</a></li>
-              <li class="navl2"><a href="{{ '/docs/copyright/license/' | prepend: site.baseurl }}">{% svgicon fa-copyright %}
-              Copyright</a></li>
-              <li class="navl2"><a href="{{ '/docs/basics/database/' | prepend: site.baseurl }}">{% svgicon fa-cubes %}
-              The Basics</a></li>
-              <li class="navl2"><a href="{{ '/docs/support/contributing/' | prepend: site.baseurl }}">{% svgicon fa-life-ring %}
-              Support</a></li>
-              <li class="navl2"><a href="{{ '/docs/tutorials/add-entry/' | prepend: site.baseurl }}">{% svgicon fa-book %}
-              Tutorials</a></li>
-              <li class="navl2"><a href="{{ '/docs/resources/eli5/' | prepend: site.baseurl }}">{% svgicon fa-thumb-tack %}
-              Resources</a></li>
-              <li class="navl2"><a href="{{ '/docs/resources/changelog/' | prepend: site.baseurl }}">{% svgicon fa-bullhorn %}
-              News</a></li>
-            </ul>
-        </li>
-
-        <li> | </li>
-
-        <li><a href="{{ site.github.repository_url }}"><i class="fa fa-github"></i>
-        GITHUB</a></li>
-
-        <li><a href="https://diybio.org"><img src="https://diybiology.files.wordpress.com/2008/11/diybio-logo_980x626.gif" style="max-height:1em;">
-        DIYBIO</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+          <a class="item" href="{{ site.github.repository_url }}"><i class="github icon"></i> <b>GITHUB</b></a>
+          <a class="item" href="https://diybio.org"> <img class="diybio-logo" src="https://diybiology.files.wordpress.com/2011/10/diybio-logo-black-90x60px.png"><b>DIYBIO</b></a>
+        </div> <!-- end right menu -->
+        </div> <!-- end container -->
+      </div> <!-- end menu -->
+    </nav>
 </header>

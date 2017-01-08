@@ -3,13 +3,20 @@
 [diybio]: https://diybio.org/ "Go to DIYbio.org homepage"
 [citizen_sciences]: http://citizensciences.net/ "Go to Citizen Sciences homepage"
 [gh_pages]: https://pages.github.com/ "Learn about GitHub Pages from GitHub"
+[github]: https://github.com
 [markdown]: https://guides.github.com/features/mastering-markdown/ "Learn about Markdown from GitHub"
 [jekyll]: https://jekyllrb.com/ "Go to Jekyll's homepage"
+[git]: https://git-scm.com/
+[git_download]: https://git-scm.com/downloads
 [zenhub]: https://www.zenhub.com/
 [sphere]: http://sphere.diybio.org "Go to DIYbiosphere homepage"
+[rvm]: https://rvm.io/rvm/install
 [gh_sign]: https://github.com/join
 [gh_glossary]: https://help.github.com/articles/github-glossary/
 [gh_permissions]: https://help.github.com/articles/repository-permission-levels-for-an-organization/ "Learn about permission levels from GitHub"
+[gh_desktop]: https://desktop.github.com
+[gh_atom]: https://atom.io
+
 
 [gh_editable]: https://github.com/DIYbiosphere/sphere/tree/editable
 [gh_org]: https://github.com/DIYbiosphere "Go to the DIYbiosphere organization GitHub page"
@@ -27,11 +34,11 @@
 [gh_editors]: https://github.com/orgs/DIYbiosphere/teams/editors "See all Editors"
 [gh_coders]: https://github.com/orgs/DIYbiosphere/teams/coders "See all Coders"
 [gh_directors]: https://github.com/orgs/DIYbiosphere/teams/directors "See all Directors"
-[gh_repo]: https://github.com/DIYbiosphere/sphere "Go to DIYbiosphere database repository"
+[gh_repo]: https://github.com/DIYbiosphere/sphere "Go to DIYbiosphere library repository"
 [gh_issues]: https://github.com/DIYbiosphere/sphere/issues "Go to our GitHub Issues"
 [gh_bug]: https://github.com/DIYbiosphere/sphere/labels/bug
 [gh_critical]: https://github.com/DIYbiosphere/sphere/labels/critical
-[gh_database]: https://github.com/DIYbiosphere/sphere/labels/database
+[gh_library]: https://github.com/DIYbiosphere/sphere/labels/library
 [gh_design]: https://github.com/DIYbiosphere/sphere/labels/design
 [gh_development]: https://github.com/DIYbiosphere/sphere/labels/development
 [gh_docs]: https://github.com/DIYbiosphere/sphere/labels/docs
@@ -50,29 +57,56 @@
 
 
 [docs]: /docs/
+
 [introduction]: /docs/introduction/
 [overview]: /docs/introduction/overview/
-[starting]: /docs/introduction/getting-started/ "How to use and contribute to the database"
-[about]: /docs/about/
+[getting started]: /docs/introduction/getting-started/ "How to use and contribute to the library"
+[using the library]: /docs/introduction/getting-started/#using-the-library
+[downloading the dataset]: /docs/introduction/getting-started/#downloading-the-dataset
+[contributing to the library]: /docs/introduction/getting-started/#contributing-to-the-library
+[contributing to the development]: /docs/introduction/getting-started/#contributing-to-the-development
+[getting more involved]: /docs/introduction/getting-started/#getting-more-involved
+
+[about us]: /docs/about/
 [organization]: /docs/about/organization/
-[community]: /docs/about/community/
-[partners]: /docs/about/partners/
-[coc]: /docs/about/coc/
+[our mission]: /docs/about/organization/#our-mission
+[our vision]: /docs/about/organization/#our-vision
+[our values]: /docs/about/organization/#our-values
+[our governance]: /docs/about/organization/#our-governance
+[our partners]: /docs/about/organization/#our-partners
+[development community]: /docs/about/community/
+[permissions]: /docs/about/community/#access-permission-levels
+[non-members]: /docs/about/community/#non-members
+[collaborators]: /docs/about/community/#outside-collaborators
+[members]: /docs/about/community/#members
+[teams]: /docs/about/community/#teams
+[managers]: /docs/about/community/#managers
+[editors]: /docs/about/community/#editors
+[coders]: /docs/about/community/#coders
+[directors]: /docs/about/community/#directors
+[code of conduct]: /docs/about/coc/
 [communication]: /docs/about/communication/
+[c_issues]: /docs/about/community/#github-issues
+[c_gitter]: /docs/about/community/#gitter
+[c_slack]: /docs/about/community/#slack
+[c_twitter]: /docs/about/community/#twitter
+[c_blog]: /docs/about/community/#blog
 [copyright]: /docs/copyright/
-[license]: /docs/copyright/license/
 [cc0]: /docs/copyright/cc0/
 [mit]: /docs/copyright/mit/
-[cla]: /docs/copyright/cla/
-[basics]: /docs/basics/
-[database]: /docs/basics/database/
-[development]: /docs/basics/development/
+[terms of use]: /docs/copyright/terms-of-use/
+[attribution]: /docs/copyright/terms-of-use/#copyright-attribution
+[contributor terms]: /docs/copyright/contributor-terms/
+
+[the basics]: /docs/basics/
+[library]: /docs/basics/library/
+[software]: /docs/basics/software/
 [documentation]: /docs/basics/documentation/
-[design]: /docs/basics/database/
+[design]: /docs/basics/library/
 [support]: /docs/support
-[contributing]: /docs/support/contributing/
+[contributing guide]: /docs/support/contributing/
 [workflow]: /docs/support/workflow/
-[eli5]: /docs/support/eli5-guide/
+[eli5 guide]: /docs/support/eli5-guide/
 [faq]: /docs/support/faq/
 [help]: /docs/support/help/
 [resources]: /docs/resources/
@@ -80,7 +114,7 @@
 [hints]: /docs/resources/hints/
 [md_syntax]: /docs/resources/markdown-syntax/
 [jekyll_syntax]: /docs/resources/jekyll-syntax/
-[e_sphere]: /database/projects/DIYbiosphere-ZZ/
+[e_sphere]: /library/projects/DIYbiosphere-ZZ/
 
 [tutorials]: /docs/tutorials/
 [add]: /docs/tutorials/add-entry/ "How to add an entry"
@@ -90,21 +124,19 @@
 [edit-members]: /docs/tutorials/edit-entry-members/
 [edit-teams]: /docs/tutorials/edit-entry-teams/
 [noting-copyright]: /docs/tutorials/noting-copyright/
-[news]: /docs/news/
-[blog]: /docs/news/blog/
-[changelog]: /docs/news/changelog/
-[roadmap]: /docs/news/roadmap
+[how-desktop]: /docs/tutorials/using-github-desktop
+[how-atom]: /docs/tutorials/using-github-desktop
+[updates]: /docs/updates/
+[blog]: /docs/updates/blog/
+[changelog]: /docs/updates/changelog/
+[roadmap]: /docs/updates/roadmap
 
 
-[values]: /docs/about/organization/#our-values
-[permissions]: /docs/about/community/#access-levels
-[members]: /docs/about/community/#members
-[teams]: /docs/about/community/#teams
-[directors]: /docs/about/community/#directors
-[collections]: /docs/basics/database/#entry-collections
-[typology]: /docs/basics/database/#typology-of-initiatives
-[anatomy]: /docs/basics/database/#anatomy-of-an-entry
-[fields]: /docs/basics/database/#data-fields
+
+[collections]: /docs/basics/library/#entry-collections
+[type-org]: /docs/basics/library/#organizational-types
+[anatomy]: /docs/basics/library/#anatomy-of-an-entry
+[fields]: /docs/basics/library/#data-fields
 [join]: /docs/support/contributing/#submitting-issues "How to request membership"
 [join]: /docs/support/contributing/#membership-request
 

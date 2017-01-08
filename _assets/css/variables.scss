@@ -2,28 +2,27 @@
 * Variables used across css files
 */
 $pad: 1.5em;
-$mar: 1.5em;
-$nav-height: 90px;
-$max-content-width: 1080px;
+$mar: 1em;
 
 /**
 * Main color palette
 */
 
-$default: #ffffff;
-$primary: #000000;
-$secondary: #8E5C90;
-$hyperlink: #216BB4;
-$green-notice: #34ae5d;
-$red-notice: #d35043;
-$blue-notice: #1d9bce;
-$purple-notice: #a44cc9;
-$orange-notice: #eb804d;
 
-$light-gray: #dadada;
-$fine-gray: #eeeeee;
-$warm-gray: #9b9b9b;
-$medium-gray: #6F6F6F;
+
+$blue: #2185D0;
+$lightBlue: #54C8FF;
+$black: #1B1C1D;
+$lightBlack: #545454;
+$grey: #767676;
+$lightGrey: #DCDDDE;
+$darkWhite: #F3F3F3;
+
+$primaryColor: $blue;
+$secondaryColor: $black;
+
+$lightPrimaryColor: $lightBlue;
+$lightSecondaryColor: $lightBlack;
 
 //** colors for github issues labels**//
 $bug-color: #ed5e5f;

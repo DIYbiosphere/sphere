@@ -1,0 +1,64 @@
+div[role="search"] {
+  all: initial !important;
+}
+
+.ui.left.icon.input {
+  .algolia-autocomplete {
+    .aa-input {
+      padding-left: 15px !important;
+    }
+  }
+  &.fluid {
+    .aa-input {
+      padding-left: 35px !important;
+    }
+  }
+  .ais-search-box {
+    .ais-search-box--input {
+      padding-left: 35px !important;
+    }
+  }
+}
+
+// sibling selector
+.algolia-autocomplete + .icon {
+  padding-left: 10px;
+}
+
+.algolia-autocomplete {
+  all: initial;
+  width: 100%;
+
+  .aa-hint {
+    color: #999
+  }
+
+  .aa-input, .aa-hint {
+    width: 100%;
+  }
+
+  .aa-dropdown-menu {
+    background-color: #fff;
+    border: 1px solid #999;
+    border-top: none;
+    font-weight: 400;
+    text-align: left;
+    width: 150%;
+
+    .aa-suggestion {
+      cursor: pointer;
+      padding: 10px 10px;
+    }
+
+    .aa-suggestion.aa-cursor {
+      background-color: $darkWhite;
+    }
+
+    .aa-suggestion span {
+      font-style: normal;
+      background-color: gainsboro
+    }
+
+  }
+
+}

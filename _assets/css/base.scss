@@ -1,28 +1,45 @@
-html, body {
-  overflow-x: hidden;
-  color: $primary !important;
-  font-family: $fonts !important;
+/**
+*  Sticky Footer by https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+*/
 
-  a {
-    color: currentColor;
-    cursor: pointer;
-    text-decoration: underline;
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 
-    &:hover {
-      color: $hyperlink;
-      text-decoration: none;
-    }
+.Site-content {
+  flex: 1;
+}
+
+.hero-image {
+  background-image: url(/assets/img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.infobox {
+  min-width: 250px;
+  width: 300px;
+
+  table tr td {
+    border-top: 0px !important;
   }
-
 }
 
-.center-content {
-  max-width: 1080px;
-margin: 0 auto !important;
-float: none !important;
+nav {
+  border-bottom: 3px solid $black;
+
+  .diybio-logo {
+    height: 16px;
+    max-width: 30px;
+    padding-right: 8px;
+  }
 }
 
-article {
+article:not(.label) {
   a[href^="http"]:after {
     display: inline-block;
     width: 10px;
@@ -33,37 +50,19 @@ article {
     background-size: 100%;
   }
 
-  a[href^="/#"]:after {
+  a[href*="#"]:before {
     display: inline-block;
     width: 10px;
     height: 10px;
-    margin-right: 3px;
+    margin-left: 3px;
     content: "";
-    background: url('/assets/img/external-link.png') no-repeat 0 0;
+    background: url('/assets/img/heading-link.png') no-repeat 0 0;
     background-size: 100%;
   }
+
 }
 
-blockquote {
-  font-size: 0.8em;
-}
 
-h1 {
-  color: $primary !important;
-  border-bottom: 1px solid $fine-gray;
-  font-weight: 600 !important;
-  padding-top: 30px;
-  padding-bottom: 10px;
-}
-
-h2,
-h3,
-h4,
-h5 {
-  color: $primary !important;
-  font-weight: 600 !important;
-  padding-bottom: 5px;
-}
 
 strong {
   font-weight: 600 !important;
@@ -78,53 +77,17 @@ strong em {
 }
 
 code {
-  background-color: $fine-gray !important;
+  background-color: $lightGrey !important;
+}
+
+footer {
+
+  .border-footer {
+    border-top: 1px solid $lightGrey;
+  }
 }
 
 /**
 *  This keeps hash tag links visible,
 *  otherwise they are blocked by the top navbar
 */
-h2:before,
-h3:before {
-  display: block;
-  content: "";
-  margin: -200px 0 0;
-  height: 200px;
-}
-
-.img-thumb {
-  @extend .img-responsive;
-  padding-top: 1.5em;
-}
-
-.affix-bottom {
-  position: relative
-}
-
-/*
-
-
-#page-wrap {
-  min-width: 960px;
-  width: 90%;
-  max-width: 1200px;
-  align-content: center;
-}
-*/
-
-
-.icons {
-  display: inline;
-  fill: currentColor;
-  vertical-align: middle;
-  height: 0.9em;
-  width: 1em;
-  a {
-    fill: $hyperlink;
-
-    &:hover {
-      fill: red;
-    }
-  }
-}
