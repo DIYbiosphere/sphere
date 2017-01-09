@@ -367,61 +367,26 @@
         {
 					"visible": true,
 					"targets": 3,
-					"name": "host",
-					"data": "host",
-					"render": function(data, type, row) {
-						// host name, web page and sphere page links
-						var name = '', web = '', sphere = '';
-						if(data !== null) {
-							name = data.name || '';
-							if(data.web !== null) {
-								web = `
-                  <a class="link selectable" href="${data.web}">
-                    <i class="fa fa-link"></i>
-                  </a>
-                `;
-							}
-							if(data.sphere !== null) {
-								sphere = `
-                  <a class="link selectable" href="${data.sphere}">
-                    <i class="fa fa-external-link"></i>
-                  </a>
-                `;
-							}
-							return `${name} ${web} ${sphere}`;
-						} else return '';
-					}
-				},
-        {
-					"visible": true,
-					"targets": 4,
 					"name": "type-org",
 					"data": "type-org"
 				},
 				{
 					"visible": true,
-					"targets": 5,
+					"targets": 4,
 					"name": "city",
 					"data": "city"
 				},
 				{
 					"visible": true,
-					"targets": 6,
+					"targets": 5,
 					"name": "country",
 					"data": "country"
 				},
         {
 					"visible": true,
-					"targets": 7,
+					"targets": 6,
 					"name": "lastest-commit",
 					"data": "last_modified"
-				},
-				{
-					"visible": true,
-					"targets": 8,
-					"name": "tags",
-					"data": "tags",
-          "render": (data, type, row) => `${data.join(',')}`
 				}
 			],
 			"language": {
