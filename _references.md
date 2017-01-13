@@ -8,6 +8,9 @@
 [jekyll]: https://jekyllrb.com/ "Go to Jekyll's homepage"
 [git]: https://git-scm.com/
 [git_download]: https://git-scm.com/downloads
+[algolia]: https://www.algolia.com/
+[travis CI]: https://www.travis-ci.org
+[mapbox]: https://www.mapbox.com/
 [zenhub]: https://www.zenhub.com/
 [sphere]: http://sphere.diybio.org "Go to DIYbiosphere homepage"
 [rvm]: https://rvm.io/rvm/install

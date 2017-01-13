@@ -10,7 +10,7 @@ In the Basics section you find one of the most detailed descriptions of the proj
 ---
 
 ### Table of Contents of the **Basics** section
-[Library][library]
+[Library]
 
 - [Entry Collections]
 - [Organizational Categories]
@@ -19,7 +19,7 @@ In the Basics section you find one of the most detailed descriptions of the proj
   - [Body of Text]
 - [Obtaining the Dataset]
 
-[Software][software]
+[Software]
 
 - [GitHub Repository]
 - [GitHub Pages]

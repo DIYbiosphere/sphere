@@ -44,7 +44,7 @@ To edit, teams have to only commit changes. See tutorials to [add][add-teams] an
 **The teams in the DIYbiosphere organization are:**
 
 #### Managers
-Users in the [Managers Team][gh_managers] are all those responsable for the entry of their own initiative.  Managers should also join the _Collection Team_ their entry belongs to: [**Projects Team**][gh_projects], [**Startups Team**][gh_startups], [**Labs Team**][gh_labs], [**Incubators Team**][gh_incubators], [**Groups Team**][gh_groups], [**Networks Team**][gh_networks], [**Events Team**][gh_events], and [**Others Team**][gh_others].
+Users in the [Managers Team][gh_managers] are all those responsable for the entry of their own initiative.  Managers should also join the _Collection Team_ their entry belongs to: [Projects Team][gh_projects], [Startups Team][gh_startups], [Labs Team][gh_labs], [Incubators Team][gh_incubators], [Groups Team][gh_groups], [Networks Team][gh_networks], [Events Team][gh_events], and [Others Team][gh_others].
 
 **Every entry should have a manager!!**
 
