@@ -1,9 +1,9 @@
 
-
 [diybio]: https://diybio.org/ "Go to DIYbio.org homepage"
 [citizen_sciences]: http://citizensciences.net/ "Go to Citizen Sciences homepage"
 [gh_pages]: https://pages.github.com/ "Learn about GitHub Pages from GitHub"
 [github]: https://github.com
+[atom]: https://atom.io/
 [markdown]: https://guides.github.com/features/mastering-markdown/ "Learn about Markdown from GitHub"
 [jekyll]: https://jekyllrb.com/ "Go to Jekyll's homepage"
 [git]: https://git-scm.com/
@@ -139,8 +139,7 @@
 [collections]: /docs/basics/library/#entry-collections
 [type-org]: /docs/basics/library/#organizational-types
 [anatomy]: /docs/basics/library/#anatomy-of-an-entry
-[fields]: /docs/basics/library/#data-fields
-[join]: /docs/support/contributing/#submitting-issues "How to request membership"
+[data fields]: /docs/basics/library/#data-fields
 [join]: /docs/support/contributing/#membership-request
 
 [s_bug]: /docs/support/contributing/#report-a-bug
