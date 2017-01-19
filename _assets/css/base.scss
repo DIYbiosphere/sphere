@@ -50,7 +50,18 @@ article {
     background-size: 100%;
   }
 
+  a[href$=".md"]:after {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    content: "";
+    background: url('/assets/img/download-link.png') no-repeat 0 0;
+    background-size: 100%;
+  }
+
 }
+
 
 
 
