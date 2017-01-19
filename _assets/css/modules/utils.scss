@@ -10,6 +10,14 @@
   margin: $mar;
 }
 
+.xo.paddingfull {
+  padding: $mar;
+
+  &.half {
+    padding: ($mar/2) !important;
+  }
+}
+
 .xo.margin.bottom {
   margin-bottom: $mar;
 
@@ -112,6 +120,6 @@
   float: left
 }
 
-.pad-sides {
-  padding: 0px 5px 0px 5px;
+ul.no-bullets {
+  list-style-type: none !important;
 }
