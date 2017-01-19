@@ -12,7 +12,10 @@
           {% if page.layout == "entries" or page.layout == "landing" %}
           {% else %}
           <div class="item">
-            {% include search-bar.html %}
+            <div class="ui transparent right icon input">
+              <input type="search" placeholder="Search Entries" data-algolia-search="true">
+              <i class="search icon"></i>
+            </div>
           </div>
           {% endif %}
           <div class="ui dropdown item">

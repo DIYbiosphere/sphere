@@ -1,5 +1,3 @@
-{% include info.html title="Optional form for new entries" text="A simplified fill-out form is being created to faciliate adding a new entry. The form will render a markdown file and contributors will have to upload to its respective collection" %}
-
 The steps to add an entry to the library differ depending on your [access permisions][permissions] to the repository: follow the following steps respectively for non-members, members, and teams.
 
 <div class="ui secondary pointing menu">
