@@ -8,11 +8,10 @@ start-date: 2014
 
 host-org:
 
-
-type-org: ''
-
+type-org:
 
 affiliates:
+  - "[Syntech Bio](http://www.syntechbio.com/)"
 
 address: La Molina
 directions:
