@@ -382,8 +382,8 @@
         {
 					"visible": true,
 					"targets": 3,
-					"name": "host",
-					"data": "host",
+					"name": "host-org",
+					"data": "host-org",
 					"render": function(data, type, row) {
 						// host name, web page and sphere page links
 						var name = '', web = '', sphere = '';

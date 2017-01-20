@@ -6,10 +6,7 @@ logo:
 website:
 start-date:
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 

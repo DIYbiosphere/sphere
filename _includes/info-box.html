@@ -173,13 +173,13 @@
           {% endif %}
 
           <!-- Parent organization -->
-          {% if page.parent-org %}
+          {% if page.host-org %}
           <tr>
             <td>
-              Parent Organization:
+              Host Organization:
             </td>
             <td>
-              {{ page.parent-org }}
+              {{ page.host-org }}
             </td>
             </tr>
           </tr>
@@ -237,21 +237,7 @@
           </tr>
           {% endif %}
 
-          <!-- Host organization -->
-          {% if page.host %}
-          {% assign host = page.host %}
-          {% if host.name %}
-          <tr class="top aligned">
-            <td>
-              Parent Organization:
-            </td>
-            <td>
-              {% if host.web %} <a href="{{ page.host.web | site.baseUrl }}"> {% endif %}
-            {{ host.name }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endif %}
+
 
           <!-- Location -->
           <tr class="top aligned">
