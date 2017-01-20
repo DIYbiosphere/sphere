@@ -21,6 +21,11 @@ state: Lima
 country: Peru
 
 tags:
+<<<<<<< HEAD
+=======
+  -
+  -
+>>>>>>> origin/master
 
 email: biomakers.lab@gmail.com
 blog:
