@@ -1,32 +1,24 @@
 ---
 manager:
 
-title:
+title: BioHackSyd
+motto: Syney Biohackers Meeting
 logo:
 website:
-start-date:
+start-date: 2015
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
-type-org:
+type-org: Community
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
 postcode:
-city:
-state:
-country:
+city: Sydney
+state: New South Wales
+country: Australia
 
 tags:
 -
@@ -41,7 +33,7 @@ mailinglist:
 irc:
 gitter:
 slack:
-meetup:
+meetup: https://www.meetup.com/biohackoz/
 twitter:
 facebook:
 google+:

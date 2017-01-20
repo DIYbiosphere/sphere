@@ -7,20 +7,11 @@ website: http://bosslab.org/
 start-date: 2014
 
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org: Non-profit
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 339r summer street
 directions: 2nd floor

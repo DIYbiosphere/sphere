@@ -6,20 +6,11 @@ logo: http://brmlab.cz/brmlab.png
 website: http://brmlab.cz/index.html
 start-date:
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org: Non-Profit
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: Bubenská 1477/1
 directions:

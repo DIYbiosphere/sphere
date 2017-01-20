@@ -6,20 +6,11 @@ logo: http://photos4.meetupstatic.com/photos/event/7/f/2/8/global_219152552.jpeg
 website:
 start-date: 2013
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: Kersnikova ulica 4
 directions:

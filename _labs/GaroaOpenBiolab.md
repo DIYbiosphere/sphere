@@ -6,10 +6,7 @@ logo:
 website: https://garoa.net.br/wiki/Garoa_Open_BioLab
 start-date: 2011
 
-host:
-  name: Garao Hacker Clube
-  sphere:
-  web: https://garoa.net.br/wiki/P%C3%A1gina_principal
+host-org: [Garao Hacker Clube](https://garoa.net.br/wiki/P%C3%A1gina_principal)
 
 type-org:
 

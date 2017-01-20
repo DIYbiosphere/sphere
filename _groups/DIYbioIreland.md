@@ -1,32 +1,25 @@
 ---
 manager:
 
-title:
+title: DIYbio Ireland
 logo:
 website:
-start-date:
+start-date: 2011
+end-date: 2013
+status: inactive
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
 postcode:
 city:
 state:
-country:
+country: Ireland
 
 tags:
 -
@@ -37,7 +30,7 @@ blog:
 rss:
 wiki:
 forum:
-mailinglist:
+mailinglist: https://groups.google.com/forum/#!forum/diybio-ireland
 irc:
 gitter:
 slack:

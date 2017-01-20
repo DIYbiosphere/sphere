@@ -1,35 +1,26 @@
 ---
 manager:
 
-title:
+title: DIYbio Perth
 logo:
-website:
+website: https://www.facebook.com/diybioperth/
 start-date:
 
-host:
-  name:
-  sphere:
-  web:
+host-org: [The Perth Artifactory](http://artifactory.org.au/)
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
 postcode:
-city:
+city: Perth
 state:
-country:
+country: Australia
 
 tags:
--
+- makerspace
 -
 
 email:
@@ -43,7 +34,7 @@ gitter:
 slack:
 meetup:
 twitter:
-facebook:
+facebook: https://www.facebook.com/groups/diybioperth/
 google+:
 linkedin:
 instagram:

@@ -6,20 +6,11 @@ logo: http://www.bionyfiken.se/wp-content/uploads/2015/07/Med-vita.png
 website: http://www.bionyfiken.se/
 start-date: 2014
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org: Non-profit
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: Drottning Kristinas väg 53
 directions:

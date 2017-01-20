@@ -6,20 +6,11 @@ logo:
 website: http://diybio.to/
 start-date: 2013
 
-host:
-  name: HackLab
-  sphere:
-  web: https://hacklab.to/
+host-org: [HackLab](https://hacklab.to/)
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 1266 Queen St.
 directions: West Suite #6

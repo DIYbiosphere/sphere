@@ -6,20 +6,11 @@ logo: http://bioquisitive.org.au/wp-content/uploads/2015/07/new-logo.png
 website: http://bioquisitive.org.au/
 start-date: 2015
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 45 Talbot St.
 directions:

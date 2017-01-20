@@ -1,32 +1,23 @@
 ---
 manager:
 
-title:
+title: Biotinkering Berlin
 logo:
-website:
+website: https://www.biotinkering-berlin.de/?lang=en
 start-date:
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
-type-org:
+type-org: Community
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
 postcode:
-city:
+city: Berlin
 state:
-country:
+country: Germany
 
 tags:
 -
@@ -37,11 +28,11 @@ blog:
 rss:
 wiki:
 forum:
-mailinglist:
+mailinglist: biotinkering-berlin@googlegroups.com
 irc:
 gitter:
 slack:
-meetup:
+meetup: https://www.meetup.com/Biotinkering-Berlin/
 twitter:
 facebook:
 google+:

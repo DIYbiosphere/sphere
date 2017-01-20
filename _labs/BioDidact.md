@@ -6,20 +6,11 @@ logo: http://2.cdn.site.mobi/l/m.biodidact.net/2c51g0/64ed30cc9f72af41364ef93225
 website: http://biodidact.net/
 start-date: 2014
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
-type-org: Grassroots
+type-org: Community
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 1900 Diamond Drive
 directions:

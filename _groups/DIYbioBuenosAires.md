@@ -1,25 +1,16 @@
 ---
 manager:
 
-title:
+title: Biohacking BA
 logo:
-website:
-start-date:
+website: www.diybioba.org
+start-date: 2015
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
@@ -32,7 +23,7 @@ tags:
 -
 -
 
-email:
+email: hola@diybioba.org
 blog:
 rss:
 wiki:
@@ -41,8 +32,8 @@ mailinglist:
 irc:
 gitter:
 slack:
-meetup:
-twitter:
+meetup: https://www.meetup.com/biohackingBA/
+twitter: https://twitter.com/diybioba
 facebook:
 google+:
 linkedin:

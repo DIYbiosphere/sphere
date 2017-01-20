@@ -6,20 +6,11 @@ logo: http://rva.indielab.co/wp-content/uploads/2015/08/Indie_lab_logo_banner.pn
 website: http://rva.indielab.co/
 start-date: 2012
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 1600 Roseneath Rd
 directions:

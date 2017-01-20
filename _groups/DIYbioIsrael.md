@@ -1,32 +1,23 @@
 ---
 manager:
 
-title:
+title: DIYbio Israel
 logo:
-website:
-start-date:
+website: http://sustainiverse.org/dyibio-israel-%D7%99%D7%A9%D7%A8%D7%90%D7%9C/
+start-date: 2013
 
-host:
-  name:
-  sphere:
-  web:
+host-org: [Sustainiverse](http://sustainiverse.org/)
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
 postcode:
-city:
+city: Tel AViv
 state:
-country:
+country: Israel
 
 tags:
 -
@@ -35,7 +26,7 @@ tags:
 email:
 blog:
 rss:
-wiki:
+wiki: http://diybio.org.il/index.php?title=DIYbio_Israel
 forum:
 mailinglist:
 irc:

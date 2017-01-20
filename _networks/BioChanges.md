@@ -1,7 +1,7 @@
 ---
 manager:
 
-title: Bio
+title: BioChanges
 logo:
 website:
 start-date:
@@ -14,12 +14,8 @@ host:
 type-org:
 
 affiliates:
-  name: BioDesign Studios
-  sphere:
-  web:
-  name: BioMaker Spaces
-  sphere:
-  web:
+  - BioDesign Studios
+  - BioMaker Spaces
 
 address:
 directions:

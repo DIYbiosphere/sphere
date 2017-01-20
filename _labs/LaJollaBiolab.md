@@ -6,20 +6,11 @@ logo:
 website: http://lajollalibrary.org/your-library/bio-lab/
 start-date: 2015
 
-host:
-  name: La Jolla Public Library
-  sphere:
-  web: http://lajollalibrary.org/
+host-org: [La Jolla Public Library](http://lajollalibrary.org/)
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 7555 Draper Ave
 directions:

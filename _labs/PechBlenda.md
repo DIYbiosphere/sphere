@@ -2,24 +2,16 @@
 manager:
 
 title: PechBlenda Lab
+motto: Laboratory of bioelectrochemical experimentations
 logo:
 website: https://pechblenda.hotglue.me/
 start-date:
 
-host:
-  name: Calafou
-  sphere:
-  web:
+host-org: Calafou
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
@@ -55,7 +47,6 @@ hackpad:
 trello:
 github:
 ---
-Laboratory of bioeelectrochemical experimentations
 
 ## About
 

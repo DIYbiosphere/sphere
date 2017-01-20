@@ -6,20 +6,11 @@ logo: http://nebula.wsimg.com/2c0cd4b16a0a53f133601f68c47dac19?AccessKeyId=C2788
 website: http://www.trysci.org/
 start-date: 2014
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org: Non-Profit
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 16657 E 23rd St
 directions: South Suite 170

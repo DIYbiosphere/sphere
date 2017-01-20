@@ -1,32 +1,24 @@
 ---
 manager:
 
-title:
-logo:
+title: LifePatch
+motto: Citizen Initiative in Art, Science and Technology
+logo: https://filopodia.files.wordpress.com/2013/04/580px-lifepatchlogo-noborder.png
 website:
 start-date:
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
 postcode:
-city:
+city: Yogyarta
 state:
-country:
+country: Indonesia
 
 tags:
 -
@@ -35,7 +27,7 @@ tags:
 email:
 blog:
 rss:
-wiki:
+wiki: http://lifepatch.org/
 forum:
 mailinglist:
 irc:

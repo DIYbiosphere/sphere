@@ -6,17 +6,11 @@ logo: https://pbs.twimg.com/profile_images/720372470839005187/SE-7LrWi_400x400.j
 website:
 start-date: 2015
 
-main-org: Tecnologico de Monterrey, Campus Guadalajara
+host-org: Tecnologico de Monterrey, Campus Guadalajara
 
 type-org: University
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:

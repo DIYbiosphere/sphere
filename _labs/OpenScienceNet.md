@@ -6,20 +6,11 @@ logo:
 website: http://www.opensciencenet.org/
 start-date: 2010
 
-host:
-  name: MakerLabs
-  sphere:
-  web: http://www.makerlabs.com/
+host-org: [MakerLabs](http://www.makerlabs.com/)
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 780 East Cordova Street
 directions:

@@ -1,32 +1,24 @@
 ---
 manager:
 
-title:
-logo:
-website:
-start-date:
+title: Biogarage
+motto: Das Do It Yourself Labor
+logo: http://biogarage.de/images/BiogarageHeader.png
+website: http://biogarage.de/
+start-date: 2013
 
 host:
-  name:
-  sphere:
-  web:
 
-type-org:
+type-org: Community
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
 postcode:
-city:
+city: Munich
 state:
-country:
+country: Germany
 
 tags:
 -
@@ -42,9 +34,9 @@ irc:
 gitter:
 slack:
 meetup:
-twitter:
+twitter: https://twitter.com/biogarage
 facebook:
-google+:
+google+: https://plus.google.com/u/0/118328088681211953650
 linkedin:
 instagram:
 flickr:

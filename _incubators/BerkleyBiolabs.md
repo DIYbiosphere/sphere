@@ -6,20 +6,11 @@ logo: http://photos1.meetupstatic.com/photos/event/a/9/2/f/global_438763311.jpeg
 website: http://www.berkeleybiolabs.com/
 start-date: 2013
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 614 Bancroft Way
 directions: Building 2, Suite A

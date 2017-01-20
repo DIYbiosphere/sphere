@@ -6,20 +6,11 @@ logo: https://pbs.twimg.com/profile_images/429222116198596609/0sU_gvhB_400x400.j
 website: http://www.diybio.be/index.php/en/
 start-date:
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org: Non-Profit
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: Rue du progrès 4
 directions: boite 9

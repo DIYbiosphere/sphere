@@ -6,20 +6,11 @@ logo:
 website: https://madlab.org.uk/community-biotechnology/
 start-date:
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 36-40 Edge St
 directions:

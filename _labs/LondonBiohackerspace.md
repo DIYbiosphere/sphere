@@ -6,20 +6,11 @@ logo: https://biohackspace.org/wp-content/uploads/2014/07/Biohack_logo.png
 website: https://biohackspace.org/
 start-date: 2009
 
-host:
-  name: London Hackspace
-  sphere:
-  web: https://london.hackspace.org.uk/
+host-org: [London Hackspace](https://london.hackspace.org.uk/)
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 447 Hackney Road
 directions:

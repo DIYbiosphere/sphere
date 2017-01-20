@@ -1,36 +1,34 @@
 ---
 manager:
 
-title: DIYbio Chicago
+title: Capital Area BioSpace
 logo:
-website:
-start-date: 2008
-end-date: 2011
-status: inactive
+website: https://www.meetup.com/CapitalAreaBioSpace/
+start-date:
 
-host-org:
+host-org: [Nova Labs](http://www.nova-labs.org/blog/)
 
 type-org: Community
 
 affiliates:
 
-address:
+address: 1916 Isaac Newton Square West
 directions:
-postcode:
-city: Chicago
-state: Illinois
+postcode: 20190
+city: Reston
+state: Virginia
 country: United States
 
 tags:
 -
 -
 
-email:
+email: capitalareabiospace@gmail.com
 blog:
 rss:
 wiki:
 forum:
-mailinglist: https://groups.google.com/forum/#!forum/diybio-chicago
+mailinglist:
 irc:
 gitter:
 slack:

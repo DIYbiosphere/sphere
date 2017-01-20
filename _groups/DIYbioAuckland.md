@@ -1,33 +1,26 @@
 ---
 manager:
 
-  Group
-title:
+title: Auckland DIYbio
 logo:
 website:
-start-date:
+start-date: 2013
+end-date: 2013
+status: inactive
 
-host:
-  name:
-  sphere:
-  web:
+
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
 postcode:
-city:
+city: Auckland
 state:
-country:
+country: Australia
 
 tags:
 -

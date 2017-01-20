@@ -6,20 +6,11 @@ logo: https://pbs.twimg.com/profile_images/506940646242799616/umLtASDs.png
 website: http://hivebio.org/
 start-date: 2013
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 4000 NE 41st St.
 directions:

@@ -2,28 +2,19 @@
 manager:
 
 title: La Paillase
-logo:
-website:
+logo: http://lapaillasse.org/wp-content/themes/lapaillasse/common/images/logo-paillasse-menu.png
+website: http://lapaillasse.org/
 start-date:
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
-address:
+address: 226 rue St. Denis
 directions:
-postcode:
+postcode: 75002
 city: Paris
 state:
 country: France
@@ -32,7 +23,7 @@ tags:
 -
 -
 
-email:
+email: contact@lapaillasse.org
 blog:
 rss:
 wiki:
@@ -42,8 +33,8 @@ irc:
 gitter:
 slack:
 meetup:
-twitter:
-facebook:
+twitter: https://twitter.com/lapaillasse
+facebook: https://www.facebook.com/groups/206707586012941/
 google+:
 linkedin:
 instagram:

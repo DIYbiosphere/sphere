@@ -6,20 +6,12 @@ logo: https://static.wixstatic.com/media/ffa224_a102c6ec1ce44f65a702200affe04df1
 website: http://biomakerslab.wix.com/home
 start-date: 2014
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name: Syntech Bio
-  sphere:
-  web: http://www.syntechbio.com/
-  name:
-  sphere:
-  web:
+  - [Syntech Bio](http://www.syntechbio.com/)
 
 address: La Molina
 directions:

@@ -1,32 +1,23 @@
 ---
 manager:
 
-title:
+title: Manila Biopunk
 logo:
-website:
+website: http://www.manilabiopunk.org/
 start-date:
 
-host:
-  name:
-  sphere:
-  web:
+host-org: Tsinelas Labs
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
-address:
+address: 41B T. Gener St cor Kamuning
 directions:
 postcode:
-city:
-state:
-country:
+city: Dillman, Quezon City
+state: Metro Manila
+country: Phillipines
 
 tags:
 -
@@ -43,7 +34,7 @@ gitter:
 slack:
 meetup:
 twitter:
-facebook:
+facebook: https://www.facebook.com/groups/manilabiopunk/
 google+:
 linkedin:
 instagram:

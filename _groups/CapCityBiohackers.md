@@ -1,32 +1,23 @@
 ---
 manager:
 
-title:
+title: Cap City Biohackers
 logo:
 website:
-start-date:
+start-date: 2015
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
-type-org:
+type-org: Community
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
 postcode:
-city:
-state:
-country:
+city: Columbus
+state: Ohio
+country: United States
 
 tags:
 -
@@ -42,8 +33,8 @@ irc:
 gitter:
 slack:
 meetup:
-twitter:
-facebook:
+twitter: https://twitter.com/capcitybio
+facebook: https://www.facebook.com/diybiocolumbus
 google+:
 linkedin:
 instagram:
