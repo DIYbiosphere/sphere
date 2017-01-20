@@ -13,7 +13,6 @@ type-org: ''
 
 
 affiliates:
-- [Syntech Bio](http://www.syntechbio.com/)
 
 address: La Molina
 directions:
