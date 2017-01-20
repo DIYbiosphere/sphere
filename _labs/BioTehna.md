@@ -20,8 +20,6 @@ state:
 country: Slovenia
 
 tags:
--
--
 
 email:
 blog:

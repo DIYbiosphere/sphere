@@ -6,7 +6,7 @@ logo:
 website: http://www.opensciencenet.org/
 start-date: 2010
 
-host-org: [MakerLabs](http://www.makerlabs.com/)
+host-org: "[MakerLabs](http://www.makerlabs.com/)"
 
 type-org:
 
@@ -20,8 +20,8 @@ state: British Columbia
 country: Canada
 
 tags:
-- makerspace
--
+  - makerspace
+
 
 email:
 blog:

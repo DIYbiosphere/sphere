@@ -6,7 +6,7 @@ logo: https://biohackspace.org/wp-content/uploads/2014/07/Biohack_logo.png
 website: https://biohackspace.org/
 start-date: 2009
 
-host-org: [London Hackspace](https://london.hackspace.org.uk/)
+host-org: "[London Hackspace](https://london.hackspace.org.uk/)"
 
 type-org:
 
@@ -20,8 +20,8 @@ state:
 country: United Kingdom
 
 tags:
-- hackerspace
--
+  - hackerspace
+
 
 ical: http://www.google.com/calendar/ical/gc1bopmh3c5n0ogvlo6ceujlkc%40group.calendar.google.com/public/basic.ics
 email:

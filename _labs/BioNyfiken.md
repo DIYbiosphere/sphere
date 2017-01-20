@@ -20,8 +20,6 @@ state:
 country: Sweden
 
 tags:
--
--
 
 email:
 blog:

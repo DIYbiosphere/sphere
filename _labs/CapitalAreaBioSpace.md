@@ -6,7 +6,7 @@ logo:
 website: https://www.meetup.com/CapitalAreaBioSpace/
 start-date:
 
-host-org: [Nova Labs](http://www.nova-labs.org/blog/)
+host-org: "[Nova Labs](http://www.nova-labs.org/blog/)"
 
 type-org: Community
 
@@ -20,8 +20,6 @@ state: Virginia
 country: United States
 
 tags:
--
--
 
 email: capitalareabiospace@gmail.com
 blog:

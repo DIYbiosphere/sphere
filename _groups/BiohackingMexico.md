@@ -22,8 +22,6 @@ state:
 country: Mexico
 
 tags:
--
--
 
 email:
 blog:

@@ -6,7 +6,7 @@ logo: https://realraum.at/wiki/lib/exe/fetch.php?media=hplogoklein.png
 website: https://realraum.at/wiki/doku.php?id=olga:olga
 start-date: 2013
 
-host-org: [Real Raum](https://realraum.at/wiki/doku.php?id=realraum)
+host-org: "[Real Raum](https://realraum.at/wiki/doku.php?id=realraum)"
 
 type-org:
 
@@ -20,8 +20,6 @@ state:
 country: Austria
 
 tags:
--
--
 
 email: openbiolabgraz@realraum.at
 blog: https://wp.realraum.at/

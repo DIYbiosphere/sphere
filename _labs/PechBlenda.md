@@ -21,8 +21,6 @@ state:
 country: Spain
 
 tags:
--
--
 
 email:
 blog:

@@ -20,8 +20,6 @@ state:
 country: United Kingdom
 
 tags:
--
--
 
 email:
 blog:

@@ -21,8 +21,6 @@ state:
 country: Indonesia
 
 tags:
--
--
 
 email:
 blog:

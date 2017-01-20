@@ -6,7 +6,7 @@ logo:
 website: https://www.facebook.com/diybioperth/
 start-date:
 
-host-org: [The Perth Artifactory](http://artifactory.org.au/)
+host-org: "[The Perth Artifactory](http://artifactory.org.au/)"
 
 type-org:
 
@@ -20,8 +20,7 @@ state:
 country: Australia
 
 tags:
-- makerspace
--
+  - makerspace
 
 email:
 blog:

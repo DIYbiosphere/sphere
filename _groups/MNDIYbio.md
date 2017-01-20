@@ -7,7 +7,7 @@ logo:
 website: http://mn.diy-bio.org/Wordpress/
 start-date: 2015
 
-host-org: [Spark-Y](http://spark-y.org/)
+host-org: "[Spark-Y](http://spark-y.org/)"
 
 type-org:
 
@@ -21,8 +21,6 @@ state: Minnesota
 country: United States
 
 tags:
--
--
 
 email:
 blog:

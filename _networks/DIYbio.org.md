@@ -20,8 +20,6 @@ state: Massachussets
 country: United States
 
 tags:
--
--
 
 email:
 blog: https://diybio.org/blog/

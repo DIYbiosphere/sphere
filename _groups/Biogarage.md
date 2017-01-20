@@ -7,7 +7,7 @@ logo: http://biogarage.de/images/BiogarageHeader.png
 website: http://biogarage.de/
 start-date: 2013
 
-host:
+host-org:
 
 type-org: Community
 
@@ -21,8 +21,6 @@ state:
 country: Germany
 
 tags:
--
--
 
 email:
 blog:

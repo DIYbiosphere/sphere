@@ -24,8 +24,6 @@ state:
 country:
 
 tags:
--
--
 
 email:
 blog:

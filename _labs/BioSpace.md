@@ -6,7 +6,7 @@ logo:
 website: http://www.opensciencenet.org/
 start-date: 2013-2015
 
-host-org: [Victoria Makerspace](http://www.makerspace.ca/cpages/home)
+host-org: "[Victoria Makerspace](http://www.makerspace.ca/cpages/home)"
 
 type-org:
 
@@ -20,8 +20,6 @@ state: British Columbia
 country: Canada
 
 tags:
--
--
 
 email:
 blog:

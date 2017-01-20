@@ -20,8 +20,6 @@ state: Metro Manila
 country: Phillipines
 
 tags:
--
--
 
 email:
 blog:

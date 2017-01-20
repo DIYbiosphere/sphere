@@ -6,7 +6,7 @@ logo: http://www.diybcn.org/wp-content/uploads/2016/05/diybio_BCN_header-2.png
 website: http://www.diybcn.org/
 start-date: 2014
 
-host: [MADE](http://made-bcn.org/)
+host: "[MADE](http://made-bcn.org/)"
 
 type-org: Non-Profit
 
@@ -20,8 +20,6 @@ state:
 country: Spain
 
 tags:
--
--
 
 email:
 blog:

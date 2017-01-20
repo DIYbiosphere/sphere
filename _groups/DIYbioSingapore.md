@@ -20,8 +20,6 @@ state:
 country: Singapore
 
 tags:
--
--
 
 email:
 blog:

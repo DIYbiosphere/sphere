@@ -20,8 +20,6 @@ state:
 country: Czech Republic
 
 tags:
--
--
 
 email: biolab@brmlab.cz
 blog:

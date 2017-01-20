@@ -21,8 +21,7 @@ state:
 country: India
 
 tags:
-- bioart
--
+  - bioart
 
 email: artscienceblr@gmail.com
 blog:

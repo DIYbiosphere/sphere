@@ -6,7 +6,7 @@ logo:
 website: http://www.diybiogroningen.org/
 start-date: 2013
 
-host-org: [Fablab Groningen](http://www.fablabgroningen.nl/)
+host-org: "[Fablab Groningen](http://www.fablabgroningen.nl/)"
 
 type-org: Community
 
@@ -20,8 +20,6 @@ state:
 country: Netherlands
 
 tags:
--
--
 
 email: groningendiybio@gmail.com
 blog:

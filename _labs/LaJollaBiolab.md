@@ -6,7 +6,7 @@ logo:
 website: http://lajollalibrary.org/your-library/bio-lab/
 start-date: 2015
 
-host-org: [La Jolla Public Library](http://lajollalibrary.org/)
+host-org: "[La Jolla Public Library](http://lajollalibrary.org/)"
 
 type-org:
 
@@ -20,8 +20,6 @@ state: California
 country: United States
 
 tags:
--
--
 
 email:
 blog:

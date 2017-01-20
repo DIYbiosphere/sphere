@@ -20,8 +20,6 @@ state: Missouri
 country: United States
 
 tags:
--
--
 
 email:
 blog:

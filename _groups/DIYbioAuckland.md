@@ -23,8 +23,6 @@ state:
 country: Australia
 
 tags:
--
--
 
 email:
 blog:

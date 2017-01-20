@@ -22,8 +22,7 @@ state: New York
 country: United States
 
 tags:
-- transhumanism
--
+  - transhumanism
 
 email:
 blog:

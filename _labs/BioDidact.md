@@ -20,8 +20,6 @@ state: New Mexico
 country: United States
 
 tags:
--
--
 
 email:
 blog:

@@ -6,7 +6,7 @@ logo: https://pbs.twimg.com/profile_images/535440714058838017/O1ezBMSc_400x400.j
 website: http://wp.unil.ch/mediationscientifique/activites/eprouvette
 start-date: 2005
 
-host-org: [University of Lausanne](http://www.unil.ch/interface/home.html)
+host-org: "[University of Lausanne](http://www.unil.ch/interface/home.html)"
 
 type-org: University
 
@@ -20,8 +20,6 @@ state:
 country: Switzerland
 
 tags:
--
--
 
 email: eprouvette@unil.ch
 blog:

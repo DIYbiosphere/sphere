@@ -20,8 +20,6 @@ state: Virginia
 country: United States
 
 tags:
--
--
 
 email:
 blog:

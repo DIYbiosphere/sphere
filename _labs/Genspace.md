@@ -18,8 +18,6 @@ state: New York
 country: United States
 
 tags:
--
--
 
 email: info@genspace.org
 blog: http://www.genspace.org/blog/

@@ -21,8 +21,6 @@ state: Massachussets
 country: United States
 
 tags:
--
--
 
 email: homosapiens@boslab.org
 blog:

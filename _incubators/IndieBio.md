@@ -23,8 +23,6 @@ state: California
 country: United States
 
 tags:
--
--
 
 email:
 blog:

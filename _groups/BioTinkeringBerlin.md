@@ -20,8 +20,6 @@ state:
 country: Germany
 
 tags:
--
--
 
 email:
 blog:

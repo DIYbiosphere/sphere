@@ -20,8 +20,6 @@ state: Jalisco
 country: Mexico
 
 tags:
--
--
 
 email:
 blog:

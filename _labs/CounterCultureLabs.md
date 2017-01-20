@@ -20,8 +20,6 @@ state: California
 country: United States
 
 tags:
--
--
 
 email: info@counterculturelabs.org
 blog:

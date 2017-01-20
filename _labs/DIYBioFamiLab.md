@@ -6,7 +6,7 @@ logo:
 website: https://forums.familab.org/diy-bio/
 start-date: 2014
 
-host-org: [FamiLAB](https://familab.org/)
+host-org: "[FamiLAB](https://familab.org/)"
 type-org:
 
 affiliates:
@@ -19,8 +19,8 @@ state: Florida
 country: United States
 
 tags:
-- makerspace
--
+  - makerspace
+
 
 email:
 blog:

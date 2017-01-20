@@ -22,8 +22,6 @@ state:
 country: Ireland
 
 tags:
--
--
 
 email:
 blog:

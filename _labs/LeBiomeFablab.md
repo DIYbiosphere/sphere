@@ -20,8 +20,8 @@ state:
 country: France
 
 tags:
-- biomimicry
--
+  - biomimicry
+
 
 email:
 blog:

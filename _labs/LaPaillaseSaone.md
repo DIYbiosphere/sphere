@@ -20,8 +20,6 @@ state:
 country: France
 
 tags:
--
--
 
 email:
 blog:

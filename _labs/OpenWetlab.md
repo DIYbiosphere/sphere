@@ -6,7 +6,7 @@ logo:
 website: https://waag.org/en/lab/open-wetlab
 start-date: 2012
 
-host-org: [Waag Society](http://waag.org/en)
+host-org: "[Waag Society](http://waag.org/en)"
 
 type-org:
 
@@ -20,8 +20,6 @@ state:
 country: Netherlands
 
 tags:
--
--
 
 email:
 blog:

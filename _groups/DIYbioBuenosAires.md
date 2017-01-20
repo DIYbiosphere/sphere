@@ -20,8 +20,6 @@ state:
 country:
 
 tags:
--
--
 
 email: hola@diybioba.org
 blog:

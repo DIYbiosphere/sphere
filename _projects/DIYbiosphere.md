@@ -45,10 +45,10 @@ slack: https://slack.io.com/DIYbiosphere/
 gitter: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link
 
 tags:
-- database
-- open-source
-- software
-- website
+  - database
+  - open-source
+  - software
+  - website
 ---
 
 ## About

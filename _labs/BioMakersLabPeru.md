@@ -11,7 +11,7 @@ host-org:
 type-org:
 
 affiliates:
-  - [Syntech Bio](http://www.syntechbio.com/)
+  - "[Syntech Bio](http://www.syntechbio.com/)"
 
 address: La Molina
 directions:
@@ -21,8 +21,6 @@ state: Lima
 country: Peru
 
 tags:
--
--
 
 email: biomakers.lab@gmail.com
 blog:

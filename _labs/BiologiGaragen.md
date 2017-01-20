@@ -6,7 +6,7 @@ logo: http://biologigaragen.org/wp-content/uploads/2015/01/cropped-Logo-black-no
 website: http://biologigaragen.org/
 start-date: 2010
 
-host-org: [Labitat](https://labitat.dk/)
+host-org: "[Labitat](https://labitat.dk/)"
 
 type-org:
 
@@ -20,8 +20,7 @@ state:
 country: Denmark
 
 tags:
-- hackerspace
--
+  - hackerspace
 
 email:
 blog:

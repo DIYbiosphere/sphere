@@ -7,7 +7,7 @@ logo:
 website: http://www.tridiybio.org/
 start-date: 2015
 
-host-org: [SplatSpace](http://splatspace.org/)
+host-org: "[SplatSpace](http://splatspace.org/)"
 
 type-org:
 
@@ -21,8 +21,6 @@ state: North Carolina
 country: United States
 
 tags:
--
--
 
 email:
 blog:

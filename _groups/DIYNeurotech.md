@@ -20,8 +20,8 @@ state: Mississippi
 country: United States
 
 tags:
-- neurology
-- transhumanism
+  - neurology
+  - transhumanism
 
 email:
 blog:

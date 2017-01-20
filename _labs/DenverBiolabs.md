@@ -20,8 +20,6 @@ state: Colorado
 country: United States
 
 tags:
--
--
 
 email: info@denverbiolabs.com
 blog:

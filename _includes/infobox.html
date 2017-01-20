@@ -25,9 +25,9 @@
 
 
         <div>
-          {% if page.host-org %}
+          {% if page.host-org  %}
             <span data-tooltip="Type of (host) organization"><i class="building grey icon"></i></span>
-            {{ page.host-org }}
+            {{ page.host-org | markdownify }}
           {% endif %}
         </div>
 

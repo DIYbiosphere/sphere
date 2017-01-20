@@ -20,8 +20,6 @@ state:
 country: Belgium
 
 tags:
--
--
 
 email:
 blog: http://www.diybio.be/index.php/en/blog

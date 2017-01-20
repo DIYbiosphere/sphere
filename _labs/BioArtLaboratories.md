@@ -20,8 +20,7 @@ state:
 country: Netherlands
 
 tags:
-- bioart
--
+  - bioart
 
 email: contact@bioartlab.com
 blog: http://bioscopelab.tumblr.com/

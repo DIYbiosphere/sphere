@@ -20,8 +20,6 @@ state: Maryland
 country: United States
 
 tags:
--
--
 
 email:
 blog:

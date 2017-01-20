@@ -20,8 +20,6 @@ state: New South Wales
 country: Australia
 
 tags:
--
--
 
 email:
 blog:

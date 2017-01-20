@@ -20,8 +20,6 @@ state:
 country: Israel
 
 tags:
--
--
 
 email:
 blog:

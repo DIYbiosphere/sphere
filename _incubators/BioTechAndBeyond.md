@@ -21,8 +21,6 @@ state: California
 country: United States
 
 tags:
--
--
 
 email: info@btandb.com
 blog: http://www.tridiybio.org/blog.html

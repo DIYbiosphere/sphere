@@ -6,7 +6,7 @@ logo:
 website: http://irnas.eu/symbiolab.html
 start-date: 2014
 
-host-org: [IRNAS](http://irnas.eu/)
+host-org: "[IRNAS](http://irnas.eu/)"
 
 type-org:
 
@@ -20,8 +20,6 @@ state:
 country: Slovenia
 
 tags:
--
--
 
 email: info@irnas.eu
 blog:

@@ -20,8 +20,6 @@ state: Washington
 country: United States
 
 tags:
--
--
 
 email:
 blog:

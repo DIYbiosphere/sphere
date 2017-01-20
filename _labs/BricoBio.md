@@ -6,7 +6,7 @@ logo: http://brico.bio/images/logo.png
 website: http://brico.bio/
 start-date: 2013
 
-host-org: [Helios Makerspace](http://heliosmakerspace.ca/)
+host-org: "[Helios Makerspace](http://heliosmakerspace.ca/)"
 
 type-org:
 
@@ -20,8 +20,7 @@ state: Quebec
 country: Canada
 
 tags:
-- makerspace
--
+  - makerspace
 
 email: info@brico.bio
 blog:

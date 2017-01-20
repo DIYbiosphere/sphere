@@ -21,8 +21,7 @@ state:
 country: Italy
 
 tags:
-- fablab
--
+  - fablab
 
 email: info@fablabtorino.org
 blog:

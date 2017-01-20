@@ -20,8 +20,6 @@ state:
 country: Netherlands
 
 tags:
--
--
 
 email: info@bluecity.nl
 blog:

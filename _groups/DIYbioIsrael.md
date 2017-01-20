@@ -6,7 +6,7 @@ logo:
 website: http://sustainiverse.org/dyibio-israel-%D7%99%D7%A9%D7%A8%D7%90%D7%9C/
 start-date: 2013
 
-host-org: [Sustainiverse](http://sustainiverse.org/)
+host-org: "[Sustainiverse](http://sustainiverse.org/)"
 
 type-org:
 
@@ -20,8 +20,6 @@ state:
 country: Israel
 
 tags:
--
--
 
 email:
 blog:

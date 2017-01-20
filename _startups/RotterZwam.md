@@ -20,9 +20,9 @@ state:
 country: Netherlands
 
 tags:
-- mycology
-- food
-- recyle
+  - mycology
+  - food
+  - recyle
 
 
 email: info@rotterzwam.nl

@@ -6,7 +6,7 @@ logo:
 website: http://diybio.to/
 start-date: 2013
 
-host-org: [HackLab](https://hacklab.to/)
+host-org: "[HackLab](https://hacklab.to/)"
 
 type-org:
 
@@ -20,8 +20,8 @@ state: Ontario
 country: Canada
 
 tags:
-- hackerspace
--
+  - hackerspace
+
 
 email:
 blog:

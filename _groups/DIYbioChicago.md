@@ -22,8 +22,6 @@ state: Illinois
 country: United States
 
 tags:
--
--
 
 email:
 blog:

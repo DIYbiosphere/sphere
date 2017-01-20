@@ -21,8 +21,6 @@ state: New York
 country: United States
 
 tags:
--
--
 
 email: director@harlembiospace.com
 blog:

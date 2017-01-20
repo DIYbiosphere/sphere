@@ -20,8 +20,6 @@ state: Victoria
 country: Australia
 
 tags:
--
--
 
 email:
 blog:

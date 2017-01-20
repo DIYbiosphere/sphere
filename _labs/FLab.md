@@ -20,8 +20,6 @@ state:
 country: Thailand
 
 tags:
--
--
 
 email:
 blog: http://f-labth.blogspot.ch/

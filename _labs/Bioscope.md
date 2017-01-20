@@ -20,8 +20,6 @@ state:
 country: Switzerland
 
 tags:
--
--
 
 email:
 blog: http://bioscopelab.tumblr.com/

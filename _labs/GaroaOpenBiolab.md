@@ -6,7 +6,7 @@ logo:
 website: https://garoa.net.br/wiki/Garoa_Open_BioLab
 start-date: 2011
 
-host-org: [Garao Hacker Clube](https://garoa.net.br/wiki/P%C3%A1gina_principal)
+host-org: "[Garao Hacker Clube](https://garoa.net.br/wiki/P%C3%A1gina_principal)"
 
 type-org:
 
@@ -26,8 +26,8 @@ state: Sao Paolo
 country: Brazil
 
 tags:
-- hackerspace
--
+  - hackerspace
+
 
 email:
 blog:
