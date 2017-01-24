@@ -15,6 +15,6 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag',           '~> 2.0'
   gem 'jekyll-mentions',          '~> 1.2.0'
   gem 'jekyll-github-metadata',   '~> 2.1.1'
-  #gem 'algoliasearch-jekyll',     '~> 0.8.0'
-  gem 'algoliasearch-jekyll',     '~> 1.0.0.beta.pre.1'
+  gem 'algoliasearch-jekyll',     '~> 0.8.0'
+  #gem 'algoliasearch-jekyll',     '~> 1.0.0.beta.pre.1'
 end
