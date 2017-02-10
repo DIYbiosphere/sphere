@@ -12,7 +12,7 @@ The library replaces the simple list of DIYbio labs indexed in the [Local] secti
 
 The development of the project is directed by members of the [development community]. Get involved and [Join us][join]! :metal: However, the project is completely open(-source)\*: anyone can (re)use the library on our website at [sphere.diybio.org][sphere], and contribute to it in our repository at [DIYbiosphere/sphere][gh_repo] on GitHub. Users of the library can search for DIYbio initiatives; to learn about/from them, or connect with them. Contributors can [add] an entry for their own initiative or another you know of, [edit] an existing entry, or even tackle one of our [issues][gh_issues].
 
-See our [Getting Started]  guide to kickstart you into _using_ and _contributing_ to the project. See our [Contributing Guide] for how to submit issues, and pull-requests. We also have have an [ELI5 guide][eli5] (Explain Like I'm 5) for the utterly confused.
+See our [Getting Started]  guide to kickstart you into _using_ and _contributing_ to the project. See our [Contributing Guide] for how to submit issues, and pull-requests. We also have have an [ELI5 guide] (Explain Like I'm 5) for the utterly confused.
 
 ---
 

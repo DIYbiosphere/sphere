@@ -6,20 +6,11 @@ logo: http://www.gaudi.ch/GaudiLabs/wp-content/uploads/cropped-GaudiLabs2.png
 website: http://www.gaudi.ch/GaudiLabs/
 start-date:
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:  Neustadtstrasse 7
 directions:
@@ -29,8 +20,6 @@ state:
 country: Switzerland
 
 tags:
--
--
 
 email:
 blog:

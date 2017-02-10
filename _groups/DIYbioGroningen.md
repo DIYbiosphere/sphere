@@ -1,49 +1,38 @@
 ---
 manager:
 
-title:
+title: DIYbio Groningen
 logo:
-website:
-start-date:
+website: http://www.diybiogroningen.org/
+start-date: 2013
 
-host:
-  name:
-  sphere:
-  web:
+host-org: "[Fablab Groningen](http://www.fablabgroningen.nl/)"
 
-type-org:
+type-org: Community
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
 postcode:
-city:
+city: Groningen
 state:
-country:
+country: Netherlands
 
 tags:
--
--
 
-email:
+email: groningendiybio@gmail.com
 blog:
 rss:
-wiki:
+wiki: http://www.diybiogroningen.org/mediawiki-1.22.0/index.php?title=Main_Page
 forum:
 mailinglist:
 irc:
 gitter:
 slack:
 meetup:
-twitter:
-facebook:
+twitter: https://twitter.com/diybiogroningen
+facebook: https://www.facebook.com/DIYBioGroningen/
 google+:
 linkedin:
 instagram:

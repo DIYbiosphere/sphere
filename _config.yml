@@ -59,6 +59,7 @@ gems:
 algolia:
   application_id: 'ITI5JHZJM9'
   index_name:     'diybiosphere'
+  lazy_update: true
 
 # Collections
 collections:
@@ -66,34 +67,42 @@ collections:
     title: Projects
     output: true
     permalink: /library/projects/
+    collection: project
   startups:
     title: Startups
     output: true
     permalink: /library/startups/
+    collection: startup
   labs:
     title: Labs
     output: true
     permalink: /library/labs/
+    collection: lab
   incubators:
     title: Incubators
     output: true
     permalink: /library/incubators/
+    collection: incubator
   groups:
     title: Groups
     output: true
     permalink: /library/groups/
+    collection: group
   networks:
     title: Networks
     output: true
     permalink: /library/networks/
+    collection: network
   events:
     title: Events
     output: true
     permalink: /library/events/
+    collection: event
   others:
     title: Others
     output: true
     permalink: /library/others/
+    collection: other
 
 # Default Values
 defaults:
@@ -108,45 +117,53 @@ defaults:
     values:
       layout: entry
       permalink: /library/projects/:title
+      collection: project
   -
     scope:
       type: startups
     values:
       layout: entry
       permalink: /library/startups/:title
+      collection: startup
   -
     scope:
       type: labs
     values:
       layout: entry
       permalink: /library/labs/:title
+      collection: lab
   -
     scope:
       type: incubators
     values:
       layout: entry
       permalink: /library/incubators/:title
+      collection: incubator
   -
     scope:
       type: groups
     values:
       layout: entry
       permalink: /library/groups/:title
+      collection: group
   -
     scope:
       type: networks
     values:
       layout: entry
       permalink: /library/networks/:title
+      collection: network
   -
     scope:
       type: events
     values:
       layout: entry
       permalink: /library/events/:title
+      collection: event
   -
     scope:
       type: others
     values:
       layout: entry
       permalink: /library/others/:title
+      collection: other

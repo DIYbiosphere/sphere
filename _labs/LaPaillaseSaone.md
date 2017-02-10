@@ -6,20 +6,11 @@ logo: https://pbs.twimg.com/profile_images/449225069978333184/0GZ__tOY_400x400.p
 website: https://lapaillassaone.wordpress.com/
 start-date: 2015
 
-host:
-  name: La MYNE
-  sphere:
-  web:
+host-org: La MYNE
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 1 Rue du Luizet
 directions:
@@ -29,8 +20,6 @@ state:
 country: France
 
 tags:
--
--
 
 email:
 blog:

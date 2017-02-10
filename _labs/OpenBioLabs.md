@@ -6,20 +6,11 @@ logo: http://openbiolabs.org/wp-content/uploads/2015/04/COBL_web_logo.png
 website: http://openbiolabs.org/
 start-date: 2015
 
-host:
-  name: The School Factory
-  sphere:
-  web: http://schoolfactory.org/
+host-org: "[The School Factory](http://schoolfactory.org/)"
 
 type-org: Non-Profit
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 300 W. Main St.
 directions: B101
@@ -29,8 +20,6 @@ state: Charlottesville
 country: United States
 
 tags:
--
--
 
 email: info@openbiolabs.org
 blog: http://openbiolabs.org/blog/

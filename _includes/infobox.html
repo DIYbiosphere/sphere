@@ -5,7 +5,7 @@
       <!-- Logo or Name of Page -->
         <div>
           <h3>
-            <a href="{{ page.website }}" target="_blank">
+            <a class="noelink" href="{{ page.website }}" target="_blank">
             {% if page.logo %}
               <img class="ui small centered image" src="{{ page.logo }}" />
             {% else %}
@@ -23,15 +23,11 @@
           {% endif %}
         </div>
 
-      <!-- Host organization -->
+
         <div>
-          {% if page.host %}
-          {% assign host = page.host %}
-          {% if host.name %}
-          <span data-tooltip="Host organization"><i class="home grey icon"></i></span>
-              {% if host.web %} <a href="{{ page.host.web | site.baseUrl }}"> {% endif %}
-            {{ host.name }}
-          {% endif %}
+          {% if page.host-org  %}
+            <span data-tooltip="Type of (host) organization"><i class="building grey icon"></i></span>
+            {{ page.host-org | markdownify }}
           {% endif %}
         </div>
 

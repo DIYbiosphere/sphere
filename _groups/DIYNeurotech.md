@@ -1,36 +1,27 @@
 ---
 manager:
 
-title:
+title: DIY Neurotech
 logo:
-website:
-start-date:
+website: http://www.diyneurotech.com/
+start-date: 2014
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
 postcode:
-city:
-state:
-country:
+city: Jackson
+state: Mississippi
+country: United States
 
 tags:
--
--
+  - neurology
+  - transhumanism
 
 email:
 blog:
@@ -42,8 +33,8 @@ irc:
 gitter:
 slack:
 meetup:
-twitter:
-facebook:
+twitter: https://twitter.com/DIYneurotech
+facebook: https://www.facebook.com/groups/DIYneurotech/
 google+:
 linkedin:
 instagram:

@@ -1,22 +1,16 @@
 ---
-manager: bstrasse
+manager:
 
 title: Bioscope
 logo: http://bioscope.ch/wp-content/themes/suffusion/images/BiscopeHEADER.png
 website: http://bioscope.ch/
 start-date: 2014
 
-parent-organization: University of Geneva
+host-org: University of Geneva
 
 type-org: University
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: Rue de l’Ecole-de-Médecine, 20
 directions:
@@ -26,8 +20,6 @@ state:
 country: Switzerland
 
 tags:
--
--
 
 email:
 blog: http://bioscopelab.tumblr.com/

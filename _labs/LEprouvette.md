@@ -6,20 +6,11 @@ logo: https://pbs.twimg.com/profile_images/535440714058838017/O1ezBMSc_400x400.j
 website: http://wp.unil.ch/mediationscientifique/activites/eprouvette
 start-date: 2005
 
-host:
-  name: University of Lausanne | Interface Sciences-Societe
-  sphere:
-  web: http://www.unil.ch/interface/home.html
+host-org: "[University of Lausanne](http://www.unil.ch/interface/home.html)"
 
 type-org: University
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:  Quartier Sorge
 directions: Bâtiment Amphipôle - bureau 303.1
@@ -29,8 +20,6 @@ state:
 country: Switzerland
 
 tags:
--
--
 
 email: eprouvette@unil.ch
 blog:

@@ -1,49 +1,39 @@
 ---
 manager:
 
-title:
+title: MN DIYbio
+mott: The Minnesota Biology Group
 logo:
-website:
-start-date:
+website: http://mn.diy-bio.org/Wordpress/
+start-date: 2015
 
-host:
-  name:
-  sphere:
-  web:
+host-org: "[Spark-Y](http://spark-y.org/)"
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
-address:
+address: 4432 Chicago Ave S.
 directions:
-postcode:
-city:
-state:
-country:
+postcode: 55407
+city: Minneapolis
+state: Minnesota
+country: United States
 
 tags:
--
--
 
 email:
 blog:
 rss:
 wiki:
 forum:
-mailinglist:
+mailinglist: https://groups.google.com/forum/#!forum/mn-diybio
 irc:
 gitter:
 slack:
-meetup:
+meetup: https://www.meetup.com/MN-diyBio/
 twitter:
-facebook:
+facebook: https://www.facebook.com/mndiybio/
 google+:
 linkedin:
 instagram:

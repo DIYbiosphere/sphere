@@ -6,20 +6,11 @@ logo:
 website: http://irnas.eu/symbiolab.html
 start-date: 2014
 
-host:
-  name: Institute for Development of Advanced Applied Systems
-  sphere:
-  web: http://irnas.eu/
+host-org: "[IRNAS](http://irnas.eu/)"
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: Tkalski prehod 4
 directions:
@@ -29,8 +20,6 @@ state:
 country: Slovenia
 
 tags:
--
--
 
 email: info@irnas.eu
 blog:

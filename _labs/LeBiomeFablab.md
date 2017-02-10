@@ -6,20 +6,11 @@ logo: https://pbs.twimg.com/profile_images/536560027436199936/9b9lyKGX_400x400.j
 website:
 start-date:
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
@@ -29,8 +20,8 @@ state:
 country: France
 
 tags:
-- biomimicry
--
+  - biomimicry
+
 
 email:
 blog:

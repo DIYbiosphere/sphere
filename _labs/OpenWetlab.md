@@ -6,20 +6,11 @@ logo:
 website: https://waag.org/en/lab/open-wetlab
 start-date: 2012
 
-host:
-  name: Waag Society
-  sphere:
-  web: http://waag.org/en
+host-org: "[Waag Society](http://waag.org/en)"
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: Nieuwmarkt 4
 directions:
@@ -29,8 +20,6 @@ state:
 country: Netherlands
 
 tags:
--
--
 
 email:
 blog:

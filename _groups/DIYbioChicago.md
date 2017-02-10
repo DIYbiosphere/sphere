@@ -1,43 +1,34 @@
 ---
 manager:
 
-title:
+title: DIYbio Chicago
 logo:
 website:
-start-date:
+start-date: 2008
+end-date: 2011
+status: inactive
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
-type-org:
+type-org: Community
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
 postcode:
-city:
-state:
-country:
+city: Chicago
+state: Illinois
+country: United States
 
 tags:
--
--
 
 email:
 blog:
 rss:
 wiki:
 forum:
-mailinglist:
+mailinglist: https://groups.google.com/forum/#!forum/diybio-chicago
 irc:
 gitter:
 slack:

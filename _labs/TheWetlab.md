@@ -6,20 +6,12 @@ logo:
 website: http://www.wetlab.org/
 start-date: 2013
 
-host:
-  name: Fab Lab San Diego
-  sphere:
-  web: http://www.fablabsd.org/
+host-org: "[FabLab San Diego](http://www.fablabsd.org/)"
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
+
 
 address: 847 14th St
 directions:
@@ -29,8 +21,6 @@ state: California
 country: United States
 
 tags:
--
--
 
 email: sdwetlab@gmail.com
 blog:

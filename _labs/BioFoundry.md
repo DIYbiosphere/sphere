@@ -6,20 +6,11 @@ logo: http://foundry.bio/wp-content/themes/TrendyRoom/content/logo.png
 website: http://foundry.bio/
 start-date: 2014
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 296 Botany Road
 directions:
@@ -29,8 +20,6 @@ state: New South Wales
 country: Australia
 
 tags:
--
--
 
 email:
 blog:

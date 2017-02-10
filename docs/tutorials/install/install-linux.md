@@ -7,7 +7,7 @@ tab: linux
 summary: Installation instructions to work with the repository locally according to your operating system, choose yours.
 ---
 
-{% include_relative install-tabs.md %}
+{% include tabs/install-tabs.md %}
 
 1. Install [ruby](https://www.ruby-lang.org/en/documentation/installation/)
 

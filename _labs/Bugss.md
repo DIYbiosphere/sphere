@@ -6,20 +6,11 @@ logo: http://www.bugssonline.org/uploads/1/2/9/1/12918855/1454448756.png
 website: http://www.bugssonline.org/
 start-date: 2013
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 101 N Haven St
 directions: Ste 105
@@ -29,8 +20,6 @@ state: Maryland
 country: United States
 
 tags:
--
--
 
 email:
 blog:

@@ -6,20 +6,11 @@ logo: http://hackuarium.cleverapps.io/wp-content/uploads/2015/08/logo.png
 website: http://www.hackuarium.ch/en/
 start-date: 2014
 
-host:
-  name: UniverCite
-  sphere:
-  web: http://univercity.ch/
+host-org: "[UniverCite](http://univercity.ch/)"
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: Chemin du Closel 5
 directions:
@@ -29,8 +20,6 @@ state:
 country: Switzerland
 
 tags:
--
--
 
 email: hello@hackuarium.ch
 blog: https://medium.com/hackuarium-diybio

@@ -12,22 +12,13 @@
 
     // template used for showing autocomplete feature
     const HIT_TEMPLATE = Hogan.compile(`
-      <div style="padding: 10px 0px 10px 5px;">
-        <div class="ui grid container">
-          <div class="two column row">
-            <div class="column">
-              <h3 class="ui header">
-                {{{ _highlightResult.title.value }}}
-                <div class="sub header">
-                  {{ collection }} | {{ type-org }}
-                </div>
-              </h3>
-            </div>
-            <div class="column right aligned">
-              <i class="marker icon"></i> {{ city }}, {{ country }}
-            </div>
+      <div class="ui basic segment">
+        <h3 class="ui header">
+          {{{ _highlightResult.title.value }}}
+          <div class="sub header">
+            <i class="marker icon"></i>{{ city }}, {{ country }}
           </div>
-        </div>
+        </h3>
       </div>
     `);
 
@@ -40,8 +31,11 @@
     var client = algoliasearch(APPLICATION_ID, SEARCH_ONLY_API_KEY);
     var index = client.initIndex(INDEX_NAME);
     $('[data-algolia-search="true"]').autocomplete({ hint: true, debug: true }, [{
-      source: $.fn.autocomplete.sources.hits(index, { hitsPerPage: 4 }),
+      source: $.fn.autocomplete.sources.hits(index, { hitsPerPage: 3 }),
       displayKey: 'title',
+      cssClasses: {
+        dropdownMenu: 'ui segment'
+      },
       templates: {
         suggestion: suggestion => HIT_TEMPLATE.render(suggestion),
         footer: `

@@ -4,6 +4,6 @@ permalink: /form/upload/members/
 tab: members
 ---
 
-{% include_relative form-upload-tabs.md %}
+{% include tabs/form-upload-tabs.md %}
 
 This is for members

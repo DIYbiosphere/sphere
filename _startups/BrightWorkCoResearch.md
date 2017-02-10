@@ -6,20 +6,11 @@ logo:
 website:
 start-date:
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
@@ -29,8 +20,6 @@ state:
 country:
 
 tags:
--
--
 
 email:
 blog:

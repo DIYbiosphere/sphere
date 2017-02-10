@@ -1,36 +1,25 @@
 ---
 manager:
 
-title:
+title: DIYbio Mexico
 logo:
 website:
 start-date:
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
 postcode:
-city:
+city: Tel Aviv
 state:
-country:
+country: Israel
 
 tags:
--
--
 
 email:
 blog:
@@ -43,7 +32,7 @@ gitter:
 slack:
 meetup:
 twitter:
-facebook:
+facebook: https://www.facebook.com/groups/1725450001000736/
 google+:
 linkedin:
 instagram:

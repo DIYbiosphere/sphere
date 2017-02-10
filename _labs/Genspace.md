@@ -18,8 +18,6 @@ state: New York
 country: United States
 
 tags:
--
--
 
 email: info@genspace.org
 blog: http://www.genspace.org/blog/
@@ -33,6 +31,7 @@ slack:
 meetup:
 twitter: https://twitter.com/genspacenyc
 facebook: https://www.facebook.com/Genspace-174637505918889/
+meetup: https://www.meetup.com/Brooklyn-Biohackers/
 google+:
 linkedin:
 instagram:

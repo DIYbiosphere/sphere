@@ -6,20 +6,11 @@ logo: http://brico.bio/images/logo.png
 website: http://brico.bio/
 start-date: 2013
 
-host:
-  name: Helios Makerspace
-  sphere:
-  web: http://heliosmakerspace.ca/
+host-org: "[Helios Makerspace](http://heliosmakerspace.ca/)"
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 137 Rue Saint-Ferdinand
 directions: #223
@@ -29,8 +20,7 @@ state: Quebec
 country: Canada
 
 tags:
-- makerspace
--
+  - makerspace
 
 email: info@brico.bio
 blog:

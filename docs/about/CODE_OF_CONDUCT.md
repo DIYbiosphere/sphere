@@ -6,7 +6,7 @@ permalink: /docs/about/coc/
 summary: Common understanding of what constitutes a welcoming and enriching working environment
 ---
 
-This Code of Conduct (CoC)\* applies to project spaces and public spaces when an individual is representing the project or its community, online and offline.
+This Code of Conduct\* applies to project spaces and public spaces when an individual is representing the project or its community, online and offline.
 
 As part of keeping to [Our Values], we are committed to having a welcoming environment for all people to contribute, and we pledge to value them as human beings and foster an atmosphere of kindness, cooperation, and understanding. We want to sustain a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion or sexual identity and orientation.
 

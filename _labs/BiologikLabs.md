@@ -6,20 +6,11 @@ logo:
 website: http://www.biologiklabs.org/
 start-date: 2013
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 259 Granby St.
 directions: Suite 250
@@ -29,8 +20,6 @@ state: Virginia
 country: United States
 
 tags:
--
--
 
 email:
 blog: http://biologiklabs.tumblr.com/

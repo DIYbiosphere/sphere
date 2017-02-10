@@ -6,20 +6,11 @@ logo: https://counterculturelabs.org/wp-content/uploads/2015/05/logo-full-small.
 website: http://counterculturelabs.org/
 start-date: 2013
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org: Community
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 4799 Shattuck
 directions:
@@ -29,8 +20,6 @@ state: California
 country: United States
 
 tags:
--
--
 
 email: info@counterculturelabs.org
 blog:

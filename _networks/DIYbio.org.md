@@ -6,20 +6,11 @@ logo: https://raw.githubusercontent.com/DIYbiosphere/sphere/master/img/Logo.png
 website: https://diybio.org
 start-date: 2008
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org: Non-profit
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
@@ -29,8 +20,6 @@ state: Massachussets
 country: United States
 
 tags:
--
--
 
 email:
 blog: https://diybio.org/blog/

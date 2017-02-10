@@ -1,3 +1,11 @@
+{% if page.website %}
+  <a href="{{ page.website }}">
+    <button class="ui circular icon mini basic button" data-tooltip="Go to Homepage">
+      <i class="link icon"></i>
+    </button>
+  </a>
+{% endif %}
+
 {% if page.email %}
   <a href="mailto:{{ page.email }}">
     <button class="ui circular icon mini basic grey button" data-tooltip="Send an email">

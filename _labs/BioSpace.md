@@ -6,20 +6,11 @@ logo:
 website: http://www.opensciencenet.org/
 start-date: 2013-2015
 
-host:
-  name: Victoria Makerspace
-  sphere:
-  web: http://www.makerspace.ca/cpages/home
+host-org: "[Victoria Makerspace](http://www.makerspace.ca/cpages/home)"
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 4476 Markham St
 directions: 4A
@@ -29,8 +20,6 @@ state: British Columbia
 country: Canada
 
 tags:
--
--
 
 email:
 blog:

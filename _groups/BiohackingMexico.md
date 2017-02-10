@@ -1,36 +1,27 @@
 ---
 manager:
 
-title:
+title: Biohacking Mexico
 logo:
 website:
-start-date:
+start-date: 2015
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
-type-org:
+
+type-org: Community
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
+
 
 address:
 directions:
 postcode:
 city:
 state:
-country:
+country: Mexico
 
 tags:
--
--
 
 email:
 blog:
@@ -43,7 +34,7 @@ gitter:
 slack:
 meetup:
 twitter:
-facebook:
+facebook: https://www.facebook.com/biohackingmexico
 google+:
 linkedin:
 instagram:

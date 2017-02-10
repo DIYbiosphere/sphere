@@ -6,20 +6,11 @@ logo: http://www.thel4b.com/wp-content/uploads/2015/07/thel4b_name1.png
 website: http://www.thel4b.com/
 start-date: 2011
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org: Community
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 1340 E. 6th St.
 directions: #603
@@ -29,8 +20,6 @@ state: California
 country: United States
 
 tags:
--
--
 
 email:
 blog:

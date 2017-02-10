@@ -81,27 +81,36 @@
     search.addWidget(
       instantsearch.widgets.searchBox({
         container: '#search-box',
-        placeholder: 'Search for entries...'
-      })
+        placeholder: 'Search for an entry',
+				cssClasses: {
+					root: 'ui icon left input fluid'
+				},
+			})
     );
 
     search.addWidget(
       instantsearch.widgets.currentRefinedValues({
         container: '#current-refined-values',
-        clearAll: 'after',
+				autoHideContainer: true,
+				cssClasses: {
+					root: 'ui medium labels',
+        },
 				templates: {
-          clearAll: `
-          <button class="ui mini icon red button" data-tooltip="Reset All Filters">
-            <i class="erase icon"></i>
-            Clear
-          </button>`
+					item: `
+					<a class="ui grey label">
+					  {{name}}
+					  <i class="delete icon"></i>
+					</a>`
         },
       })
     );
 
     search.addWidget(
       instantsearch.widgets.stats({
-        container: '#stats-container'
+        container: '#stats-container',
+				templates: {
+					body: ` <h3 class="ui header">{{nbHits}} matching entries</h3>`
+				},
       })
     );
 
@@ -126,58 +135,57 @@
         operator: 'or',
         limit: 10,
         cssClasses: {
-          item: 'pad-sides'
+					root: 'ui secondary inverted vertical menu',
+					item: 'link item',
+					active: 'active item'
         },
         templates: {
-          header: `<b>Collection</b>`,
+          header: `<h4 class="ui inverted header">Collection</h4>`,
           item: `
-						<div class="ui checkbox">
-              <input type="checkbox" name="{{name}}">
-              <label><i class="icon collection-icon" data-collection="{{name}}"></i>{{name}} <div class="ui tiny circular label"> {{count}} </div> </label>
-            </div>
+						  {{name}} - {{count}}
 						`
-        }
+        },
       })
     );
 
     search.addWidget(
       instantsearch.widgets.refinementList({
         container: '#type-org',
-        attributeName: 'type',
+        attributeName: 'type-org',
         operator: 'or',
         limit: 10,
+				cssClasses: {
+					root: 'ui secondary inverted vertical menu',
+					item: 'link item',
+					active: 'active item'
+        },
         templates: {
-          header: `<b>Type of Initiative</b>`,
+          header: `<h4 class="ui inverted header">Type of Initiative</h4>`,
           item: `
-            <div class="ui checkbox">
-              <input type="checkbox" name="{{name}}">
-              <label>{{name}} <div class="ui tiny circular label"> {{count}} </div> </label>
-            </div>`
+						{{name}} - {{count}}
+					`
         }
       })
     );
 
-    search.addWidget(
-      instantsearch.widgets.rangeSlider({
-        container: '#start-date',
-        attributeName: 'start-date',
-        templates: {
-          header: `<b>Year</b>`
-        }
-      })
-    );
 
     search.addWidget(
       instantsearch.widgets.refinementList({
         container: '#tags',
         attributeName: 'tags',
+				operator: 'or',
+				limit: 10,
+				searchForFacetValues: {
+					placeholder: 'Search for keywords'
+				},
+				cssClasses: {
+					root: 'ui labels',
+					item: 'ui label xo paddingfull half',
+					active: 'ui grey label xo paddingfull half'
+        },
         templates: {
-          header: `<b>Keywords</b>`,
-          item: `
-            <div class="ui checkbox">
-              <input type="checkbox" name="{{name}}">
-              <label>{{name}} <div class="ui tiny circular label"> {{count}} </div> </label>
-            </div>`
+          header: `<h4 class="ui inverted header">Keywords</h4>`,
+          item: `{{name}} - {{count}}`
         }
       })
     );
@@ -185,11 +193,18 @@
     search.addWidget(
       instantsearch.widgets.pagination({
         container: '#pagination-container',
-        padding: 3, //number of pages on each side
+				labels: {
+					previous: '<i class="fa fa-angle-left"></i>',
+					next: '<i class="fa fa-angle-right"></i>',
+					first: '<i class="fa fa-double-angle-left"></i>',
+					last: '<i class="fa fa-double-angle-right"></i>',
+				},
+        padding: 1, //number of pages on each side
         cssClasses: {
-          link: 'item',
-          active: 'active',
-          disabled: 'disabled'
+					root: 'ui horizontal link list no-bullets',
+          item: 'item',
+          active: 'active item',
+          disabled: 'disabled item'
         }
       })
     );
@@ -198,7 +213,7 @@
       instantsearch.widgets.hitsPerPageSelector({
         container: '#hits-per-page-selector',
         cssClasses: {
-          root: 'dropdown'
+          root: 'ui inline dropdown'
         },
         options: [
           {value: 5, label: '5 per page'},
@@ -299,7 +314,7 @@
       };
       return mapboxWidget;
     }
-    
+
     function tableWidget() {
       let tableWidget = {
         getConfiguration: searchParams => {},
@@ -361,14 +376,14 @@
 				{
 					"visible": true,
 					"targets": 2,
-					"name": "since",
-					"data": "since"
+					"name": "start-date",
+					"data": "start-date"
 				},
         {
 					"visible": true,
 					"targets": 3,
-					"name": "host",
-					"data": "host",
+					"name": "host-org",
+					"data": "host-org",
 					"render": function(data, type, row) {
 						// host name, web page and sphere page links
 						var name = '', web = '', sphere = '';
@@ -395,8 +410,8 @@
         {
 					"visible": true,
 					"targets": 4,
-					"name": "type",
-					"data": "type"
+					"name": "type-org",
+					"data": "type-org"
 				},
 				{
 					"visible": true,
@@ -414,8 +429,7 @@
 					"visible": true,
 					"targets": 7,
 					"name": "lastest-commit",
-					"data": "posted_at",
-          "render": (data, type, row) => `${new Date(data).toLocaleDateString()}`
+					"data": "last_modified"
 				},
 				{
 					"visible": true,

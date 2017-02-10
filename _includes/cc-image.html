@@ -1,8 +1,8 @@
 <div class="ui vertical compact segment {{ include.position }}">
   <img class="ui {{ include.size }} fluid image xo padding bottom" src="{{ include.sourceURL }}">
   <div class="ui bottom attached label">
-  <a href="https://creativecommons.org/licenses/{{ include.license | downcase }}/4.0/">{{ include.license | upcase | prepend: 'CC-'}}</a>
+  <a class="noelink" href="https://creativecommons.org/licenses/{{ include.license | downcase }}/4.0/">{{ include.license | upcase | prepend: 'CC-'}}</a>
   {{ include.workTitle }} by
-  <a href="{{ include.attributeURL }}">{{ include.attributeTo }}</a>
+  <a class="noelink" href="{{ include.attributeURL }}">{{ include.attributeTo }}</a>
   </div>
 </div>

@@ -6,20 +6,10 @@ logo:
 website: https://forums.familab.org/diy-bio/
 start-date: 2014
 
-host:
-  name: FamiLAB
-  sphere:
-  web: https://familab.org/
-
+host-org: "[FamiLAB](https://familab.org/)"
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: 1355 Bennett Dr.
 directions: Suite 105
@@ -29,8 +19,8 @@ state: Florida
 country: United States
 
 tags:
-- makerspace
--
+  - makerspace
+
 
 email:
 blog:

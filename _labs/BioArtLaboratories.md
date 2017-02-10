@@ -6,20 +6,11 @@ logo: http://bioartlab.com/bioartlab.com/wp-content/themes/bioartlab.com/dist/im
 website: http://bioartlab.com/
 start-date: 2012
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org: University
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address: Achtseweg Zuid 151
 directions:
@@ -29,8 +20,7 @@ state:
 country: Netherlands
 
 tags:
-- bioart
--
+  - bioart
 
 email: contact@bioartlab.com
 blog: http://bioscopelab.tumblr.com/

@@ -1,36 +1,25 @@
 ---
 manager:
 
-title:
+title: Melbourne BioHack
 logo:
 website:
-start-date:
+start-date: 2015
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
 
 address:
 directions:
 postcode:
-city:
-state:
-country:
+city: Melbourne
+state: Victoria
+country: Australia
 
 tags:
--
--
 
 email:
 blog:
@@ -41,9 +30,9 @@ mailinglist:
 irc:
 gitter:
 slack:
-meetup:
+meetup: https://www.meetup.com/BioHack-Melbourne/
 twitter:
-facebook:
+facebook: https://www.facebook.com/groups/698017880316967/
 google+:
 linkedin:
 instagram:

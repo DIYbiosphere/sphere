@@ -1,40 +1,32 @@
 ---
 manager:
 
-title:
+title: Biohackers NYC
+motto: human performance optimized
 logo:
 website:
-start-date:
+start-date: 2012
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
-type-org:
+type-org: Community
 
 affiliates:
-  name:
-  sphere:
-  web:
-  name:
-  sphere:
-  web:
+
 
 address:
 directions:
 postcode:
-city:
-state:
-country:
+city: New York
+state: New York
+country: United States
 
 tags:
--
--
+  - transhumanism
 
 email:
 blog:
-rss:
+rss: http://www.biohackersnyc.com/feed/
 wiki:
 forum:
 mailinglist:
@@ -42,8 +34,8 @@ irc:
 gitter:
 slack:
 meetup:
-twitter:
-facebook:
+twitter: https://pbs.twimg.com/profile_images/418070117612662784/L9akYxhx_400x400.png
+facebook: https://www.facebook.com/Biohackers-NYC-380626135343749/
 google+:
 linkedin:
 instagram:

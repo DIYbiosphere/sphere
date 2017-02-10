@@ -7,23 +7,14 @@ logo: https://filopodia.files.wordpress.com/2013/10/cropped-biodesign-logo-green
 website: https://biodesign.cc/
 start-date:
 
-host:
-  name:
-  sphere:
-  web:
+host-org:
 
 type-org:
 
 affiliates:
-  name: EPFL
-  sphere:
-  web:
-  name: (Art)ScienceBLR
-  sphere:
-  web:
-  name: Lifepatch
-  sphere:
-  web:
+  - EPFL
+  - (Art)ScienceBLR
+  - Lifepatch
 
 address:
 directions:
@@ -33,8 +24,6 @@ state:
 country:
 
 tags:
--
--
 
 email:
 blog:
