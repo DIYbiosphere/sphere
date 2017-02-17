@@ -1,6 +1,6 @@
 ---
-layout: docs
-permalink: /docs/copyright/contributor-terms/
+layout: page
+permalink: /contributor-terms/
 crumb: copyright
 title: Contributor Terms
 summary: The legal rights waived and granted from contributions

@@ -20,22 +20,3 @@ Users can access the entries of the library at: [sphere.diybio.org][sphere]. To 
 
 ### Downloading the Dataset
 In the List of Entries page, users can download a CSV file of the results shown. The entire dataset can be downloaded in the release page.
-
-## Contributing to the Library
-The **only requirement** you need to contribute is a GitHub account ([sign up][gh_sign]). If you are new to GitHub check the [ELI5 guide] (Explain like I'm 5), made especially for the utterly confused. :smile:
-
-Contribute to the library by [adding][add] a new entry, or [editing/updating][edit] an existing one. Follow our tutorials! The steps differ depending on your [access level][permissions].
-
-{% include warning.html title="By contributing you agree to:" text="Abide by our [Code of Conduct], and consent to our [Contributor Terms]" %}
-
-## Contributing to the Development
-The development of the project is organized through GitHub's [Issues][gh_issues]. Sort through the labels to find something that interests you. To contribute you can:
-
-  - **Submit a new issue**: with your [complaint][s_bug], [question][s_question], [idea][s_suggestion] and wait for feedback and support from the [development community].
-  - **Comment, answer, and vote**: search our issues and see if you can help out by moving our issues along: answer a {% include label/question.html %}, :+1: [vote][voting] on a {% include label/feature.html %} or {% include label/enhancement.html %}, participate in {% include label/feedback.html %}, assist on {% include label/resolution.html %} issues!
-  - **Fork, commit, pull request** your contributions! Tackle {% include label/easy.html %} or {% include label/critical.html %} issues or assist on {% include label/help.html %} by someone on their request or idea.
-
-Please follow our [Contributing Guide]. If you are a member, please help by moving issues along our [Workflow] assigning labels and so on to tickets. :kissing_smiling_eyes:
-
-#### Getting more involved
-[Join our development community!][join] We maintain a more active discussion and conversation on our [Slack Team][slack], [Request an invite!][invite].

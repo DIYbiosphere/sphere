@@ -1,13 +1,23 @@
   <div class="ui two column grid">
 
     {% if page.layout == "entry" %}
-    <!-- Breadcrumb for Library -->
+    <!-- Breadcrumb for Entries -->
       <div class="column xo paddingless">
         <div class="ui breadcrumb">
-          <a class="section" href="/library/">Library</a>
-          <div class="divider"> / </div>
-          <a class="section" href="/library/{{ page.collection | downcase }}/">{{ page.collection | capitalize }}</a>
-          <div class="divider"> / </div>
+          <a class="section" href="/entries/{{ page.collection | downcase }}/">{{ page.collection | capitalize }}</a>
+          <i class="right angle icon divider"></i>
+          <div class="active section">{{ page.title }}</div>
+        </div>
+      </div>
+
+    {% elsif page.layout == "page" %}
+    <!-- Breadcrumb for pages -->
+      <div class="column xo paddingless">
+        <div class="ui breadcrumb">
+          {% if page.crumb != "none" %}
+          <div class="section">{{ page.crumb | capitalize }}</div>
+          <i class="right angle icon divider"></i>
+          {% endif %}
           <div class="active section">{{ page.title }}</div>
         </div>
       </div>
@@ -16,16 +26,14 @@
     <!-- Breadcrumb for Documentation -->
     <div class="column xo paddingless">
       <div class="ui breadcrumb">
-          <a class="section" href="/docs/">Documentation</a>
-          {% if page.crumb %}
-          <div class="divider"> / </div>
-          <a class="section" href="/docs/{{ page.crumb }}/">{{ page.crumb | capitalize }}</a>
+          {% if page.crumb != "none" %}
+          <div class="section">{{ page.crumb | capitalize }}</div>
+          <i class="right angle icon divider"></i>
           {% endif %}
           {% if page.crumb2 %}
-          <div class="divider"> / </div>
           <a class="section" href="/docs/{{ page.crumb }}/{{ page.crumb2 | downcase }}/">{{ page.crumb2 | capitalize }}</a>
+          <i class="right angle icon divider"></i>
           {% endif %}
-          <div class="divider"> / </div>
           <div class="active section">{{ page.title }}</div>
       </div>
     </div>
@@ -46,32 +54,24 @@
         {% endif %}
     </div>
 
-
-
     <div class="column right aligned xo padding top without">
-      <div class="ui icon compact tiny menu">
-        <a class="item" data-tooltip="Edit this Page on GitHub" href="{{site.github.repository_url}}/blob/master/{{page.path}}" target="_blank">
+      <div class="ui tiny compact borderless icon menu">
+        <a class="item" data-tooltip="Edit this page" data-position="bottom center" href="{{site.github.repository_url}}/blob/master/{{page.path}}" target="_blank">
           <i class="edit icon"></i>
         </a>
-        <a class="item" data-tooltip="Submit a Bug Report" href="{{site.github.repository_url}}/blob/master/{{page.path}}" target="_blank">
+        <a class="item" data-tooltip="Submit a Bug Report" data-position="bottom center" href="https://github.com/DIYbiosphere/sphere/issues/new" target="_blank">
           <i class="bug icon"></i>
         </a>
-        <a class="item" data-tooltip="Select a Language">
+        <a class="item" data-tooltip="Select Language" data-position="bottom center">
           <i class="world icon"></i>
             <div class="ui inline dropdown">
               <div class="text">EN</div>
               <i class="dropdown icon"></i>
               <div class="menu">
-                <div class="header">Select language</div>
                 <div class="active item" data-text="EN"><i class="gb flag"></i>English</div>
-                <div class="item" data-text="FR"><i class="fr flag"></i>Français</div>
-                <div class="item" data-text="ES"><i class="es flag"></i>Español</div>
-                <div class="item" data-text="DE"><i class="de flag"></i>Deutsche</div>
-                <div class="item" data-text="PT"><i class="de flag"></i>Deutsche</div>
-
               </div>
             </div>
         </a>
       </div>
     </div>
-  </div> <!-- close row -->
+  </div> <!-- close grid -->

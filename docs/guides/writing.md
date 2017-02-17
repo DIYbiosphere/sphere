@@ -1,8 +1,8 @@
 ---
 layout: docs
-permalink: /docs/support/writing/
-crumb: support
-title: Writing Guide
+permalink: /docs/guides/writing/
+crumb: guides
+title: Writing Content
 summary:
 ---
 

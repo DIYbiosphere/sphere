@@ -2,7 +2,7 @@
 layout: docs
 permalink: /docs/basics/design/
 crumb: basics
-title: Basics of the Design
+title: Design in DIYbiosphere
 summary: Explaining design choices and providing source files
 ---
 

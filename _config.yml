@@ -66,42 +66,42 @@ collections:
   projects:
     title: Projects
     output: true
-    permalink: /library/projects/
+    permalink: /entries/projects/
     collection: project
   startups:
     title: Startups
     output: true
-    permalink: /library/startups/
+    permalink: /entries/startups/
     collection: startup
   labs:
     title: Labs
     output: true
-    permalink: /library/labs/
+    permalink: /entries/labs/
     collection: lab
   incubators:
     title: Incubators
     output: true
-    permalink: /library/incubators/
+    permalink: /entries/incubators/
     collection: incubator
   groups:
     title: Groups
     output: true
-    permalink: /library/groups/
+    permalink: /entries/groups/
     collection: group
   networks:
     title: Networks
     output: true
-    permalink: /library/networks/
+    permalink: /entries/networks/
     collection: network
   events:
     title: Events
     output: true
-    permalink: /library/events/
+    permalink: /entries/events/
     collection: event
   others:
     title: Others
     output: true
-    permalink: /library/others/
+    permalink: /entries/others/
     collection: other
 
 # Default Values
@@ -116,54 +116,54 @@ defaults:
       type: projects
     values:
       layout: entry
-      permalink: /library/projects/:title
+      permalink: /entries/projects/:title
       collection: project
   -
     scope:
       type: startups
     values:
       layout: entry
-      permalink: /library/startups/:title
+      permalink: /entries/startups/:title
       collection: startup
   -
     scope:
       type: labs
     values:
       layout: entry
-      permalink: /library/labs/:title
+      permalink: /entries/labs/:title
       collection: lab
   -
     scope:
       type: incubators
     values:
       layout: entry
-      permalink: /library/incubators/:title
+      permalink: /entries/incubators/:title
       collection: incubator
   -
     scope:
       type: groups
     values:
       layout: entry
-      permalink: /library/groups/:title
+      permalink: /entries/groups/:title
       collection: group
   -
     scope:
       type: networks
     values:
       layout: entry
-      permalink: /library/networks/:title
+      permalink: /entries/networks/:title
       collection: network
   -
     scope:
       type: events
     values:
       layout: entry
-      permalink: /library/events/:title
+      permalink: /entries/events/:title
       collection: event
   -
     scope:
       type: others
     values:
       layout: entry
-      permalink: /library/others/:title
+      permalink: /entries/others/:title
       collection: other

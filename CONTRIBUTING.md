@@ -1,7 +1,7 @@
 ---
 layout: docs
-permalink: /docs/support/contributing/
-crumb: support
+permalink: /docs/guides/contributing/
+crumb: guides
 title: Contributing Guide
 summary:
 ---
@@ -103,10 +103,10 @@ If your PR does not pass the Travis build DO NOT merge! Check either in Travis o
 [Issues]: https://github.com/DIYbiosphere/sphere/issues
 [Pull Requests]: https://github.com/DIYbiosphere/sphere/pulls
 [Getting Started]: /docs/introduction/getting-started
-[Eli5 Guide]: /docs/support/eli5-guide/
+[Eli5 Guide]: /docs/guides/eli5-guide/
 [tutorials]: /docs/tutorials/
 [adding a new entry]: /docs/tutorials/add-entry/
-[editing an entry]: /docs/tutorials/edit-entry/
+[editing an entry]: /docs/tutorials/edit-content/
 [Installation Instructions]: /docs/tutorials/install/
 [Issues tab]: https://github.com/DIYbiosphere/sphere/issues
 [project’s issues]: https://github.com/DIYbiosphere/sphere/issues
@@ -114,14 +114,14 @@ If your PR does not pass the Travis build DO NOT merge! Check either in Travis o
 [Gitter]: https://gitter.im/DIYbiosphere/sphere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
 [Slack]: https://diybiosphere.slack.com/
 [request an invite]: https://diybiosphere.herokuapp.com/
-[FAQs]: /docs/support/faq/
+[FAQs]: /docs/guides/faq/
 [Teams]: /docs/about/community/#Teams
 [member]: /docs/about/community/#member
 [DIYbiosphere organization]: /docs/about/organization/
 [permission levels]: /docs/about/community/#permission-levels
-[duplicates]: /docs/support/workflow/#removing-duplicates
-[vote]: /docs/support/workflow/#adding-reactions
-[Classify]: /docs/support/workflow/
-[labels]: /docs/support/workflow/#labels
-[milestones]: /docs/support/workflow/#milestones
-[boards]: /docs/support/workflow/#boards
+[duplicates]: /docs/guides/workflow/#removing-duplicates
+[vote]: /docs/guides/workflow/#adding-reactions
+[Classify]: /docs/guides/workflow/
+[labels]: /docs/guides/workflow/#labels
+[milestones]: /docs/guides/workflow/#milestones
+[boards]: /docs/guides/workflow/#boards

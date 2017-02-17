@@ -53,11 +53,15 @@
 [gh_help]: https://github.com/DIYbiosphere/sphere/labels/help%20wanted
 [gh_question]: https://github.com/DIYbiosphere/sphere/labels/question
 [gh_resolution]: https://github.com/DIYbiosphere/sphere/labels/resolution%20needed
-
 [slack]: https://diybiosphere.slack.com/
 [invite]: https://diybiosphere.herokuapp.com/
+[slack invite]: https://diybiosphere.herokuapp.com/
 [gitter]: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link "Go to repository chat on Gitter"
+[sphere_gratipay]: https://gratipay.com/DIYbiosphere/
+[diybio_paypal]: https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=QHyIMzotHrQMm0QnVeiBIRChwwWJ1VwScC1xt-q477yQzO4uFKTPQ-WFyra&dispatch=5885d80a13c0db1f8e263663d3faee8d94717bd303200c3af9aadd01a5f55080
 
+[development community]: /about/community/
+[community]: /about/community/
 
 [docs]: /docs/
 
@@ -77,7 +81,6 @@
 [our values]: /docs/about/organization/#our-values
 [our governance]: /docs/about/organization/#our-governance
 [our partners]: /docs/about/organization/#our-partners
-[development community]: /docs/about/community/
 [permissions]: /docs/about/community/#access-permission-levels
 [non-members]: /docs/about/community/#non-members
 [collaborators]: /docs/about/community/#outside-collaborators
@@ -102,30 +105,30 @@
 [contributor terms]: /docs/copyright/contributor-terms/
 
 [the basics]: /docs/basics/
-[library]: /docs/basics/library/
+[entries]: /docs/basics/entries/
 [software]: /docs/basics/software/
 [documentation]: /docs/basics/documentation/
-[design]: /docs/basics/library/
+[design]: /docs/basics/entries/
 [support]: /docs/support
-[contributing guide]: /docs/support/contributing/
-[workflow]: /docs/support/workflow/
-[eli5 guide]: /docs/support/eli5-guide/
-[faq]: /docs/support/faq/
-[help]: /docs/support/help/
+[contributing guide]: /docs/guides/contributing/
+[workflow]: /docs/guides/workflow/
+[eli5 guide]: /docs/guides/eli5-guide/
+[faq]: /docs/guides/faq/
+[help]: /docs/guides/help/
 [resources]: /docs/resources/
 [glossary]: /docs/resources/glossary/
 [hints]: /docs/resources/hints/
 [md_syntax]: /docs/resources/markdown-syntax/
 [jekyll_syntax]: /docs/resources/jekyll-syntax/
-[e_sphere]: /library/projects/DIYbiosphere-ZZ/
+[e_sphere]: /entries/projects/DIYbiosphere-ZZ/
 
 [tutorials]: /docs/tutorials/
 [add]: /docs/tutorials/add-entry/ "How to add an entry"
 [add-members]: /docs/tutorials/add-entry-members/
 [add-teams]: /docs/tutorials/add-entry-teams/
-[edit]: /docs/tutorials/edit-entry/ "How to edit an entry"
-[edit-members]: /docs/tutorials/edit-entry-members/
-[edit-teams]: /docs/tutorials/edit-entry-teams/
+[edit]: /docs/tutorials/edit-content/ "How to edit an entry"
+[edit-members]: /docs/tutorials/edit-content-members/
+[edit-teams]: /docs/tutorials/edit-content-teams/
 [noting-copyright]: /docs/tutorials/noting-copyright/
 [how-desktop]: /docs/tutorials/using-github-desktop
 [how-atom]: /docs/tutorials/using-github-desktop
@@ -136,13 +139,13 @@
 
 
 
-[collections]: /docs/basics/library/#entry-collections
-[type-org]: /docs/basics/library/#organizational-types
-[anatomy]: /docs/basics/library/#anatomy-of-an-entry
-[data fields]: /docs/basics/library/#data-fields
-[join]: /docs/support/contributing/#membership-request
+[collections]: /docs/basics/entries/#entry-collections
+[type-org]: /docs/basics/entries/#organizational-types
+[anatomy]: /docs/basics/entries/#anatomy-of-an-entry
+[data fields]: /docs/basics/entries/#data-fields
+[join]: /docs/guides/contributing/#membership-request
 
-[s_bug]: /docs/support/contributing/#report-a-bug
-[s_question]: /docs/support/contributing/#ask-a-question
+[s_bug]: /docs/guides/contributing/#report-a-bug
+[s_question]: /docs/guides/contributing/#ask-a-question
 [s_suggestion]: /docs/help/contributing/#make-a-suggestion
-[voting]: /docs/support/workflow/#adding-reactions
+[voting]: /docs/guides/workflow/#adding-reactions

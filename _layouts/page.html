@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="ui grid container xo top padding">
+  <div class="sixteen wide column">
+  {% include breadcrumbs.html %}
+    <article class="xo padding top twofold">
+        <h1 class="ui header xo padding bottom">
+          {{ page.title }}
+          <div class="ui fitted divider"></div>
+        </h1>
+      {{content}}
+    </article>
+  </div>
+</div>

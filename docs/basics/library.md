@@ -1,8 +1,8 @@
 ---
 layout: docs
-permalink: /docs/basics/library/
+permalink: /docs/basics/entries/
 crumb: basics
-title: Basics of the Library
+title: Entries in DIYbiosphere
 summary: Components and organization of the Library
 ---
 

@@ -1,8 +1,8 @@
 ---
-layout: docs
+layout: page
 title: Code of Conduct
-crumb: about
-permalink: /docs/about/coc/
+crumb: none
+permalink: /code-of-conduct/
 summary: Common understanding of what constitutes a welcoming and enriching working environment
 ---
 
@@ -35,7 +35,7 @@ Unacceptable material or language may be directly removed or rejected by members
 #### **Report it**
 Contact a [project director][gh_directors]\*\* if you do not feel comfortable addressing the wrongdoer. Contributors with unacceptable behavior ­­­— be it inappropriate, threatening, offensive or harmful — shall be banned temporarily or permanently. Project directors are obliged to maintain the confidentiality of the incident's reporter, and commited to fairly and consistently reviewing all reports and applying these principles to the project, those who don't may be suspended or removed as directors.
 
-{% include help.html title="TLDR: Be respectful!!" text="Don't be gross or rude to others; offenses can be dealt directly or by reporting it to a [project director][gh_directors]**" %}
+>TLDR: Be respectful!!: Don't be gross or rude to others; offenses can be dealt directly or by reporting it to a [project director][gh_directors]
 
 - - -
 \* Based on the [Contributor Covenant Code of Conduct v1.4.0][1]. <br>

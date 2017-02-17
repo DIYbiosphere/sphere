@@ -2,7 +2,7 @@
 layout: docs
 permalink: /docs/basics/documentation/
 crumb: basics
-title: Basics of the Documentation
+title: Documentation of DIYbiosphere
 summary: In this section
 ---
 
