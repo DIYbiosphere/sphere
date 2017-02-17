@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: /terms-of-use/
 crumb: copyright
 title: Terms of Use

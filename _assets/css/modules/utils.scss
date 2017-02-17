@@ -76,6 +76,31 @@
   }
 }
 
+.xo.margin.top {
+  margin-top: $mar;
+
+  &.half {
+    margin-top: ($mar/2) !important;
+  }
+
+  &.without {
+    margin-top: 0em !important;
+  }
+
+  &.twofold {
+  margin-top: ($mar*2);
+  }
+  &.fourfold {
+  margin-top: ($mar*4);
+  }
+  &.sixfold {
+  margin-top: ($mar*6);
+  }
+  &.eightfold {
+  margin-top: ($mar*8);
+  }
+}
+
 
 .xo.lightGrey {
   background-color: $lightGrey;

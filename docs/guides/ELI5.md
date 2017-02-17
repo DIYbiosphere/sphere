@@ -1,8 +1,8 @@
 ---
 layout: docs
-permalink: /docs/support/eli5/
-crumb: support
-title: Explain Like I'm 5 (ELI5) Guide
+permalink: /docs/guides/eli5/
+crumb: guides
+title: GitHub, Explain Like I'm 5 (ELI5)
 summary: A super-simple/101/beginner/crash-course/for-dummies guide to help out the utterly confused
 ---
 

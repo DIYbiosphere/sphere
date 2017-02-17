@@ -1,12 +1,13 @@
 ---
 layout: docs
-permalink: /docs/tutorials/edit-entry/
+permalink: /docs/tutorials/edit-content/
+crumb: tutorials
 tab: non-members
-title: Editing an Entry
+title: Editing Content
 summary:  Instructions for how to add a new entry
 ---
 
-{% include tabs/edit-entry-tabs.md %}
+{% include tabs/edit-content-tabs.md %}
 
 
 {% include warning.html title="Before you begin, you should:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/docs/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/docs/about/copyright/terms-of-use/)." %}

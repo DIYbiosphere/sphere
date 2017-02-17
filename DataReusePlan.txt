@@ -15,7 +15,7 @@ LOCATION: Earth
 HEADQUARTERS: Geneva, Switzerland
 
 /* WHEN */
-RELEASE DATE: 2017-05-10
+RELEASE DATE: 2017-05-13
 
 /* HOW */
 DATA COLLECTION: by DIYbiosphere contributors

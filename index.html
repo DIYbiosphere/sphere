@@ -8,25 +8,16 @@ permalink: /
     <div class="row hero-image xo eightfold bottom top padding">
       <div class="ui text container center aligned">
         <div class="sixteen wide column">
-          <h1 class="ui center aligned header">A library of Do-It-Yourself Biology (DIYbio) initiatives <br> from all over the world</h1>
+          <h1 class="ui center aligned header">Do-It-Yourself Biology (DIYbio) initiatives <br> from all over the world</h1>
           <div class="ui center aligned basic segment text container">
             <!-- Search bar -->
             <div class="ui fluid right icon input">
-              <input type="text" placeholder="Search Entries by Name or Location" data-algolia-search="true">
+              <input type="text" placeholder="Quick Search by Name or Location" data-algolia-search="true">
               <i class="search icon"></i>
             </div>
-            <a><button class="ui basic right labeled icon tiny button">
-              Do an Advanced Search
+            <a href="{{  '/entries/' | prepend: site.baseUrl }}"><button class="ui basic right labeled icon tiny button">
+              Advanced Search
               <i class="options icon"></i>
-            </button></a>
-            <div class="ui horizontal divider">
-              Or
-            </div>
-            <!-- Add button -->
-            <a href="/docs/tutorials/add-entry/">
-            <button class="ui black labeled icon button">
-              Add a New Entry
-              <i class="add icon"></i>
             </button></a>
           </div>  <!-- close segment -->
         </div> <!-- close 16 column -->
@@ -37,101 +28,18 @@ permalink: /
       <div class="ui center aligned container">
         <div class="sixteen wide column">
           <h2 class="ui inverted center aligned header">DIYbiosphere is a Participatory Project! </h2>
-            <h3 class="ui inverted center aligned header">Anyone can add and edit entries to the library <br>
-            and participate in the development of the project<h3>
+            <h3 class="ui inverted center aligned header">Anyone can add and edit entries <br>
+            and contribute to the development<h3>
+              <a href="{{  '/docs/tutorials/add-entry' | prepend: site.baseUrl }}"><button class="ui inverted labeled icon button">
+                <i class="plus icon"></i>
+                Add new entry
+              </button></a>
+              <a href="{{  '/docs/contributing/#' | prepend: site.baseUrl }}"><button class="ui inverted labeled icon button">
+                <i class="sign in icon"></i>
+                Join development
+              </button></a>
         </div> <!-- close 16 column -->
       </div> <!-- close container -->
-    </div> <!-- close row -->
-  <!-- Feature -->
-    <div class="row xo fourfold bottom top padding">
-      <div class="ui container center aligned">
-        <div class="sixteen wide column">
-          <h2 class="ui center aligned header">Features</h2>
-        </div>
-      </div>
-      <div class="ui stackable grid container">
-        <!-- Feature accordion -->
-        <div class="six wide column">
-          <div class="ui fluid accordion vertical menu" data-vivaldi-spatnav-clickable="1">
-            <div class="item">
-              <div class="active title"><i class="dropdown icon"></i>
-                <i class="search icon"></i>
-                Search Query
-              </div>
-              <div class="active menu content">
-                <p>Search initiatives by name, location, keywords. or use the advanced filter with predetermined filters</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="title"><i class="dropdown icon"></i>
-                <i class="list icon"></i>
-                Table of Entries
-              </div>
-              <div class="content menu">
-                <p>The results of the search query are displayed in a table</p>
-              </div>
-            </div>
-
-
-            <div class="item">
-              <div class="title"><i class="dropdown icon"></i>
-                <i class="filter icon"></i>
-                Sort and Filter
-              </div>
-              <div class="content menu">
-                <p>Use the buttons to sort and filter through the databse</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="title"><i class="dropdown icon"></i>
-                <i class="map icon"></i>
-                Visualize in a Map
-              </div>
-              <div class="content menu">
-                <p>Mark locations in a map. Click on the markers for a popup to the entries data and link to them</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="title"><i class="dropdown icon"></i>
-                <i class="tags icon"></i>
-                Tag Clouds
-              </div>
-              <div class="content menu">
-                <p>Tags are displayed as</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="title"><i class="dropdown icon"></i>
-                <i class="compass icon"></i>
-                Navigate and Entry
-              </div>
-              <div class="content menu">
-                <p>How initiatives are displayed</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="title"><i class="dropdown icon"></i>
-                <i class="edit icon"></i>
-                Easy Editing on Github
-              </div>
-              <div class="content">
-                <p>All entries and documentation is editable right through GitHub</p>
-              </div>
-            </div>
-
-
-          </div> <!-- close accordion -->
-        </div> <!-- close 6 column -->
-        <!-- Feature browser -->
-        <div class="ten wide column">
-          <img class="ui fluid image" src="/assets/img/browser.png">
-        </div>
-      </div> <!-- close grid container -->
     </div> <!-- close row -->
   <!-- Collections -->
     <div class="row xo fourfold top padding lightGrey">

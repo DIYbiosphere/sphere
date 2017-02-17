@@ -1,7 +1,7 @@
 ---
-layout: docs
-permalink: /docs/updates/roadmap/
-crumb: updates
+layout: page
+permalink: /roadmap/
+crumb: none
 title: Roadmap
 summary: In this section we detail
 ---

@@ -1,8 +1,8 @@
 ---
 layout: docs
-permalink: /docs/support/workflow/
-crumb: support
-title: Workflow Management
+permalink: /docs/guides/workflow/
+crumb: guides
+title: Ticket Workflow
 summary: In this section we detail the workflow of how the project is managed, specifically Issues and Pull Requests (PR), collectively refered to here as Tickets
 ---
 

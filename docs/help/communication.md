@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/about/communication/
+permalink: /docs/help/communication/
 crumb: about
 title: Communication
 summary: The different external and internal communication platforms the development community uses
@@ -30,7 +30,5 @@ Is a very popular communication platform that offers integration with other serv
 ## Twitter
 As many other organizations, we also have a twitter. For the moment it is somewhat inactive during alpha release. Once we go to beta release we will set up some automatic tweets for every new entry added to the library.
 
-<a class="noelink" href="/docs/updates/blog/"><button class="ui right floated tiny right labeled icon grey button"><i class="talk icon"></i>Read our Blog</button></a>
-
-## Blog
+## Blog (Roadmap)
 The Blog is intended for the humans in the project. For the contributors to be able to share their experiences, what they like or don't and what they have learned on the project. It will start after beta release.

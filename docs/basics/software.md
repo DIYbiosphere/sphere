@@ -2,7 +2,7 @@
 layout: docs
 permalink: /docs/basics/software/
 crumb: basics
-title: Basics of the Software
+title: Software of DIYbiosphere
 summary: The technology and design behind the Software of the web platform
 ---
 
