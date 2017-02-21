@@ -9,6 +9,9 @@
 
 @fontName          :'Source Sans Pro';
 @googleFontSizes   : '400,400i,600,600i,700';
+@emSize : 15px;
+@fontSize : 15px;
+
 
 
 /*--------------

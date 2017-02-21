@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.6 - Search
+ * # Semantic UI 2.2.9 - Search
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -24,8 +24,8 @@
   text-shadow: none;
   font-style: normal;
   font-weight: normal;
-  line-height: 1.2142em;
-  padding: 0.67861429em 1em;
+  line-height: 1.21428571em;
+  padding: 0.62619048em 0.93333333em;
   font-size: 1em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
@@ -61,16 +61,16 @@
   background: #FFFFFF;
   margin-top: 0.5em;
   width: 18em;
-  border-radius: 0.28571429rem;
+  border-radius: 0.26666667rem;
   box-shadow: 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
   border: 1px solid #D4D4D5;
   z-index: 998;
 }
 .ui.search > .results > :first-child {
-  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
+  border-radius: 0.26666667rem 0.26666667rem 0em 0em;
 }
 .ui.search > .results > :last-child {
-  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+  border-radius: 0em 0em 0.26666667rem 0.26666667rem;
 }
 
 /*--------------
@@ -82,7 +82,7 @@
   display: block;
   overflow: hidden;
   font-size: 1em;
-  padding: 0.85714286em 1.14285714em;
+  padding: 0.86666667em 1.13333333em;
   color: rgba(0, 0, 0, 0.87);
   line-height: 1.33;
   border-bottom: 1px solid rgba(34, 36, 38, 0.1);
@@ -114,7 +114,7 @@
   margin: 0em 6em 0em 0em;
 }
 .ui.search > .results .result .title {
-  margin: -0.14285em 0em 0em;
+  margin: -0.14285714em 0em 0em;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 1em;
@@ -122,7 +122,7 @@
 }
 .ui.search > .results .result .description {
   margin-top: 0;
-  font-size: 0.92857143em;
+  font-size: 0.93333333em;
   color: rgba(0, 0, 0, 0.4);
 }
 .ui.search > .results .result .price {
@@ -154,7 +154,7 @@
   display: block;
   border-top: none;
   background: #F3F4F5;
-  padding: 0.92857143em 1em;
+  padding: 0.93333333em 1em;
   color: rgba(0, 0, 0, 0.87);
   font-weight: bold;
   text-align: center;
@@ -185,9 +185,9 @@
   content: '';
   top: 50%;
   left: 50%;
-  margin: -0.64285714em 0em 0em -0.64285714em;
-  width: 1.28571429em;
-  height: 1.28571429em;
+  margin: -0.63333333em 0em 0em -0.63333333em;
+  width: 1.26666667em;
+  height: 1.26666667em;
   border-radius: 500rem;
   border: 0.2em solid rgba(0, 0, 0, 0.1);
 }
@@ -196,9 +196,9 @@
   content: '';
   top: 50%;
   left: 50%;
-  margin: -0.64285714em 0em 0em -0.64285714em;
-  width: 1.28571429em;
-  height: 1.28571429em;
+  margin: -0.63333333em 0em 0em -0.63333333em;
+  width: 1.26666667em;
+  height: 1.26666667em;
   -webkit-animation: button-spin 0.6s linear;
           animation: button-spin 0.6s linear;
   -webkit-animation-iteration-count: infinite;
@@ -257,7 +257,7 @@
 ---------------*/
 
 .ui.search.selection .prompt {
-  border-radius: 0.28571429rem;
+  border-radius: 0.26666667rem;
 }
 
 /* Remove input */
@@ -309,10 +309,10 @@
 
 /* First / Last */
 .ui.category.search > .results .category:first-child .name + .result {
-  border-radius: 0em 0.28571429rem 0em 0em;
+  border-radius: 0em 0.26666667rem 0em 0em;
 }
 .ui.category.search > .results .category:last-child .result:last-child {
-  border-radius: 0em 0em 0.28571429rem 0em;
+  border-radius: 0em 0em 0.26666667rem 0em;
 }
 
 /* Category Result */
@@ -323,7 +323,7 @@
   border-bottom: 1px solid rgba(34, 36, 38, 0.1);
   -webkit-transition: background 0.1s ease, border-color 0.1s ease;
   transition: background 0.1s ease, border-color 0.1s ease;
-  padding: 0.85714286em 1.14285714em;
+  padding: 0.86666667em 1.13333333em;
 }
 .ui.category.search > .results .category:last-child .result:last-child {
   border-bottom: none;
@@ -374,25 +374,25 @@
 ---------------*/
 
 .ui.mini.search {
-  font-size: 0.78571429em;
+  font-size: 0.8em;
 }
 .ui.small.search {
-  font-size: 0.92857143em;
+  font-size: 0.93333333em;
 }
 .ui.search {
   font-size: 1em;
 }
 .ui.large.search {
-  font-size: 1.14285714em;
+  font-size: 1.13333333em;
 }
 .ui.big.search {
-  font-size: 1.28571429em;
+  font-size: 1.26666667em;
 }
 .ui.huge.search {
-  font-size: 1.42857143em;
+  font-size: 1.4em;
 }
 .ui.massive.search {
-  font-size: 1.71428571em;
+  font-size: 1.73333333em;
 }
 
 

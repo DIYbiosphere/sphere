@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.6 - Item
+ * # Semantic UI 2.2.9 - Item
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -34,7 +34,7 @@
   background: #FFFFFF;
   padding: 0em;
   border: none;
-  border-radius: 0.28571429rem;
+  border-radius: 0.26666667rem;
   box-shadow: 0px 1px 3px 0px #D4D4D5, 0px 0px 0px 1px #D4D4D5;
   -webkit-transition: box-shadow 0.1s ease, -webkit-transform 0.1s ease;
   transition: box-shadow 0.1s ease, -webkit-transform 0.1s ease;
@@ -98,16 +98,16 @@
 
 .ui.cards > .card > :first-child,
 .ui.card > :first-child {
-  border-radius: 0.28571429rem 0.28571429rem 0em 0em !important;
+  border-radius: 0.26666667rem 0.26666667rem 0em 0em !important;
   border-top: none !important;
 }
 .ui.cards > .card > :last-child,
 .ui.card > :last-child {
-  border-radius: 0em 0em 0.28571429rem 0.28571429rem !important;
+  border-radius: 0em 0em 0.26666667rem 0.26666667rem !important;
 }
 .ui.cards > .card > :only-child,
 .ui.card > :only-child {
-  border-radius: 0.28571429rem !important;
+  border-radius: 0.26666667rem !important;
 }
 
 /*--------------
@@ -175,9 +175,9 @@
 .ui.cards > .card > .content > .header:not(.ui),
 .ui.card > .content > .header:not(.ui) {
   font-weight: bold;
-  font-size: 1.28571429em;
+  font-size: 1.26666667em;
   margin-top: -0.21425em;
-  line-height: 1.2857em;
+  line-height: 1.28571429em;
 }
 .ui.cards > .card > .content > .meta + .description,
 .ui.cards > .card > .content > .header + .description,
