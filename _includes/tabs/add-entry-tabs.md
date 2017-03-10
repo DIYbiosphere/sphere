@@ -1,4 +1,4 @@
-The steps to add an entry to the library differ depending on your [access permisions][permissions] to the repository: follow the following steps respectively for non-members, members, and teams.
+The steps to add an entry differ depending on your [access permisions][permissions] as a non-member, member, or team member.
 
 <div class="ui secondary pointing menu">
   <div class="right menu">

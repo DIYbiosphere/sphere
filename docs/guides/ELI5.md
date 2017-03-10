@@ -10,13 +10,17 @@ Don't Panic! The essentials for working on the DIYbiosphere are pretty simple. Y
 
 The first thing to understand is that the DIYbiosphere project is essentialy a _shared folder_ with a bunch of files inside. Sharing a collection of files among multiple users for collaboration, presents a technical problem. How can users collaborate simultaneously on the same files without overwriting each others changes or locking the files from being edited by others? The DIYbiosphere project uses **[Github]** to accomplish this.
 
-The main function of GitHub is to manage and host the project's shared folder ([sphere][gh_repo]) and track changes to its files using **[Git]**; a _distributed version control software_. Git works as follows. A folder managed by Git is called a  **repository**, or **repo**, which can be stored in your computer (_local repo_), and/or in a server somewhere (_remote repo_) like in GitHub. To keep track of the changes to the repo, Git maintains a _history log_ in a subfolder in the repo named `.git` where it stores a copy of all the different **versions** of the files ever made. Git records the changes by maintaining three _"worktrees"_
+When multiple users collaborate on a repo, they all have copies stored locally in their computers.
+When multiple users want to collaborate using Git they must coordinate on maintaining the _master copy_ of the repo, which is the most up-to-date version of the desired version of the project. Technically, you could copy or **clone repo** into a USB or send it by email to another collaborator so she could work on the repo as well.
 
-Git is a standalone software, if you download it, you have to use the terminal to operate it. Services such as GitHub, BitBucket, GitKraken
+The main function of GitHub is to manage and host the project's shared folder ([sphere][gh_repo]) and track changes to its files using **[Git]**; a _distributed version control software_. Git works as follows. A folder managed by Git is called a  **repository**, or **repo**, which can be stored in your computer (_local repo_), and/or in a server somewhere (_remote repo_) like in GitHub. To keep track of the changes to the repo, Git maintains a _history log_ in a subfolder in the repo named `.git` where it stores a copy of all the different versions of the files ever made. Git records the changes by maintaining three _"worktrees"_. The **Working Directory** stores the original files. The **Index** is the _stage area_; where proposed changes are saved. And finally the **HEAD** stores the latest commits you've made.
+
+{% include help.html title="TL;DR: Be respectful" text="Don't be gross or rude to others; offenses can be dealt with directly or by reporting it to a [project director][gh_directors]" %}
+
+Git is a standalone software, if you download it, you have to use the terminal to operate it. Services such as GitHub, BitBucket, GitKraken are _Git clients_ that provide a friendly graphic user interface.
 
 
 ### Working with Git
-To keep track of the revision history of your files, Git maintains three _"trees"_ of files. The **Working Directory** to store the original files. The **Index** is the _stage area_ for proposed changes. And finally the **HEAD** where you store the latest commits you've made.
 
 You can a brand new repository or clone one from a remote server. With commit you record those changes into the version history. Commits are accompanied with a commit message that states the reason for the changes. the working tree or working directory. The index allows you better control on what changes should be commited under what message
 
@@ -29,12 +33,11 @@ a subfolder in your repo named `.git` where it stores  Every time you want to sa
 #### Collaborating with Git
 
 
-When multiple users collaborate on a repo, they all have copies stored locally in their computers.
-When multiple users want to collaborate using Git they must coordinate on maintaining the _master copy_ of the repo, which is the most up-to-date version of the desired version of the project.
+
 
 {% include help.html title="Using a server is better but not essential" text="Technically, you could send a copy of your repo by email to your collaborator. She downloads the repo to her computer, commits her changes, and send it back to you to merge the changes. Using a server, or the cloud." %}
 
-Technically, you could copy or **clone repo** into a USB or send it by email to another collaborator so she could work on the repo as well.
+
 
 
 With git all contributors have a copy of the code and its journal.

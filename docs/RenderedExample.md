@@ -1,8 +1,9 @@
 ---
+permalink: /docs/tutorials/entryexample/Avocadolab/
+layout: entry
 manager: ahuacatl
 
 title: Avocado Lab
-purpose: The citizen science lab for making guacamole
 website: http://www.avocadolab.com
 logo: http://www.avocadolab.com/logo.png
 profile-pic: http://www.avocado.com/lab.png
@@ -10,7 +11,7 @@ status: closed
 start-date: 2001
 end-date: 2006
 
-host-org: "[Tree Labs](http://treelabs.com)"
+host-org: '[Tree Labs](http://treelabs.com)'
 
 type-org: Community
 
@@ -36,3 +37,4 @@ tags:
 The Avocado lab was a
 
 ## History
+≥

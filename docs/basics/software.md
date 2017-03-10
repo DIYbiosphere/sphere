@@ -6,22 +6,25 @@ title: Software of DIYbiosphere
 summary: The technology and design behind the Software of the web platform
 ---
 
-By Software we mean all the source-code that formats, displays, and builds the library into the website. The basic technology
+By Software we mean all the source-code that formats, displays, and builds the text files into webpages.
 
 The software used involves Github, to host the files. GitHub pages to build the files into a website using the stating website generator Jekyll. To continuously build the website we use Travis CI.
 
 ## GitHub
-[GitHub] is a [Git] hosting service that we use to host the repository of the project where the source files of the library are stored and to keep track of the changes made to them. GitHub offers other useful features like providing a user interface, a ticketing service which we use to keep track of Issues and Pull Requests, and GitHub Pages.
+[GitHub] is a [Git] hosting service that we use to host the source files (repository) of the project and to keep track of the changes made to them. GitHub offers other useful features:
 
-The project's repository is named Sphere and it is owned by the DIYbiosphere organization.
+- User interface: Changes to the repository can be done directly on a web browser. We recommend [Installing] the development environment for a more enjoyable expierence. We recommend [Atom] as a text editor, and [GitHub Desktop] as a Git client. Our tutorials include step-by-step instructions for those using a browser, github desktop, or terminal
+- Ticketing: we use GitHub Issues to keep track of bugs, questions, feature requests, and pull requests. Our [Contribting Guide] and [Ticket Workflow Guide] specify how tickets are managed and organized.
+
+The project's repository is named [_sphere_] and it is owned by the [DIYbiosphere organization][gh_org].
 
 ### GitHub Pages
-[GitHub Pages] is another service of GitHub which hosts static HTML pages and publishes them on the internet. With GitHub Pages we are able to build and host our project's website from the same repository. To build the webpages it natively uses Jekyll as the static page generator.
+[GitHub Pages] is another service of GitHub which hosts static HTML pages and publishes them on the internet. With GitHub Pages we are able to build and host our project's website from the same repository. To build the webpages it natively uses [Jekyll] as the static page generator.
 
-For our project, the main files are on the master branch, and the static pages are pushed to the gh-pages branch.
+For our project, the main files are on the [master branch], and the static pages are pushed to the [gh-pages branch].
 
 ## Jekyll
-[Jekyll] is an open-source static site generator written with Ruby.
+[Jekyll] is an open-source static site generator written with Ruby. It uses [liquid language].
 
 ## Travis
 [Travis CI] is a continuous integration service that builds and tests software projects hosted at GitHub. We use Travis to buil the DIYbiosphere website before publishing it to GitHub Pages. The main reason for this is to be able to use a multitude of plugins and APIs.
