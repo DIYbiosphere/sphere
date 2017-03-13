@@ -1,6 +1,7 @@
 
 [diybio]: https://diybio.org/ "Go to DIYbio.org homepage"
 [citizen_sciences]: http://citizensciences.net/ "Go to Citizen Sciences homepage"
+[unige]: http://citizensciences.net/
 [gh_pages]: https://pages.github.com/ "Learn about GitHub Pages from GitHub"
 [github]: https://github.com
 [atom]: https://atom.io/
@@ -14,12 +15,12 @@
 [zenhub]: https://www.zenhub.com/
 [sphere]: http://sphere.diybio.org "Go to DIYbiosphere homepage"
 [rvm]: https://rvm.io/rvm/install
-[gh_sign]: https://github.com/join
+[gh_join]: https://github.com/join
 [gh_glossary]: https://help.github.com/articles/github-glossary/
 [gh_permissions]: https://help.github.com/articles/repository-permission-levels-for-an-organization/ "Learn about permission levels from GitHub"
 [gh_desktop]: https://desktop.github.com
 [gh_atom]: https://atom.io
-
+[gh_sphere]: https://github.com/DIYbiosphere/sphere
 
 [gh_editable]: https://github.com/DIYbiosphere/sphere/tree/editable
 [gh_org]: https://github.com/DIYbiosphere "Go to the DIYbiosphere organization GitHub page"
@@ -62,6 +63,11 @@
 
 [development community]: /about/community/
 [community]: /about/community/
+[our community]: /about/community/
+[our philosophy]: /about/philosophy/
+[philosophy]: /about/philosophy/
+
+
 
 [docs]: /docs/
 
@@ -126,6 +132,7 @@
 [add]: /docs/tutorials/add-entry/ "How to add an entry"
 [add-members]: /docs/tutorials/add-entry-members/
 [add-teams]: /docs/tutorials/add-entry-teams/
+[view the render]: /docs/tutorials/entryexample/avocadolab
 [edit]: /docs/tutorials/edit-content/ "How to edit an entry"
 [edit-members]: /docs/tutorials/edit-content-members/
 [edit-teams]: /docs/tutorials/edit-content-teams/

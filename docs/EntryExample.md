@@ -2,79 +2,37 @@
 manager: ahuacatl
 
 title: Avocado Lab
-summary:
-motto:
-purpose:
-website:
-logo:
-profile-pic:
-predecessor:
-succesor:
-status:
+purpose: The citizen science lab for making guacamole
+website: http://www.avocadolab.com
+logo: http://www.avocadolab.com/logo.png
+profile-pic: http://www.avocado.com/lab.png
+status: closed
 start-date: 2001
 end-date: 2006
 
-main-org:
-parent-org:
+host-org: "[Tree Labs](http://treelabs.com)"
 
-type-org: Grassroots
-
-affiliations:
-budget:
-earnings:
-membership:
-num-staff:
-num-volunteers:
-founders:
-authors:
+type-org: Community
 
 latitude:
 longitude:
 
-work-area:
-address:
-directions:
-city:
-state:
-country:
+city: Morelia
+state: Michoacan
+country: Mexico
 
-basecamp:
-blog:
-email:
-etherpad:
-facebook:
-facebook-group:
-forum:
-flickr:
-github:
-gitter:
-google+:
-google-group:
-hackpad:
-instagram:
-irc:
-medium:
-meetup:
-linkedin:
-newsletter:
-pinterest:
-piratepad:
-rocketchat:
-rss:
-slack:
-snapchat:
-telephone:
-trello:
-tumblr:
-twitter:
-vimeo:
-vk:
-youtube:
-yk:
-wechat:
-wiki:
-wordpress:
+blog: http://www.avocado.com/blog
+email: info@avocadolab.com
+twitter: http://twitter.com/avocadolab
 
 tags:
+  - food lab
+  - citizen science
+  - fruits
 
 ---
+
+## About
+The Avocado lab was a
+
+## History

@@ -30,6 +30,25 @@
     // init Algolia client & index
     var client = algoliasearch(APPLICATION_ID, SEARCH_ONLY_API_KEY);
     var index = client.initIndex(INDEX_NAME);
+
+    /* configuration
+    index.setSettings({
+      'searchableAttributes': [
+        'city',
+        'state',
+        'country',
+        'collection',
+        'type-org'
+      ],
+      'attributesForFaceting': [
+        "collection",
+        "type-org",
+        "country"
+      ],
+    }, function(err, content) {
+      console.log(content);
+    }); */
+
     $('[data-algolia-search="true"]').autocomplete({ hint: true, debug: true }, [{
       source: $.fn.autocomplete.sources.hits(index, { hitsPerPage: 3 }),
       displayKey: 'title',

@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.6 - Feed
+ * # Semantic UI 2.2.9 - Feed
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -39,7 +39,7 @@
       -ms-flex-direction: row;
           flex-direction: row;
   width: 100%;
-  padding: 0.21428571rem 0em;
+  padding: 0.2rem 0em;
   margin: 0em;
   background: none;
   border-top: none;
@@ -81,7 +81,7 @@
   border-radius: 500rem;
 }
 .ui.feed > .event > .label + .content {
-  margin: 0.5em 0em 0.35714286em 1.14285714em;
+  margin: 0.5em 0em 0.33333333em 1.13333333em;
 }
 
 /*--------------
@@ -171,7 +171,7 @@
   display: inline-block;
   float: none;
   font-weight: normal;
-  font-size: 0.85714286em;
+  font-size: 0.86666667em;
   font-style: normal;
   margin: 0em 0em 0em 0.5em;
   padding: 0em;
@@ -211,7 +211,7 @@
 
 .ui.feed > .event > .content .meta {
   display: inline-block;
-  font-size: 0.85714286em;
+  font-size: 0.86666667em;
   margin: 0.5em 0em 0em;
   background: none;
   border: none;
@@ -274,13 +274,13 @@
 *******************************/
 
 .ui.small.feed {
-  font-size: 0.92857143rem;
+  font-size: 0.93333333rem;
 }
 .ui.feed {
   font-size: 1rem;
 }
 .ui.large.feed {
-  font-size: 1.14285714rem;
+  font-size: 1.13333333rem;
 }
 
 

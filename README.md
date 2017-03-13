@@ -8,7 +8,7 @@
 
 
 
-# ![](_assets/img/sphere-logo-long.png)
+# ![](_assets/img/sphere-logo.png)
 
 
 :tada: Welcome to the DIYbiophere repository :tada:
