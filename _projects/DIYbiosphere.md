@@ -2,16 +2,11 @@
 manager: sabgaby
 
 title: DIYbiosphere
-motto:
-purpose:
 website: http://sphere.diybio.org/
-logo: https://github.com/DIYbiosphere/sphere/blob/master/_assets/img/sphere-logo-alpha.png?raw=true
+logo: https://raw.githubusercontent.com/DIYbiosphere/sphere/master/_assets/img/sphere-logo-compact.png
 profile-pic:
-predecessor:
-succesor:
-status:
+status: active
 start-date: 2016
-end-date:
 
 main-org:
 host-org: '[DIYbio.org](https://diybio.org/)'
@@ -22,7 +17,7 @@ affiliations:
 budget:
 earnings:
 membership:
-num-staff:
+num-staff: 2
 num-volunteers:
 founders:
 authors:
@@ -30,13 +25,9 @@ authors:
 latitude: 46.204391
 longitude: 6.143158
 
-work-area:
-address:
-directions:
-city: Geneva
-state:
-country: Switzerland
 
+city: Geneva
+country: Switzerland
 
 github: https://github.com/DIYbiosphere/sphere
 

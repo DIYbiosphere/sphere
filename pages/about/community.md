@@ -5,22 +5,22 @@ crumb: about
 title: Our Community
 ---
 
-The DIYbiosphere is an open-source project hosted on [GitHub] under the [sphere] repository, anyone with a GitHub account ([sign up][gh_join]) can be a contributor and create or edit content and participate in the development of the project. The development is managed by the _Development Community_ which coordinates through an organization account on GitHub named also [DIYbiosphere][gh_org], which anyone can freely [join] and become a member. [Members] have greater access permissions to the project and can be part of [Teams] who are key members with distict roles in the development and enjoy even greater access privileges. Learn more about the [access permissions] of the project.
+Anyone with a GitHub account ([sign up][gh_join]) can be a contributor and create or edit content and participate in the development of DIYbiosphere. The development is managed by the _Development Community_ which coordinates through an organization account on GitHub named also [DIYbiosphere][gh_org], which anyone can freely [join] and become a member. [Members] have greater access permissions to the project and can be part of [Teams] who are key members with distict roles in the development and enjoy even greater access privileges. Learn more about the [access permissions][permissions] of the project.
 
 ## Teams
-[Teams] can only be viewed by members of the development community. We detail here some of the roles of our teams and some members.
+[Teams][gh_teams] can only be viewed by members of the development community. We detail here some of the roles of our teams and some members.
 
 ### Board of Directors
 Users part of the [Directors Team][gh_directors] oversee the general direction and development of the project. They also have _admin_ and _owner_ control over the sphere repository and the DIYbiosphere organization respectively.
 
-- **Jason Bobe**: Chief Executive Officer - @jasonbobe
+- **Jason Bobe**: Chief Executive Officer - @JasonBobe
 - **Gabriela A. Sanchez**: Chief Project Officer - @sabgaby
 
 ### Core Development Team
 The [Development Team][gh_development] coordinate the software and the content of the entries as well as their design. They have _admin_ access to the sphere respository
 
 - **Daniel Sanchez**: Chief Technical Officer - @cube5
-- **Steven Stowell**: Chief Content Officer
+- **Steven Stowell**: Chief Content Officer - @SteveStowell
 
 Anyone can become a Core Developer. Developers are expected to have the following characteristics:
 

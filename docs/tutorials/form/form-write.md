@@ -7,8 +7,8 @@ step: write
 <form class="ui equal width form">
 <!-- Collection -->
   <div class="required field">
-    <label><i class="folder icon"></i>
-      Collection</h4>
+    <label>
+      Collection
     </label>
       <div class="ui selection dropdown">
          <input type="hidden" name="collection">
@@ -29,43 +29,43 @@ step: write
   <h4 class="ui dividing header">Entry Data</h4>
   <!-- Entry Manager -->
   <div class="required field">
-    <label><i class="privacy icon"></i> Manager</label>
+    <label> Manager</label>
     <input type="text" name="manager" placeholder="GitHub username">
   </div>
   <!-- Name of Initiative -->
   <div class="required field">
-    <label><i class="star icon"></i> Title</label>
+    <label> Title</label>
     <input type="text" name="title" placeholder="Name of entry">
   </div>
   <!-- Homepage URL -->
   <div class="required field">
-    <label><i class="external icon"></i> Website</label>
+    <label>Website</label>
     <input type="text" name="website" placeholder="Initiative homepage URL">
   </div>
   <!-- Logo URL -->
   <div class="field">
-    <label><i class="image icon"></i> Logo</label>
+    <label> Logo</label>
     <input type="text" name="logo" placeholder="Initiative logo URL">
   </div>
   <!-- Established -->
   <div class="fields">
     <div class="required field">
-      <label><i class="gift icon"></i> start-date</label>
+      <label>Start Date</label>
       <input type="text" name="start-date" placeholder="Year of founding (YYYY)">
     </div>
     <div class="field">
-      <label>Until</label>
+      <label>End Date</label>
       <input type="text" name="until" placeholder="Year of ending (YYYY)">
     </div>
   </div>
   <!-- Dates (only for Events)-->
   <div class="fields">
     <div class="required field">
-      <label><i class="calendar icon"></i> Date</label>
+      <label>Start Date</label>
       <input type="text" name="date-start" placeholder="Start Date (YYYY-MM-DD)">
     </div>
     <div class="required field">
-      <label>Until</label>
+      <label>End Date</label>
       <input type="text" name="date-end" placeholder="End Date (YYYY-MM-DD)">
     </div>
   </div>
@@ -73,8 +73,8 @@ step: write
 
   <!-- Type of Organization -->
   <div class="required field">
-    <label><i class="folder icon"></i>
-      Type of Initiative</h4>
+    <label>
+      Type of Initiative
     </label>
       <div class="ui selection dropdown">
          <input type="hidden" name="collection">
@@ -85,8 +85,8 @@ step: write
              <div class="item" data-value="school">K-12 School</div>
              <div class="item" data-value="university">College/University</div>
              <div class="item" data-value="museum">Museum</div>
-             <div class="item" data-value="fp">For-Profit</div>
-             <div class="item" data-value="np">Non-Profit/Non Governamental Organization</div>
+             <div class="item" data-value="for-profit">For-Profit</div>
+             <div class="item" data-value="non-profit">Non-Profit/Non Governamental Organization</div>
              <div class="item" data-value="governamental">Governamental Organization</div>
              <div class="item" data-value="specify">Specify Other</div>
          </div>
@@ -98,7 +98,7 @@ step: write
     <!-- Address with Algolia Places -->
     <div>
       <div class="field">
-        <label><i class="marker icon"></i> Address</label>
+        <label> Address</label>
             <input type="search" name="address" id="form-address" placeholder="Search for Address">
       </div>
       <div class="field">
@@ -118,21 +118,21 @@ step: write
     </div>
     <!-- City with Algolia Places -->
     <div class="field">
-      <label><i class="world icon"></i> City</label>
+      <label> City</label>
       <div class="f16">
         <input type="search" id="city" name="city" placeholder="Search for City">
       </div>
     </div>
     <!-- Country with Algolia Places -->
     <div class="field">
-      <label><i class="flag icon"></i> Country</label>
+      <label>Country</label>
       <div class="f16">
         <input type="search" id="country" name="country" placeholder="Search for Country">
       </div>
     </div>
     <!-- Keywords -->
     <div class="field">
-      <label><i class="tags icon"></i>Tags</label>
+      <label>Tags</label>
       <select multiple="" class="ui dropdown">
         <option value="">Select tags</option>
         <option value="AF">open source</option>
