@@ -1,6 +1,6 @@
 ---
 layout: docs
-permalink: /docs/guides/eli5/
+permalink: /docs/guides/github-eli5/
 crumb: guides
 title: GitHub, Explain Like I'm 5 (ELI5)
 ---
@@ -9,7 +9,7 @@ Don't Panic! The essentials for working on the DIYbiosphere are pretty simple. Y
 
 The first thing to understand is that the DIYbiosphere project is essentialy a _shared folder_ with a bunch of files inside. Sharing a collection of files among multiple users for collaboration presents a technical problem. How can users collaborate simultaneously on the same files without overwriting each others changes or locking the files from being edited by others? The DIYbiosphere project uses **GitHub** to accomplish this.
 
-We use GitHub to host our _shared project folder_, in much the same way you could host it on [Dropbox]. The main advantage of GitHub, is that it keeps track of changes to these files by using **Git**. Git is an open-source _distributed version control software_. A folder managed by Git is called a **repository**, or **repo**. 
+We use GitHub to host our _shared project folder_, in much the same way you could host it on [Dropbox]. The main advantage of GitHub, is that it keeps track of changes to these files by using **Git**. Git is an open-source _distributed version control software_. A folder managed by Git is called a **repository**, or **repo**.
 
  which can be stored in your computer (_local repo_), and/or in a server somewhere (_remote repo_). To keep track of changes to the repo, Git maintains a _history log_ in a subfolder in the repo named `.git` where it stores a copy of all the different versions of the files ever made.
 

@@ -124,6 +124,7 @@
 [contributing-issues-suggestion]: /docs/guides/contributing/#make-a-suggestion
 [contributing-issues-question]: /docs/guides/contributing/#ask-a-question
 [contributing-issues-membership]: /docs/guides/contributing/#membership-request
+[join]: /docs/guides/contributing/#membership-request
 [contributing-issues-broken-link]: /docs/guides/contributing/#report-a-broken-link
 [contributing-commits]: /docs/guides/contributing/#making-commits
 [contributing-pr]: /docs/guides/contributing/#submitting-pull-requests
@@ -142,8 +143,8 @@
 [workflow-duplicates]: /docs/guides/workflow/#removing-duplicates
 [writing guide]: /docs/guides/writing/
 [writing-references]: /docs/guides/writing/#references
-[eli5 guide]: /docs/guides/eli5-guide/
-[github eli5]: /docs/guides/eli5-guide/
+[eli5 guide]: /docs/guides/github-eli5/
+[github eli5]: /docs/guides/github-eli5/
 [add]: /docs/tutorials/add-entry/ "How to add an entry"
 [add-members]: /docs/tutorials/add-entry-members/
 [add-teams]: /docs/tutorials/add-entry-teams/
@@ -152,16 +153,13 @@
 [edit-members]: /docs/tutorials/edit-content-members/
 [edit-teams]: /docs/tutorials/edit-content-teams/
 [noting-copyright]: /docs/tutorials/noting-copyright/
-[how-desktop]: /docs/tutorials/using-github-desktop
-[how-atom]: /docs/tutorials/using-github-desktop
-[updates]: /docs/updates/
+[using github]: /docs/tutorials/using-github
+[using atom]: /docs/tutorials/using-atom
 
 
 
 [faq]: /docs/help/faq/
-[help]: /docs/guides/help/
-
-[join]: /docs/guides/contributing/#membership-request
+[glossary]: /docs/help/glossary/
 
 
 [copyright]: /docs/copyright/
@@ -173,9 +171,6 @@
 
 
 
-
-[resources]: /docs/resources/
-[glossary]: /docs/resources/glossary/
 
 [e_sphere]: /entries/projects/DIYbiosphere-ZZ/
 
