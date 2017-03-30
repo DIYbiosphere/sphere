@@ -35,7 +35,7 @@ twitter:
 facebook: https://www.facebook.com/BUGSS-Baltimore-Under-Ground-Science-Space-275707269195705/
 google+:
 linkedin:
-instagram:https://www.instagram.com/bugsslab/
+instagram: https://www.instagram.com/bugsslab/
 flickr:
 pinterest:
 vimeo:
