@@ -9,7 +9,7 @@ start-date: 2014
 
 host-org: FabLab Torino
 
-type-org:
+type-org: Community
 
 affiliates:
 
@@ -22,6 +22,7 @@ country: Italy
 
 tags:
   - fablab
+  - hackerspace
 
 email: info@fablabtorino.org
 blog:
