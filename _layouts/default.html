@@ -3,14 +3,16 @@
 
   {% include head.html %}
 
-  <body class="Site">
+  <body>
 
     {% include header.html %}
-      <main class="Site-content xo margin top fivefold">
-        {{content}}
+      <main class="xo margin top fivefold" style="background:#EEEEEE;">
+        <div class="xo padding top twofold">
+          {{content}}
+        </div>
       </main>
 
-    {% include footer.html %}
+  {% include footer.html %}
 
 
     <!-- Google Analytics -->
