@@ -2,16 +2,6 @@
 *  Sticky Footer by https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
 */
 
-.Site {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-.Site-content {
-  flex: 1;
-}
-
 .hero-image {
   background-image: url(/assets/img/header.jpg);
   background-repeat: no-repeat;
@@ -79,6 +69,7 @@ article {
   }
 
 }
+
 
 
 
