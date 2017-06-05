@@ -1,18 +1,20 @@
-<div class="ui basic segment left floated compact infobox">
-  <div class="ui segment">
+<div class="ui basic segment fluid infobox">
+  <div class="ui fluid segment">
         <table id="infobox" class="ui very basic compact table">
         <tbody>
           <tr>
             <!-- Logo or Name of Page -->
             <td colspan="2">
               <h3>
-                <a class="noelink" href="{{ page.website }}" target="_blank">
+
                 {% if page.logo %}
+                <a class="noelink" href="{{ page.website }}" target="_blank">
                   <img class="ui small centered image" src="{{ page.logo }}" />
-                {% else %}
-                  <h2 class="ui center aligned header">{{ page.title }}<h2>
-                </a>
+                  </a>
                 {% endif %}
+                  <h2 class="ui center aligned header">{{ page.title }}<h2>
+
+
               </h3>
             </td>
           </tr>

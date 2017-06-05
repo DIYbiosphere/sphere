@@ -26,8 +26,10 @@
 			      <p>{{{ _highlightResult.text.value }}}</p>
 			    </div>
 			    <div class="extra">
-			    <div class="ui tiny label">{{#tags}}{{ tags }}{{/tags}}</div>
-			    </div>
+					{{#tags}}
+					<div class="ui tiny label">{{ tags }}</div>
+					{{/tags}}
+					</div>
 			  </div>
 			</div>
 			<hr>
@@ -90,6 +92,7 @@
       })
     );
 
+
     search.addWidget(
       instantsearch.widgets.hits({
         container: '#hits-container',
@@ -103,6 +106,17 @@
         hitsPerPage: 10
       })
     );
+
+		search.addWidget(
+			instantsearch.widgets.hits({
+				container: '#card-container',
+				templates: {
+					empty: EMPTY_TEMPLATE,
+					item: '<a href="{{url}}" class="header">{{{ _highlightResult.title.value }}}</a>'
+				},
+				hitsPerPage: 10
+			})
+		);
 
     search.addWidget(
       instantsearch.widgets.refinementList({
@@ -165,7 +179,13 @@
       instantsearch.widgets.pagination({
         container: '#pagination-container',
 				autoHideContainer: true,
+				showFirstLast: true,
         padding: 1, //number of pages on each side
+				cssClasses: {
+					root: 'ui secondary compact tabular small menu',
+					item: 'item',
+					link: 'item,'
+				}
       })
     );
 
@@ -174,11 +194,9 @@
       instantsearch.widgets.hitsPerPageSelector({
         container: '#hits-per-page-selector',
 				options: [
-          {value: 5, label: '5 per page'},
-          {value: 10, label: '10 per page'},
-          {value: 25, label: '25 per page'},
-          {value: 50, label: '50 per page'},
-          {value: 100, label: '100 per page'}
+          {value: 10, label: '10'},
+          {value: 50, label: '50'},
+          {value: 100, label: '100'}
         ],
 				autoHideContainer: true,
         cssClasses: {

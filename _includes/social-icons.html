@@ -1,97 +1,97 @@
 {% if page.website %}
-  <a href="{{ page.website }}">
-    <button class="ui icon mini basic button" data-tooltip="Go to Homepage">
-      <i class="home icon"></i>
-    </button>
+  <a class="noelink" href="{{ page.website }}" target="_blank">
+    <span data-tooltip="Go to Homepage">
+      <i class="linkify link large icon"></i>
+    </span>
   </a>
 {% endif %}
 
 {% if page.email %}
-  <a href="mailto:{{ page.email }}">
-    <button class="ui icon mini basic grey button" data-tooltip="Send an email">
-      <i class="mail icon"></i>
-    </button>
+  <a class="noelink" href="mailto:{{ page.email }}" target="_blank">
+    <span data-tooltip="Send an email">
+      <i class="mail link large icon"></i>
+    </span>
   </a>
 {% endif %}
 
 {% if page.forum %}
-  <a href="{{ page.forum }}">
-    <button class="ui icon mini green button" data-tooltip="Join the forum">
-      <i class="talk icon"></i>
-    </button>
+  <a class="noelink" href="{{ page.forum }}" target="_blank">
+    <span data-tooltip="Join the forum">
+      <i class="talk link large icon"></i>
+    </span>
   </a>
 {% endif %}
 
 {% if page.github %}
-  <a href="{{ page.github }}">
-    <button class="ui github icon mini button" data-tooltip="Star/Follow on GitHub">
-      <i class="github icon"></i>
-    </button>
+  <a class="noelink" href="{{ page.github }}" target="_blank">
+    <span data-tooltip="Star/Follow on GitHub">
+      <i class="github link large icon"></i>
+    </span>
   </a>
 {% endif %}
 
 
 {% if page.rss %}
-  <a href="{{ page.rss }}">
-    <button class="ui icon rss mini button" data-tooltip="Subscribe to RSS">
-      <i class="rss icon"></i>
-    </button>
+  <a class="noelink" href="{{ page.rss }}" target="_blank">
+    <span data-tooltip="Subscribe to RSS">
+      <i class="rss link large icon"></i>
+    </span>
   </a>
 {% endif %}
 
 {% if page.twitter %}
-  <a href="{{ page.twitter }}">
-    <button class="ui twitter icon mini button" data-tooltip="Follow on Twitter">
-      <i class="twitter icon"></i>
-    </button>
+  <a class="noelink" href="{{ page.twitter }}" target="_blank">
+    <span data-tooltip="Follow on Twitter">
+      <i class="twitter link large icon"></i>
+    </span>
   </a>
 {% endif %}
 
 {% if page.facebook %}
-  <a href="{{ page.facebook }}">
-    <button class="ui facebook icon mini button" data-tooltip="Follow on Facebook">
-      <i class="facebook icon"></i>
-    </button>
+  <a class="noelink" href="{{ page.facebook }}" target="_blank">
+    <span data-tooltip="Follow on Facebook">
+      <i class="facebook link large icon"></i>
+    </span>
   </a>
 {% endif %}
 
 {% if page.slack %}
-  <a href="{{ page.slack }}">
-    <button class="ui slack icon mini button" data-tooltip="Slack">
-      <i class="slack icon"></i>
-    </button>
+  <a class="noelink" href="{{ page.slack }}" target="_blank">
+    <span data-tooltip="Slack">
+      <i class="slack link large icon"></i>
+    </span>
   </a>
 {% endif %}
 
 {% if page.instagram %}
-  <a href="{{ page.instagram }}">
-    <button class="ui instagram icon mini button" data-tooltip="Follow on Instagram">
-      <i class="instagram icon"></i>
-    </button>
+  <a class="noelink" href="{{ page.instagram }}" target="_blank">
+    <span data-tooltip="Follow on Instagram">
+      <i class="instagram link large icon"></i>
+    </span>
   </a>
 {% endif %}
 
 {% if page.flickr %}
-  <a href="{{ page.flickr }}">
-    <button class="ui circular flickr icon mini button" data-tooltip="Follow on Flickr">
-      <i class="flickr icon"></i>
-    </button>
+  <a class="noelink" href="{{ page.flickr }}" target="_blank">
+    <span data-tooltip="Follow on Flickr">
+      <i class="flickr link large icon"></i>
+    </span>
   </a>
 {% endif %}
 
 {% if page.vimeo %}
-  <a href="{{ page.vimeo }}">
-    <button class="ui circular vimeo icon mini button" data-tooltip="Follow on Vimeo">
-      <i class="vimeo icon"></i>
-    </button>
+  <a class="noelink" href="{{ page.vimeo }}" target="_blank">
+    <span data-tooltip="Follow on Vimeo">
+      <i class="vimeo link large icon"></i>
+    </span>
   </a>
 {% endif %}
 
 {% if page.youtube %}
-<a href="{{ page.youtube }}">
-  <button class="ui circular youtube icon mini button" data-tooltip="Subscribe on YouTube">
-    <i class="youtube icon"></i>
-  </button>
+<a class="noelink" href="{{ page.youtube }}" target="_blank">
+  <span data-tooltip="Subscribe on YouTube">
+    <i class="youtube link large icon"></i>
+  </span>
 </a>{% endif %}
 
 <!-- {% if page.gitter %}
@@ -101,31 +101,31 @@
 {% endif %} -->
 
 {% if page.trello %}
-<a href="{{ page.trello }}">
-  <button class="ui circular trello icon mini button" data-tooltip="Follow on Trello">
-    <i class="trello icon"></i>
-  </button>
+<a class="noelink" href="{{ page.trello }}" target="_blank">
+  <span data-tooltip="Follow on Trello">
+    <i class="trello link large icon"></i>
+  </span>
 </a>{% endif %}
 
 {% if page.pinterest %}
-<a href="{{ page.pinterest }}">
-  <button class="ui circular icon pinterest mini button" data-tooltip="Follow on Pinterest">
-    <i class="pinterest icon"></i>
-  </button>
+<a class="noelink" href="{{ page.pinterest }}" target="_blank">
+  <span data-tooltip="Follow on Pinterest">
+    <i class="pinterest link large icon"></i>
+  </span>
 </a>{% endif %}
 
 {% if page.google+ %}
-  <a href="{{ page.google+ }}">
-    <button class="ui circular google plus icon mini button" data-tooltip="Follow on google +">
-      <i class="google plus icon"></i>
-    </button>
+  <a class="noelink" href="{{ page.google+ }}" target="_blank">
+    <span data-tooltip="Follow on google +">
+      <i class="google plus link large icon"></i>
+    </span>
   </a>
 {% endif %}
 
 {% if page.linkedin %}
-  <a href="{{ page.linkedin }}">
-    <button class="ui circular linkedin icon mini button" data-tooltip="Connect on Linkedin">
-      <i class="linkedin icon"></i>
-    </button>
+  <a class="noelink" href="{{ page.linkedin }}" target="_blank">
+    <span data-tooltip="Connect on Linkedin">
+      <i class="linkedin link large icon"></i>
+    </span>
   </a>
 {% endif %}

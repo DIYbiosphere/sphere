@@ -2,21 +2,13 @@
 layout: default
 ---
 
-<div class="ui grid container xo top padding">
-  <div class="sixteen wide column">
-    <article class="xo top padding twofold">
-      <h1 class="ui header xo padding bottom">
-        {{ page.title }}
-        <div class="ui fitted divider"></div>
-        <div class="sub header">{{ page.summary }}</div>
-      </h1>
-    </article>
-    <div>
-          <article>
+<div style="background-image: url(/assets/img/header.jpg); background-repeat: no-repeat;  height: 250px; background-size: cover; background-attachment: fixed;">
+</div>
+  <div class="ui grid container xo top padding">
+    <div class="four wide column">
       {% include info-box.html %}
-
+    </div>
+    <div class="twelve wide column">
         {{content}}
-      </article>
     </div>
   </div>
-</div>

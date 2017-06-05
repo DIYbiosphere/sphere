@@ -7,7 +7,7 @@
 
     {% include header.html %}
       <main class="xo margin top fivefold" style="background:#F8F8F8;">
-        <div class="xo padding top twofold">
+        <div class="xo padding top">
           {{content}}
         </div>
       </main>
@@ -56,6 +56,7 @@
       <script type="text/javascript">$('.tabular.menu .item').tab();</script>
       {% javascript entries %}
       {% javascript slider-range %}
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/leaflet/1/leaflet.css" />
     {% endif %}
 
     {% if page.layout == 'maps' %}
