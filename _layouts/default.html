@@ -6,7 +6,7 @@
   <body>
 
     {% include header.html %}
-      <main class="xo margin top fivefold" style="background:#F8F8F8;">
+      <main class="xo margin top fourfold" style="background:#F8F8F8;">
         <div class="xo padding top">
           {{content}}
         </div>
@@ -56,7 +56,18 @@
       <script type="text/javascript">$('.tabular.menu .item').tab();</script>
       {% javascript entries %}
       {% javascript slider-range %}
+
+      <!-- LEAFLET -->
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==" crossorigin=""/>
+      <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js" integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg==" crossorigin=""></script>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/leaflet/1/leaflet.css" />
+      <script src="https://cdn.jsdelivr.net/leaflet/1/leaflet.js"></script>
+      <!-- ALGOLIA PLACES -->
+      <script src="https://cdn.jsdelivr.net/instantsearch.js/1.6.0/instantsearch.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/places.js@1.4.14/dist/cdn/placesInstantsearchWidget.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/places.js@1.4.14"></script>
+
+      {% javascript map %}
     {% endif %}
 
     {% if page.layout == 'maps' %}

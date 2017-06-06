@@ -17,17 +17,17 @@
 			    <img class="ui middle aligned" src="{{ logo }}" alt="logo">
 			  </div>
 			  <div class="content">
-				<span class="right floated"><i class="marker icon"></i>{{ city }}, {{#country}} {{ country }} {{/country}}</span>
+				<span class="right floated"><i class="marker icon"></i>{{#city}} {{ city }}, {{/city}} {{#country}} {{ country }} {{/country}}</span>
 			    <a href="{{url}}" class="header">{{{ _highlightResult.title.value }}}</a>
 			    <div class="meta">
-			      <span class="cinema"> {{#collection}} {{collection}} {{/collection}}| {{#type-org}} {{ type-org }} {{/type-org}} </span>
+			      <span class="cinema"> {{#collection}} {{collection}} {{/collection}} {{#type-org}} | {{ type-org }} {{/type-org}} </span>
 			    </div>
 			    <div class="description">
 			      <p>{{{ _highlightResult.text.value }}}</p>
 			    </div>
 			    <div class="extra">
 					{{#tags}}
-					<div class="ui tiny label">{{ tags }}</div>
+					<div class="ui tiny label">{{ . }}</div>
 					{{/tags}}
 					</div>
 			  </div>
@@ -35,6 +35,25 @@
 			<hr>
 		</div>
     `;
+
+		const CARD_TEMPLATE = `
+		<div class="ui card">
+		  <div class="content">
+		    <div class="right floated meta">{{ start-date }}</div>
+		    <a class="header">{{ title }}</a>
+		  </div>
+		  <div class="image">
+		    <img src="{{ profile-pic }}">
+		  </div>
+		  <div class="content">
+		    {{ motto }}
+		  </div>
+		  <div class="extra content">
+		      <i class="marker icon"></i>
+		      {{ city }}, {{ country }}
+		  </div>
+		</div>
+		`;
 
 
 
@@ -93,6 +112,7 @@
     );
 
 
+
     search.addWidget(
       instantsearch.widgets.hits({
         container: '#hits-container',
@@ -112,7 +132,7 @@
 				container: '#card-container',
 				templates: {
 					empty: EMPTY_TEMPLATE,
-					item: '<a href="{{url}}" class="header">{{{ _highlightResult.title.value }}}</a>'
+					item: CARD_TEMPLATE
 				},
 				hitsPerPage: 10
 			})
@@ -182,7 +202,7 @@
 				showFirstLast: true,
         padding: 1, //number of pages on each side
 				cssClasses: {
-					root: 'ui secondary compact tabular small menu',
+					root: 'ui secondary compact≥ small menu',
 					item: 'item',
 					link: 'item,'
 				}

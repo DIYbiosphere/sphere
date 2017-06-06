@@ -4,13 +4,11 @@ layout: default
 
 <div class="ui container xo top padding">
 
+  <a class="item noelink" data-tooltip="Edit this page" data-position="bottom center" href="{{site.github.repository_url}}/blob/master/{{page.path}}" target="_blank">
+    <i class="edit link purple icon"></i>
+    Last edit on {{ page.last_modified | date_to_string }}
+  </a>
   <div class="ui segment">
-    <div class="ui segment compact right floated">
-      <a class="item noelink" data-tooltip="Edit this page" data-position="bottom center" href="{{site.github.repository_url}}/blob/master/{{page.path}}" target="_blank">
-        <i class="edit link purple icon"></i>
-      </a>
-      Last edit on {{ page.last_modified | date_to_string }}
-    </div>
     <div class="ui divided padded relaxed grid">
 
       <div class="streched row">

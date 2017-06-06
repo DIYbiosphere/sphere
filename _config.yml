@@ -70,12 +70,19 @@ algolia:
     - state
     - country
     - geo-lat
-    - geo-long
+    - geo-lng
     - collection
     - type-org
     - host-org
     - unordered(text)
     - unordered(tags)
+  attributesForFaceting:
+    - collection
+    - type-org
+    - city
+    - country
+    - tags
+    - status
 
 # Collections
 collections:
