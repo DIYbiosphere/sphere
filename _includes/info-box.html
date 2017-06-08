@@ -1,24 +1,28 @@
-<div class="ui basic segment fluid infobox">
-  <div class="ui fluid segment">
-        <table id="infobox" class="ui very basic compact table">
+{% if page.header-image or page.header-color %}
+<div class="ui fluid segment" style="margin-top: -150px;">
+{% else %}
+<div class="ui fluid segment">
+{% endif %}
+
+        <table class="ui very basic compact table">
         <tbody>
           <tr>
             <!-- Logo or Name of Page -->
             <td colspan="2">
-              <h3>
-
                 {% if page.logo %}
                 <a class="noelink" href="{{ page.website }}" target="_blank">
                   <img class="ui small centered image" src="{{ page.logo }}" />
                   </a>
                 {% endif %}
-                  <h2 class="ui center aligned header">{{ page.title }}<h2>
-
-
-              </h3>
+                  <h1 class="ui center aligned header xo padding bottom">{{ page.title }}
+                  {% if page.motto %}
+                  <div class="sub header"><em>{{ page.motto }}</em></div>
+                  {% endif %}
+                </h1>
             </td>
           </tr>
           <!-- motto -->
+
           <!-- Predecessor -->
           {% if page.predecessor %}
           <tr>
@@ -282,4 +286,3 @@
       </table>
     </div>
   {% include social-icons.html %}
-</div> <!-- close basic segment -->

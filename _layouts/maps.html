@@ -1,56 +1,17 @@
-<!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-      <main class="xo margin top fourfold" style="background:#F8F8F8;">
-        <div class="xo padding top">
-          <div class="ui grid container xo top padding">
-            <div class="sixteen wide column">
-              <article class="xo padding top twofold">
-                  <h1 class="ui header xo padding bottom">
-                    {{ page.title }}
-                    <div class="ui fitted divider"></div>
-                  </h1>
-                {{content}}
-              </article>
-            </div>
-          </div>
-        </div>
-      </main>
-
-  {% include footer.html %}
+---
+layout: default
+---
 
 
-    <!-- Google Analytics -->
-    <script src="https://www.google.com/jsapi"></script>
+<!-- SHOW RESULTS -->
+<div class="ui grid container">
 
-    <!-- JQuery & Semantic UI -->
-    <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
-    <script src="{{ "/semantic/dist/semantic.min.js" | prepend: site.baseUrl }}"></script>
-    <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
-    <script type="text/javascript">$('.coded-with-love').popup({inline: true,hoverable: true,position: 'top left',delay: {hide: 300}});</script>
+      <div class="sixteen wide column ui divider"></div>
+
+      <!-- Map container -->
+      <div class="sixteen wide column" data-tab="mapView">
+      </div>
 
 
 
-
-    <!-- Main JS file -->
-    {% javascript main %}
-
-
-
-      <!-- LEAFLET -->
-      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==" crossorigin=""/>
-      <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js" integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg==" crossorigin=""></script>
-      <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
-
-      {% javascript map %}
-
-
-
-  </body>
-
-</html>
+</div> <!-- close grid container -->

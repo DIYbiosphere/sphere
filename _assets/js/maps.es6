@@ -98,8 +98,6 @@
       return mapboxWidget;
     }
 
-
-
 	}); // end document ready
 
 })($);

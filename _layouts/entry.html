@@ -2,13 +2,19 @@
 layout: default
 ---
 
-<div style="background-image: url(/assets/img/header.jpg); background-repeat: no-repeat;  height: 250px; background-size: cover; background-attachment: fixed;">
+{% if page.header-image %}
+<div style="background-image: url({{ page.header-image }}); background-repeat: no-repeat;  height: 250px; background-size: cover; background-attachment: fixed;">
+{% elsif page.header-color %}
+<div style="background-color: {{ page.header-color }}; background-repeat: no-repeat;  height: 250px; background-size: cover; background-attachment: fixed;">
+{% else %}
+<div class="xo top padding">
+{% endif %}
+</div>
   <div class="ui grid container xo top padding">
-    <div class="four wide column">
+    <div class="five wide column">
       {% include info-box.html %}
     </div>
-    <div class="twelve wide column">
+    <div class="eleven wide column">
         {{content}}
     </div>
-  </div>
   </div>

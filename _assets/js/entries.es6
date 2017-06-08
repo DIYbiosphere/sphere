@@ -1,6 +1,3 @@
-(function($) {
-
-	$(document).ready(function() {
 
     /** Instantsearch stuff */
     const APPLICATION_ID = 'ITI5JHZJM9';
@@ -56,7 +53,6 @@
 		`;
 
 
-
     let search = instantsearch({
       appId: APPLICATION_ID,
       apiKey: SEARCH_ONLY_API_KEY,
@@ -110,6 +106,7 @@
 				},
       })
     );
+
 
 
 
@@ -246,6 +243,8 @@
     	});
     });
 
+
+
     function tableWidget() {
       let tableWidget = {
         getConfiguration: searchParams => {},
@@ -348,7 +347,3 @@
 				}
 			});
 		});
-
-	}); // end document ready
-
-})($);
