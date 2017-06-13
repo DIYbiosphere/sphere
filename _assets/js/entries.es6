@@ -1,6 +1,3 @@
-(function($) {
-
-	$(document).ready(function() {
 
     /** Instantsearch stuff */
     const APPLICATION_ID = 'ITI5JHZJM9';
@@ -11,28 +8,60 @@
       '<div class="text-center">No results found matching <strong>{{query}}</strong>.</div>';
 
     const HIT_TEMPLATE = `
-		<div class="ui link relaxed items">
+		<div class="ui segment xo padding bottom">
+		<div class="ui items">
 			<div class="item">
-			  <div class="ui small image">
-			    <img class="ui middle aligned" src="{{ logo }}" alt="logo">
+			  {{ #logo }}
+				<div class="ui small image">
+			    <img class="ui middle aligned" src="{{ logo }}">
 			  </div>
+				{{ /logo }}
 			  <div class="content">
-				<span class="right floated"><i class="marker icon"></i>{{ city }}, {{#country}} {{ country }} {{/country}}</span>
+				<span class="meta right floated">{{#start-date}} {{start-date}} {{/start-date}}{{#end-date}} - {{end-date}} {{/end-date}} </span>
 			    <a href="{{url}}" class="header">{{{ _highlightResult.title.value }}}</a>
 			    <div class="meta">
-			      <span class="cinema"> {{#collection}} {{collection}} {{/collection}}| {{#type-org}} {{ type-org }} {{/type-org}} </span>
+			      <span><em> {{#collection}} {{collection}} {{/collection}} {{#city}} in {{ city }}, {{/city}} {{^city}} in {{/city}} {{#country}}{{ country }} {{/country}}</em></span>
 			    </div>
 			    <div class="description">
 			      <p>{{{ _highlightResult.text.value }}}</p>
 			    </div>
 			    <div class="extra">
-			    <div class="ui tiny label">{{ tags }}</div>
-			    </div>
+					{{#tags}}
+					<div class="ui tiny label">{{ . }}</div>
+					{{/tags}}
+					</div>
 			  </div>
 			</div>
-			<hr>
+		</div>
 		</div>
     `;
+
+		const TABLE_TEMPLATE = `
+    <table class="ui sortable celled table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Collection</th>
+          <th>Type</th>
+          <th>City</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+      {{#hits}}
+        <tr>
+          <td><a href="{{url}}">{{{ _highlightResult.title.value }}}</td>
+          <td>{{#collection}} {{collection}} {{/collection}}</td>
+          <td>{{#type-org}} {{type-org}} {{/type-org}}</td>
+          <td>{{#city}} {{city}} {{/city}}</td>
+          <td>{{#country}} {{country}} {{/country}}</td>
+        </tr>
+      {{/hits}}
+      </tbody>
+    </table>
+    `;
+
+
 
     let search = instantsearch({
       appId: APPLICATION_ID,
@@ -44,17 +73,28 @@
     search.addWidget(
       instantsearch.widgets.searchBox({
         container: '#search-box',
-        placeholder: 'Search for an entry',
+        placeholder: 'Search text in all entries',
 				cssClasses: {
 					root: 'ui icon left input fluid'
 				},
 			})
     );
 
+		search.addWidget(
+			instantsearch.widgets.clearAll({
+				container: '#clear-all',
+				autoHideContainer: true,
+				templates: {
+					link: '<button style="float:right;" class="ui right red inverted floated mini button">Reset</button>'
+				},
+			})
+		);
+
     search.addWidget(
       instantsearch.widgets.currentRefinedValues({
         container: '#current-refined-values',
 				autoHideContainer: true,
+				clearAll: false,
 				cssClasses: {
 					root: 'ui medium labels',
         },
@@ -72,10 +112,13 @@
       instantsearch.widgets.stats({
         container: '#stats-container',
 				templates: {
-					body: ` <h3 class="ui header">{{nbHits}} matching entries</h3>`
+					body: `  <h3 class="ui header"> Showing {{nbHits}}</h3>`
 				},
       })
     );
+
+
+
 
     search.addWidget(
       instantsearch.widgets.hits({
@@ -84,12 +127,20 @@
           empty: EMPTY_TEMPLATE,
           item: HIT_TEMPLATE
         },
-				cssClasses: {
-					root: 'ui divided items'
-				},
-        hitsPerPage: 3
+        hitsPerPage: 10
       })
     );
+
+		search.addWidget(
+			instantsearch.widgets.hits({
+				container: '#table-container',
+				templates: {
+					empty: EMPTY_TEMPLATE,
+					allItems: TABLE_TEMPLATE
+				},
+				hitsPerPage: 10
+			})
+		);
 
     search.addWidget(
       instantsearch.widgets.refinementList({
@@ -98,14 +149,12 @@
         operator: 'or',
         limit: 10,
         cssClasses: {
-					root: 'ui secondary inverted vertical menu',
 					item: 'link item',
 					active: 'active item'
         },
         templates: {
-          header: `<h4 class="ui inverted header">Collection</h4>`,
           item: `
-						  {{name}} - {{count}}
+						  {{name}} <div style="float:right;" class="ui mini label">{{count}}</div>
 						`
         },
       })
@@ -118,14 +167,12 @@
         operator: 'or',
         limit: 10,
 				cssClasses: {
-					root: 'ui secondary inverted vertical menu',
 					item: 'link item',
 					active: 'active item'
         },
         templates: {
-          header: `<h4 class="ui inverted header">Type of Initiative</h4>`,
           item: `
-						{{name}} - {{count}}
+						{{name}} <div style="float:right;" class="ui mini label">{{count}}</div>
 					`
         }
       })
@@ -144,10 +191,9 @@
 				cssClasses: {
 					root: 'ui labels',
 					item: 'ui label xo paddingfull half',
-					active: 'ui grey label xo paddingfull half'
+					active: 'ui basic label xo paddingfull half'
         },
         templates: {
-          header: `<h4 class="ui inverted header">Keywords</h4>`,
           item: `{{name}} - {{count}}`
         }
       })
@@ -156,35 +202,31 @@
     search.addWidget(
       instantsearch.widgets.pagination({
         container: '#pagination-container',
-				labels: {
-					previous: '<i class="fa fa-angle-left"></i>',
-					next: '<i class="fa fa-angle-right"></i>',
-					first: '<i class="fa fa-double-angle-left"></i>',
-					last: '<i class="fa fa-double-angle-right"></i>',
-				},
+				autoHideContainer: true,
+				showFirstLast: true,
         padding: 1, //number of pages on each side
-        cssClasses: {
-					root: 'ui horizontal link list no-bullets',
-          item: 'item',
-          active: 'active item',
-          disabled: 'disabled item'
-        }
+				cssClasses: {
+					root: 'ui secondary small compact menu',
+					item: 'item',
+					active: 'active item'
+				}
       })
     );
+
 
     search.addWidget(
       instantsearch.widgets.hitsPerPageSelector({
         container: '#hits-per-page-selector',
+				options: [
+          {value: 10, label: '10'},
+          {value: 50, label: '50'},
+          {value: 100, label: '100'}
+        ],
+				autoHideContainer: true,
         cssClasses: {
-          root: 'ui inline dropdown'
+          root: 'ui selection compact dropdown',
+					item: 'item'
         },
-        options: [
-          {value: 5, label: '5 per page'},
-          {value: 10, label: '10 per page'},
-          {value: 25, label: '25 per page'},
-          {value: 50, label: '50 per page'},
-          {value: 100, label: '100 per page'}
-        ]
       })
     );
 
@@ -207,6 +249,8 @@
       	if(dataCollection === 'Incubator') $el.addClass('leaf');
     	});
     });
+
+
 
     function tableWidget() {
       let tableWidget = {
@@ -267,61 +311,20 @@
         {
 					"visible": true,
 					"targets": 3,
-					"name": "host-org",
-					"data": "host-org",
-					"render": function(data, type, row) {
-						// host name, web page and sphere page links
-						var name = '', web = '', sphere = '';
-						if(data !== null) {
-							name = data.name || '';
-							if(data.web !== null) {
-								web = `
-                  <a class="link selectable" href="${data.web}">
-                    <i class="fa fa-link"></i>
-                  </a>
-                `;
-							}
-							if(data.sphere !== null) {
-								sphere = `
-                  <a class="link selectable" href="${data.sphere}">
-                    <i class="fa fa-external-link"></i>
-                  </a>
-                `;
-							}
-							return `${name} ${web} ${sphere}`;
-						} else return '';
-					}
-				},
-        {
-					"visible": true,
-					"targets": 4,
 					"name": "type-org",
 					"data": "type-org"
 				},
 				{
 					"visible": true,
-					"targets": 5,
+					"targets": 4,
 					"name": "city",
 					"data": "city"
 				},
 				{
 					"visible": true,
-					"targets": 6,
+					"targets": 5,
 					"name": "country",
 					"data": "country"
-				},
-        {
-					"visible": true,
-					"targets": 7,
-					"name": "lastest-commit",
-					"data": "last_modified"
-				},
-				{
-					"visible": true,
-					"targets": 8,
-					"name": "tags",
-					"data": "tags",
-          "render": (data, type, row) => `${data.join(',')}`
 				}
 			],
 			"language": {
@@ -351,7 +354,3 @@
 				}
 			});
 		});
-
-	}); // end document ready
-
-})($);

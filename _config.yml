@@ -67,11 +67,22 @@ algolia:
     - h3
     - h4
     - city
+    - state
     - country
+    - geo-lat
+    - geo-lng
     - collection
     - type-org
+    - host-org
     - unordered(text)
     - unordered(tags)
+  attributesForFaceting:
+    - collection
+    - type-org
+    - city
+    - country
+    - tags
+    - status
 
 # Collections
 collections:

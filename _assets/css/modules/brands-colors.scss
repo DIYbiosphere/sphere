@@ -1,27 +1,102 @@
-$twitter-color: #00abf1;
-$facebook-color: #cb2027;
-$github-color: #ffffff;
-$linkedin-color: #007ab9;
-$hackpad-color: #4b8971;
-$trello-color: #018ee0;
-$dropbox-color: #017ee6;
-$basecamp-color: #117e35;
+a svg:hover {
+  & #website {
+  fill: $primaryColor;
+  }
+
+  & #twitter {
+  fill: #00abf1;
+  }
+
+  & #facebook {
+  fill: #3B5A98;
+  }
+
+  & #facebook-group {
+  fill: #3B5A98;
+  }
+
+  & #github {
+  fill: #000000;
+  }
+
+  & #linkedin {
+  fill: #007ab9;
+  }
+
+  & #trello {
+  fill: #018ee0;
+  }
+
+  & #dropbox {
+  fill: #017ee6;
+  }
+
+  & #basecamp {
+  fill: #117e35;
+  }
+
+  & #instagram {
+  fill: #f0274b;
+  }
+
+  & #flickr {
+  fill: #4186e3;
+  }
+
+  & #youtube {
+  fill: #ca3737;
+  }
+
+  & #vimeo {
+  fill: #1ab7ea;
+  }
+
+  & #snapchat {
+  fill: #ece000;
+  }
+
+  & #whatsapp {
+  fill: #009a52;
+  }
+
+  & #snapchat {
+  fill: #ece000;
+  }
+
+  & #meetup {
+  fill: #eb1c24;
+  }
+
+  & #skype {
+  fill: #02b4eb;
+  }
+
+  & #telegram {
+  fill: #2ca5e0;
+  }
+
+  & #gitter {
+  fill: #ed1965;
+  }
+
+  & #slack {
+  fill: #4d8874;
+  }
+
+  & #rss {
+  fill: #F39942;
+  }
+
+
+}
+
+
 $google-color: #dc4e41;
-$instagram-color: #f0274b;
-$flickr-color: #4186e3;
-$youtube-color: #ca3737;
-$vimeo-color: #1ab7ea;
 $vine-color: #02a379;
-$snapchat-color: #ece000;
-$whatsapp-color: #009a52;
 $meetup-color: #eb1c24;
 $viber-color: #7b519d;
 $foursquare-color: #f94877;
-$skype-color: #02b4eb;
-$telegram-color: #2ca5e0;
 $hangouts-color: #0f9d58;
-$gitter-color: #ed1965;
-$slack-color: #4d8874;
 $irc-color: #ffffff;
 $email-color: #ffffff;
 $mailinglist-color: #ffffff;

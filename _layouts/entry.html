@@ -2,22 +2,25 @@
 layout: default
 ---
 
-<div class="ui grid container xo top padding">
-  <div class="sixteen wide column">
-    {% include breadcrumbs.html %}
-    <article class="xo top padding twofold">
-      <h1 class="ui header xo padding bottom">
-        {{ page.title }}
-        <div class="ui fitted divider"></div>
-        <div class="sub header">{{ page.summary }}</div>
-      </h1>
-    </article>
-    <div>
-          <article>
+{% if page.header-image %}
+<div style="background-image: url({{ page.header-image }}); background-repeat: no-repeat;  height: 250px; background-size: cover; background-attachment: fixed;">
+{% elsif page.header-color %}
+<div style="background-color: {{ page.header-color }}; background-repeat: no-repeat;  height: 250px; background-size: cover; background-attachment: fixed;">
+{% else %}
+<div class="xo top padding">
+{% endif %}
+</div>
+  <div class="ui grid container xo top padding">
+    <div class="five wide column">
       {% include info-box.html %}
-
+    </div>
+    <div class="eleven wide column">
+      <h1 class="ui header">{{ page.title }}
+        {% include edit-this-page.html %}
+      {% if page.motto %}
+      <div class="sub header"><em>{{ page.motto }}</em></div>
+      {% endif %}
+      </h1>
         {{content}}
-      </article>
     </div>
   </div>
-</div>

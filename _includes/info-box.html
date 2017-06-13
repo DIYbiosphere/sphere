@@ -1,22 +1,18 @@
-<div class="ui basic segment right floated compact infobox">
-  <div class="ui segment">
-        <table id="infobox" class="ui very basic compact table">
+{% if page.header-image or page.header-color %}
+<div class="ui segment" style="margin-top: -100px;">
+{% else %}
+<div class="ui segment">
+{% endif %}
+
+{% if page.logo %}
+<a class="noelink" href="{{ page.website }}" target="_blank">
+  <img class="ui small centered image" src="{{ page.logo }}" />
+  </a>
+{% endif %}
+
+        <table class="ui very basic small table">
         <tbody>
-          <tr>
-            <!-- Logo or Name of Page -->
-            <td colspan="2">
-              <h3>
-                <a class="noelink" href="{{ page.website }}" target="_blank">
-                {% if page.logo %}
-                  <img class="ui small centered image" src="{{ page.logo }}" />
-                {% else %}
-                  <h2 class="ui center aligned header">{{ page.title }}<h2>
-                </a>
-                {% endif %}
-              </h3>
-            </td>
-          </tr>
-          <!-- motto -->
+
           <!-- Predecessor -->
           {% if page.predecessor %}
           <tr>
@@ -242,7 +238,7 @@
           <!-- Location -->
           <tr class="top aligned">
             <td>
-              <span data-tooltip="Established start-date">Location:</span>
+              <span>Location:</span>
             </td>
             <td>
               <!-- Address -->
@@ -264,20 +260,23 @@
           </tr>
         <!-- Tags -->
           {% if page.tags !='' %}
+
           <tr>
-            <td>
-              Keywords:
-            </td>
-            <td>
-              {% for tag in page.tags %}
-              {{ tag }}
-              {% endfor %}
+            <td colspan="2">
+              <div class="ui small labels">
+                {% for tag in page.tags %}
+                <div class="ui label">
+                  {{ tag }}
+                </div>
+                {% endfor %}
+              </div>
             </td>
           </tr>
-          {% endif %}
 
+          {% endif %}
         </tbody>
+
       </table>
-    </div>
+</div>
+
   {% include social-icons.html %}
-</div> <!-- close basic segment -->

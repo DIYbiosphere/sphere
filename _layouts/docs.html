@@ -2,25 +2,30 @@
 layout: default
 ---
 
-<div class="ui grid container xo top padding">
+<div class="ui container xo top padding">
 
-  <div class="four wide column">
-      <aside>
-          {% include sidebar.html %}
-      </aside>
-  </div>
 
-  <div class="twelve wide column">
-    <div id="docs-context">
-      {% include breadcrumbs.html %}
-      <article class="xo padding top twofold">
-          <h1 class="ui header xo padding bottom">
-            {{ page.title }}
-            <div class="ui fitted divider"></div>
-          </h1>
-        {{content}}
-      </article>
-    </div>
-  </div>
+  <div class="ui segment">
+    <div class="ui divided padded relaxed grid">
 
-</div> <!-- close grid container -->
+      <div class="streched row">
+        <div class="four wide column">
+            <aside>
+                {% include sidebar.html %}
+            </aside>
+        </div> <!-- close column -->
+
+        <div class="twelve wide column">
+
+            <article>
+              <h1 class="ui header">
+                {{ page.title }}
+                {% include edit-this-page.html %}
+              </h1>
+            {{content}}
+            </article>
+        </div>
+      </div>
+    </div> <!-- close grid -->
+  </div> <!-- close segment -->
+</div> <!-- close container -->

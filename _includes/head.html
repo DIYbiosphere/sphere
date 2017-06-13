@@ -19,6 +19,7 @@
 
   {% if page.layout == 'entries' %}
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css" />
+    {% javascript table %}
   {% endif %}
 
   {% css main %}
@@ -49,6 +50,8 @@
   {% if page.layout == 'docs' %}
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
   {% endif %}
+
+
 
 
 </head>
