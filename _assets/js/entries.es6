@@ -8,16 +8,19 @@
       '<div class="text-center">No results found matching <strong>{{query}}</strong>.</div>';
 
     const HIT_TEMPLATE = `
-		<div class="ui link relaxed items">
+		<div class="ui segment xo padding bottom">
+		<div class="ui items">
 			<div class="item">
-			  <div class="ui small image">
-			    <img class="ui middle aligned" src="{{ logo }}" alt="logo">
+			  {{ #logo }}
+				<div class="ui small image">
+			    <img class="ui middle aligned" src="{{ logo }}">
 			  </div>
+				{{ /logo }}
 			  <div class="content">
-				<span class="right floated"><i class="marker icon"></i>{{#city}} {{ city }}, {{/city}} {{#country}} {{ country }} {{/country}}</span>
+				<span class="meta right floated">{{#start-date}} {{start-date}} {{/start-date}}{{#end-date}} - {{end-date}} {{/end-date}} </span>
 			    <a href="{{url}}" class="header">{{{ _highlightResult.title.value }}}</a>
 			    <div class="meta">
-			      <span class="cinema"> {{#collection}} {{collection}} {{/collection}} {{#type-org}} | {{ type-org }} {{/type-org}} </span>
+			      <span><em> {{#collection}} {{collection}} {{/collection}} {{#city}} in {{ city }}, {{/city}} {{^city}} in {{/city}} {{#country}}{{ country }} {{/country}}</em></span>
 			    </div>
 			    <div class="description">
 			      <p>{{{ _highlightResult.text.value }}}</p>
@@ -29,28 +32,14 @@
 					</div>
 			  </div>
 			</div>
-			<hr>
+		</div>
 		</div>
     `;
 
-		const CARD_TEMPLATE = `
-		<div class="ui card">
-		  <div class="content">
-		    <div class="right floated meta">{{ start-date }}</div>
-		    <a class="header">{{ title }}</a>
-		  </div>
-		  <div class="image">
-		    <img src="{{ profile-pic }}">
-		  </div>
-		  <div class="content">
-		    {{ motto }}
-		  </div>
-		  <div class="extra content">
-		      <i class="marker icon"></i>
-		      {{ city }}, {{ country }}
-		  </div>
-		</div>
-		`;
+		const TABLE_TEMPLATE = `
+
+    `;
+
 
 
     let search = instantsearch({
@@ -117,19 +106,16 @@
           empty: EMPTY_TEMPLATE,
           item: HIT_TEMPLATE
         },
-				cssClasses: {
-					root: 'ui divided items'
-				},
         hitsPerPage: 10
       })
     );
 
 		search.addWidget(
 			instantsearch.widgets.hits({
-				container: '#card-container',
+				container: '#table-container',
 				templates: {
 					empty: EMPTY_TEMPLATE,
-					item: CARD_TEMPLATE
+					item: TABLE_TEMPLATE
 				},
 				hitsPerPage: 10
 			})
@@ -199,9 +185,9 @@
 				showFirstLast: true,
         padding: 1, //number of pages on each side
 				cssClasses: {
-					root: 'ui secondary compact≥ small menu',
+					root: 'ui secondary small compact menu',
 					item: 'item',
-					link: 'item,'
+					active: 'active item'
 				}
       })
     );

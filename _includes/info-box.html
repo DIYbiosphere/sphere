@@ -270,19 +270,21 @@
           </tr>
         <!-- Tags -->
           {% if page.tags !='' %}
+
           <tr>
-            <td>
-              Keywords:
-            </td>
-            <td>
+            <td colspan="2">
               {% for tag in page.tags %}
-              {{ tag }}
+              <div class="ui small label">
+                {{ tag }}
+              </div>
               {% endfor %}
             </td>
           </tr>
+
           {% endif %}
 
         </tbody>
       </table>
     </div>
+
   {% include social-icons.html %}
