@@ -1,27 +1,17 @@
 {% if page.header-image or page.header-color %}
-<div class="ui fluid segment" style="margin-top: -150px;">
+<div class="ui segment" style="margin-top: -100px;">
 {% else %}
-<div class="ui fluid segment">
+<div class="ui segment">
 {% endif %}
 
-        <table class="ui very basic compact table">
+{% if page.logo %}
+<a class="noelink" href="{{ page.website }}" target="_blank">
+  <img class="ui small centered image" src="{{ page.logo }}" />
+  </a>
+{% endif %}
+
+        <table class="ui very basic small table">
         <tbody>
-          <tr>
-            <!-- Logo or Name of Page -->
-            <td colspan="2">
-                {% if page.logo %}
-                <a class="noelink" href="{{ page.website }}" target="_blank">
-                  <img class="ui small centered image" src="{{ page.logo }}" />
-                  </a>
-                {% endif %}
-                  <h1 class="ui center aligned header xo padding bottom">{{ page.title }}
-                  {% if page.motto %}
-                  <div class="sub header"><em>{{ page.motto }}</em></div>
-                  {% endif %}
-                </h1>
-            </td>
-          </tr>
-          <!-- motto -->
 
           <!-- Predecessor -->
           {% if page.predecessor %}
@@ -248,7 +238,7 @@
           <!-- Location -->
           <tr class="top aligned">
             <td>
-              <span data-tooltip="Established start-date">Location:</span>
+              <span>Location:</span>
             </td>
             <td>
               <!-- Address -->
@@ -273,18 +263,20 @@
 
           <tr>
             <td colspan="2">
-              {% for tag in page.tags %}
-              <div class="ui small label">
-                {{ tag }}
+              <div class="ui small labels">
+                {% for tag in page.tags %}
+                <div class="ui label">
+                  {{ tag }}
+                </div>
+                {% endfor %}
               </div>
-              {% endfor %}
             </td>
           </tr>
 
           {% endif %}
-
         </tbody>
+
       </table>
-    </div>
+</div>
 
   {% include social-icons.html %}

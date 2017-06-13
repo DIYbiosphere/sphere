@@ -1,4 +1,8 @@
 a svg:hover {
+  & #website {
+  fill: $primaryColor;
+  }
+
   & #twitter {
   fill: #00abf1;
   }

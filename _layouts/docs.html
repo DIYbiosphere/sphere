@@ -4,10 +4,7 @@ layout: default
 
 <div class="ui container xo top padding">
 
-  <a class="item noelink" data-tooltip="Edit this page" data-position="bottom center" href="{{site.github.repository_url}}/blob/master/{{page.path}}" target="_blank">
-    <i class="edit link purple icon"></i>
-    Last edit on {{ page.last_modified | date_to_string }}
-  </a>
+
   <div class="ui segment">
     <div class="ui divided padded relaxed grid">
 
@@ -21,11 +18,11 @@ layout: default
         <div class="twelve wide column">
 
             <article>
-                <h1 class="ui header">
-                  {{ page.title }}
-                </h1>
-
-              {{content}}
+              <h1 class="ui header">
+                {{ page.title }}
+                {% include edit-this-page.html %}
+              </h1>
+            {{content}}
             </article>
         </div>
       </div>

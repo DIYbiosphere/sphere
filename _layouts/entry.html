@@ -15,6 +15,12 @@ layout: default
       {% include info-box.html %}
     </div>
     <div class="eleven wide column">
+      <h1 class="ui header">{{ page.title }}
+        {% include edit-this-page.html %}
+      {% if page.motto %}
+      <div class="sub header"><em>{{ page.motto }}</em></div>
+      {% endif %}
+      </h1>
         {{content}}
     </div>
   </div>

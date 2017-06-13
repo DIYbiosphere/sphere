@@ -37,7 +37,28 @@
     `;
 
 		const TABLE_TEMPLATE = `
-
+    <table class="ui sortable celled table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Collection</th>
+          <th>Type</th>
+          <th>City</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+      {{#hits}}
+        <tr>
+          <td><a href="{{url}}">{{{ _highlightResult.title.value }}}</td>
+          <td>{{#collection}} {{collection}} {{/collection}}</td>
+          <td>{{#type-org}} {{type-org}} {{/type-org}}</td>
+          <td>{{#city}} {{city}} {{/city}}</td>
+          <td>{{#country}} {{country}} {{/country}}</td>
+        </tr>
+      {{/hits}}
+      </tbody>
+    </table>
     `;
 
 
@@ -115,7 +136,7 @@
 				container: '#table-container',
 				templates: {
 					empty: EMPTY_TEMPLATE,
-					item: TABLE_TEMPLATE
+					allItems: TABLE_TEMPLATE
 				},
 				hitsPerPage: 10
 			})

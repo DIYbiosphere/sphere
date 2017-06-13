@@ -2,7 +2,6 @@
   $(() => {
 
     // init Semantic UI components
-    $('.ui.accordion').accordion();
     $('.ui.dropdown').dropdown();
 
 
@@ -12,13 +11,13 @@
 
     // template used for showing autocomplete feature
     const HIT_TEMPLATE = Hogan.compile(`
-      <div class="ui basic segment">
-        <h3 class="ui header">
+      <div class="">
+        <h4 class="ui header">
           {{{ _highlightResult.title.value }}}
           <div class="sub header">
-            <i class="marker icon"></i>{{ city }}, {{ country }}
+             <span><em> {{#collection}} {{collection}} {{/collection}} {{#city}} in {{ city }}, {{/city}} {{^city}} in {{/city}} {{#country}}{{ country }} {{/country}}</em></span>
           </div>
-        </h3>
+        </h4>
       </div>
     `);
 
@@ -31,39 +30,14 @@
     var client = algoliasearch(APPLICATION_ID, SEARCH_ONLY_API_KEY);
     var index = client.initIndex(INDEX_NAME);
 
-    /* configuration
-    index.setSettings({
-      'searchableAttributes': [
-        'city',
-        'state',
-        'country',
-        'collection',
-        'type-org'
-      ],
-      'attributesForFaceting': [
-        "collection",
-        "type-org",
-        "country"
-      ],
-    }, function(err, content) {
-      console.log(content);
-    }); */
-
     $('[data-algolia-search="true"]').autocomplete({ hint: true, debug: true }, [{
-      source: $.fn.autocomplete.sources.hits(index, { hitsPerPage: 3 }),
+      source: $.fn.autocomplete.sources.hits(index, { hitsPerPage: 4 }),
       displayKey: 'title',
       cssClasses: {
-        dropdownMenu: 'ui segment'
+        dropdownMenu: 'ui flowing popup bottom left transition hidden'
       },
       templates: {
         suggestion: suggestion => HIT_TEMPLATE.render(suggestion),
-        footer: `
-          <div class="ui vertical padded right aligned segment">
-            <a href="https://www.algolia.com">
-              <img src="/assets/img/poweredBy-Algolia.svg">
-            </a>
-          </div>
-        `
       }
     }]).on('autocomplete:selected', (event, suggestion, dataset) => {
       // when a suggestion is clicked, redirect to suggestion's url

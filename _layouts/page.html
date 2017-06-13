@@ -5,9 +5,9 @@ layout: default
 <div class="ui grid container xo top padding">
   <div class="sixteen wide column">
     <article class="xo padding top twofold">
-        <h1 class="ui header xo padding bottom">
+        <h1 class="ui header">
           {{ page.title }}
-          <div class="ui fitted divider"></div>
+          {% include edit-this-page.html %}
         </h1>
       {{content}}
     </article>

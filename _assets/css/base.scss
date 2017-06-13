@@ -22,16 +22,6 @@
   }
 }
 
-nav {
-  border-bottom: 3px solid $black;
-
-  .diybio-logo {
-    height: 16px;
-    max-width: 30px;
-    padding-right: 8px;
-  }
-}
-
 article {
   a:not(.noelink)[href^="http"]:after {
     display: inline-block;

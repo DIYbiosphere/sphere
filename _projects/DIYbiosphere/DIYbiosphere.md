@@ -1,5 +1,6 @@
 ---
 manager: sabgaby
+collection: project
 
 header-image: http://cdn.images.express.co.uk/img/dynamic/151/590x/Earth-spin-742026.jpg
 title: DIYbiosphere

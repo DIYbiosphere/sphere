@@ -3,6 +3,7 @@
 
   {% include head.html %}
 
+
   <body>
 
     {% include header.html %}
@@ -56,6 +57,7 @@
       <script type="text/javascript">$('.tabular.menu .item').tab();</script>
       {% javascript entries %}
       {% javascript slider-range %}
+      <script type="text/javascript">$('table').tablesort();</script>
 
       <!-- LEAFLET -->
       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==" crossorigin=""/>
