@@ -1,7 +1,8 @@
 ---
 title: Changelog
 permalink: "/changelog/"
-layout: page
+published: false
 crumb: none
+layout: page
 ---
 
