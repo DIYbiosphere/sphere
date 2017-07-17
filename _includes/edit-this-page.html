@@ -1,6 +1,6 @@
 <span class="ui right floated tiny horizontal divided link list" data-tooltip="Edit this page on GitHub" data-inverted="" data-position="bottom center">
   <a class="item noelink" href="{{site.github.repository_url}}/blob/master/{{page.path}}" target="_blank">
     <i class="edit icon"></i>
-    Last edit on {{ page.last_modified | date_to_string }}
+    Last edit on {% last_modified_at %}
   </a>
 </span>

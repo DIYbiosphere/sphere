@@ -12,7 +12,7 @@
 @emSize : 15px;
 @fontSize : 15px;
 
-
+@pageBackground: #F6F6F6;
 
 /*--------------
   Page Heading
