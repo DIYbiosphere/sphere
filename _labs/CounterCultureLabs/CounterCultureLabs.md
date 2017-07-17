@@ -40,5 +40,6 @@ We are Counter Culture Labs, a community of scientists, tinkerers, biotech profe
 
 ## History
 
+
 ---
 Text taken from initiative's website
