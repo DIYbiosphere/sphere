@@ -1,48 +1,40 @@
 ---
-manager:
-
 title: Open Wetlab
-logo:
+manager: 
+logo: 
 website: https://waag.org/en/lab/open-wetlab
 start-date: 2012
-
 host-org: "[Waag Society](http://waag.org/en)"
-
-type-org:
-
-affiliates:
-
+type-org: 
+affiliates: 
 address: Nieuwmarkt 4
-directions:
+directions: 
 postcode: 1012 CR
 city: Amsterdam
-state:
+state: 
 country: Netherlands
-
-tags:
-
-email:
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
+email: 
+blog: 
+rss: 
+wiki: 
+forum: 
+mailinglist: 
+irc: 
+gitter: 
+slack: 
 meetup: http://www.meetup.com/Dutch-DIY-Bio/
-twitter:
-facebook:
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+twitter: 
+facebook: 
+google+: 
+linkedin: 
+instagram: 
+flickr: 
+pinterest: 
+vimeo: 
+youtube: 
+hackpad: 
+trello: 
+github: 
 ---
 
 ## About

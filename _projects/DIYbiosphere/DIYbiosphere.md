@@ -1,45 +1,35 @@
 ---
+title: DIYbiosphere
+tags:
+- database
+- open-source
+- software
+- website
 manager: sabgaby
 collection: project
-
 header-image: http://cdn.images.express.co.uk/img/dynamic/151/590x/Earth-spin-742026.jpg
-title: DIYbiosphere
 website: http://sphere.diybio.org/
 logo: https://raw.githubusercontent.com/DIYbiosphere/sphere/master/_assets/img/sphere-logo-compact.png
 motto: Connecting DIYbio all over the world
-profile-pic:
+profile-pic: 
 status: active
 start-date: 2016
-
-main-org:
-host-org: '[DIYbio.org](https://diybio.org/)'
-
+main-org: 
+host-org: "[DIYbio.org](https://diybio.org/)"
 type-org: Non-profit
-
-affiliations: '[UNIGE](https://diybio.org/)'
+affiliations: "[UNIGE](https://diybio.org/)"
 num-staff: 2
-num-volunteers:
-founders:
-authors:
-
+num-volunteers: 
+founders: 
+authors: 
 lat: 46.204391
 lng: 6.143158
-
-
 city: Geneva
 country: Switzerland
-
 github: https://github.com/DIYbiosphere/sphere
-
 twitter: https://twitter.com/DIYbiosphere/
 slack: https://slack.io.com/DIYbiosphere/
 gitter: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link
-
-tags:
-  - database
-  - open-source
-  - software
-  - website
 ---
 
 ## About

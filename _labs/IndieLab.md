@@ -1,48 +1,40 @@
 ---
-manager:
-
 title: Indie Lab RVA
+manager: 
 logo: http://rva.indielab.co/wp-content/uploads/2015/08/Indie_lab_logo_banner.png
 website: http://rva.indielab.co/
 start-date: 2012
-
-host-org:
-
-type-org:
-
-affiliates:
-
+host-org: 
+type-org: 
+affiliates: 
 address: 1600 Roseneath Rd
-directions:
+directions: 
 postcode: 23230
 city: Richmond
 state: Virginia
 country: United States
-
-tags:
-
-email:
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
+email: 
+blog: 
+rss: 
+wiki: 
+forum: 
+mailinglist: 
+irc: 
+gitter: 
+slack: 
+meetup: 
 twitter: https://twitter.com/indielabrva
 facebook: https://www.facebook.com/indielabrva/
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
+google+: 
+linkedin: 
+instagram: 
+flickr: 
+pinterest: 
+vimeo: 
 youtube: https://www.youtube.com/channel/UCAYGsEQUx4DmjiEhv48-0UA
-hackpad:
-trello:
-github:
+hackpad: 
+trello: 
+github: 
 ---
 
 ## About

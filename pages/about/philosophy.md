@@ -1,8 +1,8 @@
 ---
-layout: page
-permalink: /about/philosophy/
-crumb: about
 title: Our Philosophy
+permalink: "/about/philosophy/"
+layout: page
+crumb: about
 ---
 
 The DIYbiosphere is an [open-source][sphere] and participatory project, which means anyone can contribute to its content and development. As an open organization we want to be able to fluidly coordinate a large number of contributors while maintaining and striving towards a shared vision for the project.

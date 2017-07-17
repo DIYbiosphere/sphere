@@ -1,8 +1,8 @@
 ---
-layout: default
-permalink: /terms-of-use/
-crumb: copyright
 title: Terms of Use
+permalink: "/terms-of-use/"
+layout: default
+crumb: copyright
 summary: Copyright License Terms for the project in simple english
 ---
 

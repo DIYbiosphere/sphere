@@ -1,8 +1,8 @@
 ---
-layout: docs
-permalink: /docs/guides/github-eli5/
-crumb: guides
 title: GitHub, Explain Like I'm 5 (ELI5)
+permalink: "/docs/guides/github-eli5/"
+layout: docs
+crumb: guides
 ---
 
 Don't Panic! The essentials for working on the DIYbiosphere are pretty simple. You could go by without reading this guide and only follow our tutorials. However, understanding a few technicals are very helpful for doing things with more confidence and for building expertise. So let's get to it!

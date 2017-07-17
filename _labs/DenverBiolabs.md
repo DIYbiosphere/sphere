@@ -1,48 +1,40 @@
 ---
-manager:
-
 title: Denver Biolabs
+manager: 
 logo: http://denverbiolabs.com/img/logo.png
 website: http://denverbiolabs.com/
 start-date: 2015
-
-host-org:
-
+host-org: 
 type-org: Non-profit
-
-affiliates:
-
+affiliates: 
 address: 1250 14th Street
 directions: CU Dravo Building, 1st Floor
 postcode: 80202
 city: Denver
 state: Colorado
 country: United States
-
-tags:
-
 email: info@denverbiolabs.com
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
+blog: 
+rss: 
+wiki: 
+forum: 
+mailinglist: 
+irc: 
+gitter: 
 slack: http://slack.denverbiolabs.com/
 meetup: https://www.meetup.com/denverbiolabs/
 twitter: https://twitter.com/denverbiolabs
 facebook: https://www.facebook.com/denverbiolabs
-google+:
-linkedin:
+google+: 
+linkedin: 
 instagram: https://www.instagram.com/denverbiolabs/
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+flickr: 
+pinterest: 
+vimeo: 
+youtube: 
+hackpad: 
+trello: 
+github: 
 ---
 
 ## About

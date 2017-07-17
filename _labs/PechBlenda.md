@@ -1,49 +1,41 @@
 ---
-manager:
-
 title: PechBlenda Lab
+manager: 
 motto: Laboratory of bioelectrochemical experimentations
-logo:
+logo: 
 website: https://pechblenda.hotglue.me/
-start-date:
-
+start-date: 
 host-org: Calafou
-
-type-org:
-
-affiliates:
-
-address:
-directions:
-postcode:
+type-org: 
+affiliates: 
+address: 
+directions: 
+postcode: 
 city: Barcelona
-state:
+state: 
 country: Spain
-
-tags:
-
-email:
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
-twitter:
-facebook:
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+email: 
+blog: 
+rss: 
+wiki: 
+forum: 
+mailinglist: 
+irc: 
+gitter: 
+slack: 
+meetup: 
+twitter: 
+facebook: 
+google+: 
+linkedin: 
+instagram: 
+flickr: 
+pinterest: 
+vimeo: 
+youtube: 
+hackpad: 
+trello: 
+github: 
 ---
 
 ## About

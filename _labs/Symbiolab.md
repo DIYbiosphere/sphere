@@ -1,49 +1,42 @@
 ---
-manager:
-
 title: Symbiolab
-logo:
+manager: 
+logo: 
 website: http://irnas.eu/symbiolab.html
 start-date: 2014
-
 host-org: "[IRNAS](http://irnas.eu/)"
-
-type-org:
-
-affiliates:
-
+type-org: 
+affiliates: 
 address: Tkalski prehod 4
-directions:
+directions: 
 postcode: 2000
 city: Maribor
-state:
+state: 
 country: Slovenia
-
-tags:
-
 email: info@irnas.eu
-blog:
-rss:
-wiki:
+blog: 
+rss: 
+wiki: 
 forum: http://forum.irnas.eu/
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
+mailinglist: 
+irc: 
+gitter: 
+slack: 
+meetup: 
 twitter: https://twitter.com/institute_irnas
 facebook: https://www.facebook.com/instituteirnas
-google+:
+google+: 
 linkedin: https://www.linkedin.com/company/5091007?trk=vsrp_companies_res_name&trkInfo=VSRPsearchId%3A2145770871449478448235%2CVSRPtargetId%3A5091007%2CVSRPcmpt%3Aprimary
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
+instagram: 
+flickr: 
+pinterest: 
+vimeo: 
+youtube: 
+hackpad: 
+trello: 
 github: https://github.com/IRNAS
 ---
+
 is an open & DIY biolaboratory
 
 ## About

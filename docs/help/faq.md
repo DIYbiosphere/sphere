@@ -1,8 +1,8 @@
 ---
-layout: docs
-permalink: /docs/help/faq/
-crumb: help
 title: Frequently Asked Questions (FAQ)
+permalink: "/docs/help/faq/"
+layout: docs
+crumb: help
 summary: In this section
 ---
 

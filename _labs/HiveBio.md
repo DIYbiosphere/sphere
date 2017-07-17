@@ -1,48 +1,40 @@
 ---
-manager:
-
 title: HiveBio
+manager: 
 logo: https://pbs.twimg.com/profile_images/506940646242799616/umLtASDs.png
 website: http://hivebio.org/
 start-date: 2013
-
-host-org:
-
-type-org:
-
-affiliates:
-
+host-org: 
+type-org: 
+affiliates: 
 address: 4000 NE 41st St.
-directions:
+directions: 
 postcode: 98105
 city: Seattle
 state: Washington
 country: United States
-
-tags:
-
-email:
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
-twitter:
-facebook:
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+email: 
+blog: 
+rss: 
+wiki: 
+forum: 
+mailinglist: 
+irc: 
+gitter: 
+slack: 
+meetup: 
+twitter: 
+facebook: 
+google+: 
+linkedin: 
+instagram: 
+flickr: 
+pinterest: 
+vimeo: 
+youtube: 
+hackpad: 
+trello: 
+github: 
 ---
 
 ## About

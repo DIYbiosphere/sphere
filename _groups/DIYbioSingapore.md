@@ -1,48 +1,40 @@
 ---
-manager:
-
 title: DIYbio Singapore
-logo:
+manager: 
+logo: 
 website: https://diybiosingapore.wordpress.com/
-start-date:
-
-host-org:
-
-type-org:
-
-affiliates:
-
-address:
-directions:
-postcode:
+start-date: 
+host-org: 
+type-org: 
+affiliates: 
+address: 
+directions: 
+postcode: 
 city: Singapore
-state:
+state: 
 country: Singapore
-
-tags:
-
-email:
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
-twitter:
+email: 
+blog: 
+rss: 
+wiki: 
+forum: 
+mailinglist: 
+irc: 
+gitter: 
+slack: 
+meetup: 
+twitter: 
 facebook: https://www.facebook.com/groups/300351496770239/
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+google+: 
+linkedin: 
+instagram: 
+flickr: 
+pinterest: 
+vimeo: 
+youtube: 
+hackpad: 
+trello: 
+github: 
 ---
 
 ## About

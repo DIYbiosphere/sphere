@@ -1,51 +1,43 @@
 ---
-manager:
-
 title: London Biohackspace
+tags:
+- hackerspace
+manager: 
 logo: https://biohackspace.org/wp-content/uploads/2014/07/Biohack_logo.png
 website: https://biohackspace.org/
 start-date: 2009
-
 host-org: "[London Hackspace](https://london.hackspace.org.uk/)"
-
-type-org:
-
-affiliates:
-
+type-org: 
+affiliates: 
 address: 447 Hackney Road
-directions:
+directions: 
 postcode: E2 9DY
 city: London
-state:
+state: 
 country: United Kingdom
-
-tags:
-  - hackerspace
-
-
 ical: http://www.google.com/calendar/ical/gc1bopmh3c5n0ogvlo6ceujlkc%40group.calendar.google.com/public/basic.ics
-email:
-blog:
-rss:
+email: 
+blog: 
+rss: 
 wiki: https://wiki.london.hackspace.org.uk/view/Group:Biohacking
-forum:
-mailinglist:
+forum: 
+mailinglist: 
 irc: http://webchat.freenode.net/?channels=london-hack-space
-gitter:
-slack:
-meetup:
+gitter: 
+slack: 
+meetup: 
 twitter: https://twitter.com/LondonBioHack
 facebook: https://www.facebook.com/LondonBiohackspace
-google+:
-linkedin:
-instagram:
+google+: 
+linkedin: 
+instagram: 
 flickr: https://www.flickr.com/groups/londonhackspace/pool
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+pinterest: 
+vimeo: 
+youtube: 
+hackpad: 
+trello: 
+github: 
 ---
 
 ## About

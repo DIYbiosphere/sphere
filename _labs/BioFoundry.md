@@ -1,49 +1,42 @@
 ---
-manager:
-
 title: Bio Foundry
+manager: 
 logo: http://foundry.bio/wp-content/themes/TrendyRoom/content/logo.png
 website: http://foundry.bio/
 start-date: 2014
-
-host-org:
-
-type-org:
-
-affiliates:
-
+host-org: 
+type-org: 
+affiliates: 
 address: 296 Botany Road
-directions:
+directions: 
 postcode: 2015
 city: Alexandria
 state: New South Wales
 country: Australia
-
-tags:
-
-email:
-blog:
+email: 
+blog: 
 rss: http://foundry.bio/feed/
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
-twitter:
+wiki: 
+forum: 
+mailinglist: 
+irc: 
+gitter: 
+slack: 
+meetup: 
+twitter: 
 facebook: https://www.facebook.com/thebiofoundry/
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+google+: 
+linkedin: 
+instagram: 
+flickr: 
+pinterest: 
+vimeo: 
+youtube: 
+hackpad: 
+trello: 
+github: 
 ---
+
 BIOFOUNDRY IS AUSTRALIA'S FIRST COMMUNITY LAB FOR CITIZEN SCIENTISTS. OUR MISSION IS TO DEMOCRATISE SCIENCE BY BREAKING COST ENTRY BARRIER TO SCIENCE EDUCATION AND RESEARCH. COME AND JOIN US ON OUR OPEN SCIENCE ADVENTURE.
 
 ## About

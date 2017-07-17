@@ -1,48 +1,40 @@
 ---
-manager:
-
 title: Genspace
+manager: 
 logo: http://genspace.org/static/img/Genspace_logo.png?5B4RHexi
 website: http://genspace.org/
 since: 2010
-
-
 type-org: Non-profit
-
-
 address: 33 Flatbush Avenue
 directions: 7th Floor. 11217
-postcode:
+postcode: 
 city: Brooklyn
 state: New York
 country: United States
-
-tags:
-
 email: info@genspace.org
 blog: http://www.genspace.org/blog/
 rss: http://www.genspace.org/blog/feed/
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
+wiki: 
+forum: 
+mailinglist: 
+irc: 
+gitter: 
+slack: 
+meetup: https://www.meetup.com/Brooklyn-Biohackers/
 twitter: https://twitter.com/genspacenyc
 facebook: https://www.facebook.com/Genspace-174637505918889/
-meetup: https://www.meetup.com/Brooklyn-Biohackers/
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+google+: 
+linkedin: 
+instagram: 
+flickr: 
+pinterest: 
+vimeo: 
+youtube: 
+hackpad: 
+trello: 
+github: 
 ---
+
 Genspace is a nonprofit organization dedicated to promoting citizen science and access to biotechnology in the greater New York Area
 
 ## About

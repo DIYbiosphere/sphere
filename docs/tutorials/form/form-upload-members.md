@@ -1,6 +1,6 @@
 ---
+permalink: "/form/upload/members/"
 layout: form
-permalink: /form/upload/members/
 tab: members
 ---
 

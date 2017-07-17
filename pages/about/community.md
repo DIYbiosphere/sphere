@@ -1,8 +1,8 @@
 ---
-layout: page
-permalink: /about/community/
-crumb: about
 title: Our Community
+permalink: "/about/community/"
+layout: page
+crumb: about
 ---
 
 Anyone with a GitHub account ([sign up][gh_join]) can be a contributor and create or edit content and participate in the development of DIYbiosphere. The development is managed by the _Development Community_ which coordinates through an organization account on GitHub named also [DIYbiosphere][gh_org], which anyone can freely [join] and become a member. [Members] have greater access permissions to the project and can be part of [Teams] who are key members with distict roles in the development and enjoy even greater access privileges. Learn more about the [access permissions][permissions] of the project.

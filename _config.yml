@@ -1,192 +1,191 @@
-# Site settings
+---
 title: DIYbiosphere
-description: "A collaborative library of Do-it-Yourself Biology initiatives"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "sphere.diybio.org"
-permalink: /updates/:year/:month/:day/:title
-repository: "DIYbiosphere/sphere"
-github_username: "DIYbiosphere"
+timezone: UTC
+collections:
+  events:
+    title: Events
+    output: true
+    permalink: "/entries/events/"
+    collection: event
+  groups:
+    title: Groups
+    output: true
+    permalink: "/entries/groups/"
+    collection: group
+  incubators:
+    title: Incubators
+    output: true
+    permalink: "/entries/incubators/"
+    collection: incubator
+  labs:
+    title: Labs
+    output: true
+    permalink: "/entries/labs/"
+    collection: lab
+  networks:
+    title: Networks
+    output: true
+    permalink: "/entries/networks/"
+    collection: network
+  others:
+    title: Others
+    output: true
+    permalink: "/entries/others/"
+    collection: other
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+    permalink: "/entries/projects/"
+    collection: project
+  startups:
+    title: Startups
+    output: true
+    permalink: "/entries/startups/"
+    collection: startup
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: projects
+  values:
+    layout: entry
+    permalink: "/entries/projects/:title"
+    collection: project
+- scope:
+    path: ''
+    type: startups
+  values:
+    layout: entry
+    permalink: "/entries/startups/:title"
+    collection: startup
+- scope:
+    path: ''
+    type: labs
+  values:
+    layout: entry
+    permalink: "/entries/labs/:title"
+    collection: lab
+- scope:
+    path: ''
+    type: incubators
+  values:
+    layout: entry
+    permalink: "/entries/incubators/:title"
+    collection: incubator
+- scope:
+    path: ''
+    type: groups
+  values:
+    layout: entry
+    permalink: "/entries/groups/:title"
+    collection: group
+- scope:
+    path: ''
+    type: networks
+  values:
+    layout: entry
+    permalink: "/entries/networks/:title"
+    collection: network
+- scope:
+    path: ''
+    type: events
+  values:
+    layout: entry
+    permalink: "/entries/events/:title"
+    collection: event
+- scope:
+    path: ''
+    type: others
+  values:
+    layout: entry
+    permalink: "/entries/others/:title"
+    collection: other
+description: A collaborative library of Do-it-Yourself Biology initiatives
+baseurl: ''
+url: sphere.diybio.org
+permalink: "/updates/:year/:month/:day/:title"
+repository: DIYbiosphere/sphere
+github_username: DIYbiosphere
 twitter:
   username: DIYbiosphere
-
-
-# Excluded files and dirs
-exclude: [script, Gemfile, Gemfile.lock, README.md, DataReusePlan.txt, .assets-cache, .sass-cache]
-
-# Jekyll assets plugin
+exclude:
+- script
+- Gemfile
+- Gemfile.lock
+- README.md
+- DataReusePlan.txt
+- ".assets-cache"
+- ".sass-cache"
 assets:
   compress:
     css: sass
     js: uglifier
   autoprefixer:
     browsers:
-      - "last 2 versions"
-      - "IE > 9"
+    - last 2 versions
+    - IE > 9
   assets:
-    - "*.png"
-    - "*.gif"
-    - "*.jpg"
-    - "*.svg"
+  - "*.png"
+  - "*.gif"
+  - "*.jpg"
+  - "*.svg"
   sources:
-    - _assets
-    - _assets/img
-    - _assets/js
-    - _assets/css
-    - _assets/fonts
-
-# Where things are
-source:       .
-destination:  ./_site
-plugins_dir:  ./_plugins
-layouts_dir:  ./_layouts
-data_dir:     ./_data
-includes_dir: ./_includes
-
-# Build settings
+  - _assets
+  - _assets/img
+  - _assets/js
+  - _assets/css
+  - _assets/fonts
+source: "."
+destination: "./_site"
+plugins_dir: "./_plugins"
+layouts_dir: "./_layouts"
+data_dir: "./_data"
+includes_dir: "./_includes"
 markdown: kramdown
 highlighter: rouge
-
 gems:
-  - jemoji
-  - jekyll-gist
-  - jekyll-assets
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-mentions
-  - jekyll-github-metadata
-  - algoliasearch-jekyll
-
+- jemoji
+- jekyll-gist
+- jekyll-assets
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-mentions
+- jekyll-github-metadata
+- algoliasearch-jekyll
 algolia:
-  application_id: 'ITI5JHZJM9'
-  index_name:     'diybiosphere'
+  application_id: ITI5JHZJM9
+  index_name: diybiosphere
   lazy_update: true
   attributesToIndex:
-    - title
-    - h1
-    - h2
-    - h3
-    - h4
-    - city
-    - state
-    - country
-    - geo-lat
-    - geo-lng
-    - collection
-    - type-org
-    - host-org
-    - unordered(text)
-    - unordered(tags)
+  - title
+  - h1
+  - h2
+  - h3
+  - h4
+  - city
+  - state
+  - country
+  - geo-lat
+  - geo-lng
+  - collection
+  - type-org
+  - host-org
+  - unordered(text)
+  - unordered(tags)
   attributesForFaceting:
-    - collection
-    - type-org
-    - city
-    - country
-    - tags
-    - status
-
-# Collections
-collections:
-  projects:
-    title: Projects
-    output: true
-    permalink: /entries/projects/
-    collection: project
-  startups:
-    title: Startups
-    output: true
-    permalink: /entries/startups/
-    collection: startup
-  labs:
-    title: Labs
-    output: true
-    permalink: /entries/labs/
-    collection: lab
-  incubators:
-    title: Incubators
-    output: true
-    permalink: /entries/incubators/
-    collection: incubator
-  groups:
-    title: Groups
-    output: true
-    permalink: /entries/groups/
-    collection: group
-  networks:
-    title: Networks
-    output: true
-    permalink: /entries/networks/
-    collection: network
-  events:
-    title: Events
-    output: true
-    permalink: /entries/events/
-    collection: event
-  others:
-    title: Others
-    output: true
-    permalink: /entries/others/
-    collection: other
-
-# Default Values
-defaults:
-  -
-    scope:
-      type: posts
-    values:
-      layout: post
-  -
-    scope:
-      type: projects
-    values:
-      layout: entry
-      permalink: /entries/projects/:title
-      collection: project
-  -
-    scope:
-      type: startups
-    values:
-      layout: entry
-      permalink: /entries/startups/:title
-      collection: startup
-  -
-    scope:
-      type: labs
-    values:
-      layout: entry
-      permalink: /entries/labs/:title
-      collection: lab
-  -
-    scope:
-      type: incubators
-    values:
-      layout: entry
-      permalink: /entries/incubators/:title
-      collection: incubator
-  -
-    scope:
-      type: groups
-    values:
-      layout: entry
-      permalink: /entries/groups/:title
-      collection: group
-  -
-    scope:
-      type: networks
-    values:
-      layout: entry
-      permalink: /entries/networks/:title
-      collection: network
-  -
-    scope:
-      type: events
-    values:
-      layout: entry
-      permalink: /entries/events/:title
-      collection: event
-  -
-    scope:
-      type: others
-    values:
-      layout: entry
-      permalink: /entries/others/:title
-      collection: other
+  - collection
+  - type-org
+  - city
+  - country
+  - tags
+  - status

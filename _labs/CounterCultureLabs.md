@@ -1,48 +1,40 @@
 ---
-manager:
-
 title: Counter Culture Labs
+manager: 
 logo: https://counterculturelabs.org/wp-content/uploads/2015/05/logo-full-small.png
 website: http://counterculturelabs.org/
 start-date: 2013
-
-host-org:
-
+host-org: 
 type-org: Community
-
-affiliates:
-
+affiliates: 
 address: 4799 Shattuck
-directions:
+directions: 
 postcode: 94114
 city: Oakland
 state: California
 country: United States
-
-tags:
-
 email: info@counterculturelabs.org
-blog:
-rss:
+blog: 
+rss: 
 wiki: https://counterculturelabs.org/wiki/Counter_Culture_Labs
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
+forum: 
+mailinglist: 
+irc: 
+gitter: 
+slack: 
 meetup: http://www.meetup.com/Counter-Culture-Labs/
 twitter: https://twitter.com/countrcultrlabs
 facebook: https://www.facebook.com/CounterCultureLabs
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+google+: 
+linkedin: 
+instagram: 
+flickr: 
+pinterest: 
+vimeo: 
+youtube: 
+hackpad: 
+trello: 
+github: 
 ---
 
 ## About
