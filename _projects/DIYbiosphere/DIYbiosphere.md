@@ -1,6 +1,5 @@
 ---
 manager: sabgaby
-collection: project
 
 header-image: http://cdn.images.express.co.uk/img/dynamic/151/590x/Earth-spin-742026.jpg
 title: DIYbiosphere
@@ -19,7 +18,7 @@ type-org: Non-profit
 affiliations: '[UNIGE](https://diybio.org/)'
 num-staff: 2
 num-volunteers:
-founders:
+founders: Gabriela A. Sanchez
 authors:
 
 lat: 46.204391

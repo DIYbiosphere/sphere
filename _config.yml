@@ -11,7 +11,7 @@ twitter:
 
 
 # Excluded files and dirs
-exclude: [script, Gemfile, Gemfile.lock, README.md, DataReusePlan.txt, .assets-cache, .sass-cache]
+exclude: ['vendor', 'script', 'Gemfile', 'Gemfile.lock', 'README.md', 'DataReusePlan.txt', '.assets-cache', '.sass-cache']
 
 # Jekyll assets plugin
 assets:
@@ -34,6 +34,16 @@ assets:
     - _assets/css
     - _assets/fonts
 
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+github: [metadata]
+encoding: UTF-8
+kramdown:
+  input: GFM
+  hard_wrap: false
+
 # Where things are
 source:       .
 destination:  ./_site
@@ -42,11 +52,7 @@ layouts_dir:  ./_layouts
 data_dir:     ./_data
 includes_dir: ./_includes
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-
-gems:
+plugins:
   - jemoji
   - jekyll-gist
   - jekyll-assets
@@ -55,6 +61,7 @@ gems:
   - jekyll-mentions
   - jekyll-github-metadata
   - algoliasearch-jekyll
+  - jekyll-last-modified-at
 
 algolia:
   application_id: 'ITI5JHZJM9'

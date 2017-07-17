@@ -4,8 +4,8 @@ manager:
 title: BioFabbing Convergence
 logo:
 website:
-start-date:
-end-date:
+start-date: 2017-05-10
+end-date: 2017-05-14
 
 host-org:
 
