@@ -2,9 +2,6 @@
 title: DIYbiosphere
 timezone: UTC
 collections:
-  docs:
-    title: Docs
-    output: true
   events:
     title: Events
     output: true
