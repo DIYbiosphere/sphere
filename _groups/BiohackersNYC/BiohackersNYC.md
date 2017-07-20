@@ -3,9 +3,10 @@ manager:
 
 title: Biohackers NYC
 motto: human performance optimized
-logo:
-website:
+status: inactive
 start-date: 2012
+end-date: 2015
+succesor: Hackstronauts
 
 host-org:
 
@@ -24,30 +25,10 @@ country: United States
 tags:
   - transhumanism
 
-email:
-blog:
-rss: http://www.biohackersnyc.com/feed/
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
-twitter: https://pbs.twimg.com/profile_images/418070117612662784/L9akYxhx_400x400.png
 facebook: https://www.facebook.com/Biohackers-NYC-380626135343749/
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+
 ---
 
-## About
+A group devoted to exploring and promoting personal health and productivity technologies; based in the Great New York Area.
 
 ## History

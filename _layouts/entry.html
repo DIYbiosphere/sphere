@@ -2,17 +2,27 @@
 layout: default
 ---
 
-{% if page.header-image %}
-<div style="background-image: url({{ page.header-image }}); background-repeat: no-repeat;  height: 250px; background-size: cover; background-attachment: fixed;">
-{% elsif page.header-color %}
-<div style="background-color: {{ page.header-color }}; background-repeat: no-repeat;  height: 250px; background-size: cover; background-attachment: fixed;">
-{% else %}
-<div class="xo top padding">
+<!-- add header if available -->
+{% capture headerPNG %}{% file_exists {{ page.url | remove: "/entries/" | prepend: "_" | append: "header.png"}} %}{% endcapture %}
+  {% if headerPNG=="true" %}
+  <div style="background-image: url({{ page.url | append: "header.png"}}); background-repeat: no-repeat;  height: 250px; background-size: cover; background-attachment: fixed;">
+  {% else %}
+{% endif %}
+<!-- In case it is jpg -->
+{% capture headerJPG %}{% file_exists {{ page.url | remove: "/entries/" | prepend: "_" | append: "header.jpg"}} %}{% endcapture %}
+  {% if headerJPG=="true" %}
+  <div style="background-image: url({{ page.url | append: "header.jpg"}}); background-repeat: no-repeat;  height: 250px; background-size: cover; background-attachment: fixed;">
+  {% else %}
+  <div class="xo top padding">
 {% endif %}
 </div>
+
+<article>
   <div class="ui grid container xo top padding">
     <div class="five wide column">
       {% include info-box.html %}
+      {% include keywords.html %}
+      {% include call-to-action.html %}
     </div>
     <div class="eleven wide column">
       <h1 class="ui header">{{ page.title }}
@@ -21,6 +31,43 @@ layout: default
       <div class="sub header"><em>{{ page.motto }}</em></div>
       {% endif %}
       </h1>
+
+      <div class="ui secondary pointing small tabular menu">
+        <a class="active item" data-tab="overview">Overview</a>
+
+        {% for project in site.projects %}
+          {% if project.host-org==page.title %}
+            <a class="item" data-tab="projects">Projects</a>
+            {% break %}
+            {% else %}
+          {% endif %}
+        {% endfor %}
+
+        {% for startup in site.startup %}
+          {% if startup.host-org==page.title %}
+              <a class="item" data-tab="startups">Startups</a>
+            {% break %}
+          {% endif %}
+        {% endfor %}
+
+      </div>
+
+      <div class="ui tab active basic segment" data-tab="overview">
         {{content}}
+      </div>
+      <div class="ui tab basic segment" data-tab="projects">
+        <div class="ui very relaxed list">
+          {% for project in site.projects %}
+            {% if project.host-org == page.title %}
+              <div class="item">
+                <div class="header">{{ project.title }}</div>
+                {{ project.motto }}
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+
     </div>
   </div>
+</article>

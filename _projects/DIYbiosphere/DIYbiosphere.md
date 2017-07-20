@@ -4,7 +4,7 @@ manager: sabgaby
 header-image: http://cdn.images.express.co.uk/img/dynamic/151/590x/Earth-spin-742026.jpg
 title: DIYbiosphere
 website: http://sphere.diybio.org/
-logo: https://raw.githubusercontent.com/DIYbiosphere/sphere/master/_assets/img/sphere-logo-compact.png
+logo: /entries/labs/counterculturelabs/logo.png
 motto: Connecting DIYbio all over the world
 profile-pic:
 status: active

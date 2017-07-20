@@ -52,43 +52,43 @@ collections:
   projects:
     title: Projects
     output: true
-    permalink: /entries/projects/
-    collection: project
+    permalink: /entries/:collection/:path
+    collection: Project
   startups:
     title: Startups
     output: true
-    permalink: /entries/startups/
-    collection: startup
+    permalink: /entries/:collection/:path
+    collection: Startup
   labs:
     title: Labs
     output: true
-    permalink: /entries/labs/
-    collection: lab
+    permalink: /entries/:collection/:path
+    collection: Lab
   incubators:
     title: Incubators
     output: true
-    permalink: /entries/incubators/
-    collection: incubator
+    permalink: /entries/:collection/:path
+    collection: Incubator
   groups:
     title: Groups
     output: true
-    permalink: /entries/groups/
-    collection: group
+    permalink: /entries/:collection/:path
+    collection: Group
   networks:
     title: Networks
     output: true
-    permalink: /entries/networks/
-    collection: network
+    permalink: /entries/:collection/:path
+    collection: Network
   events:
     title: Events
     output: true
-    permalink: /entries/events/
-    collection: event
+    permalink: /entries/:collection/:path
+    collection: Event
   others:
     title: Others
     output: true
-    permalink: /entries/others/
-    collection: other
+    permalink: /entries/:collection/:path
+    collection: Other
 
 # Default Values
 defaults:
@@ -102,57 +102,57 @@ defaults:
       type: projects
     values:
       layout: entry
-      permalink: /entries/projects/:title
-      collection: project
+      permalink: /entries/:collection/:name/
+      collection: Project
   -
     scope:
       type: startups
     values:
       layout: entry
-      permalink: /entries/startups/:title
-      collection: startup
+      permalink: /entries/:collection/:name/
+      collection: Startup
   -
     scope:
       type: labs
     values:
       layout: entry
-      permalink: /entries/labs/:title
-      collection: lab
+      permalink: /entries/:collection/:name/
+      collection: Lab
   -
     scope:
       type: incubators
     values:
       layout: entry
-      permalink: /entries/incubators/:title
-      collection: incubator
+      permalink: /entries/:collection/:path/
+      collection: Incubator
   -
     scope:
       type: groups
     values:
       layout: entry
-      permalink: /entries/groups/:title
-      collection: group
+      permalink: /entries/:collection/:name/
+      collection: Group
   -
     scope:
       type: networks
     values:
       layout: entry
-      permalink: /entries/networks/:title
-      collection: network
+      permalink: /entries/:collection/:name/
+      collection: Network
   -
     scope:
       type: events
     values:
       layout: entry
-      permalink: /entries/events/:title
-      collection: event
+      permalink: /entries/:collection/:name/
+      collection: Event
   -
     scope:
       type: others
     values:
       layout: entry
-      permalink: /entries/others/:title
-      collection: other
+      permalink: /entries/:collection/:name/
+      collection: Other
 
 # PLUGIN CONFIGURATIONS
 
@@ -201,6 +201,17 @@ algolia:
       - collection
       - type-org
       - host-org
+      - unordered(text)
+      - unordered(tags)
+    searchableAttributes:
+      - title
+      - h1
+      - h2
+      - h3
+      - h4
+      - city
+      - state
+      - country
       - unordered(text)
       - unordered(tags)
     attributesForFaceting:

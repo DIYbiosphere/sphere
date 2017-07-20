@@ -1,0 +1,12 @@
+
+
+  {% for item in page.call-to-action %}
+  <div class="ui yellow inverted segment">
+    <a class="noelink" href="{{ item.URL }}">
+      <button class="ui inverted button">
+        {{ item.title }}
+      </button>
+    </a>
+    <p>{{ item.description }}</p>
+  </div>
+  {% endfor %}

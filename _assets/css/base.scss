@@ -22,6 +22,10 @@
   }
 }
 
+.noul {
+  text-decoration: none !important;
+}
+
 article {
   a:not(.noelink)[href^="http"]:after {
     display: inline-block;
@@ -33,7 +37,7 @@ article {
     background-size: 100%;
   }
 
-  a[href$=".md"]:after {
+  a:not(.noul)[href$=".md"]:after {
     display: inline-block;
     width: 10px;
     height: 10px;

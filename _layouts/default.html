@@ -7,7 +7,7 @@
   <body>
 
     {% include header.html %}
-      <main class="xo margin top fourfold">
+      <main class="xo margin top fivefold">
         <div class="xo padding top">
           {{content}}
         </div>
@@ -48,6 +48,11 @@
 
     {% if page.layout == 'landing' %}
       <script type="text/javascript">$('.ui.accordion').accordion();</script>
+    {% endif %}
+
+
+    {% if page.layout == 'entry' %}
+      <script type="text/javascript">$('.tabular.menu .item').tab();</script>
     {% endif %}
 
     {% if page.layout == 'entries' %}

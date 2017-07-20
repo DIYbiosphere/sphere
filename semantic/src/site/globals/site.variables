@@ -22,30 +22,19 @@
 
 /*-------------------
        Links
+--------------------*/
 
-
-@linkColor           : currentColor;
+@linkColor           : @textColor;
 @linkUnderline       : underline;
 @linkHoverColor      : @primaryColor;
 @linkHoverUnderline  : none;
---------------------*/
-
-/*-------------------
-    Focused Input
---------------------*/
-
-/* Used on inputs, textarea etc */
-@focusedFormBorderColor: #85B7D9;
-
-/* Used on dropdowns, other larger blocks */
-@focusedFormMutedBorderColor: #96C8DA;
 
 
 /*-------------------
     Brand Colors
 --------------------*/
 
-@primaryColor        : @blue;
+@primaryColor        : #F9F52B;
 @secondaryColor      : @black;
 
 @lightPrimaryColor   : @lightBlue;
