@@ -25,18 +25,13 @@
     <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
     <script type="text/javascript">$('.coded-with-love').popup({inline: true,hoverable: true,position: 'top left',delay: {hide: 300}});</script>
 
-<!-- ALGOLIA -->
-  <!-- InstantSearch -->
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.0.2/dist/instantsearch.min.js"></script>
     <!-- Algolia search & components -->
     <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearchLite.min.js"></script>
     <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch-preact.min.js"></script>
     <script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/hogan.js/3.0.2/hogan.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags16.css" />
-
- 
 
     <!-- REACT -->
     <script src="https://unpkg.com/react@15/dist/react.js"></script>
@@ -61,12 +56,8 @@
     {% endif %}
 
     {% if page.layout == 'entries' %}
-      <script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js" type="text/javascript"></script>
-      <script src="https://cdn.datatables.net/buttons/1.1.2/js/dataTables.buttons.min.js" type="text/javascript"></script>
-      <script src="https://cdn.datatables.net/buttons/1.1.2/js/buttons.html5.min.js" type="text/javascript"></script>
       <script type="text/javascript">$('.tabular.menu .item').tab();</script>
       {% javascript entries %}
-      {% javascript slider-range %}
       <script type="text/javascript">$('table').tablesort();</script>
 
       <!-- LEAFLET -->
@@ -78,15 +69,8 @@
       <script src="https://cdn.jsdelivr.net/instantsearch.js/1.6.0/instantsearch.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/places.js@1.4.14/dist/cdn/placesInstantsearchWidget.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/places.js@1.4.14"></script>
-
-      {% javascript map %}
     {% endif %}
 
-    {% if page.layout == 'maps' %}
-      <script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js" type="text/javascript"></script>
-      <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
-      {% javascript maps %}
-    {% endif %}
 
     {% if page.layout == 'docs' %}
       <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>

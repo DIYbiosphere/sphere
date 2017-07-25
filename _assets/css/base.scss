@@ -94,6 +94,10 @@ footer {
   }
 }
 
+.search-highlight {
+  text-decoration: underline;
+  background-color: yellow;
+}
 /**
 *  This keeps hash tag links visible,
 *  otherwise they are blocked by the top navbar

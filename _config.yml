@@ -186,17 +186,25 @@ algolia:
   application_id: 'ITI5JHZJM9'
   index_name: 'diybiosphere'
   lazy_update: true
-  searchableAttributes:
-    - title
-    - city
-    - state
-    - country
-    - unordered(text)
-    - unordered(tags)
-  attributesForFaceting:
-    - collection
-    - type-org
-    - city
-    - country
-    - tags
-    - status
+  settings:
+    attributesToIndex:
+      - title, alias
+      - city
+      - state
+      - country
+      - unordered(text)
+      - unordered(tags)
+    attributesForFaceting:
+      - collection
+      - type-org
+      - city
+      - state
+      - country
+      - tags
+      - status
+    attributesToSnippet: ['text:20']
+    attributesToHighlight: ['*']
+    highlightPostTag: </span>
+    highlightPreTag: <span class="search-highlight">
+    minWordSizefor1Typo: 3
+    minWordSizefor2Typos: 7

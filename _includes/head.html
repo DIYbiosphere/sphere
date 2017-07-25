@@ -15,16 +15,26 @@
   <!-- FONTS -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css" />
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cc-icons/1.2.1/css/cc-icons.min.css" >
-  <script src="https://use.fontawesome.com/2e5ba52749.js"></script>
+  {% javascript solid %}
+  {% javascript light %}
+  {% javascript regular %}
+  {% javascript fontawesome %}
 
-  {% if page.layout == 'entries' %}
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css" />
-    {% javascript table %}
-  {% endif %}
+
 
   {% css main %}
 
   {% seo %}
+
+<!-- ALGOLIA -->
+
+  <!-- Algolia InstantSearch -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.0.2/dist/instantsearch.min.css">
+
+  <!-- Algolia DocSearch -->
+  {% if page.layout == 'docs' %}
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
+  {% endif %}
 
   <!-- Google analytics tracking code -->
   <script>
@@ -36,22 +46,5 @@
     ga('create', 'UA-78642734-1', 'auto');
     ga('send', 'pageview');
   </script>
-
-  <!-- Leaflet -->
-  <!--<link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css"  />-->
-
-  <!-- Mapbox -->
-  <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' />
-
-  <!-- Algolia InstantSearch -->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css">
-
-  <!-- Algolia DocSearch -->
-  {% if page.layout == 'docs' %}
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
-  {% endif %}
-
-
-
 
 </head>
