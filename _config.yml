@@ -1,217 +1,207 @@
----
+# Site settings
 title: DIYbiosphere
-timezone: UTC
-collections:
-  events:
-    title: Events
-    output: true
-    permalink: "/entries/:collection/:path"
-    collection: Event
-  groups:
-    title: Groups
-    output: true
-    permalink: "/entries/:collection/:path"
-    collection: Group
-  incubators:
-    title: Incubators
-    output: true
-    permalink: "/entries/:collection/:path"
-    collection: Incubator
-  labs:
-    title: Labs
-    output: true
-    permalink: "/entries/:collection/:path"
-    collection: Lab
-  networks:
-    title: Networks
-    output: true
-    permalink: "/entries/:collection/:path"
-    collection: Network
-  others:
-    title: Others
-    output: true
-    permalink: "/entries/:collection/:path"
-    collection: Other
-  posts:
-    title: Posts
-    output: true
-  projects:
-    title: Projects
-    output: true
-    permalink: "/entries/:collection/:path"
-    collection: Project
-  startups:
-    title: Startups
-    output: true
-    permalink: "/entries/:collection/:path"
-    collection: Startup
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-- scope:
-    path: ''
-    type: projects
-  values:
-    layout: entry
-    permalink: "/entries/:collection/:name/"
-    collection: Project
-- scope:
-    path: ''
-    type: startups
-  values:
-    layout: entry
-    permalink: "/entries/:collection/:name/"
-    collection: Startup
-- scope:
-    path: ''
-    type: labs
-  values:
-    layout: entry
-    permalink: "/entries/:collection/:name/"
-    collection: Lab
-- scope:
-    path: ''
-    type: incubators
-  values:
-    layout: entry
-    permalink: "/entries/:collection/:path/"
-    collection: Incubator
-- scope:
-    path: ''
-    type: groups
-  values:
-    layout: entry
-    permalink: "/entries/:collection/:name/"
-    collection: Group
-- scope:
-    path: ''
-    type: networks
-  values:
-    layout: entry
-    permalink: "/entries/:collection/:name/"
-    collection: Network
-- scope:
-    path: ''
-    type: events
-  values:
-    layout: entry
-    permalink: "/entries/:collection/:name/"
-    collection: Event
-- scope:
-    path: ''
-    type: others
-  values:
-    layout: entry
-    permalink: "/entries/:collection/:name/"
-    collection: Other
-description: A collaborative library of Do-it-Yourself Biology initiatives
-baseurl: ''
-url: sphere.diybio.org
-permalink: "/updates/:year/:month/:day/:title"
-repository: DIYbiosphere/sphere
-github_username: DIYbiosphere
+description: "A collaborative library of Do-it-Yourself Biology initiatives"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "sphere.diybio.org"
+permalink: /updates/:year/:month/:day/:title
+repository: "DIYbiosphere/sphere"
+github_username: "DIYbiosphere"
 twitter:
   username: DIYbiosphere
-exclude:
-- vendor
-- script
-- Gemfile
-- Gemfile.lock
-- README.md
-- DataReusePlan.txt
-- ".assets-cache"
-- ".sass-cache"
-github_comments_repository: diybiosphere/talk
+
+
+# Excluded files and dirs
+exclude: ['vendor', 'script', 'Gemfile', 'Gemfile.lock', 'README.md', 'DataReusePlan.txt', '.assets-cache', '.sass-cache', 'node_modules']
+
+github_comments_repository:  diybiosphere/talk
+
+# Build settings
 markdown: kramdown
 highlighter: rouge
-github:
-- metadata
+
+github: [metadata]
 encoding: UTF-8
 kramdown:
   input: GFM
   hard_wrap: false
-source: "."
-destination: "./_site"
-plugins_dir: "./_plugins"
-layouts_dir: "./_layouts"
-data_dir: "./_data"
-includes_dir: "./_includes"
+
+# Where things are
+source:       .
+destination:  ./_site
+plugins_dir:  ./_plugins
+layouts_dir:  ./_layouts
+data_dir:     ./_data
+includes_dir: ./_includes
+
 plugins:
-- jemoji
-- jekyll-gist
-- jekyll-assets
-- jekyll-sitemap
-- jekyll-seo-tag
-- jekyll-mentions
-- jekyll-github-metadata
-- algoliasearch-jekyll
-- jekyll-last-modified-at
-- jekyll-feed
-- jekyll-avatar
-- jekyll-toc
+  - jemoji
+  - jekyll-gist
+  - jekyll-assets
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-mentions
+  - jekyll-github-metadata
+  - algoliasearch-jekyll
+  - jekyll-last-modified-at
+  - jekyll-feed
+  - jekyll-avatar
+  - jekyll-toc #https://github.com/toshimaru/jekyll-toc/
+
+# Collections
+collections:
+  projects:
+    title: Projects
+    output: true
+    permalink: /entries/:collection/:path
+    collection: Project
+  startups:
+    title: Startups
+    output: true
+    permalink: /entries/:collection/:path
+    collection: Startup
+  labs:
+    title: Labs
+    output: true
+    permalink: /entries/:collection/:path
+    collection: Lab
+  incubators:
+    title: Incubators
+    output: true
+    permalink: /entries/:collection/:path
+    collection: Incubator
+  groups:
+    title: Groups
+    output: true
+    permalink: /entries/:collection/:path
+    collection: Group
+  networks:
+    title: Networks
+    output: true
+    permalink: /entries/:collection/:path
+    collection: Network
+  events:
+    title: Events
+    output: true
+    permalink: /entries/:collection/:path
+    collection: Event
+  others:
+    title: Others
+    output: true
+    permalink: /entries/:collection/:path
+    collection: Other
+
+# Default Values
+defaults:
+  -
+    scope:
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      type: projects
+    values:
+      layout: entry
+      permalink: /entries/:collection/:name/
+      collection: Project
+  -
+    scope:
+      type: startups
+    values:
+      layout: entry
+      permalink: /entries/:collection/:name/
+      collection: Startup
+  -
+    scope:
+      type: labs
+    values:
+      layout: entry
+      permalink: /entries/:collection/:name/
+      collection: Lab
+  -
+    scope:
+      type: incubators
+    values:
+      layout: entry
+      permalink: /entries/:collection/:path/
+      collection: Incubator
+  -
+    scope:
+      type: groups
+    values:
+      layout: entry
+      permalink: /entries/:collection/:name/
+      collection: Group
+  -
+    scope:
+      type: networks
+    values:
+      layout: entry
+      permalink: /entries/:collection/:name/
+      collection: Network
+  -
+    scope:
+      type: events
+    values:
+      layout: entry
+      permalink: /entries/:collection/:name/
+      collection: Event
+  -
+    scope:
+      type: others
+    values:
+      layout: entry
+      permalink: /entries/:collection/:name/
+      collection: Other
+
+# PLUGIN CONFIGURATIONS
+
+# Jekyll assets plugin
 assets:
   compress:
     css: sass
     js: uglifier
   autoprefixer:
     browsers:
-    - last 2 versions
-    - IE > 9
+      - "last 2 versions"
+      - "IE > 9"
   assets:
-  - "*.png"
-  - "*.gif"
-  - "*.jpg"
-  - "*.svg"
+    - "*.png"
+    - "*.gif"
+    - "*.jpg"
+    - "*.svg"
   sources:
-  - _assets
-  - _assets/img
-  - _assets/js
-  - _assets/css
-  - _assets/fonts
+    - _assets
+    - _assets/img
+    - _assets/js
+    - _assets/css
+    - _assets/fonts
+
+# Jekyll-Tagging: https://github.com/pattex/jekyll-tagging/
 tag_page_layout: tag_page
 tag_page_dir: tag
+
+# AlgoliaSearch-Jekyll: https://github.com/algolia/algoliasearch-jekyll/
 algolia:
-  application_id: ITI5JHZJM9
-  index_name: diybiosphere
+  application_id: 'ITI5JHZJM9'
+  index_name: 'diybiosphere'
   lazy_update: true
   settings:
-    attributesToIndex:
-    - title
-    - h1
-    - h2
-    - h3
-    - h4
-    - city
-    - state
-    - country
-    - geo-lat
-    - geo-lng
-    - collection
-    - type-org
-    - host-org
-    - unordered(text)
-    - unordered(tags)
     searchableAttributes:
-    - title
-    - h1
-    - h2
-    - h3
-    - h4
-    - city
-    - state
-    - country
-    - unordered(text)
-    - unordered(tags)
+      - title
+      - h1
+      - h2
+      - h3
+      - h4
+      - city
+      - state
+      - country
+      - unordered(text)
+      - unordered(tags)
     attributesForFaceting:
-    - collection
-    - type-org
-    - city
-    - country
-    - tags
-    - status
+      - collection
+      - type-org
+      - city
+      - country
+      - tags
+      - status
