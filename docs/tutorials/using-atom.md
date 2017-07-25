@@ -1,8 +1,8 @@
 ---
-title: Atom
-permalink: "/docs/tutorials/using-atom/"
 layout: docs
+permalink: /docs/tutorials/using-atom/
 crumb: tutorials
+title: Atom
 ---
 
 Atom is an open-source text editor developed by GitHub. It is available for MacOS, Windows, and Linux. We highly recommend it and our tutorials assume you use Atom and have downloaded the following packages:

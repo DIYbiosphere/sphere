@@ -4,11 +4,22 @@
 <div class="ui segment">
 {% endif %}
 
-{% if page.logo %}
+
 <a class="noelink" href="{{ page.website }}" target="_blank">
-  <img class="ui small centered image" src="{{ page.logo }}" />
-  </a>
-{% endif %}
+  <!-- Display logo -->
+  <!-- In case it is png -->
+  {% capture logoPNG %}{% file_exists {{ page.url | remove: "/entries/" | prepend: "_" | append: "logo.png"}} %}{% endcapture %}
+    {% if logoPNG=="true" %}
+        <img class="ui small centered image" src="{{ page.url | append: "logo.png"}}"/>
+    {% else %}
+  {% endif %}
+  <!-- In case it is jpg -->
+  {% capture logoJPG %}{% file_exists {{ page.url | remove: "/entries/" | prepend: "_" | append: "logo.jpg"}} %}{% endcapture %}
+    {% if logoJPG=="true" %}
+        <img class="ui small centered image" src="{{ page.url | append: "logo.jpg"}}"/>
+    {% else %}
+  {% endif %}
+</a>
 
         <table class="ui very basic small table">
         <tbody>
@@ -175,7 +186,17 @@
               Host Organization:
             </td>
             <td>
-              {{ page.host-org | markdownify }}
+              {% if page.host-org contains 'http' %}
+                {{ page.host-org | markdownify }}
+                {% else %}
+                {% for lab in site.labs %}
+                  {% if lab.title==page.host-org %}
+                  <a class="noelink" href="{{ lab.url | prepend: site.baseurl }}">
+                    {{ lab.title }}
+                  </a>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
             </td>
             </tr>
           </tr>
@@ -258,22 +279,6 @@
               {% endif %}
             </td>
           </tr>
-        <!-- Tags -->
-          {% if page.tags !='' %}
-
-          <tr>
-            <td colspan="2">
-              <div class="ui small labels">
-                {% for tag in page.tags %}
-                <div class="ui label">
-                  {{ tag }}
-                </div>
-                {% endfor %}
-              </div>
-            </td>
-          </tr>
-
-          {% endif %}
         </tbody>
 
       </table>

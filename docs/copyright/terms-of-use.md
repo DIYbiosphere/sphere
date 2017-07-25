@@ -1,14 +1,13 @@
 ---
+layout: page
+permalink: /terms-of-use/
 title: Terms of Use
-permalink: "/terms-of-use/"
-layout: default
-crumb: copyright
 summary: Copyright License Terms for the project in simple english
 ---
 
 **All the work in this project, except where [otherwise noted][noting-copyright], is freely available to use, modify and distribute** :two_hearts:
 
-The project covers two types of Work which require different copyright terms. The fully understand these terms the complete legal codes should be reviewed. The following is a human readable summary:
+The project covers two types of Work which require different copyright terms. To fully understand these terms the complete legal codes should be reviewed. The following is a human readable summary:
 
 - the **Library** which includes all the Content (text, images) and Data in the entries is dedicated to the Public Domain with [CC0], which allows for a completely free use of the work.
     - You can: use, modify, distribute original or derivative works for ANY purpose; personal, commercial, etc.

@@ -1,7 +1,7 @@
 ---
-title: Support
-permalink: "/docs/guides/"
 layout: docs
+permalink: /docs/guides/
+title: Support
 summary: Guides and help for working with the DIYbiosphere project
 ---
 

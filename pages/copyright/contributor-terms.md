@@ -1,14 +1,11 @@
 ---
-title: Contributor Terms
-permalink: "/contributor-terms/"
 layout: page
-crumb: copyright
+permalink: /contributor-terms/
+title: Contributor Terms
 summary: The legal rights waived and granted from contributions
 ---
 
 Following the model of a _Contributor License Agreement_ (CLA), we hereby state in legal terms the "contractual" agreement of the Intellectual Property Rights (IPR) assigned to the Contributions made to this project according to the copyright terms stated in our [Terms of Use]. This CLA is not a legally binding contract, instead, it’s purpose is to clarify the IPR of the Contributions You choose to Submit to Us. To fully understand these issues You should read in full the legal codes of our licenses: [MIT][mit] license and [CC0][cc0] public domain dedication
-
-{% include help.html title="TL;DR: I freely share my contributions" text="I concede the rights of my Contributions to the Software under a free license ([MIT]) and to Entries to the public domain ([CC0]), otherwise I will specify their copyright. I also will note Contributions on behalf of third parties and specify their copyrights" %}
 
 **By Contributing to Our Project, You accept and agree to the following terms and conditions for Your present and future Contributions Submitted to Us.**
 
@@ -27,3 +24,6 @@ Following the model of a _Contributor License Agreement_ (CLA), we hereby state 
 1. The rights that You waive and/or the rights that You grant to Us are effective on the date You first Submitted a Contribution to Us. Any and all Contributions Submitted to Us we will make available under the public domain if they pertain to the Library, and under the MIT license if they pertain to the Software.
 
 1. Please note that we have no obligation to accept or include Your Contributions to the Project, and that we may remove Your Contributions at any time if we suspect it might directly infringe on a third-party’s IPR, as well if Your Contributions do not comply with our [Code of Conduct].
+
+
+{% include help.html title="TLDR: I freely share my contributions" text="I concede the rights of my Contributions to the Software under a free license ([MIT]) and to Entries to the public domain ([CC0]), otherwise I will specify their copyright. I also will note Contributions on behalf of third parties and specify their copyrights" %}

@@ -5,9 +5,10 @@
       <!-- Logo or Name of Page -->
         <div>
           <h3>
-            <a class="noelink" href="{{ page.website }}" target="_blank">
+            <a class="noelink" href="{{ page.website }}" target="_blank"
+
             {% if page.logo %}
-              <img class="ui small centered image" src="{{ page.logo }}" />
+              <img class="ui small centered image" src="{{ page.url }}/logo.png" />
             {% else %}
               <h2 class="ui center aligned header">{{ page.title }}<h2>
             </a>

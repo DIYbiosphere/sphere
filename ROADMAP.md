@@ -1,8 +1,8 @@
 ---
-title: Roadmap
-permalink: "/roadmap/"
 layout: page
+permalink: /roadmap/
 crumb: none
+title: Roadmap
 summary: In this section we detail
 ---
 

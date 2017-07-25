@@ -1,8 +1,8 @@
 ---
-title: Software of DIYbiosphere
-permalink: "/docs/basics/software/"
 layout: docs
+permalink: /docs/basics/software/
 crumb: basics
+title: Software of DIYbiosphere
 summary: The technology and design behind the Software of the web platform
 ---
 

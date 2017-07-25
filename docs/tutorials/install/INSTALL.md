@@ -1,11 +1,10 @@
 ---
-title: Install to Work Locally
-permalink: "/docs/tutorials/install/"
 layout: docs
+title: Install to Work Locally
+permalink: /docs/tutorials/install/
 crumb: tutorials
 tab: mac
-summary: Installation instructions to work with the repository locally according to
-  your operating system, choose yours.
+summary: Installation instructions to work with the repository locally according to your operating system, choose yours.
 ---
 
 {% include tabs/install-tabs.md %}

@@ -1,6 +1,6 @@
 ---
-permalink: "/form/upload/teams/"
 layout: form
+permalink: /form/upload/teams/
 tab: teams
 ---
 

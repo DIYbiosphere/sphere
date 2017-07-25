@@ -1,15 +1,12 @@
 ---
-title: Code of Conduct
-permalink: "/code-of-conduct/"
 layout: page
+title: Code of Conduct
 crumb: none
-summary: Common understanding of what constitutes a welcoming and enriching working
-  environment
+permalink: /code-of-conduct/
+summary: Common understanding of what constitutes a welcoming and enriching working environment
 ---
 
 Contributors of the DIYbiosphere must abide by our Code of Conduct\*. It applies to all project and public spaces when representing or engaging with the project or its community, online and offline.
-
-{% include help.html title="TL;DR: Be respectful" text="Don't be gross or rude to others; offenses can be dealt with directly or by reporting it to a [project director][gh_directors]" %}
 
 As part of keeping to [Our Values], we are committed to having a welcoming environment for all people to contribute, and we pledge to value them as human beings and foster an atmosphere of kindness, cooperation, and understanding. We want to sustain a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion or sexual identity and orientation.
 
@@ -37,6 +34,9 @@ Unacceptable material or language may be directly removed or rejected by members
 
 #### **Report it**
 Contact a [project director][gh_directors]\*\* if you do not feel comfortable addressing the wrongdoer. Contributors with unacceptable behavior ­­­— be it inappropriate, threatening, offensive or harmful — shall be banned temporarily or permanently. Project directors are obliged to maintain the confidentiality of the incident's reporter, and commited to fairly and consistently reviewing all reports and applying these principles to the project, those who don't may be suspended or removed as directors.
+
+{% include help.html title="TL;DR: Be respectful" text="Don't be gross or rude to others; offenses can be dealt with directly or by reporting it to a [project director][gh_directors]\*\*" %}
+
 
 - - -
 \* Based on the [Contributor Covenant Code of Conduct v1.4.0][1]. <br>

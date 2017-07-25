@@ -1,8 +1,10 @@
 ---
-title: Draft
-permalink: "/draft2/"
 layout: docs
+permalink: /draft2/
+title: Draft
 ---
+
+
 
 Why use Github?
 Explanation [here](http://blog.okfn.org/2013/07/02/git-and-github-for-data/) on a case of git and github for data by the okfn.

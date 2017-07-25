@@ -1,26 +1,31 @@
 ---
-title: Biocurious
-permalink: "/draft/"
 layout: default
+permalink: /draft/
+
+title: Biocurious
 summary: Biocurious is a community lab located in California
 logo: http://biocurious.org/wordpress/wp-content/uploads/2014/11/logo1.png
 profile-pic: https://tedconfblog.files.wordpress.com/2012/09/020.jpg
 website: http://biocurious.org/
 start-date: 2010
+
 main-org: Hackerspace One
 type-org: Non-profit
+
 address: 845 Stewart Drive
-directions: 
+directions:
 postcode: 94085
 city: Sunnyvale
 state: California
 country: United States
+
 tags:
-- open source
-- synthetic biology
-- hardware
-- paid
-- mycology
+  - open source
+  - synthetic biology
+  - hardware
+  - paid
+  - mycology
+
 email: info@biocurious.org
 mailing-list: https://groups.google.com/forum/#!forum/biocurious
 forum: https://groups.google.com/forum/#!forum/biocurious
@@ -44,7 +49,6 @@ youtube: https://groups.google.com/forum/#!forum/biocurious
 instagram: https://groups.google.com/forum/#!forum/biocurious
 vimeo: https://groups.google.com/forum/#!forum/biocurious
 ---
-
 <div class="ui container">
 
 This is a draft for view formats for the list of entries

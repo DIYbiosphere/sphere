@@ -165,9 +165,11 @@
 [copyright]: /docs/copyright/
 [cc0]: /docs/copyright/cc0/
 [mit]: /docs/copyright/mit/
+[mit license]: /docs/copyright/mit/
 [terms of use]: /docs/copyright/terms-of-use/
 [attribution]: /docs/copyright/terms-of-use/#copyright-attribution
 [contributor terms]: /docs/copyright/contributor-terms/
+[code of conduct]: /code-of-conduct/
 
 
 

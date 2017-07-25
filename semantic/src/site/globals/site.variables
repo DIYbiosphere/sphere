@@ -12,7 +12,7 @@
 @emSize : 15px;
 @fontSize : 15px;
 
-
+@pageBackground: #F6F6F6;
 
 /*--------------
   Page Heading
@@ -22,31 +22,20 @@
 
 /*-------------------
        Links
+--------------------*/
 
-
-@linkColor           : currentColor;
+@linkColor           : @textColor;
 @linkUnderline       : underline;
 @linkHoverColor      : @primaryColor;
 @linkHoverUnderline  : none;
---------------------*/
-
-/*-------------------
-    Focused Input
---------------------*/
-
-/* Used on inputs, textarea etc */
-@focusedFormBorderColor: #85B7D9;
-
-/* Used on dropdowns, other larger blocks */
-@focusedFormMutedBorderColor: #96C8DA;
 
 
 /*-------------------
     Brand Colors
 --------------------*/
 
-@primaryColor        : @blue;
+@primaryColor        : @violet;
 @secondaryColor      : @black;
 
-@lightPrimaryColor   : @lightBlue;
+@lightPrimaryColor   : @lightViolet;
 @lightSecondaryColor : @lightBlack;

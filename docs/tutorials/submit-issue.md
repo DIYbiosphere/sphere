@@ -1,7 +1,6 @@
 ---
-title: Contributing Guide
-permalink: "/docs/tutorials/contributing/"
 layout: docs
+permalink: /docs/tutorials/contributing/
 crumb: guides
+title: Contributing Guide
 ---
-

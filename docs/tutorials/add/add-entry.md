@@ -1,9 +1,9 @@
 ---
-title: Adding a New Entry
-permalink: "/docs/tutorials/add-entry/"
 layout: docs
+permalink: /docs/tutorials/add-entry/
 crumb: tutorials
 tab: non-members
+title: Adding a New Entry
 summary: Instructions for how to add a new entry
 ---
 

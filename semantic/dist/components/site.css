@@ -26,7 +26,7 @@ body {
   padding: 0px;
   overflow-x: hidden;
   min-width: 320px;
-  background: #FFFFFF;
+  background: #F6F6F6;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 1.4285em;
@@ -102,11 +102,11 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #4183C4;
-  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: underline;
 }
 a:hover {
-  color: #1e70bf;
+  color: #6435C9;
   text-decoration: none;
 }
 

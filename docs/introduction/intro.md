@@ -1,7 +1,7 @@
 ---
-title: Introduction
-permalink: "/docs/introduction/"
 layout: docs
+permalink: /docs/introduction/
+title: Introduction
 summary: Get familiarized with the DIYbiosphere project
 ---
 

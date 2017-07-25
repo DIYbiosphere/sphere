@@ -1,8 +1,8 @@
 ---
-title: Entries in DIYbiosphere
-permalink: "/docs/basics/entries/"
 layout: docs
+permalink: /docs/basics/entries/
 crumb: basics
+title: Entries in DIYbiosphere
 summary: Components and organization of Entries
 ---
 

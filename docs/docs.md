@@ -1,8 +1,8 @@
 ---
-title: Welcome to the docs!
-permalink: "/docs/"
 layout: docs
+permalink: /docs/
 crumb: none
+title: Welcome to the docs!
 ---
 
 This is the Documentation, or docs, where you can find all the useful and technical information on the DIYbiosphere project.

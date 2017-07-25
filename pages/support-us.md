@@ -1,8 +1,8 @@
 ---
-title: Support Us
-permalink: "/support-us/"
 layout: page
+permalink: /support-us/
 crumb: none
+title: Support Us
 ---
 
 Interested in helping our project? There are several ways you can support us!

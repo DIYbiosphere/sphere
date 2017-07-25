@@ -1,10 +1,9 @@
 ---
-title: Communication
-permalink: "/docs/help/communication/"
 layout: docs
+permalink: /docs/help/communication/
 crumb: about
-summary: The different external and internal communication platforms the development
-  community uses
+title: Communication
+summary: The different external and internal communication platforms the development community uses
 ---
 
 As part of [our values] we strive to maintain our communication as public as possible. The DIYbiosphere has internal and external communication platforms. Internal refers to communication that concerns the project and its development (github, gitter, and slack), our external outlets are where we share the status of our project (twitter and blog).

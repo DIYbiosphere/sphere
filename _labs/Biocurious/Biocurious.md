@@ -1,29 +1,35 @@
 ---
+manager:
+
 title: Biocurious
-tags:
-- open source
-- synthetic biology
-- hardware
-- paid
-- mycology
-manager: 
 summary: Biocurious is a community lab located in California
 logo: http://biocurious.org/wordpress/wp-content/uploads/2014/11/logo1.png
 website: http://biocurious.org/
 start-date: 2010
+
 type-org: Non-profit
+
 address: 845 Stewart Drive
-directions: 
+directions:
 postcode: 94085
 city: Sunnyvale
 state: California
 country: United States
+
+tags:
+  - open source
+  - synthetic biology
+  - hardware
+  - paid
+  - mycology
+
 email: info@biocurious.org
 forum: https://groups.google.com/forum/#!forum/biocurious
 meetup: http://www.meetup.com/biocurious/
 twitter: https://twitter.com/biocuriouslab
 facebook: https://www.facebook.com/BioCurious
 ---
+
 
 ## About
 We are a complete working laboratory and technical library for entrepreneurs to cheaply access equipment, materials, and co-working space; a training center for biotechniques, with an emphasis on safety; a meeting place for citizen scientists, hobbyists, activists, and students

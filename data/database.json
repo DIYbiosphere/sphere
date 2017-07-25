@@ -1,7 +1,6 @@
 ---
-layout: 
+layout: null
 ---
-
 {
   "database": [
     {% for initiative in site.projects %}

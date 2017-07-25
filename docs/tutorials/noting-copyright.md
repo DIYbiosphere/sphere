@@ -1,8 +1,8 @@
 ---
-title: Noting Copyright
-permalink: "/docs/tutorials/noting-copyright/"
 layout: docs
+permalink: /docs/tutorials/noting-copyright/
 crumb: tutorials
+title: Noting Copyright
 summary: How to 'otherwise note' copyright on content
 ---
 
