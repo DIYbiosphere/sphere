@@ -1,8 +1,8 @@
 ---
-layout: docs
-permalink: /docs/basics/design/
-crumb: basics
 title: Design in DIYbiosphere
+permalink: "/docs/basics/design/"
+layout: docs
+crumb: basics
 summary: Explaining design choices and providing source files
 ---
 

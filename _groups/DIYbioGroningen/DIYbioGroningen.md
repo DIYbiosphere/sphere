@@ -1,26 +1,18 @@
 ---
-manager:
-
 title: DIYbio Groningen
+manager: 
 motto: A vribrant community of makers, hackers, and do-it-yourself biologists
 website: http://www.diybiogroningen.org/
 start-date: 2013
-
-host-org: '[Fablab Groningen](http://www.fablabgroningen.nl/)'
-
+host-org: "[Fablab Groningen](http://www.fablabgroningen.nl/)"
 type-org: Community
-
-affiliates:
-
-address:
-directions:
-postcode:
+affiliates: 
+address: 
+directions: 
+postcode: 
 city: Groningen
-state:
+state: 
 country: Netherlands
-
-tags:
-
 email: groningendiybio@gmail.com
 twitter: https://twitter.com/diybiogroningen
 facebook: https://www.facebook.com/DIYBioGroningen/

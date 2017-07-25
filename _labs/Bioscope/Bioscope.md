@@ -1,31 +1,23 @@
 ---
-manager:
-
 title: Bioscope
+manager: 
 website: http://bioscope.ch/
 start-date: 2014
-
 host-org: University of Geneva
-
 type-org: University
-
-affiliates:
-
+affiliates: 
 address: Rue de l’Ecole-de-Médecine, 20
-directions:
+directions: 
 postcode: 1205
 city: Geneva
-state:
+state: 
 country: Switzerland
-
-tags:
-
-
 blog: http://bioscopelab.tumblr.com/
 twitter: https://twitter.com/bioscopelab
 facebook: https://www.facebook.com/BIOSCOPE.UNIGE
 instagram: https://www.instagram.com/bioscopelab/
 ---
+
 The Bioscope is a public laboratory of the life and biomedical sciences from the University of Geneva.
 
 ## About

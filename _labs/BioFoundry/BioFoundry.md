@@ -1,26 +1,18 @@
 ---
-manager:
-
 title: Bio Foundry
+manager: 
 motto: Australia's first community lab for citizen scientists
 website: http://foundry.bio/
 start-date: 2014
-
-host-org:
-
-type-org:
-
-affiliates:
-
+host-org: 
+type-org: 
+affiliates: 
 address: 296 Botany Road
-directions:
+directions: 
 postcode: 2015
 city: Alexandria
 state: New South Wales
 country: Australia
-
-tags:
-
 rss: http://foundry.bio/feed/
 facebook: https://www.facebook.com/thebiofoundry/
 ---

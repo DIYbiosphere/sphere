@@ -1,25 +1,17 @@
 ---
-manager:
-
 title: Gene Garage
-website:
+manager: 
+website: 
 start-date: 2015
-
 host-org: Tecnologico de Monterrey, Campus Guadalajara
-
 type-org: University
-
-affiliates:
-
-address:
-directions:
-postcode:
+affiliates: 
+address: 
+directions: 
+postcode: 
 city: Guadalajara
 state: Jalisco
 country: Mexico
-
-tags:
-
 meetup: http://www.meetup.com/Gene-Garage/
 twitter: https://twitter.com/genegarage_gdl
 facebook: https://www.facebook.com/Gene-Garage-1598624203727376/

@@ -1,26 +1,17 @@
 ---
-manager:
-
 title: The Wet Lab
-logo:
+manager: 
+logo: 
 start-date: 2013
-
 host-org: La Jolla Public Library
-
-type-org:
-
-affiliates:
-
-
+type-org: 
+affiliates: 
 address: 847 14th St
-directions:
+directions: 
 postcode: 92101
 city: San Diego
 state: California
 country: United States
-
-tags:
-
 email: sdwetlab@gmail.com
 forum: https://groups.google.com/forum/#%21forum/wet-lab-san-diego-diybio
 meetup: http://www.meetup.com/The-Wet-Lab-a-DIYBio-maker-community-for-algae-enthusiasts/

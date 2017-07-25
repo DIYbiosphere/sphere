@@ -1,31 +1,21 @@
 ---
-manager:
-
 title: Triangle DIY Biology
+manager: 
 motto: Community Citizen Science and DIYbio Group of the NC Triangle
-logo:
+logo: 
 website: http://www.tridiybio.org/
 start-date: 2015
-
-host-org: '[SplatSpace](http://splatspace.org/)'
-
-type-org:
-
-affiliates:
-
+host-org: "[SplatSpace](http://splatspace.org/)"
+type-org: 
+affiliates: 
 address: 800 N Mangum St
-directions:
+directions: 
 postcode: 27701
 city: Durham
 state: North Carolina
 country: United States
-
-tags:
-
 meetup: https://www.meetup.com/splatspace/events/236762179/
-
 ---
-
 
 The Triangle DIYbio group’s mission is to further the idea that anyone can participate in the exciting scientific fields of biology, genetic engineering, and biotechnology. We strive to provide the tools, knowledge, and support to the local area in order to build a vibrant community of enabled citizen scientists and empowered Do-It-Yourself biologists! We are building a lab and are currently part of SplatSpace.
 

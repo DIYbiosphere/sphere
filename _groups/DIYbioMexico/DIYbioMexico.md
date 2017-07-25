@@ -1,27 +1,18 @@
 ---
-manager:
-
 title: DIYbio Mexico
-logo:
-website:
-start-date:
-
-host-org:
-
-type-org:
-
-affiliates:
-
-address:
-directions:
-postcode:
-city:
-state:
+manager: 
+logo: 
+website: 
+start-date: 
+host-org: 
+type-org: 
+affiliates: 
+address: 
+directions: 
+postcode: 
+city: 
+state: 
 country: Mexico
-
-tags:
-
-
 facebook-group: https://www.facebook.com/groups/DIYbioMexico/
 ---
 

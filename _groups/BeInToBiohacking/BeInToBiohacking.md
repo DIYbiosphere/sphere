@@ -1,28 +1,21 @@
 ---
-manager:
-
 title: Be.In.To
+tags:
+- fablab
+- hackerspace
+manager: 
 motto: Biohacking Experience in Torino
 website: http://fablabtorino.org/be-in-to/
 start-date: 2014
-
-host-org: '[FabLab Torino](http://fablabtorino.org/)'
-
+host-org: "[FabLab Torino](http://fablabtorino.org/)"
 type-org: Community
-
-affiliates:
-
+affiliates: 
 address: Via Egeo 16
-directions:
+directions: 
 postcode: 10134
 city: Torino
-state:
+state: 
 country: Italy
-
-tags:
-  - fablab
-  - hackerspace
-
 email: info@fablabtorino.org
 tumblr: http://biohackingexperience.tumblr.com/
 facebook: https://www.facebook.com/be.into.7/

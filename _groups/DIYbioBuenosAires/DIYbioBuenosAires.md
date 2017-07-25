@@ -1,27 +1,17 @@
 ---
-manager:
-
 title: Biohacking BA
-logo:
+manager: 
+logo: 
 website: www.diybioba.org
 start-date: 2015
-
-host-org:
-
-type-org:
-
-affiliates:
-
-
+host-org: 
+type-org: 
+affiliates: 
 city: Buenos Aires
 country: Argentina
-
-tags:
-
 email: hola@diybioba.org
 meetup: https://www.meetup.com/biohackingBA/
 twitter: https://twitter.com/diybioba
-
 ---
 
 Artists, scientists, engineers, hackers or any curious person wanting to learn, play and build "life":

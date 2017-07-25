@@ -1,27 +1,18 @@
 ---
-manager:
-
 title: DIYbio Chicago
+manager: 
 start-date: 2008
 end-date: 2011
 status: inactive
-
-host-org:
-
+host-org: 
 type-org: Community
-
-affiliates:
-
-address:
-directions:
-postcode:
+affiliates: 
+address: 
+directions: 
+postcode: 
 city: Chicago
 state: Illinois
 country: United States
-
-tags:
-
-
 google-group: https://groups.google.com/forum/#!forum/diybio-chicago
 ---
 

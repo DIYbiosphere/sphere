@@ -1,6 +1,7 @@
 ---
-layout: page
-permalink: /changelog/
-crumb: none
 title: Changelog
+permalink: "/changelog/"
+layout: page
+crumb: none
 ---
+

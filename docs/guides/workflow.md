@@ -1,8 +1,8 @@
 ---
-layout: docs
-permalink: /docs/guides/workflow/
-crumb: guides
 title: Ticket Workflow
+permalink: "/docs/guides/workflow/"
+layout: docs
+crumb: guides
 ---
 
 Members of the [Development Community][community] have the **responsability** to organize tickets to facilitate the collective workflow of the development of the project. Tickets are classified and organized by [Labels](#labels), [Projects](#projects) and [Milestones](#milestones)

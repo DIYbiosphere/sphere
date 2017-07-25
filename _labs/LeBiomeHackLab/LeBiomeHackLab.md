@@ -1,27 +1,19 @@
 ---
-manager:
-
 title: Biome Hack Lab
-website: https://lebiome.github.io/
-start-date:
-
-host-org:
-
-type-org:
-
-affiliates:
-
-address:
-directions:
-postcode:
-city: Rennes
-state:
-country: France
-
 tags:
-  - biomimicry
-
-
+- biomimicry
+manager: 
+website: https://lebiome.github.io/
+start-date: 
+host-org: 
+type-org: 
+affiliates: 
+address: 
+directions: 
+postcode: 
+city: Rennes
+state: 
+country: France
 email: lebiomefablab@gmail.com
 facebook: https://www.facebook.com/biomefrance
 twitter: https://twitter.com/Le_biome

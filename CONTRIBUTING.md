@@ -1,8 +1,8 @@
 ---
-layout: docs
-permalink: /docs/guides/contributing/
-crumb: guides
 title: Contributing Guide
+permalink: "/docs/guides/contributing/"
+layout: docs
+crumb: guides
 ---
 
 We :heartpulse: contributions! By contributing, you agree to abide to our [Code of Conduct] and consent to our [Copyright Terms]. In short, you agree to be nice and to freely share your contributions!
