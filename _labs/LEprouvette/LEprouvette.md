@@ -22,29 +22,19 @@ country: Switzerland
 tags:
 
 email: eprouvette@unil.ch
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
 twitter: https://twitter.com/Eprouvette_Unil
 facebook: https://www.facebook.com/eprouvette/
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
 ---
 
-## About
+Offers practical activities to learn the techniques used in biology laboratories. These meetings, in small groups, are also an opportunity to discuss, with scientists , the stakes of research and its applications in everyday life.
 
-## History
+Organizing a workshop for students, an anniversary, family, friends, colleagues or members of an association  allows us to discover the world around us through practical activities, to learn and debate science and technology issues. Society that concern us all. Discover the workshops of the test tube.
+
+Since the opening of the laboratory in 2005, the team of biologists at L'éprouvette has been developing activities highlighting the  social, economic and political stakes of scientific advances  in the field of experimental sciences.
+
+The "workshop" approach helps to achieve these objectives by adopting a flexible structure, adaptable to the needs of the different target audiences. The proposed themes  promote critical thinking and dialogue ; The activities invite the participants to follow a concrete approach modeled on the practice of the researcher. The workshops are therefore not so much intended to provide instruction as to offer a real initiation to research as it is practiced within the University.
+
+The team of biologists of L'éprouvette also offers  tailor-made activities  for associations and companies interested in research issues in the field of experimental sciences. Collaborations & Links
+
+---
+taken from initiative's website

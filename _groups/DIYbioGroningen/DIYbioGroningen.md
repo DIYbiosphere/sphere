@@ -2,11 +2,11 @@
 manager:
 
 title: DIYbio Groningen
-logo:
+motto: A vribrant community of makers, hackers, and do-it-yourself biologists
 website: http://www.diybiogroningen.org/
 start-date: 2013
 
-host-org: "[Fablab Groningen](http://www.fablabgroningen.nl/)"
+host-org: '[Fablab Groningen](http://www.fablabgroningen.nl/)'
 
 type-org: Community
 
@@ -22,29 +22,16 @@ country: Netherlands
 tags:
 
 email: groningendiybio@gmail.com
-blog:
-rss:
-wiki: http://www.diybiogroningen.org/mediawiki-1.22.0/index.php?title=Main_Page
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
 twitter: https://twitter.com/diybiogroningen
 facebook: https://www.facebook.com/DIYBioGroningen/
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+github: https://github.com/DIYbioGroningen
+youtube: https://www.youtube.com/channel/UCPoJujrzQcKxW88DV7fpe8g
 ---
 
-## About
+A vibrant community of Makers and DIY biologists are aiming to rethink the way we approach science. In our first events we will introduce the initiative and discuss an open-source, do-it-yourself PCR machine: the starting point for DNA analysis.
 
-## History
+
+We believe that publicly-accessible biotechnology has the potential to benefit everyone.
+
+---
+Taken from initiative's website

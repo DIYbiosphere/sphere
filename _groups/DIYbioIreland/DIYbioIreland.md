@@ -2,11 +2,10 @@
 manager:
 
 title: DIYbio Ireland
-logo:
-website:
 start-date: 2011
-end-date: 2013
+end-date: 2015
 status: inactive
+succesor: Forma Labs
 
 host-org:
 
@@ -23,30 +22,7 @@ country: Ireland
 
 tags:
 
-email:
-blog:
-rss:
-wiki:
-forum:
-mailinglist: https://groups.google.com/forum/#!forum/diybio-ireland
-irc:
-gitter:
-slack:
-meetup:
-twitter:
-facebook:
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+google-group: https://groups.google.com/forum/#!forum/diybio-ireland
 ---
 
-## About
-
-## History
+The discussion of DIYbio Ireland eventually burned out with the creation of the accelerator [RebelBio]() (formerly IndiBio EU), and with the biohackerspace [FormaLabs]()

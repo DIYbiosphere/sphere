@@ -2,7 +2,6 @@
 manager:
 
 title: Gene Garage
-logo: https://pbs.twimg.com/profile_images/720372470839005187/SE-7LrWi_400x400.jpg
 website:
 start-date: 2015
 
@@ -21,30 +20,11 @@ country: Mexico
 
 tags:
 
-email:
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
 meetup: http://www.meetup.com/Gene-Garage/
 twitter: https://twitter.com/genegarage_gdl
 facebook: https://www.facebook.com/Gene-Garage-1598624203727376/
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
 ---
 
-## About
+Our goal as a community is to encourage entrepreneurship in the biotechnology industry
 
-## History
+We believe science is a tool that can help us create solutions to some of the most challenging problems we face right now. That is why we created this community that focuses on technological entrepreneurship. We offer conferences on entrepreneurship to foster high-tech industries and improve development for the country. We give a space for network to promote strategic partnerships that are key to these types of entrepreneurship; all with a friendly and and trustfull environment. 

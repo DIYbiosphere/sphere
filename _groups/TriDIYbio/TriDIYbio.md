@@ -7,7 +7,7 @@ logo:
 website: http://www.tridiybio.org/
 start-date: 2015
 
-host-org: "[SplatSpace](http://splatspace.org/)"
+host-org: '[SplatSpace](http://splatspace.org/)'
 
 type-org:
 
@@ -38,3 +38,6 @@ The DIY CRISPR project, making tools and reagants available to a wider audience 
 Exploring the mysteries of your genome by doing your own personal genetic testing
 Learning about the microbiological world around you by surveying your own backyard, local park, or public restroom for species of bacteria and microbes
 Building a home based DIYBio lab, locally Ronin Genetics is such a space.
+
+---
+Taken from the initiative's website

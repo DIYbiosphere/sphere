@@ -21,30 +21,7 @@ country: Israel
 
 tags:
 
-email:
-blog:
-rss:
-wiki: http://diybio.org.il/index.php?title=DIYbio_Israel
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
-twitter:
-facebook:
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
 ---
 
-## About
-
-## History
+Welcome to the Israeli DIYbio group. The purposes of the group are to promote conversation about DIYbio in Israel, create a place for relevant discussion and advance social gatherings. The long reaching goal will be to promote the establishment of a community lab that will be open to the public and expose it to the world of biology.
+Feel free to share the group in order to help the community grow.

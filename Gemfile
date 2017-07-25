@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-gem 'jekyll', '~> 3.5'
 gem 'jemoji', '~> 0.8.0'
 gem 'mini_magick', '~> 4.8'
 gem 'uglifier', '~> 3.2'

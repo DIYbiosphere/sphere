@@ -4,7 +4,7 @@ manager:
 title: DIYbio Singapore
 logo:
 website: https://diybiosingapore.wordpress.com/
-start-date:
+start-date: 2010
 
 host-org:
 
@@ -23,26 +23,8 @@ tags:
 
 email:
 blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
-twitter:
-facebook: https://www.facebook.com/groups/300351496770239/
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+facebook-group: https://www.facebook.com/groups/300351496770239/
+google-group: https://groups.google.com/forum/#!forum/diybio-sg
 ---
 
 ## About

@@ -55,13 +55,23 @@ layout: default
       <div class="ui tab active basic segment" data-tab="overview">
         {{content}}
       </div>
+
+
       <div class="ui tab basic segment" data-tab="projects">
-        <div class="ui very relaxed list">
+        <div class="ui items">
           {% for project in site.projects %}
             {% if project.host-org == page.title %}
               <div class="item">
-                <div class="header">{{ project.title }}</div>
-                {{ project.motto }}
+                <div class="content">
+                  <a class="header" href="{{ project.url }}">{{ project.title }}</a>
+                    <div class="description">
+                      <p>{{ project.motto }}</p>
+                    </div>
+                  <div class="extra">
+                    <div class="ui small labels">
+                    </div>
+                  </div>
+                </div>
               </div>
             {% endif %}
           {% endfor %}

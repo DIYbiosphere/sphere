@@ -21,30 +21,10 @@ country: Mexico
 
 tags:
 
-email:
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
-twitter:
-facebook: https://www.facebook.com/groups/DIYbioMexico/
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+
+facebook-group: https://www.facebook.com/groups/DIYbioMexico/
 ---
 
-## About
+DIYbio México is an initiative to increase access and democratize biotechnology and the life sciences, encouraging for open tecnologies, the DIY ideology, Open Source, CC, etc.
 
-## History
+We are looking for interactions between biology and any other field of generating knowledge. Valueing the diversity in perspectives and multidisciplinarity.

@@ -2,7 +2,6 @@
 manager:
 
 title: Capital Area BioSpace
-logo:
 website: https://www.meetup.com/CapitalAreaBioSpace/
 start-date:
 
@@ -22,29 +21,9 @@ country: United States
 tags:
 
 email: capitalareabiospace@gmail.com
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
-twitter:
-facebook:
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
 ---
 
-## About
+This is a group for anyone interested in working on a DIYbio community biotechnology space in the DMV area
 
-## History
+---
+text taken from initiative's website

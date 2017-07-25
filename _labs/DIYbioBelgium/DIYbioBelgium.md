@@ -2,7 +2,7 @@
 manager:
 
 title: DIYbio Belgium
-logo: https://pbs.twimg.com/profile_images/429222116198596609/0sU_gvhB_400x400.jpeg
+logo:
 website: http://www.diybio.be/index.php/en/
 start-date:
 
@@ -21,30 +21,18 @@ country: Belgium
 
 tags:
 
-email:
+
 blog: http://www.diybio.be/index.php/en/blog
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
 twitter: https://twitter.com/diybiobelgium
 facebook: https://www.facebook.com/diybio.be/
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+youtube: https://www.youtube.com/channel/UCTrz0Qs6ElwEMpp1hEt_4Jg
 ---
 
-## About
+A community to promote biology for everyone.
 
-## History
+We want to offer a laboratory full equipped for our members and allow everyone to do scientific research.
+
+The DIYbio is also a desire to make an "Open Source" science  and democratize the practice of biology.
+
+---
+taken from initiative's website

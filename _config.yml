@@ -13,7 +13,7 @@ twitter:
 # Excluded files and dirs
 exclude: ['vendor', 'script', 'Gemfile', 'Gemfile.lock', 'README.md', 'DataReusePlan.txt', '.assets-cache', '.sass-cache']
 
-
+github_comments_repository:  diybiosphere/talk
 
 # Build settings
 markdown: kramdown

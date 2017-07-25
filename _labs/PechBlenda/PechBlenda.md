@@ -3,7 +3,6 @@ manager:
 
 title: PechBlenda Lab
 motto: Laboratory of bioelectrochemical experimentations
-logo:
 website: https://pechblenda.hotglue.me/
 start-date:
 
@@ -22,30 +21,11 @@ country: Spain
 
 tags:
 
-email:
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
-twitter:
-facebook:
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+
+blog: https://network23.org/pechblendalab/
 ---
 
-## About
+Pechblenda lab was born out of the necessity to generate a space in Calafou (a community in a large former industrial space) for us to flourish, a non-patriarchal TransHackFeminist space where free knowledge springs from raw experimentation (electronic repairs, experiments with turbines, bioelectrochemistry, sound .... ) and self education.
 
-## History
+---
+Taken from initiative's website

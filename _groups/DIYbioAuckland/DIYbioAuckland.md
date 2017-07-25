@@ -2,8 +2,6 @@
 manager:
 
 title: Auckland DIYbio
-logo:
-website:
 start-date: 2013
 end-date: 2013
 status: inactive
@@ -11,13 +9,8 @@ status: inactive
 
 host-org:
 
-type-org:
+type-org: Community
 
-affiliates:
-
-address:
-directions:
-postcode:
 city: Auckland
 state:
 country: Australia

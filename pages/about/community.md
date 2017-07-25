@@ -14,7 +14,7 @@ Anyone with a GitHub account ([sign up][gh_join]) can be a contributor and creat
 Users part of the [Directors Team][gh_directors] oversee the general direction and development of the project. They also have _admin_ and _owner_ control over the sphere repository and the DIYbiosphere organization respectively.
 
 - **Jason Bobe**: Chief Executive Officer - @JasonBobe
-- **Gabriela A. Sanchez**: Chief Project Officer - @sabgaby
+- **Gabriela A. Sanchez**: Chief Project Officer - {% avatar sabgaby %} @sabgaby
 
 ### Core Development Team
 The [Development Team][gh_development] coordinate the software and the content of the entries as well as their design. They have _admin_ access to the sphere respository

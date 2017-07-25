@@ -1,3 +1,12 @@
+---
+layout: default
+permalink: /MIT-license/
+crumb: copyright
+title: Software Copyright
+summary: Copyright License Terms for the project in simple english
+---
+
+
 # THE MIT LICENSE
 
 Copyright (c) 2016-2017 DIYbiosphere contributors, http://sphere.diybio.org

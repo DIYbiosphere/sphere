@@ -2,9 +2,10 @@
 manager:
 
 title: Biohacking Mexico
-logo:
-website:
+motto: All biohackers in Latin America
+status: inactive
 start-date: 2015
+end-date: 2016
 
 host-org:
 
@@ -14,39 +15,11 @@ type-org: Community
 affiliates:
 
 
-address:
-directions:
-postcode:
-city:
-state:
+
 country: Mexico
 
-tags:
 
-email:
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
-twitter:
 facebook: https://www.facebook.com/biohackingmexico
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
 ---
 
-## About
-
-## History
+The group was mainly created by bachelor students of biotechnology in Mexico. The facebook page has become inactive. The last post was in November 2016.

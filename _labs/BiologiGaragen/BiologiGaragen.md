@@ -2,7 +2,6 @@
 manager:
 
 title: BiologiGaragen
-logo: http://biologigaragen.org/wp-content/uploads/2015/01/cropped-Logo-black-no-text-70x70px.png
 website: http://biologigaragen.org/
 start-date: 2010
 
@@ -23,32 +22,14 @@ tags:
   - hackerspace
 
 email:
-blog:
+blog: http://biologigaragen.org/blog/
 rss: http://biologigaragen.org/feed
 wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
 twitter: https://twitter.com/biologigaragen
 facebook: https://www.facebook.com/groups/biologigaragen/
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
 vimeo: https://vimeo.com/biologigaragen
-youtube:
-hackpad:
-trello:
-github:
 ---
 Labitat is a hackerspace in CPH. We are a group of people with diverse interests in technology. We are an independent physical space, working creatively with technology, bridging interactive technology with design and art.
-## About
-
-## History
 
 ---
 Text taken from initiative's website

@@ -2,7 +2,7 @@
 manager:
 
 title: Bio Foundry
-logo: http://foundry.bio/wp-content/themes/TrendyRoom/content/logo.png
+motto: Australia's first community lab for citizen scientists
 website: http://foundry.bio/
 start-date: 2014
 
@@ -21,34 +21,15 @@ country: Australia
 
 tags:
 
-email:
-blog:
 rss: http://foundry.bio/feed/
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
-twitter:
 facebook: https://www.facebook.com/thebiofoundry/
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
 ---
-BIOFOUNDRY IS AUSTRALIA'S FIRST COMMUNITY LAB FOR CITIZEN SCIENTISTS. OUR MISSION IS TO DEMOCRATISE SCIENCE BY BREAKING COST ENTRY BARRIER TO SCIENCE EDUCATION AND RESEARCH. COME AND JOIN US ON OUR OPEN SCIENCE ADVENTURE.
 
-## About
+BioFoundry is Australia’s first open-access molecular biology laboratory, offering everyday citizens the opportunity to collaborate in scientific research and development. BioFoundry runs courses for enthusiasts and curious amateurs, helps house and facilitate the realisation of startups, develops the practical skills of undergraduate science students and exists as a focal point of open-source research in Australia. BioFoundry is also home to BioHackSyd – Australia’s first DIY-Bio group.
 
-## History
+Our Philosophy
+
+BioFoundry exists to democratise science by lowering the financial/technological barriers reinforcing the publish-or-perish status-quo that currently defines the scientific industry. As such – you may find our unique approach inspires that scientific curiosity inherent to you and every other human out there!
 
 ---
 Text taken from initiative's website

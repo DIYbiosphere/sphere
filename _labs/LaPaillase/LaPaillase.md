@@ -2,7 +2,6 @@
 manager:
 
 title: La Paillase
-logo: http://lapaillasse.org/wp-content/themes/lapaillasse/common/images/logo-paillasse-menu.png
 website: http://lapaillasse.org/
 start-date:
 
@@ -22,33 +21,16 @@ country: France
 tags:
 
 email: contact@lapaillasse.org
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
 twitter: https://twitter.com/lapaillasse
-facebook: https://www.facebook.com/groups/206707586012941/
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+facebook-group: https://www.facebook.com/groups/206707586012941/
 ---
 
 
-## About
+La Paillasse is an open and citizen research laboratory where initiatives to initiate and accelerate scientific, entrepreneurial and artistic projects are carried out .
 
-## History
+As an alternative to the world of academic research, La Paillasse places freedom of action , openness and transdisciplinarity at the heart of its values.
+
+We bring together all those who wish to experiment and invent a common future around issues of health, environment, food, materials, art, citizen counter-powers
 
 ---
 Text taken from initiative's website

@@ -21,30 +21,17 @@ country: United Kingdom
 
 tags:
 
-email:
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
+
 twitter: https://twitter.com/madlabuk
 facebook: https://www.facebook.com/MadLabUK/
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+vimeo: https://vimeo.com/madlabuk
 ---
 
-## About
+Manchester Digital Laboratory (MadLab) is a grassroots innovation organisation, based in Manchester UK. Our primary areas of focus are science and technology; arts and culture.
 
-## History
+We support a diverse range of communities and activities – from monthly meetups and courses through to public experimentation with new & emerging technologies, and collaborating with others to deliver new, interesting and exciting projects.
+
+MadLab is a living wage employer (including for interns).
+
+---
+taken from initiative's website

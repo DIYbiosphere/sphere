@@ -2,7 +2,6 @@
 manager:
 
 title: Bio Art Laboratores
-logo: http://bioartlab.com/bioartlab.com/wp-content/themes/bioartlab.com/dist/images/logo.png
 website: http://bioartlab.com/
 start-date: 2012
 
@@ -23,27 +22,10 @@ tags:
   - bioart
 
 email: contact@bioartlab.com
-blog: http://bioscopelab.tumblr.com/
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
+tumblr: http://bioscopelab.tumblr.com/
 twitter: https://twitter.com/bioartlab
 facebook: https://www.facebook.com/BioArtLab#
-google+:
-linkedin:
-instagram:
 flickr: https://www.flickr.com/photos/bioartlab
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
 ---
 
 ## About

@@ -2,7 +2,6 @@
 manager:
 
 title: HiveBio
-logo: https://pbs.twimg.com/profile_images/506940646242799616/umLtASDs.png
 website: http://hivebio.org/
 start-date: 2013
 
@@ -21,28 +20,9 @@ country: United States
 
 tags:
 
-email:
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
-twitter:
-facebook:
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+twitter: https://twitter.com/HiveBio
+youtube: https://www.youtube.com/channel/UCALWihVVy-XpIsEi78uRnXQ
+facebook: https://www.facebook.com/HivebioCommunityLab/
 ---
 
 ## About

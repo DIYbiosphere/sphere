@@ -2,7 +2,6 @@
 manager:
 
 title: Denver Biolabs
-logo: http://denverbiolabs.com/img/logo.png
 website: http://denverbiolabs.com/
 start-date: 2015
 
@@ -22,29 +21,14 @@ country: United States
 tags:
 
 email: info@denverbiolabs.com
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
 slack: http://slack.denverbiolabs.com/
 meetup: https://www.meetup.com/denverbiolabs/
 twitter: https://twitter.com/denverbiolabs
 facebook: https://www.facebook.com/denverbiolabs
-google+:
-linkedin:
 instagram: https://www.instagram.com/denverbiolabs/
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
 ---
 
-## About
+From healthcare to energy production, climate change to global hunger – synthetic biology offers dramatically new methods to address our planet's largest problems. Recent advancements in synthetic biology mean that the limiting factors to progress are increasingly becoming creativity and ingenuity. Denver Biolabs is a community of interdisciplinary individuals - biologists, engineers, artists, computer scientists, and entrepreneurs - committed to working at these intersections to create solutions to pressing problems.
 
-## History
+---
+text taken from initiative's website

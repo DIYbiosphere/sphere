@@ -2,8 +2,6 @@
 manager:
 
 title: DIYbio Chicago
-logo:
-website:
 start-date: 2008
 end-date: 2011
 status: inactive
@@ -23,30 +21,10 @@ country: United States
 
 tags:
 
-email:
-blog:
-rss:
-wiki:
-forum:
-mailinglist: https://groups.google.com/forum/#!forum/diybio-chicago
-irc:
-gitter:
-slack:
-meetup:
-twitter:
-facebook:
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+
+google-group: https://groups.google.com/forum/#!forum/diybio-chicago
 ---
 
-## About
+DIYbio Chicago started as a google group with a few discussions. Later they suggested the name of [ChicagoBioScience](https://chicagobioscience.wordpress.com/2011/02/05/hello-world/).
 
-## History
+A possibility for its successor is Chicago Biohacking, although it has more of a focus on bodyhacking.

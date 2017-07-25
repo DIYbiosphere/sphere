@@ -1,14 +1,11 @@
 ---
 manager:
 
-title: DIYbio Mexico
-logo:
-website:
-start-date:
+title: BioHubIl
+website: http://biohubil.org/
+start-date: 2015
 
-host-org:
-
-type-org:
+type-org: Non-profit
 
 affiliates:
 
@@ -16,35 +13,19 @@ address:
 directions:
 postcode:
 city: Tel Aviv
-state:
 country: Israel
 
 tags:
 
-email:
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
-twitter:
-facebook: https://www.facebook.com/groups/1725450001000736/
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+facebook-group: https://www.facebook.com/groups/1725450001000736/
 ---
 
-## About
+We are a nonprofit group with a common vision: biological experimentation should be available to everyone!
 
-## History
+
+We are establishing a community lab, open to the public. The lab will serve entrepreneurs, hobbyists, students, artists and anyone who just wants to do biology him/herself.
+We also organize workshops, lectures and courses.
+Feel free to share the group in order to help the community grow.
+
+---
+Text from initiative's website

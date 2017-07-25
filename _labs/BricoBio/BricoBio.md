@@ -3,7 +3,7 @@ manager:
 
 title: Bricobio
 logo: http://brico.bio/images/logo.png
-website: http://brico.bio/
+website: logo
 start-date: 2013
 
 host-org: "[Helios Makerspace](http://heliosmakerspace.ca/)"
@@ -45,12 +45,14 @@ hackpad:
 trello:
 github:
 ---
-Bricobio is the maker space for biology in Montreal, Canada.
 
+Like other maker or hacker spaces, our main goal is to make tools and knowledge for doing biology available and accessible to a wider community and general public. Our core values include:
 
-## About
-
-## History
+Openness
+Accessibility
+Transparency
+Community-focus
+We are also sometimes known as biohackers and part of the Do-it-yourself Biology movement.
 
 ---
 Text taken from initiative's website

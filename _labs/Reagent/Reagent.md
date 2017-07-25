@@ -2,7 +2,6 @@
 manager:
 
 title: ReaGent
-logo: https://pbs.twimg.com/profile_images/672098154569998336/S5NyYvRL_400x400.jpg
 website: http://reagentlab.org/
 start-date: 2015
 
@@ -21,30 +20,11 @@ country: Belgium
 
 tags:
 
-email:
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
 twitter: https://twitter.com/reagentlab
 facebook: https://www.facebook.com/ReaGentBiolab/
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
 ---
 
-## About
+The community of citizen scientists at ReaGent shares an open biolabo. Everyone is welcome and finds the right equipment to get started with life sciences. The projects in which the community is involved shows only a fraction of the possibilities. Look at the lab infrastructure  or we have what you need.
 
-## History
+---
+Taken from initiative's website

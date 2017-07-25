@@ -2,7 +2,6 @@
 manager:
 
 title: DIYbio Toronto
-logo:
 website: http://diybio.to/
 start-date: 2013
 
@@ -23,34 +22,16 @@ tags:
   - hackerspace
 
 
-email:
-blog:
 rss: https://hacklab.to/feed/
 wiki: https://knowledge.hacklab.to/wiki/Main_Page
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
 meetup: http://www.meetup.com/DIYbio-Toronto/
 twitter: https://twitter.com/diybioto
 facebook: https://www.facebook.com/diybio.to
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+youtube: https://www.youtube.com/channel/UCwCqSNdQakcTkkpQWPiWgDg
+flickr: https://www.flickr.com/photos/133973041@N05/
 ---
 We are a community of bio-enthusiasts in the Toronto area who are fascinated by the miniature world of molecular biology.
 
-## About
-
-## History
 
 ---
 Text taken from initiative's website

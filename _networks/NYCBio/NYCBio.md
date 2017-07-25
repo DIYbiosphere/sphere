@@ -8,7 +8,6 @@ start-date: 2008
 
 type-org: Non-Profit
 
-
 city: New York
 state: New York
 country: United States

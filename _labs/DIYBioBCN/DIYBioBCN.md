@@ -2,11 +2,10 @@
 manager:
 
 title: DIY Bio Barcelona
-logo: http://www.diybcn.org/wp-content/uploads/2016/05/diybio_BCN_header-2.png
 website: http://www.diybcn.org/
 start-date: 2014
 
-host: "[MADE](http://made-bcn.org/)"
+host-org: "[MADE](http://made-bcn.org/)"
 
 type-org: Non-Profit
 
@@ -21,26 +20,15 @@ country: Spain
 
 tags:
 
-email:
-blog:
 rss: http://www.diybcn.org/feed/
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
 twitter: https://twitter.com/DIYBIOBCN
-facebook: https://www.facebook.com/groups/299801923540778/
-google+:
-linkedin:
+facebook-group: https://www.facebook.com/groups/299801923540778/
 instagram: https://www.facebook.com/DiyBioBcn
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
 ---
+
+DIYBio Barcelona was born after a brief meeting at Fab12. Our activity started at Made Makerspace on 2012, until we moved to Hangar on March 2016.
+
+Our space is open to public on Thursday afternoon.
+
+---
+taken from initiative's website

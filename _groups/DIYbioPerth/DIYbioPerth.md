@@ -2,8 +2,6 @@
 manager:
 
 title: DIYbio Perth
-logo:
-website: https://www.facebook.com/diybioperth/
 start-date:
 
 host-org: "[The Perth Artifactory](http://artifactory.org.au/)"
@@ -22,30 +20,10 @@ country: Australia
 tags:
   - makerspace
 
-email:
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
-twitter:
-facebook: https://www.facebook.com/groups/diybioperth/
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+facebook-group: https://www.facebook.com/groups/diybioperth/
 ---
 
-## About
+DIYbio Perth is a community – open to all – driven by curiosity, openness and sharing. We aim to help democratise biology, biotechnology and life sciences by bringing together students, researchers and hobbyists. We want to start a conversation of ideas between engineers, biologists, artists, teachers, and anyone else willing to explore the merging universes of bio+tech, through interaction, collaborative projects, workshops and social events.
 
-## History
+---
+Taken from initiative's website

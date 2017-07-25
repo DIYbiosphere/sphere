@@ -4,7 +4,10 @@ permalink: /form/write/
 step: write
 ---
 
-<form class="ui equal width form">
+<form id="newEntry" class="ui equal width form">
+<div class="ui grid">
+
+</div>
 <!-- Collection -->
   <div class="required field">
     <label>

@@ -2,9 +2,9 @@
 manager:
 
 title: Garoa Open BioLab
-logo:
 website: https://garoa.net.br/wiki/Garoa_Open_BioLab
 start-date: 2011
+status: planning
 
 host-org: "[Garao Hacker Clube](https://garoa.net.br/wiki/P%C3%A1gina_principal)"
 
@@ -29,30 +29,15 @@ tags:
   - hackerspace
 
 
-email:
-blog:
-rss:
 wiki: https://garoa.net.br/wiki/Garoa_Hacker_Clube:About
 forum: https://groups.google.com/forum/#!forum/hackerspacesp
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
 twitter: https://twitter.com/garoahc
 facebook: https://www.facebook.com/GaroaHC
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
 ---
 
-## About
+It is the open laboratory of biotechnology of Garoa, one of the main resources for the activities of Biohacking of hackerspace.
 
-## History
+Currently the laboratory is in the planning stage and obtain equipment. All are invited to contribute positively to the construction of space.
+
+---
+taken from initiative's website

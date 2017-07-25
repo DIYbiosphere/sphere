@@ -2,7 +2,6 @@
 manager:
 
 title: BioNyfiken
-logo: http://www.bionyfiken.se/wp-content/uploads/2015/07/Med-vita.png
 website: http://www.bionyfiken.se/
 start-date: 2014
 
@@ -21,30 +20,18 @@ country: Sweden
 
 tags:
 
-email:
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
 meetup: http://www.meetup.com/BioNyfiken-Sthlm/
 twitter: https://twitter.com/BioNyfiken/likes
 facebook: https://www.facebook.com/BioNyfiken
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
 youtube: https://www.youtube.com/channel/UCS4YrUkKRyUmRL33gFEgXSg
-hackpad:
-trello:
-github:
 ---
 
-## About
+Bionyfiken is a chartered non-profit organisation that brings together Sweden-based biohackers, DIY-
+biologists, bodyhackers, grinders and quantified self-enthusiasts. We do not see these as different disciplines but rather parts of a spectrum of highly cross-fertilising technology driven movements.
 
-## History
+Our objective is to be a driving force in the development of the dynamic and creative tech-activist movement in Sweden.
+
+We arrange workshops, talks and experiments to educate and inspire the general public to improve their understanding of modern biotechnology, synthetic biology and various forms of bodyhacking.
+
+---
+Taken from Initiative's Website
