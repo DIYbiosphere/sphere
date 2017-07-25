@@ -1,25 +1,17 @@
 ---
-manager:
-
 title: Cap City Biohackers
+manager: 
 website: http://www.capcitybiohackers.org/
 start-date: 2015
-
-host-org: '[Rev1 Ventures](https://www.rev1ventures.com/)'
-
+host-org: "[Rev1 Ventures](https://www.rev1ventures.com/)"
 type-org: Community
-
-affiliates:
-
-address:
-directions:
-postcode:
+affiliates: 
+address: 
+directions: 
+postcode: 
 city: Columbus
 state: Ohio
 country: United States
-
-tags:
-
 blog: http://www.capcitybiohackers.org/blog/
 twitter: https://twitter.com/capcitybio
 facebook: https://www.facebook.com/diybiocolumbus

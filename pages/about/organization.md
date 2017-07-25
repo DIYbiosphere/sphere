@@ -1,8 +1,8 @@
 ---
-layout: docs
-permalink: /docs/about/organization/
-crumb: about
 title: DIYbiosphere Organization
+permalink: "/docs/about/organization/"
+layout: docs
+crumb: about
 summary: Our vision, mission, values, governance and partners
 ---
 

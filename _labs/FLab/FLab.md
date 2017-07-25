@@ -1,26 +1,18 @@
 ---
-manager:
-
 title: F-lab
+manager: 
 website: http://f-lab.cc/
-start-date:
-
-host-org:
-
-type-org:
-
-affiliates:
-
+start-date: 
+host-org: 
+type-org: 
+affiliates: 
 address: 1940 Sukhumvit Road
-directions:
+directions: 
 postcode: 10260
 city: Bangkok
-state:
+state: 
 country: Thailand
-
-tags:
-
-email:
+email: 
 blog: http://f-labth.blogspot.ch/
 wiki: http://www.f-lab.cc/wiki/index.php/Main_Page
 facebook: https://www.facebook.com/FLabDIYbioThailand/

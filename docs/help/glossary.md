@@ -1,8 +1,8 @@
 ---
-layout: docs
-permalink: /docs/help/glossary/
-crumb: help
 title: Glossary of Terms
+permalink: "/docs/help/glossary/"
+layout: docs
+crumb: help
 summary: A sort of DIYbiosphere "urban" dictionary in alphabetical order
 ---
 

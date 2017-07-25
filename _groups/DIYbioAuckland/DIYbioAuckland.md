@@ -1,44 +1,36 @@
 ---
-manager:
-
 title: Auckland DIYbio
+manager: 
 start-date: 2013
 end-date: 2013
 status: inactive
-
-
-host-org:
-
+host-org: 
 type-org: Community
-
 city: Auckland
-state:
+state: 
 country: Australia
-
-tags:
-
-email:
-blog:
-rss:
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
-twitter:
-facebook:
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+email: 
+blog: 
+rss: 
+wiki: 
+forum: 
+mailinglist: 
+irc: 
+gitter: 
+slack: 
+meetup: 
+twitter: 
+facebook: 
+google+: 
+linkedin: 
+instagram: 
+flickr: 
+pinterest: 
+vimeo: 
+youtube: 
+hackpad: 
+trello: 
+github: 
 ---
 
 ## About

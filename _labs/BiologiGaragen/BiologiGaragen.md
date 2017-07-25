@@ -1,34 +1,28 @@
 ---
-manager:
-
 title: BiologiGaragen
+tags:
+- hackerspace
+manager: 
 website: http://biologigaragen.org/
 start-date: 2010
-
 host-org: "[Labitat](https://labitat.dk/)"
-
-type-org:
-
-affiliates:
-
+type-org: 
+affiliates: 
 address: H. C. Ørsteds Vej 5
-directions:
+directions: 
 postcode: 1879 Frederiksberg
 city: Copenhagen
-state:
+state: 
 country: Denmark
-
-tags:
-  - hackerspace
-
-email:
+email: 
 blog: http://biologigaragen.org/blog/
 rss: http://biologigaragen.org/feed
-wiki:
+wiki: 
 twitter: https://twitter.com/biologigaragen
 facebook: https://www.facebook.com/groups/biologigaragen/
 vimeo: https://vimeo.com/biologigaragen
 ---
+
 Labitat is a hackerspace in CPH. We are a group of people with diverse interests in technology. We are an independent physical space, working creatively with technology, bridging interactive technology with design and art.
 
 ---

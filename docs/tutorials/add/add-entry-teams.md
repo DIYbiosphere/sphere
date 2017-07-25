@@ -1,9 +1,9 @@
 ---
+title: Adding a New Entry
+permalink: "/docs/tutorials/add-entry/teams/"
 layout: docs
-permalink: /docs/tutorials/add-entry/teams/
 crumb: tutorials
 tab: teams
-title: Adding a New Entry
 summary: Instructions for how to add a new entry
 ---
 

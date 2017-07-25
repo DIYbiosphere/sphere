@@ -1,26 +1,19 @@
 ---
-manager:
-
 title: Bio Art Laboratores
+tags:
+- bioart
+manager: 
 website: http://bioartlab.com/
 start-date: 2012
-
-host-org:
-
+host-org: 
 type-org: University
-
-affiliates:
-
+affiliates: 
 address: Achtseweg Zuid 151
-directions:
+directions: 
 postcode: 5651 GW
 city: Eindhoven
-state:
+state: 
 country: Netherlands
-
-tags:
-  - bioart
-
 email: contact@bioartlab.com
 tumblr: http://bioscopelab.tumblr.com/
 twitter: https://twitter.com/bioartlab

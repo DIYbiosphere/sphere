@@ -1,8 +1,8 @@
 ---
-layout: docs
-permalink: /docs/introduction/getting-started/
-crumb: introduction
 title: Getting Started
+permalink: "/docs/introduction/getting-started/"
+layout: docs
+crumb: introduction
 summary: On using the library and contributing to the project of the DIYbiosphere
 ---
 

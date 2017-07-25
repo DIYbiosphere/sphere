@@ -1,24 +1,14 @@
 ---
-manager:
-
 title: Biohacking Mexico
+manager: 
 motto: All biohackers in Latin America
 status: inactive
 start-date: 2015
 end-date: 2016
-
-host-org:
-
-
+host-org: 
 type-org: Community
-
-affiliates:
-
-
-
+affiliates: 
 country: Mexico
-
-
 facebook: https://www.facebook.com/biohackingmexico
 ---
 

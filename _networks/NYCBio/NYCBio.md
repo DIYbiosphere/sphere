@@ -1,25 +1,20 @@
 ---
-manager:
-
 title: NYC Bio
-motto: Education, showcases & networking with the pillars of NYC’s life sciences startup community, since 2008.
+tags:
+- networking
+- education
+- events
+manager: 
+motto: Education, showcases & networking with the pillars of NYC’s life sciences startup
+  community, since 2008.
 website: http://nycbio.org/
 start-date: 2008
-
 type-org: Non-Profit
-
 city: New York
 state: New York
 country: United States
-
-lat:
-lng:
-
-tags:
-  - networking
-  - education
-  - events
-
+lat: 
+lng: 
 linkedin: https://www.linkedin.com/groups/41295/profile
 ---
 

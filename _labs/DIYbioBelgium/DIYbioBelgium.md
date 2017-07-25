@@ -1,27 +1,18 @@
 ---
-manager:
-
 title: DIYbio Belgium
-logo:
+manager: 
+logo: 
 website: http://www.diybio.be/index.php/en/
-start-date:
-
-host-org:
-
+start-date: 
+host-org: 
 type-org: Non-Profit
-
-affiliates:
-
+affiliates: 
 address: Rue du progrès 4
 directions: boite 9
 postcode: 1400
 city: Nivelles
-state:
+state: 
 country: Belgium
-
-tags:
-
-
 blog: http://www.diybio.be/index.php/en/blog
 twitter: https://twitter.com/diybiobelgium
 facebook: https://www.facebook.com/diybio.be/

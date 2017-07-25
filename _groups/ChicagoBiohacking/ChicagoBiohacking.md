@@ -1,25 +1,16 @@
 ---
-manager:
-
 title: DIYbio Chicago
+manager: 
 start-date: 2013
-
-host-org:
-
+host-org: 
 type-org: Community
-
-affiliates:
-
-address:
-directions:
-postcode:
+affiliates: 
+address: 
+directions: 
+postcode: 
 city: Chicago
 state: Illinois
 country: United States
-
-tags:
-
-
 meetup: https://www.meetup.com/Chicago-Biohacking/
 ---
 

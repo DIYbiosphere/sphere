@@ -1,27 +1,19 @@
 ---
-manager:
-
 title: London Biohackspace
+tags:
+- hackerspace
+manager: 
 website: https://biohackspace.org/
 start-date: 2009
-
 host-org: "[London Hackspace](https://london.hackspace.org.uk/)"
-
-type-org:
-
-affiliates:
-
+type-org: 
+affiliates: 
 address: 447 Hackney Road
-directions:
+directions: 
 postcode: E2 9DY
 city: London
-state:
+state: 
 country: United Kingdom
-
-tags:
-  - hackerspace
-
-
 ical: http://www.google.com/calendar/ical/gc1bopmh3c5n0ogvlo6ceujlkc%40group.calendar.google.com/public/basic.ics
 wiki: https://wiki.london.hackspace.org.uk/view/Group:Biohacking
 irc: http://webchat.freenode.net/?channels=london-hack-space

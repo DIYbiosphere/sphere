@@ -1,7 +1,7 @@
 ---
-layout: docs
-permalink: /docs/tutorials/
 title: Tutorials
+permalink: "/docs/tutorials/"
+layout: docs
 ---
 
 > Draft: Step by Step instructions, preferably with screenshots and GIFs on how to do stuff

@@ -1,7 +1,7 @@
 ---
-layout: page
-permalink: /terms-of-use/
 title: Terms of Use
+permalink: "/terms-of-use/"
+layout: page
 summary: Copyright License Terms for the project in simple english
 ---
 
