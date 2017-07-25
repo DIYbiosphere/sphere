@@ -5,13 +5,9 @@ crumb: guides
 title: Contributing Guide
 ---
 
-We :heartpulse: contributions! By contributing, you agree to abide to our [Code of Conduct] and consent to our [Copyright Terms]. In short, you agree to be nice and to freely share your contributions!
+We :heartpulse: contributions!
 
-The following is a set of guidelines for submiting [Issues](#Submitting-Issues) and [Pull requests](#Submitting-Pull-Requests), and for making [Commit messages](#Making-Commits).
-
-If you are new to Github, you can check our [ELI5 guide] (Explain like I'm 5) for the utterly GitHub confused! , like for [adding a new entry] or [editing an entry].
-
-If you want to make changes locally on your computer, follow the [Installation Instructions]. :heart_eyes: :computer:
+_By contributing, you agree to abide to our [Code of Conduct] and consent to our [Copyright Terms]. In short, you agree to be respectful and to freely share your contributions!_
 
 ---
 
