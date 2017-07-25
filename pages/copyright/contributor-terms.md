@@ -1,7 +1,7 @@
 ---
-layout: page
-permalink: /contributor-terms/
 title: Contributor Terms
+permalink: "/contributor-terms/"
+layout: page
 summary: The legal rights waived and granted from contributions
 ---
 

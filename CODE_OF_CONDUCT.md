@@ -1,9 +1,10 @@
 ---
-layout: page
 title: Code of Conduct
+permalink: "/code-of-conduct/"
+layout: page
 crumb: none
-permalink: /code-of-conduct/
-summary: Common understanding of what constitutes a welcoming and enriching working environment
+summary: Common understanding of what constitutes a welcoming and enriching working
+  environment
 ---
 
 Contributors of the DIYbiosphere must abide by our Code of Conduct\*. It applies to all project and public spaces when representing or engaging with the project or its community, online and offline.

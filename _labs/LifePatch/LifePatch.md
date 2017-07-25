@@ -1,25 +1,17 @@
 ---
-manager:
-
 title: LifePatch
+manager: 
 motto: Citizen Initiative in Art, Science and Technology
-start-date:
-
-host-org:
-
-type-org:
-
-affiliates:
-
-address:
-directions:
-postcode:
+start-date: 
+host-org: 
+type-org: 
+affiliates: 
+address: 
+directions: 
+postcode: 
 city: Yogyarta
-state:
+state: 
 country: Indonesia
-
-tags:
-
 wiki: http://lifepatch.org/
 ---
 

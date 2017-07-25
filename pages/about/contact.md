@@ -1,8 +1,8 @@
 ---
-layout: page
-permalink: /about/contact/
-crumb: about
 title: Contact Us
+permalink: "/about/contact/"
+layout: page
+crumb: about
 ---
 
 As part of [our values] we strive to maintain our communication as public as possible.

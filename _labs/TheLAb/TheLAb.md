@@ -1,48 +1,40 @@
 ---
-manager:
-
 title: The LAb
+manager: 
 logo: http://www.thel4b.com/wp-content/uploads/2015/07/thel4b_name1.png
 website: http://www.thel4b.com/
 start-date: 2011
-
-host-org:
-
+host-org: 
 type-org: Community
-
-affiliates:
-
+affiliates: 
 address: 1340 E. 6th St.
-directions: #603
+directions: 
 postcode: 90021
 city: Los Angeles
 state: California
 country: United States
-
-tags:
-
-email:
-blog:
+email: 
+blog: 
 rss: http://www.thel4b.com/?feed=rss2
-wiki:
-forum:
-mailinglist:
-irc:
-gitter:
-slack:
-meetup:
+wiki: 
+forum: 
+mailinglist: 
+irc: 
+gitter: 
+slack: 
+meetup: 
 twitter: https://twitter.com/labiohackers
 facebook: https://www.facebook.com/TheL4b
-google+:
-linkedin:
-instagram:
-flickr:
-pinterest:
-vimeo:
-youtube:
-hackpad:
-trello:
-github:
+google+: 
+linkedin: 
+instagram: 
+flickr: 
+pinterest: 
+vimeo: 
+youtube: 
+hackpad: 
+trello: 
+github: 
 ---
 
 ## About

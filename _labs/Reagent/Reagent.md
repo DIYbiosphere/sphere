@@ -1,25 +1,17 @@
 ---
-manager:
-
 title: ReaGent
+manager: 
 website: http://reagentlab.org/
 start-date: 2015
-
-host-org:
-
+host-org: 
 type-org: Community
-
-affiliates:
-
+affiliates: 
 address: Brusselsepoortstraat 97
-directions:
+directions: 
 postcode: 9000
 city: Gent
-state:
+state: 
 country: Belgium
-
-tags:
-
 twitter: https://twitter.com/reagentlab
 facebook: https://www.facebook.com/ReaGentBiolab/
 ---

@@ -1,11 +1,10 @@
 ---
-layout: default
-permalink: /MIT-license/
-crumb: copyright
 title: Software Copyright
+permalink: "/MIT-license/"
+layout: default
+crumb: copyright
 summary: Copyright License Terms for the project in simple english
 ---
-
 
 # THE MIT LICENSE
 

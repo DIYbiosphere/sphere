@@ -1,34 +1,26 @@
 ---
-manager:
-
 title: Counter Culture Labs
+tags:
+- citizen science
+- biohacking
+- bioart
+manager: 
 motto: Your Biohacking and Citizen Science Lab in Oakland
-header-image: /entries/labs/counterculturelabs/header.jpg
-logo: /entries/labs/counterculturelabs/logo.png
+header-image: "/entries/labs/counterculturelabs/header.jpg"
+logo: "/entries/labs/counterculturelabs/logo.png"
 website: http://counterculturelabs.org/
 start-date: 2013
-
-host-org: '[Omni Commons](https://diybio.org/)'
-
+host-org: "[Omni Commons](https://diybio.org/)"
 type-org: Community
-
-affiliates: '[Sudo Room](https://diybio.org/)'
-
+affiliates: "[Sudo Room](https://diybio.org/)"
 address: 4799 Shattuck
-directions:
+directions: 
 postcode: 94114
 city: Oakland
 state: California
 country: United States
-
-lat:
-lng:
-
-tags:
-  - citizen science
-  - biohacking
-  - bioart
-
+lat: 
+lng: 
 email: info@counterculturelabs.org
 wiki: https://counterculturelabs.org/wiki/Counter_Culture_Labs
 meetup: http://www.meetup.com/Counter-Culture-Labs/

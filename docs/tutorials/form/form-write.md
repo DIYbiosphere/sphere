@@ -1,6 +1,6 @@
 ---
+permalink: "/form/write/"
 layout: form
-permalink: /form/write/
 step: write
 ---
 

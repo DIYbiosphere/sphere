@@ -1,25 +1,17 @@
 ---
-manager:
-
 title: Manila Biopunk
+manager: 
 website: http://www.manilabiopunk.org/
 start-date: 2014
-
 host-org: Tsinelas Labs
-
-affiliates:
-
+affiliates: 
 address: 41B T. Gener St cor Kamuning
-directions:
-postcode:
+directions: 
+postcode: 
 city: Dillman, Quezon City
 state: Metro Manila
 country: Phillipines
-
-tags:
-
 facebook-group: https://www.facebook.com/groups/manilabiopunk/
-
 ---
 
 A small intellectual and cultural movement composed of young science and engineering professionals, students, advocates, hobbyists and enthusiasts who are organizing to create public awareness about the current technologies in the biological and chemical sciences which can be applied in one's own backyard or garage.

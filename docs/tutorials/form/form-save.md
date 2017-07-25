@@ -1,6 +1,6 @@
 ---
+permalink: "/form/save/"
 layout: form
-permalink: /form/save/
 step: save
 ---
 

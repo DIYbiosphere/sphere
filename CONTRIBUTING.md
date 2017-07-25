@@ -1,8 +1,8 @@
 ---
-layout: docs
-permalink: /docs/guides/contributing/
-crumb: guides
 title: Contributing Guide
+permalink: "/docs/guides/contributing/"
+layout: docs
+crumb: guides
 ---
 
 We :heartpulse: contributions!

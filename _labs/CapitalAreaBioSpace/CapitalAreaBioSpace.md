@@ -1,25 +1,17 @@
 ---
-manager:
-
 title: Capital Area BioSpace
+manager: 
 website: https://www.meetup.com/CapitalAreaBioSpace/
-start-date:
-
+start-date: 
 host-org: "[Nova Labs](http://www.nova-labs.org/blog/)"
-
 type-org: Community
-
-affiliates:
-
+affiliates: 
 address: 1916 Isaac Newton Square West
-directions:
+directions: 
 postcode: 20190
 city: Reston
 state: Virginia
 country: United States
-
-tags:
-
 email: capitalareabiospace@gmail.com
 ---
 

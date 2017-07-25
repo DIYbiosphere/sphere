@@ -1,26 +1,17 @@
 ---
-manager:
-
 title: BosLab
+manager: 
 website: http://bosslab.org/
 start-date: 2014
-
-
-host-org:
-
+host-org: 
 type-org: Non-profit
-
-affiliates:
-
+affiliates: 
 address: 339r summer street
 directions: 2nd floor
 postcode: 2nd floor
 city: Boston
 state: Massachussets
 country: United States
-
-tags:
-
 email: homosapiens@boslab.org
 rss: http://www.boslab.org/#!blog/c177y
 twitter: https://twitter.com/BosOpenSci_Lab

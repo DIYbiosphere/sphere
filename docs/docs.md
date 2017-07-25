@@ -1,8 +1,8 @@
 ---
-layout: docs
-permalink: /docs/
-crumb: none
 title: Welcome to the docs!
+permalink: "/docs/"
+layout: docs
+crumb: none
 ---
 
 In **The Basics** section find all about the "blueprints" of the project: the [Entries], the [Software], the [Documentation], and the [Design].

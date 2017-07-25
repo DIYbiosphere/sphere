@@ -1,8 +1,8 @@
 ---
-layout: docs
-permalink: /docs/basics/documentation/
-crumb: basics
 title: Documentation of DIYbiosphere
+permalink: "/docs/basics/documentation/"
+layout: docs
+crumb: basics
 summary: In this section
 ---
 

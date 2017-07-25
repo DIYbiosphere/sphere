@@ -1,25 +1,17 @@
 ---
-manager:
-
 title: HiveBio
+manager: 
 website: http://hivebio.org/
 start-date: 2013
-
-host-org:
-
-type-org:
-
-affiliates:
-
+host-org: 
+type-org: 
+affiliates: 
 address: 4000 NE 41st St.
-directions:
+directions: 
 postcode: 98105
 city: Seattle
 state: Washington
 country: United States
-
-tags:
-
 twitter: https://twitter.com/HiveBio
 youtube: https://www.youtube.com/channel/UCALWihVVy-XpIsEi78uRnXQ
 facebook: https://www.facebook.com/HivebioCommunityLab/

@@ -1,21 +1,13 @@
 ---
-manager:
-
 title: BioHackSyd
+manager: 
 motto: Syney Biohackers Meeting
 start-date: 2015
-
-host-org:
-
+host-org: 
 type-org: Community
-
-
 city: Sydney
 state: New South Wales
 country: Australia
-
-tags:
-
 meetup: https://www.meetup.com/biohackoz/
 ---
 

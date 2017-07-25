@@ -1,30 +1,21 @@
 ---
-manager:
-
 title: La Paillase
+manager: 
 website: http://lapaillasse.org/
-start-date:
-
-host-org:
-
-type-org:
-
-affiliates:
-
+start-date: 
+host-org: 
+type-org: 
+affiliates: 
 address: 226 rue St. Denis
-directions:
+directions: 
 postcode: 75002
 city: Paris
-state:
+state: 
 country: France
-
-tags:
-
 email: contact@lapaillasse.org
 twitter: https://twitter.com/lapaillasse
 facebook-group: https://www.facebook.com/groups/206707586012941/
 ---
-
 
 La Paillasse is an open and citizen research laboratory where initiatives to initiate and accelerate scientific, entrepreneurial and artistic projects are carried out .
 

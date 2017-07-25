@@ -1,25 +1,17 @@
 ---
-manager:
-
 title: BioNyfiken
+manager: 
 website: http://www.bionyfiken.se/
 start-date: 2014
-
-host-org:
-
+host-org: 
 type-org: Non-profit
-
-affiliates:
-
+affiliates: 
 address: Drottning Kristinas väg 53
-directions:
-postcode:
+directions: 
+postcode: 
 city: Stockholm
-state:
+state: 
 country: Sweden
-
-tags:
-
 meetup: http://www.meetup.com/BioNyfiken-Sthlm/
 twitter: https://twitter.com/BioNyfiken/likes
 facebook: https://www.facebook.com/BioNyfiken
