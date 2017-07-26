@@ -1,16 +1,16 @@
 ---
 title: La Paillase Saône
-manager: 
+manager:
 website: https://lapaillassaone.wordpress.com/
 start-date: 2015
 host-org: La MYNE
-type-org: 
-affiliates: 
+type-org:
+affiliates:
 address: 1 Rue du Luizet
-directions: 
+directions:
 postcode: 69100
 city: Villeurbanne
-state: 
+state:
 country: France
 twitter: https://twitter.com/laPaillassaone
 facebook-group: https://www.facebook.com/groups/644546245604963/
@@ -21,5 +21,5 @@ MYNE is a physical platform for the exchange , sharing , collaboration and c o-c
 Extending the philosophy of the Do It Yourself, Paillasse Saône is a community dedicated to the problems of life, Link with the concept of Sustainable Development and aims to extend the reappropriation of research.
 What drives us? Do it ! By following Nelson Mandela's adage, "It's impossible to get it's done," the community is experimenting with new forms of organizations and innovative technical systems ... So what are we waiting for? Let's do YOURSELF TOGETHER!
 
----
-text taken from initiative's website
+
+\*text taken from initiative's website

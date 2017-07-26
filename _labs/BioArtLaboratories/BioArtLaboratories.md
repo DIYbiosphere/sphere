@@ -2,17 +2,17 @@
 title: Bio Art Laboratores
 tags:
 - bioart
-manager: 
+manager:
 website: http://bioartlab.com/
 start-date: 2012
-host-org: 
+host-org:
 type-org: University
-affiliates: 
+affiliates:
 address: Achtseweg Zuid 151
-directions: 
+directions:
 postcode: 5651 GW
 city: Eindhoven
-state: 
+state:
 country: Netherlands
 email: contact@bioartlab.com
 tumblr: http://bioscopelab.tumblr.com/
@@ -28,5 +28,5 @@ As pioneers, we offer an inspiring environment to experiment, and to develop new
 BioArt Laboratories has been founded in 2011 by Jalila Essaïdi. In 2012, it established physical foothold in Eindhoven.
 At the moment the team consists of 30 enthusiastic people all with a different background and expertise. BioArt Laboratories keeps growing rapidly
 
----
-Text taken from initiative's website
+
+\*Text taken from initiative's website

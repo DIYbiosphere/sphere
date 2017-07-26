@@ -1,38 +1,38 @@
 ---
 title: Brmlab
-manager: 
+manager:
 website: http://brmlab.cz/index.html
-start-date: 
-host-org: 
+start-date:
+host-org:
 type-org: Non-Profit
-affiliates: 
+affiliates:
 address: Bubenská 1477/1
-directions: 
+directions:
 postcode: 170 00
 city: Prague
-state: 
+state:
 country: Czech Republic
 email: biolab@brmlab.cz
-blog: 
-rss: 
+blog:
+rss:
 wiki: http://brmlab.cz/start
-forum: 
-mailinglist: 
+forum:
+mailinglist:
 irc: http://webchat.freenode.net/?nick=brm...&channels=brmlab&prompt=1
-gitter: 
-slack: 
-meetup: 
+gitter:
+slack:
+meetup:
 twitter: https://twitter.com/brmlab
 facebook: https://www.facebook.com/brmlab?_rdr=p
-google+: 
-linkedin: 
-instagram: 
+google+:
+linkedin:
+instagram:
 flickr: https://secure.flickr.com/photos/brmlab
-pinterest: 
-vimeo: 
-youtube: 
-hackpad: 
-trello: 
+pinterest:
+vimeo:
+youtube:
+hackpad:
+trello:
 github: https://github.com/brmlab
 ---
 
@@ -41,5 +41,5 @@ Brmlab is a non-profit, community-run hackerspace in Prague. We provide a space 
 
 ## History
 
----
-Text taken from initiative's website
+
+\*Text taken from initiative's website

@@ -1,18 +1,18 @@
 ---
 title: Biodidact
-manager: 
+manager:
 website: http://biodidact.net/
 start-date: 2014
-host-org: 
+host-org:
 type-org: Community
-affiliates: 
+affiliates:
 address: 1900 Diamond Drive
-directions: 
+directions:
 postcode: 87544
 city: Los Alamos
 state: New Mexico
 country: United States
-email: 
+email:
 twitter: https://twitter.com/biodidact
 facebook: https://www.facebook.com/Biodidact-766169000111497/
 ---
@@ -40,5 +40,5 @@ In this era of decreased funding for basic science research, growing knowledge a
 How can we expect our representatives to advocate more funding for basic scientific research if they, or their constituents, don't really grasp what is done in a lab?
 
 
----
-Text taken from initiative's website
+
+\*Text taken from initiative's website

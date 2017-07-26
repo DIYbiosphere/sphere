@@ -175,7 +175,7 @@ assets:
     - _assets/img
     - _assets/js
     - _assets/css
-    - _assets/fonts
+    - _assets/gifs
 
 # Jekyll-Tagging: https://github.com/pattex/jekyll-tagging/
 tag_page_layout: tag_page
@@ -187,13 +187,22 @@ algolia:
   index_name: 'diybiosphere'
   lazy_update: true
   settings:
+    advancedSyntax: true
+    distinct: true
+    ignorePlurals: true
     attributesToIndex:
-      - title, alias
+      - title
       - city
       - state
       - country
       - unordered(text)
       - unordered(tags)
+    ranking:
+      - typo
+      - geo
+      - proximity
+      - attribute
+      - custom
     attributesForFaceting:
       - collection
       - type-org
@@ -202,6 +211,17 @@ algolia:
       - country
       - tags
       - status
+    attributesToRetrieve:
+      - title
+      - collection
+      - type-org
+      - city
+      - state
+      - country
+      - tags
+      - status
+      - text
+      - motto
     attributesToSnippet: ['text:20']
     attributesToHighlight: ['*']
     highlightPostTag: </span>

@@ -1,22 +1,22 @@
 ---
 title: Genspace
-manager: 
+manager:
 motto: New York's Community Lab
 website: http://genspace.org/
 since: 2010
 call-to-action:
-- title: Take a Class
-  description: Genspace instructors come from top institutions around the New York
-    City area to teach advanced biology in an easy-to-understand, hands-on way.
-  URL: https://www.genspace.org/classes-alt
-- title: Join our Lab
-  description: At Genspace, anyone can work in our biolab on their own project. Receive
-    24/7 access to our facility, equipment, and basic lab training from our staff.
-  URL: https://www.genspace.org/lab-access
+  - title: Take a Class
+    description: Genspace instructors come from top institutions around the New York
+      City area to teach advanced biology in an easy-to-understand, hands-on way.
+    URL: https://www.genspace.org/classes-alt
+  - title: Join our Lab
+    description: At Genspace, anyone can work in our biolab on their own project. Receive
+      24/7 access to our facility, equipment, and basic lab training from our staff.
+    URL: https://www.genspace.org/lab-access
 type-org: Non-profit
 address: 33 Flatbush Avenue
 directions: 7th Floor. 11217
-postcode: 
+postcode:
 city: Brooklyn
 state: New York
 country: United States
@@ -38,5 +38,5 @@ Stemming from the hacking, biohacking, and DIYbio movements, Genspace has focuse
 The Biosafety Level 1 laboratory opened in December 2010. Co-founded by  Ellen Jorgensen, Nurit Bar-Shai, Oliver Medvedik, and Daniel Grushkin.
 
 
----
-Text taken from initiative's website
+
+\*Text taken from initiative's website

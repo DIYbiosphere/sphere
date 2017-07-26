@@ -1,40 +1,40 @@
 ---
 title: The LAb
-manager: 
+manager:
 logo: http://www.thel4b.com/wp-content/uploads/2015/07/thel4b_name1.png
 website: http://www.thel4b.com/
 start-date: 2011
-host-org: 
+host-org:
 type-org: Community
-affiliates: 
+affiliates:
 address: 1340 E. 6th St.
-directions: 
+directions:
 postcode: 90021
 city: Los Angeles
 state: California
 country: United States
-email: 
-blog: 
+email:
+blog:
 rss: http://www.thel4b.com/?feed=rss2
-wiki: 
-forum: 
-mailinglist: 
-irc: 
-gitter: 
-slack: 
-meetup: 
+wiki:
+forum:
+mailinglist:
+irc:
+gitter:
+slack:
+meetup:
 twitter: https://twitter.com/labiohackers
 facebook: https://www.facebook.com/TheL4b
-google+: 
-linkedin: 
-instagram: 
-flickr: 
-pinterest: 
-vimeo: 
-youtube: 
-hackpad: 
-trello: 
-github: 
+google+:
+linkedin:
+instagram:
+flickr:
+pinterest:
+vimeo:
+youtube:
+hackpad:
+trello:
+github:
 ---
 
 ## About
@@ -44,5 +44,5 @@ The mission of TheLAB is to make science accessible to people of all ages and ed
 In January 2010, UCLA Center for Society and Genetics held a conference Outlaw Biology? Public Participation in the Age of Big Bio.  The conference attracted a number of DIYBio mailing list regulars plus some new faces of biologists from around Southern California.  This started the process of coalescing a group of locals interested in biology which would eventually band together to set up an independent bio lab.
 
 
----
-Text taken from initiative's website
+
+\*Text taken from initiative's website

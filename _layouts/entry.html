@@ -50,7 +50,7 @@ layout: default
           {% endif %}
         {% endfor %}
 
-        <a class="item" data-tab="issues">Issues</a>
+          <a class="item" data-tab="issues"> <i class="edit icon"></i>Issues</a>
 
       </div>
 
@@ -81,7 +81,7 @@ layout: default
       </div>
 
       <div class="ui tab basic segment" data-tab="issues">
-        Issues
+        {% include github-comments.html %}
       </div>
 
     </div>

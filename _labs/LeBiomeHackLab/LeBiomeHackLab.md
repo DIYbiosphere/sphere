@@ -2,17 +2,17 @@
 title: Biome Hack Lab
 tags:
 - biomimicry
-manager: 
+manager:
 website: https://lebiome.github.io/
-start-date: 
-host-org: 
-type-org: 
-affiliates: 
-address: 
-directions: 
-postcode: 
+start-date:
+host-org:
+type-org:
+affiliates:
+address:
+directions:
+postcode:
 city: Rennes
-state: 
+state:
 country: France
 email: lebiomefablab@gmail.com
 facebook: https://www.facebook.com/biomefrance
@@ -36,5 +36,5 @@ We organize events with other communities and are accessible to as many people a
 Nours organize workshops for biomimicry training
 
 
----
-text taken from initiative's website
+
+\*text taken from initiative's website

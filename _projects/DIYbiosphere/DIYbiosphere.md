@@ -1,30 +1,32 @@
 ---
 title: DIYbiosphere
-tags:
-- database
-- open-source
-- software
-- website
+call-to-action:
+  - title: Update/Edit Entries
+    description: Help maintain DIYbiosphere
+    URL: https://www.genspace.org/classes-alt
 manager: sabgaby
-header-image: http://cdn.images.express.co.uk/img/dynamic/151/590x/Earth-spin-742026.jpg
+github_comments_issueid: 1
 website: http://sphere.diybio.org/
-logo: "/entries/labs/counterculturelabs/logo.png"
 motto: Connecting DIYbio all over the world
-profile-pic: 
 status: active
 start-date: 2016
-main-org: 
+main-org:
 host-org: "[DIYbio.org](https://diybio.org/)"
 type-org: Non-profit
 affiliations: "[UNIGE](https://diybio.org/)"
 num-staff: 2
-num-volunteers: 
+num-volunteers:
 founders: Gabriela A. Sanchez
-authors: 
-lat: 46.204391
-lng: 6.143158
+_geoloc:
+  lat: 46.204391
+  lng: 6.143158
 city: Geneva
 country: Switzerland
+tags:
+  - database
+  - open-source
+  - software
+  - website
 github: https://github.com/DIYbiosphere/sphere
 twitter: https://twitter.com/DIYbiosphere/
 slack: https://slack.io.com/DIYbiosphere/

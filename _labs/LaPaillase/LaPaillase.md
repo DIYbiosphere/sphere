@@ -1,16 +1,16 @@
 ---
 title: La Paillase
-manager: 
+manager:
 website: http://lapaillasse.org/
-start-date: 
-host-org: 
-type-org: 
-affiliates: 
+start-date:
+host-org:
+type-org:
+affiliates:
 address: 226 rue St. Denis
-directions: 
+directions:
 postcode: 75002
 city: Paris
-state: 
+state:
 country: France
 email: contact@lapaillasse.org
 twitter: https://twitter.com/lapaillasse
@@ -23,5 +23,5 @@ As an alternative to the world of academic research, La Paillasse places freedom
 
 We bring together all those who wish to experiment and invent a common future around issues of health, environment, food, materials, art, citizen counter-powers
 
----
-Text taken from initiative's website
+
+\*Text taken from initiative's website

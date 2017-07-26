@@ -1,42 +1,30 @@
 ---
 title: Hackuarium
-manager: 
-logo: http://hackuarium.cleverapps.io/wp-content/uploads/2015/08/logo.png
+manager:
+motto: An Open Laboratory for DIY Biology (And Beyond)
 website: http://www.hackuarium.ch/en/
 start-date: 2014
 host-org: "[UniverCite](http://univercity.ch/)"
-type-org: 
-affiliates: 
 address: Chemin du Closel 5
-directions: 
+directions:
 postcode: 1020 Renens
 city: Renens
-state: 
 country: Switzerland
 email: hello@hackuarium.ch
 blog: https://medium.com/hackuarium-diybio
-rss: 
 wiki: http://wiki.hackuarium.ch/w/Main_Page
-forum: 
-mailinglist: 
-irc: 
-gitter: 
-slack: 
-meetup: 
+slack:
+meetup:
 twitter: https://twitter.com/hackuarium
 facebook: https://www.facebook.com/hackuarium
-google+: 
-linkedin: 
 instagram: https://www.instagram.com/hackuarium/
-flickr: 
 pinterest: https://nl.pinterest.com/shalf/diybio/
-vimeo: 
-youtube: 
-hackpad: 
-trello: 
-github: 
 ---
 
-## About
+Our laboratory in Renens (Switzerland) is open to anyone sharing the values of the association and who is dedicated to follow the DIYbio Europe ethical guidelines.
 
-## History
+Our projects are initiated and carried out by scientists as well as non-scientists from a variety of background. They are passionate about tinkering with biology in particular, and technology in general. Some are engineers, architects, designers, IT and computer scientists or retired professionals, but others have no scientific education. They are mostly citizens interested in open and participatory research and innovation, outside the contrains of traditional institutions.
+
+Hackuarium members want to investigate new ways of carrying out interdisciplinary research and innovation, by making their results accessible (low-cost), simple and easily reproducible (low-tech) and by promoting an open source philosophy.
+
+Hackuarium is proudly using infrastructures provided by UniverCité, an unconventional innovation hub opened in May 2014. Our equipment is mostly upcycled material from institutions and industries from western Switzerland.
