@@ -26,6 +26,10 @@
   text-decoration: none !important;
 }
 
+.holc a:hover {
+   color: #5A2EC6;
+}
+
 article {
   a:not(.noelink)[href^="http"]:after {
     display: inline-block;
@@ -95,7 +99,6 @@ footer {
 }
 
 .search-highlight {
-  text-decoration: underline;
   background-color: yellow;
 }
 /**

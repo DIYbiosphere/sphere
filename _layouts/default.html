@@ -26,25 +26,17 @@
     <script type="text/javascript">$('.coded-with-love').popup({inline: true,hoverable: true,position: 'top left',delay: {hide: 300}});</script>
 
     <!-- Algolia search & components -->
-    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearchLite.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch-preact.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/hogan.js/3.0.2/hogan.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.0.2/dist/instantsearch.min.js"></script>
+    {% javascript instantsearch %}
     <link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags16.css" />
+    <script src="https://cdn.jsdelivr.net/npm/places.js@1.4.15"></script>
+    <!-- Include AlgoliaSearch JS Client and autocomplete.js library -->
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+    <!-- Initialize autocomplete menu -->
+    {% javascript autocomplete %}
 
-    <!-- REACT -->
-    <script src="https://unpkg.com/react@15/dist/react.js"></script>
-    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
-
-    <!-- Semantic + React -->
-
-    <!-- Embeded Gitter chat -->
-    <script>((window.gitter = {}).chat = {}).options = { room: 'DIYbiosphere/sphere', activationElement: false };</script>
-    <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-
-    <!-- Main JS file -->
-    {% javascript main %}
 
     {% if page.layout == 'landing' %}
       <script type="text/javascript">$('.ui.accordion').accordion();</script>
@@ -58,18 +50,6 @@
 
     {% if page.layout == 'entries' %}
       <script type="text/javascript">$('.tabular.menu .item').tab();</script>
-      {% javascript entries %}
-      <script type="text/javascript">$('table').tablesort();</script>
-
-      <!-- LEAFLET -->
-      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==" crossorigin=""/>
-      <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js" integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg==" crossorigin=""></script>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/leaflet/1/leaflet.css" />
-      <script src="https://cdn.jsdelivr.net/leaflet/1/leaflet.js"></script>
-      <!-- ALGOLIA PLACES -->
-      <script src="https://cdn.jsdelivr.net/instantsearch.js/1.6.0/instantsearch.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/places.js@1.4.14/dist/cdn/placesInstantsearchWidget.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/places.js@1.4.14"></script>
     {% endif %}
 
 
@@ -81,13 +61,6 @@
       {% javascript docs %}
     {% endif %}
 
-    {% if page.layout == 'form' or page.layout == "entries" %}
-      <!-- Algolia places -->
-      <script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script>
-      <!-- Address and autocomplete -->
-      {% javascript places %}
-
-    {% endif %}
 
   </body>
 

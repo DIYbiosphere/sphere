@@ -10,12 +10,12 @@ const search = instantsearch({
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-box',
-    reset: true,
-    poweredBy: true,
-    magnifier: true,
-    placeholder: 'Search in all entries',
+    reset: false,
+    poweredBy: false,
+    magnifier: false,
+    placeholder: 'Global Search for all Entries',
 		cssClasses: {
-			root: ['ui', 'icon', 'left', 'input', 'fluid']
+			root: 'ui input fluid'
 		}
 	})
 );
@@ -53,7 +53,16 @@ search.addWidget(
   instantsearch.widgets.stats({
     container: '#stats-container',
 		templates: {
-			body: `  <h3 class="ui header"> Showing {{nbHits}}</h3>`
+			body: '<h3 class="ui sub header>Results ({{nbHits}})</h3>',
+		},
+  })
+);
+
+search.addWidget(
+  instantsearch.widgets.stats({
+    container: '#pages',
+		templates: {
+			body: '{{nbPages}} pages',
 		},
   })
 );
@@ -97,9 +106,9 @@ const TABLE_TEMPLATE = `
     <tr>
       <th>Name</th>
       <th>Collection</th>
-      <th>Type</th>
       <th>City</th>
       <th>Country</th>
+      <th>Last Edit</th>
     </tr>
   </thead>
   <tbody>
@@ -107,9 +116,9 @@ const TABLE_TEMPLATE = `
     <tr>
       <td><a href="{{url}}">{{{ _highlightResult.title.value }}}</td>
       <td>{{#collection}} {{collection}} {{/collection}}</td>
-      <td>{{#type-org}} {{type-org}} {{/type-org}}</td>
       <td>{{#city}} {{city}} {{/city}}</td>
       <td>{{#country}} {{country}} {{/country}}</td>
+      <td>{{#last_modified_at}} {{last_modified_at}} {{/last_modified_at}}</td>
     </tr>
   {{/hits}}
   </tbody>
@@ -136,6 +145,7 @@ search.addWidget(
 	})
 );
 
+
 search.addWidget(
   instantsearch.widgets.refinementList({
     container: '#collection',
@@ -144,13 +154,21 @@ search.addWidget(
     limit: 10,
     cssClasses: {
 			item: 'link item',
-			active: 'active item'
+			active: 'active item',
+      header: 'ui medium header'
     },
     templates: {
-      item: `
-				  {{name}} <div style="float:right;" class="ui mini label">{{count}}</div>
-				`
-    },
+      header: 'Collections',
+      item: '<div class="ui comments">' +
+        '<div class="comment">' +
+          '<div class="content">' +
+            '<a href="" class="noul">{{value}}</a>' +
+            '<div class="metadata">' +
+              '<div class="date">{{count}}</div>' +
+            '</div>' +
+          '</div>' +
+        '</div>' +
+      '</div>'},
   })
 );
 
@@ -160,15 +178,23 @@ search.addWidget(
     attributeName: 'type-org',
     operator: 'or',
     limit: 10,
-		cssClasses: {
+    cssClasses: {
 			item: 'link item',
-			active: 'active item'
+			active: 'active item',
+      header: 'ui medium header'
     },
     templates: {
-      item: `
-				{{name}} <div style="float:right;" class="ui mini label">{{count}}</div>
-			`
-    }
+      header: 'Type',
+      item: '<div class="ui comments">' +
+        '<div class="comment">' +
+          '<div class="content">' +
+            '<a href="" class="noul">{{value}}</a>' +
+            '<div class="metadata">' +
+              '<div class="date">{{count}}</div>' +
+            '</div>' +
+          '</div>' +
+        '</div>' +
+      '</div>'},
   })
 );
 
@@ -178,17 +204,26 @@ search.addWidget(
     container: '#tags',
     attributeName: 'tags',
 		operator: 'or',
-		limit: 10,
+		limit: 2,
 		searchForFacetValues: {
-			placeholder: 'Search for keywords'
+			placeholder: 'Search for tags',
+      isAlwaysActive: false,
+      templates: {
+        noResults: 'NORESULT'
+      },
 		},
+    showMore: {
+
+    },
 		cssClasses: {
 			root: 'ui labels',
 			item: 'ui label xo paddingfull half',
-			active: 'ui basic label xo paddingfull half'
+			active: 'ui basic label xo paddingfull half',
+      header: 'ui medium header'
     },
     templates: {
-      item: `{{name}} - {{count}}`
+      header: 'Tags',
+      item: '{{value}}'
     }
   })
 );
@@ -196,31 +231,31 @@ search.addWidget(
 search.addWidget(
   instantsearch.widgets.pagination({
     container: '#pagination-container',
+    maxPages: 20,
 		autoHideContainer: true,
 		showFirstLast: true,
     padding: 1, //number of pages on each side
 		cssClasses: {
 			root: 'ui secondary small compact menu',
 			item: 'item',
+      link: 'noul',
 			active: 'active item'
 		}
   })
 );
 
-
 search.addWidget(
   instantsearch.widgets.hitsPerPageSelector({
     container: '#hits-per-page-selector',
-		options: [
-      {value: 10, label: '10'},
-      {value: 50, label: '50'},
-      {value: 100, label: '100'}
-    ],
-		autoHideContainer: true,
+    autoHideContainer: false,
     cssClasses: {
-      root: 'ui selection compact dropdown',
-			item: 'item'
+      root: 'ui dropdown',
     },
+    items: [
+      {value: 20, label: '20'},
+      {value: 100, label: '100'},
+      {value: 1000, label: 'All'},
+    ],
   })
 );
 

@@ -175,7 +175,7 @@ assets:
     - _assets/img
     - _assets/js
     - _assets/css
-    - _assets/gifs
+    - _assets/gif
 
 # Jekyll-Tagging: https://github.com/pattex/jekyll-tagging/
 tag_page_layout: tag_page
@@ -222,6 +222,11 @@ algolia:
       - status
       - text
       - motto
+      - url
+      - start-date
+      - end-date
+      - host-org
+      - last_modified_at
     attributesToSnippet: ['text:20']
     attributesToHighlight: ['*']
     highlightPostTag: </span>

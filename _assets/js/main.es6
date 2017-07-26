@@ -17,14 +17,10 @@
       </div>
     `);
 
-    // Algolia search api config
-    const APPLICATION_ID = 'ITI5JHZJM9';
-    const SEARCH_ONLY_API_KEY = 'b427318cf6d881e5d3ffd84adf39219e';
-    const INDEX_NAME = 'diybiosphere';
 
     // init Algolia client & index
-    var client = algoliasearch(APPLICATION_ID, SEARCH_ONLY_API_KEY);
-    var index = client.initIndex(INDEX_NAME);
+    var client = algoliasearch("ITI5JHZJM9", "b427318cf6d881e5d3ffd84adf39219e");
+    var index = client.initIndex('diybiosphere');
 
     $('[data-algolia-search="true"]').autocomplete({ hint: true, debug: true }, [{
       source: $.fn.autocomplete.sources.hits(index, { hitsPerPage: 4 }),

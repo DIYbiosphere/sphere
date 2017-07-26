@@ -4,51 +4,40 @@ layout: default
 
 <div class="ui grid container xo padding top twofold">
   <div class="four wide column">
-    <div class="ui segment">
-      <div class="ui fluid text vertical menu">
+    <div class="ui fluid text vertical menu">
       <div class="item">
+        <div id="status"></div>
         <div class="ui sub header">
-            <h2>Filter by</h2>
+
             <div id="clear-all"></div>
         </div>
         <div id="current-refined-values"></div>
-
       </div>
         <div class="ui divider"></div>
         <div class="item">
-          <div class="ui sub header">Collection</div>
           <div class="menu">
             <div id="collection"></div>
           </div>
         </div>
         <div class="ui divider"></div>
         <div class="item">
-          <div class="ui sub header">Type of Initiative</div>
           <div class="menu">
             <div id="type-org"></div>
           </div>
         </div>
         <div class="ui divider"></div>
         <div class="item">
-          <div class="ui sub header">Location</div>
-          <div class="menu">
-          </div>
-        </div>
-        <div class="ui divider"></div>
-        <div class="item">
-          <div class="ui sub header">Keywords</div>
           <div class="menu">
             <div id="tags"></div>
           </div>
         </div>
-      </div> <!-- close vertical menu -->
-    </div>
+    </div> <!-- close vertical menu -->
   </div> <!-- close left column -->
 
 <!-- Results -->
   <div class="twelve wide column">
     <div class="ui basic segment">
-      <div class="ui segment">
+      <div class="ui basic segment">
         <div>
           <div id="search-box"></div>
         </div>
@@ -60,10 +49,7 @@ layout: default
           </div>
           <div class="two column row xo paddingless">
             <div class="column">
-                <div class="ui secondary compact tabular small menu">
-                  <h3 class="ui sub header item">Results per page:</h3>
-                  <span style="padding-left: 0;" class="item" id="hits-per-page-selector"></span≥>
-                </div>
+                Showing <span id="hits-per-page-selector"> </span> in <span id="pages"></span>
             </div>
             <div class="right aligned column">
               <div id="pagination-container"></div>
