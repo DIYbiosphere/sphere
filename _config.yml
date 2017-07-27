@@ -4,8 +4,8 @@ description: "A collaborative library of Do-it-Yourself Biology initiatives"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "sphere.diybio.org"
 permalink: /updates/:year/:month/:day/:title
-repository: "DIYbiosphere/sphere"
-github_username: "DIYbiosphere"
+repository: DIYbiosphere/sphere
+github_username: DIYbiosphere
 twitter:
   username: DIYbiosphere
 
@@ -41,11 +41,13 @@ plugins:
   - jekyll-seo-tag
   - jekyll-mentions
   - jekyll-github-metadata
+  - jekyll-git_metadata
   - algoliasearch-jekyll
   - jekyll-last-modified-at
   - jekyll-feed
   - jekyll-avatar
   - jekyll-toc #https://github.com/toshimaru/jekyll-toc/
+  - jekyll-timeago
 
 # Collections
 collections:
@@ -189,6 +191,7 @@ algolia:
   settings:
     advancedSyntax: true
     distinct: true
+    attributeForDistinct: 'url'
     ignorePlurals: true
     attributesToIndex:
       - title
@@ -227,6 +230,7 @@ algolia:
       - end-date
       - host-org
       - last_modified_at
+      - timestamp
     attributesToSnippet: ['text:20']
     attributesToHighlight: ['*']
     highlightPostTag: </span>

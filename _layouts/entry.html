@@ -50,8 +50,15 @@ layout: default
           {% endif %}
         {% endfor %}
 
-          <a class="item" data-tab="issues"> <i class="edit icon"></i>Issues</a>
 
+
+        {% if page.github_comments %}
+          <a class="item" data-tab="issues"> Comments <i class="far fa-comments icon"></i></a>
+        {% endif %}
+        
+        {% if page.github_comments_issueid %}
+          <a class="item" data-tab="issues"> Issues <i class="far fa-pen icon"></i></a>
+        {% endif %}
       </div>
 
       <div class="ui tab active basic segment" data-tab="overview">
@@ -81,7 +88,7 @@ layout: default
       </div>
 
       <div class="ui tab basic segment" data-tab="issues">
-        {% include github-comments.html %}
+        {% include githubComments.html %}
       </div>
 
     </div>

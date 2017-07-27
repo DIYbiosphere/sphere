@@ -106,7 +106,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #6435C9;
+  color: #FE57C6;
   text-decoration: none;
 }
 
@@ -118,15 +118,15 @@ a:hover {
 
 /* Site */
 ::-webkit-selection {
-  background-color: #CCE2FF;
+  background-color: #FFF04A;
   color: rgba(0, 0, 0, 0.87);
 }
 ::-moz-selection {
-  background-color: #CCE2FF;
+  background-color: #FFF04A;
   color: rgba(0, 0, 0, 0.87);
 }
 ::selection {
-  background-color: #CCE2FF;
+  background-color: #FFF04A;
   color: rgba(0, 0, 0, 0.87);
 }
 

@@ -6,56 +6,44 @@
         <a href="/">
         <img class="ui image" src="/assets/img/sphere-logo-alpha.png"></a>
       </div>
-      <!-- about -->
-      <div class="ui dropdown item">
-        About
-        <i class="angle down icon"></i>
-        <div class="menu">
-          <a class="item" href="{{ '/about/diybiosphere' | prepend: site.baseUrl }}"><i class="info circle icon"></i>DIYbiosphere</a>
-          <a class="item" href="{{ '/about/community' | prepend: site.baseUrl }}"><i class="child icon"></i>Our Community</a>
-          <a class="item" href="{{ '/about/philosophy' | prepend: site.baseUrl }}"><i class="hand peace icon"></i>Philosophy</a>
-          <a class="item" href="{{ '/about/contact' | prepend: site.baseUrl }}"><i class="send icon"></i>Contact</a>
-        </div>
-      </div>
-      <!-- contribute -->
-      <div class="ui dropdown item">
-        Contribute
-        <i class="angle down icon"></i>
-        <div class="menu">
-          <a class="item" href="{{  '/docs/tutorials/add-entry' | prepend: site.baseUrl }}"><i class="plus icon"></i>Add Entry</a>
-          <a class="item" href="{{  '/docs/tutorials/edit-content' | prepend: site.baseUrl }}"><i class="write icon"></i>Edit Content</a>
-          <a target="_blank" class="item" href="https://github.com/DIYbiosphere/sphere"><i class="github icon"></i>Github (repo)</a>
-          <a class="item" href="{{  '/docs/' | prepend: site.baseUrl }}"><i class="book icon"></i>Learn More (docs)</a>
-          <a class="item" href="{{  '/support-us/' | prepend: site.baseUrl }}"><i class="thumbs outline up icon"></i>Support Us</a>
-        </div>
-      </div>
-      <!-- browse -->
-      <div class="ui dropdown item">
-        Browse
-        <i class="angle down icon"></i>
-        <div class="menu">
-          <a class="item" href="{{ '/entries/' | prepend: site.baseUrl }}"><i class="list layout icon"></i>All</a>
-          <div class="divider"></div>
-          <div class="header">By Collection</div>
-          <a class="item" href="{{ '/entries/?q=&hPP=3&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=project&is_v=1' | prepend: site.baseUrl }}"><i class="travel icon"></i> Projects</a>
-          <a class="item" href="{{ '/entries/?q=&hPP=3&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=startup&is_v=1' | prepend: site.baseUrl }}"><i class="rocket icon"></i> Startups </a>
-          <a class="item" href="{{ '/entries/?q=&hPP=3&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=lab&is_v=1 | prepend: site.baseUrl }}"><i class="lab icon"></i> Labs</a>
-          <a class="item" href="{{ '/entries/?q=&hPP=3&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=incubator&is_v=1' | prepend: site.baseUrl }}"><i class="leaf icon"></i> Incubators </a>
-          <a class="item" href="{{ '/entries/?q=&hPP=3&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=group&is_v=1' | prepend: site.baseUrl }}"><i class="users icon"></i> Groups</a>
-          <a class="item" href="{{ '/entries/?q=&hPP=3&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=network&is_v=1' | prepend: site.baseUrl }}"><i class="share alternate icon"></i> Networks </a>
-          <a class="item" href="{{ '/entries/?q=&hPP=3&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=event&is_v=1' | prepend: site.baseUrl }}"><i class="ticket icon"></i> Events</a>
-          <a class="item" href="{{ '/entries/?q=&hPP=3&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=other&is_v=1' | prepend: site.baseUrl }}"><i class="umbrella icon"></i> Others </a>
-        </div>
-      </div>
+
       <!-- search -->
       <div class="item">
-        <div class="ui right icon input" id="aa-input-container">
-          <input type="search" id="aa-search-input" class="aa-input-search" placeholder="Search by name or location" name="search" autocomplete="on" />
-          <i class="search icon"></i>
-        </div>
+        <div class="ui small left action fluid input" id="aa-input-container">
+            <a class="noelink noul" href="/entries/">
+              <button class="ui labeled icon black button" data-tooltip="Or do an Advanced Search" data-inverted="" data-position="bottom center" data-variation="tiny" >
+                <i class="options icon"></i>
+                Browse
+              </button>
+            </a>
+            <input type="search" id="aa-search-input" class="aa-input-search" placeholder="Quick search (name/location)" name="search" autocomplete="on" />
+          </div>
       </div>
       <!-- right menu -->
       <div class="right menu">
+        <!-- about -->
+        <div class="ui dropdown item">
+          About
+          <i class="angle down icon"></i>
+          <div class="menu">
+            <a class="item" href="{{ '/about/diybiosphere' | prepend: site.baseUrl }}"><i class="far fa-info icon"></i>DIYbiosphere</a>
+            <a class="item" href="{{ '/about/community' | prepend: site.baseUrl }}"><i class="far fa-heart icon"></i>Our Community</a>
+            <a class="item" href="{{ '/about/philosophy' | prepend: site.baseUrl }}"><i class="far fa-compass icon"></i>Philosophy</a>
+            <a class="item" href="{{ '/about/contact' | prepend: site.baseUrl }}"><i class="far fa-paper-plane icon"></i>Contact</a>
+          </div>
+        </div>
+        <!-- contribute -->
+        <div class="ui dropdown item">
+          Contribute
+          <i class="angle down icon"></i>
+          <div class="menu">
+            <a class="item" href="{{  '/docs/tutorials/add-entry' | prepend: site.baseUrl }}"><i class="far fa-plus-square icon"></i>Add Entry</a>
+            <a class="item" href="{{  '/docs/tutorials/edit-content' | prepend: site.baseUrl }}"><i class="far fa-pen-square icon"></i>Edit Content</a>
+            <a target="_blank" class="item" href="https://github.com/DIYbiosphere/sphere"><i class="fa fa-github icon"></i>Github (repo)</a>
+            <a class="item" href="{{  '/docs/' | prepend: site.baseUrl }}"><i class="far fa-book icon"></i>Learn More (docs)</a>
+            <a class="item" href="{{  '/support-us/' | prepend: site.baseUrl }}"><i class="far fa-thumbs-up icon"></i>Support Us</a>
+          </div>
+        </div>
         <a target="_blank" class="item" href="https://diybio.org">
           <img class="ui image tiny" src="https://diybiology.files.wordpress.com/2011/10/diybio-logo-black-90x60px.png">
         </a>

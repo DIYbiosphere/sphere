@@ -11,6 +11,7 @@ gem 'jekyll-avatar', '~> 0.4.2'
 gem 'jekyll-tagging', '~> 1.1'
 gem 'jekyll-toc', '~> 0.2.1'
 gem 'jekyll-relative-links', '~> 0.4.1'
+gem 'jekyll-git_metadata'
 
 
 group :jekyll_plugins do

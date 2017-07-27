@@ -3,7 +3,6 @@
 
   {% include head.html %}
 
-
   <body>
 
     {% include header.html %}
@@ -23,11 +22,13 @@
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
     <script src="{{ "/semantic/dist/semantic.min.js" | prepend: site.baseUrl }}"></script>
     <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
-    <script type="text/javascript">$('.coded-with-love').popup({inline: true,hoverable: true,position: 'top left',delay: {hide: 300}});</script>
+
 
     <!-- Algolia search & components -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.0.2/dist/instantsearch.min.js"></script>
     {% javascript instantsearch %}
+    {% javascript indexInstantsearch %}
+
     <link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags16.css" />
     <script src="https://cdn.jsdelivr.net/npm/places.js@1.4.15"></script>
     <!-- Include AlgoliaSearch JS Client and autocomplete.js library -->
@@ -36,11 +37,10 @@
     <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
     <!-- Initialize autocomplete menu -->
     {% javascript autocomplete %}
+    <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    {% javascript maps %}
 
-
-    {% if page.layout == 'landing' %}
-      <script type="text/javascript">$('.ui.accordion').accordion();</script>
-    {% endif %}
 
 
     {% if page.layout == 'entry' %}
@@ -49,7 +49,7 @@
     {% endif %}
 
     {% if page.layout == 'entries' %}
-      <script type="text/javascript">$('.tabular.menu .item').tab();</script>
+      <script type="text/javascript">$('.viewAs.menu .item').tab();</script>
     {% endif %}
 
 

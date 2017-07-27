@@ -2,10 +2,11 @@ const search = instantsearch({
   appId: 'ITI5JHZJM9',
   apiKey: 'b427318cf6d881e5d3ffd84adf39219e',
   indexName: 'diybiosphere',
-  urlSync: true
+  urlSync: true,
+  searchParameters: {
+    facetingAfterDistinct: true
+  }
 });
-
-
 
 search.addWidget(
   instantsearch.widgets.searchBox({
@@ -13,11 +14,20 @@ search.addWidget(
     reset: false,
     poweredBy: false,
     magnifier: false,
-    placeholder: 'Global Search for all Entries',
+    placeholder: 'Global Search for (almost) Anything',
 		cssClasses: {
 			root: 'ui input fluid'
 		}
 	})
+);
+
+search.addWidget(
+  instantsearch.widgets.stats({
+    container: '#stats-container',
+    templates: {
+      body: 'Results ({{nbHits}})'
+    }
+  })
 );
 
 search.addWidget(
@@ -37,11 +47,11 @@ search.addWidget(
 		autoHideContainer: true,
 		clearAll: false,
 		cssClasses: {
-			root: ['ui', 'medium', 'labels'],
+			root: 'ui medium labels',
     },
 		templates: {
 			item: `
-			<a class="ui grey label">
+			<a class="ui basic label">
 			  {{name}}
 			  <i class="delete icon"></i>
 			</a>`
@@ -49,23 +59,6 @@ search.addWidget(
   })
 );
 
-search.addWidget(
-  instantsearch.widgets.stats({
-    container: '#stats-container',
-		templates: {
-			body: '<h3 class="ui sub header>Results ({{nbHits}})</h3>',
-		},
-  })
-);
-
-search.addWidget(
-  instantsearch.widgets.stats({
-    container: '#pages',
-		templates: {
-			body: '{{nbPages}} pages',
-		},
-  })
-);
 
 
 const EMPTY_TEMPLATE =
@@ -114,7 +107,7 @@ const TABLE_TEMPLATE = `
   <tbody>
   {{#hits}}
     <tr>
-      <td><a href="{{url}}">{{{ _highlightResult.title.value }}}</td>
+      <td><a href="{{url}}">{{{ _highlightResult.title.value }}}</a></td>
       <td>{{#collection}} {{collection}} {{/collection}}</td>
       <td>{{#city}} {{city}} {{/city}}</td>
       <td>{{#country}} {{country}} {{/country}}</td>
@@ -155,10 +148,10 @@ search.addWidget(
     cssClasses: {
 			item: 'link item',
 			active: 'active item',
-      header: 'ui medium header'
+      header: 'ui small header'
     },
     templates: {
-      header: 'Collections',
+      header: 'COLLECTIONS<div class="ui divider"></div>',
       item: '<div class="ui comments">' +
         '<div class="comment">' +
           '<div class="content">' +
@@ -181,10 +174,10 @@ search.addWidget(
     cssClasses: {
 			item: 'link item',
 			active: 'active item',
-      header: 'ui medium header'
+      header: 'ui small header xo padding top'
     },
     templates: {
-      header: 'Type',
+      header: 'TYPE<div class="ui divider"></div>',
       item: '<div class="ui comments">' +
         '<div class="comment">' +
           '<div class="content">' +
@@ -219,10 +212,10 @@ search.addWidget(
 			root: 'ui labels',
 			item: 'ui label xo paddingfull half',
 			active: 'ui basic label xo paddingfull half',
-      header: 'ui medium header'
+      header: 'ui small header xo padding top'
     },
     templates: {
-      header: 'Tags',
+      header: 'TAGS<div class="ui divider"></div>',
       item: '{{value}}'
     }
   })
@@ -244,20 +237,6 @@ search.addWidget(
   })
 );
 
-search.addWidget(
-  instantsearch.widgets.hitsPerPageSelector({
-    container: '#hits-per-page-selector',
-    autoHideContainer: false,
-    cssClasses: {
-      root: 'ui dropdown',
-    },
-    items: [
-      {value: 20, label: '20'},
-      {value: 100, label: '100'},
-      {value: 1000, label: 'All'},
-    ],
-  })
-);
 
 
 search.start();

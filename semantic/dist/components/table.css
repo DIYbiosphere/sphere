@@ -635,10 +635,10 @@
 
 /* Yellow */
 .ui.yellow.table {
-  border-top: 0.2em solid #FBBD08;
+  border-top: 0.2em solid #FFF04A;
 }
 .ui.inverted.yellow.table {
-  background-color: #FBBD08 !important;
+  background-color: #FFF04A !important;
   color: #FFFFFF !important;
 }
 
@@ -698,10 +698,10 @@
 
 /* Pink */
 .ui.pink.table {
-  border-top: 0.2em solid #E03997;
+  border-top: 0.2em solid #FE57C6;
 }
 .ui.inverted.pink.table {
-  background-color: #E03997 !important;
+  background-color: #FE57C6 !important;
   color: #FFFFFF !important;
 }
 

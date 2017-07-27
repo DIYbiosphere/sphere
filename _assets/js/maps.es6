@@ -12,15 +12,10 @@
     let map = L.mapbox.map('map-container', 'mapbox.streets').setView([0,0], 1); // map init
     const geocoder = L.mapbox.geocoder('mapbox.places');
 
-    /** Instantsearch stuff */
-    const APPLICATION_ID = 'ITI5JHZJM9';
-    const SEARCH_ONLY_API_KEY = '5828bf68d90dbb0251e6ce88aabe2e07';
-    const INDEX_NAME = 'diybiosphere';
-
     let search = instantsearch({
-      appId: APPLICATION_ID,
-      apiKey: SEARCH_ONLY_API_KEY,
-      indexName: INDEX_NAME,
+      appId: 'ITI5JHZJM9',
+      apiKey: 'b427318cf6d881e5d3ffd84adf39219e',
+      indexName: 'diybiosphere',
       urlSync: true
     });
 
@@ -42,8 +37,8 @@
             return {
               title: hit.title,
               logo: hit.logo,
-              lat: hit.lat, // may not be present
-              lng: hit.lng, // may not be present
+              lat: hit._geoloc.lat, // may not be present
+              lng: hit._geoloc.lng, // may not be present
               country: hit.country,
               city: hit.city,
               address: hit.address
@@ -61,7 +56,6 @@
             let popupTemplate = `
             <div>
               <div style="text-align:center;">
-                <img src="${l.logo}" style="width:80px;"/>
               </div>
               <div><b>${l.title}</b></div>
             </div>`;

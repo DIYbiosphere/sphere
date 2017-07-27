@@ -11,6 +11,8 @@
 
   <!-- Semantic UI -->
   <link rel="stylesheet" type="text/css" href="{{ "/semantic/dist/semantic.min.css" | prepend: site.baseUrl }}">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+
 
   <!-- FONTS -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css" />
@@ -19,7 +21,7 @@
   {% javascript light %}
   {% javascript regular %}
   {% javascript fontawesome %}
-  {% javascript github-comments %}
+  {% javascript githubComments %}
 
   {% css main %}
 
@@ -34,6 +36,8 @@
   {% if page.layout == 'docs' %}
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
   {% endif %}
+
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css"  />
 
   <!-- Google analytics tracking code -->
   <script>

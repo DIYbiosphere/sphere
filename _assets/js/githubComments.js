@@ -1,4 +1,4 @@
-// Original code taken with permission from : https://github.com/dwilliamson/donw.io/blob/master/public/js/github-comments.js
+// Original code taken with permission from : https://github.com/dwilliamson/donw.io/blob/master/public/js/githubComments.js
 
 // use of ajax vs getJSON for headers use to get markdown (body vs body_html)
 
