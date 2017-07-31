@@ -3,34 +3,243 @@ permalink: "/"
 layout: landing
 ---
 
-<div class="ui padded grid">
-  <!-- Hero: Search or Add Entry -->
-    <div class="row hero-image xo eightfold bottom top padding">
-      <div class="ui text container center aligned">
-        <div class="sixteen wide column">
-          <h1 class="ui center aligned header">Do-It-Yourself Biology (DIYbio) initiatives <br> from all over the world</h1>
-          <div class="ui center aligned basic segment text container">
 
-          </div>  <!-- close segment -->
-        </div> <!-- close 16 column -->
-      </div> <!-- close grid container -->
-    </div> <!-- close row-->
-
-    <div>
-      {% for c in site.collections %}
-         {% assign docs=c.docs %}
-         {% for doc in docs %}
-
-            {{doc.motto}}
-         {% endfor %}
-      {% endfor %}
+<div class="owl-carousel hero">
+  <div class="ui fluid image">
+    <div class="ui dimmer">
+      <div class="content">
+        <div class="center">
+          <h2 class="ui inverted header">DIYbiosphere Project</h2>
+          <div class="ui inverted tiny header">We offer clases to learn about synthetic Biology</div>
+          <div class="ui basic inverted big button">LEARN MORE</div>
+        </div>
+      </div>
     </div>
-  <!-- LAtest -->
-  <div class="ui container xo top bottom padding twofold">
-    <div id="index-hits-container"></div>
+    <img class="ui fluid image" src="https://vetstreet.brightspotcdn.com/dims4/default/10dae76/2147483647/thumbnail/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2F3a%2F54%2F5ae8bfcc41b381c27a792e0dd891%2FAP-KWDHXS-645sm8113.jpg">
   </div>
+  <div class="ui fluid image">
+    <div class="ui dimmer">
+      <div class="content">
+        <div class="center">
+          <div class="ui basic inverted button">Add</div>
+          <h2 class="ui inverted header">Title</h2>
 
-  <!-- Collections -->
+        </div>
+      </div>
+    </div>
+    <img class="ui image" src="https://s-media-cache-ak0.pinimg.com/736x/4a/ec/99/4aec99cad3c58686610ec3eb7cebcc1d--cute-pugs-pug-dogs.jpg">
+  </div>
+  <div class="ui fluid image">
+    <div class="ui dimmer">
+      <div class="content">
+        <div class="center">
+          <h2 class="ui inverted header">Title</h2>
+          <div class="ui primary button">Add</div>
+          <div class="ui button">View</div>
+        </div>
+      </div>
+    </div>
+    <img class="ui image" src="https://vetstreet-brightspot.s3.amazonaws.com/dc/c4/8ccd3a28438d81b2f2f5d8031a05/pug-ap-r82p3q-645.jpg">
+  </div>
+  <div class="ui fluid image">
+    <div class="ui dimmer">
+      <div class="content">
+        <div class="center">
+          <h2 class="ui inverted header">Title</h2>
+          <div class="ui primary button">Add</div>
+          <div class="ui button">View</div>
+        </div>
+      </div>
+    </div>
+      <img class="ui image" src="https://metrouk2.files.wordpress.com/2017/01/88804863.jpg?w=748&h=498&crop=1">
+  </div>
+</div>
+
+<div class="u grid">
+  <!-- Latest entries -->
+  <div class="row xo padding top fourfold">
+    <div class="ui container">
+      <h2 class="ui center aligned header">Browse Last Edited Entries</h2>
+    </div>
+  </div>
+  <div class="row xo padding bottom fourfold">
+    <div class="ui container xo top bottom padding twofold">
+      <div id="index-hits-container"></div>
+    </div>
+  </div>
+  <!-- Browse by Collection -->
+  <div>
+    <div class="row xo padding top fourfold" style="background-color: white;">
+      <h2 class="ui center aligned header">Browse by Collection</h2>
+    </div>
+    <div class="row xo padding top bottom fourfold" style="background-color: white;">
+      <div class="ui two column very relaxed internally celled grid container">
+        <div class="row">
+          <!-- Projects -->
+          <div class="column">
+            <div class="ui link items">
+              <a class="item noul" href="{{ "/entries/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=Project" | prepend: site.baseUrl }}">
+                <div class="ui tiny image">
+                  <i class="huge icons">
+                    <i class="big yellow circle inverted icon"></i>
+                    <i class="far fa-briefcase icon"></i>
+                  </i>
+                </div>
+                <div class="middle aligned content">
+                  <div class="header">PROJECTS</div>
+                  <div class="description">
+                    <p>Have particular aims, like in research, engineering, art and design</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- column -->
+          <!-- Startups -->
+          <div class="column">
+            <div class="ui link items">
+              <a class="item noul" href="{{ "/entries/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=Startup" | prepend: site.baseUrl }}">
+                <div class="ui tiny image">
+                  <i class="huge icons">
+                    <i class="big yellow circle inverted icon"></i>
+                    <i class="far fa-rocket icon"></i>
+                  </i>
+                </div>
+                <div class="middle aligned content">
+                  <div class="header">STARTUPS</div>
+                  <div class="description">
+                    <p> Entrepreneurial ventures and generally concern products or services</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Labs -->
+          <div class="column">
+            <div class="ui link items">
+              <a class="item noul" href="{{ "/entries/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=Lab" | prepend: site.baseUrl }}">
+                <div class="ui tiny image">
+                  <i class="huge icons">
+                    <i class="big yellow circle inverted icon"></i>
+                    <i class="far fa-flask icon"></i>
+                  </i>
+                </div>
+                <div class="middle aligned content">
+                  <div class="header">LABS</div>
+                  <div class="description">
+                    <p>Dedicated physical spaces, static or mobile, with materials and equipment</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- column -->
+          <!-- Incubators -->
+          <div class="column">
+            <div class="ui link items">
+              <a class="item noul" href="{{ "/entries/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=Incubator" | prepend: site.baseUrl }}">
+                <div class="ui tiny image">
+                  <i class="huge icons">
+                    <i class="big yellow circle inverted icon"></i>
+                    <i class="far fa-leaf icon"></i>
+                  </i>
+                </div>
+                <div class="middle aligned content">
+                  <div class="header">INCUBATORS</div>
+                  <div class="description">
+                    <p>Organizations and spaces that help projects and startups to develop</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- column -->
+        </div>
+        <div class="row">
+          <!-- Groups -->
+          <div class="column">
+            <div class="ui link items">
+              <a class="item noul" href="{{ "/entries/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=Group" | prepend: site.baseUrl }}">
+                <div class="ui tiny image">
+                  <i class="huge icons">
+                    <i class="big yellow circle inverted icon"></i>
+                    <i class="far fa-user icon"></i>
+                  </i>
+                </div>
+                <div class="middle aligned content">
+                  <div class="header">GROUPS</div>
+                  <div class="description">
+                    <p>Associations of people (online and offline) interested in DIYbio</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- column -->
+          <!-- Networks -->
+          <div class="column">
+            <div class="ui link items">
+              <a class="item noul" href="{{ "/entries/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=Network" | prepend: site.baseUrl }}">
+                <div class="ui tiny image">
+                  <i class="huge icons">
+                    <i class="big yellow circle inverted icon"></i>
+                    <i class="far fa-share-alt icon"></i>
+                  </i>
+                </div>
+                <div class="middle aligned content">
+                  <div class="header">NETWORKS</div>
+                  <div class="description">
+                    <p>Organizations that facilitate communication and collaboration</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- column -->
+        </div>
+        <div class="row">
+          <!-- Events -->
+          <div class="column">
+            <div class="ui link items">
+              <a class="item noul" href="{{ "/entries/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=Event" | prepend: site.baseUrl }}">
+                <div class="ui tiny image">
+                  <i class="huge icons">
+                    <i class="big yellow circle inverted icon"></i>
+                    <i class="far fa-briefcase icon"></i>
+                  </i>
+                </div>
+                <div class="middle aligned content">
+                  <div class="header">EVENTS</div>
+                  <div class="description">
+                    <p>Global or regional events by and/or for the DIYbio community</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- column -->
+          <!-- Others -->
+          <div class="column">
+            <div class="ui link items">
+              <a class="item noul" href="{{ "/entries/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=Other" | prepend: site.baseUrl }}">
+                <div class="ui tiny image">
+                  <i class="huge icons">
+                    <i class="big yellow circle inverted icon"></i>
+                    <i class="far fa-magic icon"></i>
+                  </i>
+                </div>
+                <div class="middle aligned content">
+                  <div class="header">OTHERS</div>
+                  <div class="description">
+                    <p>Umbrella term for the rest of misfit entries. New collections may arise</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- column -->
+        </div>
+      </div> <!-- relaxed grid -->
+    </div> <!-- row -->
+  </div>
+<!--
+<div class="ui padded grid">
+  <h2 class="ui header">Browse by Collection</h2>
     <div class="two column row" style="background-color: white;">
       <div class="column yellow">
         <div class="ui basic right floated segment" style="width: 500px; height: 100px;">
@@ -167,39 +376,50 @@ layout: landing
         </div>
       </div>
     </div>
+  -->
     <!-- STATISTICS -->
-    <div class="one column black row xo top bottom padding fourfold">
-      <div class="column">
-        <div class="ui container">
-          <div class="ui inverted three large statistics">
-            <div class="statistic">
-              <div class="value">
-                <span id="index-stats-container"</span>
-              </div>
-              <div class="label">
-                Total Entries
-              </div>
+
+  <div class="row xo top bottom padding fourfold" style="background-color: black;">
+    <div class="column">
+      <div class="ui container">
+        <div class="ui inverted three large statistics">
+          <div class="statistic">
+            <div class="value">
+              <span id="index-stats-container"</span>
             </div>
-            <div class="statistic">
-              <div class="value">
-                {{site.github.contributors}} 9
-              </div>
-              <div class="label">
-                Total Contributors
-              </div>
+            <div class="label">
+              Total Entries
             </div>
-            <div class="statistic">
-              <div class="value">
-                {{ site.git.total_commits }}
-              </div>
-              <div class="label">
-                Total Edits
-              </div>
+          </div>
+          <div class="statistic">
+            <div class="value">
+              {{site.github.contributors}} 9
+            </div>
+            <div class="label">
+              Total Contributors
+            </div>
+          </div>
+          <div class="statistic">
+            <div class="value">
+              {{ site.git.total_commits }}
+            </div>
+            <div class="label">
+              Total Edits
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-  <!-- Featured Entry -->
+  <div class="row xo padding top twofold">
+    <h1 class="ui center aligned header">DIYbiosphere is an Open Source Project!</h1>
+    <p> </p>
+    <button class="ui labeled icon button">
+      <i class="pause icon"></i>
+      Pause
+    </button>
+  </div>
+
+
 </div> <!-- close padded grid -->

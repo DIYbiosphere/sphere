@@ -22,6 +22,9 @@
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
     <script src="{{ "/semantic/dist/semantic.min.js" | prepend: site.baseUrl }}"></script>
     <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    {% javascript carousel %}
+    <script type="text/javascript">$('.hero .image').dimmer({on: 'hover', opacity: 0.5});</script>
 
 
     <!-- Algolia search & components -->
@@ -37,9 +40,10 @@
     <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
     <!-- Initialize autocomplete menu -->
     {% javascript autocomplete %}
-    <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
-    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
-    {% javascript maps %}
+
+    <!-- MAPS -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap"></script>
+    {% javascript map %}
 
 
 

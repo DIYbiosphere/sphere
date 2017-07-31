@@ -24,4 +24,6 @@ group :jekyll_plugins do
   gem 'algoliasearch-jekyll', '~> 0.8.0'
   gem 'jekyll-contentblocks', '~> 1.2'
   gem 'jekyll-timeago', '~> 0.9.2'
+  gem 'jekyll-giphy'
+  gem 'geocoder'
 end

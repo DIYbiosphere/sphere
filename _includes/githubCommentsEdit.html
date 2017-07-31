@@ -1,7 +1,7 @@
-{% if page.comments_issue and site.github_comments_repository %}
+{% if page.edit_issue and site.github_comments_repository %}
 
 <div>
-    <div id="gh-comments-list"></div>
+    <div id="gh-comments-edit-list"></div>
 </div>
 
 <script
@@ -9,12 +9,12 @@
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
 
-<script src="{{ site.baseurl }}/assets/js/githubComments.js"> </script>
+<script src="{{ site.baseurl }}/assets/js/githubCommentsEdit.js"> </script>
 
 <script type="text/javascript">
-    DoGithubComments (
+    DoGithubCommentsEdit (
         "{{ site.github_comments_repository }}" ,
-        "{{ page.comments_issue }}"
+        "{{ page.edit_issue }}"
     );
 </script>
 

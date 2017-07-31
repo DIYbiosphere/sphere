@@ -24,7 +24,7 @@ const INDEX_EMPTY_TEMPLATE =
 
 const INDEX_HIT_TEMPLATE = `
   <div class="image">
-    <img src="/images/avatar2/large/kristy.png">
+    <img src="{{ logo }}">
   </div>
   <div class="content">
      <a href="{{url}}" class="header">{{{ _highlightResult.title.value }}}</a>

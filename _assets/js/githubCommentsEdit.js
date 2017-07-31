@@ -18,9 +18,9 @@ function ParseLinkHeader(lnk)
     return links;
 }
 
-function ShowComments(repo_name, comment_id, page_id)
+function ShowCommentsEdit(repo_name, comment_edit_id, page_id)
 {
-    var api_comments_url = "https://api.github.com/repos/" + repo_name + "/issues/" + comment_id + "/comments" + "?page=" + page_id;
+    var api_comments_url = "https://api.github.com/repos/" + repo_name + "/issues/" + comment_edit_id + "/comments" + "?page=" + page_id;
 
     $.ajax(api_comments_url, {
         headers: {Accept: "application/vnd.github.v3.html+json"},
@@ -30,8 +30,8 @@ function ShowComments(repo_name, comment_id, page_id)
             // Add post button to first page
             if (page_id == 1)
             {
-                var url = "https://github.com/" + repo_name + "/issues/" + comment_id + "#new_comment_field";
-                $("#gh-comments-list").append("<form action='" + url + "' rel='nofollow'> <button class='ui small black button'> Post a comment on GitHub </button></form>");
+                var url = "https://github.com/" + repo_name + "/issues/" + comment_edit_id + "#new_comment_field";
+                $("#gh-comments-edit-list").append("<form action='" + url + "' rel='nofollow'> <button class='ui small button'> Post a comment on GitHub </button></form>");
             }
 
             // Individual comments
@@ -54,7 +54,7 @@ function ShowComments(repo_name, comment_id, page_id)
                 t += "</div>"; //close text
                 t += "</div>"; //close content
                 t += "</div>"; //close comment
-                $("#gh-comments-list").append(t);
+                $("#gh-comments-edit-list").append(t);
             });
 
             // Call recursively if there are more pages to display
@@ -63,20 +63,20 @@ function ShowComments(repo_name, comment_id, page_id)
                 var links = ParseLinkHeader(jqXHR.getResponseHeader("Link"));
                 if ("next" in links)
                 {
-                    ShowComments(repo_name, comment_id, page_id+1);
+                    ShowCommentsEdit(repo_name, comment_edit_id, page_id+1);
                 }
             }
         },
         error: function() {
-            $("#gh-comments-list").append("Comments are not open for this post yet.");
+            $("#gh-comments-edit-list").append("Comments are not open for this post yet.");
         }
     });
 }
 
-function DoGithubComments(repo_name, comment_id)
+function DoGithubCommentsEdit(repo_name, comment_edit_id)
 {
     $(document).ready(function ()
     {
-        ShowComments(repo_name, comment_id, 1);
+        ShowCommentsEdit(repo_name, comment_edit_id, 1);
     });
 }

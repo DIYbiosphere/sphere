@@ -3,7 +3,7 @@
 	$(document).ready(function() {
 
     /** Mapbox initialization */
-    const MAPBOX_TOKEN = 'pk.eyJ1IjoiY3ViZTUiLCJhIjoiY2l2eDltdXRxMDFmczJ1cGRrcTN3M3NiNSJ9.MPdk_yTt0MwRQsll8CnSeg';
+    const MAPBOX_TOKEN = 'pk.eyJ1Ijoic2FiZ2FieSIsImEiOiIxNXktYVRJIn0.HBpb4vVGTFgHhG4dF1SWWw';
     const MAPBOX_URL = `https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}?access_token=${MAPBOX_TOKEN}`;
     const MAPBOX_ATTRIBUTION = `Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>`
 

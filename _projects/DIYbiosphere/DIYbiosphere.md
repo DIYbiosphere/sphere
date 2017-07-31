@@ -1,11 +1,13 @@
 ---
 title: DIYbiosphere
+logo-URL: /entries/projects/DIYbiosphere/logo.png
 call-to-action:
   - title: Update/Edit Entries
     description: Help maintain DIYbiosphere
     URL: https://www.genspace.org/classes-alt
 manager: sabgaby
-github_comments_issueid: 1
+comments_issue: 2
+edit_issue: 1
 website: http://sphere.diybio.org/
 motto: Connecting DIYbio all over the world
 start-date: 2016
@@ -29,8 +31,6 @@ twitter: https://twitter.com/DIYbiosphere/
 slack: https://slack.io.com/DIYbiosphere/
 gitter: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link
 ---
-
-{{page.timestamp }}
 
 ## About
 The DIYbiosphere is an open project of Do-it-Yourself Biology (DIYbio) initiatives from all over the world, accessible (and editable) through the web using GitHub. The goal is to have a common space where the DIYbio community can share about who they are, where, and what they are doing. We believe that a centralized directory could benefit the DIYbio community by increasing visibility to projects, organizations and events. We hope that by connecting people and ideas, they may inspire, learn, and collaborate with each other. Additionally, the project can also serve as a reference point for DIYbio supporters and followers, including journalists, scholars, governmental agencies, and more.

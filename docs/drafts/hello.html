@@ -6,3 +6,47 @@ title: Hello
 
 <i class="fal fa-user"></i>
   <i class="far fa-magic"></i>
+
+{% include info.html title="Gitter vs Slack" text="For the moment, there is no preference on what communication platform will be used more often. As the project gains members and contributors, the most popular communication platform will win." %}
+
+{% include warning.html title="Gitter vs Slack" text="For the moment, there is no preference on what communication platform will be used more often. As the project gains members and contributors, the most popular communication platform will win." %}
+
+{% include help.html title="Gitter vs Slack" text="For the moment, there is no preference on what communication platform will be used more often. As the project gains members and contributors, the most popular communication platform will win." %}
+
+{% include extra.html title="Gitter vs Slack" text="For the moment, there is no preference on what communication platform will be used more often. As the project gains members and contributors, the most popular communication platform will win." %}
+
+<p>hello</p>
+<div class="hero">
+{% for c in site.collections %}
+   {% assign docs=c.docs %}
+   {% for doc in docs %}
+    {% if doc.call-to-action %}
+
+     {% for item in doc.call-to-action %}
+     <h2 class="ui header">{{item.title}}</h2>
+     {% endfor %}
+
+     {% endif %}
+   {% endfor %}
+{% endfor %}
+</div>
+
+
+
+
+<label>Algolia search (full text):
+  <input id="map-searchBox" />
+</label>
+</div>
+
+<h2>
+Available apartments
+</h2>
+<div id="map-hits"></div>
+
+<h2>
+Map display (google map)
+</h2>
+<div id="map">
+
+</div>

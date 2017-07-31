@@ -18,21 +18,16 @@ function ParseLinkHeader(lnk)
     return links;
 }
 
-function ShowComments(repo_name, comment_id, page_id)
+function ShowComments(repo_name, comment_id)
 {
-    var api_comments_url = "https://api.github.com/repos/" + repo_name + "/issues/" + comment_id + "/comments" + "?page=" + page_id;
+    var api_comments_url = "https://api.github.com/repos/" + repo_name + "/issues/" + comment_id + "/reactions";
 
     $.ajax(api_comments_url, {
-        headers: {Accept: "application/vnd.github.v3.html+json"},
-        dataType: "json",
+        headers: {Accept: "application/vnd.github.squirrel-girl-preview"},
         success: function(comments, textStatus, jqXHR) {
 
             // Add post button to first page
             if (page_id == 1)
-            {
-                var url = "https://github.com/" + repo_name + "/issues/" + comment_id + "#new_comment_field";
-                $("#gh-comments-list").append("<form action='" + url + "' rel='nofollow'> <button class='ui small black button'> Post a comment on GitHub </button></form>");
-            }
 
             // Individual comments
             $.each(comments, function(i, comment) {
@@ -57,19 +52,8 @@ function ShowComments(repo_name, comment_id, page_id)
                 $("#gh-comments-list").append(t);
             });
 
-            // Call recursively if there are more pages to display
-            var linksResponse = jqXHR.getResponseHeader("Link");
-            if (linksResponse) {
-                var links = ParseLinkHeader(jqXHR.getResponseHeader("Link"));
-                if ("next" in links)
-                {
-                    ShowComments(repo_name, comment_id, page_id+1);
-                }
-            }
+
         },
-        error: function() {
-            $("#gh-comments-list").append("Comments are not open for this post yet.");
-        }
     });
 }
 
