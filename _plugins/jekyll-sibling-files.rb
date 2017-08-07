@@ -24,14 +24,14 @@ module SiblingFiles
       logoPathPNG = logofilePath.sub(logofileName, 'logo.png')
   		logoPathPNG.strip!
       if File.exist?(logoPathPNG)
-        logoURLPNG = "#{collection.url}" + 'logo.png'
+        logoURLPNG = 'https://raw.githubusercontent.com/DIYbiosphere/sphere/master/' + logoPathPNG
   		  collection.data["logo"] = logoURLPNG
       end # if
 
       logoPathJPG = logofilePath.sub(logofileName, 'logo.jpg')
       logoPathJPG.strip!
       if File.exist?(logoPathJPG)
-        logoURLJPG = "#{collection.url}" + 'logo.jpg'
+        logoURLJPG = 'https://raw.githubusercontent.com/DIYbiosphere/sphere/master/' + logoPathJPG
         collection.data["logo"] = logoURLJPG
       end # if
     end # set logo
@@ -42,14 +42,14 @@ module SiblingFiles
       headerPathPNG = headerfilePath.sub(headerfileName, 'header.png')
       headerPathPNG.strip!
       if File.exist?(headerPathPNG)
-        headerURLPNG = "#{collection.url}" + 'header.png'
+        headerURLPNG = 'https://raw.githubusercontent.com/DIYbiosphere/sphere/master/' + headerPathPNG
         collection.data["header"] = headerURLPNG
       end # if
 
       headerPathJPG = headerfilePath.sub(headerfileName, 'header.jpg')
       headerPathJPG.strip!
       if File.exist?(headerPathJPG)
-        headerURLJPG = "#{collection.url}" + 'header.jpg'
+        headerURLJPG = 'https://raw.githubusercontent.com/DIYbiosphere/sphere/master/' + headerPathJPG
         collection.data["header"] = headerURLJPG
       end # if
     end # set logo
@@ -60,14 +60,14 @@ module SiblingFiles
       thumbnailPathPNG = thumbnailfilePath.sub(thumbnailfileName, 'thumbnail.png')
       thumbnailPathPNG.strip!
       if File.exist?(thumbnailPathPNG)
-        thumbnailURLPNG = "#{collection.url}" + 'thumbnail.png'
+        thumbnailURLPNG = 'https://raw.githubusercontent.com/DIYbiosphere/sphere/master/' + thumbnailPathPNG
         collection.data["thumbnail"] = thumbnailURLPNG
       end # if
 
       thumbnailPathJPG = thumbnailfilePath.sub(thumbnailfileName, 'thumbnail.jpg')
       thumbnailPathJPG.strip!
       if File.exist?(thumbnailPathJPG)
-        thumbnailURLJPG = "#{collection.url}" + 'thumbnail.jpg'
+        thumbnailURLJPG = 'https://raw.githubusercontent.com/DIYbiosphere/sphere/master/' + thumbnailPathJPG
         collection.data["thumbnail"] = thumbnailURLJPG
       end # if
     end # set thumbnail
