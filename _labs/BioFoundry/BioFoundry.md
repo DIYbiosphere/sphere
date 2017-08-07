@@ -1,14 +1,14 @@
 ---
 title: Bio Foundry
-manager: 
-motto: Australia's first community lab for citizen scientists
+manager:
+subtitle: Australia's first community lab for citizen scientists
 website: http://foundry.bio/
 start-date: 2014
-host-org: 
-type-org: 
-affiliates: 
+host-org:
+type-org:
+affiliates:
 address: 296 Botany Road
-directions: 
+directions:
 postcode: 2015
 city: Alexandria
 state: New South Wales
@@ -23,5 +23,5 @@ Our Philosophy
 
 BioFoundry exists to democratise science by lowering the financial/technological barriers reinforcing the publish-or-perish status-quo that currently defines the scientific industry. As such – you may find our unique approach inspires that scientific curiosity inherent to you and every other human out there!
 
----
-Text taken from initiative's website
+
+\*Text taken from initiative's website

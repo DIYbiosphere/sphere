@@ -1,17 +1,17 @@
 ---
 title: Symbiolab
-manager: 
-motto: Open and DIY biolaboratory
+manager:
+subtitle: Open and DIY biolaboratory
 website: http://irnas.eu/symbiolab.html
 start-date: 2014
 host-org: "[IRNAS](http://irnas.eu/)"
-type-org: 
-affiliates: 
+type-org:
+affiliates:
 address: Tkalski prehod 4
-directions: 
+directions:
 postcode: 2000
 city: Maribor
-state: 
+state:
 country: Slovenia
 email: info@irnas.eu
 forum: http://forum.irnas.eu/
@@ -22,5 +22,5 @@ github: https://github.com/IRNAS
 
 In sync with IRNAS institutes mission to bring scientific knowledge and new technologies to the public, we wish to add life sciences to our spectrum of investigation. We are facing a high discrepancy between basic and applied research today and we hope to narrow this gap by promoting citizen science and making knowledge and resources available to everyone looking for information and wanting to participate in research.
 
----
-Text taken from initiative's website
+
+\*Text taken from initiative's website

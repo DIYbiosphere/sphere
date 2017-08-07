@@ -1,7 +1,7 @@
 ---
 title: BioHackSyd
 manager: 
-motto: Syney Biohackers Meeting
+subtitle: Syney Biohackers Meeting
 start-date: 2015
 host-org: 
 type-org: Community

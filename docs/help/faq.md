@@ -2,6 +2,8 @@
 title: Frequently Asked Questions (FAQ)
 permalink: "/docs/help/faq/"
 layout: docs
+comments_issue: 33
+edit_issue: 34
 crumb: help
 summary: In this section
 ---

@@ -1,17 +1,17 @@
 ---
 title: Biogarage
-manager: 
-motto: Das Do It Yourself Labor
+manager:
+subtitle: Das Do It Yourself Labor
 website: http://biogarage.de/
 start-date: 2013
-host-org: 
+host-org:
 type-org: Community
-affiliates: 
-address: 
-directions: 
-postcode: 
+affiliates:
+address:
+directions:
+postcode:
 city: Munich
-state: 
+state:
 country: Germany
 twitter: https://twitter.com/biogarage
 google+: https://plus.google.com/u/0/118328088681211953650
@@ -28,5 +28,5 @@ what is our vision?
   - avoid tissue rejection
   - enable transparency and avoid (ethical) corruption in organ donation
 
----
-Text taken from initiative's website
+
+\*Text taken from initiative's website

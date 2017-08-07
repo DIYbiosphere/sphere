@@ -1,11 +1,11 @@
 ---
 title: Denver Biolabs
-manager: 
+manager:
 website: http://denverbiolabs.com/
 start-date: 2015
-host-org: 
+host-org:
 type-org: Non-profit
-affiliates: 
+affiliates:
 address: 1250 14th Street
 directions: CU Dravo Building, 1st Floor
 postcode: 80202
@@ -22,5 +22,5 @@ instagram: https://www.instagram.com/denverbiolabs/
 
 From healthcare to energy production, climate change to global hunger – synthetic biology offers dramatically new methods to address our planet's largest problems. Recent advancements in synthetic biology mean that the limiting factors to progress are increasingly becoming creativity and ingenuity. Denver Biolabs is a community of interdisciplinary individuals - biologists, engineers, artists, computer scientists, and entrepreneurs - committed to working at these intersections to create solutions to pressing problems.
 
----
-text taken from initiative's website
+
+\*text taken from initiative's website

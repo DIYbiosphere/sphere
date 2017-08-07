@@ -1,7 +1,7 @@
 ---
 title: Biohacking Mexico
 manager: 
-motto: All biohackers in Latin America
+subtitle: All biohackers in Latin America
 status: inactive
 start-date: 2015
 end-date: 2016

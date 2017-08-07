@@ -1,16 +1,16 @@
 ---
 title: Biotinkering Berlin
-manager: 
+manager:
 website: https://www.biotinkering-berlin.de/?lang=en
 start-date: 2014
 host-org: "[Art Laboratory Berlin](http://artlaboratory-berlin.org/home.htm)"
 type-org: Community
-affiliates: 
+affiliates:
 address: Prinzenallee 34
-directions: 
+directions:
 postcode: 13359
 city: Berlin
-state: 
+state:
 country: Germany
 google-group: biotinkering-berlin@googlegroups.com
 meetup: https://www.meetup.com/Biotinkering-Berlin/
@@ -18,5 +18,5 @@ meetup: https://www.meetup.com/Biotinkering-Berlin/
 
 Group of people interested in biology who would also like to deal with scientific topics and current questions without prior knowledge and would like to experiment with others.
 
----
-Text from initiative's website
+
+\*Text from initiative's website

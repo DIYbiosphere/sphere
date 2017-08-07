@@ -1,16 +1,16 @@
 ---
 title: LifePatch
-manager: 
-motto: Citizen Initiative in Art, Science and Technology
-start-date: 
-host-org: 
-type-org: 
-affiliates: 
-address: 
-directions: 
-postcode: 
+manager:
+subtitle: Citizen Initiative in Art, Science and Technology
+start-date:
+host-org:
+type-org:
+affiliates:
+address:
+directions:
+postcode:
 city: Yogyarta
-state: 
+state:
 country: Indonesia
 wiki: http://lifepatch.org/
 ---
@@ -19,5 +19,5 @@ is a community-based cross-disciplinary organization formed on March 26, 2012. O
 
 Members of lifepatch have a mission to benefit in the development of local human and resource potentials, build domestic and international collaboration bridges, provide open access for anyone to the research resources and development outcomes. Lifepatch was founded on March 26, 2012 by several people with various background disciplines both from formal and non-formal education. Members who joined in lifepatch are domiciled in various cities such as Yogyakarta, Pekanbaru and Bogor. This is the main reason lifepatch initially moved by relying on communication over the internet.
 
----
-taken from initiative's website
+
+\*taken from initiative's website

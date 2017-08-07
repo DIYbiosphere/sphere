@@ -1,17 +1,17 @@
 ---
 title: MadLab Biolab
-manager: 
-logo: 
+manager:
+logo:
 website: https://madlab.org.uk/community-biotechnology/
-start-date: 
-host-org: 
-type-org: 
-affiliates: 
+start-date:
+host-org:
+type-org:
+affiliates:
 address: 36-40 Edge St
-directions: 
+directions:
 postcode: M4 1HN
 city: Manchester
-state: 
+state:
 country: United Kingdom
 twitter: https://twitter.com/madlabuk
 facebook: https://www.facebook.com/MadLabUK/
@@ -24,5 +24,5 @@ We support a diverse range of communities and activities – from monthly meetup
 
 MadLab is a living wage employer (including for interns).
 
----
-taken from initiative's website
+
+\*taken from initiative's website

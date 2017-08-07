@@ -16,13 +16,10 @@ layout: default
         </div> <!-- close column -->
 
         <div class="twelve wide column">
-
             <article>
-              <h1 class="ui header">
-                {{ page.title }}
-                {% include edit-this-page.html %}
-              </h1>
-            {{content}}
+              {% include contentMenu.html %}
+
+              {% include contentTab.html %}
             </article>
         </div>
       </div>

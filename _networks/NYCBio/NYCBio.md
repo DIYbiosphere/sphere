@@ -5,7 +5,7 @@ tags:
 - education
 - events
 manager: 
-motto: Education, showcases & networking with the pillars of NYC’s life sciences startup
+subtitle: Education, showcases & networking with the pillars of NYC’s life sciences startup
   community, since 2008.
 website: http://nycbio.org/
 start-date: 2008

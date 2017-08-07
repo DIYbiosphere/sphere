@@ -3,12 +3,14 @@ title: Software of DIYbiosphere
 permalink: "/docs/basics/software/"
 layout: docs
 crumb: basics
+comments_issue: 17
+edit_issue: 18
 summary: The technology and design behind the Software of the web platform
 ---
 
 By Software we mean all the source-code that formats, displays, and builds the text files into webpages.
 
-The software used involves Github, to host the files. GitHub pages to build the files into a website using the stating website generator Jekyll. To continuously build the website we use Travis CI.
+Mainly, we use _Github_, to host the files, _GitHub Pages_ to build the files into a website using the stating website generator _Jekyll_. To continuously build the website we use _Travis CI_. Lastly we use
 
 ## GitHub
 [GitHub] is a [Git] hosting service that we use to host the source files (repository) of the project and to keep track of the changes made to them. GitHub offers other useful features:

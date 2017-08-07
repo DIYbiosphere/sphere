@@ -2,8 +2,12 @@
 title: Our Community
 permalink: "/about/community/"
 layout: page
-crumb: about
+comments_issue: 5
+edit_issue: 6
 ---
+
+{{ page.siblingFolder }}
+
 
 Anyone with a GitHub account ([sign up][gh_join]) can be a contributor and create or edit content and participate in the development of DIYbiosphere. The development is managed by the _Development Community_ which coordinates through an organization account on GitHub named also [DIYbiosphere][gh_org], which anyone can freely [join] and become a member. [Members] have greater access permissions to the project and can be part of [Teams] who are key members with distict roles in the development and enjoy even greater access privileges. Learn more about the [access permissions][permissions] of the project.
 
@@ -14,7 +18,7 @@ Anyone with a GitHub account ([sign up][gh_join]) can be a contributor and creat
 Users part of the [Directors Team][gh_directors] oversee the general direction and development of the project. They also have _admin_ and _owner_ control over the sphere repository and the DIYbiosphere organization respectively.
 
 - **Jason Bobe**: Chief Executive Officer - @JasonBobe
-- **Gabriela A. Sanchez**: Chief Project Officer - {% avatar sabgaby %} @sabgaby
+- **Gabriela A. Sanchez**: Chief Project Officer - @sabgaby
 
 ### Core Development Team
 The [Development Team][gh_development] coordinate the software and the content of the entries as well as their design. They have _admin_ access to the sphere respository

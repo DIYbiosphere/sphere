@@ -1,16 +1,16 @@
 ---
 title: BioNyfiken
-manager: 
+manager:
 website: http://www.bionyfiken.se/
 start-date: 2014
-host-org: 
+host-org:
 type-org: Non-profit
-affiliates: 
+affiliates:
 address: Drottning Kristinas väg 53
-directions: 
-postcode: 
+directions:
+postcode:
 city: Stockholm
-state: 
+state:
 country: Sweden
 meetup: http://www.meetup.com/BioNyfiken-Sthlm/
 twitter: https://twitter.com/BioNyfiken/likes
@@ -25,5 +25,5 @@ Our objective is to be a driving force in the development of the dynamic and cre
 
 We arrange workshops, talks and experiments to educate and inspire the general public to improve their understanding of modern biotechnology, synthetic biology and various forms of bodyhacking.
 
----
-Taken from Initiative's Website
+
+\*Taken from Initiative's Website

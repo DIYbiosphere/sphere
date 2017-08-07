@@ -1,11 +1,11 @@
 ---
 title: Bugss
-manager: 
+manager:
 website: http://www.bugssonline.org/
 start-date: 2013
-host-org: 
-type-org: 
-affiliates: 
+host-org:
+type-org:
+affiliates:
 address: 101 N Haven St
 directions: Ste 105
 postcode: 21224
@@ -22,5 +22,5 @@ Come check out our space-2700 square feet of wet and dry labs convieniently loca
 
 BUGSS members enjoy lab access, credits for lab supplies to work on your own projects, participation in group projects, discounts on courses and being part of the coolest science project around.
 
----
-Text taken from initiative's website
+
+\*Text taken from initiative's website

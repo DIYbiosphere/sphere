@@ -1,26 +1,77 @@
+.aa-dropdown-menu {
+  background-color: #fff;
+  border: 1px solid rgba(228, 228, 228, 0.6);
+  min-width: 300px;
+  margin-top: 10px;
+  box-sizing: border-box; }
+.aa-suggestion {
+  padding: 12px;
+  cursor: pointer;
+}
+.aa-suggestion + .aa-suggestion {
+    border-top: 1px solid rgba(228, 228, 228, 0.6);
+}
+
+.aa-suggestion:hover, .aa-suggestion.aa-cursor {
+    background-color: rgba(241, 241, 241, 0.35);
+}
+
+.aa-input-search {
+  width: 300px;
+}
+
+.ais-search-box {
+  width: 100% !important;
+}
+
+.ais-search-box--input {
+  width: 100% !important;
+}
+
+#search-box {
+  width: 100% !important;
+  padding-right: 0px;
+}
+
+
+///
 .algolia-autocomplete {
   width: 100%;
 }
-.algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
+.ad-example-dropdown-menu {
   width: 100%;
-}
-.algolia-autocomplete .aa-hint {
-  color: #999;
-}
-.algolia-autocomplete .aa-dropdown-menu {
-  width: 100%;
+  color: black;
   background-color: #fff;
-  border: 1px solid rgba(34, 36, 38, 0.15);
-  border-radius: 4px;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 5px;
+  padding: .5em;
+  box-shadow: 1px 1px 32px -10px rgba(0,0,0,0.62);
 }
-.algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+.ad-example-dropdown-menu .ad-example-suggestion {
   cursor: pointer;
   padding: 5px 4px;
 }
-.algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
-  background-color: $primaryColor !important;
+.ad-example-dropdown-menu .ad-example-suggestion img {
+  height: 2em;
+  margin-top: .5em;
+  margin-right: 10px;
+  float: left;
 }
-
-.algolia-autocomplete .aa-suggestion {
-   border-top: 1px solid rgba(228, 228, 228, 0.6) !important;
+.ad-example-dropdown-menu .ad-example-suggestion small {
+  font-size: .8em;
+  color: #bbb;
+}
+.ad-example-dropdown-menu .ad-example-suggestion.ad-example-cursor {
+  background-color: #B2D7FF;
+}
+.ad-example-dropdown-menu .ad-example-suggestion em {
+  font-weight: bold;
+  font-style: normal;
+}
+.ad-example-header {
+  font-weight: bold;
+  padding: .5em 0;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #ccc;
 }

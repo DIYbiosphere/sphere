@@ -1,16 +1,16 @@
 ---
 title: Open Wetlab
-manager: 
+manager:
 website: https://waag.org/en/lab/open-wetlab
 start-date: 2012
 host-org: "[Waag Society](http://waag.org/en)"
-type-org: 
-affiliates: 
+type-org:
+affiliates:
 address: Nieuwmarkt 4
-directions: 
+directions:
 postcode: 1012 CR
 city: Amsterdam
-state: 
+state:
 country: Netherlands
 meetup: http://www.meetup.com/Dutch-DIY-Bio/
 twitter: https://twitter.com/waag
@@ -21,5 +21,5 @@ The Open WetLab is a leading place for bio-art, biodesign and do-it-together bio
 
 The Lab regularly organizes well-visited meet-ups. Beside that, artists and students can work in the lab as artistic researcher-in-residence and new biohackers are trained at the BioHack Academy: an international highly acclaimed course for biohackers, initiated by Pieter van Boheemen. The BioHack Academy learns individuals to build their own lab, create bio experiments, and teaches the basics of synthetic biology and critical reflection.
 
----
-taken from initiative's website
+
+\*taken from initiative's website

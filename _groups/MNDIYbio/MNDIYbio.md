@@ -1,15 +1,15 @@
 ---
 title: MN DIYbio
-manager: 
+manager:
 mott: The Minnesota Biology Group
-logo: 
+logo:
 website: http://mn.diy-bio.org/Wordpress/
 start-date: 2015
 host-org: "[Spark-Y](http://spark-y.org/)"
-type-org: 
-affiliates: 
+type-org:
+affiliates:
 address: 4432 Chicago Ave S.
-directions: 
+directions:
 postcode: 55407
 city: Minneapolis
 state: Minnesota
@@ -21,5 +21,5 @@ facebook: https://www.facebook.com/mndiybio/
 
 MN diyBio is a community of do it yourself biotech innovators, tinkerers and scientifically-minded citizens, or even small organizations who generate and act on ideas that solve real world problems in the life sciences. Everyone is welcome whether you're currently working on a diyBio project or just curious and want to learn more about this exciting movement in the biosciences.
 
----
-Taken from initiative's website
+
+\*Taken from initiative's website

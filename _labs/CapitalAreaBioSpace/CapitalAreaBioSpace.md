@@ -1,13 +1,13 @@
 ---
 title: Capital Area BioSpace
-manager: 
+manager:
 website: https://www.meetup.com/CapitalAreaBioSpace/
-start-date: 
+start-date:
 host-org: "[Nova Labs](http://www.nova-labs.org/blog/)"
 type-org: Community
-affiliates: 
+affiliates:
 address: 1916 Isaac Newton Square West
-directions: 
+directions:
 postcode: 20190
 city: Reston
 state: Virginia
@@ -17,5 +17,5 @@ email: capitalareabiospace@gmail.com
 
 This is a group for anyone interested in working on a DIYbio community biotechnology space in the DMV area
 
----
-text taken from initiative's website
+
+\*text taken from initiative's website

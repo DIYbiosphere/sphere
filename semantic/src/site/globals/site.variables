@@ -34,8 +34,11 @@
     Brand Colors
 --------------------*/
 
-@primaryColor        : @violet;
-@secondaryColor      : @black;
+@primaryColor        : #2E6C77;
+@secondaryColor      : @fullBlack;
 
-@lightPrimaryColor   : @lightViolet;
+@lightPrimaryColor   : #3A8895;
 @lightSecondaryColor : @lightBlack;
+
+@yellow              : #FFF04A;
+@highlightBackground : #FFF04A;

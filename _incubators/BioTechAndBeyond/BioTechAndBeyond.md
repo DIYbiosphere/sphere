@@ -1,7 +1,7 @@
 ---
 title: Bio, Tech and Beyond
 manager: 
-motto: North San Diego's Life Science Incubator
+subtitle: North San Diego's Life Science Incubator
 logo: https://pbs.twimg.com/profile_images/378800000013265781/54d57c46545546ea46e02c8be2d76716_400x400.jpeg
 website: http://www.biotechnbeyond.com/
 start-date: 2013

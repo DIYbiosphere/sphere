@@ -2,6 +2,8 @@
 title: GitHub, Explain Like I'm 5 (ELI5)
 permalink: "/docs/guides/github-eli5/"
 layout: docs
+comments_issue: 29
+edit_issue: 30
 crumb: guides
 ---
 

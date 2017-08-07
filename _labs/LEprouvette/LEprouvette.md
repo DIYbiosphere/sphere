@@ -1,17 +1,17 @@
 ---
 title: L'Eprouvette
-manager: 
+manager:
 logo: https://pbs.twimg.com/profile_images/535440714058838017/O1ezBMSc_400x400.jpeg
 website: http://wp.unil.ch/mediationscientifique/activites/eprouvette
 start-date: 2005
 host-org: "[University of Lausanne](http://www.unil.ch/interface/home.html)"
 type-org: University
-affiliates: 
+affiliates:
 address: Quartier Sorge
 directions: Bâtiment Amphipôle - bureau 303.1
 postcode: 1015
 city: Lausanne
-state: 
+state:
 country: Switzerland
 email: eprouvette@unil.ch
 twitter: https://twitter.com/Eprouvette_Unil
@@ -28,5 +28,5 @@ The "workshop" approach helps to achieve these objectives by adopting a flexible
 
 The team of biologists of L'éprouvette also offers  tailor-made activities  for associations and companies interested in research issues in the field of experimental sciences. Collaborations & Links
 
----
-taken from initiative's website
+
+\*taken from initiative's website

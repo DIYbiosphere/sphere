@@ -1,16 +1,16 @@
 ---
 title: Bioscope
-manager: 
+manager:
 website: http://bioscope.ch/
 start-date: 2014
 host-org: University of Geneva
 type-org: University
-affiliates: 
+affiliates:
 address: Rue de l’Ecole-de-Médecine, 20
-directions: 
+directions:
 postcode: 1205
 city: Geneva
-state: 
+state:
 country: Switzerland
 blog: http://bioscopelab.tumblr.com/
 twitter: https://twitter.com/bioscopelab
@@ -26,5 +26,5 @@ The Bioscope allos to both perform advanced scientific experiments, develop citi
 ## History
 
 
----
-Text taken from initiative's website
+
+\*Text taken from initiative's website

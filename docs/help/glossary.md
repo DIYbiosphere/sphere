@@ -2,6 +2,8 @@
 title: Glossary of Terms
 permalink: "/docs/help/glossary/"
 layout: docs
+comments_issue: 31
+edit_issue: 32
 crumb: help
 summary: A sort of DIYbiosphere "urban" dictionary in alphabetical order
 ---

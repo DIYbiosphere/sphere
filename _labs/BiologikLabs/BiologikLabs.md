@@ -1,11 +1,11 @@
 ---
 title: Biologik Labs
-manager: 
+manager:
 website: http://www.biologiklabs.org/
 start-date: 2013
-host-org: 
-type-org: 
-affiliates: 
+host-org:
+type-org:
+affiliates:
 address: 259 Granby St.
 directions: Suite 250
 postcode: Suite 250
@@ -22,5 +22,5 @@ google+: https://plus.google.com/110547922615605568991/posts
 A community bio-hackerspace that specializes in synthetic biological research and experimentation spanning the world of art, aesthetics, engineering and science
 
 
----
-Text taken from initiative's website
+
+\*Text taken from initiative's website

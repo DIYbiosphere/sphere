@@ -1,24 +1,14 @@
-{% if page.header-image or page.header-color %}
+{% if page.header %}
 <div class="ui segment" style="margin-top: -100px;">
 {% else %}
 <div class="ui segment">
 {% endif %}
-
-
 <a class="noelink" href="{{ page.website }}" target="_blank">
   <!-- Display logo -->
   <!-- In case it is png -->
-  {% capture logoPNG %}{% file_exists {{ page.url | remove: "/entries/" | prepend: "_" | append: "logo.png"}} %}{% endcapture %}
-    {% if logoPNG=="true" %}
-        <img class="ui small centered image" src="{{ page.url | append: "logo.png"}}"/>
-    {% else %}
-  {% endif %}
-  <!-- In case it is jpg -->
-  {% capture logoJPG %}{% file_exists {{ page.url | remove: "/entries/" | prepend: "_" | append: "logo.jpg"}} %}{% endcapture %}
-    {% if logoJPG=="true" %}
-        <img class="ui small centered image" src="{{ page.url | append: "logo.jpg"}}"/>
-    {% else %}
-  {% endif %}
+    {% if page.logo %}
+        <img class="ui small centered image" src="{{ page.logo }}"/>
+    {% endif %}
 </a>
 
         <table class="ui very basic small table">
@@ -264,18 +254,18 @@
             <td>
               <!-- Address -->
               {% if page.address %}
-              {{ page.address }}{% if page.directions | append ','%} {{ page.directions }}{% endif %} <br>
+              {{ page.address }}{% if page.directions %}, {{ page.directions }}{% endif %} <br>
               {% endif %}
               <!-- City and country -->
               {% if page.city or page.state or page.country %}
-              {{ page.city }}
-              {% if page.city and page.state %}, {% endif %}
-              {% if page.state %}
-              {{ page.state }} {% endif %}
-              {% if page.city or page.state %}<br> {% endif %}
-              {% if page.country %}
-              {{ page.country }}
-              {% endif %}
+                {{ page.city }}
+                {% if page.city and page.state %}, {% endif %}
+                {% if page.state %}
+                {{ page.state }} {% endif %}
+                {% if page.city or page.state %}<br> {% endif %}
+                {% if page.country %}
+                {{ page.country }}
+                {% endif %}
               {% endif %}
             </td>
           </tr>

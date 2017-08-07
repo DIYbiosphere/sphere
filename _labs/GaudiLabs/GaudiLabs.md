@@ -1,16 +1,16 @@
 ---
 title: GaudiLabs
-manager: 
+manager:
 website: http://www.gaudi.ch/GaudiLabs/
-start-date: 
-host-org: 
-type-org: 
-affiliates: 
+start-date:
+host-org:
+type-org:
+affiliates:
 address: Neustadtstrasse 7
-directions: 
+directions:
 postcode: 6003
 city: Lucerne
-state: 
+state:
 country: Switzerland
 facebook: https://www.facebook.com/mrgaudi
 youtube: https://www.youtube.com/user/MrGaudiCH
@@ -18,5 +18,5 @@ youtube: https://www.youtube.com/user/MrGaudiCH
 
 GaudiLabs are creative spaces for working, thinking and living where culture and technology meet. We conduct open research in open source culture technology. Developing methods, process and devices to unite people and knowledge from different fields and backgrounds.
 
----
-Text taken from initiative's website
+
+\*Text taken from initiative's website

@@ -1,0 +1,23 @@
+{% if page.edit_issue and site.github_comments_repository %}
+
+<div>
+    <div id="gh-comments-edit-list"></div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+<script src="{{ site.baseurl }}/assets/js/githubCommentsEdit.js"> </script>
+
+<script type="text/javascript">
+    DoGithubCommentsEdit (
+        "{{ site.github_comments_repository }}" ,
+        "{{ page.edit_issue }}"
+    );
+</script>
+
+<noscript>Please enable JavaScript to view comments.</noscript>
+
+{% endif %}

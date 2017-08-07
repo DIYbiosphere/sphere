@@ -3,18 +3,18 @@ title: Be.In.To
 tags:
 - fablab
 - hackerspace
-manager: 
-motto: Biohacking Experience in Torino
+manager:
+subtitle: Biohacking Experience in Torino
 website: http://fablabtorino.org/be-in-to/
 start-date: 2014
 host-org: "[FabLab Torino](http://fablabtorino.org/)"
 type-org: Community
-affiliates: 
+affiliates:
 address: Via Egeo 16
-directions: 
+directions:
 postcode: 10134
 city: Torino
-state: 
+state:
 country: Italy
 email: info@fablabtorino.org
 tumblr: http://biohackingexperience.tumblr.com/
@@ -26,5 +26,5 @@ The large Fablab Torino strength is the variety of skills of its associates; the
 
 The interests of the BE.IN.TO group ranging in different activities that start with a ctivities Base to discover the world of BioHacking; a journey through the experiences around the world with hands-on experiments. Then there are the  activities of planning and design to seek alternative applications of design and experimentation. Hardware and instrumentation laboratory to understand how the digital fabrication allows to support scientific research. Finally  d iscussioni around the themes of Bio commons, ethics and the creation of research protocols with the aim of putting into effect the scientific value by moving the eyes of the traditional search.
 
----
-Text taken from homepage
+
+\*Text taken from homepage

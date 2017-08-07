@@ -4,8 +4,9 @@ description: "A collaborative library of Do-it-Yourself Biology initiatives"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "sphere.diybio.org"
 permalink: /updates/:year/:month/:day/:title
-repository: "DIYbiosphere/sphere"
-github_username: "DIYbiosphere"
+repository: DIYbiosphere/sphere
+github_comments_repository:  diybiosphere/talk
+github_username: DIYbiosphere
 twitter:
   username: DIYbiosphere
 
@@ -41,11 +42,14 @@ plugins:
   - jekyll-seo-tag
   - jekyll-mentions
   - jekyll-github-metadata
+  - jekyll-git_metadata
   - algoliasearch-jekyll
   - jekyll-last-modified-at
   - jekyll-feed
   - jekyll-avatar
   - jekyll-toc #https://github.com/toshimaru/jekyll-toc/
+  - jekyll-timeago
+  - jekyll-giphy
 
 # Collections
 collections:
@@ -175,7 +179,7 @@ assets:
     - _assets/img
     - _assets/js
     - _assets/css
-    - _assets/fonts
+    - _assets/gif
 
 # Jekyll-Tagging: https://github.com/pattex/jekyll-tagging/
 tag_page_layout: tag_page
@@ -187,21 +191,59 @@ algolia:
   index_name: 'diybiosphere'
   lazy_update: true
   settings:
-    searchableAttributes:
+    advancedSyntax: true
+    distinct: true
+    attributeForDistinct: 'url'
+    ignorePlurals: true
+    attributesToIndex:
       - title
-      - h1
-      - h2
-      - h3
-      - h4
       - city
       - state
       - country
       - unordered(text)
       - unordered(tags)
+    ranking:
+      - typo
+      - geo
+      - proximity
+      - attribute
+      - custom
     attributesForFaceting:
       - collection
       - type-org
       - city
+      - state
       - country
       - tags
       - status
+    attributesToRetrieve:
+      - title
+      - uberimage
+      - logo
+      - header
+      - thumbnail
+      - collection
+      - type-org
+      - city
+      - state
+      - country
+      - tags
+      - status
+      - text
+      - subtitle
+      - url
+      - start-date
+      - end-date
+      - host-org
+      - last_modified_at
+      - timestamp
+      - _geoloc
+        - lat
+        - lng
+    attributesToSnippet: ['text:20']
+    snippetEllipsisText: '[&hellip;]'
+    attributesToHighlight: ['*']
+    highlightPostTag: </span>
+    highlightPreTag: <span class="search-highlight">
+    minWordSizefor1Typo: 3
+    minWordSizefor2Typos: 7

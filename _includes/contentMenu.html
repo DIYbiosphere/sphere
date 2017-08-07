@@ -1,0 +1,24 @@
+<div class="ui secondary pointing mini tabular menu">
+  <a class="active item" data-tab="overview">Main</a>
+
+  {% for project in site.projects %}
+    {% if project.host-org==page.title %}
+      <a class="item" data-tab="projects">Projects</a>
+      {% break %}
+      {% else %}
+    {% endif %}
+  {% endfor %}
+
+  {% for startup in site.startup %}
+    {% if startup.host-org==page.title %}
+        <a class="item" data-tab="startups">Startups</a>
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  <div class="right tabular menu">
+      <a class="ui item">
+        <a class="item" data-tab="issues"><i class="far fa-edit icon"></i>&nbsp;Last edit {% last_modified_at %} </a>
+      </a>
+  </div>
+  </div>

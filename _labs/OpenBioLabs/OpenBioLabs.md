@@ -1,12 +1,12 @@
 ---
 title: Charlottesville Open Bio Labs
-manager: 
+manager:
 logo: http://openbiolabs.org/wp-content/uploads/2015/04/COBL_web_logo.png
 website: http://openbiolabs.org/
 start-date: 2015
 host-org: "[The School Factory](http://schoolfactory.org/)"
 type-org: Non-Profit
-affiliates: 
+affiliates:
 address: 300 W. Main St.
 directions: B101
 postcode: 22903
@@ -15,26 +15,26 @@ state: Charlottesville
 country: United States
 email: info@openbiolabs.org
 blog: http://openbiolabs.org/blog/
-rss: 
-wiki: 
-forum: 
-mailinglist: 
-irc: 
-gitter: 
-slack: 
-meetup: 
+rss:
+wiki:
+forum:
+mailinglist:
+irc:
+gitter:
+slack:
+meetup:
 twitter: https://twitter.com/openbiolabs/
 facebook: https://www.facebook.com/openbiolabs
-google+: 
-linkedin: 
-instagram: 
-flickr: 
-pinterest: 
-vimeo: 
-youtube: 
-hackpad: 
-trello: 
-github: 
+google+:
+linkedin:
+instagram:
+flickr:
+pinterest:
+vimeo:
+youtube:
+hackpad:
+trello:
+github:
 ---
 
 We started Open Bio Labs with the goal of educating our community about the rising tide of synthetic biology and biotechnology. People are curious about science, and want to learn about it, but so commonly perceive it as daunting and inaccessible to the general public. However, in reality, science is accessible to anybody with an interest, and doing scientific work should be, too. That’s why Open Bio Lab exists: to show citizens they, too, can be scientists.
@@ -47,5 +47,5 @@ Biotechnology will be the defining technology of the 21st century, just as compu
 
 Charlottesville is the perfect home for Open Bio Labs because we are a very energetic community that loves to make, explore, and live on the frontier of technology and science. We’re a highly educated community with blossoming technology and biotechnology industries. These growing local industries form the perfect crossroads for the coming wave of synthetic biology, and Open Bio Labs is the perfect catalyst for the community to ride the rising tide. We will educate, train, and certify individuals for low-barrier STEM jobs to develop our local workforce and economy. Everyone wins.
 
----
-Text taken from initiative's website
+
+\*Text taken from initiative's website

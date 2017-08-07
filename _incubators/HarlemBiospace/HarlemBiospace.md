@@ -1,7 +1,7 @@
 ---
 title: Harlem Biospace
 manager: 
-motto: An affordable co-working wet lab, right in Manhattan
+subtitle: An affordable co-working wet lab, right in Manhattan
 logo: https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-1/p200x200/12924577_564699273690469_5064291978652898101_n.jpg?oh=1324142ed1d1edfd76437ad3b409b451&oe=590B1CCE
 website: http://harlembiospace.com/
 start-date: 2013

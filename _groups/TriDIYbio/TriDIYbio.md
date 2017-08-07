@@ -1,15 +1,15 @@
 ---
 title: Triangle DIY Biology
-manager: 
-motto: Community Citizen Science and DIYbio Group of the NC Triangle
-logo: 
+manager:
+subtitle: Community Citizen Science and DIYbio Group of the NC Triangle
+logo:
 website: http://www.tridiybio.org/
 start-date: 2015
 host-org: "[SplatSpace](http://splatspace.org/)"
-type-org: 
-affiliates: 
+type-org:
+affiliates:
 address: 800 N Mangum St
-directions: 
+directions:
 postcode: 27701
 city: Durham
 state: North Carolina
@@ -29,5 +29,5 @@ Exploring the mysteries of your genome by doing your own personal genetic testin
 Learning about the microbiological world around you by surveying your own backyard, local park, or public restroom for species of bacteria and microbes
 Building a home based DIYBio lab, locally Ronin Genetics is such a space.
 
----
-Taken from the initiative's website
+
+\*Taken from the initiative's website

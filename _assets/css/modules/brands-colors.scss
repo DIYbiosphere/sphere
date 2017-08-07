@@ -1,6 +1,6 @@
 a svg:hover {
   & #website {
-  fill: $primaryColor;
+  fill: #2E6C77;
   }
 
   & #twitter {
@@ -18,6 +18,11 @@ a svg:hover {
   & #github {
   fill: #000000;
   }
+
+  & #github-purple {
+  fill: #000000;
+  }
+
 
   & #linkedin {
   fill: #007ab9;
