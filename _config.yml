@@ -106,57 +106,70 @@ defaults:
       type: projects
     values:
       layout: entry
-      permalink: /entries/:collection/:name/
+      permalink: /entries/:collection/:path
       collection: Project
   -
     scope:
       type: startups
     values:
       layout: entry
-      permalink: /entries/:collection/:name/
+      permalink: /entries/:collection/:path
       collection: Startup
   -
     scope:
       type: labs
     values:
       layout: entry
-      permalink: /entries/:collection/:name/
+      permalink: /entries/:collection/:path
       collection: Lab
   -
     scope:
       type: incubators
     values:
       layout: entry
-      permalink: /entries/:collection/:path/
+      permalink: /entries/:collection/:path
       collection: Incubator
   -
     scope:
       type: groups
     values:
       layout: entry
-      permalink: /entries/:collection/:name/
+      permalink: /entries/:collection/:path
       collection: Group
   -
     scope:
       type: networks
     values:
       layout: entry
-      permalink: /entries/:collection/:name/
+      permalink: /entries/:collection/:path
       collection: Network
   -
     scope:
       type: events
     values:
       layout: entry
-      permalink: /entries/:collection/:name/
+      permalink: /entries/:collection/:name
       collection: Event
   -
     scope:
       type: others
     values:
       layout: entry
-      permalink: /entries/:collection/:name/
+      permalink: /entries/:collection/:path
       collection: Other
+
+  -
+    scope:
+      type: pages
+    values:
+      layout: page
+      permalink: /pages/:path
+
+  -
+    scope:
+      type: docs
+    values:
+      layout: docs/:path
 
 # PLUGIN CONFIGURATIONS
 
