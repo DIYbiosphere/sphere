@@ -1,6 +1,5 @@
 ---
 title: Our Philosophy
-permalink: "/about/philosophy/"
 layout: page
 comments_issue: 7
 edit_issue: 8

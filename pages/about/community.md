@@ -1,6 +1,5 @@
 ---
 title: Our Community
-permalink: "/about/community/"
 layout: page
 comments_issue: 5
 edit_issue: 6

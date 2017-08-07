@@ -1,6 +1,5 @@
 ---
 title: Contact Us
-permalink: "/about/contact/"
 layout: page
 comments_issue: 3
 edit_issue: 4
