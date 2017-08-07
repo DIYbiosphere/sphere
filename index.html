@@ -3,59 +3,117 @@ permalink: "/"
 layout: landing
 ---
 
+<!-- google maps API AIzaSyAgB5AWTL7CZagEdJp-WbeHvCDgRPaFidc -->
 
-<div class="owl-carousel hero">
-  <div class="ui fluid image">
-    <div class="ui dimmer">
+<div class="owl-carousel">
+  <!-- main image -->
+  <div class="ui image">
+    <div class="ui active dimmer">
       <div class="content">
         <div class="center">
-          <h2 class="ui inverted header">DIYbiosphere Project</h2>
-          <div class="ui inverted tiny header">We offer clases to learn about synthetic Biology</div>
-          <div class="ui basic inverted big button">LEARN MORE</div>
+          <div class="ui basic segment">
+          <div class="ui inverted huge header">The DIYbiosphere</div>
+          <div class="ui inverted medium header">Connecting DIYbio all over the world. <br> Search for, browse or add your own initiative!</div>
+          <a href="/about/diybiosphere/"><button class="ui inverted big button">LEARN MORE</button></a>
+          </div>
         </div>
       </div>
     </div>
-    <img class="ui fluid image" src="https://vetstreet.brightspotcdn.com/dims4/default/10dae76/2147483647/thumbnail/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2F3a%2F54%2F5ae8bfcc41b381c27a792e0dd891%2FAP-KWDHXS-645sm8113.jpg">
+    <img class="ui image owl-img" src="{{ '/entries/projects/diybiosphere/header.jpg' | prepend: site.baseurl }}">
   </div>
-  <div class="ui fluid image">
-    <div class="ui dimmer">
-      <div class="content">
-        <div class="center">
-          <div class="ui basic inverted button">Add</div>
-          <h2 class="ui inverted header">Title</h2>
+  <!-- loop through call-to-actions -->
+  {% for c in site.collections %}
+    {% assign docs=c.docs %}
+     {% for doc in docs %}
+      {% if doc.call-to-action %}
+       {% for item in doc.call-to-action %}
+        <div class="ui image">
+         <div class="ui active dimmer">
+           <div class="content">
+             <div class="center xo padding left right">
+               <div class="ui basic fluid segment">
+                 <a href="{{ item.URL }}"><button class="ui inverted big button">{{item.button | markdownify | upcase }}</button></a>
+                 <div class="ui inverted medium header">{{item.description | markdownify }}</div>
 
-        </div>
-      </div>
-    </div>
-    <img class="ui image" src="https://s-media-cache-ak0.pinimg.com/736x/4a/ec/99/4aec99cad3c58686610ec3eb7cebcc1d--cute-pugs-pug-dogs.jpg">
-  </div>
-  <div class="ui fluid image">
-    <div class="ui dimmer">
-      <div class="content">
-        <div class="center">
-          <h2 class="ui inverted header">Title</h2>
-          <div class="ui primary button">Add</div>
-          <div class="ui button">View</div>
-        </div>
-      </div>
-    </div>
-    <img class="ui image" src="https://vetstreet-brightspot.s3.amazonaws.com/dc/c4/8ccd3a28438d81b2f2f5d8031a05/pug-ap-r82p3q-645.jpg">
-  </div>
-  <div class="ui fluid image">
-    <div class="ui dimmer">
-      <div class="content">
-        <div class="center">
-          <h2 class="ui inverted header">Title</h2>
-          <div class="ui primary button">Add</div>
-          <div class="ui button">View</div>
-        </div>
-      </div>
-    </div>
-      <img class="ui image" src="https://metrouk2.files.wordpress.com/2017/01/88804863.jpg?w=748&h=498&crop=1">
-  </div>
+               <h3 class="ui inverted header">
+                 // {{doc.title}} //
+                 <div class="sub header">
+                   <em>{{doc.collection | replace: 'labs', 'Lab' | replace: 'projects', 'Project' | replace: 'networks', 'Network' | replace: 'group', 'Group' | replace: 'events', 'Events' | replace: 'incubators', 'Incubator' | replace: 'others', 'Other' | replace: 'startup', 'Startup'}}
+                     {% if doc.city %}
+                      in {{doc.city}},
+                     {% else %}
+                       {% if doc.country %}
+                        in
+                       {% endif %}
+                     {% endif %}
+                     {% if doc.country %}
+                      {{doc.country}}
+                     {% endif %}
+                   </em>
+                 </div>
+               </h3>
+              </div>
+             </div>
+           </div>
+         </div>
+         {% if item.image %}
+          <img class="ui image owl-img" src="{{ item.image }}">
+         {% else %}
+          <img class="ui image owl-img" src="{{ doc.header }}">
+         {% endif %}
+       </div>
+       {% endfor %} <!-- item -->
+      {% endif %} <!-- call-to-action -->
+     {% endfor %} <!-- docs -->
+  {% endfor %} <!-- collections -->
 </div>
 
-<div class="u grid">
+<!-- Carousel buttons -->
+<div class="ui three bottom attached buttons">
+    <div class="ui button customPrevBtn"><i class="far fa-angle-left"></i></div>
+    <div class="ui button beginningBtn"></div>
+    <div class="ui button customNextBtn"><i class="far fa-angle-right"></i></div>
+</div>
+
+<div>
+{% include map.html %}
+</div>
+
+<div class="ui grid">
+  <!-- Statistics -->
+  <div class="row xo top bottom padding fourfold" style="background-color: black;">
+    <div class="column">
+      <div class="ui container">
+        <div class="ui inverted three large statistics">
+          <div class="statistic">
+            <div class="value">
+              <span id="index-stats-container"</span>
+            </div>
+            <div class="label">
+              Total Entries
+            </div>
+          </div>
+          <div class="statistic">
+            <div class="value">
+              {{site.github.contributors}} 9
+            </div>
+            <div class="label">
+              Total Contributors
+            </div>
+          </div>
+          <div class="statistic">
+            <div class="value">
+              {{ site.git.total_commits }}
+            </div>
+            <div class="label">
+              Total Edits
+            </div>
+          </div>
+        </div>
+      </div> <!-- container -->
+    </div> <!-- column -->
+  </div> <!-- row -->
+
   <!-- Latest entries -->
   <div class="row xo padding top fourfold">
     <div class="ui container">
@@ -67,10 +125,13 @@ layout: landing
       <div id="index-hits-container"></div>
     </div>
   </div>
+
   <!-- Browse by Collection -->
-  <div>
+
     <div class="row xo padding top fourfold" style="background-color: white;">
-      <h2 class="ui center aligned header">Browse by Collection</h2>
+      <div class="ui container">
+        <h2 class="ui center aligned header">Browse by Collection</h2>
+      </div>
     </div>
     <div class="row xo padding top bottom fourfold" style="background-color: white;">
       <div class="ui two column very relaxed internally celled grid container">
@@ -236,7 +297,7 @@ layout: landing
         </div>
       </div> <!-- relaxed grid -->
     </div> <!-- row -->
-  </div>
+
 <!--
 <div class="ui padded grid">
   <h2 class="ui header">Browse by Collection</h2>
@@ -377,49 +438,37 @@ layout: landing
       </div>
     </div>
   -->
-    <!-- STATISTICS -->
-
-  <div class="row xo top bottom padding fourfold" style="background-color: black;">
-    <div class="column">
-      <div class="ui container">
-        <div class="ui inverted three large statistics">
-          <div class="statistic">
-            <div class="value">
-              <span id="index-stats-container"</span>
-            </div>
-            <div class="label">
-              Total Entries
-            </div>
-          </div>
-          <div class="statistic">
-            <div class="value">
-              {{site.github.contributors}} 9
-            </div>
-            <div class="label">
-              Total Contributors
-            </div>
-          </div>
-          <div class="statistic">
-            <div class="value">
-              {{ site.git.total_commits }}
-            </div>
-            <div class="label">
-              Total Edits
-            </div>
-          </div>
+  <!-- Final Call -->
+  <div class="row xo padding bottom top fourfold">
+    <div class="ui container">
+      <h1 class="ui center aligned header">DIYbiosphere is an Open Source Project!</h1>
+      <div class="ui basic center aligned segment">
+        <div class="ui medium header">
+          All the content in this website is provided by volunteer contributors<br>
+          and is dedicated to the public domain (<a href="">CC0</a>) to be freely (re)used <br>
         </div>
+        <div class="ui medium header">
+          To contribute all you need is a <a href="https://www.google.ch/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwig3Zb8wMTVAhUPmbQKHU31DbwQFggoMAA&url=https%3A%2F%2Fgithub.com%2Fjoin&usg=AFQjCNF6nezHQWX1hKwEFQVYRrUheS9_Ig">GitHub account!</a>
+        </div>
+
+        <div class="xo top padding twofold">
+          <a href="/docs/tutorials/add-entry/">
+            <button class="ui primary button">
+              <i class="far fa-plus"></i>
+              &nbsp;Add a new initiative
+            </button>
+          </a>
+          <a href="/docs/tutorials/edit-content/">
+            <button class="ui primary button">
+              <i class="far fa-pencil"></i>
+              &nbsp;Edit or update content
+            </button>
+          </a>
+        </div>
+
       </div>
-    </div>
-  </div>
-
-  <div class="row xo padding top twofold">
-    <h1 class="ui center aligned header">DIYbiosphere is an Open Source Project!</h1>
-    <p> </p>
-    <button class="ui labeled icon button">
-      <i class="pause icon"></i>
-      Pause
-    </button>
-  </div>
 
 
-</div> <!-- close padded grid -->
+    </div> <!-- container -->
+  </div> <!-- row -->
+</div> <!-- grid -->

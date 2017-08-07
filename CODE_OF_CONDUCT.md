@@ -2,6 +2,8 @@
 title: Code of Conduct
 permalink: "/code-of-conduct/"
 layout: page
+comments_issue: 39
+edit_issue: 40
 crumb: none
 summary: Common understanding of what constitutes a welcoming and enriching working
   environment

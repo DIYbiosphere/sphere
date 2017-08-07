@@ -5,14 +5,14 @@ const search = instantsearch({
   urlSync: true,
   searchParameters: {
     facetingAfterDistinct: true,
-    hitsPerPage: 4
+    hitsPerPage: 100
   }
 });
 
 
 search.addWidget(
   instantsearch.widgets.stats({
-    container: '#index-stats-container',
+    container: '#map-stats-container',
     templates: {
       body: '{{nbHits}}'
     }
@@ -32,7 +32,7 @@ const INDEX_HIT_TEMPLATE = `
       <em> {{#collection}} {{collection}} {{/collection}} {{#city}} in {{ city }}, {{/city}} {{^city}} in {{/city}} {{#country}}{{ country }} {{/country}}</em>
     </div>
     <div class="description">
-      {{#motto}} {{motto}} {{/motto}}
+      {{#subtitle}} {{subtitle}} {{/subtitle}}
     </div>
   </div>
   <div class="extra content">
@@ -43,17 +43,14 @@ const INDEX_HIT_TEMPLATE = `
 
 search.addWidget(
   instantsearch.widgets.hits({
-    container: '#index-hits-container',
-    cssClasses: {
-      root: 'ui link four cards',
-      item: 'ui card',
-    },
+    container: '#map-hits-container',
     templates: {
       empty: INDEX_EMPTY_TEMPLATE,
-      item: INDEX_HIT_TEMPLATE
+      item: 'INDEX_HIT_TEMPLATE'
     },
   })
 );
+
 
 
 search.start();

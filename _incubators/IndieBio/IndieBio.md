@@ -1,7 +1,7 @@
 ---
 title: IndieBio
 manager: 
-motto: Accelerating Biology
+subtitle: Accelerating Biology
 logo: http://www.indiebio.co/images/indieBioLogoLg.png
 website: http://sf.indiebio.co/
 start-date: 2010

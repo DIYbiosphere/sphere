@@ -3,7 +3,7 @@ title: Biohackers NYC
 tags:
 - transhumanism
 manager:
-motto: human performance optimized
+subtitle: human performance optimized
 status: inactive
 start-date: 2012
 end-date: 2015

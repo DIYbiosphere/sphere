@@ -1,7 +1,7 @@
 ---
 title: PechBlenda Lab
 manager:
-motto: Laboratory of bioelectrochemical experimentations
+subtitle: Laboratory of bioelectrochemical experimentations
 website: https://pechblenda.hotglue.me/
 start-date:
 host-org: Calafou

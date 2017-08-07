@@ -3,6 +3,8 @@ title: Documentation of DIYbiosphere
 permalink: "/docs/basics/documentation/"
 layout: docs
 crumb: basics
+comments_issue: 21
+edit_issue: 22
 summary: In this section
 ---
 

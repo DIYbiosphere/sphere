@@ -2,16 +2,41 @@
 *  Sticky Footer by https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
 */
 
-.hero-image {
-  background-image: url(/assets/img/header.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+:target:before {
+content: "";
+display: block;
+height: 110px; /* fixed header height*/
+margin: -110px 0 0; /* negative fixed header height */
 }
 
 #map {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: 700px;
+}
+
+.owl-stage {
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display: flex;
+
+   -webkit-flex-wrap: wrap;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   height: 400px;
+}
+
+.owl-item{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto !important;
+    overflow: hidden;
+}
+
+.owl-img {
+  min-height: 100%;
+  width: auto;
+  object-fit: cover;
 }
 
 
@@ -48,7 +73,7 @@ article {
     background: url('/assets/img/download-link.png') no-repeat 0 0;
     background-size: 100%;
   }
-  a[href$=".png"]:after {
+  a:not(.noul)[href$=".png"]:after {
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -57,7 +82,7 @@ article {
     background: url('/assets/img/download-link.png') no-repeat 0 0;
     background-size: 100%;
   }
-  a[href$=".svg"]:after {
+  a:not(.noul)[href$=".svg"]:after {
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -92,7 +117,7 @@ code {
 footer {
 
   .border-footer {
-    border-top: 1px solid $lightGrey;
+    border-top: 5px solid yellow;
   }
 }
 

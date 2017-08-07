@@ -3,6 +3,8 @@ title: Welcome to the docs!
 permalink: "/docs/"
 layout: docs
 crumb: none
+comments_issue: 11
+edit_issue: 12
 ---
 
 In **The Basics** section find all about the "blueprints" of the project: the [Entries], the [Software], the [Documentation], and the [Design].

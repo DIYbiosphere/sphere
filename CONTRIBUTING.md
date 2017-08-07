@@ -2,6 +2,8 @@
 title: Contributing Guide
 permalink: "/docs/guides/contributing/"
 layout: docs
+comments_issue: 23
+edit_issue: 24
 crumb: guides
 ---
 

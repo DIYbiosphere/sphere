@@ -420,11 +420,11 @@
 }
 .ui.pink.message {
   background-color: #FFE3FB;
-  color: #FE57C6;
-  box-shadow: 0px 0px 0px 1px #FE57C6 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #E03997;
+  box-shadow: 0px 0px 0px 1px #E03997 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.pink.message .header {
-  color: #fe3ebd;
+  color: #dd238b;
 }
 .ui.brown.message {
   background-color: #F1E2D3;

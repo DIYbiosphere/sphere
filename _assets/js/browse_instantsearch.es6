@@ -8,58 +8,53 @@ const search = instantsearch({
   }
 });
 
-search.addWidget(
-  instantsearch.widgets.searchBox({
+const searchAnything = instantsearch.widgets.searchBox({
     container: '#search-box',
     reset: false,
     poweredBy: false,
     magnifier: false,
     placeholder: 'Global Search for (almost) Anything',
 		cssClasses: {
-			root: 'ui input fluid'
+			root: 'ui input'
 		}
-	})
-);
+	});
 
-search.addWidget(
-  instantsearch.widgets.stats({
+
+  const searchResults = instantsearch.widgets.stats({
     container: '#stats-container',
+    cssClasses: {
+      body: 'ui medium header',
+    },
     templates: {
-      body: 'Results ({{nbHits}})'
+      body: '{{nbHits}} entries'
     }
-  })
-);
+  });
 
-search.addWidget(
-	instantsearch.widgets.clearAll({
+const clearFilters = instantsearch.widgets.clearAll({
 		container: '#clear-all',
 		autoHideContainer: true,
     clearsQuery: true,
 		templates: {
-			link: '<button style="float:right;" class="ui right red inverted floated mini button">Reset</button>'
+			link: '<button style="float:right;" class="ui right floated tiny basic red button">Clear All</button>'
 		},
-	})
-);
+	});
 
-search.addWidget(
-  instantsearch.widgets.currentRefinedValues({
+const resultsMatching = instantsearch.widgets.currentRefinedValues({
     container: '#current-refined-values',
 		autoHideContainer: true,
 		clearAll: false,
 		cssClasses: {
-			root: 'ui medium labels',
+      root: 'ui horizontal list',
+			header: 'item ui small header',
+      body: 'item',
+      list: 'ui horizontal link list',
+      item: 'item',
     },
 		templates: {
-			item: `
-			<a class="ui basic label">
-			  {{name}}
-			  <i class="delete icon"></i>
-			</a>`
+      header: ' matching: ',
+			item: `{{name}} `
     },
-  })
-);
-
-
+  });
 
 const EMPTY_TEMPLATE =
   '<div class="text-center">No results found matching <strong>{{query}}</strong>.</div>';
@@ -69,8 +64,8 @@ const HIT_TEMPLATE = `
 <div class="ui items">
 	<div class="item">
 	  {{ #logo }}
-		<div class="ui small image">
-	    <img class="ui middle aligned" src="{{ logo }}">
+		<div class="ui tiny image">
+	    <img class="ui middle aligned" src="{{ uberimage }}">
 	  </div>
 		{{ /logo }}
 	  <div class="content">
@@ -80,11 +75,11 @@ const HIT_TEMPLATE = `
 	      <span><em> {{#collection}} {{collection}} {{/collection}} {{#city}} in {{ city }}, {{/city}} {{^city}} in {{/city}} {{#country}}{{ country }} {{/country}}</em></span>
 	    </div>
 	    <div class="description">
-	      <p>{{{ _highlightResult.text.value }}}</p>
+	      <p>{{{ _snippetResult.text.value }}}</p>
 	    </div>
 	    <div class="extra">
 			{{#tags}}
-			<div class="ui tiny label">{{ . }}</div>
+			<a class="ui tiny label noul" href="/entries/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ . }}">{{ . }}</a>
 			{{/tags}}
 			</div>
 	  </div>
@@ -118,29 +113,24 @@ const TABLE_TEMPLATE = `
 </table>
 `;
 
-search.addWidget(
-  instantsearch.widgets.hits({
+const gridHits = instantsearch.widgets.hits({
     container: '#hits-container',
     templates: {
       empty: EMPTY_TEMPLATE,
       item: HIT_TEMPLATE
     },
-  })
-);
+  });
 
-search.addWidget(
-	instantsearch.widgets.hits({
+const tableHits = instantsearch.widgets.hits({
 		container: '#table-container',
 		templates: {
 			empty: EMPTY_TEMPLATE,
 			allItems: TABLE_TEMPLATE
 		},
-	})
-);
+	});
 
 
-search.addWidget(
-  instantsearch.widgets.refinementList({
+const collectionFilter = instantsearch.widgets.refinementList({
     container: '#collection',
     attributeName: 'collection',
     operator: 'or',
@@ -162,11 +152,9 @@ search.addWidget(
           '</div>' +
         '</div>' +
       '</div>'},
-  })
-);
+  });
 
-search.addWidget(
-  instantsearch.widgets.refinementList({
+const typeFilter = instantsearch.widgets.refinementList({
     container: '#type-org',
     attributeName: 'type-org',
     operator: 'or',
@@ -188,41 +176,29 @@ search.addWidget(
           '</div>' +
         '</div>' +
       '</div>'},
-  })
-);
+  });
 
 
-search.addWidget(
-  instantsearch.widgets.refinementList({
+const tagsFilter = instantsearch.widgets.refinementList({
     container: '#tags',
     attributeName: 'tags',
 		operator: 'or',
-		limit: 2,
-		searchForFacetValues: {
-			placeholder: 'Search for tags',
-      isAlwaysActive: false,
-      templates: {
-        noResults: 'NORESULT'
-      },
-		},
+		limit: 10,
     showMore: {
 
     },
 		cssClasses: {
-			root: 'ui labels',
-			item: 'ui label xo paddingfull half',
-			active: 'ui basic label xo paddingfull half',
+			list: 'ui labels',
+			active: 'ui link basic label',
       header: 'ui small header xo padding top'
     },
     templates: {
       header: 'TAGS<div class="ui divider"></div>',
-      item: '{{value}}'
+      item: '<a class="ui link label xo marginfull" {{value}} </a>'
     }
-  })
-);
+  });
 
-search.addWidget(
-  instantsearch.widgets.pagination({
+const pagesNav = instantsearch.widgets.pagination({
     container: '#pagination-container',
     maxPages: 20,
 		autoHideContainer: true,
@@ -234,9 +210,17 @@ search.addWidget(
       link: 'noul',
 			active: 'active item'
 		}
-  })
-);
+  });
 
 
-
+search.addWidget(searchAnything);
+search.addWidget(searchResults);
+search.addWidget(clearFilters);
+search.addWidget(resultsMatching);
+search.addWidget(gridHits);
+search.addWidget(tableHits);
+search.addWidget(collectionFilter);
+search.addWidget(typeFilter);
+search.addWidget(tagsFilter);
+search.addWidget(pagesNav);
 search.start();

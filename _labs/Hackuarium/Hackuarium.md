@@ -1,8 +1,12 @@
 ---
 title: Hackuarium
 manager:
-motto: An Open Laboratory for DIY Biology (And Beyond)
+subtitle: An Open Laboratory for DIY Biology (And Beyond)
 website: http://www.hackuarium.ch/en/
+call-to-action:
+  - button: Join our Open Meetups
+    description: 'Come visit on _OpenHackuarium_ night every Wednesday, from 7:30-10:30 '
+    URL: http://wiki.hackuarium.ch/w/Main_Page
 start-date: 2014
 host-org: "[UniverCite](http://univercity.ch/)"
 address: Chemin du Closel 5

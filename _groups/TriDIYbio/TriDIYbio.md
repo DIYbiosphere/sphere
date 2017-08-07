@@ -1,7 +1,7 @@
 ---
 title: Triangle DIY Biology
 manager:
-motto: Community Citizen Science and DIYbio Group of the NC Triangle
+subtitle: Community Citizen Science and DIYbio Group of the NC Triangle
 logo:
 website: http://www.tridiybio.org/
 start-date: 2015

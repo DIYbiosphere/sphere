@@ -25,7 +25,7 @@ const INDEX_HIT_TEMPLATE = `
       <em> {{#collection}} {{collection}} {{/collection}} {{#city}} in {{ city }}, {{/city}} {{^city}} in {{/city}} {{#country}}{{ country }} {{/country}}</em>
     </div>
     <div class="description">
-      {{#motto}} {{motto}} {{/motto}}
+      {{#subtitle}} {{subtitle}} {{/subtitle}}
     </div>
   </div>
   <div class="extra content">

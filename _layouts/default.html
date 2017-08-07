@@ -22,15 +22,7 @@
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
     <script src="{{ "/semantic/dist/semantic.min.js" | prepend: site.baseUrl }}"></script>
     <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
-    {% javascript carousel %}
-    <script type="text/javascript">$('.hero .image').dimmer({on: 'hover', opacity: 0.5});</script>
-
-
-    <!-- Algolia search & components -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.0.2/dist/instantsearch.min.js"></script>
-    {% javascript instantsearch %}
-    {% javascript indexInstantsearch %}
+    <script type="text/javascript">$('.tabular.menu .item').tab();</script>
 
     <link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags16.css" />
     <script src="https://cdn.jsdelivr.net/npm/places.js@1.4.15"></script>
@@ -38,22 +30,31 @@
     <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
     <script src="https://cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
     <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
-    <!-- Initialize autocomplete menu -->
+    <script src="https://cdn.jsdelivr.net/algoliasearch.helper/2/algoliasearch.helper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/places.js@1.4.15/dist/cdn/placesAutocompleteDataset.min.js"></script>
     {% javascript autocomplete %}
 
     <!-- MAPS -->
+    {% if page.layout == 'landing' %}
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    {% javascript carousel %}
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.0.2/dist/instantsearch.min.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap"></script>
-    {% javascript map %}
-
+    {% javascript googleMap %}
+    {% javascript lastEdited_instantsearch %}
+    {% endif %}
 
 
     {% if page.layout == 'entry' %}
-      <script type="text/javascript">$('.tabular.menu .item').tab();</script>
 
     {% endif %}
 
     {% if page.layout == 'entries' %}
       <script type="text/javascript">$('.viewAs.menu .item').tab();</script>
+      <!-- Algolia search & components -->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.0.2/dist/instantsearch.min.js"></script>
+      {% javascript browse_instantsearch %}
+
     {% endif %}
 
 

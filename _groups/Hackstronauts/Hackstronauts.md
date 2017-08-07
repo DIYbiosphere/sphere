@@ -4,7 +4,7 @@ tags:
 - transhumanism
 - nootropics
 manager: 
-motto: Biohackers, Nootropics & Limitless MeetUps
+subtitle: Biohackers, Nootropics & Limitless MeetUps
 website: http://hackstronaut.com/
 start-date: 2016
 predecessor: Biohackers NYC

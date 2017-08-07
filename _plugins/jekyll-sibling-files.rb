@@ -13,6 +13,7 @@ module SiblingFiles
     			set_logo_collection(collection)
           set_header_collection(collection)
           set_thumbnail_collection(collection)
+          set_uberimage_collection(collection)
     		end
     	end # do collection
     end # generate site
@@ -69,6 +70,28 @@ module SiblingFiles
         thumbnailURLJPG = "#{collection.url}" + 'thumbnail.jpg'
         collection.data["thumbnail"] = thumbnailURLJPG
       end # if
-    end # set logo
+    end # set thumbnail
+
+    def set_uberimage_collection(collection)
+      unless collection.data['thumbnail'].nil?
+        collection.data["uberimage"] = collection.data['thumbnail']
+      else
+        unless collection.data['logo'].nil?
+          collection.data["uberimage"] = collection.data['logo']
+        else
+          unless collection.data['header'].nil?
+            collection.data["uberimage"] = collection.data['header']
+          else
+            randomNumber = rand(1..8).to_s
+            defaultImage = '/assets/img/uberimage' + randomNumber + '.png'
+            defaultImage.strip!
+            collection.data["uberimage"] = defaultImage
+          end # if
+        end # if
+      end # if
+
+
+    end # set thumbnail
+
   end # class Generator
 end # module

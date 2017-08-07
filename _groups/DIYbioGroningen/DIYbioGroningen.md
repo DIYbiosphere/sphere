@@ -1,7 +1,7 @@
 ---
 title: DIYbio Groningen
 manager:
-motto: A vribrant community of makers, hackers, and do-it-yourself biologists
+subtitle: A vribrant community of makers, hackers, and do-it-yourself biologists
 website: http://www.diybiogroningen.org/
 start-date: 2013
 host-org: "[Fablab Groningen](http://www.fablabgroningen.nl/)"

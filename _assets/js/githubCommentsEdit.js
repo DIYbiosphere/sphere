@@ -31,7 +31,7 @@ function ShowCommentsEdit(repo_name, comment_edit_id, page_id)
             if (page_id == 1)
             {
                 var url = "https://github.com/" + repo_name + "/issues/" + comment_edit_id + "#new_comment_field";
-                $("#gh-comments-edit-list").append("<form action='" + url + "' rel='nofollow'> <button class='ui small button'> Post a comment on GitHub </button></form>");
+                $("#gh-comments-edit-list").append("<div class='ui basic center aligned segment'><a class='noelink' href='" + url + "' target='_blank'> <div class='ui animated mini primary button' tabindex='0'><div class='visible content'><i class='far fa-comment'></i>&nbsp; Post a Comment</div><div class='hidden content'>on GitHub</div></div></a></div>");
             }
 
             // Individual comments
@@ -45,7 +45,7 @@ function ShowCommentsEdit(repo_name, comment_edit_id, page_id)
                 t += "<img src='" + comment.user.avatar_url + "'>";
                 t += "</a>";
                 t += "<div class='content'>";
-                t += "<a class='author' href='" + comment.user.html_url + "'>" + comment.user.login + "</a>";
+                t += "<a class='author noelink noul' href='" + comment.user.html_url + "'>" + comment.user.login + "</a>";
                 t += "<div class='metadata'>";
                 t += "<div class='date'>" + date.toUTCString() + "</div>";
                 t += "</div>"; //close metadata

@@ -1,24 +1,18 @@
 ---
 title: DIYbiosphere
-logo-URL: /entries/projects/DIYbiosphere/logo.png
-call-to-action:
-  - title: Update/Edit Entries
-    description: Help maintain DIYbiosphere
-    URL: https://www.genspace.org/classes-alt
-manager: sabgaby
+subtitle: Connecting DIYbio all over the world
 comments_issue: 2
 edit_issue: 1
 website: http://sphere.diybio.org/
-motto: Connecting DIYbio all over the world
 start-date: 2016
+hello:
+  we: hello us
+  you: hello you
 main-org:
 host-org: "[DIYbio.org](https://diybio.org/)"
 type-org: Non-profit
 affiliations: "[UNIGE](https://diybio.org/)"
 founders: Gabriela A. Sanchez
-_geoloc:
-  lat: 46.204391
-  lng: 6.143158
 city: Geneva
 country: Switzerland
 tags:

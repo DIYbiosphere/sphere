@@ -3,6 +3,8 @@ title: Software of DIYbiosphere
 permalink: "/docs/basics/software/"
 layout: docs
 crumb: basics
+comments_issue: 17
+edit_issue: 18
 summary: The technology and design behind the Software of the web platform
 ---
 

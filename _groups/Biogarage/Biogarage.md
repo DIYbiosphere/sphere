@@ -1,7 +1,7 @@
 ---
 title: Biogarage
 manager:
-motto: Das Do It Yourself Labor
+subtitle: Das Do It Yourself Labor
 website: http://biogarage.de/
 start-date: 2013
 host-org:

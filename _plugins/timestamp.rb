@@ -1,7 +1,7 @@
 # Based on nquinlan's plugin "Jekyll-gir-last-modified" on https://github.com/nquinlan/jekyll-git-last-modified
 # added support for collections(documents)
 # converts DateTime into Unix Timestamp
-
+=begin
 module LastModified
   class Generator < Jekyll::Generator
     priority :highest
@@ -28,18 +28,21 @@ module LastModified
 		entity_source = source(post_or_page)
 		last_modified = `git log -1 --format="%ad" -- "#{entity_source}"`
 		last_modified.strip!
+    dateISO = DateTime.strptime(last_modified, %a %b %d %H:%M:%S %y %z)
     require "time"
-    dateToStamp = DateTime.parse(last_modified).to_time.to_i
+    dateToStamp = Date.(dateISO).to_time.to_i
 		post_or_page.data["timestamp"] = dateToStamp
 	end
 
 	def set_last_modified_date_collection(collection)
 		last_modified = `git log -1 --format="%ad" -- "#{collection.path}"`
 		last_modified.strip!
+    dateISO = Date.strptime(last_modified, %a %b %d %H:%M:%S %y %z)
     require "time"
-    dateToStamp = DateTime.parse(last_modified).to_time.to_i
+    dateToStamp = Date.(dateISO).to_time.to_i
 		collection.data["timestamp"] = dateToStamp
 	end
 
   end
 end
+=end

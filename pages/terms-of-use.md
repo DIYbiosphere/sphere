@@ -2,6 +2,8 @@
 title: Terms of Use
 permalink: "/terms-of-use/"
 layout: page
+comments_issue: 35
+edit_issue: 36
 summary: Copyright License Terms for the project in simple english
 ---
 

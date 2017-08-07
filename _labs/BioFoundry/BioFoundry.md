@@ -1,7 +1,7 @@
 ---
 title: Bio Foundry
 manager:
-motto: Australia's first community lab for citizen scientists
+subtitle: Australia's first community lab for citizen scientists
 website: http://foundry.bio/
 start-date: 2014
 host-org:

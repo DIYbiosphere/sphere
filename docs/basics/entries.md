@@ -3,6 +3,8 @@ title: Entries in DIYbiosphere
 permalink: "/docs/basics/entries/"
 layout: docs
 crumb: basics
+comments_issue: 15
+edit_issue: 16
 summary: Components and organization of Entries
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: LifePatch
 manager:
-motto: Citizen Initiative in Art, Science and Technology
+subtitle: Citizen Initiative in Art, Science and Technology
 start-date:
 host-org:
 type-org:

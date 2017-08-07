@@ -1,7 +1,7 @@
 ---
 manager: 
 summary: 
-motto: 
+subtitle: 
 purpose: 
 website: 
 logo: 

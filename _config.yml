@@ -5,6 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "sphere.diybio.org"
 permalink: /updates/:year/:month/:day/:title
 repository: DIYbiosphere/sphere
+github_comments_repository:  diybiosphere/talk
 github_username: DIYbiosphere
 twitter:
   username: DIYbiosphere
@@ -49,7 +50,6 @@ plugins:
   - jekyll-toc #https://github.com/toshimaru/jekyll-toc/
   - jekyll-timeago
   - jekyll-giphy
-  - geocoder
 
 # Collections
 collections:
@@ -218,6 +218,10 @@ algolia:
       - status
     attributesToRetrieve:
       - title
+      - uberimage
+      - logo
+      - header
+      - thumbnail
       - collection
       - type-org
       - city
@@ -226,14 +230,18 @@ algolia:
       - tags
       - status
       - text
-      - motto
+      - subtitle
       - url
       - start-date
       - end-date
       - host-org
       - last_modified_at
       - timestamp
+      - _geoloc
+        - lat
+        - lng
     attributesToSnippet: ['text:20']
+    snippetEllipsisText: '[&hellip;]'
     attributesToHighlight: ['*']
     highlightPostTag: </span>
     highlightPreTag: <span class="search-highlight">

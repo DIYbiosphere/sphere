@@ -2,7 +2,8 @@
 title: Contact Us
 permalink: "/about/contact/"
 layout: page
-crumb: about
+comments_issue: 3
+edit_issue: 4
 ---
 
 As part of [our values] we strive to maintain our communication as public as possible.

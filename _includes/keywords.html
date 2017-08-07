@@ -4,11 +4,12 @@
 
       <div class="ui small labels">
         {% for tag in page.tags %}
-        <div class="ui label">
+        <a class="ui label noul" href="/entries/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ tag }}">
           {{ tag }}
-        </div>
+        </a>
         {% endfor %}
       </div>
+
 
   {% endif %}
 </div>

@@ -3,6 +3,8 @@ title: Design in DIYbiosphere
 permalink: "/docs/basics/design/"
 layout: docs
 crumb: basics
+comments_issue: 19
+edit_issue: 20
 summary: Explaining design choices and providing source files
 ---
 
@@ -26,4 +28,4 @@ The colors for the website are kept at a minimal. Using mainly white, grey and b
 
 
  ## Press-Kit
- Anyone in the community 
+ Anyone in the community

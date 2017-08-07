@@ -4,7 +4,7 @@ tags:
 - fablab
 - hackerspace
 manager:
-motto: Biohacking Experience in Torino
+subtitle: Biohacking Experience in Torino
 website: http://fablabtorino.org/be-in-to/
 start-date: 2014
 host-org: "[FabLab Torino](http://fablabtorino.org/)"

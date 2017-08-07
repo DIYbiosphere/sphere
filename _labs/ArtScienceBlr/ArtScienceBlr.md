@@ -3,7 +3,7 @@ title: Art Science BLR
 tags:
 - bioart
 manager:
-motto: Public Laboratory at the Srishi Intitute of Art, Design & Technology
+subtitle: Public Laboratory at the Srishi Intitute of Art, Design & Technology
 website: http://artscienceblr.org/
 start-date:
 host-org:

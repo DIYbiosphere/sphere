@@ -503,13 +503,13 @@ a.ui.inverted.purple.header:hover {
 /*--- Pink ---*/
 
 .ui.pink.header {
-  color: #FE57C6 !important;
+  color: #E03997 !important;
 }
 a.ui.pink.header:hover {
-  color: #ff3dbe !important;
+  color: #e61a8d !important;
 }
 .ui.pink.dividing.header {
-  border-bottom: 2px solid #FE57C6;
+  border-bottom: 2px solid #E03997;
 }
 
 /* Inverted */

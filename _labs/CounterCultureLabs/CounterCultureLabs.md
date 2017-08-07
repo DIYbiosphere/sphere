@@ -5,7 +5,7 @@ tags:
 - biohacking
 - bioart
 manager:
-motto: Your Biohacking and Citizen Science Lab in Oakland
+subtitle: Your Biohacking and Citizen Science Lab in Oakland
 header-image: "/entries/labs/counterculturelabs/header.jpg"
 logo: "/entries/labs/counterculturelabs/logo.png"
 website: http://counterculturelabs.org/

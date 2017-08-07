@@ -1,7 +1,7 @@
 ---
 title: Symbiolab
 manager:
-motto: Open and DIY biolaboratory
+subtitle: Open and DIY biolaboratory
 website: http://irnas.eu/symbiolab.html
 start-date: 2014
 host-org: "[IRNAS](http://irnas.eu/)"

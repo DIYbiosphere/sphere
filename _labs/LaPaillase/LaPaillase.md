@@ -1,6 +1,5 @@
 ---
 title: La Paillase
-manager:
 website: http://lapaillasse.org/
 start-date:
 host-org:

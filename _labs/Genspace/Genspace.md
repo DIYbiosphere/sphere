@@ -1,18 +1,13 @@
 ---
 title: Genspace
-manager:
-motto: New York's Community Lab
+subtitle: New York's Community Lab
 website: http://genspace.org/
 since: 2010
 call-to-action:
-  - title: Take a Class
+  - button: Take a Class
     description: Genspace instructors come from top institutions around the New York
       City area to teach advanced biology in an easy-to-understand, hands-on way.
     URL: https://www.genspace.org/classes-alt
-  - title: Join our Lab
-    description: At Genspace, anyone can work in our biolab on their own project. Receive
-      24/7 access to our facility, equipment, and basic lab training from our staff.
-    URL: https://www.genspace.org/lab-access
 type-org: Non-profit
 address: 33 Flatbush Avenue
 directions: 7th Floor. 11217
@@ -27,6 +22,8 @@ twitter: https://twitter.com/genspacenyc
 facebook: https://www.facebook.com/Genspace-174637505918889/
 meetup: https://www.meetup.com/Brooklyn-Biohackers/
 ---
+
+{{ page.geocode }} hello
 
 Genspace is a nonprofit organization dedicated to promoting citizen science and access to biotechnology in the greater New York Area
 

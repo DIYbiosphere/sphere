@@ -334,14 +334,14 @@ i.inverted.circular.purple.icon {
 
 /* Pink */
 i.pink.icon {
-  color: #FE57C6 !important;
+  color: #E03997 !important;
 }
 i.inverted.pink.icon {
   color: #FF8EDF !important;
 }
 i.inverted.bordered.pink.icon,
 i.inverted.circular.pink.icon {
-  background-color: #FE57C6 !important;
+  background-color: #E03997 !important;
   color: #FFFFFF !important;
 }
 
