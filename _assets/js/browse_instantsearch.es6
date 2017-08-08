@@ -189,12 +189,13 @@ const tagsFilter = instantsearch.widgets.refinementList({
     },
 		cssClasses: {
 			list: 'ui labels',
-			active: 'ui link basic label',
+			item: 'ui label xo marginfull pointer',
+			active: 'ui basic label',
       header: 'ui small header xo padding top'
     },
     templates: {
       header: 'TAGS<div class="ui divider"></div>',
-      item: '<a class="ui link label xo marginfull" {{value}} </a>'
+      item: '{{value}}'
     }
   });
 
