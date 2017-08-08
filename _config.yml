@@ -56,42 +56,34 @@ collections:
   projects:
     title: Projects
     output: true
-    permalink: /entries/:collection/:path
     collection: Project
   startups:
     title: Startups
     output: true
-    permalink: /entries/:collection/:path
     collection: Startup
   labs:
     title: Labs
     output: true
-    permalink: /entries/:collection/:path
     collection: Lab
   incubators:
     title: Incubators
     output: true
-    permalink: /entries/:collection/:path
     collection: Incubator
   groups:
     title: Groups
     output: true
-    permalink: /entries/:collection/:path
     collection: Group
   networks:
     title: Networks
     output: true
-    permalink: /entries/:collection/:path
     collection: Network
   events:
     title: Events
     output: true
-    permalink: /entries/:collection/:path
     collection: Event
   others:
     title: Others
     output: true
-    permalink: /entries/:collection/:path
     collection: Other
 
 # Default Values
@@ -106,42 +98,42 @@ defaults:
       type: projects
     values:
       layout: entry
-      permalink: /entries/:collection/:path
+      permalink: /entries/:collection/:name
       collection: Project
   -
     scope:
       type: startups
     values:
       layout: entry
-      permalink: /entries/:collection/:path
+      permalink: /entries/:collection/:name
       collection: Startup
   -
     scope:
       type: labs
     values:
       layout: entry
-      permalink: /entries/:collection/:path
+      permalink: /entries/:collection/:name
       collection: Lab
   -
     scope:
       type: incubators
     values:
       layout: entry
-      permalink: /entries/:collection/:path
+      permalink: /entries/:collection/:name
       collection: Incubator
   -
     scope:
       type: groups
     values:
       layout: entry
-      permalink: /entries/:collection/:path
+      permalink: /entries/:collection/:name
       collection: Group
   -
     scope:
       type: networks
     values:
       layout: entry
-      permalink: /entries/:collection/:path
+      permalink: /entries/:collection/:name
       collection: Network
   -
     scope:
@@ -155,7 +147,7 @@ defaults:
       type: others
     values:
       layout: entry
-      permalink: /entries/:collection/:path
+      permalink: /entries/:collection/:name
       collection: Other
 
   -
@@ -163,13 +155,8 @@ defaults:
       type: pages
     values:
       layout: page
-      permalink: /pages/:path
+      permalink: /pages/:name
 
-  -
-    scope:
-      type: docs
-    values:
-      layout: /docs/:path
 
 # PLUGIN CONFIGURATIONS
 
