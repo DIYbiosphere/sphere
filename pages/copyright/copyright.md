@@ -1,6 +1,6 @@
 ---
 title: Copyright
-permalink: "/docs/copyright/"
+permalink: "/copyright/"
 layout: docs
 summary: Stating and clarifying the rights of use and distribution
 ---

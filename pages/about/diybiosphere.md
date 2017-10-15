@@ -1,5 +1,6 @@
 ---
 title: The DIYbiosphere Project
+permalink: "/diybiosphere/"
 layout: page
 comments_issue: 3
 edit_issue: 4
