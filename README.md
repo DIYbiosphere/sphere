@@ -15,7 +15,7 @@
 
 We really appreciate your interest in our project and we would :heart: your contributions!
 
-> At the moment, we are working hard :sweat_smile: to develop a "Minimum Viable Product" (MVP) as they say in the _techbiz_. Please help us by contributing so we can eventually share it with early adopters! :metal:
+> At the moment, we are working hard :sweat_smile: to develop a "Minimum Viable Product" (MVP) as they say in the _techbiz_. Unfortunately we are in hiatus do to the main contributor finishing her PhD. Please help us by contributing so we can eventually share it with early adopters! :metal:
 
 ## About
 [The DIYbiosphere] is a participatory project of Do-It-Yourself Biology (DIYbio) initiatives from all over the world. The project is open for anyone to add and edit entries (writers), as well as to code, design, and shape the overall project (developers).
