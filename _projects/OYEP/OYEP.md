@@ -1,5 +1,5 @@
 ---
-title: OYEP: Open Yeast Engineering Project
+title: 'OYEP: Open Yeast Engineering Project'
 subtitle: Bringing Yeast Engineering to the Masses
 start-date: 2017
 
