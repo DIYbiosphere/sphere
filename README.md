@@ -13,7 +13,7 @@
 
 :tada: Welcome to the DIYbiophere repository :tada:
 
-We really appreciate your interest in our project and we would :heart: your contributions!
+We really appreciate your interest in our project and we would :heart: your contributions! Please contact @sabgaby if you are interested in this project
 
 > At the moment, we are working hard :sweat_smile: to develop a "Minimum Viable Product" (MVP) as they say in the _techbiz_. Unfortunately we are in hiatus do to the main contributor finishing her PhD. Please help us by contributing so we can eventually share it with early adopters! :metal:
 
