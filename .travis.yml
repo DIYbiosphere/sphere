@@ -14,23 +14,13 @@ before_install:
 
 before_script:
   - chmod +x ./script/cibuild
-  - chmod +x ./script/gh_pages_push
 
-script:
-   - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./script/cibuild; fi'
-   - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash ./script/cibuild_pull_request; fi'
-
-after_success: ./script/gh_pages_push
+script: ./script/cibuild
 
 # branch whitelist
 branches:
   only:
   - master # builds only master branches
-
-env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-  - GITHUB_REPO_BRANCH: gh-pages
 
 exclude: [vendor]
 
