@@ -12,7 +12,16 @@ twitter:
 
 
 # Excluded files and dirs
-exclude: ['vendor', 'script', 'Gemfile', 'Gemfile.lock', 'README.md', 'DataReusePlan.txt', '.assets-cache', '.sass-cache', 'node_modules']
+exclude:
+  - vendor
+  - script
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - DataReusePlan.txt
+  - .assets-cache
+  - .sass-cache
+  - node_modules
 
 github_comments_repository:  diybiosphere/talk
 
@@ -27,12 +36,13 @@ kramdown:
   hard_wrap: false
 
 # Where things are
-source:       .
-destination:  ./_site
-plugins_dir:  ./_plugins
-layouts_dir:  ./_layouts
-data_dir:     ./_data
-includes_dir: ./_includes
+source:       src
+destination:  public
+plugins_dir:  _plugins
+layouts_dir:  _layouts
+data_dir:     _data
+includes_dir: _includes
+# collections_dir: entries # for Jekyll 3.7.0
 
 plugins:
   - jemoji
@@ -42,12 +52,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-mentions
   - jekyll-github-metadata
-  - jekyll-git_metadata
   - algoliasearch-jekyll
   - jekyll-last-modified-at
   - jekyll-feed
   - jekyll-avatar
-  - jekyll-toc #https://github.com/toshimaru/jekyll-toc/
+  - jekyll-toc # https://github.com/toshimaru/jekyll-toc/
   - jekyll-timeago
   - jekyll-giphy
 
@@ -180,6 +189,7 @@ assets:
     - _assets/js
     - _assets/css
     - _assets/gif
+    - _assets/semantic
 
 # Jekyll-Tagging: https://github.com/pattex/jekyll-tagging/
 tag_page_layout: tag_page
