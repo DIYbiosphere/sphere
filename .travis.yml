@@ -1,3 +1,9 @@
+# In Travis extablish the following environment variables
+# DEPLOY_TOKEN
+# GITHUB_REPO
+# EMAIL
+# USERNAME
+
 language: ruby
 rvm:
 - 2.3.1
@@ -24,6 +30,7 @@ branches:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+  - GITHUB_REPO_BRANCH: gh-pages
 
 exclude: [vendor]
 
