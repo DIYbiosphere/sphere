@@ -1,7 +1,16 @@
 #!/bin/bash
 set -e # halt script on error
 
+# cleanup "_site"
+rm -rf _site
+mkdir _site
+
+
+# clone remote repo to "_site"
+git clone https://${DEPLOY_TOKEN}@${GITHUB_REPO} --branch gh-pages _site
+
+
 bundle exec jekyll algolia push
 bundle exec jekyll build
 #JEKYLL_ENV=production bundle exec jekyll build
-# bundle exec htmlproofer ./_site --disable-external --allow-hash-href 
+# bundle exec htmlproofer ./_site --disable-external --allow-hash-href
