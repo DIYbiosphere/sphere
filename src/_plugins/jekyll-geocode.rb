@@ -1,3 +1,4 @@
+=begin
 require 'rubygems'
 require 'geokit'
 
@@ -60,3 +61,4 @@ module GeoCode
     end # generate site
   end # class Generator
 end # module
+=end

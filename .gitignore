@@ -6,3 +6,4 @@ public
 .vscode
 Gemfile.lock
 node_modules/
+src/assets/js/bundle.js

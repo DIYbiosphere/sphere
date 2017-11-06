@@ -22,6 +22,9 @@ exclude:
   - .assets-cache
   - .sass-cache
   - node_modules
+  - webpack
+  - Rakefile
+  - .jekyll-metadata
 
 github_comments_repository:  diybiosphere/talk
 
@@ -59,6 +62,7 @@ plugins:
   - jekyll-toc # https://github.com/toshimaru/jekyll-toc/
   - jekyll-timeago
   - jekyll-giphy
+  - searchyll # https://github.com/omc/searchyll
 
 # Collections
 collections:
@@ -184,12 +188,12 @@ assets:
     - "*.jpg"
     - "*.svg"
   sources:
-    - _assets
-    - _assets/img
-    - _assets/js
-    - _assets/css
-    - _assets/gif
-    - _assets/semantic
+    - assets
+    - assets/img
+    - assets/js
+    - assets/css
+    - assets/gif
+    - assets/semantic
 
 # Jekyll-Tagging: https://github.com/pattex/jekyll-tagging/
 tag_page_layout: tag_page
@@ -257,3 +261,14 @@ algolia:
     highlightPreTag: <span class="search-highlight">
     minWordSizefor1Typo: 3
     minWordSizefor2Typos: 7
+
+    # Elastic search searchyll
+
+elasticsearch:
+  url: "http://localhost:9200/" # Required. Supports auth and SSL: https://user:pass@someurl.com
+                                # Can also read URLs stored in environment variable named
+                                # BONSAI_URL and ELASTICSEARCH_URL.
+  number_of_shards: 1           # Optional. Default is 1 primary shard.
+  number_of_replicas: 1         # Optional. Default is 1 replica.
+  index_name: "jekyll"          # Optional. Default is "jekyll".
+  default_type: "post"          # Optional. Default type is "post".
