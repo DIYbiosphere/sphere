@@ -2,7 +2,7 @@
   "name": "sphere",
   "version": "1.0.0",
   "description": "participatory project to collect diybio initiatives from all over the world",
-  "main": "bundle.js",
+  "main": "src/assets/js/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
