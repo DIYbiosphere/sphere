@@ -1,7 +1,7 @@
 ---
 title: BosLab
 manager:
-website: http://bosslab.org/
+website: http://boslab.org/
 start-date: 2014
 host-org:
 type-org: Non-profit
