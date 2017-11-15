@@ -1,0 +1,45 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@invertedItemTextColor: @invertedMutedTextColor ;
+@invertedtextMenuHeaderColor: @white;
+
+
+/*--------------
+     States
+---------------*/
+
+/* Hovered Item */
+@hoverItemBackground: @subtleTransparentBlack;
+@hoverItemTextColor: @selectedTextColor;
+
+/* Pressed Item */
+@pressedItemBackground: @subtleTransparentBlack;
+@pressedItemTextColor: @hoverItemTextColor;
+
+
+/* Active Item */
+@activeItemBackground: @transparentBlack;
+@activeItemTextColor: @selectedTextColor;
+@activeItemFontWeight: normal;
+@activeIconOpacity: 1;
+@activeItemBoxShadow: none;
+
+/* Active Hovered Item */
+@activeHoverItemBackground: @transparentBlack;
+@activeHoverItemColor: @selectedTextColor;
+
+/* Selected Dropdown */
+@dropdownSelectedItemBackground: @transparentBlack;
+@dropdownSelectedItemColor: @selectedTextColor;
+
+/* Active Dropdown */
+@dropdownActiveItemBackground: @subtleTransparentBlack;
+@dropdownActiveItemColor: @selectedTextColor;
+@dropdownActiveItemFontWeight: bold;
+
+/* Active Sub Menu */
+@subMenuActiveBackground: transparent;
+@subMenuActiveTextColor: @activeItemTextColor;
+@subMenuActiveFontWeight: bold;

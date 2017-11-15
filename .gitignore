@@ -1,11 +1,7 @@
 _site
-public
 .sass-cache
 .asset-cache
 .jekyll-metadata
 .vscode
 Gemfile.lock
 node_modules/
-src/assets/js/bundle.js
-npm-debug.log
-gatekeeper

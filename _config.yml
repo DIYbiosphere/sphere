@@ -4,31 +4,17 @@ description: "A collaborative library of Do-it-Yourself Biology initiatives"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "sphere.diybio.org"
 permalink: /updates/:year/:month/:day/:title
-repository: diybiosphere/sphere
+repository: DIYbiosphere/sphere
 github_comments_repository:  diybiosphere/talk
 github_username: DIYbiosphere
 twitter:
   username: DIYbiosphere
 
-# Authentication
-github_client_id: 4f43d50af7e0b6d28d01
-gatekeeper_host: https://sphere-gateway.herokuapp.com
 
 # Excluded files and dirs
-exclude:
-  - vendor
-  - script
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - DataReusePlan.txt
-  - .assets-cache
-  - .sass-cache
-  - node_modules
-  - webpack
-  - Rakefile
-  - .jekyll-metadata
+exclude: ['vendor', 'script', 'Gemfile', 'Gemfile.lock', 'README.md', 'DataReusePlan.txt', '.assets-cache', '.sass-cache', 'node_modules']
 
+github_comments_repository:  diybiosphere/talk
 
 # Build settings
 markdown: kramdown
@@ -41,13 +27,12 @@ kramdown:
   hard_wrap: false
 
 # Where things are
-source:       src
-destination:  public
-plugins_dir:  _plugins
-layouts_dir:  _layouts
-data_dir:     _data
-includes_dir: _includes
-# collections_dir: entries # for Jekyll 3.7.0
+source:       .
+destination:  ./_site
+plugins_dir:  ./_plugins
+layouts_dir:  ./_layouts
+data_dir:     ./_data
+includes_dir: ./_includes
 
 plugins:
   - jemoji
@@ -57,11 +42,12 @@ plugins:
   - jekyll-seo-tag
   - jekyll-mentions
   - jekyll-github-metadata
+  - jekyll-git_metadata
   - algoliasearch-jekyll
   - jekyll-last-modified-at
   - jekyll-feed
   - jekyll-avatar
-  - jekyll-toc # https://github.com/toshimaru/jekyll-toc/
+  - jekyll-toc #https://github.com/toshimaru/jekyll-toc/
   - jekyll-timeago
   - jekyll-giphy
 
@@ -112,48 +98,56 @@ defaults:
       type: projects
     values:
       layout: entry
+      permalink: /entries/:collection/:name
       collection: Project
   -
     scope:
       type: startups
     values:
       layout: entry
+      permalink: /entries/:collection/:name
       collection: Startup
   -
     scope:
       type: labs
     values:
       layout: entry
+      permalink: /entries/:collection/:name
       collection: Lab
   -
     scope:
       type: incubators
     values:
       layout: entry
+      permalink: /entries/:collection/:name
       collection: Incubator
   -
     scope:
       type: groups
     values:
       layout: entry
+      permalink: /entries/:collection/:name
       collection: Group
   -
     scope:
       type: networks
     values:
       layout: entry
+      permalink: /entries/:collection/:name
       collection: Network
   -
     scope:
       type: events
     values:
       layout: entry
+      permalink: /entries/:collection/:name
       collection: Event
   -
     scope:
       type: others
     values:
       layout: entry
+      permalink: /entries/:collection/:name
       collection: Other
 
   -
@@ -161,6 +155,7 @@ defaults:
       type: pages
     values:
       layout: page
+      permalink: /pages/:name
 
 
 # PLUGIN CONFIGURATIONS
@@ -180,12 +175,11 @@ assets:
     - "*.jpg"
     - "*.svg"
   sources:
-    - assets
-    - assets/img
-    - assets/js
-    - assets/css
-    - assets/gif
-    - assets/semantic
+    - _assets
+    - _assets/img
+    - _assets/js
+    - _assets/css
+    - _assets/gif
 
 # Jekyll-Tagging: https://github.com/pattex/jekyll-tagging/
 tag_page_layout: tag_page
@@ -219,8 +213,8 @@ algolia:
       - type-org
       - city
       - state
-      - searchable(country)
-      - searchable(tags)
+      - country
+      - tags
       - status
     attributesToRetrieve:
       - title
@@ -243,14 +237,6 @@ algolia:
       - host-org
       - last_modified_at
       - timestamp
-      - lab
-      - group
-      - startup
-      - incubator
-      - event
-      - other
-      - project
-      - network
       - _geoloc
         - lat
         - lng

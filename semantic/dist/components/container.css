@@ -1,0 +1,147 @@
+/*!
+ * # Semantic UI 2.2.9 - Container
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+/*******************************
+            Container
+*******************************/
+
+
+/* All Sizes */
+.ui.container {
+  display: block;
+  max-width: 100% !important;
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .ui.container {
+    width: auto !important;
+    margin-left: 1em !important;
+    margin-right: 1em !important;
+  }
+  .ui.grid.container {
+    width: auto !important;
+  }
+  .ui.relaxed.grid.container {
+    width: auto !important;
+  }
+  .ui.very.relaxed.grid.container {
+    width: auto !important;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ui.container {
+    width: 721px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .ui.grid.container {
+    width: calc( 721px  +  2rem ) !important;
+  }
+  .ui.relaxed.grid.container {
+    width: calc( 721px  +  3rem ) !important;
+  }
+  .ui.very.relaxed.grid.container {
+    width: calc( 721px  +  5rem ) !important;
+  }
+}
+
+/* Small Monitor */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .ui.container {
+    width: 930px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .ui.grid.container {
+    width: calc( 930px  +  2rem ) !important;
+  }
+  .ui.relaxed.grid.container {
+    width: calc( 930px  +  3rem ) !important;
+  }
+  .ui.very.relaxed.grid.container {
+    width: calc( 930px  +  5rem ) !important;
+  }
+}
+
+/* Large Monitor */
+@media only screen and (min-width: 1200px) {
+  .ui.container {
+    width: 1123px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .ui.grid.container {
+    width: calc( 1123px  +  2rem ) !important;
+  }
+  .ui.relaxed.grid.container {
+    width: calc( 1123px  +  3rem ) !important;
+  }
+  .ui.very.relaxed.grid.container {
+    width: calc( 1123px  +  5rem ) !important;
+  }
+}
+
+
+/*******************************
+             Types
+*******************************/
+
+
+/* Text Container */
+.ui.text.container {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  max-width: 700px !important;
+  line-height: 1.5;
+}
+.ui.text.container {
+  font-size: 1.13333333rem;
+}
+
+/* Fluid */
+.ui.fluid.container {
+  width: 100%;
+}
+
+
+/*******************************
+           Variations
+*******************************/
+
+.ui[class*="left aligned"].container {
+  text-align: left;
+}
+.ui[class*="center aligned"].container {
+  text-align: center;
+}
+.ui[class*="right aligned"].container {
+  text-align: right;
+}
+.ui.justified.container {
+  text-align: justify;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
+
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+
+
+/*******************************
+         Site Overrides
+*******************************/
+

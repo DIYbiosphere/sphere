@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+      <main class="xo margin top fivefold">
+        <div class="xo padding top">
+          {{content}}
+        </div>
+      </main>
+
+  {% include footer.html %}
+
+
+    <!-- Google Analytics -->
+    <script src="https://www.google.com/jsapi"></script>
+
+    <!-- JQuery & Semantic UI -->
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
+    <script src="{{ "/semantic/dist/semantic.min.js" | prepend: site.baseUrl }}"></script>
+    <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
+    <script type="text/javascript">$('.tabular.menu .item').tab();</script>
+
+    <link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags16.css" />
+    <script src="https://cdn.jsdelivr.net/npm/places.js@1.4.15"></script>
+    <!-- Include AlgoliaSearch JS Client and autocomplete.js library -->
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/algoliasearch.helper/2/algoliasearch.helper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/places.js@1.4.15/dist/cdn/placesAutocompleteDataset.min.js"></script>
+    {% javascript autocomplete %}
+
+    <!-- MAPS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    {% javascript carousel %}
+    {% if page.layout == 'landing' %}
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.0.2/dist/instantsearch.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap"></script>
+    {% javascript googleMap %}
+    {% javascript lastEdited_instantsearch %}
+    {% endif %}
+
+
+    {% if page.layout == 'entry' %}
+
+    {% endif %}
+
+    {% if page.layout == 'entries' %}
+      <script type="text/javascript">$('.viewAs.menu .item').tab();</script>
+      <!-- Algolia search & components -->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.0.2/dist/instantsearch.min.js"></script>
+      {% javascript browse_instantsearch %}
+
+    {% endif %}
+
+
+    {% if page.layout == 'docs' %}
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+      <script type="text/javascript">$('.menu .item').tab();</script>
+      <script type="text/javascript">$('.tabular.menu .item').tab();</script>
+      <script type="text/javascript">$('.ui.accordion').accordion({onOpen: function (item) {setCookie('acordionIndex',this.index);}}).accordion('open', getCookie('acordionIndex'));</script>
+      {% javascript docs %}
+    {% endif %}
+
+
+  </body>
+
+</html>
