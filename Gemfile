@@ -9,8 +9,6 @@ gem 'sprockets-es6'
 gem 'html-proofer'
 gem 'json'
 gem 'geokit'
-gem 'searchyll'
-
 
 
 group :jekyll_plugins do

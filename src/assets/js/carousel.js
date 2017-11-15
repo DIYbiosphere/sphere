@@ -1,8 +1,23 @@
 $(document).ready(function() {
 $('.owl-carousel').owlCarousel({
     center: true,
+    items: 2,
     loop:true,
     margin:0,
+    nav:false,
+    dots:false,
+    autoplay:true,
+    responsive:{
+        0:{
+            items:1,
+        },
+        600:{
+            items:1,
+        },
+        1000:{
+            items:2,
+        }
+    }
 });
 
     var owl = $('.owl-carousel');

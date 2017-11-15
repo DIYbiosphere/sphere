@@ -22,7 +22,7 @@ margin: -110px 0 0; /* negative fixed header height */
    -webkit-flex-wrap: wrap;
    -ms-flex-wrap: wrap;
    flex-wrap: wrap;
-   height: 400px;
+   height: 500px;
 }
 
 .owl-item{
@@ -117,12 +117,12 @@ code {
 footer {
 
   .border-footer {
-    border-top: 5px solid yellow;
+    border-top: 3px solid $grey;
   }
 }
 
 .search-highlight {
-  background-color: yellow;
+  background-color: $lightBlue;
 }
 /**
 *  This keeps hash tag links visible,

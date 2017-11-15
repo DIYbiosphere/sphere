@@ -1,8 +1,13 @@
 # In Travis extablish the following environment variables
+# ALGOLIA_API_KEY
+# ALGOLIA_APPLICATION_ID
+# ALGOLIA_INDEX_NAME
 # DEPLOY_TOKEN
 # GITHUB_REPO
 # EMAIL
 # USERNAME
+# GH_BASIC_CLIENT_ID
+# GH_BASIC_SECRET_ID
 
 language: ruby
 rvm:

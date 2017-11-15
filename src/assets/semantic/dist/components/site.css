@@ -124,15 +124,15 @@ a:hover {
 
 /* Site */
 ::-webkit-selection {
-  background-color: #FFF04A;
+  background-color: #CCE2FF;
   color: rgba(0, 0, 0, 0.87);
 }
 ::-moz-selection {
-  background-color: #FFF04A;
+  background-color: #CCE2FF;
   color: rgba(0, 0, 0, 0.87);
 }
 ::selection {
-  background-color: #FFF04A;
+  background-color: #CCE2FF;
   color: rgba(0, 0, 0, 0.87);
 }
 

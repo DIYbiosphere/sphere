@@ -1,4 +1,5 @@
 <head>
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,7 +30,6 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css" />
   {% if page.layout == 'landing' %}
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.0.2/dist/instantsearch.min.css">
   {% endif %}
 
 
@@ -39,7 +39,6 @@
 
   <!-- Algolia InstantSearch -->
   {% if page.layout == 'entries' %}
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.0.2/dist/instantsearch.min.css">
   {% endif %}
 
   <!-- Algolia DocSearch -->
@@ -57,5 +56,14 @@
     ga('create', 'UA-78642734-1', 'auto');
     ga('send', 'pageview');
   </script>
+
+  <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>DIYbiosphere</ShortName>
+  <Description>Open source project to collect DIYbio initiative</Description>
+  <Url type="text/html" method="get" template="http://sphere.diybio.org?q={searchTerms}"/>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image height="32" width="32"type="image/png">/assets/img/diybiosphere-icon.png</Image>
+  <link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="DIYbiosphere">
+</OpenSearchDescription>
 
 </head>

@@ -9,7 +9,7 @@ var hitTemplate = Hogan.compile (`
     <h4 class="ui header">
       {{{ _highlightResult.title.value }}}
       <div class="sub header">
-         <span><em> {{#collection}} {{collection}} {{/collection}} {{#city}} in {{{ _highlightResult.city.value }}}, {{/city}} {{^city}} in {{/city}} {{#country}}{{ country }} {{/country}}</em></span>
+         <span><em> {{#collection}} {{collection}} {{/collection}} {{#city}} in {{{ _highlightResult.city.value }}}, {{/city}} {{^city}} in {{/city}} {{#country}}{{ _highlightResult.country.value }} {{/country}}</em></span>
       </div>
     </h4>
   </div>

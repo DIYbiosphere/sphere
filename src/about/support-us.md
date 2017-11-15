@@ -1,7 +1,5 @@
 ---
 title: Support Us
-permalink: "/support-us/"
-layout: page
 crumb: none
 ---
 

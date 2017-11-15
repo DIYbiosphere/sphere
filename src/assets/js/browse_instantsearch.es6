@@ -13,7 +13,7 @@ const searchAnything = instantsearch.widgets.searchBox({
     reset: false,
     poweredBy: false,
     magnifier: false,
-    placeholder: 'Global Search for (almost) Anything',
+    placeholder: 'Global search for (almost) anything in the entries',
 		cssClasses: {
 			root: 'ui input'
 		}
@@ -26,7 +26,7 @@ const searchAnything = instantsearch.widgets.searchBox({
       body: 'ui medium header',
     },
     templates: {
-      body: '{{nbHits}} entries'
+      body: '{{nbHits}} total entries found'
     }
   });
 
@@ -35,7 +35,7 @@ const clearFilters = instantsearch.widgets.clearAll({
 		autoHideContainer: true,
     clearsQuery: true,
 		templates: {
-			link: '<button style="float:right;" class="ui right floated tiny basic red button">Clear All</button>'
+			link: '<button class="ui tiny basic red button">Reset filters</button>'
 		},
 	});
 
@@ -130,74 +130,75 @@ const tableHits = instantsearch.widgets.hits({
 	});
 
 
-const collectionFilter = instantsearch.widgets.refinementList({
-    container: '#collection',
-    attributeName: 'collection',
-    operator: 'or',
-    limit: 10,
-    cssClasses: {
-			item: 'link item',
-			active: 'active item',
-      header: 'ui small header'
-    },
-    templates: {
-      header: 'COLLECTIONS<div class="ui divider"></div>',
-      item: '<div class="ui comments">' +
-        '<div class="comment">' +
-          '<div class="content">' +
-            '<a href="" class="noul">{{value}}</a>' +
-            '<div class="metadata">' +
-              '<div class="date">{{count}}</div>' +
+  const collectionFilter = instantsearch.widgets.refinementList({
+      container: '#collection',
+      attributeName: 'collection',
+      operator: 'or',
+      limit: 10,
+      cssClasses: {
+  			item: 'link item',
+  			active: 'active item',
+        header: 'ui small header'
+      },
+      templates: {
+        header: 'Collections',
+        item: '<div class="ui comments">' +
+          '<div class="comment">' +
+            '<div class="content">' +
+              '<a href="" class="noul">{{value}}</a>' +
+              '<div class="metadata">' +
+                '<div> : {{count}}</div>' +
+              '</div>' +
             '</div>' +
           '</div>' +
-        '</div>' +
-      '</div>'},
-  });
+        '</div>'},
+    });
 
-const typeFilter = instantsearch.widgets.refinementList({
-    container: '#type-org',
-    attributeName: 'type-org',
-    operator: 'or',
-    limit: 10,
-    cssClasses: {
-			item: 'link item',
-			active: 'active item',
-      header: 'ui small header xo padding top'
-    },
-    templates: {
-      header: 'TYPE<div class="ui divider"></div>',
-      item: '<div class="ui comments">' +
-        '<div class="comment">' +
-          '<div class="content">' +
-            '<a href="" class="noul">{{value}}</a>' +
-            '<div class="metadata">' +
-              '<div class="date">{{count}}</div>' +
+  const typeFilter = instantsearch.widgets.refinementList({
+      container: '#type-org',
+      attributeName: 'type-org',
+      operator: 'or',
+      limit: 10,
+      cssClasses: {
+  			item: 'link item',
+  			active: 'active item',
+        header: 'ui small header'
+      },
+      templates: {
+        header: 'Type of Organization',
+        item: '<div class="ui comments">' +
+          '<div class="comment">' +
+            '<div class="content">' +
+              '<a href="" class="noul">{{value}}</a>' +
+              '<div class="metadata">' +
+                '<div> : {{count}}</div>' +
+              '</div>' +
             '</div>' +
           '</div>' +
-        '</div>' +
-      '</div>'},
-  });
+        '</div>'},
+    });
 
 
-const tagsFilter = instantsearch.widgets.refinementList({
-    container: '#tags',
-    attributeName: 'tags',
-		operator: 'or',
-		limit: 10,
-    showMore: {
+  const tagsFilter = instantsearch.widgets.refinementList({
+      container: '#tags',
+      attributeName: 'tags',
+  		operator: 'or',
+  		limit: 8,
+      showMore: {
 
-    },
-		cssClasses: {
-			list: 'ui labels',
-			item: 'ui label xo marginfull pointer',
-			active: 'ui basic label',
-      header: 'ui small header xo padding top'
-    },
-    templates: {
-      header: 'TAGS<div class="ui divider"></div>',
-      item: '{{value}}'
-    }
-  });
+      },
+  		cssClasses: {
+  			list: 'ui labels',
+  			item: 'ui label basic blue',
+  			active: 'ui grey label',
+        header: 'ui small header'
+      },
+      templates: {
+        header: 'Tags',
+        item: '{{value}} : {{count}}',
+      }
+    });
+
 
 const pagesNav = instantsearch.widgets.pagination({
     container: '#pagination-container',

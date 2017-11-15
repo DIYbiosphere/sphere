@@ -12,7 +12,6 @@ module SiblingImages
     		if(doc.respond_to? :data)
           docDir = "#{doc.relative_path}"
           docName = "#{doc.basename}"
-          rawSrc = 'https://raw.githubusercontent.com/DIYbiosphere/sphere/master/'
           # For Logos
             logoPath = docDir.sub(docName, 'logo').strip
 
@@ -22,13 +21,15 @@ module SiblingImages
             logoPathJPG = logoPath + '.jpg'
             logoPathJPG.strip!
 
-            if File.exist?(logoPathPNG)
-        		  doc.data["logo"] = rawSrc + logoPathPNG
+
+            if File.exist?('src/'+ logoPathPNG)
+        		  doc.data["logo"] = '/'+ logoPathPNG.delete('_')
             end # if
 
-            if File.exist?(logoPathJPG)
-              doc.data["logo"] = rawSrc + logoPathJPG
+            if File.exist?('src/'+ logoPathJPG)
+              doc.data["logo"] = '/'+ logoPathJPG.delete('_')
             end # if
+
 
             # For Header
             headerPath = docDir.sub(docName, 'header').strip
@@ -40,12 +41,12 @@ module SiblingImages
             headerPathJPG = headerPath + '.jpg'
             headerPathJPG.strip!
 
-            if File.exist?(headerPathPNG)
-              doc.data["header"] = rawSrc + headerPathPNG
+            if File.exist?('src/'+ headerPathPNG)
+              doc.data["header"] = '/'+ headerPathPNG.delete('_')
             end # if
 
-            if File.exist?(headerPathJPG)
-              doc.data["header"] = rawSrc + headerPathJPG
+            if File.exist?('src/'+ headerPathJPG)
+              doc.data["header"] = '/'+ headerPathJPG.delete('_')
             end # if
 
             # For Thumbnail
@@ -57,12 +58,12 @@ module SiblingImages
             thumbnailPathJPG = thumbnailPath + '.jpg'
             thumbnailPathJPG.strip!
 
-            if File.exist?(thumbnailPathPNG)
-              doc.data["thumbnail"] = rawSrc + thumbnailPathPNG
+            if File.exist?('src/'+ thumbnailPathPNG)
+              doc.data["thumbnail"] = '/'+ thumbnailPathPNG.delete('_')
             end # if
 
-            if File.exist?(headerPathJPG)
-              doc.data["thumbnail"] = rawSrc + thumbnailPathJPG
+            if File.exist?('src/'+ headerPathJPG)
+              doc.data["thumbnail"] = '/'+ thumbnailPathJPG.delete('_')
             end # if
 
             unless doc.data['thumbnail'].nil?

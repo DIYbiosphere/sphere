@@ -6,7 +6,7 @@
   <body>
 
     {% include header.html %}
-      <main class="xo margin top fivefold">
+      <main class="xo margin top threefold">
         <div class="xo padding top">
           {{content}}
         </div>
@@ -21,6 +21,7 @@
     <!-- JQuery & Semantic UI -->
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
     <script src="{{ "/assets/semantic/dist/semantic.min.js" | prepend: site.baseUrl }}"></script>
+    {% javascript bundle %}
     <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
     <script type="text/javascript">$('.tabular.menu .item').tab();</script>
 

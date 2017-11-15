@@ -1,4 +1,4 @@
-<div class="ui secondary pointing mini tabular menu">
+<div class="ui secondary pointing mini tabular grey menu">
   <a class="active item" data-tab="overview">Main</a>
 
   {% for project in site.projects %}
@@ -16,9 +16,9 @@
     {% endif %}
   {% endfor %}
 
-  <div class="right tabular menu">
+  <div class="right menu">
       <a class="ui item">
-        <a class="item" data-tab="issues"><i class="far fa-edit icon"></i>&nbsp;Last edit {% last_modified_at %} </a>
+        <a class="grey item" data-tab="issues"><i class="far fa-edit icon"></i>&nbsp;Last edit {% last_modified_at %} </a>
       </a>
   </div>
-  </div>
+</div>

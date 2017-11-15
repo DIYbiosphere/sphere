@@ -4,12 +4,15 @@ description: "A collaborative library of Do-it-Yourself Biology initiatives"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "sphere.diybio.org"
 permalink: /updates/:year/:month/:day/:title
-repository: DIYbiosphere/sphere
+repository: diybiosphere/sphere
 github_comments_repository:  diybiosphere/talk
 github_username: DIYbiosphere
 twitter:
   username: DIYbiosphere
 
+# Authentication
+github_client_id: 4f43d50af7e0b6d28d01
+gatekeeper_host: https://sphere-gateway.herokuapp.com
 
 # Excluded files and dirs
 exclude:
@@ -26,7 +29,6 @@ exclude:
   - Rakefile
   - .jekyll-metadata
 
-github_comments_repository:  diybiosphere/talk
 
 # Build settings
 markdown: kramdown
@@ -62,7 +64,6 @@ plugins:
   - jekyll-toc # https://github.com/toshimaru/jekyll-toc/
   - jekyll-timeago
   - jekyll-giphy
-  - searchyll # https://github.com/omc/searchyll
 
 # Collections
 collections:
@@ -111,56 +112,48 @@ defaults:
       type: projects
     values:
       layout: entry
-      permalink: /entries/:collection/:name
       collection: Project
   -
     scope:
       type: startups
     values:
       layout: entry
-      permalink: /entries/:collection/:name
       collection: Startup
   -
     scope:
       type: labs
     values:
       layout: entry
-      permalink: /entries/:collection/:name
       collection: Lab
   -
     scope:
       type: incubators
     values:
       layout: entry
-      permalink: /entries/:collection/:name
       collection: Incubator
   -
     scope:
       type: groups
     values:
       layout: entry
-      permalink: /entries/:collection/:name
       collection: Group
   -
     scope:
       type: networks
     values:
       layout: entry
-      permalink: /entries/:collection/:name
       collection: Network
   -
     scope:
       type: events
     values:
       layout: entry
-      permalink: /entries/:collection/:name
       collection: Event
   -
     scope:
       type: others
     values:
       layout: entry
-      permalink: /entries/:collection/:name
       collection: Other
 
   -
@@ -168,7 +161,6 @@ defaults:
       type: pages
     values:
       layout: page
-      permalink: /pages/:name
 
 
 # PLUGIN CONFIGURATIONS
@@ -227,8 +219,8 @@ algolia:
       - type-org
       - city
       - state
-      - country
-      - tags
+      - searchable(country)
+      - searchable(tags)
       - status
     attributesToRetrieve:
       - title
@@ -251,6 +243,14 @@ algolia:
       - host-org
       - last_modified_at
       - timestamp
+      - lab
+      - group
+      - startup
+      - incubator
+      - event
+      - other
+      - project
+      - network
       - _geoloc
         - lat
         - lng
@@ -261,14 +261,3 @@ algolia:
     highlightPreTag: <span class="search-highlight">
     minWordSizefor1Typo: 3
     minWordSizefor2Typos: 7
-
-    # Elastic search searchyll
-
-elasticsearch:
-  url: "http://localhost:9200/" # Required. Supports auth and SSL: https://user:pass@someurl.com
-                                # Can also read URLs stored in environment variable named
-                                # BONSAI_URL and ELASTICSEARCH_URL.
-  number_of_shards: 1           # Optional. Default is 1 primary shard.
-  number_of_replicas: 1         # Optional. Default is 1 replica.
-  index_name: "jekyll"          # Optional. Default is "jekyll".
-  default_type: "post"          # Optional. Default type is "post".

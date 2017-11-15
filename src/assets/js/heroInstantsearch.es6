@@ -5,7 +5,7 @@ const search = instantsearch({
   urlSync: true,
   searchParameters: {
     facetingAfterDistinct: true,
-    hitsPerPage: 4
+    hitsPerPage: 1
   }
 });
 
