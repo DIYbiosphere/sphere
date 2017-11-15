@@ -2,12 +2,12 @@
 set -e # halt script on error
 
 # cleanup "_site"
-rm -rf public
-mkdir public
+rm -rf _site
+mkdir _site
 
 
 # clone remote repo to "_site"
-git clone https://${DEPLOY_TOKEN}@${GITHUB_REPO} --branch gh-pages public
+git clone https://${DEPLOY_TOKEN}@${GITHUB_REPO} --branch gh-pages _site
 
 
 bundle exec jekyll algolia push
@@ -16,7 +16,7 @@ bundle exec jekyll build
 # bundle exec htmlproofer ./_site --disable-external --allow-hash-href
 
 # push
-cd public
+cd _site
 git config user.email ${EMAIL}
 git config user.name ${USERNAME}
 git add --all

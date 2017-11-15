@@ -6,7 +6,7 @@ SUBJECT: open-source, open data, software, database, Do-it-Yourself Biology, DIY
 
 /* WHO */
 DATA COLLECTORS: DIYbiosphere contributors
-FUNDING: University of Geneva
+FUNDING: CitizenSciences.net at University of Geneva
 COLLABORATORS: DIYbio.org
 CONTACT: @sabgaby in GitHub and Twitter
 
@@ -19,4 +19,4 @@ RELEASE DATE: 2017-05-13
 
 /* HOW */
 DATA COLLECTION: by DIYbiosphere contributors
-FILE FORMAT: text file with markdown syntax
+FILE FORMAT: text file format with markdown syntax. Data can be aggregated into CSV tables
