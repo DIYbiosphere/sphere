@@ -16,7 +16,7 @@ bundle exec jekyll build
 # bundle exec htmlproofer ./_site --disable-external --allow-hash-href
 
 # push
-cd _site
+cd public
 git config user.email ${EMAIL}
 git config user.name ${USERNAME}
 git add --all
