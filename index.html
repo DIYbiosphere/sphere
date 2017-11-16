@@ -5,16 +5,21 @@ layout: landing
 
 <!-- google maps API AIzaSyAgB5AWTL7CZagEdJp-WbeHvCDgRPaFidc -->
 
+
+<!-- LANDING CAROUSEL -->
 <div class="owl-carousel">
   <!-- main image -->
   <div class="ui image">
-    <div class="ui active dimmer">
-      <div class="content">
+    <div class="ui active inverted dimmer">
+      <div class="content" style="height: 500px;">
         <div class="center">
-          <div class="ui basic segment">
-          <div class="ui inverted huge header">The DIYbiosphere</div>
-          <div class="ui inverted medium header">Connecting DIYbio all over the world. <br> Search for, browse or add your own initiative!</div>
-          <a href="/support-us/"><button class="ui inverted big button">LEARN MORE</button></a>
+          <div class="ui basic fluid blurring segment">
+          <h1 class="ui  header"><div class="ui huge inverted header">DIYbiosphere</div></h1>
+          <div class="ui huge inverted header">An open source project to collect DIYbio initiatives from all over the world. <br> Search, browse, update, or add an initiative!</div>
+          <div class="ui medium inverted header">
+            To contribute all you need is a <a href="https://www.google.ch/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwig3Zb8wMTVAhUPmbQKHU31DbwQFggoMAA&url=https%3A%2F%2Fgithub.com%2Fjoin&usg=AFQjCNF6nezHQWX1hKwEFQVYRrUheS9_Ig">GitHub account!</a>
+          </div>
+          <a href="/about/diybiosphere/"><button class="ui inverted big button">LEARN MORE</button></a>
           </div>
         </div>
       </div>
@@ -28,30 +33,33 @@ layout: landing
       {% if doc.call-to-action %}
        {% for item in doc.call-to-action %}
         <div class="ui image">
-         <div class="ui active dimmer">
-           <div class="content">
-             <div class="center xo padding left right">
-               <div class="ui basic fluid segment">
-                 <a href="{{ item.URL }}"><button class="ui inverted big button">{{item.button | markdownify | upcase }}</button></a>
-                 <div class="ui inverted medium header">{{item.description | markdownify }}</div>
-
-               <h3 class="ui inverted header">
-                 // {{doc.title}} //
-                 <div class="sub header">
-                   <em>{{doc.collection | replace: 'labs', 'Lab' | replace: 'projects', 'Project' | replace: 'networks', 'Network' | replace: 'group', 'Group' | replace: 'events', 'Events' | replace: 'incubators', 'Incubator' | replace: 'others', 'Other' | replace: 'startup', 'Startup'}}
-                     {% if doc.city %}
-                      in {{doc.city}},
-                     {% else %}
-                       {% if doc.country %}
-                        in
-                       {% endif %}
-                     {% endif %}
-                     {% if doc.country %}
-                      {{doc.country}}
-                     {% endif %}
-                   </em>
-                 </div>
-               </h3>
+         <div class="ui active inverted dimmer">
+           <div class="content" style="height: 500px;">
+             <div class="center">
+               <div class="ui basic fluid blurring segment">
+                 <a href="{{ doc.url }}">
+                   <h1 class="ui header">
+                     <div class="ui large inverted header">
+                       <span>{{ doc.title }}</span>
+                       <div class="sub header">
+                         <em>{{doc.collection | replace: 'labs', 'Lab' | replace: 'projects', 'Project' | replace: 'networks', 'Network' | replace: 'group', 'Group' | replace: 'events', 'Events' | replace: 'incubators', 'Incubator' | replace: 'others', 'Other' | replace: 'startup', 'Startup'}}
+                           {% if doc.city %}
+                            in {{doc.city}},
+                           {% else %}
+                             {% if doc.country %}
+                              in
+                             {% endif %}
+                           {% endif %}
+                           {% if doc.country %}
+                            {{doc.country}}
+                           {% endif %}
+                         </em>
+                       </div>
+                     </div>
+                   </h1>
+                 </a>
+                 <div class="ui huge inverted header">{{item.description | markdownify }}</div>
+                 <a href="{{ item.URL }}"><button class="ui big inverted button">{{item.button | markdownify }}</button></a>
               </div>
              </div>
            </div>
@@ -62,29 +70,19 @@ layout: landing
           <img class="ui image owl-img" src="{{ doc.header }}">
          {% endif %}
        </div>
-       {% endfor %} <!-- item -->
-      {% endif %} <!-- call-to-action -->
-     {% endfor %} <!-- docs -->
+      <!-- item --> {% endfor %}
+    <!-- call-to-action -->  {% endif %}
+    <!-- docs --> {% endfor %}
   {% endfor %} <!-- collections -->
-</div>
-
-<!-- Carousel buttons -->
-<div class="ui three bottom attached buttons">
-    <div class="ui button customPrevBtn"><i class="far fa-angle-left"></i></div>
-    <div class="ui button beginningBtn"></div>
-    <div class="ui button customNextBtn"><i class="far fa-angle-right"></i></div>
-</div>
-
-<div>
-</div>
+</div> <!-- end carousel -->
 
 <div class="ui grid">
-  <!-- Statistics -->
-  <div class="row xo top bottom padding fourfold" style="background-color: black;">
+  <!--
+  <div class="grey row xo top bottom padding fourfold">
     <div class="column">
       <div class="ui container">
-        <div class="ui inverted three large statistics">
-          <div class="statistic">
+        <div class="ui three large inverted statistics">
+          <div class="inverted statistic">
             <div class="value">
               <span id="index-stats-container"</span>
             </div>
@@ -92,48 +90,50 @@ layout: landing
               Total Entries
             </div>
           </div>
-          <div class="statistic">
+          <div class=" statistic">
             <div class="value">
-              {{site.github.contributors}} 9
+              {{ site.github.project_title }}
             </div>
             <div class="label">
               Total Contributors
             </div>
           </div>
-          <div class="statistic">
+          <div class="inverted statistic">
             <div class="value">
-              {{ site.git.total_commits }}
+              {{ site.github.contributors.size }}
             </div>
             <div class="label">
               Total Edits
             </div>
           </div>
         </div>
-      </div> <!-- container -->
-    </div> <!-- column -->
-  </div> <!-- row -->
+      </div>
+    </div>
+  </div>  -->
 
-  <!-- Latest entries -->
-  <div class="row xo padding top fourfold">
-    <div class="ui container">
-      <h2 class="ui center aligned header">Browse Last Edited Entries</h2>
+<!--
+  <div class="row xo padding top fourfold" style="background: ">
+      <div class="ui container">
+        <h2 class="ui center aligned header">Browse Last Edited Entries</h2>
+      </div>
     </div>
-  </div>
-  <div class="row xo padding bottom fourfold">
-    <div class="ui container xo top bottom padding twofold">
-      <div id="index-hits-container"></div>
-    </div>
-  </div>
+    <div class="row xo padding bottom fourfold">
+      <div class="ui container xo top bottom padding twofold">
+        <div id="index-hits-container"></div>
+      </div>
+    </div> -->
+
 
   <!-- Browse by Collection -->
 
-    <div class="row xo padding top fourfold" style="background-color: white;">
+    <div class="row xo padding top fourfold">
       <div class="ui container">
         <h2 class="ui center aligned header">Browse by Collection</h2>
       </div>
     </div>
-    <div class="row xo padding top bottom fourfold" style="background-color: white;">
-      <div class="ui two column very relaxed internally celled grid container">
+    <!-- ROWS OF COLLECTION -->
+    <div class="row xo padding top bottom fourfold">
+      <div class="ui two column very relaxed celled grid container">
         <div class="row">
           <!-- Projects -->
           <div class="column">
@@ -141,7 +141,7 @@ layout: landing
               <a class="item noul" href="{{ "/entries/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=Project" | prepend: site.baseUrl }}">
                 <div class="ui tiny image">
                   <i class="huge icons">
-                    <i class="big yellow circle inverted icon"></i>
+                    <i class="big circle inverted icon"></i>
                     <i class="far fa-briefcase icon"></i>
                   </i>
                 </div>
@@ -160,7 +160,7 @@ layout: landing
               <a class="item noul" href="{{ "/entries/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=Startup" | prepend: site.baseUrl }}">
                 <div class="ui tiny image">
                   <i class="huge icons">
-                    <i class="big yellow circle inverted icon"></i>
+                    <i class="big circle inverted icon"></i>
                     <i class="far fa-rocket icon"></i>
                   </i>
                 </div>
@@ -181,7 +181,7 @@ layout: landing
               <a class="item noul" href="{{ "/entries/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=Lab" | prepend: site.baseUrl }}">
                 <div class="ui tiny image">
                   <i class="huge icons">
-                    <i class="big yellow circle inverted icon"></i>
+                    <i class="big circle inverted icon"></i>
                     <i class="far fa-flask icon"></i>
                   </i>
                 </div>
@@ -200,7 +200,7 @@ layout: landing
               <a class="item noul" href="{{ "/entries/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=Incubator" | prepend: site.baseUrl }}">
                 <div class="ui tiny image">
                   <i class="huge icons">
-                    <i class="big yellow circle inverted icon"></i>
+                    <i class="big circle inverted icon"></i>
                     <i class="far fa-leaf icon"></i>
                   </i>
                 </div>
@@ -221,8 +221,8 @@ layout: landing
               <a class="item noul" href="{{ "/entries/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=Group" | prepend: site.baseUrl }}">
                 <div class="ui tiny image">
                   <i class="huge icons">
-                    <i class="big yellow circle inverted icon"></i>
-                    <i class="far fa-user icon"></i>
+                    <i class="big circle inverted icon"></i>
+                    <i class="far fa-users icon"></i>
                   </i>
                 </div>
                 <div class="middle aligned content">
@@ -240,7 +240,7 @@ layout: landing
               <a class="item noul" href="{{ "/entries/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=Network" | prepend: site.baseUrl }}">
                 <div class="ui tiny image">
                   <i class="huge icons">
-                    <i class="big yellow circle inverted icon"></i>
+                    <i class="big circle inverted icon"></i>
                     <i class="far fa-share-alt icon"></i>
                   </i>
                 </div>
@@ -261,8 +261,8 @@ layout: landing
               <a class="item noul" href="{{ "/entries/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=Event" | prepend: site.baseUrl }}">
                 <div class="ui tiny image">
                   <i class="huge icons">
-                    <i class="big yellow circle inverted icon"></i>
-                    <i class="far fa-briefcase icon"></i>
+                    <i class="big circle inverted icon"></i>
+                    <i class="far fa-calendar-alt icon"></i>
                   </i>
                 </div>
                 <div class="middle aligned content">
@@ -280,8 +280,8 @@ layout: landing
               <a class="item noul" href="{{ "/entries/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=Other" | prepend: site.baseUrl }}">
                 <div class="ui tiny image">
                   <i class="huge icons">
-                    <i class="big yellow circle inverted icon"></i>
-                    <i class="far fa-magic icon"></i>
+                    <i class="big circle inverted icon"></i>
+                    <i class="far fa-umbrella icon"></i>
                   </i>
                 </div>
                 <div class="middle aligned content">
@@ -297,177 +297,4 @@ layout: landing
       </div> <!-- relaxed grid -->
     </div> <!-- row -->
 
-<!--
-<div class="ui padded grid">
-  <h2 class="ui header">Browse by Collection</h2>
-    <div class="two column row" style="background-color: white;">
-      <div class="column yellow">
-        <div class="ui basic right floated segment" style="width: 500px; height: 100px;">
-          <div class="ui items">
-            <div class="item">
-              <a class="ui tiny image">
-                <i class="far fa-briefcase fa-5x"></i>
-              </a>
-              <div class="content">
-                <div class="description">
-                  <p><span class="ui small header">PROJECTS</span> have particular aims, like in research, engineering, art and design</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="ui basic left floated segment" style="width: 500px; height: 100px;">
-          <div class="ui items">
-            <div class="item">
-              <a class="ui tiny image">
-                <i class="far fa-rocket fa-5x"></i>
-              </a>
-              <div class="content">
-                <div class="description">
-                  <p><span class="ui small header">STARTUPS</span> Entrepreneurial ventures and generally concern products or services</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="two column row" style="background-color: white;">
-      <div class="column">
-        <div class="ui basic right floated segment" style="width: 500px; height: 100px;">
-          <div class="ui items">
-            <div class="item">
-              <a class="ui tiny image">
-                <i class="far fa-flask fa-5x"></i>
-              </a>
-              <div class="content">
-                <div class="description">
-                  <p><span class="ui small header">LABS</span> Dedicated physical spaces, static or mobile, with materials and equipment</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="column yellow">
-        <div class="ui basic left floated segment" style="width: 500px; height: 100px;">
-          <div class="ui items">
-            <div class="item">
-              <a class="ui tiny image">
-                <i class="far fa-leaf fa-5x"></i>
-              </a>
-              <div class="content">
-                <div class="description">
-                  <p><span class="ui small header">INCUBATORS</span> Organizations and spaces that help projects and startups to develop</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="two column row" style="background-color: white;">
-      <div class="column yellow">
-        <div class="ui basic right floated segment" style="width: 500px; height: 100px;">
-          <div class="ui items">
-            <div class="item">
-              <a class="ui tiny image">
-                <i class="far fa-user fa-5x"></i>
-              </a>
-              <div class="content">
-                <div class="description">
-                  <p><span class="ui small header">GROUPS</span> Associations of people (online and offline) interested in DIYbio</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="ui basic left floated segment" style="width: 500px; height: 100px;">
-          <div class="ui items">
-            <div class="item">
-              <a class="ui tiny image">
-                <i class="far fa-share-alt fa-5x"></i>
-              </a>
-              <div class="content">
-                <div class="description">
-                  <p><span class="ui small header">NETWORKS</span> Organizations that facilitate communication and collaboration</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="two column row" style="background-color: white;">
-      <div class="column">
-        <div class="ui basic right floated segment" style="width: 500px; height: 100px;">
-          <div class="ui items">
-            <div class="item">
-              <a class="ui tiny image">
-                <i class="far fa-calendar fa-5x"></i>
-              </a>
-              <div class="content">
-                <div class="description">
-                  <p><span class="ui small header">EVENTS</span>Global or regional events by and/or for the DIYbio community</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="column yellow">
-        <div class="ui basic left floated segment" style="width: 500px; height: 100px;">
-          <div class="ui items">
-            <div class="item">
-              <a class="ui tiny image">
-                <i class="far fa-magic fa-5x"></i>
-              </a>
-              <div class="content">
-                <div class="description">
-                  <p><span class="ui small header">OTHERS</span> Umbrella term for the rest of misfit entries. New collections may arise</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  -->
-  <!-- Final Call -->
-  <div class="row xo padding bottom top fourfold">
-    <div class="ui container">
-      <h1 class="ui center aligned header">DIYbiosphere is an Open Source Project!</h1>
-      <div class="ui basic center aligned segment">
-        <div class="ui medium header">
-          All the content in this website is provided by volunteer contributors<br>
-          and is dedicated to the public domain (<a href="http://creativecommons.org/publicdomain/zero/1.0/">CC0</a>) to be freely (re)used <br>
-        </div>
-        <div class="ui medium header">
-          To contribute all you need is a <a href="https://www.google.ch/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwig3Zb8wMTVAhUPmbQKHU31DbwQFggoMAA&url=https%3A%2F%2Fgithub.com%2Fjoin&usg=AFQjCNF6nezHQWX1hKwEFQVYRrUheS9_Ig">GitHub account!</a>
-        </div>
-
-        <div class="xo top padding twofold">
-          <a href="/docs/tutorials/add-entry/">
-            <button class="ui primary button">
-              <i class="far fa-plus"></i>
-              &nbsp;Add a new initiative
-            </button>
-          </a>
-          <a href="/docs/tutorials/edit-content/">
-            <button class="ui primary button">
-              <i class="far fa-pencil"></i>
-              &nbsp;Edit or update content
-            </button>
-          </a>
-        </div>
-
-      </div>
-
-
-    </div> <!-- container -->
-  </div> <!-- row -->
 </div> <!-- grid -->
