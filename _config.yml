@@ -98,56 +98,48 @@ defaults:
       type: projects
     values:
       layout: entry
-      permalink: /entries/:collection/:name
       collection: Project
   -
     scope:
       type: startups
     values:
       layout: entry
-      permalink: /entries/:collection/:name
       collection: Startup
   -
     scope:
       type: labs
     values:
       layout: entry
-      permalink: /entries/:collection/:name
       collection: Lab
   -
     scope:
       type: incubators
     values:
       layout: entry
-      permalink: /entries/:collection/:name
       collection: Incubator
   -
     scope:
       type: groups
     values:
       layout: entry
-      permalink: /entries/:collection/:name
       collection: Group
   -
     scope:
       type: networks
     values:
       layout: entry
-      permalink: /entries/:collection/:name
       collection: Network
   -
     scope:
       type: events
     values:
       layout: entry
-      permalink: /entries/:collection/:name
       collection: Event
   -
     scope:
       type: others
     values:
       layout: entry
-      permalink: /entries/:collection/:name
       collection: Other
 
   -
@@ -155,7 +147,6 @@ defaults:
       type: pages
     values:
       layout: page
-      permalink: /pages/:name
 
 
 # PLUGIN CONFIGURATIONS
@@ -175,11 +166,11 @@ assets:
     - "*.jpg"
     - "*.svg"
   sources:
-    - _assets
-    - _assets/img
-    - _assets/js
-    - _assets/css
-    - _assets/gif
+    - assets
+    - assets/img
+    - assets/js
+    - assets/css
+    - assets/gif
 
 # Jekyll-Tagging: https://github.com/pattex/jekyll-tagging/
 tag_page_layout: tag_page

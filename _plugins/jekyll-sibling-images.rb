@@ -12,23 +12,26 @@ module SiblingImages
     		if(doc.respond_to? :data)
           docDir = "#{doc.relative_path}"
           docName = "#{doc.basename}"
-          rawSrc = 'https://raw.githubusercontent.com/DIYbiosphere/sphere/master/'
           # For Logos
             logoPath = docDir.sub(docName, 'logo').strip
 
             logoPathPNG = logoPath + '.png'
             logoPathPNG.strip!
 
+            doc.data["logoPathPNG"] = logoPathPNG
+
             logoPathJPG = logoPath + '.jpg'
             logoPathJPG.strip!
 
+
             if File.exist?(logoPathPNG)
-        		  doc.data["logo"] = rawSrc + logoPathPNG
+        		  doc.data["logo"] = '/'+ logoPathPNG.delete('_')
             end # if
 
             if File.exist?(logoPathJPG)
-              doc.data["logo"] = rawSrc + logoPathJPG
+              doc.data["logo"] = '/'+ logoPathJPG.delete('_')
             end # if
+
 
             # For Header
             headerPath = docDir.sub(docName, 'header').strip
@@ -41,11 +44,11 @@ module SiblingImages
             headerPathJPG.strip!
 
             if File.exist?(headerPathPNG)
-              doc.data["header"] = rawSrc + headerPathPNG
+              doc.data["header"] = '/'+ headerPathPNG.delete('_')
             end # if
 
             if File.exist?(headerPathJPG)
-              doc.data["header"] = rawSrc + headerPathJPG
+              doc.data["header"] = '/'+ headerPathJPG.delete('_')
             end # if
 
             # For Thumbnail
@@ -58,11 +61,11 @@ module SiblingImages
             thumbnailPathJPG.strip!
 
             if File.exist?(thumbnailPathPNG)
-              doc.data["thumbnail"] = rawSrc + thumbnailPathPNG
+              doc.data["thumbnail"] = '/'+ thumbnailPathPNG.delete('_')
             end # if
 
             if File.exist?(headerPathJPG)
-              doc.data["thumbnail"] = rawSrc + thumbnailPathJPG
+              doc.data["thumbnail"] = '/'+ thumbnailPathJPG.delete('_')
             end # if
 
             unless doc.data['thumbnail'].nil?

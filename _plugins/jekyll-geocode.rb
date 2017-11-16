@@ -1,5 +1,7 @@
+=begin
 require 'rubygems'
 require 'geokit'
+require 'filewatcher'
 
 module GeoCode
   class Generator < Jekyll::Generator
@@ -60,3 +62,4 @@ module GeoCode
     end # generate site
   end # class Generator
 end # module
+=end

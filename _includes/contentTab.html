@@ -16,7 +16,7 @@
   {% else %}
   <div class="ui basic center aligned segment">
     <a class="noelink" href="https://github.com/DIYbiosphere/talk/issues/new" target="_blank">
-      <div class="ui animated mini primary button" tabindex="0">
+      <div class="ui animated mini basic primary button" tabindex="0">
         <div class="visible content">
           <i class="far fa-comment"></i>
           &nbsp; Open the Main Disussion
@@ -59,18 +59,18 @@
 </div>
 
 <div class="ui tab basic segment" data-tab="issues">
-  <h1 class="ui header">
+  <h3 class="ui grey header">
     Editing Discussion
     {% include editOnGitHub.html %}
       <div class="sub header">
         <em>for "{{ page.title }}" page</em>
       </div>
-    </h1>
+    </h3>
     {% if page.edit_issue %}
     {% else %}
     <div class="ui basic center aligned segment">
       <a class="noelink" href="https://github.com/DIYbiosphere/talk/issues/new" target="_blank">
-        <div class="ui animated mini primary button" tabindex="0">
+        <div class="ui animated mini primary basic button" tabindex="0">
           <div class="visible content">
             <i class="far fa-comment"></i>
             &nbsp; Open the Editing Disussion

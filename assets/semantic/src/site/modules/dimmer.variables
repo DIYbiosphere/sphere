@@ -1,0 +1,5 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@invertedBackgroundColor: rgba(140, 140, 140, 0.50s);
