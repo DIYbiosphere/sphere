@@ -1,6 +1,5 @@
 ---
 title: Documentation of DIYbiosphere
-permalink: "/docs/basics/documentation/"
 layout: docs
 crumb: basics
 comments_issue: 21

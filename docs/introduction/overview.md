@@ -1,6 +1,5 @@
 ---
 title: Overview of the DIYbiosphere
-permalink: "/docs/introduction/overview/"
 layout: docs
 crumb: introduction
 summary: A short summary on the DIYbiosphere project

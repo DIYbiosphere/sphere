@@ -1,6 +1,6 @@
 ---
 title: Roadmap
-permalink: "/roadmap/"
+permalink: "/about/roadmap/"
 layout: page
 crumb: none
 summary: In this section we detail

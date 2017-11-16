@@ -1,6 +1,5 @@
 ---
 title: Entries in DIYbiosphere
-permalink: "/docs/basics/entries/"
 layout: docs
 crumb: basics
 comments_issue: 15

@@ -1,6 +1,5 @@
 ---
 title: Ticket Workflow
-permalink: "/docs/guides/workflow/"
 layout: docs
 comments_issue: 27
 edit_issue: 28

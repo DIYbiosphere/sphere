@@ -1,6 +1,5 @@
 ---
 title: Design in DIYbiosphere
-permalink: "/docs/basics/design/"
 layout: docs
 crumb: basics
 comments_issue: 19

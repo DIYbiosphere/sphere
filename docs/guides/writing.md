@@ -1,6 +1,5 @@
 ---
 title: Writing Content
-permalink: "/docs/guides/writing/"
 layout: docs
 comments_issue: 25
 edit_issue: 26

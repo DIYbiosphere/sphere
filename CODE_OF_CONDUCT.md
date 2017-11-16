@@ -1,5 +1,6 @@
 ---
 title: Code of Conduct
+permalink: "/about/code-of-conduct/"
 layout: page
 comments_issue: 39
 edit_issue: 40

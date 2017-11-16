@@ -1,6 +1,5 @@
 ---
 title: Software of DIYbiosphere
-permalink: "/docs/basics/software/"
 layout: docs
 crumb: basics
 comments_issue: 17
