@@ -2,12 +2,7 @@
 *  Sticky Footer by https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
 */
 
-:target:before {
-content: "";
-display: block;
-height: 110px; /* fixed header height*/
-margin: -110px 0 0; /* negative fixed header height */
-}
+
 
 #map {
   width: 100%;
@@ -64,6 +59,16 @@ article {
     background-size: 100%;
   }
 
+  .elink:after {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    content: "";
+    background: url('/assets/img/external-link.png') no-repeat 0 0;
+    background-size: 100%;
+  }
+
   a:not(.noul)[href$=".md"]:after {
     display: inline-block;
     width: 10px;
@@ -110,21 +115,46 @@ strong em {
   font-weight: 600i !important;
 }
 
+pre code {
+  background-color: #EFEFEF;
+  display: block;
+  padding: 15px;
+  white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
 code {
-  background-color: $lightGrey !important;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.9em;
+  background-color: #EFEFEF !important;
+}
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
 }
 
 footer {
 
   .border-footer {
-    border-top: 3px solid $grey;
+    border-top: 3px solid #767676;
   }
 }
 
 .search-highlight {
-  background-color: $lightBlue;
+  background-color: CCE2FF;
 }
 /**
 *  This keeps hash tag links visible,
 *  otherwise they are blocked by the top navbar
 */
+
+.message {
+  a {
+    color: inherit !important;
+    text-decoration: underline !important;
+  }
+}

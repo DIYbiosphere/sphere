@@ -1,17 +1,9 @@
 ---
 title: Avocado Lab
-manager: ahuacatl
-purpose: The citizen science lab for making guacamole
 website: http://www.avocadolab.com
-logo: http://www.avocadolab.com/logo.png
-profile-pic: http://www.avocado.com/lab.png
-status: closed
 start-date: 2001
-end-date: 2006
 host-org: "[Tree Labs](http://treelabs.com)"
 type-org: Community
-latitude: 
-longitude: 
 city: Morelia
 state: Michoacan
 country: Mexico
@@ -25,6 +17,6 @@ tags:
 ---
 
 ## About
-The Avocado lab was a
+The Avocado lab is a fictitious lab that does not exist other that for educational purposes. The name for the lab comes from the user @ahuacatl, which uses the the original nahualt word for avocado. Ahuacat's account is also used for educational purposes, mainly for screenshots and screencasts of the tutorials, guides, etc for the DIYbiosphere project.
 
-## History
+Furthermore, avocados are delicious and nutritious and for those reasons it has become more popular in recent years all across the world. On a more curious note, the avocado has also come to represent the millennial generation.

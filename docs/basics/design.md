@@ -1,11 +1,9 @@
 ---
-title: Design in DIYbiosphere
-permalink: "/docs/basics/design/"
 layout: docs
-crumb: basics
 comments_issue: 19
 edit_issue: 20
-summary: Explaining design choices and providing source files
+title: Design in DIYbiosphere
+draft: true
 ---
 
 The design, refers to all things concerning the user experience; the aesthetics and interface of the website.

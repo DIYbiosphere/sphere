@@ -1,15 +1,14 @@
 ---
 title: Getting Started
-permalink: "/docs/introduction/getting-started/"
 layout: docs
+draft: true
 crumb: introduction
 summary: On using the library and contributing to the project of the DIYbiosphere
 ---
 
-The DIYbiosphere is a collaborative project to create a worldwide library of DIYbio initiatives.
-The library is the core of the DIYbiosphere project. It's structure, components and organization are explained in detail in the [Basics of the Library][library] section. The key ideas are:
+The Entries are the core of the DIYbiosphere project. The key ideas are:
 
-- **[Entry Collections][collections]:** entries are divided into: _Projects_, _Startups_, _Labs_, _Incubators_, _Groups_, _Networks_, _Events_, and _Others_.
+- **[Collections]:** entries are divided into: _Projects_, _Startups_, _Labs_, _Incubators_, _Groups_, _Networks_, _Events_, and _Others_.
 - **[Types of organizations][type-org]:** initiatives are classified under a 'category' that describes the organizational structure of the initiative: _Community/Grassroots_, _Primary/Secondary School_, _University/College_, _Non-Profit/NGO_, _For-Profit_, _Museum_, _State/Local Government_, and _Other_.
 - **[Anatomy of an Entry][anatomy]:** entries display narrative text which describes the intiative (history, mission) and data contained in an infobox (location, founding date). Learn more about the [Data Fields][fields].
 

@@ -5,14 +5,10 @@ comments_issue: 2
 edit_issue: 1
 website: http://sphere.diybio.org/
 start-date: 2016
-hello:
-  we: hello us
-  you: hello you
 main-org:
 host-org: "[DIYbio.org](https://diybio.org/)"
 type-org: Non-profit
 affiliations: "[UNIGE](https://diybio.org/)"
-founders: Gabriela A. Sanchez
 city: Geneva
 country: Switzerland
 tags:
@@ -25,15 +21,6 @@ twitter: https://twitter.com/DIYbiosphere/
 slack: https://slack.io.com/DIYbiosphere/
 gitter: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link
 ---
-
-LOGOPATH:
-{{ page.logoPathPNG }}
-
-LOGO:
-{{ page.logo }}
-
-LOGO2:
-{{ page.logo2 }}
 
 ## About
 The DIYbiosphere is an open project of Do-it-Yourself Biology (DIYbio) initiatives from all over the world, accessible (and editable) through the web using GitHub. The goal is to have a common space where the DIYbio community can share about who they are, where, and what they are doing. We believe that a centralized directory could benefit the DIYbio community by increasing visibility to projects, organizations and events. We hope that by connecting people and ideas, they may inspire, learn, and collaborate with each other. Additionally, the project can also serve as a reference point for DIYbio supporters and followers, including journalists, scholars, governmental agencies, and more.

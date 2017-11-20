@@ -1,6 +1,5 @@
 ---
 title: Atom
-permalink: "/docs/tutorials/using-atom/"
 layout: docs
 crumb: tutorials
 ---

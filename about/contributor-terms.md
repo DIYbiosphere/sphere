@@ -1,6 +1,5 @@
 ---
 title: Contributor Terms
-permalink: "/contributor-terms/"
 layout: page
 summary: The legal rights waived and granted from contributions
 ---
@@ -26,4 +25,4 @@ Following the model of a _Contributor License Agreement_ (CLA), we hereby state 
 1. Please note that we have no obligation to accept or include Your Contributions to the Project, and that we may remove Your Contributions at any time if we suspect it might directly infringe on a third-party’s IPR, as well if Your Contributions do not comply with our [Code of Conduct].
 
 
-{% include help.html title="TLDR: I freely share my contributions" text="I concede the rights of my Contributions to the Software under a free license ([MIT]) and to Entries to the public domain ([CC0]), otherwise I will specify their copyright. I also will note Contributions on behalf of third parties and specify their copyrights" %}
+{% include messages/question.html title="TLDR: I freely share my contributions" text="I concede the rights of my Contributions to the Software under a free license ([MIT]) and to Entries to the public domain ([CC0]), otherwise I will specify their copyright. I also will note Contributions on behalf of third parties and specify their copyrights" %}

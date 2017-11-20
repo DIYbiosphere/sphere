@@ -24,54 +24,56 @@ layout: landing
         </div>
       </div>
     </div>
-    <img class="ui image owl-img" src="https://raw.githubusercontent.com/DIYbiosphere/sphere/master/_projects/DIYbiosphere/header.jpg">
+    <img class="ui image owl-img" src="/projects/DIYbiosphere/header.jpg">
   </div>
-  <!-- loop through call-to-actions -->
-  {% for c in site.collections %}
-    {% assign docs=c.docs %}
-     {% for doc in docs %}
-      {% if doc.call-to-action %}
-       {% for item in doc.call-to-action %}
-        <div class="ui image">
-         <div class="ui active inverted dimmer">
-           <div class="content" style="height: 500px;">
-             <div class="center">
-               <div class="ui basic fluid blurring segment">
-                 <a href="{{ doc.url }}">
-                   <h1 class="ui header">
-                     <div class="ui large inverted header">
-                       <span>{{ doc.title }}</span>
-                       <div class="sub header">
-                         <em>{{doc.collection | replace: 'labs', 'Lab' | replace: 'projects', 'Project' | replace: 'networks', 'Network' | replace: 'group', 'Group' | replace: 'events', 'Events' | replace: 'incubators', 'Incubator' | replace: 'others', 'Other' | replace: 'startup', 'Startup'}}
-                           {% if doc.city %}
-                            in {{doc.city}},
-                           {% else %}
-                             {% if doc.country %}
-                              in
+  <!-- loop through promotions -->
+  {% for files in site.collections %}
+    {% assign entries=files.docs %}
+     {% for entry in entries %}
+      {% if entry.promotions %}
+       {% for promotion in entry.promotions %}
+        {% if promotion.image or entry.header %}
+          <div class="ui image">
+           <div class="ui active inverted dimmer">
+             <div class="content" style="height: 500px;">
+               <div class="center">
+                 <div class="ui basic fluid blurring segment">
+                   <a href="{{ entry.url }}">
+                     <h1 class="ui header">
+                       <div class="ui large inverted header">
+                         <span>{{ entry.title }}</span>
+                         <div class="sub header">
+                           <em>{{entry.collection | replace: 'labs', 'Lab' | replace: 'projects', 'Project' | replace: 'networks', 'Network' | replace: 'group', 'Group' | replace: 'events', 'Events' | replace: 'incubators', 'Incubator' | replace: 'others', 'Other' | replace: 'startup', 'Startup'}}
+                             {% if entry.city %}
+                              in {{entry.city}},
+                             {% else %}
+                               {% if entry.country %}
+                                in
+                               {% endif %}
                              {% endif %}
-                           {% endif %}
-                           {% if doc.country %}
-                            {{doc.country}}
-                           {% endif %}
-                         </em>
+                             {% if entry.country %}
+                              {{entry.country}}
+                             {% endif %}
+                           </em>
+                         </div>
                        </div>
-                     </div>
-                   </h1>
-                 </a>
-                 <div class="ui huge inverted header">{{item.description | markdownify }}</div>
-                 <a href="{{ item.URL }}"><button class="ui big inverted button">{{item.button | markdownify }}</button></a>
-              </div>
+                     </h1>
+                   </a>
+                   <div class="ui huge inverted header">{{promotion.text | markdownify }}</div>
+                   <a href="{{ promotion.URL }}"><button class="ui big inverted button">{{promotion.button | markdownify }}</button></a>
+                </div>
+               </div>
              </div>
            </div>
+           {% if promotion.image %}
+            <img class="ui image owl-img" src="{{ promotion.image }}">
+           {% else %}
+            <img class="ui image owl-img" src="{{ entry.header }}">
+           {% endif %}
          </div>
-         {% if item.image %}
-          <img class="ui image owl-img" src="{{ item.image }}">
-         {% else %}
-          <img class="ui image owl-img" src="{{ doc.header }}">
          {% endif %}
-       </div>
       <!-- item --> {% endfor %}
-    <!-- call-to-action -->  {% endif %}
+    <!-- promotions -->  {% endif %}
     <!-- docs --> {% endfor %}
   {% endfor %} <!-- collections -->
 </div> <!-- end carousel -->

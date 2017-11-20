@@ -30,12 +30,13 @@
   {% endif %}
 </div>
 
+{% if page.layout == "entry" %}
 <div class="ui tab basic segment" data-tab="projects">
-  <h1 class="ui header">Projects
+  <h2 class="ui header">Projects
     <div class="sub header">
       <em> by {{ page.title }}</em>
     </div>
-  </h1>
+  </h2>
 
   <div class="ui items">
     {% for project in site.projects %}
@@ -57,6 +58,40 @@
     {% endfor %}
   </div>
 </div>
+  {% endif %}
+{% if page.layout == "entry-example" %}
+<div class="ui items">
+      <div class="item">
+        <div class="content">
+          <a class="header" href="{{ project.url }}">Avocado Toast</a>
+            <div class="description">
+              <p></p>
+              <p></p>
+            </div>
+          <div class="extra">
+            <div class="ui small labels">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="content">
+          <a class="header" href="{{ project.url }}">Guacamole</a>
+            <div class="description">
+              <p></p>
+              <p></p>
+            </div>
+          <div class="extra">
+            <div class="ui small labels">
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+{% endif %}
+
+
 
 <div class="ui tab basic segment" data-tab="issues">
   <h3 class="ui grey header">

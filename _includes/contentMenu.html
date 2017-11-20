@@ -1,6 +1,11 @@
 <div class="ui secondary pointing mini tabular grey menu">
   <a class="active item" data-tab="overview">Main</a>
 
+    {% if page.layout=='entry-example' %}
+    <a class="item" data-tab="projects">Projects</a>
+    {% endif %}
+
+
   {% for project in site.projects %}
     {% if project.host-org==page.title %}
       <a class="item" data-tab="projects">Projects</a>

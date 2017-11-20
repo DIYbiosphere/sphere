@@ -1,16 +1,14 @@
 ---
-title: Software of DIYbiosphere
-permalink: "/docs/basics/software/"
 layout: docs
-crumb: basics
 comments_issue: 17
 edit_issue: 18
-summary: The technology and design behind the Software of the web platform
+title: Software in DIYbiosphere
+draft: true
 ---
 
 By Software we mean all the source-code that formats, displays, and builds the text files into webpages.
 
-Mainly, we use _Github_, to host the files, _GitHub Pages_ to build the files into a website using the stating website generator _Jekyll_. To continuously build the website we use _Travis CI_. Lastly we use
+Mainly, we use _Github_, to host the files, _GitHub Pages_ to build the files into a website using the static website generator _Jekyll_. To continuously build the website, and to use unsupported plugins we use _Travis CI_. Lastly we use _Algolia Search_ to index and search the entries and documentation.
 
 ## GitHub
 [GitHub] is a [Git] hosting service that we use to host the source files (repository) of the project and to keep track of the changes made to them. GitHub offers other useful features:
@@ -44,7 +42,3 @@ We are currently using the Hacker plan which is free and allows for 10,000 recor
 ### Algolia Places
 
 ### Algolia DocSearch
-
-
-## Mapbox
-[Mapbox] is a custom online map provider.

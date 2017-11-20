@@ -5,3 +5,4 @@ _site
 .vscode
 Gemfile.lock
 node_modules/
+.git-metadata

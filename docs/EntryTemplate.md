@@ -1,77 +1,18 @@
 ---
-manager: 
-summary: 
-subtitle: 
-purpose: 
-website: 
-logo: 
-profile-pic: 
-predecessor: 
-succesor: 
-status: 
-start-date: 
-end-date: 
-main-org: 
-parent-org: 
-type-org: 
-affiliations: 
-budget: 
-earnings: 
-membership: 
-num-staff: 
-num-volunteers: 
-founders: 
-authors: 
-latitude: 
-longitude: 
-work-area: 
-address: 
-directions: 
-postcode: 
-city: 
-state: 
-country: 
-basecamp: 
-blog: 
-email: 
-etherpad: 
-facebook: 
-facebook-group: 
-forum: 
-flickr: 
-github: 
-gitter: 
-google+: 
-google-group: 
-hackpad: 
-instagram: 
-irc: 
-medium: 
-meetup: 
-linkedin: 
-newsletter: 
-pinterest: 
-piratepad: 
-rocketchat: 
-rss: 
-slack: 
-snapchat: 
-telephone: 
-trello: 
-tumblr: 
-twitter: 
-vimeo: 
-vk: 
-youtube: 
-yk: 
-wechat: 
-wiki: 
-wordpress: 
-tags: 
+title:
+subtitle:
+website:
+start-date:
+type-org:
+city:
+country:
+twitter:
+facebook:
+tags:
+  -
+  -
 ---
 
-# About
+# Write here in Markdown
 
-# History
-
-## Founders
+Go to [this link](https://guides.github.com/features/mastering-markdown/) to see an easy Markdown Guide from GitHub

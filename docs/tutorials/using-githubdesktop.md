@@ -1,6 +1,5 @@
 ---
 title: GitHub Desktop
-permalink: "/docs/tutorials/using-github-desktop/"
 layout: docs
 crumb: tutorials
 ---

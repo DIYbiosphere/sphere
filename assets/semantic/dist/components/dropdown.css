@@ -605,7 +605,7 @@ select.ui.dropdown {
 /* Filtered Text */
 .ui.active.search.dropdown input.search:focus + .text .icon,
 .ui.active.search.dropdown input.search:focus + .text .flag {
-  opacity: 0.45;
+  opacity: 0;
 }
 .ui.active.search.dropdown input.search:focus + .text {
   color: rgba(115, 115, 115, 0.87) !important;
@@ -956,7 +956,7 @@ select.ui.dropdown {
 .ui.dropdown .menu > .disabled.item {
   cursor: default;
   pointer-events: none;
-  opacity: 0.45;
+  opacity: 0;
 }
 
 

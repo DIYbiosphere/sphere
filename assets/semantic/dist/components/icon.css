@@ -97,7 +97,7 @@ i.emphasized.icon {
   opacity: 1 !important;
 }
 i.disabled.icon {
-  opacity: 0.45 !important;
+  opacity: 0 !important;
 }
 
 

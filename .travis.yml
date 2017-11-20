@@ -12,15 +12,22 @@ before_install:
   - gem update --system
   - gem --version
 
+
 before_script:
   - chmod +x ./script/cibuild
+  - chmod +x ./script/gh_pages_push
+  - git config merge.renameLimit 999999  
 
 script: ./script/cibuild
 
-# branch whitelist
-branches:
-  only:
-  - master # builds only master branches
+after_success: ./script/gh_pages_push
+
+env:
+  global:
+  - GITHUB_REPO: github.com/DIYbiosphere/sphere.git
+  - DEPLOY_BRANCH: gh-pages
+  - SOURCE_BRANCH: master
+
 
 exclude: [vendor]
 

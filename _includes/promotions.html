@@ -1,0 +1,28 @@
+{% for promotion in page.promotions %}
+<div class="ui center aligned segment" {% if promotion.image %} style="background-image:url('{{ promotion.image }}'); background-position: center; background-size:cover;" {% elsif promotion.color %} style="background-color:{{ promotion.color }}" {% else %} style="background-color:#626262" {% endif %}>
+  <div class="ui disabled basic segment">
+    <div class="content">
+      <div class="center">
+      <div class="ui header inverted medium">{{ promotion.text | markdownify }}</div>
+      <a class="noelink" href="{{ promotion.URL }}">
+        <button class="ui inverted button">
+          {{ promotion.button }}
+        </button>
+      </a>
+      </div>
+    </div>
+  </div>
+  <div class="ui active inverted dimmer">
+    <div class="content">
+      <div class="center">
+        <div class="ui header inverted medium">{{ promotion.text | markdownify }}</div>
+        <a class="noelink" href="{{ promotion.URL }}">
+          <button class="ui inverted button">
+            {{ promotion.button }}
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

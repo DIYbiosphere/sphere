@@ -1,7 +1,7 @@
 ---
 title: Permission Levels
-permalink: "/docs/guides/permissions/"
 layout: docs
+draft: true
 crumb: guides
 summary: The roles and privileges of our contributing and developing community
 ---

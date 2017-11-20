@@ -87,7 +87,9 @@
 [contact-twitter]: /about/contact/#twitter
 [copyright]: /about/copyright/
 
-[docs]: /docs/
+[docs]: /docs/welcome/
+[overview]: /docs/introduction/overview/
+[getting started]: /docs/introduction/getting-started/
 [entries]: /docs/basics/entries/
 [entries-collections]: /docs/basics/entries/#entry-collections
 [collections]: /docs/basics/entries/#entry-collections
@@ -145,39 +147,32 @@
 [writing-references]: /docs/guides/writing/#references
 [eli5 guide]: /docs/guides/github-eli5/
 [github eli5]: /docs/guides/github-eli5/
-[add]: /docs/tutorials/add-entry/ "How to add an entry"
-[add-members]: /docs/tutorials/add-entry-members/
-[add-teams]: /docs/tutorials/add-entry-teams/
+[add]: /docs/tutorials/add-entry/users/ "How to add an entry"
+[add-members]: /docs/tutorials/add-entry/members/
+[add-teams]: /docs/tutorials/add-entry/teams/
 [view the render]: /docs/tutorials/entryexample/avocadolab
-[edit]: /docs/tutorials/edit-content/ "How to edit an entry"
-[edit-members]: /docs/tutorials/edit-content-members/
-[edit-teams]: /docs/tutorials/edit-content-teams/
+[edit]: /docs/tutorials/edit-entry/users/ "How to edit an entry"
+[edit-members]: /docs/tutorials/edit-entry/members/
+[edit-teams]: /docs/tutorials/edit-entry/teams/
 [noting-copyright]: /docs/tutorials/noting-copyright/
 [using github]: /docs/tutorials/using-github
 [using atom]: /docs/tutorials/using-atom
+[faq]: /about/faq/
+[glossary]: /docs/guides/glossary/
 
 
-
-[faq]: /docs/help/faq/
-[glossary]: /docs/help/glossary/
-
-
-[copyright]: /docs/copyright/
-[cc0]: /docs/copyright/cc0/
-[mit]: /docs/copyright/mit/
+[copyright]: /about/copyright/
 [mit license]: /docs/copyright/mit/
-[terms of use]: /docs/copyright/terms-of-use/
+[terms of use]: /about/terms-of-use/
 [attribution]: /docs/copyright/terms-of-use/#copyright-attribution
-[contributor terms]: /docs/copyright/contributor-terms/
-[code of conduct]: /code-of-conduct/
+[contributor terms]: /about/contributor-terms/
+[code of conduct]: /about/code-of-conduct/
 
 
 
 
-[e_sphere]: /entries/projects/DIYbiosphere-ZZ/
+[e_sphere]: /projects/DIYbiosphere/DIYbiosphere/
 
 
-
-[blog]: /docs/updates/blog/
 [changelog]: /docs/updates/changelog/
-[roadmap]: /docs/updates/roadmap
+[roadmap]: /about/roadmap/

@@ -593,11 +593,11 @@
 .ui.form .disabled.field,
 .ui.form .field :disabled {
   pointer-events: none;
-  opacity: 0.45;
+  opacity: 0;
 }
 .ui.form .field.disabled > label,
 .ui.form .fields.disabled > label {
-  opacity: 0.45;
+  opacity: 0;
 }
 .ui.form .field.disabled :disabled {
   opacity: 1;
