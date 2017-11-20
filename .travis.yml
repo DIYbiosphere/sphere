@@ -15,12 +15,9 @@ before_install:
 
 before_script:
   - chmod +x ./script/cibuild
-  - chmod +x ./script/gh_pages_push
-  - git config merge.renameLimit 999999  
+  - git config diff.renameLimit 999999
 
 script: ./script/cibuild
-
-after_success: ./script/gh_pages_push
 
 env:
   global:
