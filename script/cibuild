@@ -1,4 +1,36 @@
 #!/bin/bash
 set -e # halt script on error
 
+# Pull requests and commits to other branches shouldn't try to deploy, just build to verify
+if [ "$TRAVIS_PULL_REQUEST" == "true" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
+    echo "Skipping deploy; just doing a build."
+    bundle exec jekyll build
+    exit 0
+fi
+
+cp docs/guides/contributing.md .github/CONTRIBUTING.md
+cp about/code-of-conduct.md .github/CODE_OF_CONDUCT.md
+
+
+# cleanup "_site"
+rm -rf _site
+mkdir _site
+
+git clone https://${DEPLOY_TOKEN}@${GITHUB_REPO} --branch ${DEPLOY_BRANCH} _site
+
+bundle exec jekyll algolia push
 bundle exec jekyll build
+
+# Jekyll's output folder
+cd _site
+
+# Configure github properties
+git config user.name ${USERNAME}
+git config user.email ${EMAIL}
+
+# Commit and Push content
+git add -all
+git commit -a -m "Travis: #$TRAVIS_BUILD_NUMBER"
+
+# push to repo and prevents any sensitive data from printing on the console.
+git push --force origin ${DEPLOY_BRANCH}

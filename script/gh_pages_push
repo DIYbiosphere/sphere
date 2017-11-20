@@ -32,4 +32,4 @@ git add .
 git commit -m "Travis: #$TRAVIS_BUILD_NUMBER"
 
 # push to repo and prevents any sensitive data from printing on the console.
-git push --force origin ${DEPLOY_BRANCH} /dev/null 2>&1
+git push --force origin ${DEPLOY_BRANCH}
