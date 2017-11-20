@@ -13,7 +13,7 @@ before_script:
 script:
    - ./script/cibuild
 
-  after_success: ./script/gh_pages_push
+after_success: ./script/gh_pages_push
 
 env:
   global:
