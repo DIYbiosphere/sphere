@@ -29,7 +29,7 @@ git config user.name ${USERNAME}
 git config user.email ${EMAIL}
 
 # Commit and Push content
-git add -all
+git add --all
 git commit -a -m "Travis: #$TRAVIS_BUILD_NUMBER"
 
 # push to repo and prevents any sensitive data from printing on the console.
