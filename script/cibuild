@@ -2,12 +2,18 @@
 set -e # halt script on error
 
 echo "Travis Branch: $TRAVIS_BRANCH"
-echo "Travis Pull Reques: $TRAVIS_PULL_REQUEST"
+echo "Travis Pull Request: $TRAVIS_PULL_REQUEST"
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
 if [ "$TRAVIS_PULL_REQUEST" == "true" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
-    echo "Skipping deploy; just doing a build."
-    bundle exec jekyll build --verbose
+    echo  "Travis should not deploy from pull requests. Skipping deploy; just doing a build!"
+    bundle exec jekyll build
+    exit 0
+fi
+
+if [ "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
+    echo "Travis should only deploy from the SOURCE_BRANCH ($SOURCE_BRANCH), not $TRAVIS_BRANCH. Skipping deploy; just doing a build!"
+    bundle exec jekyll build
     exit 0
 fi
 
@@ -37,3 +43,5 @@ git commit -a -m "Travis: #$TRAVIS_BUILD_NUMBER"
 
 # push to repo and prevents any sensitive data from printing on the console.
 git push --force origin ${DEPLOY_BRANCH}
+
+echo "Successfully deployed from SOURCE_BRANCH $SOURCE_BRANCH to DEPLOY_BRANCH $SOURCE_BRANCH"
