@@ -1,35 +1,73 @@
-  <!-- DocSearch Input -->
-    <a class="ui sub header noul" href="/docs/"><h3>Documentation</h3></a>
-    <div class="ui icon fluid input xo margin top" role="search">
-      <input id="docsearch" type="search" placeholder="Search Docs">
-      <i class="search icon"></i>
+<!-- DocSearch Input -->
+  <a class="ui sub header noul" href="/docs/"><h2>Documentation</h2></a>
+  <div class="ui input xo margin top" role="search">
+    <input id="docsearch" type="search" placeholder="Search Docs">
+  </div>
+
+{% assign crumb = page.path | remove: page.name | remove: 'docs/' | remove: '/' | remove: 'add-entry' | remove: 'edit-entry' | remove: 'edit-entry' | remove: 'local-install' %}
+
+<div class="ui accordion xo padding top threefold">
+  <div class="ui sub header title {% if crumb == 'introduction' %} active {% endif %} navtitle">
+    <i class="dropdown icon"></i>
+    Introduction
+  </div>
+  <div class="content {% if crumb == 'introduction' %} active {% endif %}">
+    <div class="ui vertical text menu">
+
+        <a class="item {% if page.title == 'Overview of the DIYbiosphere' %} active {% endif %}" {% if page.title == 'Overview of the DIYbiosphere' %} id="scrollnav" {% endif %} style="color: #080808" href="/docs/introduction/overview/">Overview</a>
+
+        <a class="item {% if page.title == 'Getting Started' %} active {% endif %}" {% if page.title == 'Getting Started' %} id="scrollnav" {% endif %} style="color: #080808" href="/docs/introduction/getting-started/">Getting Started</a>
+
     </div>
-  <div class="ui fluid small text vertical menu">
+  </div>
+  <div class="ui sub header title {% if crumb == 'basics' %} active {% endif %} navtitle">
+    <i class="dropdown icon"></i>
+    The Basics
+  </div>
+  <div class="content {% if crumb == 'basics' %} active {% endif %}">
+    <div class="ui vertical text menu">
+        <a class="item {% if page.title == 'Entries in DIYbiosphere' %} active {% endif %}" {% if page.title == 'Entries in DIYbiosphere' %} id="scrollnav" {% endif %} style="color: #080808" href="/docs/basics/entries/">Entries</a>
 
-    <!-- Introduction -->
+        <a class="item {% if page.title == 'Software in DIYbiosphere' %} active {% endif %}" {% if page.title == 'Software in DIYbiosphere' %} id="scrollnav" {% endif %} style="color: #080808" href="/docs/basics/software/">Software</a>
 
-    <div class="ui sub header xo padding top"><h5>Introduction<h/5></div>
-      <a class="item" id="sb_edit-content" href="/docs/introduction/overview/">Overview</a>
-      <a class="item" id="sb_add-entry" href="/docs/introduction/getting-started/">Getting Started</a>
+        <a class="item {% if page.title == 'Documentation in DIYbiosphere' %} active {% endif %}" {% if page.title == 'Documentation in DIYbiosphere' %} id="scrollnav" {% endif %} style="color: #080808" href="/docs/basics/documentation/">Documentation</a>
 
-  <!-- Basics -->
-    <div class="ui sub header xo padding top"><h5>The Basics</h5></div>
-        <a class="item" id="sb_library" href="/docs/basics/entries/">Entries</a>
-        <a class="item" id="sb_development" href="/docs/basics/software/">Software</a>
-        <a class="item" id="sb_documentation" href="/docs/basics/documentation/">Documentation</a>
-        <a class="item" id="sb_design" href="/docs/basics/design/">Design</a>
-  <!-- Guides -->
-    <div class="ui sub header xo padding top"><h5>Guides</h5></div>
-        <a class="item" id="sb_contributing" href="/docs/guides/contributing/">Contributing</a>
-        <a class="item" id="sb_contributing" href="/docs/guides/writing/">Writing</a>
-        <a class="item" id="sb_workflow" href="/docs/guides/workflow/">Ticket Workflow</a>
-        <a class="item" id="sb_eli5" href="/docs/guides/eli5/">GitHub ELI5</a>
-  <!-- Tutorials -->
-    <div class="ui sub header xo padding top"><h5>Tutorials</h5></div>
-        <a class="item" id="sb_add-entry" href="/docs/tutorials/add-entry/">Adding Entries</a>
-        <a class="item" id="sb_edit-content" href="/docs/tutorials/edit-content/">Editing Entries</a>
-        <a class="item" id="sb_note-copyright" href="/docs/tutorials/noting-copyright/">Noting Copyright</a>
-        <a class="item" id="sb_install" href="/docs/tutorials/install/">Installing Locally</a>
+        <a class="item {% if page.title == 'Design in DIYbiosphere' %} active {% endif %}" {% if page.title == 'Design in DIYbiosphere' %} id="scrollnav" {% endif %} style="color: #080808" href="/docs/basics/design/">Design</a>
+
+    </div>
+  </div>
+  <div class="ui sub header title {% if crumb == 'guides' %} active {% endif %} navtitle">
+    <i class="dropdown icon"></i>
+    Guides
+  </div>
+  <div class="content {% if crumb == 'guides' %} active {% endif %}">
+    <div class="ui vertical text menu">
+
+        <a class="item {% if page.title == 'Contributing Guide' %} active {% endif %}" {% if page.title == 'Contributing Guide' %} id="scrollnav" {% endif %} style="color: #080808" href="/docs/guides/contributing/">Contributing</a>
+
+        <a class="item {% if page.title == 'Writing Entries' %} active {% endif %}" {% if page.title == 'Writing Entries' %} id="scrollnav" {% endif %} style="color: #080808" href="/docs/guides/writing/">Writing Entries</a>
+
+        <a class="item {% if page.title == 'Ticket Workflow' %} active {% endif %}" {% if page.title == 'Ticket Workflow' %} id="scrollnav" {% endif %} style="color: #080808" href="/docs/guides/workflow/">Ticket Workflow</a>
+
+        <a class="item {% if page.title == 'GitHub ELI5' %} active {% endif %}" {% if page.title == 'GitHub ELI5' %} id="scrollnav" {% endif %} style="color: #080808" href="/docs/guides/github-eli5/">GitHub ELI5</a>
+
+    </div>
+  </div>
+  <div class="ui sub header title {% if crumb == 'tutorials' %} active {% endif %} navtitle">
+    <i class="dropdown icon"></i>
+    Tutorials
+  </div>
+  <div class="content {% if crumb == 'tutorials' %} active {% endif %}">
+    <div class="ui vertical text menu">
+
+        <a class="item {% if page.title == 'Adding Entries' %} active {% endif %}" {% if page.title == 'Adding Entries' %} id="scrollnav" {% endif %} style="color: #080808" href="/docs/tutorials/add-entry/users/">Adding Entries</a>
+
+        <a class="item {% if page.title == 'Editing Entries' %} active {% endif %}" {% if page.title == 'Editing Entries' %} id="scrollnav" {% endif %} style="color: #080808" href="/docs/tutorials/edit-entry/users/">Editing Entries</a>
+
+        <a class="item  {% if page.title == 'Installing Locally' %} active {% endif %}" {% if page.title == 'Installing Locally' %} id="scrollnav" {% endif %} style="color: #080808" href="/docs/tutorials/local-install/macos/">Installing Locally</a>
+
+    </div>
+  </div>
 
 
-</div> <!-- close menu -->
+</div>

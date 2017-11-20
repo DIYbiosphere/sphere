@@ -1,9 +1,9 @@
 ---
-title: Ticket Workflow
 layout: docs
 comments_issue: 27
 edit_issue: 28
-crumb: guides
+title: Ticket Workflow
+draft: true
 ---
 
 Members of the [Development Community][community] have the **responsability** to organize tickets to facilitate the collective workflow of the development of the project. Tickets are classified and organized by [Labels](#labels), [Projects](#projects) and [Milestones](#milestones)
@@ -25,7 +25,7 @@ Labels are for categorizing and filtering tickets. The following labels are curr
 - {% include label/question.html %} are questions that need answers
 - {% include label/resolution.html %} are tickets that need to be resolved soon
 
-{% include info.html title="Labels can be for PRs" text="Labels will be applied mostly to Issues. However, when PRs require review or encounter problems in merging, labels may be applied to indicate any additional information (like 'critical', 'help wanted')." %}
+{% include messages/info.html title="Labels can be for PRs" text="Labels will be applied mostly to Issues. However, when PRs require review or encounter problems in merging, labels may be applied to indicate any additional information (like 'critical', 'help wanted')." %}
 
 ## Projects
 Projects help manage tickets in a KANBAN style using workflow columns and cards that can point to Issues, Pull Requests, or text notes. The ones we have now are:

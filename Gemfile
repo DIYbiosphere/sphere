@@ -15,6 +15,7 @@ gem 'jekyll-git_metadata'
 gem 'jekyll-github-metadata', '~> 2.4'
 gem 'json'
 gem 'geokit'
+gem 'rouge'
 
 
 group :jekyll_plugins do

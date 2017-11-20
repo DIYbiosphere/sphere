@@ -18,6 +18,9 @@ github_comments_repository:  diybiosphere/talk
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 highlighter: rouge
 
 github: [metadata]

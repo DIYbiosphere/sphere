@@ -1,3 +1,8 @@
-<div class="ui inverted segment">
-  <p>I'm here to tell you something, and you will probably read me first.</p>
+<div id="{{ include.code | sha1 }}" class="ui tertiary segment">
+  <a class="ui right corner label">
+  <i class="far fa-copy icon"></i>
+</a>
+  <code>
+  {{ include.code | markdownify }}
+  </code>
 </div>

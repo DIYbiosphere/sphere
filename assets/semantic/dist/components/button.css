@@ -205,7 +205,7 @@
 .ui.disabled.button:hover,
 .ui.disabled.active.button {
   cursor: default;
-  opacity: 0.45 !important;
+  opacity: 0 !important;
   background-image: none !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;

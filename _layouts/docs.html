@@ -4,21 +4,31 @@ layout: default
 
 
 <div class="ui container xo top padding">
-    <div class="ui divided padded relaxed grid">
+    <div class="ui divided relaxed grid">
       <div class="streched row xo padding top twofold">
-        <div class="four wide column">
-            <aside>
-                {% include sidebar.html %}
-            </aside>
-        </div> <!-- close column -->
+            <div class="four wide column">
+              <div class="ui rail">
+                <div class="ui sticky">
+                <aside>
+                    {% include sidebar.html %}
+                </aside>
+              </div>
+            </div>
+          </div>
 
-        <div class="twelve wide column">
-            <article>
-              {% include contentMenu.html %}
+            <div class="twelve wide column">
+              <div id="context">
+                <article class="post__article">
+                  {% if page.draft == true %}
+                    {% include messages/needs-editing.html %}
+                  {% endif %}
+                  {% include contentMenu.html %}
 
-              {% include contentTab.html %}
-            </article>
-        </div>
+                  {% include contentTab.html %}
+                </article>
+            </div>
+          </div>
+
       </div>
     </div> <!-- close grid -->
 

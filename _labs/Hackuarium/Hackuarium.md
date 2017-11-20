@@ -3,12 +3,12 @@ title: Hackuarium
 manager:
 subtitle: An Open Laboratory for DIY Biology (And Beyond)
 website: http://www.hackuarium.ch/en/
-call-to-action:
+promotions:
   - button: Join our Open Meetups
-    description: 'Come visit on _OpenHackuarium_ night every Wednesday, from 7:30-10:30 '
+    text: 'Come visit on _OpenHackuarium_ night every Wednesday, from 7:30-10:30 '
     URL: http://wiki.hackuarium.ch/w/Main_Page
 start-date: 2014
-host-org: "[UniverCite](http://univercity.ch/)"
+host-org: '[UniverCite](http://univercity.ch/)'
 address: Chemin du Closel 5
 directions:
 postcode: 1020 Renens
@@ -17,8 +17,6 @@ country: Switzerland
 email: hello@hackuarium.ch
 blog: https://medium.com/hackuarium-diybio
 wiki: http://wiki.hackuarium.ch/w/Main_Page
-slack:
-meetup:
 twitter: https://twitter.com/hackuarium
 facebook: https://www.facebook.com/hackuarium
 instagram: https://www.instagram.com/hackuarium/

@@ -14,13 +14,20 @@ before_install:
 
 before_script:
   - chmod +x ./script/cibuild
+  - chmod +x ./script/gh_pages_push
 
-script: ./script/cibuild
+script:
+   - ./script/cibuild
 
-# branch whitelist
-branches:
-  only:
-  - master # builds only master branches
+  after_success: ./script/gh_pages_push
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+  - GITHUB_REPO: github.com/DIYbiosphere/sphere.git
+  - DEPLOY_BRANCH: gh-pages
+  - SOURCE_BRANCH: master
+
 
 exclude: [vendor]
 

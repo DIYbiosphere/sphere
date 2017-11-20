@@ -22,7 +22,7 @@ We use GitHub's Issues to organize and manage the development of the project, an
 ## Slack
 Is a very popular communication platform that offers integration with other services including GitHub notifications. We have our own Slack: [DIYbiosphere.slack.com][slack]. You have to [request an invite][invite], which you receive by email. You can join any channel and specify your notification preferences. Post your message in a channel or DM other users.
 
-{% include info.html title="Gitter vs Slack" text="For the moment, there is no preference on what communication platform will be used more often. As the project gains members and contributors, the most popular communication platform will win." %}
+{% include messages/info.html title="Gitter vs Slack" text="For the moment, there is no preference on what communication platform will be used more often. As the project gains members and contributors, the most popular communication platform will win." %}
 
 <a class="noelink" href="https://twitter.com/DIYbiosphere"><button class="ui right floated tiny right labeled twitter icon button"><i class="twitter icon"></i>Follow us on Twitter</button></a>
 

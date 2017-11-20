@@ -3,9 +3,9 @@ title: Genspace
 subtitle: New York's Community Lab
 website: http://genspace.org/
 since: 2010
-call-to-action:
+promotions:
   - button: Take a Class
-    description: Genspace instructors come from top institutions around the New York
+    text: Genspace instructors come from top institutions around the New York
       City area to teach advanced biology in an easy-to-understand, hands-on way.
     URL: https://www.genspace.org/classes-alt
 type-org: Non-profit

@@ -11,6 +11,7 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
 
   <!-- Semantic UI -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="{{ "/assets/semantic/dist/semantic.min.css" | prepend: site.baseUrl }}">
 
   <!-- FONTS -->
@@ -38,6 +39,7 @@
 
   <!-- Algolia InstantSearch -->
   {% if page.layout == 'entries' %}
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.2.4/dist/instantsearch.min.js"></script>
   {% endif %}
 
   <!-- Algolia DocSearch -->
@@ -56,13 +58,5 @@
     ga('send', 'pageview');
   </script>
 
-  <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>DIYbiosphere</ShortName>
-  <Description>Open source project to collect DIYbio initiative</Description>
-  <Url type="text/html" method="get" template="http://sphere.diybio.org?q={searchTerms}"/>
-  <InputEncoding>UTF-8</InputEncoding>
-  <Image height="32" width="32"type="image/png">/assets/img/diybiosphere-icon.png</Image>
-  <link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="DIYbiosphere">
-</OpenSearchDescription>
 
 </head>

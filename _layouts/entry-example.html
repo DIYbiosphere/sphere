@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<!-- add header if available -->
+
+{% if page.header %}
+<div style="background-image: url({{ page.header }}); background-repeat: no-repeat;  height: 250px; background-size: cover; background-attachment: fixed;">
+</div>
+{% endif %}
+
+<article>
+  <div class="ui grid container xo top padding">
+    <div class="five wide column">
+      {% include info-box.html %}
+      {% include keywords.html %}
+      {% include promotions.html %}
+    </div>
+    <div class="eleven wide column">
+
+      {% include contentMenu.html %}
+
+      {% include contentTab.html %}
+
+
+    </div>
+  </div>
+</article>

@@ -1,6 +1,7 @@
 ---
 title: Permission Levels
 layout: docs
+draft: true
 crumb: guides
 summary: The roles and privileges of our contributing and developing community
 ---

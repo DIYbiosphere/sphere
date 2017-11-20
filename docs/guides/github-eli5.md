@@ -1,9 +1,9 @@
 ---
-title: GitHub, Explain Like I'm 5 (ELI5)
 layout: docs
 comments_issue: 29
 edit_issue: 30
-crumb: guides
+title: GitHub ELI5
+draft: true
 ---
 
 Don't Panic! The essentials for working on the DIYbiosphere are pretty simple. You could go by without reading this guide and only follow our tutorials. However, understanding a few technicals are very helpful for doing things with more confidence and for building expertise. So let's get to it!
@@ -44,7 +44,7 @@ fetch a remote repository by cloning. the history log. When someone pushes to a 
 a subfolder in your repo named `.git` where it stores  Every time you want to save a version of a file in the revision history you have to **commit** the changes to Git. You can **compare** changes, and revert them if desired.
 
 
-{% include help.html title="Using a server is better but not essential" text="Technically, you could send a copy of your repo by email to your collaborator. She downloads the repo to her computer, commits her changes, and send it back to you to merge the changes. Using a server, or the cloud." %}
+{% include messages/question.html title="Using a server is better but not essential" text="Technically, you could send a copy of your repo by email to your collaborator. She downloads the repo to her computer, commits her changes, and send it back to you to merge the changes. Using a server, or the cloud." %}
 
 
 

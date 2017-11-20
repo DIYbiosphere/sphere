@@ -1,35 +1,26 @@
 ---
-title: Editing Content
 layout: docs
-crumb: tutorials
-tab: non-members
-summary: Instructions for how to add a new entry
+tab: users
+title: Editing Entries
 ---
 
 {% include tabs/edit-content-tabs.md %}
 
 
-{% include warning.html title="Before you begin, you should:" text="Have a [GitHub account](https://github.com/join), abide by our [Code of Conduct](http://sphere.diybio.org/docs/about/coc/), and agree to our [Copyright Terms](http://sphere.diybio.org/docs/about/copyright/terms-of-use/)." %}
+1. **Find the file you want to edit:** Go to the webpage of the entry you want to edit. Click the `Last edit xx-xxx-xx` menu tab. There maybe a discussion of editing the page you can use as a guide. Then click the `Edit this page` button, it will take you to GitHub
 
-1. **Fork** the [sphere] repository to make changes
-2. In your forked copy, open the _library folder, find the file that you want to edit. and Click Edit
-4. **Make your changes**
-5. To save your changes **Commit changes**. Don't forget to add in a title.
-6. When you are ready to merge your changes to the original repository **Submit a Pull Request (PR)**. Don't forget to add a title and in the description, please
-7. A member will revise your PR, request additional commits from you or approve the PR and merge your changes to the original library.
+{% include messages/info.html title="Github will let you know you don't have 'write' access to the project" text="This just means the new file is saved under _your copy of the project_ ('fork') and can later be merged with a 'pull request'." %}
 
-**Rejoice!** your entry is now part of the DIYbiosphere library! :clap: :clap:
+{:start="2"}
+2. **Edit content:** Make changes to the _front matter_ (data keys in between `---`) and update the entry in _markdown text_. The `Preview` markdown will only render the text and the front matter will be inside a two row table
+
+{% include messages/question.html title="On writing cool entries" text="Our [Writing Guide] specifies how to add your _logo_, a _header_, _social media links_, and _promotion boxes_, etc. You check our example entry: the file [here](https://raw.githubusercontent.com/DIYbiosphere/sphere/master/docs/EntryExample.md) and the rendered webpage [here](/docs/tutorials/entryexample/Avocadolab/)" %}
+
+{:start="3"}
+3. **Propose file change** When you are finished editing, at the bottom of the page, leave the proposed tile, but add a description of your changes. Then click `Propose new file`
+4. **Create Pull request** If you are able to merge, click on `Create Pull Request`. You can add additional comments to your pull request if you want to
+5. **Wait for Merge** A member will revise your Pull Request (PR), request additional edits from you, or approve the PR and merge your changes to the master branch.
+
+**Rejoice!** your changes are now part of DIYbiosphere! :clap: :clap:
 
 Thank you for your contribution! :heart:
-
-
-[helpful hints]: /docs/help/hints/
-[sphere]: https://github.com/DIYbiosphere/sphere
-[add an entry]: /docs/help/tutorials/add-entry
-[6 steps]: /docs/help/tutorials/add-entry-member
-[4 steps]: /docs/help/tutorials/add-entry-teams
-[development community]: #
-[entry template]: https://gist.githubusercontent.com/ahuacatl/954444c7f15a27190b0fd52e0021a58c/raw/91412b5ba78fb082b349776cf0a75d3c82f35da0/front-matter-template.md
-[classification of entries]: #
-[naming convention]: #
-[installation]: /docs/help/install/

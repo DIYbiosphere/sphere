@@ -1,6 +1,7 @@
 ---
 title: Support
 layout: docs
+draft: true
 summary: Guides and help for working with the DIYbiosphere project
 ---
 

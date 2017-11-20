@@ -1,51 +1,52 @@
 ---
-title: Entries in DIYbiosphere
 layout: docs
-crumb: basics
 comments_issue: 15
 edit_issue: 16
-summary: Components and organization of Entries
+title: Entries in DIYbiosphere
+draft: true
 ---
 
-Each initiative has its own _Entry_. Entries are accessible as webpages at [sphere.diybio.org][sphere] and as text files in the [sphere repository][gh_repo] in GitHub where they can be edited as well (see how to [edit content][edit]).
+Each initiative added to the repository has its own _Entry_. These are added as text files in the [sphere repository][gh_repo] which are rendered as webpages accessible at [sphere.diybio.org][sphere].
 
 ## Entry Collections
-A series of _Entry Collections_ are used to aggregate similar initiatives.
+A series of _Collections_ are used to aggregate similar initiatives.
 
-- <i class="travel icon"></i> **Projects**: have particular aims, such as designing an instrument or an educational workshop.
-- <i class="shop icon"></i> **Products**: are consumer products and services that are produced by or for the DIYbio community
-- <i class="rocket icon"></i> **Startups**: are entrepreneurial ventures and generally concern products or services
-- <i class="lab icon"></i> **Labs**: are dedicated physical spaces with materials and equipment dedicated to support DIYbio related activities. Labs can be static or mobile.
-- <i class="leaf icon"></i> **Incubators**: are organizations and spaces that help projects and startups to develop
-- <i class="users icon"></i> **Groups**: are associations of people (online and offline) that are interested in DIYbio related topics or activities. A group does not have a dedicated Lab space, but they may plan to have one.
-- <i class="share alternate icon"></i> **Networks**: a website, service or organization that facilitates communication and collaboration between individuals and organizations with interests in DIYbio.
-- <i class="ticket icon"></i> **Events**: Global or regional events that are by and/or for the DIYbio community, like (un)conferences, camps, hackathons, and accelerators. Only include if something shareable is produced, like proceedings, videos or posters.
-- <i class="umbrella icon"></i> **Others**: Is an umbrella term for all the rest. Eventually as new entries begin to define themselves a new collection will be created to accommodate them.
+- <i class="far fa-briefcase icon"></i> **Projects**: have particular aims, such as designing an instrument or an educational workshop.
+- <i class="far fa-rocket icon"></i> **Startups**: are entrepreneurial ventures and generally concern products or services
+- <i class="far fa-flask icon"></i> **Labs**: are dedicated physical spaces with materials and equipment dedicated to support DIYbio related activities. Labs can be static or mobile.
+- <i class="far fa-leaf icon"></i> **Incubators**: are organizations and spaces that help projects and startups to develop
+- <i class="far fa-users icon"></i> **Groups**: are associations of people (online and offline) that are interested in DIYbio related topics or activities. A group does not have a dedicated Lab space, but they may plan to have one.
+- <i class="far fa-share-alt icon"></i> **Networks**: a website, service or organization that facilitates communication and collaboration between individuals and organizations with interests in DIYbio.
+- <i class="far fa-calendar-alt icon"></i> **Events**: Global or regional events that are by and/or for the DIYbio community, like (un)conferences, camps, hackathons, and accelerators. Only include if something shareable is produced, like proceedings, videos or posters.
+- <i class="far fa-umbrella icon"></i> **Others**: Is an umbrella term for all the rest. Eventually as new entries begin to define themselves a new collection will be created to accommodate them.
 
-{% include info.html title="Jekyll Collections" text="As [jekyll collections](https://jekyllrb.com/docs/collections/) they are located in the root folder preceded by an underscore, e.g.: `_labs` and the collections are declared in the `_config.yml` file." %}
+## Anatomy of an Entry File
+Each entry file has two sections. The first section is the _front matter_ and is in between three dashes `---`, it stores data and other variables. The second section is the _markdown text_, which contains the description, photos and other content of the entry. The platform interprets the front matter and the markdown text to render the file into a webpage.
 
-## Type of Organization
-Initiatives are categorized on the _Type of Organization_:
+### Front Matter
+The front matter is written in _YAML_, a programming language that declares data in a simple format (simple [YAML guide](https://learnxinyminutes.com/docs/yaml/)). The basic format is `key: value`.
 
-- **Community/Grassroots**
-- **Primary/Secondary School**
-- **University/College**
-- **Non-Profit/NGO**
-- **For-Profit**
-- **Museum**
-- **State/Local Goverment**
-- **Other**
+```yaml
+---
+key: value
+list:
+  - one item
+  - two item
+contacts:
+  - name: Frida
+    email: frida@kahlo.mx
+    address: Mexico
+special-characters: 'values with special characters (:\/-_?...) must be enclosed in quotation marks'    
+---
 
-## Anatomy of an Entry
-The information contained in each entry is divided in two parts, the _data_ (data fields or front matter) and the _description_ (body of text).
-<i class="square outline icon"></i> infobox <i class="align left icon"></i> body of text
+```
 
-### Entry Data
-An entry shows data in the _infobox_; a box in the top-right hand corner of the webpage. In the entry's file, the data is collected through pre-defined variables in the _front matter_; which is the text between two lines of three consecutive dashes `---`. Not all the variables in the front matter are shown in the infobox. **Variables** in the front matter and the name of the _**data field**_ in the infobox can be different, these are all of them:
-
-
-### Entry Description
+### Markdown Text
 The body of text refers to the written description of the initiative.
 
   - **About**
   - **History**
+
+
+## Rendering the webpage
+Keys are rendered into the _infobox_, _social icons_, _tags_, _promotions_, and others.
