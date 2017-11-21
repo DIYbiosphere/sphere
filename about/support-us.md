@@ -1,7 +1,6 @@
 ---
-title: Support Us
 layout: page
-crumb: none
+title: Support Us
 ---
 
 Interested in helping our project? There are several ways you can support us!

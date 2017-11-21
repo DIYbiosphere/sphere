@@ -1,7 +1,8 @@
 ---
-title: Installing Locally
 layout: docs
 tab: windows
+title: Installing Locally
+draft: true
 ---
 
 {% include tabs/install-tabs.md %}

@@ -5,7 +5,7 @@ comments_issue: 7
 edit_issue: 8
 ---
 
-The DIYbiosphere is an [open-source][sphere] and participatory project, which means anyone can contribute to its content and development. As an open organization we want to be able to fluidly coordinate a large number of contributors while maintaining and striving towards a shared vision for the project.
+The DIYbiosphere is an [open-source][gh_repo] and participatory project, which means anyone can contribute to its content and development. As an open organization we want to be able to fluidly coordinate a large number of contributors while maintaining and striving towards a shared vision for the project.
 
 ## Our Mission
 To provide an open platform for DIYbio initiatives to **share** and **learn** about and from each other. To encourage the DIYbio community to engage with one another and to facilitate the free flow of knowledge and resources. We want to generate opportunities and potentials by creating a common project to collaborate on. To have a shared space where the DIYbio community can connect, meet, support, and work together.

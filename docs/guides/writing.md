@@ -6,12 +6,6 @@ title: Writing Entries
 draft: true
 ---
 
-{% assign name = page.name | remove: '.md' %}
-
-
-{% assign crumb = page.url | remove: name | remove: 'docs/' | remove: '/' %}
-
-
 To write entries all you need is a GitHub account.
 Entries are written in a basic text file with two sections. The first, the **front matter** is between two lines of three consecutive dashes `---` represents datasets in simple `key: value` pairs written in in _YAML_. The second part is the **markdown text**  written in _Markdown Syntax_. An entry can have several components rendered from the data in the front matter and the text in markdown. The elements of an entry page are as follows (hover over the image to remove labels):
 

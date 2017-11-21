@@ -2,7 +2,8 @@
 layout: docs
 comments_issue: 23
 edit_issue: 24
-title: Contributing Guide
+title: Contributing Guide # Keep links in this page, only markdown syntax. File is copied into .github folder to appear in the repo
+draft: true
 ---
 
 We :heartpulse: contributions!

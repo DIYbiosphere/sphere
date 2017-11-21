@@ -2,12 +2,12 @@
 layout: page
 comments_issue: 39
 edit_issue: 40
-title: Code of Conduct
+title: Code of Conduct # Keep links in this page, only markdown syntax. File is copied into .github folder to appear in the repo
 ---
 
 Contributors of the DIYbiosphere must abide by our Code of Conduct\*. It applies to all project and public spaces when representing or engaging with the project or its community, online and offline.
 
-As part of keeping to [Our Values], we are committed to having a welcoming environment for all people to contribute, and we pledge to value them as human beings and foster an atmosphere of kindness, cooperation, and understanding. We want to sustain a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion or sexual identity and orientation.
+As part of keeping to [Our Values](/about/philosophy#our-values), we are committed to having a welcoming environment for all people to contribute, and we pledge to value them as human beings and foster an atmosphere of kindness, cooperation, and understanding. We want to sustain a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion or sexual identity and orientation.
 
 Unacceptable behavior includes, but is not limited to:
 
@@ -19,12 +19,12 @@ Unacceptable behavior includes, but is not limited to:
 - Trolling, insulting, or derogatory comments
 - Personal or political attacks
 - Publishing others' private information without explicit permission to do so (threats included)
-- Advocating for, or encouraging, any of the above behaviour
+- Advocating for, or encouraging, any of the above behavior
 
-In general, any conduct that could be considered inappropriate in a professinal setting is unacceptable.
+In general, any conduct that could be considered inappropriate in a professional setting is unacceptable.
 
 ### Dealing with Unacceptable Behavior
-When instances of unaccaptable behavior occur towards you or someone else, you can deal with it:
+When instances of unacceptable behavior occur towards you or someone else, you can deal with it:
 
 #### **Directly**
 Address the wrongdoer, sharing your feelings in response to their behavior and how it hurts you or others. Do not ridicule, insult, etc. On the other hand, if you are the wrongdoer, whether you get called out or you realize on your own, you should apologize directly and ask how you can make it up to that person.
@@ -32,13 +32,10 @@ Address the wrongdoer, sharing your feelings in response to their behavior and h
 Unacceptable material or language may be directly removed or rejected by members of the [development community].
 
 #### **Report it**
-Contact a [project director][gh_directors]\*\* if you do not feel comfortable addressing the wrongdoer. Contributors with unacceptable behavior ­­­— be it inappropriate, threatening, offensive or harmful — shall be banned temporarily or permanently. Project directors are obliged to maintain the confidentiality of the incident's reporter, and commited to fairly and consistently reviewing all reports and applying these principles to the project, those who don't may be suspended or removed as directors.
-
-{% include messages/question.html title="TL;DR: Be respectful" text="Don't be gross or rude to others; offenses can be dealt with directly or by reporting it to a [project director][gh_directors]\*\*" %}
+Contact a [director](/about/community) if you do not feel comfortable addressing the wrongdoer. Contributors with unacceptable behavior ­­­— be it inappropriate, threatening, offensive or harmful — shall be banned temporarily or permanently. Project directors are obliged to maintain the confidentiality of the incident's reporter, and committed to fairly and consistently reviewing all reports and applying these principles to the project, those who don't may be suspended or removed as directors.
 
 
 - - -
 \* Based on the [Contributor Covenant Code of Conduct v1.4.0][1]. <br>
-\*\* If you are not a member of the DIYbiosphere organization, then you may report offenses to @sabgaby
 
 [1]: http://contributor-covenant.org/version/1/4/
