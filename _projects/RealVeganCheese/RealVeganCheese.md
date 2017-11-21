@@ -8,7 +8,7 @@ city: Oakland
 state: California
 country: United States
 twitter:
-facebook:
+facebook: https://www.facebook.com/realvegancheese/
 wiki: https://wiki.realvegancheese.org/index.php/Real_Vegan_Cheese
 tags:
 - citizen science
