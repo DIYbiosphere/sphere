@@ -5,13 +5,13 @@ website: https://metafluidics.org/
 start-date: 2017
 type-org: academic
 city: Boston
-country: USA
+country: United States
 twitter: https://twitter.com/metafluidics
 facebook: https://www.facebook.com/metafluidics
 tags: 
   - hardware
 ---
 
-##About
+## About
 Metafluidics was built to provide a home for digital design files and all of the other information necessary to reproduce or remix a microfluidic device.
 
