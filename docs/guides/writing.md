@@ -6,12 +6,6 @@ title: Writing Entries
 draft: true
 ---
 
-{% assign name = page.name | remove: '.md' %}
-
-
-{% assign crumb = page.url | remove: name | remove: 'docs/' | remove: '/' %}
-
-
 To write entries all you need is a GitHub account.
 Entries are written in a basic text file with two sections. The first, the **front matter** is between two lines of three consecutive dashes `---` represents datasets in simple `key: value` pairs written in in _YAML_. The second part is the **markdown text**  written in _Markdown Syntax_. An entry can have several components rendered from the data in the front matter and the text in markdown. The elements of an entry page are as follows (hover over the image to remove labels):
 
@@ -89,7 +83,6 @@ The _infobox_ is the box on the left hand side of the entry. It can show several
 
 ## Social Icons
 Links to any kind of website, social media, or contact information can be presented here.
-
 
 ## Tags
 You are probably familiar with _tags_, they are used as keywords to easily categorize entries. A good rule of thumb is to have maximum 10 tags. In addition, it is good practice to search the current tags used by other entries and reuse them if applicable.
