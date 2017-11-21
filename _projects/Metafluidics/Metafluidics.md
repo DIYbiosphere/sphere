@@ -13,4 +13,5 @@ tags:
 ---
 
 ##About
-Metafluidics was built to provide a home for digital design files and all of the other information necessary to reproduce or remix a microfluidic device.
+<p>Metafluidics was built to provide a home for digital design files and all of the other information necessary to reproduce or remix a microfluidic device.</p>
+
