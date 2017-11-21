@@ -21,3 +21,5 @@ title: Adding Entries
 **Rejoice!** your new entry is now part of DIYbiosphere! :clap: :clap:
 
 Thank you for your contribution! :heart:
+
+{% include video.html path="/assets/videos/add-entry-members.mp4" %}

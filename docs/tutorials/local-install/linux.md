@@ -1,9 +1,8 @@
 ---
-title: Installing Locally
 layout: docs
-crumb: tutorials
 tab: linux
-
+title: Installing Locally
+draft: true
 ---
 
 {% include tabs/install-tabs.md %}

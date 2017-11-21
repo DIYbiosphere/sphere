@@ -30,13 +30,44 @@
   {% endif %}
 </div>
 
-{% if page.layout == "entry" %}
+{% if page.layout == "entry" or page.layout == "entry-example" %}
 <div class="ui tab basic segment" data-tab="projects">
   <h2 class="ui header">Projects
     <div class="sub header">
       <em> by {{ page.title }}</em>
     </div>
   </h2>
+
+  {% if page.layout == "entry-example" %}
+  <div class="ui items">
+        <div class="item">
+          <div class="content">
+            <a class="header" href="{{ project.url }}">Avocado Toast</a>
+              <div class="description">
+                <p></p>
+                <p></p>
+              </div>
+            <div class="extra">
+              <div class="ui small labels">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <a class="header" href="{{ project.url }}">Guacamole</a>
+              <div class="description">
+                <p></p>
+                <p></p>
+              </div>
+            <div class="extra">
+              <div class="ui small labels">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  {% endif %}
 
   <div class="ui items">
     {% for project in site.projects %}
@@ -57,39 +88,13 @@
       {% endif %}
     {% endfor %}
   </div>
+
+
+
 </div>
   {% endif %}
-{% if page.layout == "entry-example" %}
-<div class="ui items">
-      <div class="item">
-        <div class="content">
-          <a class="header" href="{{ project.url }}">Avocado Toast</a>
-            <div class="description">
-              <p></p>
-              <p></p>
-            </div>
-          <div class="extra">
-            <div class="ui small labels">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <div class="content">
-          <a class="header" href="{{ project.url }}">Guacamole</a>
-            <div class="description">
-              <p></p>
-              <p></p>
-            </div>
-          <div class="extra">
-            <div class="ui small labels">
-            </div>
-          </div>
-        </div>
-      </div>
-</div>
-</div>
-{% endif %}
+
+
 
 
 

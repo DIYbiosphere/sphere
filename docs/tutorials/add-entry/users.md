@@ -27,4 +27,4 @@ title: Adding Entries
 
 Thank you for your contribution! :heart:
 
-{% include video.html path="/assets/videos/test.mp4" %}
+{% include video.html path="/assets/videos/add-entry-users.mp4" %}

@@ -24,3 +24,5 @@ title: Editing Entries
 **Rejoice!** your changes are now part of DIYbiosphere! :clap: :clap:
 
 Thank you for your contribution! :heart:
+
+{% include video.html path="/assets/videos/edit-entry-users.mp4" %}

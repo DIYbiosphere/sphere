@@ -1,8 +1,8 @@
 ---
-title: Contact Us
 layout: page
 comments_issue: 3
 edit_issue: 4
+title: Contact Us
 ---
 
 As part of [our values] we strive to maintain our communication as public as possible.
@@ -15,7 +15,7 @@ We use GitHub's Issues to organize and manage the development of the project, an
 <a class="noelink" href="https://gitter.im/DIYbiosphere/sphere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><button class="ui right floated tiny right labeled icon pink button"><i class="counterclockwise rotated align right icon"></i>Chat with us on Gitter</button></a>
 
 ## Gitter
-[Gitter] is a chat service. So far, we have a public chatroom for the sphere repository at [gitter.im/DIYbiosphere/sphere][gitter], and a chatroom for the DIYbiosphere Organization at [gitter.im/DIYbiosphere/](https://gitter.im/DIYbiosphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link) where only members can join. Post your message or Direct Message (DM) another user.
+[Gitter] is a chat service. So far, we have a public chatroom for the sphere repository at [gitter.im/DIYbiosphere/sphere][gitter]. Post your message or Direct Message (DM) another user.
 
 <a class="noelink" href="https://diybiosphere.herokuapp.com/"><button class="ui right floated tiny right labeled icon teal button"><i class="slack icon"></i>Join us on Slack</button></a>
 
