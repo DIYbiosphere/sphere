@@ -7,7 +7,7 @@ echo "Travis Pull Request: $TRAVIS_PULL_REQUEST"
 echo "Travis Pull Request Branch: $TRAVIS_PULL_REQUEST_BRANCH"
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
-if [ "$TRAVIS_PULL_REQUEST" == "true" ]; then
+if [ "$TRAVIS_EVENT_TYPE" == "pull_request" ]; then
     echo  "Travis should not deploy from pull requests. Skipping deploy; just doing a build!"
     bundle exec jekyll build
     exit 0
