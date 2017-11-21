@@ -90,7 +90,6 @@ The _infobox_ is the box on the left hand side of the entry. It can show several
 ## Social Icons
 Links to any kind of website, social media, or contact information can be presented here.
 
-{% include social-icons.html %}
 
 ## Tags
 You are probably familiar with _tags_, they are used as keywords to easily categorize entries. A good rule of thumb is to have maximum 10 tags. In addition, it is good practice to search the current tags used by other entries and reuse them if applicable.
