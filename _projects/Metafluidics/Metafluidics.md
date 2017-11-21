@@ -8,10 +8,9 @@ city: Boston
 country: USA
 twitter: https://twitter.com/metafluidics
 facebook: https://www.facebook.com/metafluidics
-tags: hardware
-  -
-  -
+tags: 
+  - hardware
 ---
 
-# Write here in Markdown
-
+##About
+Metafluidics was built to provide a home for digital design files and all of the other information necessary to reproduce or remix a microfluidic device.
