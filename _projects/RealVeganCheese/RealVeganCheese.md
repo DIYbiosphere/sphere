@@ -17,7 +17,7 @@ tags:
 
 ---
 
-{{ page.url }}
+
 
 ## About
 The goal of this project is to make real vegan cheese by engineering normal baker's yeast (S. cerevisiae) to express milk protein (casein), purifying the protein, creating a milk-substitute by blending in vegan replacements for lactose and milkfat, and finally turning the resulting milk-substitute into semi-hard cheese like gouda using the normal cheese-making process. 
