@@ -12,3 +12,6 @@ tags:
   - hardware
   -
 ---
+
+# About
+This project is one of the earliest diybio lab hardware projects
