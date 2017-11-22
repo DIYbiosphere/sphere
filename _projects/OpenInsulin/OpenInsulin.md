@@ -1,29 +1,18 @@
 ---
 title: Open Insulin
-tags:
-- citizen science
-- biohacking
-- bioart
-manager: 
-website: http://counterculturelabs.org/
+subtitle: We're a team of Bay Area biohackers working on newer, simpler, less expensive ways to make insulin.
+website: http://openinsulin.org/
 start-date: 2015
-host-org: Counter Culture Labs
-type-org: Community
-affiliates: "[Sudo Room](https://diybio.org/)"
-address: 4799 Shattuck
-directions: 
-postcode: 94114
+type-org: community
 city: Oakland
-state: California
 country: United States
-lat: 
-lng: 
-email: info@counterculturelabs.org
-wiki: https://counterculturelabs.org/wiki/Counter_Culture_Labs
-meetup: http://www.meetup.com/Counter-Culture-Labs/
-twitter: https://twitter.com/countrcultrlabs
-facebook: https://www.facebook.com/CounterCultureLabs
+twitter:
+facebook: https://www.facebook.com/openinsulin/
+tags:
+  - medicine
+  - synbio
 ---
 
----
-Text taken from initiative's website
+# About
+We believe that insulin should be freely available to anybody who needs it. So, we're developing the first freely available, open protocol for insulin production. We hope our research will be the basis for generic production of this life-saving drug. Additionally, we hope our work inspires other biohackers to band together and create things nobody has ever thought of before!
+
