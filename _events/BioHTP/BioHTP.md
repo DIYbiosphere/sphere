@@ -14,3 +14,4 @@ tags:
 ---
 
 ## About
+The event is typically held in the Bay Area

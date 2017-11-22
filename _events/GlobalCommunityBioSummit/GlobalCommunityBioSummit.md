@@ -14,3 +14,4 @@ tags:
 ---
 
 ## About
+First event was at MIT Media Lab in September of 2017
