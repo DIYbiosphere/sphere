@@ -6,7 +6,7 @@ start-date: 2014
 type-org: company
 city: NYC
 country: United States
-twitter: https://twitter.com/OpenTrons_
+twitter: https://twitter.com/OpenTrons\_ 
 facebook: https://www.facebook.com/opentronslabworks/
 tags:
   - hardware
