@@ -1,19 +1,33 @@
 ---
+layout: entry-example
+permalink: /docs/tutorials/AvocadoLab/AvocadoLab
 title: Avocado Lab
+subtitle: Experimenting with avocados in every way
+logo: /docs/tutorials/AvocadoLab/AvocadoLab-logo.png
+header: /docs/tutorials/AvocadoLab/AvocadoLab-header.png
 website: http://www.avocadolab.com
 start-date: 2001
-host-org: "[Tree Labs](http://treelabs.com)"
+host-org: '[Tree Labs](http://treelabs.com)'
 type-org: Community
 city: Morelia
 state: Michoacan
 country: Mexico
-blog: http://www.avocado.com/blog
+blog: http://www.avocadolab.com/blog
 email: info@avocadolab.com
 twitter: http://twitter.com/avocadolab
 tags:
 - food lab
 - citizen science
 - fruits
+promotions:
+  - button: Go to recipe
+    text: Learn how to make the yummiest avocado toast! And to top it off with a nice poached egg
+    URL: http://gimmedelicious.com/2016/07/10/how-to-make-the-best-avocado-toast-with-eggs/
+    image: http://gimmedelicious.com/wp-content/uploads/2016/07/avocado-toast-7-of-13.jpg
+  - button: Yes yummy!
+    text: Make an authentic, the original, guacamole.
+    URL: http://www.thekitchn.com/recipe-guacamole-8649
+    color: '#43BB7A'   
 ---
 
 ## About

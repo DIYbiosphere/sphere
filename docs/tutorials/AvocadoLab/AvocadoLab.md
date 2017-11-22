@@ -1,10 +1,8 @@
 ---
-layout: entry-example
-permalink: /docs/tutorials/entryexample/AvocadoLab/
 title: Avocado Lab
 subtitle: Experimenting with avocados in every way
-logo: /docs/tutorials/entryexample/AvocadoLab-logo.png
-header: /docs/tutorials/entryexample/AvocadoLab-header.png
+logo: /docs/tutorials/AvocadoLab/AvocadoLab-logo.png
+header: /docs/tutorials/AvocadoLab/AvocadoLab-header.png
 website: http://www.avocadolab.com
 start-date: 2001
 host-org: '[Tree Labs](http://treelabs.com)'

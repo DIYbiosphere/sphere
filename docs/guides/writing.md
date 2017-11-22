@@ -9,7 +9,7 @@ draft: true
 To write entries all you need is a GitHub account.
 Entries are written in a basic text file with two sections. The first, the **front matter** is between two lines of three consecutive dashes `---` represents datasets in simple `key: value` pairs written in in _YAML_. The second part is the **markdown text**  written in _Markdown Syntax_. An entry can have several components rendered from the data in the front matter and the text in markdown. The elements of an entry page are as follows (hover over the image to remove labels):
 
-{% include other/reveal-image.html visible="/docs/tutorials/entryexample/EntryExampleAnatomy.png" hidden="/docs/tutorials/entryexample/EntryExample.png" %}
+{% include other/reveal-image.html visible="/docs/tutorials/AvocadoLab/EntryExampleAnatomy.png" hidden="/docs/tutorials/AvocadoLab/EntryExample.png" %}
 
 It is important to note that the rest of the elements come from the _front matter_.
 
@@ -32,12 +32,12 @@ Write a list:
 In case you need to format an image, table, or something else, you can add add `{: .class .another}` after the element. We use the Semantic-UI framework, e.g. for [images](https://semantic-ui.com/elements/image.html):
 
 
-![](/docs/tutorials/entryexample/image-example.jpg){: .ui .image .fluid}
-`![](/docs/tutorials/entryexample/image-example.jpg){: .ui .fluid .image}`
+![](/docs/tutorials/AvocadoLab/image-example.jpg){: .ui .image .fluid}
+`![](/docs/tutorials/AvocadoLab/image-example.jpg){: .ui .fluid .image}`
 
 
-![](/docs/tutorials/entryexample/image-example.jpg){: .ui .small .centered .image}
-`![](/docs/tutorials/entryexample/image-example.jpg){: .ui .small .centered .image}`
+![](/docs/tutorials/AvocadoLab/image-example.jpg){: .ui .small .centered .image}
+`![](/docs/tutorials/AvocadoLab/image-example.jpg){: .ui .small .centered .image}`
 
 
 #### Images with Copyright
