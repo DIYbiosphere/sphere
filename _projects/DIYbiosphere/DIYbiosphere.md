@@ -1,25 +1,20 @@
 ---
 title: DIYbiosphere
 subtitle: Connecting DIYbio all over the world
-comments_issue: 2
-edit_issue: 1
 website: http://sphere.diybio.org/
 start-date: 2016
-main-org:
-host-org: "[DIYbio.org](https://diybio.org/)"
-type-org: Non-profit
-affiliations: "[UNIGE](https://diybio.org/)"
+type-org: nonprofit
 city: Geneva
 country: Switzerland
+twitter: https://twitter.com/DIYbiosphere/
+facebook: 
+github: https://github.com/DIYbiosphere/sphere
+slack: https://slack.io.com/DIYbiosphere/
 tags:
   - database
   - open-source
   - software
   - website
-github: https://github.com/DIYbiosphere/sphere
-twitter: https://twitter.com/DIYbiosphere/
-slack: https://slack.io.com/DIYbiosphere/
-gitter: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link
 ---
 
 ## About
