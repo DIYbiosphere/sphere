@@ -2,93 +2,53 @@
 layout: docs
 comments_issue: 23
 edit_issue: 24
-title: Contributing Guide # Keep links in this page, only markdown syntax. File is copied into .github folder to appear in the repo
+title: Contributing Guide # Keep links in this page. Only markdown syntax. Copy file to .github folder as 'CONTRIBUTING.md'
 draft: true
 ---
 
-We :heartpulse: contributions!
+Thank you for considering contributing to DIYbiosphere! The project depends on the participation of the DIYbio community.
 
-_By contributing, you agree to abide to our [Code of Conduct] and consent to our [Copyright Terms]. In short, you agree to be respectful and to freely share your contributions!_
+There are many ways you can contribute, from adding and editing entries, writing tutorials, improving the documentation, submitting bug and broken link reports, feature requests or writing code to better the website. You _can_ submit questions as issues, but please consider first posing your question in [Gitter](https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link) or [Slack](https://diybiosphere.slack.com) ([request invite](https://diybiosphere.herokuapp.com)), where you can also directly message other contributors.
 
----
+## Ground Rules
+By contributing, you agree to abide to our [Code of Conduct](http://sphere.diybio.org/about/code-of-conduct) (COC) and consent to our [Contributor Terms](http://sphere.diybio.org/about/contributor-terms) (CT) set by our [Terms of Use](http://sphere.diybio.org/about/terms-of-use) (_aka_ Copyright).
 
-### Table of Contents
+> TL;DR (Too Long; Didn't Read)
+> - COC: Be kind and respectful. Gross, rude or inappropriate behavior will not be tolerated. Confront wrongdoers directly or report them to the [board of directors](http://sphere.diybio.org/about/community).
+> - CT: You freely share your contributions to the Repository under the [MIT license](https://opensource.org/licenses/MIT). If your contributions are displayed in the website, you freely waive authorship rights of these contributions (public domain; [CC0](https://creativecommons.org/publicdomain/zero/1.0/)), otherwise you will specify their copyright. You will also note contributions on behalf of third parties and specify their copyright.
 
-[Submitting Issues](#submitting-issues)
-
-- [Membership requests](#membership-request)
-- [Bugs](#report-a-bug)
-- [Suggestions](#make-a-suggestion)
-- [Questions](#ask-a-question)
+## Getting Started
+All you need is a GitHub account ([sign up](https://github.com/join)). You also need to know some programming syntax, depending whether you contribute to the entries, documentation, or the software.
 
 
-[Making Commits](#making-commits)
+## Your First Contribution
+For writing entries you can just follow our tutorials for [adding](http://sphere.diybio.org/docs/tutorials/add-entry/users) or [editing](http://sphere.diybio.org/docs/tutorials/edit-entry/users) entries. If you are a member, you have _write_ access to the 'master' branch and can edit directly. Ask to join by [submitting an issue](https://github.com/DIYbiosphere/sphere/issues/new) requesting membership.
 
-[Submitting Pull requests](#submiting-Pull-Requests)
+If you are planning on making many changes to different files consider doing them all at once in your own _fork_, _branch_ or in the 'writing-entries' branch before submitting a pull request. Alternatively, look at how you can [contribute like a pro](#contribute-like-a-pro) by working locally in your computer.
 
-- [Merging]()
+## Contributing Like a Pro
+Although you can make changes to files in GitHub, it is much more easy, convenient, and powerful to do work on your computer locally. Follow our [tutorial for installing](http://sphere.diybio.org/docs/tutorials/local-install/macos) everything you need.
 
----
+## Submitting Issues and Pull Requests
+If you are submitting an issue or a pull request a template will automatically appear in the description text. Read it and follow the instructions there before deleting the text in the template and adding your own text.
 
-## Submitting Issues
-We use [Issues][gh_issues] to keep track of the development of the project. See our [Submit an Issue] tutorial for step-by-step instructions.
 
-### Membership request
-Submit a new issue with the Title: 'Membership request' and in the Comment section add a description of yourself and why you would like to join (optional but useful for those considering your application). Also, please specify if you would like to be added to any [Teams].
+## Code Review Process
+Members of the DIYbiophere organization have permission to merge all pull requests and directly write into the 'master' branch. All code has to pass Travis build process (check it here).
 
-As a [member] of the [DIYbiosphere organization] in GitHub, you enjoy more access permissions to the project!
+### Merging
+All PRs must pass the Travis check or else merging is not possible (admins can force a merge). Check the Travis log to check for any errors on the build. Make changes, and commit them to your PR until the check passes. If you are unsure what the problem is, don't hesitate to ask the community for help!
 
-#### Before submitting an Issue
+## Push to Website
+The website is rendered from the 'gh-pages' branch. Commits to the 'master' branch will trigger Travis to:
+1. build the website using jekyll
+2. push entries to the Algolia index (the search API)
+3. push rendered `_site` folder to 'gh-pages' branch
 
-- **Avoid making duplicates**: Check a similar issue has already been submitted. You can :+1: to vote for an issue, like an enhancement or a feature request.
-- **Organize new issues**: Members should organize tickets following our [workflow guide] like applying [labels][workflow-labels].
+You can observe the builds [here]. They can take up to 10 minutes, so be patient. You won't be able to observe changes in the website until the push to 'gh-pages' is successful. Even then, it might take a few minutes to show. :unamused:
 
-### Report a bug
-A bug :bug: is an error that produces unexpected or undesired results.
-
-- Describe the problem and how you encountered it
-- If appropriate, include your operating system and version, browser and version, other software, etc.
-- Describe how it should work instead
-- Provide as much useful visual content as you can (screenshots and screencaptures)
-
-### Make a suggestion
-Share with us a suggestion for a new feature or an enhancement. Please follow these guidelines when submitting:
-
-- Describe as much as possible what your idea is
-- Describe how it would work or how it would look like
-- Share examples and references and include links, images, and GIFs.
-
-### Ask a question
-Make sure that your title has a `?` question mark. You can also asks questions in our [Gitter chatroom], in our [Slack channels] or direct message to a member in either platform. You can freely enter the chatroom and you can [request an invite] to our Slack team.
-
-Make sure to check out our [FAQs] for a list of common questions.
-
-### Report a broken link
-Didn't find the page you were looking for? If you know how to fix it, please go ahead and do so. If not, then please submit a new issue with the Title 'Broken link'. In the Comment section please:
-
-- note the name of the page you were at before you encountered the 404 Error
-- specify the name of the link you clicked that lead to the 404 page
-- copy and paste the URL of the 404 Error page
-
-## Making Commits
+## Conventions on Commit Messages
 Good commits speed the reviewing process and facilitate tracking past changes. If you are making many changes that are unrelated, or your commit title has the word 'and', split the commits! Please follow these guidelines for your commit messages:
 
 1. **Title**: Describe the change and why it was necessary. Use imperative (like 'Add' not 'Added'), Capitalize first letter, don't end with period, and limit to 50 characters.
 2. **Comments**: Describe in further detail _why_ the change was made and _how_. If addressing an Issue link to it!
-
-## Submitting Pull Requests
-When you are ready to merge your work, submit a Pull Request (PR) for review of our fork or branch :wink: See our [submitting a pull request] tutorial for step-by-step instructions.
-
-#### Before submitting a Pull Request
-Please consider the following before submitting a new PR:
-
-- **Merge conflicts**: conflicts are more common when working locally.
-- **[Organize] new PRs**: Members are encouraged to apply [labels], [milestones], and [boards] to their own PR and new PRs from contributors.
-
-
-### Merging
-If your PR does not pass the Travis build DO NOT merge! Check either in Travis or in Github, why it did not pass... make changes to your repository to fix these. Please also fix changes by hound. Commit these changes to your branch or fork. sync them. and wait for the checks to pass again!
-
-[Code of Conduct]:
-[Copyright Terms]:
-[ELI5 guide]:

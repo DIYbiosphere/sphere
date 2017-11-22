@@ -16,7 +16,11 @@ title: Editing Entries
 {% include messages/question.html title="On writing cool entries" text="Our [Writing Guide] specifies how to add your _logo_, a _header_, _social media links_, and _promotion boxes_, etc. You check our example entry: the file [here](https://raw.githubusercontent.com/DIYbiosphere/sphere/master/docs/tutorials/AvocadoLab/AvocadoLab.md) and the rendered webpage [here](/docs/tutorials/AvocadoLab/AvocadoLab)" %}
 
 {:start="3"}
-3. **Propose file change** When you are finished editing, at the bottom of the page, leave the proposed tile, but add a description of your changes. Then click `Propose new file`
+3. **Propose file change** When you are finished editing, at the bottom of the page, leave the proposed title, but add a description of your changes. Then click `Propose file change`.
+
+{% include messages/exclamation.html title="Use another branch other than 'master' branch" text="We recommend proposing changes to your own branch or the _writing-entries_ branch. This way, you can make changes to different files and merge them all at once with a PR" %}
+
+{:start="4"}
 4. **Watch Travis Build** Travis has to build the changes in the `master` branch and then push the rendered `_site` to the `github-pages` branch. Make sure it passes through. This might take some minutes so be patient
 
 **Rejoice!** your changes are now part of DIYbiosphere! :clap: :clap:

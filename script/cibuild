@@ -19,6 +19,8 @@ if [ "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
     exit 0
 fi
 
+cp docs/guides/contributing.md .github/CONTRIBUTING.md
+cp about/code-of-conduct.md .github/CODE_OF_CONDUCT.md
 
 # cleanup "_site"
 rm -rf _site

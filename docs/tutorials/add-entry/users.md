@@ -20,6 +20,10 @@ title: Adding Entries
 
 {:start="6"}
 6. **Propose new file** When you are finished editing, at the bottom of the page, click `Propose new file`
+
+{% include messages/exclamation.html title="Before you do a PR" text="Consider doing all the changes and edits you want, even to other files, before submitting a pull request, so that all the changes are merged in one instance." %}
+
+{:start="7"}
 7. **Create Pull request** If you are able to merge, click on `Create Pull Request`. You can add additional comments to your pull request if you want to
 8. **Wait for Merge** A member will revise your Pull Request (PR), request additional edits from you, or approve the PR and merge your changes to the master branch.
 

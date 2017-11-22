@@ -17,7 +17,11 @@ title: Editing Entries
 {% include messages/question.html title="On writing cool entries" text="Our [Writing Guide] specifies how to add your _logo_, a _header_, _social media links_, and _promotion boxes_, etc. You check our example entry: the file [here](https://raw.githubusercontent.com/DIYbiosphere/sphere/master/docs/tutorials/AvocadoLab/AvocadoLab.md) and the rendered webpage [here](/docs/tutorials/AvocadoLab/AvocadoLab)" %}
 
 {:start="3"}
-3. **Propose file change** When you are finished editing, at the bottom of the page, leave the proposed tile, but add a description of your changes. Then click `Propose new file`
+3. **Propose file change** When you are finished editing, at the bottom of the page, leave the proposed title, but add a description of your changes. Then click `Propose file change`
+
+{% include messages/exclamation.html title="Before you do a PR" text="Consider doing all the changes and edits you want, even to other files, before submitting a pull request, so that all the changes are merged in one instance." %}
+
+{:start="4"}
 4. **Create Pull request** If you are able to merge, click on `Create Pull Request`. You can add additional comments to your pull request if you want to
 5. **Wait for Merge** A member will revise your Pull Request (PR), request additional edits from you, or approve the PR and merge your changes to the master branch.
 

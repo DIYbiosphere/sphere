@@ -2,12 +2,12 @@
 layout: page
 comments_issue: 39
 edit_issue: 40
-title: Code of Conduct # Keep links in this page, only markdown syntax. File is copied into .github folder to appear in the repo
+title: Code of Conduct # Keep links in this page. only markdown syntax. Copy file into .github folder as 'CODE_OF_CONDUCT.md'
 ---
 
 Contributors of the DIYbiosphere must abide by our Code of Conduct\*. It applies to all project and public spaces when representing or engaging with the project or its community, online and offline.
 
-As part of keeping to [Our Values](/about/philosophy#our-values), we are committed to having a welcoming environment for all people to contribute, and we pledge to value them as human beings and foster an atmosphere of kindness, cooperation, and understanding. We want to sustain a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion or sexual identity and orientation.
+As part of keeping to [Our Values](http://sphere.diybio.org/about/philosophy#our-values), we are committed to having a welcoming environment for all people to contribute, and we pledge to value them as human beings and foster an atmosphere of kindness, cooperation, and understanding. We want to sustain a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion or sexual identity and orientation.
 
 Unacceptable behavior includes, but is not limited to:
 
@@ -32,7 +32,7 @@ Address the wrongdoer, sharing your feelings in response to their behavior and h
 Unacceptable material or language may be directly removed or rejected by members of the [development community].
 
 #### **Report it**
-Contact a [director](/about/community) if you do not feel comfortable addressing the wrongdoer. Contributors with unacceptable behavior ­­­— be it inappropriate, threatening, offensive or harmful — shall be banned temporarily or permanently. Project directors are obliged to maintain the confidentiality of the incident's reporter, and committed to fairly and consistently reviewing all reports and applying these principles to the project, those who don't may be suspended or removed as directors.
+Contact a [director](http://sphere.diybio.org/about/community) if you do not feel comfortable addressing the wrongdoer. Contributors with unacceptable behavior ­­­— be it inappropriate, threatening, offensive or harmful — shall be banned temporarily or permanently. Project directors are obliged to maintain the confidentiality of the incident's reporter, and committed to fairly and consistently reviewing all reports and applying these principles to the project, those who don't may be suspended or removed as directors.
 
 
 - - -
