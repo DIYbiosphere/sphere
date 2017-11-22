@@ -1,15 +1,15 @@
 ---
 title: Open Trons
-subtitle:
+subtitle: Opentrons makes robots for biologists.
 website: https://opentrons.com/
-start-date:
-type-org:
-city:
+start-date: 2014
+type-org: company
+city: NYC
 country: United States
-twitter:
+twitter: https://twitter.com/OpenTrons_
 facebook: https://www.facebook.com/opentronslabworks/
 tags:
-  -
+  - hardware
   -
 ---
 
