@@ -1,4 +1,6 @@
 ---
+comments_issue: 2
+edit_issue: 1
 title: DIYbiosphere
 subtitle: Connecting DIYbio all over the world
 website: http://sphere.diybio.org/
