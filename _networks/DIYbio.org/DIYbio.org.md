@@ -1,42 +1,17 @@
 ---
 title: DIYbio.org
-manager: jasonbobe
-logo: https://raw.githubusercontent.com/DIYbiosphere/sphere/master/img/Logo.png
-website: https://diybio.org
+subtitle: Biotechnology and greater public understanding about it has the potential to benefit everyone.
+website: http://diybio.org/
 start-date: 2008
-host-org: 
-type-org: Non-profit
-affiliates: 
-address: 
-directions: 
-postcode: 
+type-org: non-profit (501c3)
 city: Boston
-state: Massachussets
 country: United States
-email: 
-blog: https://diybio.org/blog/
-rss: 
-wiki: 
-forum: https://groups.google.com/forum/?fromgroups#!forum/diybio
-mailinglist: 
-irc: 
-gitter: 
-slack: 
-meetup: 
-twitter: 
-facebook: 
-google+: 
-linkedin: 
-instagram: 
-flickr: 
-pinterest: 
-vimeo: 
-youtube: 
-hackpad: 
-trello: 
-github: 
+twitter: https://twitter.com/diybio
+facebook: https://www.facebook.com/groups/diybio/
+tags:
+  - diybio
 ---
 
 ## About
+DIYbio.org was founded in 2008 with the mission of establishing a vibrant, productive and safe community of DIY biologists.  Central to our mission is the belief that biotechnology and greater public understanding about it has the potential to benefit everyone.
 
-## History
