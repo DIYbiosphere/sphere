@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Terms of Use: Copyrights
+title: Terms of Use and Copyrights
 ---
 
 In short: **All the work in the DIYbiosphere, except where otherwise noted, is freely available to use, modify and distribute** :two_hearts:
