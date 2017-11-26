@@ -5,16 +5,13 @@ tags:
 - education
 - events
 manager: 
-subtitle: Education, showcases & networking with the pillars of NYC’s life sciences startup
-  community, since 2008.
-website: http://nycbio.org/
+subtitle: Education, showcases & networking with the pillars of NYC’s life sciences startup community.
+website:
 start-date: 2008
 type-org: Non-Profit
 city: New York
 state: New York
 country: United States
-lat: 
-lng: 
 linkedin: https://www.linkedin.com/groups/41295/profile
 ---
 
