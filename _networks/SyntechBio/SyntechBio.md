@@ -13,4 +13,5 @@ tags:
   -
 ---
 
-# Write here in Markdown
+# about
+Their vision is to improve access to biohacking and synthetic biology in the regions that most need it.
