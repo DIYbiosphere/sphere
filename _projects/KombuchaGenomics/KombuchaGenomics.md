@@ -14,7 +14,7 @@ tags:
   - global
 ---
 
-##About
+## About
 This is collaborative project for community labs globally, hosted by Counter Culture Labs in Oakland, California. The goal of the project is to characterize kombucha, i.e. go through all the steps to isolate and identify a variety of bacterial and yeast strains from kombucha, starting with the basic culturing and progressing all the way through DNA barcoding, genome and microbiome sequencing, systems biology, synthetic biology, and more! The first phase of the project is expected to take about ~6 months.
 
 ## History
