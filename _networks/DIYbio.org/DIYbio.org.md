@@ -3,7 +3,7 @@ title: DIYbio.org
 subtitle: Biotechnology and greater public understanding about it has the potential to benefit everyone.
 website: http://diybio.org/
 start-date: 2008
-type-org: non-profit (501c3)
+type-org: non-profit
 city: Boston
 country: United States
 twitter: https://twitter.com/diybio
