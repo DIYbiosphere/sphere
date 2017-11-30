@@ -1,12 +1,12 @@
 ---
-title:Amino Labs
+title: Amino Labs
 subtitle: Empowering the next generation of scientists and innovators 
 website: https://amino.bio/
 start-date: 2015
 type-org: company
 city: Alberta
 country: Canada
-twitter:
+twitter: https://twitter.com/Aminobiolab
 facebook: https://www.facebook.com/aminobiolab/
 tags:
   - hardware
