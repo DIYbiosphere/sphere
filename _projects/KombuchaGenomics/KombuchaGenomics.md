@@ -10,7 +10,7 @@ twitter:
 facebook:
 promotions:
   - button: Join List
-    text: Subscribe and get updates about the project and be notified about the next meeting.
+    text: Get notified about the next meeting.
     URL: http://tinyurl.com/kombuchamailinglist
 tags:
   - metagenomics
