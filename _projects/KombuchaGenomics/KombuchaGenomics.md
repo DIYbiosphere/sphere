@@ -25,7 +25,9 @@ This is collaborative project for community labs globally, hosted by Counter Cul
 ## Participating Community Labs
 + [Counter Culture Labs](http://sphere.diybio.org/labs/CounterCultureLabs/CounterCultureLabs)
 + [BioCurious](http://sphere.diybio.org/labs/Biocurious/Biocurious) 
++ [BioMakers Lab Peru](http://sphere.diybio.org/labs/BioMakersLabPeru/BioMakersLabPeru)
 + [BosLab](http://sphere.diybio.org/labs/BosLab/BosLab) 
++ Sound Bio
 
 ## How to get involved
 1. Join the Kombucha Genomics [Mailing List](http://tinyurl.com/kombuchamailinglist)
