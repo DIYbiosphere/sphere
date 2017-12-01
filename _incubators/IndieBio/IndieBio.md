@@ -1,44 +1,17 @@
 ---
 title: IndieBio
-manager: 
 subtitle: Accelerating Biology
-logo: http://www.indiebio.co/images/indieBioLogoLg.png
-website: http://sf.indiebio.co/
+website: http://indiebio.co/
 start-date: 2010
-predecessor: IndieBio SF
-host-org: 
-type-org: 
-affiliates: 
-address: 479 Jessie St.
-directions: 
-postcode: 94103
+type-org: investor
 city: San Francisco
-state: California
-country: United States
-email: 
-blog: 
-rss: 
-wiki: 
-forum: 
-mailinglist: 
-irc: 
-gitter: 
-slack: 
-meetup: 
+country: USA
 twitter: https://twitter.com/indbio
 facebook: https://www.facebook.com/indiebio
-google+: 
-linkedin: 
-instagram: 
-flickr: 
-pinterest: 
-vimeo: 
-youtube: 
-hackpad: 
-trello: 
-github: 
+tags:
+  - investor
+  -
 ---
 
-## About
-
-## History
+# About
+We turn scientists into entrepreneurs and build some of the world's leading breakthrough companies.

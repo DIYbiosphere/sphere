@@ -1,43 +1,17 @@
 ---
 title: RebelBio
-manager: 
-logo: https://rebelbio.co/wp-content/uploads/2016/12/rebelbio_red-350x350.png
+subtitle: We’re the world’s first life sciences accelerator.
 website: https://rebelbio.co/
 start-date: 2010
-predecessor: IndieBio EU
-host-org: 
-type-org: 
-affiliates: 
-address: 
-directions: 
-postcode: 
-city: 
-state: 
-country: 
-email: 
-blog: https://rebelbio.co/blog/
-rss: http://rebelbio.co/feed/
-wiki: 
-forum: 
-mailinglist: 
-irc: 
-gitter: 
-slack: 
-meetup: 
+type-org:
+city:
+country:
 twitter: https://twitter.com/RebelBio
 facebook: https://www.facebook.com/RebelBio/
-google+: 
-linkedin: 
-instagram: 
-flickr: 
-pinterest: 
-vimeo: 
-youtube: 
-hackpad: 
-trello: 
-github: 
+tags:
+  - funding
+  -
 ---
 
-## About
-
-## History
+# About
+more here soon
