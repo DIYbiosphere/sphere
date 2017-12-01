@@ -22,8 +22,8 @@ The first [meet-up](https://www.meetup.com/Counter-Culture-Labs/events/244983427
 
 ## Participating Community Labs
 [Counter Culture Labs](http://sphere.diybio.org/labs/CounterCultureLabs/CounterCultureLabs)
-[BioCurious] (http://sphere.diybio.org/labs/Biocurious/Biocurious)
-[BosLab](http://sphere.diybio.org/labs/BosLab/BosLab)
+[BioCurious](http://sphere.diybio.org/labs/Biocurious/Biocurious) 
+[BosLab](http://sphere.diybio.org/labs/BosLab/BosLab) 
 
 ## How to get involved
-Put more info here! :)
+Put your lab's name on the list above, and join the Kombucha Genomics [Mailing List](http://tinyurl.com/kombuchamailinglist).
