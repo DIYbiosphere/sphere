@@ -3,7 +3,7 @@ title: Biotech Without Borders
 subtitle:
 website: https://biotechwithoutborders.org
 start-date: 2017
-type-org: Community Lab
+type-org: nonprofit
 city: Brooklyn NY
 country: USA
 twitter: @biowoborders
