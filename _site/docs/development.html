@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="A collaborative library of Do-it-Yourself Biology initiatives">
   <meta http-equiv="Content-Language" content="">
-  <link rel="icon" href="/sphere/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="100ideas.github.io/sphere/favicon.ico" type="image/x-icon">
   <title>development notes</title>
   <link rel="canonical" href="100ideas.github.io/sphere/docs/development">
   <link rel="alternate" type="application/rss+xml" title="DIYbiosphere-responsive" href="100ideas.github.io/sphere/feed.xml">
@@ -17,7 +17,7 @@
   <!-- Semantic UI -->
   <!-- TODO include Source Code Pro font in local assets -->
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="/assets/semantic/dist/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="100ideas.github.io/sphere/assets/semantic/dist/semantic.min.css">
 
   <!-- FONTS -->
   <!-- TODO include octicons & cc-icons fonts in local assets -->
@@ -50,7 +50,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@100ideas">
 <script type="application/ld+json">
-{"description":"A collaborative library of Do-it-Yourself Biology initiatives","@type":"WebPage","url":"100ideas.github.io/sphere/docs/development","headline":"development notes","dateModified":"2017-12-15T13:43:45-08:00","@context":"http://schema.org"}</script>
+{"description":"A collaborative library of Do-it-Yourself Biology initiatives","@type":"WebPage","url":"100ideas.github.io/sphere/docs/development","headline":"development notes","dateModified":"2017-12-15T14:48:13-08:00","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -88,7 +88,7 @@
       <!-- LOGO & LINK TO LANDING PAGE -->
       <div class="item">
         <a href="/">
-        <img class="ui image" src="/assets/img/sphere-logo-alpha.png"></a>
+        <img class="ui image" src="/sphere"></a>
       </div>
       <div class="ui dropdown item">
         ABOUT
@@ -396,20 +396,39 @@
   </li>
   <li>change default configs as needed (don’t want to commit this back to upstream)
     <ul>
-      <li>I forked the original repo, made a <code class="highlighter-rouge">responsive branch</code> where I keep my contributions, then branches from <code class="highlighter-rouge">responsive</code> to <code class="highlighter-rouge">responsive-deploy</code>, edited some of the config files like <code class="highlighter-rouge">_config.yml</code> (set url &amp; baseurl; disable algolia), <code class="highlighter-rouge">.travis.yml</code> etc., then committed it to the <code class="highlighter-rouge">responsive-deploy</code>. I’ll work on <code class="highlighter-rouge">responsive</code> locally and eventually PR it with the upstream repo, using <code class="highlighter-rouge">responsive-deploy</code> to hold all the changes I don’t ultimately want to push back.</li>
+      <li>I forked the original repo, made a <code class="highlighter-rouge">responsive branch</code> where I keep my contributions and <code class="highlighter-rouge">responsive-deploy</code> which holds deploy-specific changes to config files like <code class="highlighter-rouge">_config.yml</code> (set url &amp; baseurl; disable algolia; delete CNAME file). I work locally in <code class="highlighter-rouge">responsive</code>, then merge when I want to deploy.</li>
     </ul>
   </li>
-  <li>set desired <code class="highlighter-rouge">SOURCE_BRANCH</code> in <code class="highlighter-rouge">./script/cibuild</code>
-</li>
-  <li>set TravisCI build command with <code class="highlighter-rouge">--baseurl </code><your repo="" name="">`
-</your>    <ul>
-      <li><code class="highlighter-rouge">bundle exec jekyll build --verbose --baseurl '/sphere'</code></li>
-    </ul>
-  </li>
-  <li>commit to deploy branch</li>
-  <li>push to gh</li>
-  <li>check out TravisCI build logs, something like… https://travis-ci.org/100ideas/sphere</li>
+  <li>to setup gh-pages deployment w/o travisCI etc…:</li>
 </ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="c"># get onto the deploy branches</span>
+  git checkout responsive-deploy
+  git pull
+
+  <span class="c"># delete remote `gh-pages` branch (only need to do once):</span>
+  git push <span class="nt">-d</span> origin gh-pages
+
+  <span class="c"># clean _site and remove from .gitignore</span>
+  rm <span class="nt">-rf</span> _site
+
+  <span class="c"># recreate and add empty dir to git index</span>
+  mkdir _site
+  git add _site/ <span class="o">&amp;&amp;</span> git commit <span class="nt">-m</span> <span class="s2">"init _site/"</span>
+
+  <span class="c"># fill _site back up;  note --baseurl corresponds to repo index_name</span>
+  <span class="c">#   i.e. full site url will be https://100ideas.github.io/sphere/</span>
+  jekyll build <span class="nt">--verbose</span> <span class="nt">--baseurl</span> <span class="s1">'/sphere'</span>
+
+  <span class="c"># add the compiled site to git</span>
+  git add _site/ <span class="o">&amp;&amp;</span> git commit <span class="nt">-m</span> <span class="s2">"jekyll compile into _site/"</span>
+
+  <span class="c"># now for the magic: push just the subtree in _dist into all of the</span>
+  <span class="c"># remote gh-pages branch</span>
+  git subtree push <span class="nt">--prefix</span> _site origin gh-pages
+
+  <span class="c"># repeat the last 3 commands to redeploy</span>
+</code></pre></div></div>
 
 
         </div>
