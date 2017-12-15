@@ -19,10 +19,6 @@ before_script:
   - cp docs/guides/contributing.md .github/CONTRIBUTING.md
   - cp about/code-of-conduct.md .github/CODE_OF_CONDUCT.md
 
-deploy:
-  provider: pages
-  skip_cleanup: true
-
 script: ./script/cibuild
 
 env:
@@ -36,3 +32,8 @@ env:
 exclude: [vendor]
 
 sudo: false
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  target_branch: gh_pages

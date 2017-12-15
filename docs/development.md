@@ -58,7 +58,7 @@ author: @100ideas
   - `gem install bundler`
   - clone repo & enter directory `cd sphere`
   - `bundle`
-  - `bundle exec jekyll serve --incremental`
+  - `bundle exec jekyll serve --incremental --profile`
 
 ##### deploy
   Still figuring out how this all works; here's what I've got so far:
