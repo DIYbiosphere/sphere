@@ -27,7 +27,7 @@ rm -rf _site
 mkdir _site
 
 # isn't this redundant?
-# git clone https://${DEPLOY_TOKEN}@${GITHUB_REPO} --branch ${DEPLOY_BRANCH} _site
+git clone https://${DEPLOY_TOKEN}@${GITHUB_REPO} --branch ${DEPLOY_BRANCH} _site
 
 # bundle exec jekyll algolia push
 bundle exec jekyll build --verbose --baseurl '/sphere'
