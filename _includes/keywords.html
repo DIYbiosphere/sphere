@@ -1,15 +1,13 @@
-<div class="xo twofold padding top">
-<!-- Tags -->
-  {% if page.tags !='' %}
-
-      <div class="ui small labels">
-        {% for tag in page.tags %}
-        <a class="ui label noul" href="/entries/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ tag }}">
-          {{ tag }}
-        </a>
-        {% endfor %}
-      </div>
-
-
-  {% endif %}
-</div>
+{% if page.tags !='' %}
+  <!-- Tags -->
+  <div>
+    <div class="ui small labels">
+      <!-- TODO figure out whats up with these ugly url params -->
+      {% for tag in page.tags %}
+      <a class="ui label noul" href="/entries/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ tag }}">
+        {{ tag }}
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}

@@ -52,8 +52,10 @@ article {
   a:not(.noelink)[href^="http"]:after {
     display: inline-block;
     width: 10px;
-    height: 10px;
+    height: 9px;
     margin-right: 3px;
+    margin-left: 3px;
+    vertical-align: baseline;
     content: "";
     background: url('/assets/img/external-link.png') no-repeat 0 0;
     background-size: 100%;
@@ -62,8 +64,10 @@ article {
   .elink:after {
     display: inline-block;
     width: 10px;
-    height: 10px;
+    height: 9px;
     margin-right: 3px;
+    margin-left: 3px;
+    vertical-align: baseline;
     content: "";
     background: url('/assets/img/external-link.png') no-repeat 0 0;
     background-size: 100%;
@@ -72,8 +76,10 @@ article {
   a:not(.noul)[href$=".md"]:after {
     display: inline-block;
     width: 10px;
-    height: 10px;
+    height: 9px;
     margin-right: 3px;
+    margin-left: 3px;
+    vertical-align: baseline;
     content: "";
     background: url('/assets/img/download-link.png') no-repeat 0 0;
     background-size: 100%;
@@ -81,8 +87,10 @@ article {
   a:not(.noul)[href$=".png"]:after {
     display: inline-block;
     width: 10px;
-    height: 10px;
+    height: 9px;
     margin-right: 3px;
+    margin-left: 3px;
+    vertical-align: baseline;
     content: "";
     background: url('/assets/img/download-link.png') no-repeat 0 0;
     background-size: 100%;
@@ -90,8 +98,10 @@ article {
   a:not(.noul)[href$=".svg"]:after {
     display: inline-block;
     width: 10px;
-    height: 10px;
+    height: 9px;
     margin-right: 3px;
+    margin-left: 3px;
+    vertical-align: baseline;
     content: "";
     background: url('/assets/img/download-link.png') no-repeat 0 0;
     background-size: 100%;
@@ -157,4 +167,21 @@ footer {
     color: inherit !important;
     text-decoration: underline !important;
   }
+}
+
+// only set inside liquid {% if page.header %}
+.overLapHeader {
+  margin-top: -100px;
+}
+@media only screen and (max-width:767px) {
+  .overLapHeader {
+    margin-top: 0px;
+  }
+}
+
+
+// Semantic overrides
+.ui.spaced.image{
+  display: inline-block !important;
+  margin: 0.5em;
 }

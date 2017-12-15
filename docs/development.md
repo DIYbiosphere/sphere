@@ -24,6 +24,10 @@ author: @100ideas
 - views using `entry` layout
   - social icons float above main content box
   - metadata box floats below main content box, full-width
+  - refactor `info-box` partial
+    - create custom partial for better spacing instead of using table
+  - `tags` partial
+    - not sure, find page using this partial to see
 
 
 
@@ -52,6 +56,7 @@ author: @100ideas
   - `brew install rbenv`
   - `rbenv install 2.3.6`
   - `rbenv global 2.3.6`
-  - `gem install jekyll bundler`
-  - `bundle install`
-  - `jekyll serve`
+  - `gem install bundler`
+  - clone repo & enter directory `cd sphere`
+  - `bundle`
+  - `bundle exec jekyll serve --incremental`
