@@ -26,6 +26,7 @@ env:
   - GITHUB_REPO: github.com/100ideas/sphere.git
   - DEPLOY_BRANCH: gh-pages
   - SOURCE_BRANCH: responsive-deploy
+  - JEKYLL_ENV: production
 
 
 exclude: [vendor]

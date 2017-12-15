@@ -22,12 +22,11 @@ author: @100ideas
   - left-hand sidebar turns into button cloud above footer
 
 - views using `entry` layout
-  - social icons float above main content box
-  - metadata box floats below main content box, full-width
-  - refactor `info-box` partial
-    - create custom partial for better spacing instead of using table
-  - `tags` partial
-    - not sure, find page using this partial to see
+  + social icons integrated into infobox
+  + metadata box floats below main content box, full-width in responsive mode
+  + refactor `info-box` partial
+    + create ___custom partial___ for better spacing instead of using table
+  + `tags` partial fine-tuned
 
 
 
@@ -60,3 +59,18 @@ author: @100ideas
   - clone repo & enter directory `cd sphere`
   - `bundle`
   - `bundle exec jekyll serve --incremental`
+
+##### deploy
+  Still figuring out how this all works; here's what I've got so far:
+  
+  - provide TravisCI access to this git repository
+    - https://travis-ci.org/auth
+    - click toggles to select your sphere repo
+  - change default configs as needed (don't want to commit this back to upstream)
+    - I forked the original repo, made a `responsive branch` where I keep my contributions, then branches from `responsive` to `responsive-deploy`, edited some of the config files like `_config.yml` (set url & baseurl; disable algolia), `.travis.yml` etc., then committed it to the `responsive-deploy`. I'll work on `responsive` locally and eventually PR it with the upstream repo, using `responsive-deploy` to hold all the changes I don't ultimately want to push back.
+  - set desired `SOURCE_BRANCH` in `./script/cibuild`
+  - set TravisCI build command with `--baseurl `<your repo name>`
+    - `bundle exec jekyll build --verbose --baseurl '/sphere'`
+  - commit to deploy branch
+  - push to gh
+  - check out TravisCI build logs, something like... https://travis-ci.org/100ideas/sphere
