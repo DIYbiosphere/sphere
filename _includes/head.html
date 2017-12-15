@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta http-equiv="Content-Language" content="{{site.active_lang}}">
-  <link rel="icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}" type="image/x-icon">
+  <link rel="icon" href="{{ '/favicon.ico' | prepend: site.baseurl | prepend: site.url }}" type="image/x-icon">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
@@ -13,7 +13,7 @@
   <!-- Semantic UI -->
   <!-- TODO include Source Code Pro font in local assets -->
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="{{ "/assets/semantic/dist/semantic.min.css" | prepend: site.baseUrl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/semantic/dist/semantic.min.css" | prepend: site.baseurl | prepend: site.url }}">
 
   <!-- FONTS -->
   <!-- TODO include octicons & cc-icons fonts in local assets -->
