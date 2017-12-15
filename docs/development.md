@@ -69,10 +69,34 @@ author: @100ideas
   - follow guide for getting github auth token for Travis
     - https://docs.travis-ci.com/user/deployment/pages/
   - change default configs as needed (don't want to commit this back to upstream)
-    - I forked the original repo, made a `responsive branch` where I keep my contributions, then branches from `responsive` to `responsive-deploy`, edited some of the config files like `_config.yml` (set url & baseurl; disable algolia), `.travis.yml` etc., then committed it to the `responsive-deploy`. I'll work on `responsive` locally and eventually PR it with the upstream repo, using `responsive-deploy` to hold all the changes I don't ultimately want to push back.
-  - set desired `SOURCE_BRANCH` in `./script/cibuild`
-  - set TravisCI build command with `--baseurl `<your repo name>`
-    - `bundle exec jekyll build --verbose --baseurl '/sphere'`
-  - commit to deploy branch
-  - push to gh
-  - check out TravisCI build logs, something like... https://travis-ci.org/100ideas/sphere
+    - I forked the original repo, made a `responsive branch` where I keep my contributions and `responsive-deploy` which holds deploy-specific changes to config files like `_config.yml` (set url & baseurl; disable algolia; delete CNAME file). I work locally in `responsive`, then merge when I want to deploy.
+  - to setup gh-pages deployment w/o travisCI etc...:
+
+  ```bash
+  # get onto the deploy branches
+  git checkout responsive-deploy
+  git pull
+
+  # delete remote `gh-pages` branch (only need to do once):
+  git push -d origin gh-pages
+
+  # clean _site and remove from .gitignore
+  rm -rf _site
+
+  # recreate and add empty dir to git index
+  mkdir _site
+  git add _site/ && git commit -m "init _site/"
+
+  # fill _site back up;  note --baseurl corresponds to repo index_name
+  #   i.e. full site url will be https://100ideas.github.io/sphere/
+  jekyll build --verbose --baseurl '/sphere'
+
+  # add the compiled site to git
+  git add _site/ && git commit -m "jekyll compile into _site/"
+
+  # now for the magic: push just the subtree in _dist into all of the
+  # remote gh-pages branch
+  git subtree push --prefix _site origin gh-pages
+
+  # repeat the last 3 commands to redeploy
+  ```
