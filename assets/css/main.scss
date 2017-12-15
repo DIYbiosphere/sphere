@@ -11,7 +11,9 @@
 @import "modules/sidebar-navscroll";
 @import "vendor/gh-code";
 
-
+/* depends on assets/img/flags16.png */
+/* https://github.com/lafeber/world-flags-sprite  */
+@import "vendor/flags-16";
 
 /* Base css */
 @import "base";

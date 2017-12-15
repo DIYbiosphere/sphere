@@ -17,4 +17,4 @@ crumb: none
 - see guide
 - `gem install jekyll bundler`
 - `bundle install`
-- 
+- `jekyll serve`
