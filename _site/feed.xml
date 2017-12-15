@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DIYbiosphere-responsive</title>
+    <description>A collaborative library of Do-it-Yourself Biology initiatives</description>
+    <link>100ideas.github.io/sphere/</link>
+    <atom:link href="100ideas.github.io/sphere/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 15 Dec 2017 14:05:17 -0800</pubDate>
+    <lastBuildDate>Fri, 15 Dec 2017 14:05:17 -0800</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+    
+  </channel>
+</rss>
