@@ -1,14 +1,15 @@
 # Site settings
-title: DIYbiosphere
+title: DIYbiosphere-responsive
 description: "A collaborative library of Do-it-Yourself Biology initiatives"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "sphere.diybio.org"
+baseurl: "/sphere" # the subpath of your site, e.g. /blog
+url: "100ideas.github.io"
 permalink: /updates/:year/:month/:day/:title
 repository: DIYbiosphere/sphere
 github_comments_repository:  diybiosphere/talk
-github_username: DIYbiosphere
+# github_username:
+github_username: 100ideas
 twitter:
-  username: DIYbiosphere
+  username: 100ideas
 
 
 # Excluded files and dirs
