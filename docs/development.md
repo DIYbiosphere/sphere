@@ -15,11 +15,15 @@ author: @100ideas
   - entries list component rendered below
 
 - entries list/filter view
+  - left-hand sidebar turns into button cloud
+    + in progress
+    - turn into narrow stack of colored labels
+    - https://semantic-ui.com/elements/label.html#colored-group
+    - see `entries.html`
   - use as partial on landing page instead of dedicated page
   - search menu removed in favor of global search in top navbar
   - viewTable component in searchbox is unnecessary
   - pagination goes at bottom
-  - left-hand sidebar turns into button cloud above footer
 
 - views using `entry` layout
   + social icons integrated into infobox
@@ -98,5 +102,8 @@ author: @100ideas
   # remote gh-pages branch
   git subtree push --prefix _site origin gh-pages
 
-  # repeat the last 3 commands to redeploy
+  # repeat the last 3 commands to redeploy!
+
+  # to unstage:
+  git reset _site
   ```
