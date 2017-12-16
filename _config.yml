@@ -1,8 +1,8 @@
 # Site settings
 title: DIYbiosphere-responsive
 description: "A collaborative library of Do-it-Yourself Biology initiatives"
-baseurl: "/sphere" # the subpath of your site, e.g. /blog
-url: "100ideas.github.io"
+baseurl: "" # the subpath of your site, e.g. /sphere
+# url: "100ideas.github.io"
 permalink: /updates/:year/:month/:day/:title
 repository: DIYbiosphere/sphere
 github_comments_repository:  diybiosphere/talk
