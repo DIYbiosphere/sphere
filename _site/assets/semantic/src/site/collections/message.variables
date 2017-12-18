@@ -1,7 +1,0 @@
-/*******************************
-    User Variable Overrides
-*******************************/
-
-
-@borderRadius: none;
-@borderWidth: 0px;

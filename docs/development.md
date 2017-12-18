@@ -69,37 +69,39 @@ author: @100ideas
 
   - change default configs as needed (don't want to commit this back to upstream)
     - I forked the original repo, made a `responsive branch` where I keep my contributions and `responsive-deploy` which holds deploy-specific changes to config files like `_config.yml` (set url & baseurl; disable algolia; delete CNAME file). I work locally in `responsive`, then merge when I want to deploy.
-  - to setup gh-pages deployment w/o travisCI etc...:
+  - to deploy, push to remote branch (responsive-deploy) that netlify is tracking for deployments
+
+###### old deploy instructions
+  - to setup gh-pages deployment to github-pages w/o travisCI etc...:
 
   ```bash
+  # do this once
+
   # get onto the deploy branches
   git checkout responsive-deploy
   git pull
-
-  # delete remote `gh-pages` branch (only need to do once):
+  # delete remote `gh-pages` branch
   git push -d origin gh-pages
-
-  # clean _site and remove from .gitignore
-  rm -rf _site
-
   # recreate and add empty dir to git index
-  mkdir _site
-  git add _site/ && git commit -m "init _site/"
+  rm -rf _site && mkdir _site && git add _site/ && git commit -m "init _site/"
+  ```
 
-  # fill _site back up;  note --baseurl corresponds to repo index_name
-  #   i.e. full site url will be https://100ideas.github.io/sphere/
-  jekyll build --verbose --baseurl '/sphere'
+  ```bash
+  # do this anytime you need to redeploy gh-pages
 
+  # clean _site
+  rm -rf _site && jekyll build --verbose
   # add the compiled site to git
   git add _site/ && git commit -m "jekyll compile into _site/"
-
-  # now for the magic: push just the subtree in _dist into all of the
-  # remote gh-pages branch
+  # now for the magic: _dist subtree becomes remote gh-pages branch
   git subtree push --prefix _site origin gh-pages
-
+    # if problems, delete the remote gh-pages branch & try again
+    git push -d origin gh-pages
   # repeat the last 3 commands to redeploy!
 
-  # to unstage:
+  # notes:
+  # toggle _sites on/off in .gitignore during local dev
+  # use the following to unstage:
   git reset _site
   ```
 
