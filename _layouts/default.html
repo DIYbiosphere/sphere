@@ -19,7 +19,8 @@
     <script src="https://www.google.com/jsapi"></script>
 
 
-    <!-- Semantic UI js? -->
+    <!-- Semantic UI js? TODO broken-->
+    {% javascript semantic/dist/semantic.min.js %}
     <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
     <script type="text/javascript">$('.tabular.menu .item').tab();</script>
 
@@ -32,7 +33,7 @@
     <!-- Clipboard.js -->
     <!-- TODO local clipboard, loaded once -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard-1.7.1.js"></script> -->
-    <script src="{{ '/assets/js/vendor/clipboard-1.7.1.js' | prepend: site.baseurl }}"></script>
+    {% js vendor/clipboard-1.7.1 %}
 
 
     <!-- Include AlgoliaSearch JS Client and autocomplete.js library -->
@@ -40,18 +41,16 @@
     <!-- <script src="https://cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script> -->
     <!-- <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script> -->
     <!-- <script src="https://cdn.jsdelivr.net/algoliasearch.helper/2/algoliasearch.helper.min.js"></script> -->
-    <script src="{{ '/assets/js/vendor/algoliasearch-3.24.8.js' | prepend: site.baseurl }}"></script>
-    <script src="{{ '/assets/js/vendor/hogan-3.0.2.js' | prepend: site.baseurl }}"></script>
-    <script src="{{ '/assets/js/vendor/algolia-autocomplete-0.29.0.js' | prepend: site.baseurl }}"></script>
-    <script src="{{ '/assets/js/vendor/algolia-algoliasearch_helper-2.js' | prepend: site.baseurl }}"></script>
-
+    {% js vendor/algoliasearch-3.24.8 %}
+    {% js vendor/hogan-3.0.2 %}
+    {% js vendor/algolia-autocomplete-0.29.0 %}
+    {% js vendor/algolia-algoliasearch_helper-2.js %}
 
     {% javascript autocomplete %}
 
-
     {% if page.layout == 'landing' %}
       <!-- Owl Carousel instance -->
-      <!-- owl-carousel-2.2.1 library included via head.html -->
+      {% js vendor/owl-carousel-2.2.1 %}
       {% javascript carousel %}
       <script type="text/javascript">$('.message .close').on('click', function() {$(this).closest('.message').transition('fade');});</script>
 

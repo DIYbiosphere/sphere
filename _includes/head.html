@@ -13,23 +13,33 @@
   <!-- Semantic UI -->
   <!-- TODO include Source Code Pro font in local assets -->
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="{{ '/assets/semantic/dist/semantic.min.css' | prepend: site.baseurl | prepend: site.url }}">
+  <!-- <link rel="stylesheet" type="text/css" href="{{ '/assets/semantic/dist/semantic.min.css' | prepend: site.baseurl | prepend: site.url }}"> -->
+  {% css semantic/dist/semantic.min %}
 
   <!-- FONTS -->
   <!-- TODO include octicons & cc-icons fonts in local assets -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css" />
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cc-icons/1.2.1/css/cc-icons.min.css" >
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css" /> -->
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cc-icons/1.2.1/css/cc-icons.min.css" > -->
+  {% css vendor/octicons %}
+  {% css vendor/cc-icons %}
   {% javascript vendor/solid %}
   {% javascript vendor/regular %}
   {% javascript vendor/fontawesome %}
-  <!-- TODO injects jquery 3 --> {% javascript githubComments %}
-  <!-- TODO injects jquery 3 --> {% javascript githubCommentsEdit %}
+
+  <!-- jQuery -->
+  {% js vendor/jquery-2.2.2 %}
+  {% js vendor/jquery.scrollNav.min %}
+
+  <!-- TODO injects jquery 3  {% javascript githubComments %} -->
+  <!-- TODO injects jquery 3  {% javascript githubCommentsEdit %} -->
 
   {% if page.layout == 'landing' %}
     <!-- OWL Carousel -->
     <!-- TODO include owl carousel css in local assets -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css" /> -->
+    {% css vendor/owl.carousel.min %}
+    {% css vendor/owl.theme.default %}
   {% endif %}
 
   {% css main %}
