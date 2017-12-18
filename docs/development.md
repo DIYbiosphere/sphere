@@ -107,3 +107,30 @@ author: @100ideas
   # to unstage:
   git reset _site
   ```
+
+
+
+
+---
+### remote resourcesd
+clipboard.min.js
+cdnjs.cloudflare.com
+
+owl.carousel.min.js
+cdnjs.cloudflare.com
+
+octicons.min.css
+cdnjs.cloudflare.com
+
+cc-icons.min.css
+cdnjs.cloudflare.com
+
+owl.carousel.min.css
+cdnjs.cloudflare.com
+
+owl.theme.default.css
+cdnjs.cloudflare.com
+
+css?family=Source+Code+Pro
+css?family=Source Sans Pro:400,400i,600,600i,700&subset=latin
+fonts.googleapis.com

@@ -25,15 +25,14 @@
   {% javascript githubComments %}
   {% javascript githubCommentsEdit %}
 
-  {% css main %}
-  <!-- OWL Carousel -->
-  <!-- TODO include owl carousel css in local assets -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" />
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css" />
   {% if page.layout == 'landing' %}
-
+    <!-- OWL Carousel -->
+    <!-- TODO include owl carousel css in local assets -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css" />
   {% endif %}
 
+  {% css main %}
 
   {% seo %}
 

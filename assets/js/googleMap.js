@@ -21,6 +21,7 @@ $(document).ready(function () {
   var noResultsTemplate = Hogan.compile($('#no-results-template').text());
 
   // Map initialization
+  // TODO depends on _plugins/dataDoc.rb - CURRENTLY COMMENTED OUT
   var map = new google.maps.Map($map.get(0), {
     streetViewControl: false,
     zoom: 4,
