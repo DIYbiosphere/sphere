@@ -67,11 +67,6 @@ author: @100ideas
 ##### deploy
   Still figuring out how this all works; here's what I've got so far:
 
-  - provide TravisCI access to this git repository
-    - https://travis-ci.org/auth
-    - click toggles to select your sphere repo
-  - follow guide for getting github auth token for Travis
-    - https://docs.travis-ci.com/user/deployment/pages/
   - change default configs as needed (don't want to commit this back to upstream)
     - I forked the original repo, made a `responsive branch` where I keep my contributions and `responsive-deploy` which holds deploy-specific changes to config files like `_config.yml` (set url & baseurl; disable algolia; delete CNAME file). I work locally in `responsive`, then merge when I want to deploy.
   - to setup gh-pages deployment w/o travisCI etc...:
