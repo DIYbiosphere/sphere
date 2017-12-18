@@ -1,0 +1,37 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+
+/*-------------------
+       Fonts
+--------------------*/
+
+@fontName          :'Source Sans Pro';
+@googleFontSizes   : '400,400i,600,600i,700';
+@emSize : 15px;
+@fontSize : 15px;
+
+
+/*--------------
+  Page Heading
+---------------*/
+
+@headerFontWeight : 600;
+
+/*-------------------
+      Disabled
+--------------------*/
+
+@disabledOpacity: 0;
+@disabledTextColor: rgba(40, 40, 40, 0.3);
+@invertedDisabledTextColor: #FFFFFF;
+
+
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+@primaryColor        : @blue;
+@secondaryColor      : @fullBlack;
