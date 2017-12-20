@@ -16,8 +16,8 @@ before_install:
 before_script:
   - chmod +x ./script/cibuild
   - git config diff.renameLimit 999999
-  - cp docs/guides/contributing.md .github/CONTRIBUTING.md
-  - cp about/code-of-conduct.md .github/CODE_OF_CONDUCT.md
+  - cp docs/guides/contributing.md docs/github/CONTRIBUTING.md
+  - cp about/code-of-conduct.md docs/github/CODE_OF_CONDUCT.md
 
 script: ./script/cibuild
 
@@ -27,7 +27,7 @@ env:
   - DEPLOY_BRANCH: gh-pages
   - SOURCE_BRANCH: responsive-deploy
   - JEKYLL_ENV: production
-
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of html-proofer
 
 exclude: [vendor]
 
@@ -37,3 +37,12 @@ deploy:
   provider: pages
   skip_cleanup: true
   target_branch: gh_pages
+
+notifications:
+  # TODO configure diybiosphere gitter integration webhook
+  # webhooks:
+  #   urls:
+  #     - https://webhooks.gitter.im/e/XXXXXXXXXXXXXXXXXXXX
+  #   on_success: change  # options: [always|never|change] default: always
+  #   on_failure: always  # options: [always|never|change] default: always
+  #   on_start: false     # default: false
