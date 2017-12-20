@@ -1,15 +1,14 @@
 # Site settings
-title: DIYbiosphere-responsive
+title: DIYbiosphere
 description: "A collaborative library of Do-it-Yourself Biology initiatives"
-baseurl: "" # the subpath of your site, e.g. /sphere
-# url: "100ideas.github.io"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "sphere.diybio.org"
 permalink: /updates/:year/:month/:day/:title
 repository: DIYbiosphere/sphere
 github_comments_repository:  diybiosphere/talk
-# github_username:
-github_username: 100ideas
+github_username: DIYbiosphere
 twitter:
-  username: 100ideas
+  username: DIYbiosphere
 
 
 # Excluded files and dirs
@@ -47,7 +46,7 @@ plugins:
   - jekyll-mentions
   - jekyll-github-metadata
   - jekyll-git_metadata
-  # - algoliasearch-jekyll
+  - algoliasearch-jekyll
   - jekyll-last-modified-at
   - jekyll-feed
   - jekyll-avatar
