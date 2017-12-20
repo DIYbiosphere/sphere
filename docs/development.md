@@ -8,29 +8,29 @@ crumb: none
 author: @100ideas
 
 #### responsive design targets
-- landing
-  - logo shrinks to just square image, no text
-  - global search box is front & center
-  - use grid of 8 collection types as dynamic filter buttons
-  - entries list component rendered below
+- [ ] landing
+  - [ ] logo shrinks to just square image, no text
+  - [ ] global search box is front & center
+  - [ ] use grid of 8 collection types as dynamic filter buttons
+  - [ ] entries list component rendered below
 
-- entries list/filter view
-  - left-hand sidebar turns into button cloud
-    + in progress
-    - turn into narrow stack of colored labels
-    - https://semantic-ui.com/elements/label.html#colored-group
-    - see `entries.html`
-  - use as partial on landing page instead of dedicated page
-  - search menu removed in favor of global search in top navbar
-  - viewTable component in searchbox is unnecessary
-  - pagination goes at bottom
+- [ ] entries list/filter view
+  - [ ] left-hand sidebar turns into button cloud
+    - [x] in progress
+    - [ ] turn into narrow stack of colored labels
+    - [ ] https://semantic-ui.com/elements/label.html#colored-group
+    - [ ] see `entries.html`
+  - [ ] use as partial on landing page instead of dedicated page
+  - [ ] search menu removed in favor of global search in top navbar
+  - [ ] viewTable component in searchbox is unnecessary
+  - [ ] pagination goes at bottom
 
-- views using `entry` layout
-  + social icons integrated into infobox
-  + metadata box floats below main content box, full-width in responsive mode
-  + refactor `info-box` partial
-    + create ___custom partial___ for better spacing instead of using table
-  + `tags` partial fine-tuned
+- [x] views using `entry` layout
+  - [x] social icons integrated into infobox
+  - [x] metadata box floats below main content box, full-width in responsive mode
+  - [x] refactor `info-box` partial
+    - [x] create ___custom partial___ for better spacing instead of using table
+  - [x] `tags` partial fine-tuned
 
 
 
