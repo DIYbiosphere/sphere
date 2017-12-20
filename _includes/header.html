@@ -1,11 +1,12 @@
 <header>
   <nav>
-    <div class="ui large borderless menu">
+    <div class="ui large stackable borderless menu">
       <!-- LOGO & LINK TO LANDING PAGE -->
       <div class="item">
         <a href="/">
-        <img class="ui image" src="/assets/img/sphere-logo-alpha.png"></a>
+        <img class="ui image" src="{{ '/assets/img/sphere-logo-alpha.png' | prepend: site.baseurl }}"></a>
       </div>
+
       <div class="ui dropdown item">
         ABOUT
         <i class="angle down icon"></i>
@@ -28,23 +29,37 @@
           <a class="item" href="/about/support-us"><i class="far fa-thumbs-up icon"></i>Support Us</a>
         </div>
       </div>
+
       <!-- search -->
-      <div class="item">
+      <!-- TODO we only need one search box on the entries list / landing page -->
+      <div class="ui right aligned category search item">
+        <div class="ui blue icon input">
+          <!-- hook up with js/autocomplete.es6 -->
+          <input class="prompt aa-input-search" type="search" id="aa-search-inputs" placeholder="search" name="search" autocomplete="on" >
+          <i class="search link icon"></i>
+        </div>
+        <div class="results"></div>
+      </div>
+
+      <!-- <div class="item">
         <div class="ui left action input">
-          <a class="ui primary button"  href="/entries/" data-tooltip="with advanced filters" data-position="right center" data-variation="mini">
+          <a class="ui primary button" href="/entries/" data-tooltip="with advanced filters" data-position="right center" data-variation="mini">
             <i class="fa fa-search icon"></i> Browse or
           </a>
           <input type="search" id="aa-search-input" class="aa-input-search" placeholder="Quick search by name or location" name="search" autocomplete="on" />
         </div>
-      </div>
+      </div> -->
+
       <!-- right menu -->
-      <div class="right menu">
+      <!-- <div class="right menu">
 
         <a target="_blank" class="item" href="https://diybio.org">
           <img class="ui image tiny" src="https://diybiology.files.wordpress.com/2011/10/diybio-logo-black-90x60px.png">
         </a>
 
-      </div> <!-- close  menu-->
+      </div>  -->
+      <!-- close  menu-->
+
     </div> <!-- end menu -->
 
   </nav>

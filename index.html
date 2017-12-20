@@ -5,9 +5,10 @@ layout: landing
 
 <!-- google maps API AIzaSyAgB5AWTL7CZagEdJp-WbeHvCDgRPaFidc -->
 
+<div class="ui center aligned grid">
 
 <!-- LANDING CAROUSEL -->
-<div class="owl-carousel">
+<div class="owl-carousel row">
   <!-- main image -->
   <div class="ui image">
     <div class="ui active inverted dimmer">
@@ -17,6 +18,7 @@ layout: landing
           <h1 class="ui  header"><div class="ui huge inverted header">DIYbiosphere</div></h1>
           <div class="ui huge inverted header">An open source project to collect DIYbio initiatives from all over the world. <br> Search, browse, update, or add an initiative!</div>
           <div class="ui medium inverted header">
+            <!-- TODO what is up with the following google.ch click-through link to github? -->
             To contribute all you need is a <a href="https://www.google.ch/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwig3Zb8wMTVAhUPmbQKHU31DbwQFggoMAA&url=https%3A%2F%2Fgithub.com%2Fjoin&usg=AFQjCNF6nezHQWX1hKwEFQVYRrUheS9_Ig">GitHub account!</a>
           </div>
           <a href="/about/diybiosphere"><button class="ui inverted big button">LEARN MORE</button></a>
@@ -78,7 +80,7 @@ layout: landing
   {% endfor %} <!-- collections -->
 </div> <!-- end carousel -->
 
-<div class="ui grid">
+<!-- <div class="ui center aligned grid"> -->
   <!--
   <div class="grey row xo top bottom padding fourfold">
     <div class="column">
@@ -128,13 +130,11 @@ layout: landing
 
   <!-- Browse by Collection -->
 
-    <div class="row xo padding top fourfold">
-      <div class="ui container">
-        <h2 class="ui center aligned header">Browse by Collection</h2>
-      </div>
+    <div class="row">
+      <h2 class="ui center aligned header">Browse by Collection</h2>
     </div>
     <!-- ROWS OF COLLECTION -->
-    <div class="row xo padding top bottom fourfold">
+    <div class="row">
       <div class="ui two column very relaxed celled grid container">
         <div class="row">
           <!-- Projects -->

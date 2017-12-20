@@ -19,17 +19,19 @@ if [ "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
     exit 0
 fi
 
-cp docs/guides/contributing.md .github/CONTRIBUTING.md
-cp about/code-of-conduct.md .github/CODE_OF_CONDUCT.md
+# TODO why are we duplicating these files?
+cp docs/guides/contributing.md docs/github/CONTRIBUTING.md
+[ -f about/code-of-conduct.md ] && cp about/code-of-conduct.md docs/github/CODE_OF_CONDUCT.md
 
 # cleanup "_site"
 rm -rf _site
 mkdir _site
 
-git clone https://${DEPLOY_TOKEN}@${GITHUB_REPO} --branch ${DEPLOY_BRANCH} _site
+# isn't this redundant? or... do we need to fetch the deploy branch?
+git clone https://${GITHUB_TOKEN}@${GITHUB_REPO} --branch ${DEPLOY_BRANCH} _site
 
-bundle exec jekyll algolia push
-bundle exec jekyll build --verbose
+# bundle exec jekyll algolia push
+bundle exec jekyll build --verbose --baseurl '/sphere'
 
 # Jekyll's output folder
 cd _site

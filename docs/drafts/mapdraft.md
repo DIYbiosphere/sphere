@@ -1,6 +1,6 @@
 ---
 title: map draft
-permalink: "/mapdraft/"
+# permalink: "/mapdraft/"
 layout: maps
 ---
 

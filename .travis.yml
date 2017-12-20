@@ -23,11 +23,17 @@ script: ./script/cibuild
 
 env:
   global:
-  - GITHUB_REPO: github.com/DIYbiosphere/sphere.git
+  - GITHUB_REPO: github.com/100ideas/sphere.git
   - DEPLOY_BRANCH: gh-pages
-  - SOURCE_BRANCH: master
+  - SOURCE_BRANCH: responsive-deploy
+  - JEKYLL_ENV: production
 
 
 exclude: [vendor]
 
 sudo: false
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  target_branch: gh_pages
