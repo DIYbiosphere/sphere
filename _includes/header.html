@@ -1,10 +1,54 @@
-<header>
+<header class="ui grid container">
+
+  <div class="mobile only row">
+    <div class="fifteen wide centered column">
+      <img class="ui image" src="{{ '/assets/img/sphere-logo-alpha.png' }}">
+    </div>
+  </div>
+
+  <nav class="row">
+    <div class="mobile only column">
+      <i class="sidebar icon"></i>
+    </div>
+    <div class="large screen computer tablet only six wide column">
+      <a class="item">
+        ABOUT
+      </a>
+      <a class="item">
+        CONTRIBUTE
+      </a>
+    </div>
+    <div class="ten wide column">
+      <div class="ui right aligned category search item">
+        search
+      </div>
+    </div>
+  </nav>
+
+<div class="container">
+  <nav>
+    <div class="ui stackable text menu">
+      <div class="item">
+        {% image "sphere-logo-circle.png" class:"ui image" %}
+      </div>
+      <a class="item">
+        Edited
+      </a>
+      <a class="item">
+        Most Comments
+      </a>
+      <a class="item active">
+        Most Popular
+      </a>
+    </div>
+  </nav>
+
   <nav>
     <div class="ui large stackable borderless menu">
       <!-- LOGO & LINK TO LANDING PAGE -->
       <div class="item">
         <a href="/">
-        <img class="ui image" src="{{ '/assets/img/sphere-logo-alpha.png' | prepend: site.baseurl }}"></a>
+        <img class="ui image" src="{{ '/assets/img/sphere-logo-alpha.png' }}"></a>
       </div>
 
       <div class="ui dropdown item">
@@ -63,4 +107,6 @@
     </div> <!-- end menu -->
 
   </nav>
+
+</div>
 </header>
