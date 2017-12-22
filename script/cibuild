@@ -36,7 +36,7 @@ bundle exec jekyll build --verbose --baseurl '/sphere'
 
 # find missing images
 # https://jekyllrb.com/docs/continuous-integration/travis-ci/#the-html-proofer-executable
-bundle exec htmlproofer ./_site --disable-external --empty-alt-ignore --checks-to-ignore LinkCheck
+# bundle exec htmlproofer ./_site --disable-external --empty-alt-ignore --checks-to-ignore LinkCheck
 
 # Jekyll's output folder
 cd _site
