@@ -1,45 +1,51 @@
-<header class="ui fluid container">
-
-  <nav class="ui attached stackable borderless vertically padded menu" id="simple-nav-bar">
-    <div class="ui very relaxed vertically padded grid container">
-
-      <div class="ui simple dropdown item">
-        {% img 'sphere-logo-alpha' class:'ui centered image fluid' id:'nav-big-logo' %}
-        <i class="dropdown icon"></i>
+<header>
+  <nav>
+    <div class="ui large borderless menu">
+      <!-- LOGO & LINK TO LANDING PAGE -->
+      <div class="item">
+        <a href="/">
+        <img class="ui image" src="/assets/img/sphere-logo-alpha.png"></a>
+      </div>
+      <div class="ui dropdown item">
+        ABOUT
+        <i class="angle down icon"></i>
         <div class="menu">
-          <a class="item" href="/"><span class="ui header">home</span></a>
-          <a class="item" href="/entries"><span class="ui header">browse projects</span></a>
-          <div class="item"><span class="ui header">about</span></div>
-          <!-- TODO configure /about/docs/ to serve from /about/ -->
-          <a class="item" href="/about/diybiosphere"><i class="info icon"></i>DIYbiosphere</a>
-          <a class="item" href="/about/community"><i class="empty heart icon"></i>Our Community</a>
-          <a class="item" href="/about/philosophy"><i class="compass icon"></i>Philosophy</a>
-          <a class="item" href="/about/contact"><i class="edit icon"></i>Contact</a>
-          <div class="item"><span class="ui header">contribute</span></div>
-          <a class="item" href="/docs/tutorials/add-entry/users"><i class="empty plus square icon"></i>Add Entry</a>
-          <a class="item" href="/docs/tutorials/edit-entry/users"><i class="edit icon"></i>Edit Content</a>
+          <a class="item" href="/about/diybiosphere"><i class="far fa-info icon"></i>DIYbiosphere</a>
+          <a class="item" href="/about/community"><i class="far fa-heart icon"></i>Our Community</a>
+          <a class="item" href="/about/philosophy"><i class="far fa-compass icon"></i>Philosophy</a>
+          <a class="item" href="/about/contact"><i class="far fa-paper-plane icon"></i>Contact</a>
+        </div>
+      </div>
+      <!-- CONTRIBUTE NAV -->
+      <div class="ui dropdown item">
+        CONTRIBUTE
+        <i class="angle down icon"></i>
+        <div class="menu">
+          <a class="item" href="/docs/tutorials/add-entry/users"><i class="far fa-plus-square icon"></i>Add Entry</a>
+          <a class="item" href="/docs/tutorials/edit-entry/users"><i class="far fa-pen-square icon"></i>Edit Content</a>
           <a target="_blank" class="item" href="https://github.com/DIYbiosphere/sphere"><i class="github icon"></i>Github (repo)</a>
-          <a class="item" href="/docs/welcome"><i class="book icon"></i>Learn More (docs)</a>
-          <a class="item" href="/about/support-us"><i class="thumbs up icon"></i>Support Us<i class="far thumbs-up icon"></i></a>
+          <a class="item" href="/docs/welcome"><i class="far fa-book icon"></i>Learn More (docs)</a>
+          <a class="item" href="/about/support-us"><i class="far fa-thumbs-up icon"></i>Support Us</a>
         </div>
       </div>
-
-      <!-- <div class="ui right aligned category search item">
-        <div class="ui blue icon input">
-          <input class="prompt aa-input-search" type="search" id="aa-search-inputs" placeholder="search" name="search" autocomplete="on" >
-          <i class="search link icon"></i>
+      <!-- search -->
+      <div class="item">
+        <div class="ui left action input">
+          <a class="ui primary button"  href="/entries/" data-tooltip="with advanced filters" data-position="right center" data-variation="mini">
+            <i class="fa fa-search icon"></i> Browse or
+          </a>
+          <input type="search" id="aa-search-input" class="aa-input-search" placeholder="Quick search by name or location" name="search" autocomplete="on" />
         </div>
-        <div class="results"></div> -->
-
-      <div class="right item">
-        <div class="ui icon input">
-          <!-- hook up with js/autocomplete.es6 -->
-          <input class="ui input aa-input-search" id="aa-search-input" type="search" name="search" autocomplete="on" size=40 placeholder="search" />
-          <i class="search icon"></i>
-        </div>
-        <div class="results"></div>
       </div>
-    </div>
+      <!-- right menu -->
+      <div class="right menu">
+
+        <a target="_blank" class="item" href="https://diybio.org">
+          <img class="ui image tiny" src="https://diybiology.files.wordpress.com/2011/10/diybio-logo-black-90x60px.png">
+        </a>
+
+      </div> <!-- close  menu-->
+    </div> <!-- end menu -->
+
   </nav>
-
 </header>
