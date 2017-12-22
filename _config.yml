@@ -47,7 +47,7 @@ plugins:
   - jekyll-mentions
   - jekyll-github-metadata
   - jekyll-git_metadata
-  # - algoliasearch-jekyll
+  - algoliasearch-jekyll
   - jekyll-last-modified-at
   - jekyll-feed
   - jekyll-avatar
