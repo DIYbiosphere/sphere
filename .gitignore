@@ -6,3 +6,4 @@ _site
 Gemfile.lock
 node_modules/
 .git-metadata
+.DS_Store
