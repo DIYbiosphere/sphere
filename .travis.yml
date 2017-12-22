@@ -17,15 +17,15 @@ before_script:
   - chmod +x ./script/cibuild
   - git config diff.renameLimit 999999
   - cp docs/guides/contributing.md docs/github/CONTRIBUTING.md
-  - cp docs/about/code-of-conduct.md docs/github/CODE_OF_CONDUCT.md
+  - cp about/code-of-conduct.md docs/github/CODE_OF_CONDUCT.md
 
 script: ./script/cibuild
 
 env:
   global:
-  - GITHUB_REPO: github.com/100ideas/sphere.git
+  - GITHUB_REPO: github.com/diybiosphere/sphere.git
   - DEPLOY_BRANCH: gh-pages
-  - SOURCE_BRANCH: responsive-deploy
+  - SOURCE_BRANCH: master
   - JEKYLL_ENV: production
   - NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of html-proofer
 

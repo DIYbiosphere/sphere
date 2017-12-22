@@ -22,7 +22,7 @@ fi
 # TODO why are we duplicating these files?
 # TODO these commands also specified in .travis.yml
 cp docs/guides/contributing.md docs/github/CONTRIBUTING.md
-cp docs/about/code-of-conduct.md docs/github/CODE_OF_CONDUCT.md
+cp about/code-of-conduct.md docs/github/CODE_OF_CONDUCT.md
 
 # cleanup "_site"
 rm -rf _site
