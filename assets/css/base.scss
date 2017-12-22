@@ -2,7 +2,15 @@
 *  Sticky Footer by https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
 */
 
+#simple-nav-bar {
+  // margin-top: 10px;
+  z-index: 10;
+  border: none;
+}
 
+#nav-big-logo {
+  max-width: 300px;
+}
 
 #map {
   width: 100%;
