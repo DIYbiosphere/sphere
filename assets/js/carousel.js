@@ -37,5 +37,4 @@ $('.owl-carousel').owlCarousel({
 
 });
 
-// currently $('.hero .image') does not select anything
-// $('.hero .image').dimmer('show');
+$('.hero .image').dimmer('show');

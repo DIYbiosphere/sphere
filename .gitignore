@@ -1,3 +1,4 @@
+_site
 .sass-cache
 .asset-cache
 .jekyll-metadata
@@ -5,5 +6,3 @@
 Gemfile.lock
 node_modules/
 .git-metadata
-.DS_Store
-_site
