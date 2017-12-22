@@ -6,6 +6,9 @@
   // margin-top: 10px;
   z-index: 10;
   border: none;
+  .dropdown.item {
+    z-index: 10;
+  }
 }
 
 #nav-big-logo {
