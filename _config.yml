@@ -97,7 +97,7 @@ defaults:
     values:
       layout: post
   -
-    scope:
+    scope: 
       type: projects
     values:
       layout: entry
