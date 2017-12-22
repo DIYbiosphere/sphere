@@ -2,29 +2,14 @@
 layout: default
 ---
 
-<div class="ui grid container xo padding top twofold">
+<div class="ui stackable mobile reversed grid container xo padding top twofold">
 
-  <!-- TODO make tall & skinny -->
   <!-- FILTERS -->
+  <!-- content filled in by algolia js/browse_instantsearch.es6 -->
   <div class="four wide column">
     <div class="ui segments">
       <div class="ui secondary segment">
         <h3>FILTERS</h3>
-      </div>
-
-      <div class="ui segment">
-        <div class="ui small vertical menu">
-          <p>FILTERS</p>
-          <div class="item">
-            <b>Category</b>
-            <div class="menu">
-              <a class="ui label" id="collection">
-                Happy
-                <div class="detail">22</div>
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
 
       <div class="ui segment">
@@ -59,10 +44,19 @@ layout: default
 
   <!-- SEARCH RESULTS -->
   <div class="twelve wide column">
+
+    <!-- HITS -->
+    <div class="ui active tab" data-tab="viewList">
+      <div id="hits-container"></div>
+    </div>
+    <div class="ui tab" data-tab="viewTable">
+      <div id="table-container"></div>
+    </div>
+
     <!-- SEARCH INFO -->
     <div class="ui segments">
       <div class="ui secondary segment">
-        <h3>SEARCH RESULTS</h3>
+        <h3>Fulltext Search</h3>
       </div>
       <div class="ui segment">
         <div id="search-box"></div>
@@ -81,12 +75,6 @@ layout: default
         </div>
       </div>
     </div>
-      <!-- HITS -->
-    <div class="ui active tab" data-tab="viewList">
-      <div id="hits-container"></div>
-    </div>
-    <div class="ui tab" data-tab="viewTable">
-      <div id="table-container"></div>
-    </div>
+
   </div>  <!-- 12 column -->
 </div> <!--  grid container -->
