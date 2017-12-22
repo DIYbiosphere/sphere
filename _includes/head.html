@@ -5,33 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta http-equiv="Content-Language" content="{{site.active_lang}}">
-  <link rel="icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
 
   <!-- Semantic UI -->
+  <!-- TODO include Source Code Pro font in local assets -->
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="{{ "/assets/semantic/dist/semantic.min.css" | prepend: site.baseUrl }}">
+  {% css semantic/dist/semantic.min %}
 
   <!-- FONTS -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css" />
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cc-icons/1.2.1/css/cc-icons.min.css" >
+  {% css vendor/octicons %}
+  {% css vendor/cc-icons %}
   {% javascript vendor/solid %}
   {% javascript vendor/regular %}
   {% javascript vendor/fontawesome %}
-  {% javascript githubComments %}
-  {% javascript githubCommentsEdit %}
 
-  {% css main %}
-  <!-- OWL Carousel -->
+  <!-- jQuery -->
+  {% js vendor/jquery-2.2.2 %}
+  {% js vendor/jquery.scrollNav.min %}
 
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" />
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css" />
+  <!-- TODO warn: injects jquery 3  {% javascript githubComments %} -->
+  <!-- TODO warn: injects jquery 3  {% javascript githubCommentsEdit %} -->
+
   {% if page.layout == 'landing' %}
-
+    <!-- OWL Carousel css (JS transcluded in default.html)-->
+    {% css vendor/owl.carousel.min %}
+    {% css vendor/owl.theme.default %}
   {% endif %}
 
+  {% css main %}
 
   {% seo %}
 
@@ -39,11 +43,13 @@
 
   <!-- Algolia InstantSearch -->
   {% if page.layout == 'entries' %}
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.2.4/dist/instantsearch.min.js"></script>
+    {% js vendor/instantsearch %}
   {% endif %}
 
   <!-- Algolia DocSearch -->
+  <!-- TODO probably unnecssary; remove? -->
   {% if page.layout == 'docs' %}
+    <!-- TODO include algolia instantsearch.min.js in local assets -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
   {% endif %}
 

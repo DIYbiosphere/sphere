@@ -1,12 +1,25 @@
 <div class="ui tab active basic segment" data-tab="overview">
-  <h1 class="ui header">{{ page.title }}
-  {% if page.subtitle %}
-    <div class="sub header">
-      <em>{{ page.subtitle }}</em>
+
+  <div class="ui items">
+    <div class="item">
+      <div class="content">
+        <h1 class="ui header">
+          <a href="{{ page.website }}" target="_blank">{{ page.title }}</a>
+        </h1>
+        <p><a href="{{ page.website }}" target="_blank">
+          {{ page.website | remove_first: "https://" | remove_first: "http://" }}
+        </a></p>
+        {% if page.subtitle %}
+          <p><em>{{ page.subtitle }}</em></p>
+        {% endif %}
+        <div class="description">
+          {{content}}
+        </div>
+      </div>
     </div>
-  {% endif %}
-  </h1>
-  {{content}}
+  </div>
+
+
   <div class="ui horizontal divider">
     <i class="far fa-comments icon"></i>
     COMMENTS

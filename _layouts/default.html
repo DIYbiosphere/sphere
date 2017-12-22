@@ -6,6 +6,7 @@
   <body>
 
     {% include header.html %}
+    
       <main>
 
           {{content}}
@@ -14,37 +15,38 @@
 
   {% include footer.html %}
 
-
     <!-- Google Analytics -->
     <script src="https://www.google.com/jsapi"></script>
 
-    <!-- JQuery & Semantic UI -->
-    <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
-    <script src="/assets/js/vendor/jquery.scrollNav.min.js"></script>
-    <script src="{{ "/assets/semantic/dist/semantic.min.js" | prepend: site.baseUrl }}"></script>
+    <!-- Semantic UI js? TODO broken-->
+    {% javascript semantic/dist/semantic.min.js %}
     <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
     <script type="text/javascript">$('.tabular.menu .item').tab();</script>
 
-    <link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags16.css" />
+    <!-- TODO figure out what's going on here... already included via main.scss? -->
+      <!-- https://github.com/lafeber/world-flags-sprite -->
+      <!-- <link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags16.css" /> -->
 
     <!-- Clipboard.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
-    <!-- Include AlgoliaSearch JS Client and autocomplete.js library -->
-    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/algoliasearch.helper/2/algoliasearch.helper.min.js"></script>
+    {% js vendor/clipboard-1.7.1 %}
+
+    <!-- AlgoliaSearch JS Client and autocomplete.js library -->
+    {% js vendor/algoliasearch-3.24.8 %}
+    {% js vendor/hogan-3.0.2 %}
+    {% js vendor/algolia-autocomplete-0.29.0 %}
+    {% js vendor/algolia-algoliasearch_helper-2.js %}
     {% javascript autocomplete %}
 
-    <!-- Owl Carousel for index/landing page -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
-    {% javascript carousel %}
-    <script type="text/javascript">$('.message .close').on('click', function() {$(this).closest('.message').transition('fade');});</script>
-
-
     {% if page.layout == 'landing' %}
-    {% javascript googleMap %}
-    {% javascript lastEdited_instantsearch %}
+      <!-- Owl Carousel instance -->
+      {% js vendor/owl-carousel-2.2.1 %}
+      {% javascript carousel %}
+      <script type="text/javascript">$('.message .close').on('click', function() {$(this).closest('.message').transition('fade');});</script>
+
+      <!-- TODO depends on _plugins/dataDoc.rb - CURRENTLY COMMENTED OUT -->
+      <!-- {% javascript googleMap %} -->
+      <!-- TODO Algolia search for #index-stats-container on index.html#90 - CURRENTLY COMMENTED OUT -->
+      <!-- {% javascript lastEdited_instantsearch %} -->
     {% endif %}
 
     {% if page.layout == 'entries' %}
@@ -53,8 +55,8 @@
       {% javascript browse_instantsearch %}
     {% endif %}
 
-
     {% if page.layout == 'docs' %}
+    <!-- TODO already included in head.html -->
       <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
       <script type="text/javascript">$('.menu .item').tab();</script>
       <script type="text/javascript">$('.ui.accordion').accordion({onOpen: function (item) {setCookie('acordionIndex',this.index);}}).accordion('open', getCookie('acordionIndex'));</script>

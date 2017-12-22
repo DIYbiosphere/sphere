@@ -8,11 +8,11 @@ manager:
 subtitle: Your Biohacking and Citizen Science Lab in Oakland
 header-image: "/entries/labs/counterculturelabs/header.jpg"
 logo: "/entries/labs/counterculturelabs/logo.png"
-website: http://counterculturelabs.org/
+website: http://counterculturelabs.org
 start-date: 2013
-host-org: "[Omni Commons](https://diybio.org/)"
+host-org: "[Omni Commons](https://omnicommons.org)"
 type-org: Community
-affiliates: "[Sudo Room](https://diybio.org/)"
+affiliates: "[Sudo Room](https://sudoroom.org)"
 address: 4799 Shattuck
 directions:
 postcode: 94114

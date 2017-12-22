@@ -136,22 +136,15 @@ const tableHits = instantsearch.widgets.hits({
       operator: 'or',
       limit: 10,
       cssClasses: {
-  			item: 'link item',
-  			active: 'active item',
+        list: 'ui labels',
+  			item: 'ui label',
+  			active: 'ui blue label',
         header: 'ui small header'
       },
       templates: {
         header: 'Collections',
-        item: '<div class="ui comments">' +
-          '<div class="comment">' +
-            '<div class="content">' +
-              '<a href="" class="noul">{{value}}</a>' +
-              '<div class="metadata">' +
-                '<div> : {{count}}</div>' +
-              '</div>' +
-            '</div>' +
-          '</div>' +
-        '</div>'},
+        item: '{{value}} : {{count}}',
+      }
     });
 
   const typeFilter = instantsearch.widgets.refinementList({
@@ -160,22 +153,15 @@ const tableHits = instantsearch.widgets.hits({
       operator: 'or',
       limit: 10,
       cssClasses: {
-  			item: 'link item',
-  			active: 'active item',
+        list: 'ui labels',
+  			item: 'ui label',
+  			active: 'ui blue label',
         header: 'ui small header'
       },
       templates: {
-        header: 'Type of Organization',
-        item: '<div class="ui comments">' +
-          '<div class="comment">' +
-            '<div class="content">' +
-              '<a href="" class="noul">{{value}}</a>' +
-              '<div class="metadata">' +
-                '<div> : {{count}}</div>' +
-              '</div>' +
-            '</div>' +
-          '</div>' +
-        '</div>'},
+        header: 'Types of Organizations',
+        item: '{{value}} : {{count}}',
+      }
     });
 
 
@@ -189,8 +175,8 @@ const tableHits = instantsearch.widgets.hits({
       },
   		cssClasses: {
   			list: 'ui labels',
-  			item: 'ui label basic blue',
-  			active: 'ui grey label',
+  			item: 'ui label',
+  			active: 'ui blue label',
         header: 'ui small header'
       },
       templates: {

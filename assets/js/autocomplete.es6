@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+// https://www.algolia.com/doc/api-client/javascript/getting-started/
+// https://github.com/algolia/autocomplete.js#standalone
 var client = algoliasearch("ITI5JHZJM9", "b427318cf6d881e5d3ffd84adf39219e");
 var index = client.initIndex('diybiosphere');
 //initialize autocomplete on search input (ID selector must match)
@@ -17,6 +19,10 @@ var hitTemplate = Hogan.compile (`
 
 autocomplete('#aa-search-input', {
   hint: true,
+  cssClasses: {
+    input: "prompt"
+  },
+  autoWidth: false,
   debug: true }, [{
     source: autocomplete.sources.hits(index, {hitsPerPage: 5}),
     //value to be displayed in input control after user's suggestion selection
