@@ -1,164 +1,229 @@
+<!-- If header image in file (.png or .jpg), then display -->
 {% if page.header %}
-  <div class="ui fluid raised card overlapHeader">
+<div class="ui segment" style="margin-top: -100px;">
 {% else %}
-  <div class="ui fluid raised card">
+<div class="ui segment">
 {% endif %}
-  {% if page.logo %}
-    <a class="ui spaced image noelink" href="{{ page.website }}" target="_blank">
-      <!-- <img class="ui fluid image" src="{{ page.logo }}"/> -->
-      <img src="{{ page.logo }}"/>
-    </a>
-  {% endif %}
-  <div class="content">
-    <div class="ui very relaxed divided list">
-      <div class="item">
-        {% include social-icons.html %}
-      </div>
 
-      <!-- Predecessor -->
-      {% if page.predecessor %}
-        <div class="item">
-          <div class="header">Predecessor:</div>
-          {{ page.predecessor | markdownify }}
-        </div>
-      {% endif %}
+<a class="noelink" href="{{ page.website }}" target="_blank">
+  <!-- Display logo -->
 
-      <!-- Successor -->
-      {% if page.successor %}
-        <div class="item">
-          <div class="header">Successor:</div>
-          {{ page.successor | markdownify }}
-        </div>
-      {% endif %}
+  <!-- In case it is png -->
+    {% if page.logo %}
+        <img class="ui small centered image" src="{{ page.logo }}"/>
+    {% endif %}
+</a>
 
-      <!-- start-date -->
-      {% if page.start-date %}
-        <div class="item">
-          <div class="header">Start Date:</div>
-          {{ page.start-date }}
-        </div>
-      {% endif %}
+        <table class="ui very basic small table">
+        <tbody>
 
-      <!-- End-Date -->
-      {% if page.end-date %}
-        <div class="item">
-          <div class="header">End Date:</div>
-          {{ page.end-date }}
-        </div>
-      {% endif %}
+          <!-- Predecessor -->
+          {% if page.predecessor %}
+          <tr>
+            <td>
+              Predecessor:
+            </td>
+            <td>
+              {{ page.predecessor | markdownify }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
 
-      <!-- Type -->
-      {% if page.type-org %}
-        <div class="item">
-          <div class="header">Type:</div>
-          {{ page.type-org }}
-        </div>
-      {% endif %}
+          <!-- Successor -->
+          {% if page.successor %}
+          <tr>
+            <td>
+              Successor:
+            </td>
+            <td>
+              {{ page.successor | markdownify }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
 
-      <!-- Status -->
-      {% if page.status %}
-        <div class="item">
-          <div class="header">Status:</div>
-          {{ page.status }}
-        </div>
-      {% endif %}
+          <!-- start-date -->
+          {% if page.start-date %}
+          <tr>
+            <td>
+              Start Date:
+            </td>
+            <td>
+              {{ page.start-date }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
 
-      <!-- Membership -->
-      {% if page.membership %}
-        <div class="item">
-          <div class="header">Membership:</div>
-          {{ page.membership }}
-        </div>
-      {% endif %}
+          <!-- End-Date -->
+          {% if page.end-date %}
+          <tr>
+            <td>
+              End Date:
+            </td>
+            <td>
+              {{ page.end-date }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
 
-      <!-- Founders -->
-      {% if page.founders %}
-        <div class="item">
-          <div class="header">Founders:</div>
-          {{ page.founders }}
-        </div>
-      {% endif %}
+          <!-- Type -->
+          {% if page.type-org %}
+          <tr>
+            <td>
+              Type:
+            </td>
+            <td>
+              {{ page.type-org }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
 
-      <!-- Authors -->
-      {% if page.authors %}
-        <div class="item">
-          <div class="header">Authors:</div>
-          {{ page.authors | markdownify }}
-        </div>
-      {% endif %}
+          <!-- Status -->
+          {% if page.status %}
+          <tr>
+            <td>
+              Status:
+            </td>
+            <td>
+              {{ page.status }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
 
-      {% if page.host-org %}
-        <div class="item">
-          <div class="header">Organization:</div>
-          {% if page.host-org contains 'http' %}
-            {{ page.host-org | markdownify }}
-          {% else %}
-            {% for lab in site.labs %}
-              {% if lab.title==page.host-org %}
-              <a class="noelink" href="{{ lab.url | prepend: site.baseurl }}">
-                {{ lab.title }}
-              </a>
+          <!-- Membership -->
+          {% if page.membership %}
+          <tr>
+            <td>
+              Membership:
+            </td>
+            <td>
+              {{ page.membership }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Founders -->
+          {% if page.founders %}
+          <tr>
+            <td>
+              Founders:
+            </td>
+            <td>
+              {{ page.founders }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Authors -->
+          {% if page.authors %}
+          <tr>
+            <td>
+              Authors:
+            </td>
+            <td>
+              {{ page.authors | markdownify }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+
+          <!-- Parent organization -->
+          {% if page.host-org %}
+          <tr>
+            <td>
+              Host Organization:
+            </td>
+            <td>
+              {% if page.host-org contains 'http' %}
+                {{ page.host-org | markdownify }}
+                {% else %}
+                {% for lab in site.labs %}
+                  {% if lab.title==page.host-org %}
+                  <a class="noelink" href="{{ lab.url | prepend: site.baseurl }}">
+                    {{ lab.title }}
+                  </a>
+                  {% endif %}
+                {% endfor %}
               {% endif %}
-            {% endfor %}
+            </td>
+            </tr>
+          </tr>
           {% endif %}
-        </div>
-      {% endif %}
 
-      <!-- Affilliations -->
-      {% if page.affilliations %}
-        <div class="item">
-          <div class="header">Affiliations:</div>
-          {{ page.afilliations | markdownify }}
-        </div>
-      {% endif %}
-
-      <!-- Number of members -->
-      {% if page.size-members %}
-        <div class="item">
-          <div class="header">Size:</div>
-          {{ page.size-members | markdownify }}
-        </div>
-      {% endif %}
-
-      <!-- Area -->
-      {% if page.area %}
-        <div class="item">
-          <div class="header">Area:</div>
-          {{ page.area }}
-        </div>
-      {% endif %}
-
-      <!-- Location -->
-      <div class="item">
-        <div class="header">
-          Location <i class="marker icon"></i>:
-        </div>
-        <div class="ui list">
-          <!-- Address -->
-          <div class="item">
-            {% if page.address %}
-              {{ page.address }}{% if page.directions %}, {{ page.directions }}{% endif %}
-            {% endif %}
-          </div>
-          <div class="item">
-            <!-- City and country -->
-            {% if page.city and page.state %}
-              {{ page.city }}, {{ page.state }}
-            {% elsif page.city %}
-              {{ page.city }}
-            {% else page.state %}
-              {{ page.state }}
-            {% endif %}
-          </div>
-          {% if page.country %}
-            <div class="item">
-              {{ page.country }}
-            </div>
+          <!-- Affilliations -->
+          {% if page.affilliations %}
+          <tr>
+            <td>
+              Affiliations:
+            </td>
+            <td>
+              {{ page.afilliations | markdownify }}
+            </td>
+            </tr>
+          </tr>
           {% endif %}
-        </div>
-      </div>
-      <!-- //Location -->
-      {% include keywords.html %}
-    </div>
-  </div>
+
+          <!-- Number of members -->
+          {% if page.size-members %}
+          <tr>
+            <td>
+              Size:
+            </td>
+            <td>
+              {{ page.size-members | markdownify }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Area -->
+          {% if page.area %}
+          <tr>
+            <td>
+              Area:
+            </td>
+            <td>
+              {{ page.area }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+
+          <!-- Location -->
+          <tr class="top aligned">
+            <td>
+              <span>Location:</span>
+            </td>
+            <td>
+              <!-- Address -->
+              {% if page.address %}
+              {{ page.address }}{% if page.directions %}, {{ page.directions }}{% endif %} <br>
+              {% endif %}
+              <!-- City and country -->
+              {% if page.city or page.state or page.country %}
+                {{ page.city }}
+                {% if page.city and page.state %}, {% endif %}
+                {% if page.state %}
+                {{ page.state }} {% endif %}
+                {% if page.city or page.state %}<br> {% endif %}
+                {% if page.country %}
+                {{ page.country }}
+                {% endif %}
+              {% endif %}
+            </td>
+          </tr>
+        </tbody>
+
+      </table>
 </div>
+
+  {% include social-icons.html %}

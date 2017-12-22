@@ -1,6 +1,6 @@
 ---
 title: Draft
-# permalink: "/draft2/"
+permalink: "/draft2/"
 layout: docs
 ---
 
