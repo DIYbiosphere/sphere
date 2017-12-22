@@ -2,7 +2,7 @@
 
 
   <nav class="ui attached stackable borderless vertically padded menu" id="simple-nav-bar">
-    <div class="ui container">
+    <div class="ui very relaxed vertically padded grid container">
 
       <div class="ui simple dropdown item">
         {% img 'sphere-logo-alpha' class:'ui centered image fluid' id:'nav-big-logo' %}
@@ -13,8 +13,7 @@
           <a class="item" href="/about/community"><i class="empty heart icon"></i>Our Community</a>
           <a class="item" href="/about/philosophy"><i class="compass icon"></i>Philosophy</a>
           <a class="item" href="/about/contact"><i class="edit icon"></i>Contact</a>
-          <!-- <div class="item"><span class="ui header">contribute</span></div> -->
-          <div class="header">contribute</div>
+          <div class="item"><span class="ui header">contribute</span></div>
           <a class="item" href="/docs/tutorials/add-entry/users"><i class="empty plus square icon"></i>Add Entry</a>
           <a class="item" href="/docs/tutorials/edit-entry/users"><i class="edit icon"></i>Edit Content</a>
           <a target="_blank" class="item" href="https://github.com/DIYbiosphere/sphere"><i class="github icon"></i>Github (repo)</a>
@@ -23,11 +22,20 @@
         </div>
       </div>
 
-      <div class="right item">
+      <!-- <div class="ui right aligned category search item">
+        <div class="ui blue icon input">
+          <input class="prompt aa-input-search" type="search" id="aa-search-inputs" placeholder="search" name="search" autocomplete="on" >
+          <i class="search link icon"></i>
+        </div>
+        <div class="results"></div> -->
+
+      <div class="right item" style="padding-left: 0; padding-right: 0;">
         <div class="ui icon input">
-          <input class="ui input" type="text" size=32 placeholder="search" />
+          <!-- hook up with js/autocomplete.es6 -->
+          <input class="ui input aa-input-search" id="aa-search-inputs" type="search" name="search" autocomplete="on" size=40 placeholder="search" />
           <i class="search icon"></i>
         </div>
+        <div class="results"></div>
       </div>
     </div>
   </nav>

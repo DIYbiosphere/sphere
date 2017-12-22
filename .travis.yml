@@ -17,7 +17,7 @@ before_script:
   - chmod +x ./script/cibuild
   - git config diff.renameLimit 999999
   - cp docs/guides/contributing.md docs/github/CONTRIBUTING.md
-  - cp about/code-of-conduct.md docs/github/CODE_OF_CONDUCT.md
+  - cp docs/about/code-of-conduct.md docs/github/CODE_OF_CONDUCT.md
 
 script: ./script/cibuild
 
