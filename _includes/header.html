@@ -1,51 +1,69 @@
 <header>
   <nav>
-    <div class="ui large borderless menu">
-      <!-- LOGO & LINK TO LANDING PAGE -->
-      <div class="item">
-        <a href="/">
-        <img class="ui image" src="/assets/img/sphere-logo-alpha.png"></a>
-      </div>
-      <div class="ui dropdown item">
-        ABOUT
-        <i class="angle down icon"></i>
-        <div class="menu">
-          <a class="item" href="/about/diybiosphere"><i class="far fa-info icon"></i>DIYbiosphere</a>
-          <a class="item" href="/about/community"><i class="far fa-heart icon"></i>Our Community</a>
-          <a class="item" href="/about/philosophy"><i class="far fa-compass icon"></i>Philosophy</a>
-          <a class="item" href="/about/contact"><i class="far fa-paper-plane icon"></i>Contact</a>
-        </div>
-      </div>
-      <!-- CONTRIBUTE NAV -->
-      <div class="ui dropdown item">
-        CONTRIBUTE
-        <i class="angle down icon"></i>
-        <div class="menu">
-          <a class="item" href="/docs/tutorials/add-entry/users"><i class="far fa-plus-square icon"></i>Add Entry</a>
-          <a class="item" href="/docs/tutorials/edit-entry/users"><i class="far fa-pen-square icon"></i>Edit Content</a>
-          <a target="_blank" class="item" href="https://github.com/DIYbiosphere/sphere"><i class="github icon"></i>Github (repo)</a>
-          <a class="item" href="/docs/welcome"><i class="far fa-book icon"></i>Learn More (docs)</a>
-          <a class="item" href="/about/support-us"><i class="far fa-thumbs-up icon"></i>Support Us</a>
-        </div>
-      </div>
-      <!-- search -->
-      <div class="item">
-        <div class="ui left action input">
-          <a class="ui primary button"  href="/entries/" data-tooltip="with advanced filters" data-position="right center" data-variation="mini">
-            <i class="fa fa-search icon"></i> Browse or
-          </a>
-          <input type="search" id="aa-search-input" class="aa-input-search" placeholder="Quick search by name or location" name="search" autocomplete="on" />
-        </div>
-      </div>
-      <!-- right menu -->
-      <div class="right menu">
+    <div class="ui padded grid">
+      <!-- Computer Nav -->
+      <div class="computer only row">
+        <div class="ui fluid large text menu">
+          <!-- LOGO & LINK TO LANDING PAGE -->
+          {% include nav/logo.html %}
+          <!-- search -->
+          <div class="item">
+            <div class="ui fluid icon input">
+              <input type="search" id="aa-search-input" class="aa-input-search" placeholder="Search (name/location)" name="search" autocomplete="on" />
+              <i class="search icon"></i>
+            </div>
+          </div>
+          <div class="right menu">
+            <div class="ui dropdown item">
+              About
+              <i class="fa angle down icon"></i>
+              {% include nav/about.html %}
+            </div>
+            <!-- CONTRIBUTE NAV -->
+            <div class="ui dropdown item">
+              Contribute
+              <i class="fa angle down icon"></i>
+              {% include nav/contribute.html %}
+            </div>
+          </div> <!-- close  menu-->
+        </div> <!-- end menu -->
+      </div> <!-- end computer menu -->
 
-        <a target="_blank" class="item" href="https://diybio.org">
-          <img class="ui image tiny" src="https://diybiology.files.wordpress.com/2011/10/diybio-logo-black-90x60px.png">
-        </a>
+      <div class="mobile tablet only row">
+          <div class="ui fluid vertical fitted text menu">
+            <div class="item">
+              <div class="ui text menu">
+                {% include nav/logo.html %}
+                <div class="right menu">
+                  <div class="ui right dropdown icon item">
+                    <i class="sidebar large icon"></i>
+                     <div class="menu">
+                       <div class="item">
+                         <i class="fa angle left icon"></i>
+                         <span class="text">About</span>
+                         {% include nav/about.html %}
+                       </div>
+                       <div class="item">
+                         <i class="fa angle left icon"></i>
+                         <span class="text">Contribute</span>
+                         {% include nav/contribute.html %}
+                       </div>
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item">
+                <div class="ui fluid icon input">
+                  <input type="search" id="aa-search-input-mobile" class="aa-input-search" placeholder="Search (name/location)" name="search" autocomplete="on" />
+                  <i class="search icon"></i>
+                </div>
+              </div>
+            </div>
+          </div> <!-- close menu -->
+      </div> <!-- close mobile row -->
 
-      </div> <!-- close  menu-->
-    </div> <!-- end menu -->
-
+    </div> <!-- close grid -->
   </nav>
 </header>
