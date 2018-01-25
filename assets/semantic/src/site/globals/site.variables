@@ -7,10 +7,9 @@
        Fonts
 --------------------*/
 
-@fontName          :'Source Sans Pro';
-@googleFontSizes   : '400,400i,600,600i,700';
+@fontName          :'Source Code Pro';
+@googleFontSizes   : '400,600,700';
 @emSize : 15px;
-@fontSize : 15px;
 
 
 /*--------------
