@@ -11,17 +11,29 @@ layout: default
 
 <article>
   <div class="ui grid container xo top padding">
-    <div class="five wide column">
-      {% include info-box.html %}
-      {% include keywords.html %}
-      {% include promotions.html %}
+    <div class="computer tablet only row">
+      <div class="eleven wide column">
+        {% include contentTab.html %}
+
+      </div>
+
+      <div class="five wide column">
+        {% include entry/infobox.html %}
+        {% include entry/tags.html %}
+        {% include entry/promotions.html %}
+      </div>
     </div>
-    <div class="eleven wide column">
+    <div class="mobile only row">
+      <div class="sixteen wide column">
+        {% include entry/infobox.html %}
+        {% include entry/tags.html %}
+        {% include entry/promotions.html %}
+      </div>
 
-      {% include contentMenu.html %}
-
-      {% include contentTab.html %}
-
+      <div class="sixteen wide column">
+        {% include contentTab.html %}
+        {% include github-actions.html %}
+      </div>
 
     </div>
   </div>

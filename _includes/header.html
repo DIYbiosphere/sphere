@@ -8,20 +8,21 @@
           {% include nav/logo.html %}
           <!-- search -->
           <div class="item">
-            <div class="ui fluid icon input">
+            <div class="ui icon input">
               <input type="search" id="aa-search-input" class="aa-input-search" placeholder="Search (name/location)" name="search" autocomplete="on" />
               <i class="search icon"></i>
             </div>
           </div>
+          {% include nav/browse-all.html %}
           <div class="right menu">
             <div class="ui dropdown item">
-              About
+              <strong>ABOUT</strong>
               <i class="fa angle down icon"></i>
               {% include nav/about.html %}
             </div>
             <!-- CONTRIBUTE NAV -->
             <div class="ui dropdown item">
-              Contribute
+              <strong>CONTRIBUTE</strong>
               <i class="fa angle down icon"></i>
               {% include nav/contribute.html %}
             </div>
@@ -54,11 +55,14 @@
               </div>
             </div>
             <div class="item">
-              <div class="item">
-                <div class="ui fluid icon input">
-                  <input type="search" id="aa-search-input-mobile" class="aa-input-search" placeholder="Search (name/location)" name="search" autocomplete="on" />
-                  <i class="search icon"></i>
+              <div class="ui text menu">
+                <div class="item">
+                  <div class="ui icon input">
+                    <input type="search" id="aa-search-input-mobile" class="aa-input-search" placeholder="Search (name/location)" name="search" autocomplete="on" />
+                    <i class="search icon"></i>
+                  </div>
                 </div>
+                {% include nav/browse-all.html %}
               </div>
             </div>
           </div> <!-- close menu -->
