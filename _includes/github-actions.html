@@ -6,36 +6,7 @@
   GitHub
 </div>
 
-<div class="ui mini horizontal divided list">
-  <!-- Display last edited date of the page -->
-  <div class="disabled item">
-    Last edited on {% last_modified_at %}
-  </div>
-  <!-- Link to the page in the Github Repository -->
-  <a class="item noelink noul" href="https://github.com/DIYbiosphere/sphere/edit/master/{{page.path}}" target="_blank">
-    <i class="far fa-edit icon"></i>
-    Edit Page
-  </a>
-  <!-- Add a comment to an existing issue asociated with this page for editing discussion-->
-  <!-- How it works: check in `_data/talk_repo/yml` for an instance where page_name is equal to the title of the current page -->
-  {% for issue in site.data.talk_repo %}
-    {% if issue.page_name == page.title %}
-      {% if issue.edit_issue %}
-      {% assign edit_issue = true %}
-      <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/{{ issue.edit_issue }}#new_comment_field" target="_blank">
-          <i class="far fa-bug icon"></i>
-          Report Error
-      </a>
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-
-  {% if edit_issue != true '%}
-  <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/new" target="_blank">
-      <i class="far fa-bug icon"></i>
-      Open Issue
-  </a>
-  {% endif %}
+<div class="ui mini horizontal divided link list">
 
   <!-- How it works: check in `_data/talk_repo/yml` for an instance where page_name is equal to the title of the current page -->
   {% for issue in site.data.talk_repo %}
@@ -57,5 +28,36 @@
   </a>
   {% endif %}
 
+  <!-- Add a comment to an existing issue asociated with this page for editing discussion-->
+  <!-- How it works: check in `_data/talk_repo/yml` for an instance where page_name is equal to the title of the current page -->
+  {% for issue in site.data.talk_repo %}
+    {% if issue.page_name == page.title %}
+      {% if issue.edit_issue %}
+      {% assign edit_issue = true %}
+      <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/{{ issue.edit_issue }}#new_comment_field" target="_blank">
+          <i class="far fa-bug icon"></i>
+          Report Error
+      </a>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% if edit_issue != true '%}
+  <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/new" target="_blank">
+      <i class="far fa-bug icon"></i>
+      Open Issue
+  </a>
+  {% endif %}
+
+  <!-- Link to the page in the Github Repository -->
+  <a class="item noelink noul" href="https://github.com/DIYbiosphere/sphere/edit/master/{{page.path}}" target="_blank">
+    <i class="far fa-edit icon"></i>
+    Edit Page
+  </a>
+
+  <!-- Display last edited date of the page -->
+  <div class="active item">
+    Last edited on {% last_modified_at %}
+  </div>
 
 </div>

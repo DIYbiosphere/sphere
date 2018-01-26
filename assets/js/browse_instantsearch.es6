@@ -13,7 +13,7 @@ const searchAnything = instantsearch.widgets.searchBox({
     reset: false,
     poweredBy: false,
     magnifier: false,
-    placeholder: 'Global search for (almost) anything in the entries',
+    placeholder: 'Global text search for (almost) anything in the entries',
 		cssClasses: {
 			root: 'ui input'
 		}
@@ -26,33 +26,31 @@ const searchAnything = instantsearch.widgets.searchBox({
       body: 'ui medium header',
     },
     templates: {
-      body: 'Browse {{nbHits}} total entries found'
+      body: 'Browse {{nbHits}} entries found'
     }
   });
 
 const clearFilters = instantsearch.widgets.clearAll({
 		container: '#clear-all',
 		autoHideContainer: true,
-    clearsQuery: true,
 		templates: {
-			link: '<a class="ui red label"><i class="far fa-eraser icon"></i>Erase all</a>'
+			link: '<button class="ui red mini basic button"><i class="fas fa-eraser icon"></i>Erase all</button>'
 		},
 	});
 
 const resultsMatching = instantsearch.widgets.currentRefinedValues({
     container: '#current-refined-values',
 		autoHideContainer: true,
-		clearAll: false,
+    clearAll: false,
 		cssClasses: {
       root: 'ui horizontal list',
 			header: 'item ui small header',
       body: 'item',
-      list: 'ui horizontal link list',
+      list: 'ui horizontal list',
       item: 'item',
     },
 		templates: {
-      header: ' matching: ',
-			item: `<a class="ui label">{{name}} <i class="far fa-times icon"></i></a>`
+			item: '<a class="ui label">{{name}} <i class="delete icon"></i></a>',
     },
   });
 
@@ -136,22 +134,15 @@ const tableHits = instantsearch.widgets.hits({
       operator: 'or',
       limit: 10,
       cssClasses: {
-  			item: 'link item',
+  			list: 'ui small horizontal link list xo paddingless',
+  			item: 'item',
   			active: 'active item',
-        header: 'ui small header'
+        header: 'ui tiny header'
       },
       templates: {
-        header: 'Collections',
-        item: '<div class="ui comments">' +
-          '<div class="comment">' +
-            '<div class="content">' +
-              '<a href="" class="noul">{{value}}</a>' +
-              '<div class="metadata">' +
-                '<div> : {{count}}</div>' +
-              '</div>' +
-            '</div>' +
-          '</div>' +
-        '</div>'},
+        header: 'Collection',
+        item: '<a class="item">{{value}}•{{count}}</a>',
+      }
     });
 
   const typeFilter = instantsearch.widgets.refinementList({
@@ -160,22 +151,15 @@ const tableHits = instantsearch.widgets.hits({
       operator: 'or',
       limit: 10,
       cssClasses: {
-  			item: 'link item',
+  			list: 'ui small horizontal link list',
+  			item: 'item',
   			active: 'active item',
         header: 'ui small header'
       },
       templates: {
-        header: 'Type of Organization',
-        item: '<div class="ui comments">' +
-          '<div class="comment">' +
-            '<div class="content">' +
-              '<a href="" class="noul">{{value}}</a>' +
-              '<div class="metadata">' +
-                '<div> : {{count}}</div>' +
-              '</div>' +
-            '</div>' +
-          '</div>' +
-        '</div>'},
+        header: 'Type',
+        item: '<a class="item">[{{value}} {{count}}]</a>',
+      }
     });
 
 
@@ -183,19 +167,16 @@ const tableHits = instantsearch.widgets.hits({
       container: '#tags',
       attributeName: 'tags',
   		operator: 'or',
-  		limit: 8,
-      showMore: {
-
-      },
+  		limit: 10,
   		cssClasses: {
-  			list: 'ui labels',
-  			item: 'ui label basic blue',
-  			active: 'ui grey label',
+  			list: 'ui small horizontal link list',
+  			item: 'item',
+  			active: 'active item',
         header: 'ui small header'
       },
       templates: {
         header: 'Tags',
-        item: '{{value}} : {{count}}',
+        item: '<a class="item">({{value}} {{count}})</a>',
       }
     });
 
@@ -203,14 +184,13 @@ const tableHits = instantsearch.widgets.hits({
 const pagesNav = instantsearch.widgets.pagination({
     container: '#pagination-container',
     maxPages: 20,
+    scrollTo: false,
+    showFirstLast: false,
 		autoHideContainer: true,
-		showFirstLast: true,
-    padding: 1, //number of pages on each side
-		cssClasses: {
-			root: 'ui secondary small compact menu',
+    cssClasses: {
+			root: 'ui small compact menu',
 			item: 'item',
-      link: 'noul',
-			active: 'active item'
+      list: 'item',
 		}
   });
 

@@ -12,42 +12,42 @@ ADDING A NEW ICON
   </a>
 {% endif %}
 -->
-
+<div class="ui horizontal large link list">
 {% if page.website or page.title=="Writing Entries"%}
-  <a class="noelink noul" href="{{ page.website }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.website }}" target="_blank">
     <span data-tooltip="Home website" data-variation="mini" data-inverted="">
-      <i class="far fa-home icon"></i>
+      <i class="fas fa-home"></i>
     </span>  </a>
 {% endif %}
 
 {% if page.rss or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.rss }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.rss }}" target="_blank">
     <span data-tooltip="RSS feed" data-variation="mini" data-inverted="">
-      <i class="far fa-rss icon"></i>
+      <i class="fas fa-rss"></i>
     </span>
   </a>
 {% endif %}
 
 {% if page.email or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="mailto:{{ page.email }}" target="_blank">
+  <a class="item noelink noul" href="mailto:{{ page.email }}" target="_blank">
     <span data-tooltip="Send email" data-variation="mini" data-inverted="">
-      <i class="far fa-envelope icon"></i>
+      <i class="fas fa-envelope"></i>
     </span>
   </a>
 {% endif %}
 
 {% if page.forum or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.forum }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.forum }}" target="_blank">
     <span data-tooltip="Join forum" data-variation="mini" data-inverted="">
-      <i class="far fa-comment icon"></i>
+      <i class="fas fa-comments"></i>
     </span>
   </a>
 {% endif %}
 
 {% if page.blog or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.blog }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.blog }}" target="_blank">
     <span data-tooltip="Go to blog" data-variation="mini" data-inverted="">
-      <i class="far fa-comment-alt icon"></i>
+      <i class="fas fa-comment-alt icon"></i>
     </span>
   </a>
 {% endif %}
@@ -61,7 +61,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.newsletter or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="mailto:{{ page.newsletter }}" target="_blank">
+  <a class="item noelink noul" href="mailto:{{ page.newsletter }}" target="_blank">
     <span data-tooltip="Newsletter" data-variation="mini" data-inverted="">
       <i class="fab fa-envelope-open icon"></i>
     </span>
@@ -76,10 +76,8 @@ ADDING A NEW ICON
   </a>
 {% endif %}
 
-
-
 {% if page.github or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.github }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.github }}" target="_blank">
     <span data-tooltip="Github" data-variation="mini" data-inverted="">
       <i class="fab fa-github icon"></i>
     </span>
@@ -87,7 +85,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.twitter or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.twitter }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.twitter }}" target="_blank">
     <span data-tooltip="Twitter" data-variation="mini" data-inverted="">
       <i class="fab fa-twitter icon"></i>
     </span>
@@ -95,7 +93,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.facebook or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.facebook }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.facebook }}" target="_blank">
     <span data-tooltip="Facebook" data-variation="mini" data-inverted="">
       <i class="fab fa-facebook icon"></i>
     </span>
@@ -103,7 +101,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.google+ or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.google+ }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.google+ }}" target="_blank">
     <span data-tooltip="Google+" data-variation="mini" data-inverted="">
       <i class="fab fa-google-plus icon"></i>
     </span>
@@ -111,7 +109,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.google-group or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.google-group }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.google-group }}" target="_blank">
     <span data-tooltip="Google Group" data-variation="mini" data-inverted="">
       <i class="fab fa-comments icon"></i>
     </span>
@@ -119,7 +117,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.basecamp or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.basecamp }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.basecamp }}" target="_blank">
     <span data-tooltip="Basecamp" data-variation="mini" data-inverted="">
       <i class="fab fa-twitter icon"></i>
     </span>
@@ -127,7 +125,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.slack or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.slack }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.slack }}" target="_blank">
     <span data-tooltip="Slack" data-variation="mini" data-inverted="">
       <i class="fab fa-slack icon"></i>
     </span>
@@ -135,9 +133,9 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.irc or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.irc }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.irc }}" target="_blank">
     <span data-tooltip="IRC" data-variation="mini" data-inverted="">
-      <i class="far fa-hashtag icon"></i>
+      <i class="fas fa-hashtag icon"></i>
     </span>
   </a>
 {% endif %}
@@ -151,7 +149,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.flickr or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.flickr }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.flickr }}" target="_blank">
     <span data-tooltip="Flickr" data-variation="mini" data-inverted="">
       <i class="fab fa-flickr icon"></i>
     </span>
@@ -159,7 +157,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.vimeo or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.vimeo }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.vimeo }}" target="_blank">
     <span data-tooltip="Vimeo" data-variation="mini" data-inverted="">
       <i class="fab fa-vimeo icon"></i>
     </span>
@@ -175,7 +173,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.gitter or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.gitter }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.gitter }}" target="_blank">
     <span data-tooltip="Gitter" data-variation="mini" data-inverted="">
       <i class="fab fa-gitter icon"></i>
     </span>
@@ -183,15 +181,15 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.trello or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.trello }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.trello }}" target="_blank">
     <span data-tooltip="Trello" data-variation="mini" data-inverted="">
-      <i class="fab fa-meetup icon"></i>
+      <i class="fab fa-trello icon"></i>
     </span>
   </a>
 {% endif %}
 
 {% if page.linkedin or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.linkedin }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.linkedin }}" target="_blank">
     <span data-tooltip="Linkedin" data-variation="mini" data-inverted="">
       <i class="fab fa-linkedin icon"></i>
     </span>
@@ -199,7 +197,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.meetup or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.meetup }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.meetup }}" target="_blank">
     <span data-tooltip="Meetup" data-variation="mini" data-inverted="">
       <i class="fab fa-meetup icon"></i>
     </span>
@@ -207,9 +205,10 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.pinterest or page.title=="Writing Entries" %}
-  <a class="noelink" href="{{ page.pinterest }}" target="_blank">
+  <a class="item noelink" href="{{ page.pinterest }}" target="_blank">
     <span data-tooltip="Pinterest" data-variation="mini" data-inverted="">
       <i class="fab fa-pinterest icon"></i>
     </span>
   </a>
 {% endif %}
+</div>
