@@ -9,7 +9,7 @@
 
 @fontName          :'Source Code Pro';
 @googleFontSizes   : '400,600,700';
-@emSize : 15px;
+@emSize : 13px;
 
 
 /*--------------

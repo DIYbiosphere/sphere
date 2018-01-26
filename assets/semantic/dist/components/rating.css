@@ -163,22 +163,22 @@
 *******************************/
 
 .ui.mini.rating {
-  font-size: 0.8rem;
+  font-size: 0.76923077rem;
 }
 .ui.tiny.rating {
-  font-size: 0.86666667rem;
+  font-size: 0.84615385rem;
 }
 .ui.small.rating {
-  font-size: 0.93333333rem;
+  font-size: 0.92307692rem;
 }
 .ui.rating {
   font-size: 1rem;
 }
 .ui.large.rating {
-  font-size: 1.13333333rem;
+  font-size: 1.15384615rem;
 }
 .ui.huge.rating {
-  font-size: 1.4rem;
+  font-size: 1.46153846rem;
 }
 .ui.massive.rating {
   font-size: 2rem;
