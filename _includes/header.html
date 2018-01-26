@@ -1,6 +1,6 @@
 <header>
   <nav>
-    <div class="ui grid">
+    <div class="ui container grid">
       <!-- Computer Nav -->
       <div class="computer only row">
         <div class="ui fluid large text menu">
@@ -16,56 +16,57 @@
           {% include nav/browse-all.html %}
           <div class="right menu">
             <div class="ui dropdown item">
-              <strong>ABOUT</strong>
-              <i class="far fa-angle-down icon"></i>
-              {% include nav/about.html %}
+              <b>ABOUT</b>
+              <i class="angle down icon"></i>
+              <div class="menu">
+                {% include nav/about.html %}
+              </div>
             </div>
             <!-- CONTRIBUTE NAV -->
             <div class="ui dropdown item">
-              <strong>CONTRIBUTE</strong>
-              <i class="far fa-angle-down icon"></i>
-              {% include nav/contribute.html %}
+              <b>CONTRIBUTE</b>
+              <i class="angle down icon"></i>
+              <div class="menu">
+                {% include nav/contribute.html %}
+              </div>
             </div>
           </div> <!-- close  menu-->
         </div> <!-- end menu -->
       </div> <!-- end computer menu -->
 
-      <div class="mobile tablet only row">
-          <div class="ui fluid vertical fitted text menu">
+
+      <div class="tablet only row">
+        <div class="ui fluid large text menu">
+          <!-- LOGO & LINK TO LANDING PAGE -->
+          {% include nav/logo.html %}
+          <!-- search -->
+          <div class="item">
+            <div class="ui fluid icon input">
+              <input type="search" id="aa-search-input-tablet" class="aa-input-search" placeholder="Search DIYbio initiatives" name="search" autocomplete="on" />
+              <i class="search icon"></i>
+            </div>
+          </div>
+          {% include nav/browse-all.html %}
+          {% include nav/hamburger.html %}
+        </div> <!-- end menu -->
+      </div>
+
+      <div class="mobile only row">
+          <div class="ui fluid vertical large text menu">
             <div class="item">
-              <div class="ui text menu">
+              <div class="ui fluid text menu">
                 <div class="item">
                   <a href="/">
                   <img class="ui tiny image" src="/assets/img/sphere-logo-compact.png"></a>
                 </div>
                 {% include nav/browse-all.html %}
-                <div class="right menu">
-                  <div class="ui right dropdown icon item">
-                    <i class="sidebar large icon"></i>
-                     <div class="menu">
-                       <div class="item">
-                         <i class="fa angle left icon"></i>
-                         <span class="text">About</span>
-                         {% include nav/about.html %}
-                       </div>
-                       <div class="item">
-                         <i class="fa angle left icon"></i>
-                         <span class="text">Contribute</span>
-                         {% include nav/contribute.html %}
-                       </div>
-                     </div>
-                  </div>
-                </div>
+                {% include nav/hamburger.html %}
               </div>
             </div>
             <div class="item">
-              <div class="ui text menu">
-                <div class="item">
-                  <div class="ui fluid icon input">
-                    <input type="search" id="aa-search-input-mobile" class="aa-input-search" placeholder="Search DIYbio initiatives" name="search" autocomplete="on" />
-                    <i class="search icon"></i>
-                  </div>
-                </div>
+              <div class="ui fluid icon input">
+                <input type="search" id="aa-search-input-mobile" class="aa-input-search" placeholder="Search DIYbio initiatives" name="search" autocomplete="on" />
+                <i class="search icon"></i>
               </div>
             </div>
           </div> <!-- close menu -->

@@ -1,64 +1,21 @@
 <footer class="xo top margin fourfold">
-  <div class="ui grid xo top padding twofold border-footer">
+  <div class="ui container grid xo top bottom padding twofold">
+    <div class="computer tablet only center aligned row">
+      <div clas="sixteen wide column">
+        {% include footer/credits.html %}
+      </div>
+    </div>
+    <div class="computer tablet only row">
+      <div clas="eight wide column">
+        {% include footer/cc0.html %}
+      </div>
+      <div clas="four wide right aligned column">
+        {% include footer/social-links.html %}
+      </div>
+    </div>
     <!-- Legal footer -->
-    <div class="row">
-      <div class="ui grid container">
-        <div class="eight wide column">
-          <div class="ui mini horizontal divided link list">
-            <a class="item noul" href="/about/terms-of-use">Terms of Use</a>
-            <a class="item noul" href="/about/contributor-terms">Contributor Terms</a>
-            <a class="item noul" href="/about/code-of-conduct">Code of Conduct</a>
-            <a class="item noul" href="/about/faq">FAQ</a>
-            <a class="item noul" href="/about/contact">Contact</a>
-          </div>
-        </div> <!-- left column -->
-        <div class="eight wide right aligned column">
-          <div class="ui mini horizontal link list">
-  <a class="item fitted noul" href="https://github.com/">Hosted by GitHub</a>
-  <a class="item fitted noul" href="https://www.algolia.com/">Search by Algolia</a>
-</div>
 
-        </div> <!-- right column -->
-          <div class="ui mobile reversed grid">
-            <div class="sixteen wide mobile sixteen wide tablet fourteen wide computer column">
-              <div class="ui mini horizontal link list">
-                <p xmlns:dct="http://purl.org/dc/terms/">
-                  <a rel="license"
-                     href="http://creativecommons.org/publicdomain/zero/1.0/">
-                    <img class="ui middle aligned image" src="/assets/img/cc0.png" alt="CC0" />
-                  </a>
-                  Except where otherwise noted, content on this site is dedicated to the public domain
-                </p>
-              </div>
-            </div>
-            <div class="sixteen wide mobile sixteen wide tablet two wide computer right aligned column">
-              <a class="noelink noul" href="https://github.com/DIYbiosphere/sphere" target="_blank">
-                <span data-tooltip="GitHub" data-variation="mini" data-inverted="">
-                  <i class="fab fa-github icon"></i>
-                </span>
-              </a>
-              <!-- twitter -->
-              <a class="noelink noul" href="https://twitter.com/DIYbiosphere" target="_blank">
-                <span data-tooltip="Twitter" data-variation="mini" data-inverted="">
-                  <i class="fab fa-twitter icon"></i>
-                </span>
-              </a>
-
-              <a class="noelink noul" href="https://diybiosphere.herokuapp.com/" target="_blank">
-                <span data-tooltip="Slack" data-variation="mini" data-inverted="">
-                  <i class="fab fa-slack icon"></i>
-                </span>
-              </a>
-              <!-- Gitter -->
-              <a class="noelink noul" href="https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link" target="_blank">
-                <span data-tooltip="Gitter" data-variation="mini" data-inverted="">
-                  <i class="fab fa-gitter icon"></i>
-                </span>
-              </a>
-            </div>
-          </div>
-      </div> <!-- grid container -->
-    </div> <!-- row -->
+    {% include footer/legal.html %}
 
 
 

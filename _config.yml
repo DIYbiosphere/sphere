@@ -46,7 +46,6 @@ plugins:
   - jekyll-mentions
   - jekyll-github-metadata
   - jekyll-git_metadata
-  - algoliasearch-jekyll
   - jekyll-last-modified-at
   - jekyll-feed
   - jekyll-avatar
@@ -179,17 +178,30 @@ assets:
 tag_page_layout: tag_page
 tag_page_dir: tag
 
+
+
+
 # AlgoliaSearch-Jekyll: https://github.com/algolia/algoliasearch-jekyll/
 algolia:
   application_id: 'ITI5JHZJM9'
   index_name: 'diybiosphere'
-  lazy_update: true
+  indexing_batch_size: 100
+  files_to_exclude:
+    - index.html
+    - 404.html
+    - entries.html
+    - about/*.md
+    - about/*/*.md
+    - docs/*.md
+    - docs/*/*.md
+    - docs/*/*/*.md
+    - docs/*/*/*.md
   settings:
     advancedSyntax: true
     distinct: true
     attributeForDistinct: 'url'
     ignorePlurals: true
-    attributesToIndex:
+    searchableAttributes:
       - title
       - city
       - state
@@ -235,7 +247,6 @@ algolia:
         - lat
         - lng
     attributesToSnippet: ['text:20']
-    snippetEllipsisText: '[&hellip;]'
     attributesToHighlight: ['*']
     highlightPostTag: </span>
     highlightPreTag: <span class="search-highlight">

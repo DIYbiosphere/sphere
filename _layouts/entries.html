@@ -6,59 +6,82 @@ layout: default
 
   <!-- SEARCH INFO -->
   <div class="sixteen wide column xo top padding">
-    <h3>
-      <div id="stats-container"></div>
-    </h3>
-    <div id="clear-all"></div><div id="current-refined-values"></div>
+    <div id="stats-container"></div>
+    <div id="current-refined-values"></div>
+    <div id="clear-all"></div>
   </div>
 
   <!-- SEARCH AND FILTER-->
   <div class="sixteen wide column xo top padding">
     <div class="ui accordion browse">
       <!-- Search bar. Searches all the text in the entries-->
-      <div class="title active">
+      <div class="title">
         <h3 class="ui grey header">
-          <i class="far fa-search fa-sm"></i> Search for text
+          <i class="far fa-search fa-sm"></i> Search Entries
         </h3>
       </div>
-      <div class="content active">
+      <div class="content">
         <!-- Search box. Edit `search-box` widget in `browse_instantsearch.es6`-->
         <div id="search-box"></div>
       </div>
       <div class="title">
         <h3 class="ui grey header">
-          <i class="far fa-filter fa-sm"></i> Filter results
+          <i class="far fa-filter fa-sm"></i> Filter Results
         </h3>
       </div>
       <div class="content">
-
-          <div class="ui vertical basic segment">
-            <div id="collection"></div>
-           </div>
-          <div class="ui vertical basic segment">
-            <div id="type-org"></div>
+        <table class="ui very basic table">
+          <tbody>
+            <tr>
+              <td><h4 class="ui header">Collections:</h4></td>
+              <td><div id="collection"></div></td>
+            </tr>
+            <tr>
+              <td><h4 class="ui header">Type:</h4></td>
+              <td><div id="type-org"></div></td>
+            </tr>
+            <tr>
+              <td><h4 class="ui header">Tags:</h4></td>
+              <td><div id="tags"></div></td>
+            </tr>
+          </tbody>
+        </table>
+      </div> <!-- close content -->
+      <div class="title active">
+        <h3 class="ui grey header">
+          <i class="far fa-sliders-v-square fa-sm"></i> View Settings
+        </h3>
+      </div>
+      <div class="content active">
+        <div class="ui grid">
+          <div class="row">
+            <div class="four wide column">
+              <!-- Pagination Menu. Edit `pagination` widget in `browse_instantsearch.es6`-->
+              <div id="viewAs" class="ui viewAs compact small secondary menu">
+                <a class="item active" data-tab="viewList">
+                  <span data-tooltip="View as List" data-variation="mini" data-inverted="">
+                    <i class="far fa-list icon"></i>
+                  </span>
+                </a>
+                <a class="item" data-tab="viewTable">
+                  <span data-tooltip="View as Table" data-variation="mini" data-inverted="">
+                    <i class="far fa-table icon"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="twelve wide column">
+              <div id="pagination-container"></div>
+            </div>
           </div>
-          <div class="ui vertical basic segment">
-            <div id="tags"></div>
-          </div>
-
+        </div>
       </div> <!-- close content -->
     </div> <!-- close accordion -->
-
-    <!-- VIEW MENU -->
-    <div class="xo padding top">
-      <!-- View results in a list or table with a tab menu-->
-      <div id="viewAs" class="ui viewAs compact small menu">
-        <a class="item active" data-tab="viewList"><i class="far fa-list icon"></i></a>
-        <a class="item" data-tab="viewTable"><i class="far fa-table icon"></i></a>
-      </div>
-      <!-- Pagination Menu. Edit `pagination` widget in `browse_instantsearch.es6`-->
-      <div id="pagination-container"></div>
-    </div>
+  </div>
 
 
     <!-- SEARCH RESULTS -->
-
+  <div class="sixteen wide column">
     <!-- Search results displayed in a list. Edit `HIT_TEMPLATE` in `browse_instantsearch.es6`-->
     <div class="ui active tab xo padding twofold" data-tab="viewList">
       <div id="hits-container"></div>

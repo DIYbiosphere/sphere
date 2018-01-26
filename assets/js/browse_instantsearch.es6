@@ -137,11 +137,9 @@ const tableHits = instantsearch.widgets.hits({
   			list: 'ui small horizontal link list xo paddingless',
   			item: 'item',
   			active: 'active item',
-        header: 'ui tiny header'
       },
       templates: {
-        header: 'Collection',
-        item: '<a class="item">{{value}}•{{count}}</a>',
+        item: '<a class="item">{{value}}・{{count}}</a>',
       }
     });
 
@@ -154,10 +152,8 @@ const tableHits = instantsearch.widgets.hits({
   			list: 'ui small horizontal link list',
   			item: 'item',
   			active: 'active item',
-        header: 'ui small header'
       },
       templates: {
-        header: 'Type',
         item: '<a class="item">[{{value}} {{count}}]</a>',
       }
     });
@@ -172,10 +168,8 @@ const tableHits = instantsearch.widgets.hits({
   			list: 'ui small horizontal link list',
   			item: 'item',
   			active: 'active item',
-        header: 'ui small header'
       },
       templates: {
-        header: 'Tags',
         item: '<a class="item">({{value}} {{count}})</a>',
       }
     });
@@ -183,14 +177,17 @@ const tableHits = instantsearch.widgets.hits({
 
 const pagesNav = instantsearch.widgets.pagination({
     container: '#pagination-container',
-    maxPages: 20,
+    maxPages: 100,
+    padding: 1,
     scrollTo: false,
-    showFirstLast: false,
+    showFirstLast: true,
 		autoHideContainer: true,
     cssClasses: {
-			root: 'ui small compact menu',
+			root: 'ui small compact secondary menu',
 			item: 'item',
-      list: 'item',
+      link: 'noul',
+      disabled: 'disabled',
+      active: 'active',
 		}
   });
 

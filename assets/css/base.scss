@@ -44,8 +44,13 @@
 }
 
 .noul {
-  text-decoration: none !important;
+  a {
+    color: inherit !important;
+    text-decoration: underline !important;
+  }
 }
+
+
 
 
 article {
@@ -104,6 +109,10 @@ strong {
   font-weight: 600 !important;
 }
 
+b {
+  font-weight: 600 !important;
+}
+
 em {
   font-weight: 400i !important;
 }
@@ -134,10 +143,11 @@ video {
   height: auto   !important;
 }
 
-footer {
 
-  .border-footer {
-    border-top: 3px solid #767676;
+
+.logo {
+  path {
+  fill: currentColor !important;
   }
 }
 

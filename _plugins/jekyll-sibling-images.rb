@@ -18,10 +18,11 @@ module SiblingImages
             logoPathPNG = logoPath + '.png'
             logoPathPNG.strip!
 
-            doc.data["logoPathPNG"] = logoPathPNG
-
             logoPathJPG = logoPath + '.jpg'
             logoPathJPG.strip!
+
+            logoPathSVG = logoPath + '.svg'
+            logoPathSVG.strip!
 
 
             if File.exist?(logoPathPNG)
@@ -29,6 +30,10 @@ module SiblingImages
             end # if
 
             if File.exist?(logoPathJPG)
+              doc.data["logo"] = '/'+ logoPathJPG.delete('_')
+            end # if
+
+            if File.exist?(logoPathSVG)
               doc.data["logo"] = '/'+ logoPathJPG.delete('_')
             end # if
 
@@ -43,11 +48,18 @@ module SiblingImages
             headerPathJPG = headerPath + '.jpg'
             headerPathJPG.strip!
 
+            headerPathSVG = headerPath + '.svg'
+            headerPathSVG.strip!
+
             if File.exist?(headerPathPNG)
               doc.data["header"] = '/'+ headerPathPNG.delete('_')
             end # if
 
             if File.exist?(headerPathJPG)
+              doc.data["header"] = '/'+ headerPathJPG.delete('_')
+            end # if
+
+            if File.exist?(headerPathSVG)
               doc.data["header"] = '/'+ headerPathJPG.delete('_')
             end # if
 
@@ -60,11 +72,18 @@ module SiblingImages
             thumbnailPathJPG = thumbnailPath + '.jpg'
             thumbnailPathJPG.strip!
 
+            thumbnailPathSVG = thumbnailPath + '.svg'
+            thumbnailPathSVG.strip!
+
             if File.exist?(thumbnailPathPNG)
               doc.data["thumbnail"] = '/'+ thumbnailPathPNG.delete('_')
             end # if
 
-            if File.exist?(headerPathJPG)
+            if File.exist?(thumbnailPathJPG)
+              doc.data["thumbnail"] = '/'+ thumbnailPathJPG.delete('_')
+            end # if
+
+            if File.exist?(thumbnailPathSVG)
               doc.data["thumbnail"] = '/'+ thumbnailPathJPG.delete('_')
             end # if
 
