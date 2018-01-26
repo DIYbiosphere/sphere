@@ -25,8 +25,6 @@
     <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
     <script type="text/javascript">$('.tabular.menu .item').tab();</script>
 
-    <link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags16.css" />
-
     <!-- Clipboard.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
     <!-- Include AlgoliaSearch JS Client and autocomplete.js library -->
@@ -44,13 +42,18 @@
 
     {% if page.layout == 'landing' %}
     {% javascript googleMap %}
-    {% javascript lastEdited_instantsearch %}
     {% endif %}
 
     {% if page.layout == 'entries' %}
       <script type="text/javascript">$('.viewAs.menu .item').tab();</script>
+      <script type="text/javascript">$('.ui.accordion.browse').accordion();</script>
+
       <!-- Algolia search & components -->
       {% javascript browse_instantsearch %}
+    {% endif %}
+
+    {% if page.layout == 'entry' %}
+    <script type="text/javascript">$('.tooltip.icon').popup();</script>
     {% endif %}
 
 

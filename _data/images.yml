@@ -1,8 +1,0 @@
-# Add CC information to all images in the repo
-# tutorial from here http://osfameron.github.io/jekyll-plugins-tutorial/2015/11/28/jekyll-plugins-tutorial-part-1.html
-
-squirrel:
- src: /images/squirrel.jpg
- alt: "A lovely squirrel (via include + data)"
- credit: CC-BY-NC-SA hakim.cassimally
- creditlink: https://www.flickr.com/photos/47644980@N00/5681166704

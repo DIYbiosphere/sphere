@@ -1,0 +1,87 @@
+# This YAML keeps track of the issues dedicated to each page for general discussion, and editing discussion
+# Make sure that `page_name == title` of the entry
+# Assign
+  #11 & 12 (Documentation) - 3 & 4 (About)
+
+# pages
+
+- page_name: The DIYbiosphere Project
+  comments_issue: 3
+  edit_issue: 4
+
+- page_name: Our Community
+  comments_issue: 5
+  edit_issue: 6
+
+- page_name: Our Philosophy
+  comments_issue: 7
+  edit_issue: 8
+
+- page_name: Contact Us
+  comments_issue: 9
+  edit_issue: 10
+
+- page_name: Support Us
+  comments_issue: 13
+  edit_issue: 14
+
+- page_name: Frequently Asked Questions (FAQ)
+  comments_issue: 33
+  edit_issue: 34
+
+- page_name: Terms of Use
+  comments_issue: 35
+  edit_issue: 36
+
+- page_name: Contributor Terms
+  comments_issue: 37
+  edit_issue: 38
+
+- page_name: Code of Conduct
+  comments_issue: 39
+  edit_issue: 40
+
+# docs
+- page_name: Understanding Entries
+  comments_issue: 15
+  edit_issue: 16
+
+- page_name: Configuration of the Software
+  comments_issue: 17
+  edit_issue: 18
+
+- page_name: The Design Elements
+  comments_issue: 19
+  edit_issue: 20
+
+- page_name: Tools in the Documentation
+  comments_issue: 21
+  edit_issue: 22
+
+- page_name: Contributing Guide
+  comments_issue: 23
+  edit_issue: 24
+
+- page_name: W
+  comments_issue: 25
+  edit_issue: 26
+
+- page_name: workflow.md
+  comments_issue: 27
+  edit_issue: 28
+
+- page_name: github-eli5.md
+  comments_issue: 29
+  edit_issue: 30
+
+- page_name: Glossary
+  comments_issue: 31
+  edit_issue: 32
+
+# entries
+- page_name: DIYbiosphere
+  comments_issue: 2
+  edit_issue: 1
+
+- page_name: DIYbio.org
+  edit_issue: 41

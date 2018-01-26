@@ -3,67 +3,80 @@ layout: default
 ---
 
 <div class="ui grid container xo padding top twofold">
-  <!-- FILTERS -->
-  <div class="four wide column">
-    <div class="ui segments">
-      <div class="ui secondary segment">
-        <h3>FILTERS</h3>
-      </div>
 
-      <div class="ui segment">
-        <div class="ui fluid text vertical menu">
-           <div class="item">
-             <div class="menu">
-               <div id="collection"></div>
-             </div>
-           </div>
-         </div>
-      </div>
-      <div class="ui segment">
-        <div class="ui fluid text vertical menu">
-          <div class="item">
-            <div class="menu">
-              <div id="type-org"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="ui segment">
-        <div class="ui fluid text vertical menu">
-          <div class="item">
-            <div class="menu">
-              <div id="tags"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> <!-- close left column -->
+  <!-- SEARCH INFO -->
+  <div class="sixteen wide column xo padding top">
+    <h3>
+      <div id="stats-container"></div>
+    </h3>
+  </div>
+  <div class="sixteen wide column">
+    <div id="clear-all"></div><div id="current-refined-values"></div>
+  </div>
 
   <!-- SEARCH RESULTS -->
-  <div class="twelve wide column">
-    <!-- SEARCH INFO -->
-    <div class="ui segments">
-      <div class="ui secondary segment">
-        <h3>SEARCH RESULTS</h3>
+  <div class="sixteen wide column xo padding top">
+    <div class="ui accordion browse">
+      <div class="title active">
+        <h3>
+          <i class="far fa-search icon"></i> Search for text
+        </h3>
       </div>
-      <div class="ui segment">
+      <div class="content active">
         <div id="search-box"></div>
-        <div class="xo padding top" id="stats-container"></div>
-        <div id="current-refined-values"></div>
-        <div id="clear-all"></div>
-        <div class="xo padding top">
-          <div id="viewAs" class="ui secondary compact viewAs small menu">
-            <h3 class="ui sub header item">VIEW AS:</h3>
-            <a class="item active" data-tab="viewList"><i class="far fa-list icon"></i></a>
-            <a class="item" data-tab="viewTable"><i class="far fa-table icon"></i></a>
+      </div>
+      <div class="title">
+        <h3>
+          <i class="far fa-filter icon"></i> Filter results
+        </h3>
+      </div>
+      <div class="content">
+        <div class="ui segments">
+          <div class="ui segment">
+            <div class="ui fluid text horizontal menu">
+             <div class="item">
+               <div class="menu">
+                 <div id="collection"></div>
+               </div>
+             </div>
+           </div>
           </div>
-          <div class="ui horizontal link list">
-            <div id="pagination-container"></div>
+          <div class="ui segment">
+            <div class="ui fluid text horizontal menu">
+              <div class="item">
+                <div class="menu">
+                  <div id="type-org"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ui segment">
+            <div class="ui fluid text horizontal menu">
+              <div class="item">
+                <div class="menu">
+                  <div id="tags"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="xo padding top">
+      <div id="viewAs" class="ui secondary compact viewAs small menu">
+        <h3 class="ui sub header item">VIEW AS:</h3>
+        <a class="item active" data-tab="viewList"><i class="far fa-list icon"></i></a>
+        <a class="item" data-tab="viewTable"><i class="far fa-table icon"></i></a>
+      </div>
+      <div class="ui horizontal link list">
+        <div id="pagination-container"></div>
+      </div>
+    </div>
+
+
+
+
       <!-- HITS -->
     <div class="ui active tab" data-tab="viewList">
       <div id="hits-container"></div>

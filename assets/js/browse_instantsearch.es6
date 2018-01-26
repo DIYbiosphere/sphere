@@ -26,7 +26,7 @@ const searchAnything = instantsearch.widgets.searchBox({
       body: 'ui medium header',
     },
     templates: {
-      body: '{{nbHits}} total entries found'
+      body: 'Browse {{nbHits}} total entries found'
     }
   });
 
@@ -35,7 +35,7 @@ const clearFilters = instantsearch.widgets.clearAll({
 		autoHideContainer: true,
     clearsQuery: true,
 		templates: {
-			link: '<button class="ui tiny basic red button">Reset filters</button>'
+			link: '<a class="ui red label"><i class="far fa-eraser icon"></i>Erase all</a>'
 		},
 	});
 
@@ -52,7 +52,7 @@ const resultsMatching = instantsearch.widgets.currentRefinedValues({
     },
 		templates: {
       header: ' matching: ',
-			item: `{{name}} `
+			item: `<a class="ui label">{{name}} <i class="far fa-times icon"></i></a>`
     },
   });
 
@@ -60,7 +60,7 @@ const EMPTY_TEMPLATE =
   '<div class="text-center">No results found matching <strong>{{query}}</strong>.</div>';
 
 const HIT_TEMPLATE = `
-<div class="ui segment xo padding bottom">
+<div class="ui basic segment xo padding bottom">
 <div class="ui items">
 	<div class="item">
 	  {{ #logo }}
