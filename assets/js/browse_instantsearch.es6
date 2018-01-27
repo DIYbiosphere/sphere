@@ -8,19 +8,22 @@ const search = instantsearch({
   }
 });
 
-const searchAnything = instantsearch.widgets.searchBox({
+search.addWidget(
+  instantsearch.widgets.searchBox({
     container: '#search-box',
     reset: false,
     poweredBy: false,
     magnifier: false,
     placeholder: 'Global text search for (almost) anything in the entries',
-		cssClasses: {
-			root: 'ui input'
-		}
-	});
+    cssClasses: {
+      root: 'ui input'
+    }
+  })
+);
 
 
-  const searchResults = instantsearch.widgets.stats({
+search.addWidget(
+  instantsearch.widgets.stats({
     container: '#stats-container',
     cssClasses: {
       body: 'ui medium header',
@@ -28,17 +31,21 @@ const searchAnything = instantsearch.widgets.searchBox({
     templates: {
       body: 'Browse {{nbHits}} entries found'
     }
-  });
+  })
+);
 
-const clearFilters = instantsearch.widgets.clearAll({
+search.addWidget(
+  instantsearch.widgets.clearAll({
 		container: '#clear-all',
 		autoHideContainer: true,
 		templates: {
 			link: '<button class="ui red mini basic button"><i class="fas fa-eraser icon"></i>Erase all</button>'
 		},
-	});
+  })
+);
 
-const resultsMatching = instantsearch.widgets.currentRefinedValues({
+search.addWidget(
+  instantsearch.widgets.currentRefinedValues({
     container: '#current-refined-values',
 		autoHideContainer: true,
     clearAll: false,
@@ -52,7 +59,10 @@ const resultsMatching = instantsearch.widgets.currentRefinedValues({
 		templates: {
 			item: '<a class="ui label">{{name}} <i class="delete icon"></i></a>',
     },
-  });
+  })
+);
+
+
 
 const EMPTY_TEMPLATE =
   '<div class="text-center">No results found matching <strong>{{query}}</strong>.</div>';
@@ -73,7 +83,7 @@ const HIT_TEMPLATE = `
 	      <span><em> {{#collection}} {{collection}} {{/collection}} {{#city}} in {{ city }}, {{/city}} {{^city}} in {{/city}} {{#country}}{{ country }} {{/country}}</em></span>
 	    </div>
 	    <div class="description">
-	      <p>{{{ _snippetResult.text.value }}}</p>
+	      <p>{{{ _highlightResult.content.value }}}</p>
 	    </div>
 	    <div class="extra">
 			{{#tags}}
@@ -127,8 +137,8 @@ const tableHits = instantsearch.widgets.hits({
 		},
 	});
 
-
-  const collectionFilter = instantsearch.widgets.refinementList({
+search.addWidget(
+  instantsearch.widgets.refinementList({
       container: '#collection',
       attributeName: 'collection',
       operator: 'or',
@@ -141,9 +151,11 @@ const tableHits = instantsearch.widgets.hits({
       templates: {
         item: '<a class="item">{{value}}・{{count}}</a>',
       }
-    });
+    })
+  );
 
-  const typeFilter = instantsearch.widgets.refinementList({
+search.addWidget(
+    instantsearch.widgets.refinementList({
       container: '#type-org',
       attributeName: 'type-org',
       operator: 'or',
@@ -156,10 +168,12 @@ const tableHits = instantsearch.widgets.hits({
       templates: {
         item: '<a class="item">[{{value}} {{count}}]</a>',
       }
-    });
+    })
+  );
 
 
-  const tagsFilter = instantsearch.widgets.refinementList({
+search.addWidget(
+  instantsearch.widgets.refinementList({
       container: '#tags',
       attributeName: 'tags',
   		operator: 'or',
@@ -172,10 +186,12 @@ const tableHits = instantsearch.widgets.hits({
       templates: {
         item: '<a class="item">({{value}} {{count}})</a>',
       }
-    });
+    })
+  );
 
 
-const pagesNav = instantsearch.widgets.pagination({
+search.addWidget(
+  instantsearch.widgets.pagination({
     container: '#pagination-container',
     maxPages: 100,
     padding: 1,
@@ -183,23 +199,20 @@ const pagesNav = instantsearch.widgets.pagination({
     showFirstLast: true,
 		autoHideContainer: true,
     cssClasses: {
-			root: 'ui small compact secondary menu',
+			root: 'ui small compact text menu',
 			item: 'item',
       link: 'noul',
       disabled: 'disabled',
       active: 'active',
 		}
-  });
+  })
+);
 
 
-search.addWidget(searchAnything);
-search.addWidget(searchResults);
-search.addWidget(clearFilters);
-search.addWidget(resultsMatching);
+
+
+
+
 search.addWidget(gridHits);
 search.addWidget(tableHits);
-search.addWidget(collectionFilter);
-search.addWidget(typeFilter);
-search.addWidget(tagsFilter);
-search.addWidget(pagesNav);
 search.start();

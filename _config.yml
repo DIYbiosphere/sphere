@@ -185,7 +185,9 @@ tag_page_dir: tag
 algolia:
   application_id: 'ITI5JHZJM9'
   index_name: 'diybiosphere'
+  search_only_api_key: 'b427318cf6d881e5d3ffd84adf39219e'
   indexing_batch_size: 100
+  nodes_to_index: 'p,blockquote,li'
   files_to_exclude:
     - index.html
     - 404.html
@@ -197,23 +199,14 @@ algolia:
     - docs/*/*/*.md
     - docs/*/*/*.md
   settings:
-    advancedSyntax: true
-    distinct: true
-    attributeForDistinct: 'url'
-    ignorePlurals: true
     searchableAttributes:
       - title
       - city
       - state
       - country
-      - unordered(text)
-      - unordered(tags)
-    ranking:
-      - typo
-      - geo
-      - proximity
-      - attribute
-      - custom
+      - host-org
+      - tags
+      - content
     attributesForFaceting:
       - collection
       - type-org
@@ -222,33 +215,6 @@ algolia:
       - country
       - tags
       - status
-    attributesToRetrieve:
-      - title
-      - uberimage
-      - logo
-      - header
-      - thumbnail
-      - collection
-      - type-org
-      - city
-      - state
-      - country
-      - tags
-      - status
-      - text
-      - subtitle
-      - url
-      - start-date
-      - end-date
-      - host-org
-      - last_modified_at
-      - timestamp
-      - _geoloc
-        - lat
-        - lng
-    attributesToSnippet: ['text:20']
-    attributesToHighlight: ['*']
-    highlightPostTag: </span>
+    attributesToSnippet: ['content:20']
     highlightPreTag: <span class="search-highlight">
-    minWordSizefor1Typo: 3
-    minWordSizefor2Typos: 7
+    highlightPostTag: </span>
