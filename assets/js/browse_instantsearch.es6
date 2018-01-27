@@ -149,7 +149,7 @@ search.addWidget(
   			active: 'active item',
       },
       templates: {
-        item: '<a class="item">{{value}}・{{count}}</a>',
+        item: '<a class="item">[{{value}}{{count}}]</a>',
       }
     })
   );
@@ -178,13 +178,14 @@ search.addWidget(
       attributeName: 'tags',
   		operator: 'or',
   		limit: 10,
+      showMore: true,
   		cssClasses: {
   			list: 'ui small horizontal link list',
   			item: 'item',
   			active: 'active item',
       },
       templates: {
-        item: '<a class="item">({{value}} {{count}})</a>',
+        item: '<a class="item">[{{value}} {{count}}]</a>',
       }
     })
   );

@@ -18,10 +18,27 @@
         <tbody>
 
           <!-- Predecessor -->
+          {% if page.website %}
+          <tr>
+            <td>
+              <span data-tooltip="Home website" data-variation="mini" data-inverted="">
+                <b>Website:</b>
+              </span>
+            </td>
+            <td>
+              <a href="{{ page.website }}" target="_blank">
+                {{ page.website }}
+              </a>
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Predecessor -->
           {% if page.predecessor %}
           <tr>
             <td>
-              Predecessor:
+              <b>Predecessor:</b>
             </td>
             <td>
               {{ page.predecessor | markdownify }}
@@ -34,7 +51,7 @@
           {% if page.successor %}
           <tr>
             <td>
-              Successor:
+              <b>Successor:</b>
             </td>
             <td>
               {{ page.successor | markdownify }}
@@ -47,7 +64,7 @@
           {% if page.start-date %}
           <tr>
             <td>
-              Start Date:
+              <b>Start Date:</b>
             </td>
             <td>
               {{ page.start-date }}
@@ -60,7 +77,7 @@
           {% if page.end-date %}
           <tr>
             <td>
-              End Date:
+              <b>End Date:</b>
             </td>
             <td>
               {{ page.end-date }}
@@ -73,7 +90,7 @@
           {% if page.type-org %}
           <tr>
             <td>
-              Type:
+              <b>Type:</b>
             </td>
             <td>
               {{ page.type-org }}
