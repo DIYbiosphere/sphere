@@ -39,7 +39,7 @@ search.addWidget(
 		container: '#clear-all',
 		autoHideContainer: true,
 		templates: {
-			link: '<button class="ui red mini basic button"><i class="fas fa-eraser icon"></i>Erase all</button>'
+			link: '<button class="ui red mini button"><i class="fas fa-eraser icon"></i>Erase all</button>'
 		},
   })
 );
@@ -69,30 +69,34 @@ const EMPTY_TEMPLATE =
 
 const HIT_TEMPLATE = `
 <div class="ui basic segment xo padding bottom">
-<div class="ui items">
-	<div class="item">
-	  {{ #logo }}
-		<div class="ui tiny image">
-	    <img class="ui middle aligned" src="{{ uberimage }}">
-	  </div>
-		{{ /logo }}
-	  <div class="content">
-		<span class="meta right floated">{{#start-date}} {{start-date}} {{/start-date}}{{#end-date}} - {{end-date}} {{/end-date}} </span>
-	    <a href="{{url}}" class="header">{{{ _highlightResult.title.value }}}</a>
-	    <div class="meta">
-	      <span><em> {{#collection}} {{collection}} {{/collection}} {{#city}} in {{ city }}, {{/city}} {{^city}} in {{/city}} {{#country}}{{ country }} {{/country}}</em></span>
-	    </div>
-	    <div class="description">
-	      <p>{{{ _highlightResult.content.value }}}</p>
-	    </div>
-	    <div class="extra">
-			{{#tags}}
-			<a class="ui tiny label noul" href="/entries/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ . }}">{{ . }}</a>
-			{{/tags}}
-			</div>
-	  </div>
-	</div>
-</div>
+  <div class="ui relaxed items">
+  	<div class="item">
+  	  {{ #logo }}
+  		<div class="ui tiny image">
+  	    <img class="ui middle aligned" src="{{ uberimage }}">
+  	  </div>
+  		{{ /logo }}
+  	  <div class="content">
+  		<span class="meta right floated">{{#start-date}} {{start-date}} {{/start-date}}{{#end-date}} - {{end-date}} {{/end-date}} </span>
+  	    <a href="{{url}}" class="header">{{{ _highlightResult.title.value }}}</a>
+  	    <div class="meta">
+  	      <span><em> {{#collection}} {{collection}} {{/collection}} {{#city}} in {{city}}, {{/city}} {{^city}} in {{/city}} {{#country}} {{country}} {{/country}}</em></span>
+  	    </div>
+  	    <div class="description">
+  	      <p>{{{ _highlightResult.content.value }}}</p>
+  	    </div>
+  	    <div class="extra">
+          <div class="ui horizontal small link list">
+            <div class="item"><i class="far fa-tags"></i></div>
+            {{#tags}}
+    			 <a class="item" href="/entries/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ . }}">{{ . }} </a>
+           {{/tags}}
+          </div>
+
+  			</div>
+  	  </div>
+  	</div>
+  </div>
 </div>
 `;
 
@@ -149,7 +153,7 @@ search.addWidget(
   			active: 'active item',
       },
       templates: {
-        item: '<a class="item">[{{value}}{{count}}]</a>',
+        item: '<a class="item">[{{value}} {{count}}]</a>',
       }
     })
   );

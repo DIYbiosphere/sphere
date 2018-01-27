@@ -1,19 +1,20 @@
 <header>
   <nav>
-    <div class="ui container grid">
+    <div class="ui grid">
       <!-- Computer Nav -->
       <div class="computer only row">
-        <div class="ui fluid large text menu">
+        <div class="ui container">
+          <div class="ui fluid large borderless menu">
           <!-- LOGO & LINK TO LANDING PAGE -->
           {% include nav/logo.html %}
           <!-- search -->
+          {% include nav/browse-all.html %}
           <div class="item">
-            <div class="ui fluid icon input">
-              <input type="search" id="aa-search-input" class="aa-input-search" placeholder="Search DIYbio initiatives" name="search" autocomplete="on" />
+            <div class="ui fluid transparent icon input">
+              <input type="text" id="aa-search-input" class="search-input" placeholder="Search DIYbio initiatives" autocomplete="on" />
               <i class="search icon"></i>
             </div>
           </div>
-          {% include nav/browse-all.html %}
           <div class="right menu">
             <div class="ui dropdown item">
               <b>ABOUT</b>
@@ -32,6 +33,7 @@
             </div>
           </div> <!-- close  menu-->
         </div> <!-- end menu -->
+        </div>
       </div> <!-- end computer menu -->
 
 
@@ -41,12 +43,11 @@
           {% include nav/logo.html %}
           <!-- search -->
           <div class="item">
-            <div class="ui fluid icon input">
+            <div class="ui fluid transparent icon input">
               <input type="search" id="aa-search-input-tablet" class="aa-input-search" placeholder="Search DIYbio initiatives" name="search" autocomplete="on" />
               <i class="search icon"></i>
             </div>
           </div>
-          {% include nav/browse-all.html %}
           {% include nav/hamburger.html %}
         </div> <!-- end menu -->
       </div>
@@ -55,10 +56,7 @@
           <div class="ui fluid vertical large text menu">
             <div class="item">
               <div class="ui fluid large text menu">
-                <div class="item">
-                  <a href="/">
-                  <img class="ui image" src="/assets/img/sphere-logo-compact.png"></a>
-                </div>
+                {% include nav/logo.html %}
                 {% include nav/browse-all.html %}
                 {% include nav/hamburger.html %}
               </div>

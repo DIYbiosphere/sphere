@@ -20,17 +20,11 @@
           <!-- Predecessor -->
           {% if page.website %}
           <tr>
-            <td>
-              <span data-tooltip="Home website" data-variation="mini" data-inverted="">
-                <b>Website:</b>
-              </span>
-            </td>
-            <td>
+            <td colspan="2">
               <a href="{{ page.website }}" target="_blank">
                 {{ page.website }}
               </a>
             </td>
-            </tr>
           </tr>
           {% endif %}
 
@@ -90,7 +84,9 @@
           {% if page.type-org %}
           <tr>
             <td>
-              <b>Type:</b>
+              <span data-tooltip="Organization behind initiative" data-variation="mini" data-inverted="">
+                <b>Type:</b>
+              </span>
             </td>
             <td>
               {{ page.type-org }}
@@ -103,7 +99,9 @@
           {% if page.status %}
           <tr>
             <td>
-              Status:
+              <span data-tooltip="Home website" data-variation="mini" data-inverted="">
+                <b>Status:</b>
+              </span>
             </td>
             <td>
               {{ page.status }}
@@ -156,7 +154,9 @@
           {% if page.host-org %}
           <tr>
             <td>
-              Host Organization:
+              <span data-tooltip="Host or Parent Organization" data-variation="mini" data-inverted="">
+                <b>Host:</b>
+              </span>
             </td>
             <td>
               {% if page.host-org contains 'http' %}
@@ -218,7 +218,9 @@
           <!-- Location -->
           <tr class="top aligned">
             <td>
-              <span>Location:</span>
+              <span data-tooltip="Location" data-variation="mini" data-inverted="">
+                <b>Location:</b>
+              </span>
             </td>
             <td>
               <!-- Address -->
@@ -228,7 +230,7 @@
               <!-- City and country -->
               {% if page.city or page.state or page.country %}
                 {{ page.city }}
-                {% if page.city and page.state %}, {% endif %}
+                {% if page.city and page.state %} - {% endif %}
                 {% if page.state %}
                 {{ page.state }} {% endif %}
                 {% if page.city or page.state %}<br> {% endif %}
@@ -238,6 +240,19 @@
               {% endif %}
             </td>
           </tr>
+
+          {% if page.tags !='' %}
+          <tr>
+            <td colspan="2">
+              <i class="far fa-tags icon"></i>
+              {% for tag in page.tags %}
+              <a class="xo right half padding" href="/entries/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ tag }}">
+                {{ tag }}
+              </a>
+              {% endfor %}
+            </td>
+          </tr>
+          {% endif %}
         </tbody>
 
       </table>

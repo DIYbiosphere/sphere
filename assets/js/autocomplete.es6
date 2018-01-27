@@ -9,7 +9,7 @@ var hitTemplate = Hogan.compile (`
     <h4 class="ui header">
       {{{ _highlightResult.title.value }}}
       <div class="sub header">
-         <span><em> {{#collection}} {{collection}} {{/collection}} {{#city}} in {{{ _highlightResult.city.value }}}, {{/city}} {{^city}} in {{/city}} {{#country}}{{ country }} {{/country}}</em></span>
+         <span><em> {{#collection}} {{collection}} {{/collection}} {{#city}} in {{ city }}, {{/city}} {{^city}} in {{/city}} {{#country}}{{ country }} {{/country}}</em></span>
       </div>
     </h4>
   </div>
@@ -27,7 +27,7 @@ autocomplete('#aa-search-input', {
         suggestion: function(hit) {
           return hitTemplate.render(hit);
         }
-      }
+      },
     }
   ]).on('autocomplete:selected', function(event, suggestion, dataset) {
     window.location.href = suggestion.url

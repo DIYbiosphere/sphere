@@ -215,6 +215,14 @@ algolia:
       - country
       - tags
       - status
-    attributesToSnippet: ['content:20']
+    attributesToHighlight:
+      - title
+      - subtitle
+      - host-org
+      - city
+      - state
+      - country
+      - content
+    attributesToSnippet: ['content:10']
     highlightPreTag: <span class="search-highlight">
     highlightPostTag: </span>
