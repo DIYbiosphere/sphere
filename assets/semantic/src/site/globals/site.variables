@@ -27,10 +27,16 @@
 @invertedDisabledTextColor: #FFFFFF;
 
 
+/*-------------------
+       Links
+--------------------*/
+
+@linkColor           : @primaryColor
+
 
 /*-------------------
     Brand Colors
 --------------------*/
 
-@primaryColor        : @blue;
+@primaryColor        : #0078FE;
 @secondaryColor      : @fullBlack;
