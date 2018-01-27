@@ -165,3 +165,7 @@ video {
     text-decoration: underline !important;
   }
 }
+
+.ui.menu .item:before {
+    width: 0px !important;
+}

@@ -16,7 +16,7 @@ search.addWidget(
     magnifier: false,
     placeholder: 'Global text search for (almost) anything in the entries',
     cssClasses: {
-      root: 'ui input'
+      root: 'ui transparent input'
     }
   })
 );
