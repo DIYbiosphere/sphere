@@ -1,14 +1,18 @@
-<div class="ui icon blue message">
-  <i class="close icon"></i>
-  <i class="fas fa-exclamation ui icon"></i>
-  <div class="content">
-    <div class="header">
-      This page is still a draft, please consider editing this webpage
+{% if page.draft == true %}
+<div class="sixteen wide column xo padding twofold">
+  <div class="ui icon blue small message">
+    <i class="close icon"></i>
+    <i class="fas fa-exclamation ui icon"></i>
+    <div class="content">
+      <div class="header">
+        This page is still a draft, please consider editing this webpage
+      </div>
+    <p>
+      All you need is a GitHub account. Click <a class="noul elink" href="https://github.com/DIYbiosphere/sphere/edit/master/{{page.path}}"><u>this link</u></a> to directly edit the file on GitHub
+      <br>
+      New to Github? Follow our <a href="/docs/tutorials/edit-entry/users/"><u>editing tutorial</u></a> to upload your changes!
+    </p>
     </div>
-  <p>
-    All you need is a GitHub account. Click <a class="noul elink" href="https://github.com/DIYbiosphere/sphere/edit/master/{{page.path}}"><u>this link</u></a> to directly edit the file on GitHub
-    <br>
-    New to Github? Follow our <a href="/docs/tutorials/edit-entry/users/"><u>editing tutorial</u></a> to upload your changes!
-  </p>
   </div>
 </div>
+{% endif %}

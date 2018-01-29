@@ -13,12 +13,6 @@ ADDING A NEW ICON
 {% endif %}
 -->
 <div class="ui horizontal large link list">
-{% if page.website or page.title=="Writing Entries"%}
-  <a class="item noelink noul" href="{{ page.website }}" target="_blank">
-    <span data-tooltip="Home website" data-variation="mini" data-inverted="">
-      <i class="fas fa-home"></i>
-    </span>  </a>
-{% endif %}
 
 {% if page.rss or page.title=="Writing Entries" %}
   <a class="item noelink noul" href="{{ page.rss }}" target="_blank">
@@ -54,7 +48,7 @@ ADDING A NEW ICON
 
 {% if page.tumblr or page.title=="Writing Entries" %}
   <a class="item" href="{{ page.tumblr }}" target="_blank">
-    <span data-tooltip="Go to Tumblr" data-variation="tiny" data-position="right center">
+    <span data-tooltip="Go to Tumblr" data-variation="mini" data-inverted="">
       <i class="fab fa-tumblr icon"></i>
     </span>
   </a>
@@ -141,7 +135,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.instagram or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.instagram }}" target="_blank">
+  <a class="item" href="{{ page.instagram }}" target="_blank">
     <span data-tooltip="Instagram" data-variation="mini" data-inverted="">
       <i class="fab fa-instagram icon"></i>
     </span>
@@ -165,7 +159,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.youtube or page.title=="Writing Entries" %}
-  <a class="noelink noul" href="{{ page.youtube }}" target="_blank">
+  <a class="item noelink noul" href="{{ page.youtube }}" target="_blank">
     <span data-tooltip="YouTube" data-variation="mini" data-inverted="">
       <i class="fab fa-youtube icon"></i>
     </span>

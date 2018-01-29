@@ -1,20 +1,20 @@
 <header>
   <nav>
-    <div class="ui grid">
+    <div class="ui grid container">
       <!-- Computer Nav -->
       <div class="computer only row">
-        <div class="ui container">
-          <div class="ui fluid large borderless menu">
+        <div class="ui fluid large borderless blue menu">
           <!-- LOGO & LINK TO LANDING PAGE -->
           {% include nav/logo.html %}
-          <!-- search -->
           {% include nav/browse-all.html %}
+          <!-- search -->
           <div class="item">
             <div class="ui fluid transparent icon input">
-              <input type="text" id="aa-search-input" class="search-input" placeholder="Search DIYbio initiatives" autocomplete="on" />
+              <input type="text" id="aa-search-input" class="aa-input-search" placeholder="Search DIYbio initiatives" autocomplete="on" />
               <i class="search icon"></i>
             </div>
           </div>
+
           <div class="right menu">
             <div class="ui dropdown item">
               <b>ABOUT</b>
@@ -33,14 +33,13 @@
             </div>
           </div> <!-- close  menu-->
         </div> <!-- end menu -->
-        </div>
       </div> <!-- end computer menu -->
 
-
       <div class="tablet only row">
-        <div class="ui fluid large text menu">
+        <div class="ui fluid large borderless blue menu">
           <!-- LOGO & LINK TO LANDING PAGE -->
           {% include nav/logo.html %}
+          {% include nav/browse-all.html %}
           <!-- search -->
           <div class="item">
             <div class="ui fluid transparent icon input">
@@ -53,21 +52,19 @@
       </div>
 
       <div class="mobile only row">
-          <div class="ui fluid vertical large text menu">
-            <div class="item">
-              <div class="ui fluid large text menu">
-                {% include nav/logo.html %}
-                {% include nav/browse-all.html %}
-                {% include nav/hamburger.html %}
-              </div>
+        <div class="ui fluid borderless blue menu xo marginless">
+          {% include nav/logo.html %}
+          {% include nav/browse-all.html %}
+          {% include nav/hamburger.html %}
+        </div>
+        <div class="ui fluid borderless menu xo marginless center aligned">
+          <div class="item">
+            <div class="ui fluid transparent icon input">
+              <input type="search" id="aa-search-input-mobile" class="aa-input-search" placeholder="Search DIYbio initiatives" name="search" autocomplete="on" />
+              <i class="search icon"></i>
             </div>
-            <div class="item">
-              <div class="ui fluid icon input">
-                <input type="search" id="aa-search-input-mobile" class="aa-input-search" placeholder="Search DIYbio initiatives" name="search" autocomplete="on" />
-                <i class="search icon"></i>
-              </div>
-            </div>
-          </div> <!-- close menu -->
+          </div>
+        </div>
       </div> <!-- close mobile row -->
 
     </div> <!-- close grid -->

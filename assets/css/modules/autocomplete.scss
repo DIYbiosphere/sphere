@@ -7,10 +7,6 @@
   witdh: 100% !important;
 }
 
-.search-input {
-  min-width: 300px !important;
-}
-
 .ais-search-box {
   width: 100% !important;
 }
@@ -25,7 +21,20 @@
 }
 
 .aa-input-search {
-  min-width: 300px !important;
+  min-width: 270px !important;
+}
+
+.ais-pagination {
+    list-style-type: none;
+
+}
+
+a.ais-pagination--link {
+  color: #1D1D1D !important;
+}
+
+.ais-pagination--item:hover {
+  background-color: #F8F8F8 !important
 }
 
 .aa-dropdown-menu {

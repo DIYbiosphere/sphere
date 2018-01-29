@@ -14,9 +14,9 @@ search.addWidget(
     reset: false,
     poweredBy: false,
     magnifier: false,
-    placeholder: 'Global text search for (almost) anything in the entries',
+    placeholder: 'Search for (almost) anything in the entries, like `protocol`',
     cssClasses: {
-      root: 'ui transparent input'
+      root: 'ui input'
     }
   })
 );
@@ -204,11 +204,27 @@ search.addWidget(
     showFirstLast: true,
 		autoHideContainer: true,
     cssClasses: {
-			root: 'ui small compact text menu',
-			item: 'item',
-      link: 'noul',
-      disabled: 'disabled',
-      active: 'active',
+			root: 'ui small compact menu',
+      item: 'item',
+      disabled: 'disabled item',
+      active: 'active item',
+		}
+  })
+);
+
+search.addWidget(
+  instantsearch.widgets.pagination({
+    container: '#bottom-pagination-container',
+    maxPages: 100,
+    padding: 1,
+    scrollTo: false,
+    showFirstLast: true,
+		autoHideContainer: true,
+    cssClasses: {
+			root: 'ui small compact menu',
+      item: 'item',
+      disabled: 'disabled item',
+      active: 'active item',
 		}
   })
 );

@@ -169,3 +169,36 @@ video {
 .ui.menu .item:before {
     width: 0px !important;
 }
+
+.ui.accordion .active.title .rotating.icon,
+.ui.accordion .accordion .active.title .rotating.icon {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.ui.accordion.menu .item .active.title > .rotating.icon {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.ui.accordion .active.title .rotating.icon,
+.ui.accordion .accordion .active.title .rotating.icon {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.ui.menu .item .active.item > .rotating.icon {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.active-menu {
+  color: #0078FE !important;
+}
+
+a.item.active-menu {
+  color: #0078FE !important;
+  
+}

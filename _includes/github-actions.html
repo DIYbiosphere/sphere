@@ -1,33 +1,25 @@
-<div class="ui mini horizontal right floated divided link list">
-  <!-- How it works: check in `_data/talk_repo/yml` for an instance where page_name is equal to the title of the current page -->
-  {% for issue in site.data.talk_repo %}
-    {% if issue.page_name == page.title %}
-      {% if issue.comments_issue %}
-      {% assign comments_issue = true %}
-      <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/{{ issue.comments_issue }}#new_comment_field" target="_blank">
-          <i class="far fa-comment icon"></i>
-          Post Comment
-      </a>
-      {% endif %}
-    {% endif %}
-  {% endfor %}
+<div class="ui mini horizontal divided link list">
+  <!-- Display last edited date of the page -->
+  <div class=" disabled item">
+     Last edit: {% last_modified_at %}
+  </div>
 
-  {% if comments_issue != true '%}
-  <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/new" target="_blank">
-      <i class="far fa-comments icon"></i>
-      Open Discussion
+  <!-- Link to the page in the Github Repository -->
+  <a class="item noelink noul" href="https://github.com/DIYbiosphere/sphere/edit/master/{{page.path}}" target="_blank">
+    <span data-tooltip="Edit page in GitHub" data-variation="mini" data-inverted="">
+      <i class="far fa-edit" data-fa-transform="grow-6 right-6"></i>
+    </span>
   </a>
-  {% endif %}
 
-  <!-- Add a comment to an existing issue asociated with this page for editing discussion-->
   <!-- How it works: check in `_data/talk_repo/yml` for an instance where page_name is equal to the title of the current page -->
   {% for issue in site.data.talk_repo %}
     {% if issue.page_name == page.title %}
       {% if issue.edit_issue %}
       {% assign edit_issue = true %}
       <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/{{ issue.edit_issue }}#new_comment_field" target="_blank">
-          <i class="far fa-bug icon"></i>
-          Report Error
+        <span data-tooltip="Add to GitHub Issue" data-variation="mini" data-inverted="">
+          <i class="far fa-bug" data-fa-transform="grow-6 right-6"></i>
+        </span>
       </a>
       {% endif %}
     {% endif %}
@@ -35,20 +27,34 @@
 
   {% if edit_issue != true '%}
   <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/new" target="_blank">
-      <i class="far fa-bug icon"></i>
-      Open Issue
+    <span data-tooltip="Open GitHub Issue" data-variation="mini" data-inverted="">
+      <i class="far fa-bug" data-fa-transform="grow-6 right-6"></i>
+    </span>
   </a>
   {% endif %}
 
-  <!-- Link to the page in the Github Repository -->
-  <a class="item noelink noul" href="https://github.com/DIYbiosphere/sphere/edit/master/{{page.path}}" target="_blank">
-    <i class="far fa-edit icon"></i>
-    Edit Page
-  </a>
+  <!-- How it works: check in `_data/talk_repo/yml` for an instance where page_name is equal to the title of the current page -->
+  {% for issue in site.data.talk_repo %}
+    {% if issue.page_name == page.title %}
+      {% if issue.comments_issue %}
+      {% assign comments_issue = true %}
+      <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/{{ issue.comments_issue }}#new_comment_field" target="_blank">
+        <span data-tooltip="Add Comment in GitHub" data-variation="mini" data-inverted="">
+          <i class="far fa-comment" data-fa-transform="grow-6 right-6"></i>
+        </span>
+      </a>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
 
-  <!-- Display last edited date of the page -->
-  <div class="active item">
-    Last edited on {% last_modified_at %}
-  </div>
+  {% if comments_issue != true '%}
+  <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/new" target="_blank">
+    <span data-tooltip="Open Discussion in GitHub" data-variation="mini" data-inverted="">
+      <i class="far fa-comments" data-fa-transform="grow-6 right-6"></i>
+    </span>
+  </a>
+  {% endif %}
+
+
 
 </div>

@@ -4,20 +4,21 @@ layout: default
 
 <div class="ui grid container xo padding top twofold">
 
-  <!-- SEARCH INFO -->
+  <!-- BROWSING INFORMATION -->
   <div class="sixteen wide column xo top padding">
+    <!-- Browsing results and settings -->
     <div id="stats-container"></div>
     <div id="current-refined-values"></div>
     <div id="clear-all"></div>
   </div>
 
-  <!-- SEARCH AND FILTER-->
+  <!-- BROWSING MENU SETTINGS-->
   <div class="sixteen wide column xo top padding">
     <div class="ui accordion browse">
       <!-- Search bar. Searches all the text in the entries-->
       <div class="title">
         <h3 class="ui grey header">
-          <i class="far fa-search fa-sm"></i> Search Entries
+          <span class="xo padding twofold right"><i class="fal fa-angle-right fa-lg rotating icon"></i></span><i class="far fa-search fa-sm"></i> Search Entries
         </h3>
       </div>
       <div class="content">
@@ -26,7 +27,7 @@ layout: default
       </div>
       <div class="title">
         <h3 class="ui grey header">
-          <i class="far fa-filter fa-sm"></i> Filter Results
+            <span class="xo padding twofold right"><i class="fal fa-angle-right fa-lg rotating icon"></i></span><i class="far fa-filter fa-sm"></i> Filter Results
         </h3>
       </div>
       <div class="content">
@@ -49,7 +50,7 @@ layout: default
       </div> <!-- close content -->
       <div class="title active">
         <h3 class="ui grey header">
-          <i class="far fa-sliders-v-square fa-sm"></i> View Settings
+            <span class="xo padding twofold right"><i class="fal fa-angle-right fa-lg rotating icon"></i></span><i class="far fa-sliders-v-square fa-sm"></i> View Settings
         </h3>
       </div>
       <div class="content active">
@@ -79,14 +80,17 @@ layout: default
     </div> <!-- close accordion -->
   </div>
     <!-- SEARCH RESULTS -->
-  <div class="sixteen wide column">
+  <div class="sixteen wide column xo padding twofold">
     <!-- Search results displayed in a list. Edit `HIT_TEMPLATE` in `browse_instantsearch.es6`-->
-    <div class="ui active tab xo padding twofold" data-tab="viewList">
+    <div class="ui active tab " data-tab="viewList">
       <div id="hits-container"></div>
     </div>
     <!-- Search results displayed in table. Edit `TABLE_TEMPLATE` in `browse_instantsearch.es6`-->
-    <div class="ui tab xo padding twofold" data-tab="viewTable">
+    <div class="ui tab" data-tab="viewTable">
       <div id="table-container"></div>
     </div>
   </div>  <!-- close results column -->
+<div class="sixteen wide column">
+  <div id="bottom-pagination-container"></div>
+</div>
 </div> <!--  grid container -->

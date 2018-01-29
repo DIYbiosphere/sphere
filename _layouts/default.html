@@ -1,18 +1,12 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
   <body>
-
     {% include header.html %}
       <main>
-
-          {{content}}
-
+        {{content}}
       </main>
-
-  {% include footer.html %}
+    {% include footer.html %}
 
 
     <!-- Google Analytics -->
@@ -38,6 +32,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     {% javascript carousel %}
     <script type="text/javascript">$('.message .close').on('click', function() {$(this).closest('.message').transition('fade');});</script>
+    {% javascript nav-question %}
 
 
     {% if page.layout == 'landing' %}
@@ -60,13 +55,9 @@
     {% if page.layout == 'docs' %}
       <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
       <script type="text/javascript">$('.menu .item').tab();</script>
-      <script type="text/javascript">$('.ui.accordion').accordion({onOpen: function (item) {setCookie('acordionIndex',this.index);}}).accordion('open', getCookie('acordionIndex'));</script>
-      <script type="text/javascript">$('.ui.sticky').sticky({context: '#context'});</script>
-      {% javascript vendor/scrollNav %}
       {% javascript docs %}
     {% endif %}
 
 
   </body>
-
 </html>
