@@ -39,7 +39,7 @@ search.addWidget(
 		container: '#clear-all',
 		autoHideContainer: true,
 		templates: {
-			link: '<button class="ui red mini button"><i class="fas fa-eraser icon"></i>Erase all</button>'
+			link: '<button class="ui red mini inverted button"><i class="fas fa-eraser icon"></i>Erase all</button>'
 		},
   })
 );

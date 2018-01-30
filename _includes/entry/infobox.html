@@ -21,7 +21,7 @@
           {% if page.website %}
           <tr>
             <td colspan="2">
-              <a href="{{ page.website }}" target="_blank">
+              <a class="noelink" href="{{ page.website }}" target="_blank">
                 {{ page.website }}
               </a>
             </td>
@@ -167,8 +167,12 @@
                   <a class="noelink" href="{{ lab.url | prepend: site.baseurl }}">
                     {{ lab.title }}
                   </a>
+                  {% else %}
+                  {{ page.host-org }}
                   {% endif %}
+
                 {% endfor %}
+
               {% endif %}
             </td>
             </tr>
@@ -229,11 +233,9 @@
               {% endif %}
               <!-- City and country -->
               {% if page.city or page.state or page.country %}
-                {{ page.city }}
-                {% if page.city and page.state %} - {% endif %}
-                {% if page.state %}
-                {{ page.state }} {% endif %}
-                {% if page.city or page.state %}<br> {% endif %}
+                {% if page.city and page.state %}{{ page.city }}, {{ page.state }}<br> {% endif %}
+                {% if page.city and page.state == blank %}{{ page.city }}<br>{% endif %}
+                {% if page.city == blank and page.state %}{{ page.state }}<br>{% endif %}
                 {% if page.country %}
                 {{ page.country }}
                 {% endif %}
@@ -241,10 +243,10 @@
             </td>
           </tr>
 
-          {% if page.tags !='' %}
+          {% if page.tags != blank %}
           <tr>
             <td colspan="2">
-              <i class="far fa-tags icon"></i>
+              <i class="far fa-tags icon"></i><b>Tags:</b>
               {% for tag in page.tags %}
               <a class="xo right half padding" href="/entries/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ tag }}">
                 {{ tag }}
@@ -256,6 +258,9 @@
         </tbody>
 
       </table>
+</div>
+
+<div class="">
 </div>
 
   {% include entry/links-icons.html %}

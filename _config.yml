@@ -223,6 +223,8 @@ algolia:
       - state
       - country
       - content
+      - tags
+      - collection
     attributesToSnippet: ['content:10']
     highlightPreTag: <span class="search-highlight">
     highlightPostTag: </span>
