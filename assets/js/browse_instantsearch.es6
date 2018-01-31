@@ -29,7 +29,7 @@ search.addWidget(
       body: 'ui medium header',
     },
     templates: {
-      body: 'Browse {{nbHits}} entries found'
+      body: 'Browse {{nbHits}} entries found {{#query}}matching:"{{query}}"{{/query}}'
     }
   })
 );
@@ -77,10 +77,19 @@ const HIT_TEMPLATE = `
   	  </div>
   		{{ /logo }}
   	  <div class="content">
-  		<span class="meta right floated">{{#start-date}} {{start-date}} {{/start-date}}{{#end-date}} - {{end-date}} {{/end-date}} </span>
+  		<span class="meta right floated">
+      <i class="far fa-map-marker-alt fa-fw fa-xs"></i>{{#city}} {{{ _highlightResult.city.value }}}, {{/city}} {{#country}}{{{ _highlightResult.country.value }}} |{{/country}} {{#start-date}} {{start-date}} {{/start-date}}{{#end-date}} - {{end-date}} {{/end-date}}
+      </span>
   	    <a href="{{url}}" class="header">{{{ _highlightResult.title.value }}}</a>
   	    <div class="meta">
-  	      <span><em> {{#collection}} {{collection}} {{/collection}} {{#city}} in {{city}}, {{/city}} {{^city}} in {{/city}} {{#country}} {{country}} {{/country}}</em></span>
+  	      <span>
+          {{#project}}Project {{/project}}{{#startup}}Startup {{/startup}}{{#lab}}Lab {{/lab}}{{#incubator}}Incubator {{/incubator}}{{#group}}Group {{/group}}{{#network}}Network {{/network}}{{#event}}Event {{/event}}{{#other}}Other {{/other}}
+          {{#hostsArray}} {{#project}}by {{/project}} {{^project}}at {{/project}}{{/hostsArray}}
+          {{#hostsSimple}}<em>{{ . }} </em>{{/hostsSimple}}
+          {{#affiliatesArray}}with {{/affiliatesArray}}
+          {{#affiliatesSimple}}<em>{{ . }} </em>{{/affiliatesSimple}}
+          {{#affiliatesArray}}as collaborators {{/affiliatesArray}}
+          </span>
   	    </div>
   	    <div class="description">
   	      <p>{{{ _highlightResult.content.value }}}</p>
@@ -88,11 +97,13 @@ const HIT_TEMPLATE = `
   	    <div class="extra">
           <div class="ui horizontal small link list">
             <div class="item"><i class="far fa-tags"></i></div>
-            {{#tags}}
-    			 <a class="item" href="/entries/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ . }}">{{ . }} </a>
-           {{/tags}}
+              {{#tags}}
+      			 <a class="item" href="/entries/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ . }}">
+              {{ . }}
+             </a>
+             {{/tags}}
           </div>
-
+          <i class="far fa-map-marker fa-fw" data-fa-transform="shrink-2></i>{{#city}} {{{ _highlightResult.city.value }}}, {{/city}} {{#country}}{{{ _highlightResult.country.value }}} {{/country}}
   			</div>
   	  </div>
   	</div>
@@ -175,25 +186,57 @@ search.addWidget(
     })
   );
 
+  search.addWidget(
+      instantsearch.widgets.refinementList({
+        container: '#country',
+        attributeName: 'country',
+        operator: 'or',
+        limit: 10,
+        showMore: true,
+        cssClasses: {
+    			list: 'ui small horizontal link list',
+    			item: 'item',
+    			active: 'active item',
+        },
+        templates: {
+          item: '<a class="item">[{{value}} {{count}}]</a>',
+        }
+      })
+    );
+
+    search.addWidget(
+        instantsearch.widgets.refinementList({
+          container: '#tags',
+          attributeName: 'tags',
+          operator: 'or',
+          limit: 10,
+          showMore: true,
+          cssClasses: {
+            list: 'ui small horizontal link list',
+            item: 'item',
+            active: 'active item',
+          },
+          templates: {
+            item: '<a class="item">[{{value}} {{count}}]</a>',
+          }
+        })
+      );
+
 
 search.addWidget(
-  instantsearch.widgets.refinementList({
-      container: '#tags',
-      attributeName: 'tags',
-  		operator: 'or',
-  		limit: 10,
-      showMore: true,
-  		cssClasses: {
-  			list: 'ui small horizontal link list',
-  			item: 'item',
-  			active: 'active item',
+  instantsearch.widgets.hitsPerPageSelector({
+      container: '#hits-per-page-selector',
+      autoHideContainer: true,
+      cssClasses: {
+        root: 'select',
       },
-      templates: {
-        item: '<a class="item">[{{value}} {{count}}]</a>',
-      }
+      items: [
+        {value: 10, label: '10 per page', default: true},
+        {value: 100, label: '100 per page'},
+        {value: 1000, label: '1000 per page'},
+      ],
     })
   );
-
 
 search.addWidget(
   instantsearch.widgets.pagination({

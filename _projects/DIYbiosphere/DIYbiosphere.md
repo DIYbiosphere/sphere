@@ -1,15 +1,15 @@
 ---
-comments_issue: 2
-edit_issue: 1
 title: DIYbiosphere
-subtitle: Connecting DIYbio all over the world
+subtitle: Connecting DIYbio Worldwide
 website: http://sphere.diybio.org/
 start-date: 2016
 type-org: nonprofit
+affiliates:
+  - '[DIYbio.org](https://twitter.com/DIYbiosphere/)'
+  - UNIGE
 city: Geneva
 country: Switzerland
 twitter: https://twitter.com/DIYbiosphere/
-facebook:
 github: https://github.com/DIYbiosphere/sphere
 slack: https://slack.io.com/DIYbiosphere/
 tags:
@@ -26,8 +26,3 @@ You can learn more about the project and how to contribute in our [About] page, 
 
 ## Origins
 The DIYbiosphere was founded by Gabriela A. Sanchez (@sabgaby), a PhD student at the University of Geneva, whose research focus is the DIYbio community. The project was proposed as an alternative mode to gather, access, and share information about DIYbio initiatives in a way that positively contributes useful resources back to the community.
-
-
-{% for keyword in keywords %}
-  {{ key.keyword }}
-{% endfor %}

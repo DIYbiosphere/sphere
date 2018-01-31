@@ -5,14 +5,20 @@ var index = client.initIndex('diybiosphere');
 //initialize autocomplete on search input (ID selector must match)
 
 var hitTemplate = Hogan.compile (`
-  <div class="">
-    <h4 class="ui header">
+
+    <h5 class="ui header">
       {{{ _highlightResult.title.value }}}
       <div class="sub header">
-         <span><em> {{#collection}} {{collection}} {{/collection}} {{#city}} in {{{ _highlightResult.city.value }}}, {{/city}} {{^city}} in {{/city}} {{#country}}{{ country }} {{/country}}</em></span>
+        <span>
+        {{#project}}Project {{/project}}{{#startup}}Startup {{/startup}}{{#lab}}Lab {{/lab}}{{#incubator}}Incubator {{/incubator}}{{#group}}Group {{/group}}{{#network}}Network {{/network}}{{#event}}Event {{/event}}{{#other}}Other {{/other}}
+        {{#hostsArray}} {{#project}}by {{/project}} {{^project}}at {{/project}}{{/hostsArray}}
+        {{#hostsSimple}}<em>{{ . }} </em>{{/hostsSimple}}
+          <br>
+          <i class="far fa-map-marker-alt fa-fw fa-xs"></i>{{#city}} {{{ _highlightResult.city.city }}}, {{/city}} {{#country}}{{{ _highlightResult.country.value }}} {{/country}}
+        </span>
       </div>
-    </h4>
-  </div>
+    </h5>
+
 `);
 
 autocomplete('#aa-search-input', {

@@ -12,10 +12,10 @@ ADDING A NEW ICON
   </a>
 {% endif %}
 -->
-<div class="ui horizontal large link list">
-
+<div class="ui horizontal huge link list">
+<div class="item">
 {% if page.rss or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.rss }}" target="_blank">
+  <a class="noelink" href="{{ page.rss }}" target="_blank">
     <span data-tooltip="RSS feed" data-variation="mini" data-inverted="">
       <i class="fas fa-rss-square"></i>
     </span>
@@ -23,7 +23,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.email or page.title=="Writing Entries" %}
-  <a class="item" href="mailto:{{ page.email }}" target="_blank">
+  <a class="noelink" href="mailto:{{ page.email }}" target="_blank">
     <span data-tooltip="Send email" data-variation="mini" data-inverted="">
       <i class="fas fa-envelope"></i>
     </span>
@@ -31,7 +31,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.forum or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.forum }}" target="_blank">
+  <a class="noelink" href="{{ page.forum }}" target="_blank">
     <span data-tooltip="Join forum" data-variation="mini" data-inverted="">
       <i class="fas fa-comments"></i>
     </span>
@@ -39,18 +39,18 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.blog or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.blog }}" target="_blank">
+  <a class="noelink" href="{{ page.blog }}" target="_blank">
     <span data-tooltip="Go to blog" data-variation="mini" data-inverted="">
-      <span class="fa-layers fa-fw" style="background:MistyRose">
-        <i class="fas fa-certificate"></i>
-        <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-11.5 rotate--30" style="font-weight:900">NEW</span>
+      <span class="fa-layers fa-fw">
+        <i class="fas fa-comment"></i>
+        <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-10 up-1" style="font-weight:900">blog</span>
       </span>
     </span>
   </a>
 {% endif %}
 
 {% if page.tumblr or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.tumblr }}" target="_blank">
+  <a class="noelink" href="{{ page.tumblr }}" target="_blank">
     <span data-tooltip="Go to Tumblr" data-variation="mini" data-inverted="">
       <i class="fab fa-tumblr icon"></i>
     </span>
@@ -58,7 +58,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.newsletter or page.title=="Writing Entries" %}
-  <a class="item" href="mailto:{{ page.newsletter }}" target="_blank">
+  <a class="noelink" href="mailto:{{ page.newsletter }}" target="_blank">
     <span data-tooltip="Newsletter" data-variation="mini" data-inverted="">
       <i class="fab fa-envelope-open icon"></i>
     </span>
@@ -66,15 +66,15 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.facebook-group or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.facebook-group }}" target="_blank">
-    <span data-tooltip="Facebook" data-variation="mini" data-inverted="">
+  <a class="noelink" href="{{ page.facebook-group }}" target="_blank">
+    <span data-tooltip="Facebook group" data-variation="mini" data-inverted="">
       <i class="fab fa-facebook-f icon"></i>
     </span>
   </a>
 {% endif %}
 
 {% if page.github or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.github }}" target="_blank">
+  <a class="noelink" href="{{ page.github }}" target="_blank">
     <span data-tooltip="Github" data-variation="mini" data-inverted="">
       <i class="fab fa-github icon"></i>
     </span>
@@ -82,7 +82,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.twitter or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.twitter }}" target="_blank">
+  <a class="noelink" href="{{ page.twitter }}" target="_blank">
     <span data-tooltip="Twitter" data-variation="mini" data-inverted="">
       <i class="fab fa-twitter icon"></i>
     </span>
@@ -90,7 +90,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.facebook or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.facebook }}" target="_blank">
+  <a class="noelink" href="{{ page.facebook }}" target="_blank">
     <span data-tooltip="Facebook" data-variation="mini" data-inverted="">
       <i class="fab fa-facebook icon"></i>
     </span>
@@ -98,7 +98,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.google+ or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.google+ }}" target="_blank">
+  <a class="noelink" href="{{ page.google+ }}" target="_blank">
     <span data-tooltip="Google+" data-variation="mini" data-inverted="">
       <i class="fab fa-google-plus icon"></i>
     </span>
@@ -106,7 +106,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.google-group or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.google-group }}" target="_blank">
+  <a class="noelink" href="{{ page.google-group }}" target="_blank">
     <span data-tooltip="Google Group" data-variation="mini" data-inverted="">
       <i class="fab fa-comments icon"></i>
     </span>
@@ -114,7 +114,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.basecamp or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.basecamp }}" target="_blank">
+  <a class="noelink" href="{{ page.basecamp }}" target="_blank">
     <span data-tooltip="Basecamp" data-variation="mini" data-inverted="">
       <i class="fab fa-twitter icon"></i>
     </span>
@@ -122,7 +122,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.slack or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.slack }}" target="_blank">
+  <a class="noelink" href="{{ page.slack }}" target="_blank">
     <span data-tooltip="Slack" data-variation="mini" data-inverted="">
       <i class="fab fa-slack icon"></i>
     </span>
@@ -130,7 +130,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.irc or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.irc }}" target="_blank">
+  <a class="noelink" href="{{ page.irc }}" target="_blank">
     <span data-tooltip="IRC" data-variation="mini" data-inverted="">
       <i class="fas fa-hashtag icon"></i>
     </span>
@@ -138,7 +138,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.instagram or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.instagram }}" target="_blank">
+  <a class="noelink" href="{{ page.instagram }}" target="_blank">
     <span data-tooltip="Instagram" data-variation="mini" data-inverted="">
       <i class="fab fa-instagram icon"></i>
     </span>
@@ -146,7 +146,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.flickr or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.flickr }}" target="_blank">
+  <a class="noelink" href="{{ page.flickr }}" target="_blank">
     <span data-tooltip="Flickr" data-variation="mini" data-inverted="">
       <i class="fab fa-flickr icon"></i>
     </span>
@@ -154,7 +154,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.vimeo or page.title=="Writing Entries" %}
-  <a class="item noelink noul" href="{{ page.vimeo }}" target="_blank">
+  <a class="noelink noelink noul" href="{{ page.vimeo }}" target="_blank">
     <span data-tooltip="Vimeo" data-variation="mini" data-inverted="">
       <i class="fab fa-vimeo icon"></i>
     </span>
@@ -162,7 +162,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.youtube or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.youtube }}" target="_blank">
+  <a class="noelink" href="{{ page.youtube }}" target="_blank">
     <span data-tooltip="YouTube" data-variation="mini" data-inverted="">
       <i class="fab fa-youtube icon"></i>
     </span>
@@ -170,7 +170,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.gitter or page.title=="Writing Entries" %}
-  <a class="item noelink noul" href="{{ page.gitter }}" target="_blank">
+  <a class="noelink noelink noul" href="{{ page.gitter }}" target="_blank">
     <span data-tooltip="Gitter" data-variation="mini" data-inverted="">
       <i class="fab fa-gitter icon"></i>
     </span>
@@ -178,7 +178,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.trello or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.trello }}" target="_blank">
+  <a class="noelink" href="{{ page.trello }}" target="_blank">
     <span data-tooltip="Trello" data-variation="mini" data-inverted="">
       <i class="fab fa-trello icon"></i>
     </span>
@@ -186,7 +186,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.linkedin or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.linkedin }}" target="_blank">
+  <a class="noelink" href="{{ page.linkedin }}" target="_blank">
     <span data-tooltip="Linkedin" data-variation="mini" data-inverted="">
       <i class="fab fa-linkedin icon"></i>
     </span>
@@ -194,7 +194,7 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.meetup or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.meetup }}" target="_blank">
+  <a class="noelink" href="{{ page.meetup }}" target="_blank">
     <span data-tooltip="Meetup" data-variation="mini" data-inverted="">
       <i class="fab fa-meetup icon"></i>
     </span>
@@ -202,10 +202,11 @@ ADDING A NEW ICON
 {% endif %}
 
 {% if page.pinterest or page.title=="Writing Entries" %}
-  <a class="item" href="{{ page.pinterest }}" target="_blank">
+  <a class="noelink" href="{{ page.pinterest }}" target="_blank">
     <span data-tooltip="Pinterest" data-variation="mini" data-inverted="">
       <i class="fab fa-pinterest icon"></i>
     </span>
   </a>
 {% endif %}
+</div>
 </div>

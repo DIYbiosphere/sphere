@@ -201,12 +201,17 @@ algolia:
   settings:
     searchableAttributes:
       - title
+      - subtitle
+      - host-org
+      - hostsSimple
+      - affiliates
+      - affiliatesSimple
       - city
       - state
       - country
-      - host-org
-      - tags
       - content
+      - tags
+      - collection
     attributesForFaceting:
       - collection
       - type-org
@@ -219,6 +224,9 @@ algolia:
       - title
       - subtitle
       - host-org
+      - hostsSimple
+      - affiliates
+      - affiliatesSimple
       - city
       - state
       - country

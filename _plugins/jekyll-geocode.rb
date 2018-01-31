@@ -10,33 +10,33 @@ module GeoCode
     def generate(site)
     	@site = site
 
-    	@site.documents.each do |collection|
-    		if(collection.respond_to? :data)
-          if collection.data['_geoloc.lat'].nil?
+    	@site.documents.each do |doc|
+    		if(doc.respond_to? :data)
+          if doc.data['_geoloc.lat'].nil?
             # Address
-            unless collection.data['address'].nil?
-              address_exists = collection.data['address']
+            unless doc.data['address'].nil?
+              address_exists = doc.data['address']
               geo_address = address_exists + ', '
               else
                 geo_address = ""
             end
             # City
-            unless collection.data['city'].nil?
-              city_exists = collection.data['city']
+            unless doc.data['city'].nil?
+              city_exists = doc.data['city']
               geo_city = city_exists + ', '
               else
                 geo_city = ""
             end
             # Postcode
-            unless collection.data['postcode'].nil?
-              postcode_exists = collection.data['postcode'].to_s
+            unless doc.data['postcode'].nil?
+              postcode_exists = doc.data['postcode'].to_s
               geo_postcode = postcode_exists + ''
               else
                 geo_postcode = ""
             end
             # Country
-            unless collection.data['country'].nil?
-              country_exists = collection.data['country']
+            unless doc.data['country'].nil?
+              country_exists = doc.data['country']
               geo_country = country_exists
               else
                 geo_country = ""
@@ -50,7 +50,7 @@ module GeoCode
                geo_response = Geokit::Geocoders::GoogleGeocoder.geocode geo_coord
                geo_lat = geo_response.lat
                geo_lng = geo_response.lng
-              collection.data["_geoloc"] = {
+              doc.data["_geoloc"] = {
                 :lat => geo_lat,
                 :lng => geo_lng
                 }

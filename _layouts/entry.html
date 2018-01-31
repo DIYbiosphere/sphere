@@ -11,7 +11,7 @@ layout: default
 
 <article>
   <div class="ui grid container xo top padding">
-    <div class="computer tablet only row">
+    <div class="computer only row">
       <div class="eleven wide column">
         {% include contentTab.html %}
       </div>
@@ -21,15 +21,15 @@ layout: default
         {% include entry/promotions.html %}
       </div>
     </div>
-    <div class="mobile only row">
+
+    <div class="tablet mobile only row">
       <div class="sixteen wide column">
         {% include entry/infobox.html %}
-        {% include entry/tags.html %}
-        {% include entry/promotions.html %}
       </div>
 
-      <div class="sixteen wide column">
-        {% include contentTab.html %}≥
+      <div class="sixteen wide column xo top padding fourfold">
+        {% include contentTab.html %}
+        {% include entry/promotions.html %}
       </div>
 
     </div>
