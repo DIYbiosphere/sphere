@@ -188,6 +188,8 @@ algolia:
     - index.html
     - 404.html
     - entries.html
+    - CODE_OF_CONDUCT.md
+    - CONTRIBUTING.md
     - about/*.md
     - about/*/*.md
     - docs/*.md

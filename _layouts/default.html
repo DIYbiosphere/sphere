@@ -2,7 +2,7 @@
 <html>
   {% include head.html %}
   <body>
-    {% include header.html %}
+    {% include nav.html %}
       <main>
         {{content}}
       </main>
@@ -32,12 +32,6 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     {% javascript carousel %}
     <script type="text/javascript">$('.message .close').on('click', function() {$(this).closest('.message').transition('fade');});</script>
-    {% javascript nav-question %}
-
-
-    {% if page.layout == 'landing' %}
-    {% javascript googleMap %}
-    {% endif %}
 
     {% if page.layout == 'entries' %}
       <script type="text/javascript">$('.viewAs.menu .item').tab();</script>

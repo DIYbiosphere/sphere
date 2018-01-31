@@ -1,9 +1,7 @@
 ---
-title: Overview of the DIYbiosphere
 layout: docs
+title: Overview of the DIYbiospher
 draft: true
-crumb: introduction
-summary: A short summary on the DIYbiosphere project
 ---
 
 The DIYbiosphere is an open-source project to collect Do-It-Yourself Biology (DIYbio) initiatives from all over the world. One of it's main purpose is to replace the list of DIYbio labs indexed in the [Local] section in the [DIYbio] website.

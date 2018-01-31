@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Contributing Guide # Keep links in this page. Only markdown syntax. Copy file to .github folder as 'CONTRIBUTING.md'
+title: Contributing Guide
 permalink: /docs/guides/contributing
 draft: true
 ---

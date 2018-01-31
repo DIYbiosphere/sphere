@@ -1,17 +1,14 @@
 ---
 layout: docs
-comments_issue: 25
-edit_issue: 26
 title: Writing Entries
 draft: true
 ---
 
-To write entries all you need is a GitHub account.
-Entries are written in a basic text file with two sections. The first, the **front matter** is between two lines of three consecutive dashes `---` represents datasets in simple `key: value` pairs written in in _YAML_. The second part is the **markdown text**  written in _Markdown Syntax_. An entry can have several components rendered from the data in the front matter and the text in markdown. The elements of an entry page are as follows (hover over the image to remove labels):
+A webpage for an entry has several elements. See them labeled in the image below (hover over the image to remove them).
 
 {% include other/reveal-image.html visible="/docs/tutorials/AvocadoLab/EntryExampleAnatomy.png" hidden="/docs/tutorials/AvocadoLab/EntryExample.png" %}
 
-It is important to note that the rest of the elements come from the _front matter_.
+The elements are rendered from two sections of the entry's text file: The first, the **front matter** is between two lines of three consecutive dashes `---` represents datasets in simple `key: value` pairs written in in _YAML_. The second part is the **markdown text**  written in _Markdown Syntax_. An entry can have several components rendered from the data in the front matter and the text in markdown.
 
 ## Text
 The **text** comes directly and only from the second part of the file, the _markdown text_. Markdown is pretty simple, see [this guide](https://learnxinyminutes.com/docs/markdown/) from _Learn X in Y Minutes_. Below is a small snippet:
@@ -29,6 +26,7 @@ Write a list:
 ```
 
 ### Adding images
+Adding images in
 In case you need to format an image, table, or something else, you can add add `{: .class .another}` after the element. We use the Semantic-UI framework, e.g. for [images](https://semantic-ui.com/elements/image.html):
 
 
@@ -50,18 +48,9 @@ For `position=` you can specify: _centered_, _fluid_, or _floated right_, or _fl
 
 For `size=` specify: _mini_ (35px), _tiny_ (80px), _small_ (150px), _medium_ (300px), _large_ (450px), _big_ (600px), _huge_ (800px), or _massive_ (960px).
 
-
-
-
 ```
-{%raw%} {% include cc-image.html position="right floated" size="medium" sourceURL="https://c2.staticflickr.com/8/7275/7770621142_a9d945f825_b.jpg" license="by-nc-nd" workTitle="Up Close and Personal" attributeURL="https://flic.kr/p/cQEsWA" attributeTo="Servando Miramontes" %}{%endraw%}
+{%raw%}{% include cc-image.html position="right floated" size="medium" sourceURL="https://c2.staticflickr.com/8/7275/7770621142_a9d945f825_b.jpg" license="by-nc-nd" workTitle="Up Close and Personal" attributeURL="https://flic.kr/p/cQEsWA" attributeTo="Servando Miramontes" %}{%endraw%}
 ```
-
-
-
-
-
-
 
 ## Title and subtitle
 The **title:** should be the name of your entry. It should be short and easy if possible. The **subtitle:** is optional and is a short description of the entry.
@@ -69,8 +58,10 @@ The **title:** should be the name of your entry. It should be short and easy if 
 ## Menu
 The menu is set automatically. The only way to add additional items is to edit other entry pages and specify `host-org:` exactly as the  `title:` of this entry. For example, if 'Avocado Lab' wants to list _Projects_, an entry for the Project _Guacamole_ should be created and specify `host-org: Avocado Lab`.
 
+
+
 ## Header and logo
-To display a **header** image at the top of your entry, you can either save an image in the folder of your initiative with the name 'header' in `.png` or `.jpg` format, or add the 'header' key in the front matter with a link to the image, e.g. `header: http://linktoheaderimage.jpg`
+To display a **header** image at the top of your entry, you can either save an image in the folder of your initiative with the name 'header' in `.png`, `.jpg` or `.svg` format, or add the `header: ` key in the front matter with a link to the image, e.g. `header: http://linktoheaderimage.jpg`
 
 The same goes for the **logo**, which is displayed inside the infobox and when clicked links to the entry's website.
 
@@ -83,6 +74,8 @@ The _infobox_ is the box on the left hand side of the entry. It can show several
 
 ## Social Icons
 Links to any kind of website, social media, or contact information can be presented here.
+
+{% include social-icons.html %}
 
 ## Tags
 You are probably familiar with _tags_, they are used as keywords to easily categorize entries. A good rule of thumb is to have maximum 10 tags. In addition, it is good practice to search the current tags used by other entries and reuse them if applicable.
@@ -110,4 +103,4 @@ The rendered box will first try to grab the `promotions.image` key, then the `pr
 
 
 ## Comments
-**Comments** on the entry are rendered from comments of a GitHub Issue. I
+**Comments** on the entry are rendered from comments of a GitHub Issue in the DIYbiosphere/talk repository.

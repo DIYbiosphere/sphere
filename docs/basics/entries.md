@@ -1,15 +1,13 @@
 ---
 layout: docs
-comments_issue: 15
-edit_issue: 16
-title: Entries in DIYbiosphere
+title: Understanding Entries
 draft: true
 ---
 
-Each initiative added to the repository has its own _Entry_. These are added as text files in the [sphere repository][gh_repo] which are rendered as webpages accessible at [sphere.diybio.org][sphere].
+Each initiative added to the repository has its own _Entry_. Each entry has its own folder in the [sphere repository][gh_repo]. The folder can have images and must have a text file in markdown to be rendered as a webpage accessible at [sphere.diybio.org][sphere].
 
 ## Entry Collections
-A series of _Collections_ are used to aggregate similar initiatives.
+A series of **collections** aggregate similar initiatives. The ones currently in use are:
 
 - <i class="far fa-briefcase icon"></i> **Projects**: have particular aims, such as designing an instrument or an educational workshop.
 - <i class="far fa-rocket icon"></i> **Startups**: are entrepreneurial ventures and generally concern products or services
@@ -20,33 +18,52 @@ A series of _Collections_ are used to aggregate similar initiatives.
 - <i class="far fa-calendar-alt icon"></i> **Events**: Global or regional events that are by and/or for the DIYbio community, like (un)conferences, camps, hackathons, and accelerators. Only include if something shareable is produced, like proceedings, videos or posters.
 - <i class="far fa-umbrella icon"></i> **Others**: Is an umbrella term for all the rest. Eventually as new entries begin to define themselves a new collection will be created to accommodate them.
 
+### Possible Collections
+As the number of entries grows, we may need to add more. Some that have been proposed are:
+
+- <i class="far fa-shopping-basket icon"></i> **Products**: physical things that can be purchased
+- <i class="far fa-cogs icon"></i> **Services**: abstract things that can be purchased
+- <i class="far fa-microchip icon"></i> **Hardware**: instruments, devices, etc.
+- <i class="far fa-code icon"></i> **Software**:
+- <i class="far fa-list-ol icon"></i> **Protocols**:
+- <i class="far fa-id-card icon"></i> **Profiles**: people and biohackers
+- <i class="far fa-paint-brush icon"></i> **BioArt**: Art pieces or performances about biology and biotechnology
+- <i class="far fa-newspaper icon"></i> **Reads**: Media, scholarly, and other articles and important posts on DIYbio
+
 ## Anatomy of an Entry File
-Each entry file has two sections. The first section is the _front matter_ and is in between three dashes `---`, it stores data and other variables. The second section is the _markdown text_, which contains the description, photos and other content of the entry. The platform interprets the front matter and the markdown text to render the file into a webpage.
+Each entry file has two sections. The first section is the _front matter_ and is in between two lines of three dashes `---`, storing data and other variables. The second section is the _markdown text_, which contains the description, photos and other content of the entry. The front matter and the markdown text are used to render the file into a webpage in HTML.
 
 ### Front Matter
-The front matter is written in _YAML_, a programming language that declares data in a simple format (simple [YAML guide](https://learnxinyminutes.com/docs/yaml/)). The basic format is `key: value`.
+The front matter is written in _YAML_, a programming language that declares data in a simple format (simple [YAML guide](https://learnxinyminutes.com/docs/yaml/)). The basic format is `key: value`. See the example below:
 
 ```yaml
 ---
-key: value
-list:
-  - one item
-  - two item
-contacts:
-  - name: Frida
-    email: frida@kahlo.mx
-    address: Mexico
-special-characters: 'values with special characters (:\/-_?...) must be enclosed in quotation marks'    
+title: Avocado Lab # simple key: value pair. there should be a space after the colon ': '
+subtitle: "Doing everything with: avocados" # use quotation marks if using a colon and space
+tags: # for lists
+  - food lab
+  - citizen science
+host-org: "[Tree Labs](http://treelabs.org)" # to render in markdown, put between quotation marks
+affiliates:
+  - title: Fruit Network
+    website: http://fruitnetwork.net
+  - title: Green Foods
+    website: http://greenfoods.com    
 ---
 
 ```
 
+There are a few keys that are essential
+
 ### Markdown Text
-The body of text refers to the written description of the initiative.
+The second section is
 
-  - **About**
-  - **History**
+```markdown
 
 
-## Rendering the webpage
+```
+
+
+
+## Rendering the Webpage
 Keys are rendered into the _infobox_, _social icons_, _tags_, _promotions_, and others.

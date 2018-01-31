@@ -3,7 +3,7 @@
 # converts DateTime into Unix Timestamp
 require 'kramdown'
 
-module DetermineCollection
+module AddVariablesToFiles
   class Generator < Jekyll::Generator
     priority :highest
     def generate(site)

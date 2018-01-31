@@ -11,19 +11,19 @@ See our [Contributing Guide] for submitting Issues and PRs and for writing good 
 
 ## Labels
 Labels are for categorizing and filtering tickets. The following labels are currently in place:
-- {% include label/bug.html %} are errors, undesired results or behaviors
-- {% include label/critical.html %} are high-priority tickets
-- {% include label/entries.html %} pertain to content and data
-- {% include label/design.html %} pertain to the design
-- {% include label/software.html %} pertain to the development of the code
-- {% include label/docs.html %} pertain to the documentation
-- {% include label/easy.html %} are relatively simple, or for beginner contributors
-- {% include label/enhancement.html %} are incremental or gradual improvements
-- {% include label/feature.html %} are new attributes, characteristics or functions
-- {% include label/feedback.html %} are tickets that need opinions and comments
-- {% include label/help.html %} are tickets that need other users to attend to
-- {% include label/question.html %} are questions that need answers
-- {% include label/resolution.html %} are tickets that need to be resolved soon
+- bugs: are errors, undesired results or behaviors
+- critical: are high-priority tickets
+- entries: pertain to content and data
+- design: pertain to the design
+- software: pertain to the development of the code
+- docs: pertain to the documentation
+- easy: are relatively simple, or for beginner contributors
+- enhancement: are incremental or gradual improvements
+- feature: are new attributes, characteristics or functions
+- feedback: are tickets that need opinions and comments
+- help: are tickets that need other users to attend to
+- question: are questions that need answers
+- resolution: are tickets that need to be resolved soon
 
 {% include messages/info.html title="Labels can be for PRs" text="Labels will be applied mostly to Issues. However, when PRs require review or encounter problems in merging, labels may be applied to indicate any additional information (like 'critical', 'help wanted')." %}
 
