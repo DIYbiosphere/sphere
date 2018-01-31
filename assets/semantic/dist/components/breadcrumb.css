@@ -36,8 +36,8 @@
 .ui.breadcrumb .divider {
   display: inline-block;
   opacity: 0.7;
-  margin: 0em 0.2rem 0em;
-  font-size: 0.93333333em;
+  margin: 0em 0.23076923rem 0em;
+  font-size: 0.92307692em;
   color: rgba(0, 0, 0, 0.4);
   vertical-align: baseline;
 }
@@ -52,7 +52,7 @@
 
 /* Icon Divider */
 .ui.breadcrumb .icon.divider {
-  font-size: 0.86666667em;
+  font-size: 0.84615385em;
   vertical-align: baseline;
 }
 
@@ -69,7 +69,7 @@
 /* Loose Coupling */
 .ui.breadcrumb.segment {
   display: inline-block;
-  padding: 0.8em 1em;
+  padding: 0.76923077em 1em;
 }
 
 
@@ -87,28 +87,28 @@
 *******************************/
 
 .ui.mini.breadcrumb {
-  font-size: 0.8rem;
+  font-size: 0.76923077rem;
 }
 .ui.tiny.breadcrumb {
-  font-size: 0.86666667rem;
+  font-size: 0.84615385rem;
 }
 .ui.small.breadcrumb {
-  font-size: 0.93333333rem;
+  font-size: 0.92307692rem;
 }
 .ui.breadcrumb {
   font-size: 1rem;
 }
 .ui.large.breadcrumb {
-  font-size: 1.13333333rem;
+  font-size: 1.15384615rem;
 }
 .ui.big.breadcrumb {
-  font-size: 1.26666667rem;
+  font-size: 1.30769231rem;
 }
 .ui.huge.breadcrumb {
-  font-size: 1.4rem;
+  font-size: 1.46153846rem;
 }
 .ui.massive.breadcrumb {
-  font-size: 1.73333333rem;
+  font-size: 1.69230769rem;
 }
 
 

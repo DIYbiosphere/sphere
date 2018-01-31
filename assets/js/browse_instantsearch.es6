@@ -8,83 +8,106 @@ const search = instantsearch({
   }
 });
 
-const searchAnything = instantsearch.widgets.searchBox({
+search.addWidget(
+  instantsearch.widgets.searchBox({
     container: '#search-box',
     reset: false,
     poweredBy: false,
     magnifier: false,
-    placeholder: 'Global search for (almost) anything in the entries',
-		cssClasses: {
-			root: 'ui input'
-		}
-	});
+    placeholder: 'Search for (almost) anything in the entries, like `protocol`',
+    cssClasses: {
+      root: 'ui input'
+    }
+  })
+);
 
 
-  const searchResults = instantsearch.widgets.stats({
+search.addWidget(
+  instantsearch.widgets.stats({
     container: '#stats-container',
     cssClasses: {
       body: 'ui medium header',
     },
     templates: {
-      body: '{{nbHits}} total entries found'
+      body: 'Browse {{nbHits}} entries found {{#query}}matching:"{{query}}"{{/query}}'
     }
-  });
+  })
+);
 
-const clearFilters = instantsearch.widgets.clearAll({
+search.addWidget(
+  instantsearch.widgets.clearAll({
 		container: '#clear-all',
 		autoHideContainer: true,
-    clearsQuery: true,
 		templates: {
-			link: '<button class="ui tiny basic red button">Reset filters</button>'
+			link: '<button class="ui red mini inverted button"><i class="fas fa-eraser icon"></i>Erase all</button>'
 		},
-	});
+  })
+);
 
-const resultsMatching = instantsearch.widgets.currentRefinedValues({
+search.addWidget(
+  instantsearch.widgets.currentRefinedValues({
     container: '#current-refined-values',
 		autoHideContainer: true,
-		clearAll: false,
+    clearAll: false,
 		cssClasses: {
       root: 'ui horizontal list',
 			header: 'item ui small header',
       body: 'item',
-      list: 'ui horizontal link list',
+      list: 'ui horizontal list',
       item: 'item',
     },
 		templates: {
-      header: ' matching: ',
-			item: `{{name}} `
+			item: '<a class="ui label">{{name}} <i class="delete icon"></i></a>',
     },
-  });
+  })
+);
+
+
 
 const EMPTY_TEMPLATE =
   '<div class="text-center">No results found matching <strong>{{query}}</strong>.</div>';
 
 const HIT_TEMPLATE = `
-<div class="ui segment xo padding bottom">
-<div class="ui items">
-	<div class="item">
-	  {{ #logo }}
-		<div class="ui tiny image">
-	    <img class="ui middle aligned" src="{{ uberimage }}">
-	  </div>
-		{{ /logo }}
-	  <div class="content">
-		<span class="meta right floated">{{#start-date}} {{start-date}} {{/start-date}}{{#end-date}} - {{end-date}} {{/end-date}} </span>
-	    <a href="{{url}}" class="header">{{{ _highlightResult.title.value }}}</a>
-	    <div class="meta">
-	      <span><em> {{#collection}} {{collection}} {{/collection}} {{#city}} in {{ city }}, {{/city}} {{^city}} in {{/city}} {{#country}}{{ country }} {{/country}}</em></span>
-	    </div>
-	    <div class="description">
-	      <p>{{{ _snippetResult.text.value }}}</p>
-	    </div>
-	    <div class="extra">
-			{{#tags}}
-			<a class="ui tiny label noul" href="/entries/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ . }}">{{ . }}</a>
-			{{/tags}}
-			</div>
-	  </div>
-	</div>
-</div>
+<div class="ui basic segment xo padding bottom">
+  <div class="ui relaxed items">
+  	<div class="item">
+  	  {{ #logo }}
+  		<div class="ui tiny image">
+  	    <img class="ui middle aligned" src="{{ uberimage }}">
+  	  </div>
+  		{{ /logo }}
+  	  <div class="content">
+  		<span class="meta right floated">
+      <i class="far fa-map-marker-alt fa-fw fa-xs"></i>{{#city}} {{{ _highlightResult.city.value }}}, {{/city}} {{#country}}{{{ _highlightResult.country.value }}} |{{/country}} {{#start-date}} {{start-date}} {{/start-date}}{{#end-date}} - {{end-date}} {{/end-date}}
+      </span>
+  	    <a href="{{url}}" class="header">{{{ _highlightResult.title.value }}}</a>
+  	    <div class="meta">
+  	      <span>
+          {{#project}}Project {{/project}}{{#startup}}Startup {{/startup}}{{#lab}}Lab {{/lab}}{{#incubator}}Incubator {{/incubator}}{{#group}}Group {{/group}}{{#network}}Network {{/network}}{{#event}}Event {{/event}}{{#other}}Other {{/other}}
+          {{#hostsArray}} {{#project}}by {{/project}} {{^project}}at {{/project}}{{/hostsArray}}
+          {{#hostsSimple}}<em>{{ . }} </em>{{/hostsSimple}}
+          {{#affiliatesArray}}with {{/affiliatesArray}}
+          {{#affiliatesSimple}}<em>{{ . }} </em>{{/affiliatesSimple}}
+          {{#affiliatesArray}}as collaborators {{/affiliatesArray}}
+          </span>
+  	    </div>
+  	    <div class="description">
+  	      <p>{{{ _highlightResult.content.value }}}</p>
+  	    </div>
+  	    <div class="extra">
+          <div class="ui horizontal small link list">
+            <div class="item"><i class="far fa-tags"></i></div>
+              {{#tags}}
+      			 <a class="item" href="/entries/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ . }}">
+              {{ . }}
+             </a>
+             {{/tags}}
+          </div>
+          <i class="far fa-map-marker fa-fw" data-fa-transform="shrink-2></i>{{#city}} {{{ _highlightResult.city.value }}}, {{/city}} {{#country}}{{{ _highlightResult.country.value }}} {{/country}}
+  			</div>
+  	  </div>
+  	</div>
+  </div>
 </div>
 `;
 
@@ -129,100 +152,131 @@ const tableHits = instantsearch.widgets.hits({
 		},
 	});
 
-
-  const collectionFilter = instantsearch.widgets.refinementList({
+search.addWidget(
+  instantsearch.widgets.refinementList({
       container: '#collection',
       attributeName: 'collection',
       operator: 'or',
       limit: 10,
       cssClasses: {
-  			item: 'link item',
+  			list: 'ui small horizontal link list xo paddingless',
+  			item: 'item',
   			active: 'active item',
-        header: 'ui small header'
       },
       templates: {
-        header: 'Collections',
-        item: '<div class="ui comments">' +
-          '<div class="comment">' +
-            '<div class="content">' +
-              '<a href="" class="noul">{{value}}</a>' +
-              '<div class="metadata">' +
-                '<div> : {{count}}</div>' +
-              '</div>' +
-            '</div>' +
-          '</div>' +
-        '</div>'},
-    });
+        item: '<a class="item">[{{value}} {{count}}]</a>',
+      }
+    })
+  );
 
-  const typeFilter = instantsearch.widgets.refinementList({
+search.addWidget(
+    instantsearch.widgets.refinementList({
       container: '#type-org',
       attributeName: 'type-org',
       operator: 'or',
       limit: 10,
       cssClasses: {
-  			item: 'link item',
+  			list: 'ui small horizontal link list',
+  			item: 'item',
   			active: 'active item',
-        header: 'ui small header'
       },
       templates: {
-        header: 'Type of Organization',
-        item: '<div class="ui comments">' +
-          '<div class="comment">' +
-            '<div class="content">' +
-              '<a href="" class="noul">{{value}}</a>' +
-              '<div class="metadata">' +
-                '<div> : {{count}}</div>' +
-              '</div>' +
-            '</div>' +
-          '</div>' +
-        '</div>'},
-    });
-
-
-  const tagsFilter = instantsearch.widgets.refinementList({
-      container: '#tags',
-      attributeName: 'tags',
-  		operator: 'or',
-  		limit: 8,
-      showMore: {
-
-      },
-  		cssClasses: {
-  			list: 'ui labels',
-  			item: 'ui label basic blue',
-  			active: 'ui grey label',
-        header: 'ui small header'
-      },
-      templates: {
-        header: 'Tags',
-        item: '{{value}} : {{count}}',
+        item: '<a class="item">[{{value}} {{count}}]</a>',
       }
-    });
+    })
+  );
+
+  search.addWidget(
+      instantsearch.widgets.refinementList({
+        container: '#country',
+        attributeName: 'country',
+        operator: 'or',
+        limit: 10,
+        showMore: true,
+        cssClasses: {
+    			list: 'ui small horizontal link list',
+    			item: 'item',
+    			active: 'active item',
+        },
+        templates: {
+          item: '<a class="item">[{{value}} {{count}}]</a>',
+        }
+      })
+    );
+
+    search.addWidget(
+        instantsearch.widgets.refinementList({
+          container: '#tags',
+          attributeName: 'tags',
+          operator: 'or',
+          limit: 10,
+          showMore: true,
+          cssClasses: {
+            list: 'ui small horizontal link list',
+            item: 'item',
+            active: 'active item',
+          },
+          templates: {
+            item: '<a class="item">[{{value}} {{count}}]</a>',
+          }
+        })
+      );
 
 
-const pagesNav = instantsearch.widgets.pagination({
+search.addWidget(
+  instantsearch.widgets.hitsPerPageSelector({
+      container: '#hits-per-page-selector',
+      autoHideContainer: true,
+      cssClasses: {
+        root: 'select',
+      },
+      items: [
+        {value: 10, label: '10 per page', default: true},
+        {value: 100, label: '100 per page'},
+        {value: 1000, label: '1000 per page'},
+      ],
+    })
+  );
+
+search.addWidget(
+  instantsearch.widgets.pagination({
     container: '#pagination-container',
-    maxPages: 20,
+    maxPages: 100,
+    padding: 1,
+    scrollTo: false,
+    showFirstLast: true,
 		autoHideContainer: true,
-		showFirstLast: true,
-    padding: 1, //number of pages on each side
-		cssClasses: {
-			root: 'ui secondary small compact menu',
-			item: 'item',
-      link: 'noul',
-			active: 'active item'
+    cssClasses: {
+			root: 'ui small compact menu',
+      item: 'item',
+      disabled: 'disabled item',
+      active: 'active item',
 		}
-  });
+  })
+);
+
+search.addWidget(
+  instantsearch.widgets.pagination({
+    container: '#bottom-pagination-container',
+    maxPages: 100,
+    padding: 1,
+    scrollTo: false,
+    showFirstLast: true,
+		autoHideContainer: true,
+    cssClasses: {
+			root: 'ui small compact menu',
+      item: 'item',
+      disabled: 'disabled item',
+      active: 'active item',
+		}
+  })
+);
 
 
-search.addWidget(searchAnything);
-search.addWidget(searchResults);
-search.addWidget(clearFilters);
-search.addWidget(resultsMatching);
+
+
+
+
 search.addWidget(gridHits);
 search.addWidget(tableHits);
-search.addWidget(collectionFilter);
-search.addWidget(typeFilter);
-search.addWidget(tagsFilter);
-search.addWidget(pagesNav);
 search.start();

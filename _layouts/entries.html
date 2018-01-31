@@ -3,73 +3,103 @@ layout: default
 ---
 
 <div class="ui grid container xo padding top twofold">
-  <!-- FILTERS -->
-  <div class="four wide column">
-    <div class="ui segments">
-      <div class="ui secondary segment">
-        <h3>FILTERS</h3>
-      </div>
 
-      <div class="ui segment">
-        <div class="ui fluid text vertical menu">
-           <div class="item">
-             <div class="menu">
-               <div id="collection"></div>
-             </div>
-           </div>
-         </div>
-      </div>
-      <div class="ui segment">
-        <div class="ui fluid text vertical menu">
-          <div class="item">
-            <div class="menu">
-              <div id="type-org"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="ui segment">
-        <div class="ui fluid text vertical menu">
-          <div class="item">
-            <div class="menu">
-              <div id="tags"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> <!-- close left column -->
+  <!-- BROWSING INFORMATION -->
+  <div class="sixteen wide column xo top padding">
+    <!-- Browsing results and settings -->
+    <div id="stats-container"></div>
+    <div id="current-refined-values"></div>
+    <div id="clear-all"></div>
+  </div>
 
-  <!-- SEARCH RESULTS -->
-  <div class="twelve wide column">
-    <!-- SEARCH INFO -->
-    <div class="ui segments">
-      <div class="ui secondary segment">
-        <h3>SEARCH RESULTS</h3>
+  <!-- BROWSING MENU SETTINGS-->
+  <div class="sixteen wide column xo top padding">
+    <div class="ui accordion browse">
+      <!-- Search bar. Searches all the text in the entries-->
+      <div class="title">
+        <h3 class="ui grey header">
+          <span class="xo padding twofold right"><i class="fal fa-angle-right fa-lg rotating icon"></i></span><i class="far fa-search fa-sm"></i> Search Entries
+        </h3>
       </div>
-      <div class="ui segment">
+      <div class="content">
+        <!-- Search box. Edit `search-box` widget in `browse_instantsearch.es6`-->
         <div id="search-box"></div>
-        <div class="xo padding top" id="stats-container"></div>
-        <div id="current-refined-values"></div>
-        <div id="clear-all"></div>
-        <div class="xo padding top">
-          <div id="viewAs" class="ui secondary compact viewAs small menu">
-            <h3 class="ui sub header item">VIEW AS:</h3>
-            <a class="item active" data-tab="viewList"><i class="far fa-list icon"></i></a>
-            <a class="item" data-tab="viewTable"><i class="far fa-table icon"></i></a>
-          </div>
-          <div class="ui horizontal link list">
-            <div id="pagination-container"></div>
+      </div>
+      <div class="title">
+        <h3 class="ui grey header">
+            <span class="xo padding twofold right"><i class="fal fa-angle-right fa-lg rotating icon"></i></span><i class="far fa-filter fa-sm"></i> Filter Results
+        </h3>
+      </div>
+      <div class="content">
+        <table class="ui very basic table">
+          <tbody>
+            <tr>
+              <td><h4 class="ui header">Collections:</h4></td>
+              <td><div id="collection"></div></td>
+            </tr>
+            <tr>
+              <td><h4 class="ui header">Type:</h4></td>
+              <td><div id="type-org"></div></td>
+            </tr>
+            <tr>
+              <td><h4 class="ui header">Country:</h4></td>
+              <td><div id="country"></div></td>
+            </tr>
+            <tr>
+              <td><h4 class="ui header">Tags:</h4></td>
+              <td><div id="tags"></div></td>
+            </tr>
+          </tbody>
+        </table>
+      </div> <!-- close content -->
+      <div class="title active">
+        <h3 class="ui grey header">
+            <span class="xo padding twofold right"><i class="fal fa-angle-right fa-lg rotating icon"></i></span><i class="far fa-sliders-v-square fa-sm"></i> View Settings
+        </h3>
+      </div>
+      <div class="content active">
+        <div class="ui stackable three column center aligned grid">
+          <div class="row">
+            <div class="left aligned column">
+              <div id="pagination-container"></div>
+            </div>
+            <div class="center aligned column">
+              <div id="hits-per-page-selector"></div>
+            </div>
+            <div class="right aligned column">
+              <!-- Pagination Menu. Edit `pagination` widget in `browse_instantsearch.es6`-->
+
+              <div id="viewAs" class="ui viewAs compact small menu">
+                <a class="item active" data-tab="viewList">
+                  <span data-tooltip="View as List" data-variation="mini" data-inverted="">
+                    <i class="far fa-list icon"></i>
+                  </span>
+                </a>
+                <a class="item" data-tab="viewTable">
+                  <span data-tooltip="View as Table" data-variation="mini" data-inverted="">
+                    <i class="far fa-table icon"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
-      </div>
-    </div>
-      <!-- HITS -->
-    <div class="ui active tab" data-tab="viewList">
+      </div> <!-- close content -->
+    </div> <!-- close accordion -->
+  </div>
+    <!-- SEARCH RESULTS -->
+  <div class="sixteen wide column xo padding twofold">
+    <!-- Search results displayed in a list. Edit `HIT_TEMPLATE` in `browse_instantsearch.es6`-->
+    <div class="ui active tab " data-tab="viewList">
       <div id="hits-container"></div>
     </div>
+    <!-- Search results displayed in table. Edit `TABLE_TEMPLATE` in `browse_instantsearch.es6`-->
     <div class="ui tab" data-tab="viewTable">
       <div id="table-container"></div>
     </div>
-  </div>  <!-- 12 column -->
+  </div>  <!-- close results column -->
+<div class="sixteen wide column">
+  <div id="bottom-pagination-container"></div>
+</div>
 </div> <!--  grid container -->

@@ -14,8 +14,6 @@ twitter:
 # Excluded files and dirs
 exclude: ['vendor', 'script', 'Gemfile', 'Gemfile.lock', 'README.md', 'DataReusePlan.txt', '.assets-cache', '.sass-cache', 'node_modules']
 
-github_comments_repository:  diybiosphere/talk
-
 # Build settings
 markdown: kramdown
 kramdown:
@@ -46,7 +44,6 @@ plugins:
   - jekyll-mentions
   - jekyll-github-metadata
   - jekyll-git_metadata
-  - algoliasearch-jekyll
   - jekyll-last-modified-at
   - jekyll-feed
   - jekyll-avatar
@@ -179,29 +176,38 @@ assets:
 tag_page_layout: tag_page
 tag_page_dir: tag
 
+
 # AlgoliaSearch-Jekyll: https://github.com/algolia/algoliasearch-jekyll/
 algolia:
   application_id: 'ITI5JHZJM9'
   index_name: 'diybiosphere'
-  lazy_update: true
+  search_only_api_key: 'b427318cf6d881e5d3ffd84adf39219e'
+  indexing_batch_size: 100
+  nodes_to_index: 'p,blockquote,li'
+  files_to_exclude:
+    - index.html
+    - 404.html
+    - entries.html
+    - about/*.md
+    - about/*/*.md
+    - docs/*.md
+    - docs/*/*.md
+    - docs/*/*/*.md
+    - docs/*/*/*.md
   settings:
-    advancedSyntax: true
-    distinct: true
-    attributeForDistinct: 'url'
-    ignorePlurals: true
-    attributesToIndex:
+    searchableAttributes:
       - title
+      - subtitle
+      - host-org
+      - hostsSimple
+      - affiliates
+      - affiliatesSimple
       - city
       - state
       - country
-      - unordered(text)
-      - unordered(tags)
-    ranking:
-      - typo
-      - geo
-      - proximity
-      - attribute
-      - custom
+      - content
+      - tags
+      - collection
     attributesForFaceting:
       - collection
       - type-org
@@ -210,34 +216,19 @@ algolia:
       - country
       - tags
       - status
-    attributesToRetrieve:
+    attributesToHighlight:
       - title
-      - uberimage
-      - logo
-      - header
-      - thumbnail
-      - collection
-      - type-org
+      - subtitle
+      - host-org
+      - hostsSimple
+      - affiliates
+      - affiliatesSimple
       - city
       - state
       - country
+      - content
       - tags
-      - status
-      - text
-      - subtitle
-      - url
-      - start-date
-      - end-date
-      - host-org
-      - last_modified_at
-      - timestamp
-      - _geoloc
-        - lat
-        - lng
-    attributesToSnippet: ['text:20']
-    snippetEllipsisText: '[&hellip;]'
-    attributesToHighlight: ['*']
-    highlightPostTag: </span>
+      - collection
+    attributesToSnippet: ['content:10']
     highlightPreTag: <span class="search-highlight">
-    minWordSizefor1Typo: 3
-    minWordSizefor2Typos: 7
+    highlightPostTag: </span>

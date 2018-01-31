@@ -1,0 +1,80 @@
+<div class="tablet computer only row">
+  <div class="ui fluid text blue menu">
+    <a class="item {% if page.url contains 'welcome' %}active-menu{% endif %}" href="/docs/welcome">
+      <i class="far fa-book icon"></i>&nbsp;<b>DOCUMENTATION</b>
+    </a>
+    <div class="item">
+      <div class="ui transparent input" role="search">
+        <input id="docsearch" type="search" placeholder="Search docs">
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="ui dropdown item {% if page.url contains 'introduction' %}active-menu{% endif %}">
+        Introduction
+        <i class="angle down icon"></i>
+        {% include docs-menu/introduction.html %}
+      </div>
+    </div>
+    <div class="item">
+      <div class="ui dropdown item {% if page.url contains 'basics' %}active-menu{% endif %}">
+        Basics
+        <i class="angle down icon"></i>
+        {% include docs-menu/basics.html %}
+      </div>
+    </div>
+    <div class="item">
+      <div class="ui dropdown item {% if page.url contains 'guides' %}active-menu{% endif %}">
+        Guides
+        <i class="angle down icon"></i>
+        {% include docs-menu/guides.html %}
+      </div>
+    </div>
+    <div class="item">
+      <div class="ui dropdown item {% if page.url contains 'tutorials' %}active-menu{% endif %}">
+        Tutorials
+        <i class="angle down icon"></i>
+        {% include docs-menu/tutorials.html %}
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="mobile only row">
+  <div class="ui fluid text blue menu">
+    <a class="item {% if page.url contains 'welcome' %}active-menu{% endif %}" href="/docs/welcome">
+      <i class="far fa-book icon"></i>&nbsp;
+    </a>
+    <div class="item">
+      <div class="ui transparent input" role="search">
+        <input id="docsearch-mobile" type="search" placeholder="Search docs">
+      </div>
+    </div>
+      <div class="ui icon right dropdown item">
+        <span><i class="far fa-ellipsis-h fa-lg"></i></span>
+        <div class="menu">
+          <div class="item">
+            <i class="dropdown icon"></i>
+            <span class="text">Introduction</span>
+            {% include docs-menu/introduction.html %}
+          </div>
+          <div class="item">
+            <i class="dropdown icon"></i>
+            <span class="text">Basics</span>
+            {% include docs-menu/basics.html %}
+          </div>
+          <div class="item">
+            <i class="dropdown icon"></i>
+            <span class="text">Guides</span>
+            {% include docs-menu/guides.html %}
+          </div>
+          <div class="item">
+            <i class="dropdown icon"></i>
+            <span class="text">Tutorials</span>
+            {% include docs-menu/tutorials.html %}
+          </div>
+        </div>
+      </div>
+  </div>
+</div>

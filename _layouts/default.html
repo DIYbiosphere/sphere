@@ -1,18 +1,12 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
   <body>
-
     {% include header.html %}
       <main>
-
-          {{content}}
-
+        {{content}}
       </main>
-
-  {% include footer.html %}
+    {% include footer.html %}
 
 
     <!-- Google Analytics -->
@@ -24,8 +18,6 @@
     <script src="{{ "/assets/semantic/dist/semantic.min.js" | prepend: site.baseUrl }}"></script>
     <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
     <script type="text/javascript">$('.tabular.menu .item').tab();</script>
-
-    <link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags16.css" />
 
     <!-- Clipboard.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
@@ -40,30 +32,32 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     {% javascript carousel %}
     <script type="text/javascript">$('.message .close').on('click', function() {$(this).closest('.message').transition('fade');});</script>
+    {% javascript nav-question %}
 
 
     {% if page.layout == 'landing' %}
     {% javascript googleMap %}
-    {% javascript lastEdited_instantsearch %}
     {% endif %}
 
     {% if page.layout == 'entries' %}
       <script type="text/javascript">$('.viewAs.menu .item').tab();</script>
+      <script type="text/javascript">$('.ui.accordion.browse').accordion();</script>
+
       <!-- Algolia search & components -->
       {% javascript browse_instantsearch %}
+    {% endif %}
+
+    {% if page.layout == 'entry' %}
+    <script type="text/javascript">$('.tooltip.icon').popup();</script>
     {% endif %}
 
 
     {% if page.layout == 'docs' %}
       <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
       <script type="text/javascript">$('.menu .item').tab();</script>
-      <script type="text/javascript">$('.ui.accordion').accordion({onOpen: function (item) {setCookie('acordionIndex',this.index);}}).accordion('open', getCookie('acordionIndex'));</script>
-      <script type="text/javascript">$('.ui.sticky').sticky({context: '#context'});</script>
-      {% javascript vendor/scrollNav %}
       {% javascript docs %}
     {% endif %}
 
 
   </body>
-
 </html>

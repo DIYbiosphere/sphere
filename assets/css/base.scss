@@ -44,8 +44,13 @@
 }
 
 .noul {
-  text-decoration: none !important;
+  a {
+    color: inherit !important;
+    text-decoration: underline !important;
+  }
 }
+
+
 
 
 article {
@@ -100,10 +105,11 @@ article {
 }
 
 
-
-
-
 strong {
+  font-weight: 600 !important;
+}
+
+b {
   font-weight: 600 !important;
 }
 
@@ -137,10 +143,11 @@ video {
   height: auto   !important;
 }
 
-footer {
 
-  .border-footer {
-    border-top: 3px solid #767676;
+
+.logo {
+  path {
+  fill: currentColor !important;
   }
 }
 
@@ -157,4 +164,40 @@ footer {
     color: inherit !important;
     text-decoration: underline !important;
   }
+}
+
+.ui.menu .item:before {
+    width: 0px !important;
+}
+
+.ui.accordion .active.title .rotating.icon,
+.ui.accordion .accordion .active.title .rotating.icon {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.ui.accordion.menu .item .active.title > .rotating.icon {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.ui.accordion .active.title .rotating.icon,
+.ui.accordion .accordion .active.title .rotating.icon {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.ui.menu .item .active.item > .rotating.icon {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.active-menu {
+  color: #0078FE !important;
+}
+
+em.hosts::before(:first-child) {
+  content: "this is ";
 }

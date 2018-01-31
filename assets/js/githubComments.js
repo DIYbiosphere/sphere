@@ -1,4 +1,4 @@
-// Based on https://dc25.github.io/myBlog/2017/06/24/using-github-comments-in-a-jekyll-blog.html
+// Original code taken with permission from : https://github.com/dwilliamson/donw.io/blob/master/public/js/github-comments.js
 
 // use of ajax vs getJSON for headers use to get markdown (body vs body_html)
 
@@ -27,18 +27,19 @@ function ShowComments(repo_name, comment_id, page_id)
         dataType: "json",
         success: function(comments, textStatus, jqXHR) {
 
-          if (page_id == 1)
-          {
-              var url = "https://github.com/" + repo_name + "/issues/" + comment_id + "#new_comment_field";
-              $("#gh-comments-list").append("<div class='ui basic center aligned segment'><a class='noelink' href='" + url + "' target='_blank'> <div class='ui animated mini basic primary button' tabindex='0'><div class='visible content'><i class='far fa-comment'></i>&nbsp; Post a Comment</div><div class='hidden content'>on GitHub</div></div></a></div>");
-          }
+            // Add post button to first page
+            if (page_id == 1)
+            {
+                var url = "https://github.com/" + repo_name + "/issues/" + comment_id + "#new_comment_field";
+                $("#gh-comments-list").append("<a class='noelink' href='" + url + "' target='_blank'><h3 class='ui grey header'>Comments from GitHub<div class='ui divider xo marginless'></div><div class='sub header'><i class='far fa-comment'></i>&nbsp;Add a Comment to GitHub Issue</div></h3></a> ");
+            }
 
             // Individual comments
             $.each(comments, function(i, comment) {
 
                 var date = new Date(comment.created_at);
 
-                var t = "<div class='ui comments'>";
+                var t = "<div class='ui small comments'>";
                 t += "<div class='comment'>";
                 t += "<a class='avatar'>";
                 t += "<img src='" + comment.user.avatar_url + "'>";

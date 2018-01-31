@@ -1,0 +1,296 @@
+<!-- If header image in file (.png or .jpg), then display -->
+{% if page.header %}
+<div class="ui attached segment" style="margin-top: -100px;">
+{% else %}
+<div class="ui attached segment">
+{% endif %}
+
+
+<a class="noelink" href="{{ page.website }}" target="_blank">
+  <!-- Display logo -->
+
+  <!-- In case it is png -->
+    {% if page.logo %}
+        <img class="ui small centered image" src="{{ page.logo }}"/>
+    {% endif %}
+</a>
+
+  {% if page.website %}
+<table class="ui very basic small compact table" style="table-layout:fixed">
+
+  <thead>
+    <tr>
+      <th style="word-wrap: break-word;">
+        <a class="noelink" href="{{ page.website }}" target="_blank">
+          {{ page.website }}
+        </a>
+      </th>
+    </tr>
+  </thead>
+  {% endif %}
+</table>
+
+      <table class="ui very basic small compact table" style="table-layout:fixed">
+        <tbody>
+          <tr>
+            <td>
+              <b>Collection:</b>
+            </td>
+            <td>
+              <a class="noelink" href="/entries/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D={{ page.collection }}" target="_blank">
+                {% if page.project %}<i class="far fa-briefcase icon"></i>&nbsp;<b>project</b>{% endif %}
+                {% if page.startups %}<i class="far fa-rocket icon"></i>&nbsp;<b>startup</b>{% endif %}
+                {% if page.lab %}<i class="far fa-flask icon"></i>&nbsp;<b>lab</b>{% endif %}
+                {% if page.incubator %}<i class="far fa-leaf icon"></i>&nbsp;<b>incubator</b>{% endif %}
+                {% if page.group %}<i class="far fa-users icon"></i>&nbsp;<b>group</b>{% endif %}
+                {% if page.network %}<i class="far fa-share-alt icon"></i>&nbsp;<b>network</b>{% endif %}
+                {% if page.event %}<i class="far fa-calendar-alt icon"></i>&nbsp;<b>event</b>{% endif %}
+                {% if page.other %}<i class="far fa-umbrella icon"></i>&nbsp;<b>other</b>{% endif %}
+
+              </a>
+            </td>
+            </tr>
+          </tr>
+
+          <!-- Predecessor -->
+          {% if page.predecessor %}
+          <tr>
+            <td>
+              <b>Predecessor:</b>
+            </td>
+            <td>
+              {{ page.predecessor | markdownify }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Successor -->
+          {% if page.successor %}
+          <tr>
+            <td>
+              <b>Successor:</b>
+            </td>
+            <td>
+              {{ page.successor | markdownify }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- start-date -->
+          {% if page.start-date %}
+          <tr>
+            <td>
+              <b>Start Date:</b>
+            </td>
+            <td>
+              {{ page.start-date }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- End-Date -->
+          {% if page.end-date %}
+          <tr>
+            <td>
+              <b>End Date:</b>
+            </td>
+            <td>
+              {{ page.end-date }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Type -->
+          {% if page.type-org %}
+          <tr>
+            <td>
+              <span data-tooltip="Organization behind initiative" data-variation="mini" data-inverted="">
+                <b>Type:</b>
+              </span>
+            </td>
+            <td>
+              {{ page.type-org }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Status -->
+          {% if page.status %}
+          <tr>
+            <td>
+              <span data-tooltip="Home website" data-variation="mini" data-inverted="">
+                <b>Status:</b>
+              </span>
+            </td>
+            <td>
+              {{ page.status }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Membership -->
+          {% if page.membership %}
+          <tr>
+            <td>
+              Membership:
+            </td>
+            <td>
+              {{ page.membership }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Founders -->
+          {% if page.founders %}
+          <tr>
+            <td>
+              Founders:
+            </td>
+            <td>
+              {{ page.founders }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Authors -->
+          {% if page.authors %}
+          <tr>
+            <td>
+              Authors:
+            </td>
+            <td>
+              {{ page.authors | markdownify }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+
+          <!-- Parent organization -->
+          {% if page.host-org %}
+          <tr>
+            <td>
+              <span data-tooltip="Host or Parent Organization" data-variation="mini" data-inverted="">
+                <b>Host:</b>
+              </span>
+            </td>
+            <td>
+              {% if page.host-org contains 'http' %}
+                {{ page.host-org | markdownify }}
+                {% else %}
+                {% for lab in site.labs %}
+                  {% if lab.title==page.host-org %}
+                  <a class="noelink" href="{{ lab.url | prepend: site.baseurl }}">
+                    {{ lab.title }}
+                  </a>
+                  {% else %}
+                  {{ page.host-org }}
+                  {% break %}
+                  {% endif %}
+                {% endfor %}
+
+
+              {% endif %}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Affilliations -->
+          {% if page.affilliations %}
+          <tr>
+            <td>
+              Affiliations:
+            </td>
+            <td>
+              {{ page.afilliations | markdownify }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Number of members -->
+          {% if page.size-members %}
+          <tr>
+            <td>
+              Size:
+            </td>
+            <td>
+              {{ page.size-members | markdownify }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+          <!-- Area -->
+          {% if page.area %}
+          <tr>
+            <td>
+              Area:
+            </td>
+            <td>
+              {{ page.area }}
+            </td>
+            </tr>
+          </tr>
+          {% endif %}
+
+
+          <!-- Location -->
+          <tr class="top aligned">
+            <td>
+              <span data-tooltip="Location" data-variation="mini" data-inverted="">
+                <b>Location:</b>
+              </span>
+            </td>
+            <td>
+              <!-- Address -->
+              {% if page.address %}
+              {{ page.address }}{% if page.directions %}, {{ page.directions }}{% endif %} <br>
+              {% endif %}
+              <!-- City and country -->
+              {% if page.city or page.state or page.country %}
+                {% if page.city and page.state %}{{ page.city }}, {{ page.state }}<br> {% endif %}
+                {% if page.city and page.state == blank %}{{ page.city }}<br>{% endif %}
+                {% if page.city == blank and page.state %}{{ page.state }}<br>{% endif %}
+                {% if page.country %}
+                {{ page.country }}
+                {% endif %}
+              {% endif %}
+            </td>
+          </tr>
+        </tbody>
+        {% if page.tags != blank %}
+        <tfoot>
+          <tr>
+            <th colspan="2">
+
+                  <b>Tags:</b>
+                  {% for tag in page.tags %}
+                  <span class="xo right padding">
+                  <a  href="/entries/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ tag }}">
+                    {{ tag }}&nbsp;
+                  </a>
+                </span>
+                  {% endfor %}
+
+            </th>
+          </tr>
+        </tfoot>
+        {% endif %}
+
+
+      </table>
+</div>
+
+<div class="ui bottom attached segment">
+  {% include entry/links-icons.html %}
+</div>

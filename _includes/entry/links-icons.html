@@ -1,0 +1,212 @@
+<!--
+ADDING A NEW ICON
+{% if page._______ %}
+  <a class="noelink noul" href="{{ page._______ }}" target="_blank">
+    <span data-tooltip="________" >
+      <i class="link large grey icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16">
+        <path id="_______" fill="#767676" fill-rule="evenodd" d="______"/>
+      </svg>
+      </i>
+    </span>
+  </a>
+{% endif %}
+-->
+<div class="ui horizontal huge link list">
+<div class="item">
+{% if page.rss or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.rss }}" target="_blank">
+    <span data-tooltip="RSS feed" data-variation="mini" data-inverted="">
+      <i class="fas fa-rss-square"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.email or page.title=="Writing Entries" %}
+  <a class="noelink" href="mailto:{{ page.email }}" target="_blank">
+    <span data-tooltip="Send email" data-variation="mini" data-inverted="">
+      <i class="fas fa-envelope"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.forum or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.forum }}" target="_blank">
+    <span data-tooltip="Join forum" data-variation="mini" data-inverted="">
+      <i class="fas fa-comments"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.blog or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.blog }}" target="_blank">
+    <span data-tooltip="Go to blog" data-variation="mini" data-inverted="">
+      <span class="fa-layers fa-fw">
+        <i class="fas fa-comment"></i>
+        <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-10 up-1" style="font-weight:900">blog</span>
+      </span>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.tumblr or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.tumblr }}" target="_blank">
+    <span data-tooltip="Go to Tumblr" data-variation="mini" data-inverted="">
+      <i class="fab fa-tumblr icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.newsletter or page.title=="Writing Entries" %}
+  <a class="noelink" href="mailto:{{ page.newsletter }}" target="_blank">
+    <span data-tooltip="Newsletter" data-variation="mini" data-inverted="">
+      <i class="fab fa-envelope-open icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.facebook-group or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.facebook-group }}" target="_blank">
+    <span data-tooltip="Facebook group" data-variation="mini" data-inverted="">
+      <i class="fab fa-facebook-f icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.github or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.github }}" target="_blank">
+    <span data-tooltip="Github" data-variation="mini" data-inverted="">
+      <i class="fab fa-github icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.twitter or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.twitter }}" target="_blank">
+    <span data-tooltip="Twitter" data-variation="mini" data-inverted="">
+      <i class="fab fa-twitter icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.facebook or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.facebook }}" target="_blank">
+    <span data-tooltip="Facebook" data-variation="mini" data-inverted="">
+      <i class="fab fa-facebook icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.google+ or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.google+ }}" target="_blank">
+    <span data-tooltip="Google+" data-variation="mini" data-inverted="">
+      <i class="fab fa-google-plus icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.google-group or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.google-group }}" target="_blank">
+    <span data-tooltip="Google Group" data-variation="mini" data-inverted="">
+      <i class="fab fa-comments icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.basecamp or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.basecamp }}" target="_blank">
+    <span data-tooltip="Basecamp" data-variation="mini" data-inverted="">
+      <i class="fab fa-twitter icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.slack or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.slack }}" target="_blank">
+    <span data-tooltip="Slack" data-variation="mini" data-inverted="">
+      <i class="fab fa-slack icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.irc or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.irc }}" target="_blank">
+    <span data-tooltip="IRC" data-variation="mini" data-inverted="">
+      <i class="fas fa-hashtag icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.instagram or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.instagram }}" target="_blank">
+    <span data-tooltip="Instagram" data-variation="mini" data-inverted="">
+      <i class="fab fa-instagram icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.flickr or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.flickr }}" target="_blank">
+    <span data-tooltip="Flickr" data-variation="mini" data-inverted="">
+      <i class="fab fa-flickr icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.vimeo or page.title=="Writing Entries" %}
+  <a class="noelink noelink noul" href="{{ page.vimeo }}" target="_blank">
+    <span data-tooltip="Vimeo" data-variation="mini" data-inverted="">
+      <i class="fab fa-vimeo icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.youtube or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.youtube }}" target="_blank">
+    <span data-tooltip="YouTube" data-variation="mini" data-inverted="">
+      <i class="fab fa-youtube icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.gitter or page.title=="Writing Entries" %}
+  <a class="noelink noelink noul" href="{{ page.gitter }}" target="_blank">
+    <span data-tooltip="Gitter" data-variation="mini" data-inverted="">
+      <i class="fab fa-gitter icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.trello or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.trello }}" target="_blank">
+    <span data-tooltip="Trello" data-variation="mini" data-inverted="">
+      <i class="fab fa-trello icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.linkedin or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.linkedin }}" target="_blank">
+    <span data-tooltip="Linkedin" data-variation="mini" data-inverted="">
+      <i class="fab fa-linkedin icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.meetup or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.meetup }}" target="_blank">
+    <span data-tooltip="Meetup" data-variation="mini" data-inverted="">
+      <i class="fab fa-meetup icon"></i>
+    </span>
+  </a>
+{% endif %}
+
+{% if page.pinterest or page.title=="Writing Entries" %}
+  <a class="noelink" href="{{ page.pinterest }}" target="_blank">
+    <span data-tooltip="Pinterest" data-variation="mini" data-inverted="">
+      <i class="fab fa-pinterest icon"></i>
+    </span>
+  </a>
+{% endif %}
+</div>
+</div>

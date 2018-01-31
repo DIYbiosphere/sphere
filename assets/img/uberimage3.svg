@@ -1,0 +1,734 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <polygon id="a" points="16 .347 16 2.466 .659 2.466 .659 .347 16 .347"/>
+    <polygon id="c" points="0 15.43 0 .37 294.025 .37 294.025 15.43 0 15.43"/>
+    <polygon id="e" points="16 .347 16 2.466 .659 2.466 .659 .347 16 .347"/>
+    <polygon id="g" points="0 15.43 0 .37 294.025 .37 294.025 15.43 0 15.43"/>
+    <polygon id="i" points="16 .347 16 2.466 .659 2.466 .659 .347 16 .347"/>
+    <polygon id="k" points="0 15.43 0 .37 294.025 .37 294.025 15.43 0 15.43"/>
+    <polygon id="m" points="16 .347 16 2.466 .659 2.466 .659 .347 16 .347"/>
+    <polygon id="o" points="0 15.43 0 .37 294.025 .37 294.025 15.43"/>
+    <polygon id="q" points="16 .347 16 2.466 .659 2.466 .659 .347 16 .347"/>
+    <polygon id="s" points="0 15.43 0 .37 294.025 .37 294.025 15.43"/>
+    <polygon id="u" points="16 .347 16 2.466 .659 2.466 .659 .347 16 .347"/>
+    <polygon id="w" points="0 15.43 0 .37 294.025 .37 294.025 15.43 0 15.43"/>
+    <polygon id="y" points="16 .347 16 2.466 .659 2.466 .659 .347 16 .347"/>
+    <polygon id="A" points="0 15.43 0 .37 294.025 .37 294.025 15.43"/>
+    <polygon id="C" points="16 .347 16 2.466 .659 2.466 .659 .347 16 .347"/>
+    <polygon id="E" points="0 15.43 0 .37 294.025 .37 294.025 15.43 0 15.43"/>
+    <polygon id="G" points="16 .347 16 2.466 .659 2.466 .659 .347 16 .347"/>
+    <polygon id="I" points="0 15.43 0 .37 294.025 .37 294.025 15.43 0 15.43"/>
+    <polygon id="K" points="16 .347 16 2.466 .659 2.466 .659 .347 16 .347"/>
+    <polygon id="M" points="0 15.43 0 .37 294.025 .37 294.025 15.43 0 15.43"/>
+    <polygon id="O" points="16 .347 16 2.466 .659 2.466 .659 .347 16 .347"/>
+    <polygon id="Q" points="0 15.43 0 .37 294.025 .37 294.025 15.43 0 15.43"/>
+    <polygon id="S" points="16 .347 16 2.466 .659 2.466 .659 .347 16 .347"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-3 9)">
+    <polyline fill="#1A1919" points=".519 2.902 1.794 .703 3.068 2.902 .519 2.902"/>
+    <polyline fill="#1A1919" points="13 3 14.501 1 16 3 13 3"/>
+    <polyline fill="#1A1919" points="26 3 27.501 1 29 3 26 3"/>
+    <polyline fill="#1A1919" points="38 3 39.501 1 41 3 38 3"/>
+    <polyline fill="#1A1919" points="51 3 52.501 1 54 3 51 3"/>
+    <polyline fill="#1A1919" points="63 3 64.501 1 66 3 63 3"/>
+    <polyline fill="#1A1919" points="76 3 77.501 1 79 3 76 3"/>
+    <polyline fill="#1A1919" points="88 3 89.501 1 91 3 88 3"/>
+    <polyline fill="#1A1919" points="101 3 102.501 1 104 3 101 3"/>
+    <polyline fill="#1A1919" points="113 3 114.501 1 116 3 113 3"/>
+    <polyline fill="#1A1919" points="125 3 126.5 1 128 3 125 3"/>
+    <polyline fill="#1A1919" points="138 3 139.5 1 141 3 138 3"/>
+    <polyline fill="#1A1919" points="150 3 151.5 1 153 3 150 3"/>
+    <polyline fill="#1A1919" points="163 3 164.5 1 166 3 163 3"/>
+    <polyline fill="#1A1919" points="175 3 176.5 1 178 3 175 3"/>
+    <polyline fill="#1A1919" points="188 3 189.501 1 191 3 188 3"/>
+    <polyline fill="#1A1919" points="201 3 202.501 1 204 3 201 3"/>
+    <polyline fill="#1A1919" points="213 3 214.501 1 216 3 213 3"/>
+    <polyline fill="#1A1919" points="226 3 227.501 1 229 3 226 3"/>
+    <polyline fill="#1A1919" points="238 3 239.501 1 241 3 238 3"/>
+    <polyline fill="#1A1919" points="251 3 252.501 1 254 3 251 3"/>
+    <polyline fill="#1A1919" points="263 3 264.501 1 266 3 263 3"/>
+    <polyline fill="#1A1919" points="276 3 277.501 1 279 3 276 3"/>
+    <g transform="translate(287)">
+      <mask id="b" fill="white">
+        <use xlink:href="#a"/>
+      </mask>
+      <polyline fill="#1A1919" points=".659 2.466 1.965 .347 3.269 2.466 .659 2.466" mask="url(#b)"/>
+      <polyline fill="#1A1919" points="13.459 2.466 14.765 .347 16.069 2.466 13.459 2.466" mask="url(#b)"/>
+    </g>
+    <polyline fill="#1A1919" points="7 15 8.501 13 10 15 7 15"/>
+    <polyline fill="#1A1919" points="19 15 20.501 13 22 15 19 15"/>
+    <polyline fill="#1A1919" points="32 15 33.501 13 35 15 32 15"/>
+    <polyline fill="#1A1919" points="44 15 45.501 13 47 15 44 15"/>
+    <polyline fill="#1A1919" points="57 15 58.501 13 60 15 57 15"/>
+    <polyline fill="#1A1919" points="69 15 70.501 13 72 15 69 15"/>
+    <polyline fill="#1A1919" points="82 15 83.501 13 85 15 82 15"/>
+    <polyline fill="#1A1919" points="94 15 95.501 13 97 15 94 15"/>
+    <polyline fill="#1A1919" points="107 16 108.5 13 110 16 107 16"/>
+    <polyline fill="#1A1919" points="119 16 120.5 13 122 16 119 16"/>
+    <polyline fill="#1A1919" points="131 16 132.5 13 134 16 131 16"/>
+    <polyline fill="#1A1919" points="144 16 146.001 13 148 16 144 16"/>
+    <polyline fill="#1A1919" points="156 16 158 13 160 16 156 16"/>
+    <polyline fill="#1A1919" points="169 16 171.001 13 173 16 169 16"/>
+    <polyline fill="#1A1919" points="181 16 182.5 13 184 16 181 16"/>
+    <polyline fill="#1A1919" points="194 16 195.5 13 197 16 194 16"/>
+    <polyline fill="#1A1919" points="207 16 208.501 13 210 16 207 16"/>
+    <polyline fill="#1A1919" points="219 15 220.5 13 222 15 219 15"/>
+    <polyline fill="#1A1919" points="232 15 233.501 13 235 15 232 15"/>
+    <polyline fill="#1A1919" points="244 15 245.501 13 247 15 244 15"/>
+    <polyline fill="#1A1919" points="257 15 258.501 13 260 15 257 15"/>
+    <polyline fill="#1A1919" points="269 15 270.501 13 272 15 269 15"/>
+    <polyline fill="#1A1919" points="282 15 283.501 13 285 15 282 15"/>
+    <g transform="translate(3 13)">
+      <mask id="d" fill="white">
+        <use xlink:href="#c"/>
+      </mask>
+      <polyline fill="#1A1919" points="291.475 2.63 292.75 .37 294.025 2.63 291.475 2.63" mask="url(#d)"/>
+      <polyline fill="#1A1919" points="-2.483 15.43 -1.207 13.17 .068 15.43 -2.483 15.43" mask="url(#d)"/>
+    </g>
+    <polyline fill="#1A1919" points="13 28 14.501 26 16 28 13 28"/>
+    <polyline fill="#1A1919" points="26 28 27.501 26 29 28 26 28"/>
+    <polyline fill="#1A1919" points="38 28 39.501 26 41 28 38 28"/>
+    <polyline fill="#1A1919" points="51 28 52.501 26 54 28 51 28"/>
+    <polyline fill="#1A1919" points="63 28 64.501 26 66 28 63 28"/>
+    <polyline fill="#1A1919" points="75 27 76.501 25 78 27 75 27"/>
+    <polyline fill="#1A1919" points="88 28 89.5 25 91 28 88 28"/>
+    <polyline fill="#1A1919" points="100 28 102 25 104 28 100 28"/>
+    <polyline fill="#1A1919" points="112 28 114.001 25 116 28 112 28"/>
+    <polyline fill="#1A1919" points="125 29 127 25 129 29 125 29"/>
+    <polyline fill="#1A1919" points="137 29 139 25 141 29 137 29"/>
+    <polyline fill="#1A1919" points="150 29 152 25 154 29 150 29"/>
+    <polyline fill="#1A1919" points="162 29 164 25 166 29 162 29"/>
+    <polyline fill="#1A1919" points="175 29 177 25 179 29 175 29"/>
+    <polyline fill="#1A1919" points="187 28 189.001 25 191 28 187 28"/>
+    <polyline fill="#1A1919" points="200 28 202 25 204 28 200 28"/>
+    <polyline fill="#1A1919" points="213 28 214.5 25 216 28 213 28"/>
+    <polyline fill="#1A1919" points="225 27 226.5 25 228 27 225 27"/>
+    <polyline fill="#1A1919" points="238 28 239.501 26 241 28 238 28"/>
+    <polyline fill="#1A1919" points="251 28 252.501 26 254 28 251 28"/>
+    <polyline fill="#1A1919" points="263 28 264.501 26 266 28 263 28"/>
+    <polyline fill="#1A1919" points="276 28 277.501 26 279 28 276 28"/>
+    <g transform="translate(287 25)">
+      <mask id="f" fill="white">
+        <use xlink:href="#e"/>
+      </mask>
+      <polyline fill="#1A1919" points=".659 2.466 1.965 .347 3.269 2.466 .659 2.466" mask="url(#f)"/>
+      <polyline fill="#1A1919" points="13.459 2.466 14.765 .347 16.069 2.466 13.459 2.466" mask="url(#f)"/>
+    </g>
+    <polyline fill="#1A1919" points="7 40 8.501 38 10 40 7 40"/>
+    <polyline fill="#1A1919" points="19 40 20.501 38 22 40 19 40"/>
+    <polyline fill="#1A1919" points="32 40 33.501 38 35 40 32 40"/>
+    <polyline fill="#1A1919" points="44 40 45.501 38 47 40 44 40"/>
+    <polyline fill="#1A1919" points="57 40 58.501 38 60 40 57 40"/>
+    <polyline fill="#1A1919" points="69 40 70.5 38 72 40 69 40"/>
+    <polyline fill="#1A1919" points="81 41 82.5 38 84 41 81 41"/>
+    <polyline fill="#1A1919" points="94 40 96.001 37 98 40 94 40"/>
+    <polyline fill="#1A1919" points="106 41 108 37 110 41 106 41"/>
+    <polyline fill="#1A1919" points="118 41 120.5 37 123 41 118 41"/>
+    <polyline fill="#1A1919" points="131 41 133.501 37 136 41 131 41"/>
+    <polyline fill="#1A1919" points="143 41 145.5 37 148 41 143 41"/>
+    <polyline fill="#1A1919" points="155 41 157.5 37 160 41 155 41"/>
+    <polyline fill="#1A1919" points="168 41 170.5 37 173 41 168 41"/>
+    <polyline fill="#1A1919" points="181 41 183.5 37 186 41 181 41"/>
+    <polyline fill="#1A1919" points="193 41 195.501 37 198 41 193 41"/>
+    <polyline fill="#1A1919" points="206 41 208 37 210 41 206 41"/>
+    <polyline fill="#1A1919" points="219 41 221 38 223 41 219 41"/>
+    <polyline fill="#1A1919" points="231 41 232.5 38 234 41 231 41"/>
+    <polyline fill="#1A1919" points="244 40 245.5 38 247 40 244 40"/>
+    <polyline fill="#1A1919" points="257 40 258.501 38 260 40 257 40"/>
+    <polyline fill="#1A1919" points="269 40 270.501 38 272 40 269 40"/>
+    <polyline fill="#1A1919" points="282 40 283.501 38 285 40 282 40"/>
+    <g transform="translate(3 38)">
+      <mask id="h" fill="white">
+        <use xlink:href="#g"/>
+      </mask>
+      <polyline fill="#1A1919" points="291.475 2.63 292.75 .37 294.025 2.63 291.475 2.63" mask="url(#h)"/>
+      <polyline fill="#1A1919" points="-2.483 15.43 -1.207 13.17 .068 15.43 -2.483 15.43" mask="url(#h)"/>
+    </g>
+    <polyline fill="#1A1919" points="13 53 14.501 51 16 53 13 53"/>
+    <polyline fill="#1A1919" points="26 53 27.501 51 29 53 26 53"/>
+    <polyline fill="#1A1919" points="38 53 39.501 51 41 53 38 53"/>
+    <polyline fill="#1A1919" points="50 52 51.501 50 53 52 50 52"/>
+    <polyline fill="#1A1919" points="63 53 64.5 50 66 53 63 53"/>
+    <polyline fill="#1A1919" points="75 53 77 50 79 53 75 53"/>
+    <polyline fill="#1A1919" points="87 54 89.501 50 92 54 87 54"/>
+    <polyline fill="#1A1919" points="99 53 101.5 49 104 53 99 53"/>
+    <polyline fill="#1A1919" points="112 54 114.5 49 117 54 112 54"/>
+    <polyline fill="#1A1919" points="124 54 127.001 49 130 54 124 54"/>
+    <polyline fill="#1A1919" points="136 54 139.001 49 142 54 136 54"/>
+    <polyline fill="#1A1919" points="149 54 152.001 49 155 54 149 54"/>
+    <polyline fill="#1A1919" points="161 54 164.001 49 167 54 161 54"/>
+    <polyline fill="#1A1919" points="174 54 177 49 180 54 174 54"/>
+    <polyline fill="#1A1919" points="187 54 189.5 49 192 54 187 54"/>
+    <polyline fill="#1A1919" points="199 53 201.5 49 204 53 199 53"/>
+    <polyline fill="#1A1919" points="212 54 214.501 50 217 54 212 54"/>
+    <polyline fill="#1A1919" points="225 53 227 50 229 53 225 53"/>
+    <polyline fill="#1A1919" points="238 53 239.5 50 241 53 238 53"/>
+    <polyline fill="#1A1919" points="250 52 251.5 50 253 52 250 52"/>
+    <polyline fill="#1A1919" points="263 53 264.501 51 266 53 263 53"/>
+    <polyline fill="#1A1919" points="276 53 277.501 51 279 53 276 53"/>
+    <g transform="translate(287 50)">
+      <mask id="j" fill="white">
+        <use xlink:href="#i"/>
+      </mask>
+      <polyline fill="#1A1919" points=".659 2.466 1.965 .347 3.269 2.466 .659 2.466" mask="url(#j)"/>
+      <polyline fill="#1A1919" points="13.459 2.466 14.765 .347 16.069 2.466 13.459 2.466" mask="url(#j)"/>
+    </g>
+    <polyline fill="#1A1919" points="7 65 8.501 63 10 65 7 65"/>
+    <polyline fill="#1A1919" points="19 65 20.501 63 22 65 19 65"/>
+    <polyline fill="#1A1919" points="32 65 33.501 63 35 65 32 65"/>
+    <polyline fill="#1A1919" points="44 65 45.501 63 47 65 44 65"/>
+    <polyline fill="#1A1919" points="56 66 57.5 63 59 66 56 66"/>
+    <polyline fill="#1A1919" points="69 65 71.001 62 73 65 69 65"/>
+    <polyline fill="#1A1919" points="81 66 83.501 62 86 66 81 66"/>
+    <polyline fill="#1A1919" points="93 66 95.501 62 98 66 93 66"/>
+    <polyline fill="#1A1919" points="105 67 108 62 111 67 105 67"/>
+    <polyline fill="#1A1919" points="117 66 120 61 123 66 117 66"/>
+    <polyline fill="#1A1919" points="130 67 133.5 61 137 67 130 67"/>
+    <polyline fill="#1A1919" points="142 67 145.5 61 149 67 142 67"/>
+    <polyline fill="#1A1919" points="155 67 158.5 61 162 67 155 67"/>
+    <polyline fill="#1A1919" points="167 67 170.5 61 174 67 167 67"/>
+    <polyline fill="#1A1919" points="180 67 183.5 61 187 67 180 67"/>
+    <polyline fill="#1A1919" points="192 66 195 61 198 66 192 66"/>
+    <polyline fill="#1A1919" points="205 67 208 62 211 67 205 67"/>
+    <polyline fill="#1A1919" points="218 66 220.5 62 223 66 218 66"/>
+    <polyline fill="#1A1919" points="231 66 233.501 62 236 66 231 66"/>
+    <polyline fill="#1A1919" points="244 65 246.001 62 248 65 244 65"/>
+    <polyline fill="#1A1919" points="256 66 257.5 63 259 66 256 66"/>
+    <polyline fill="#1A1919" points="269 65 270.5 63 272 65 269 65"/>
+    <polyline fill="#1A1919" points="282 65 283.501 63 285 65 282 65"/>
+    <g transform="translate(3 63)">
+      <mask id="l" fill="white">
+        <use xlink:href="#k"/>
+      </mask>
+      <polyline fill="#1A1919" points="291.475 2.63 292.75 .37 294.025 2.63 291.475 2.63" mask="url(#l)"/>
+      <polyline fill="#1A1919" points="-2.483 15.43 -1.207 13.17 .068 15.43 -2.483 15.43" mask="url(#l)"/>
+    </g>
+    <polyline fill="#1A1919" points="13 77 14.501 75 16 77 13 77"/>
+    <polyline fill="#1A1919" points="26 77 27.501 75 29 77 26 77"/>
+    <polyline fill="#1A1919" points="38 78 39.5 75 41 78 38 78"/>
+    <polyline fill="#1A1919" points="50 78 52 75 54 78 50 78"/>
+    <polyline fill="#1A1919" points="62 79 64 75 66 79 62 79"/>
+    <polyline fill="#1A1919" points="74 78 76.501 74 79 78 74 78"/>
+    <polyline fill="#1A1919" points="86 79 89 74 92 79 86 79"/>
+    <polyline fill="#1A1919" points="99 80 102 74 105 80 99 80"/>
+    <polyline fill="#1A1919" points="111 79 114.501 73 118 79 111 79"/>
+    <polyline fill="#1A1919" points="123 80 127 73 131 80 123 80"/>
+    <polyline fill="#1A1919" points="135 80 139.001 73 143 80 135 80"/>
+    <polyline fill="#1A1919" points="148 80 152.001 73 156 80 148 80"/>
+    <polyline fill="#1A1919" points="160 80 164.001 73 168 80 160 80"/>
+    <polyline fill="#1A1919" points="173 80 177 73 181 80 173 80"/>
+    <polyline fill="#1A1919" points="186 79 189.5 73 193 79 186 79"/>
+    <polyline fill="#1A1919" points="199 80 202 74 205 80 199 80"/>
+    <polyline fill="#1A1919" points="211 79 214.001 74 217 79 211 79"/>
+    <polyline fill="#1A1919" points="224 78 226.5 74 229 78 224 78"/>
+    <polyline fill="#1A1919" points="237 79 239 75 241 79 237 79"/>
+    <polyline fill="#1A1919" points="250 78 252.001 75 254 78 250 78"/>
+    <polyline fill="#1A1919" points="263 78 264.5 75 266 78 263 78"/>
+    <polyline fill="#1A1919" points="276 77 277.501 75 279 77 276 77"/>
+    <g transform="translate(287 75)">
+      <mask id="n" fill="white">
+        <use xlink:href="#m"/>
+      </mask>
+      <polyline fill="#1A1919" points=".659 2.466 1.965 .347 3.269 2.466 .659 2.466" mask="url(#n)"/>
+      <polyline fill="#1A1919" points="13.459 2.466 14.765 .347 16.069 2.466 13.459 2.466" mask="url(#n)"/>
+    </g>
+    <polyline fill="#1A1919" points="7 90 8.501 88 10 90 7 90"/>
+    <polyline fill="#1A1919" points="19 90 20.501 88 22 90 19 90"/>
+    <polyline fill="#1A1919" points="32 90 33.501 88 35 90 32 90"/>
+    <polyline fill="#1A1919" points="44 91 45.5 88 47 91 44 91"/>
+    <polyline fill="#1A1919" points="56 91 58.001 87 60 91 56 91"/>
+    <polyline fill="#1A1919" points="68 91 70.501 87 73 91 68 91"/>
+    <polyline fill="#1A1919" points="80 92 83 87 86 92 80 92"/>
+    <polyline fill="#1A1919" points="92 92 95 86 98 92 92 92"/>
+    <polyline fill="#1A1919" points="104 92 107.501 86 111 92 104 92"/>
+    <polyline fill="#1A1919" points="117 93 121 86 125 93 117 93"/>
+    <polyline fill="#1A1919" points="129 92 133.501 85 138 92 129 92"/>
+    <polyline fill="#1A1919" points="141 93 145.501 85 150 93 141 93"/>
+    <polyline fill="#1A1919" points="153 93 157.501 85 162 93 153 93"/>
+    <polyline fill="#1A1919" points="166 93 170.501 85 175 93 166 93"/>
+    <polyline fill="#1A1919" points="179 92 183.501 85 188 92 179 92"/>
+    <polyline fill="#1A1919" points="192 93 196.001 86 200 93 192 93"/>
+    <polyline fill="#1A1919" points="204 92 207.5 86 211 92 204 92"/>
+    <polyline fill="#1A1919" points="217 92 220 86 223 92 217 92"/>
+    <polyline fill="#1A1919" points="230 92 233 87 236 92 230 92"/>
+    <polyline fill="#1A1919" points="243 91 245.501 87 248 91 243 91"/>
+    <polyline fill="#1A1919" points="256 91 258 87 260 91 256 91"/>
+    <polyline fill="#1A1919" points="269 91 270.5 88 272 91 269 91"/>
+    <polyline fill="#1A1919" points="282 90 283.5 88 285 90 282 90"/>
+    <g transform="translate(3 88)">
+      <mask id="p" fill="white">
+        <use xlink:href="#o"/>
+      </mask>
+      <polyline fill="#1A1919" points="291.475 2.63 292.75 .37 294.025 2.63 291.475 2.63" mask="url(#p)"/>
+      <polyline fill="#1A1919" points="-2.483 15.43 -1.207 13.17 .068 15.43 -2.483 15.43" mask="url(#p)"/>
+    </g>
+    <polyline fill="#1A1919" points="13 102 14.501 100 16 102 13 102"/>
+    <polyline fill="#1A1919" points="25 102 26.5 100 28 102 25 102"/>
+    <polyline fill="#1A1919" points="37 103 39 100 41 103 37 103"/>
+    <polyline fill="#1A1919" points="50 104 52 100 54 104 50 104"/>
+    <polyline fill="#1A1919" points="62 104 64.5 99 67 104 62 104"/>
+    <polyline fill="#1A1919" points="74 104 77.001 99 80 104 74 104"/>
+    <polyline fill="#1A1919" points="86 104 89.5 98 93 104 86 104"/>
+    <polyline fill="#1A1919" points="98 105 102.001 98 106 105 98 105"/>
+    <polyline fill="#1A1919" points="110 106 114.501 98 119 106 110 106"/>
+    <polyline fill="#1A1919" points="122 105 127 97 132 105 122 105"/>
+    <polyline fill="#1A1919" points="134 106 139 97 144 106 134 106"/>
+    <polyline fill="#1A1919" points="147 106 152 97 157 106 147 106"/>
+    <polyline fill="#1A1919" points="159 106 164 97 169 106 159 106"/>
+    <polyline fill="#1A1919" points="172 105 177 97 182 105 172 105"/>
+    <polyline fill="#1A1919" points="185 106 189.5 98 194 106 185 106"/>
+    <polyline fill="#1A1919" points="198 105 202.001 98 206 105 198 105"/>
+    <polyline fill="#1A1919" points="211 104 214.5 98 218 104 211 104"/>
+    <polyline fill="#1A1919" points="224 104 227.001 99 230 104 224 104"/>
+    <polyline fill="#1A1919" points="237 103 239.5 99 242 103 237 103"/>
+    <polyline fill="#1A1919" points="250 104 252 100 254 104 250 104"/>
+    <polyline fill="#1A1919" points="263 103 265 100 267 103 263 103"/>
+    <polyline fill="#1A1919" points="275 102 276.5 100 278 102 275 102"/>
+    <g transform="translate(287 100)">
+      <mask id="r" fill="white">
+        <use xlink:href="#q"/>
+      </mask>
+      <polyline fill="#1A1919" points=".659 2.466 1.965 .347 3.269 2.466 .659 2.466" mask="url(#r)"/>
+      <polyline fill="#1A1919" points="13.459 2.466 14.765 .347 16.069 2.466 13.459 2.466" mask="url(#r)"/>
+    </g>
+    <polyline fill="#1A1919" points="7 115 8.501 113 10 115 7 115"/>
+    <polyline fill="#1A1919" points="19 115 20.501 113 22 115 19 115"/>
+    <polyline fill="#1A1919" points="31 116 32.501 113 34 116 31 116"/>
+    <polyline fill="#1A1919" points="44 115 46 112 48 115 44 115"/>
+    <polyline fill="#1A1919" points="56 116 58.5 112 61 116 56 116"/>
+    <polyline fill="#1A1919" points="68 117 71 112 74 117 68 117"/>
+    <polyline fill="#1A1919" points="80 117 83.501 111 87 117 80 117"/>
+    <polyline fill="#1A1919" points="92 118 96.001 111 100 118 92 118"/>
+    <polyline fill="#1A1919" points="104 118 108.501 110 113 118 104 118"/>
+    <polyline fill="#1A1919" points="116 119 121 110 126 119 116 119"/>
+    <polyline fill="#1A1919" points="128 119 133 110 138 119 128 119"/>
+    <polyline fill="#1A1919" points="140 119 145 110 150 119 140 119"/>
+    <polyline fill="#1A1919" points="153 119 158 110 163 119 153 119"/>
+    <polyline fill="#1A1919" points="165 119 170 110 175 119 165 119"/>
+    <polyline fill="#1A1919" points="178 119 183 110 188 119 178 119"/>
+    <polyline fill="#1A1919" points="191 118 196 110 201 118 191 118"/>
+    <polyline fill="#1A1919" points="204 117 208.501 110 213 117 204 117"/>
+    <polyline fill="#1A1919" points="217 117 220.5 111 224 117 217 117"/>
+    <polyline fill="#1A1919" points="230 117 233 111 236 117 230 117"/>
+    <polyline fill="#1A1919" points="243 117 246.001 112 249 117 243 117"/>
+    <polyline fill="#1A1919" points="256 116 258.501 112 261 116 256 116"/>
+    <polyline fill="#1A1919" points="269 115 271.001 112 273 115 269 115"/>
+    <polyline fill="#1A1919" points="282 116 283.5 113 285 116 282 116"/>
+    <g transform="translate(3 112)">
+      <mask id="t" fill="white">
+        <use xlink:href="#s"/>
+      </mask>
+      <polyline fill="#1A1919" points="291.475 2.63 292.75 .37 294.025 2.63 291.475 2.63" mask="url(#t)"/>
+      <polyline fill="#1A1919" points="-2.483 15.43 -1.207 13.17 .068 15.43 -2.483 15.43" mask="url(#t)"/>
+    </g>
+    <polyline fill="#1A1919" points="13 127 14.501 125 16 127 13 127"/>
+    <polyline fill="#1A1919" points="25 128 26.5 125 28 128 25 128"/>
+    <polyline fill="#1A1919" points="37 128 39 125 41 128 37 128"/>
+    <polyline fill="#1A1919" points="49 128 51.5 124 54 128 49 128"/>
+    <polyline fill="#1A1919" points="61 129 64 124 67 129 61 129"/>
+    <polyline fill="#1A1919" points="73 129 76.501 123 80 129 73 129"/>
+    <polyline fill="#1A1919" points="85 130 89.001 123 93 130 85 130"/>
+    <polyline fill="#1A1919" points="97 130 101.501 122 106 130 97 130"/>
+    <polyline fill="#1A1919" points="109 131 114 122 119 131 109 131"/>
+    <polyline fill="#1A1919" points="122 131 127 122 132 131 122 131"/>
+    <polyline fill="#1A1919" points="134 131 139 122 144 131 134 131"/>
+    <polyline fill="#1A1919" points="147 131 152 122 157 131 147 131"/>
+    <polyline fill="#1A1919" points="159 131 164 122 169 131 159 131"/>
+    <polyline fill="#1A1919" points="172 131 177 122 182 131 172 131"/>
+    <polyline fill="#1A1919" points="184 131 189 122 194 131 184 131"/>
+    <polyline fill="#1A1919" points="197 130 201.501 122 206 130 197 130"/>
+    <polyline fill="#1A1919" points="210 130 214 123 218 130 210 130"/>
+    <polyline fill="#1A1919" points="223 129 226.5 123 230 129 223 129"/>
+    <polyline fill="#1A1919" points="236 129 239.001 124 242 129 236 129"/>
+    <polyline fill="#1A1919" points="249 128 251.501 124 254 128 249 128"/>
+    <polyline fill="#1A1919" points="262 128 264 125 266 128 262 128"/>
+    <polyline fill="#1A1919" points="275 128 276.5 125 278 128 275 128"/>
+    <g transform="translate(287 125)">
+      <mask id="v" fill="white">
+        <use xlink:href="#u"/>
+      </mask>
+      <polyline fill="#1A1919" points=".659 2.466 1.965 .347 3.269 2.466 .659 2.466" mask="url(#v)"/>
+      <polyline fill="#1A1919" points="13.459 2.466 14.765 .347 16.069 2.466 13.459 2.466" mask="url(#v)"/>
+    </g>
+    <polyline fill="#1A1919" points="7 140 8.501 138 10 140 7 140"/>
+    <polyline fill="#1A1919" points="19 140 20.501 138 22 140 19 140"/>
+    <polyline fill="#1A1919" points="31 140 32.5 137 34 140 31 140"/>
+    <polyline fill="#1A1919" points="43 141 45.001 137 47 141 43 141"/>
+    <polyline fill="#1A1919" points="56 141 58.5 137 61 141 56 141"/>
+    <polyline fill="#1A1919" points="68 141 71.001 136 74 141 68 141"/>
+    <polyline fill="#1A1919" points="80 142 83.501 136 87 142 80 142"/>
+    <polyline fill="#1A1919" points="91 142 95 135 99 142 91 142"/>
+    <polyline fill="#1A1919" points="103 143 108 135 113 143 103 143"/>
+    <polyline fill="#1A1919" points="115 143 120 134 125 143 115 143"/>
+    <polyline fill="#1A1919" points="128 143 133 134 138 143 128 143"/>
+    <polyline fill="#1A1919" points="140 143 145 134 150 143 140 143"/>
+    <polyline fill="#1A1919" points="153 143 158 134 163 143 153 143"/>
+    <polyline fill="#1A1919" points="165 143 170 134 175 143 165 143"/>
+    <polyline fill="#1A1919" points="178 143 183 134 188 143 178 143"/>
+    <polyline fill="#1A1919" points="190 143 195 134 200 143 190 143"/>
+    <polyline fill="#1A1919" points="203 143 208.001 135 213 143 203 143"/>
+    <polyline fill="#1A1919" points="216 142 220 135 224 142 216 142"/>
+    <polyline fill="#1A1919" points="230 142 233.501 136 237 142 230 142"/>
+    <polyline fill="#1A1919" points="243 141 246 136 249 141 243 141"/>
+    <polyline fill="#1A1919" points="256 141 258.501 137 261 141 256 141"/>
+    <polyline fill="#1A1919" points="269 141 271 137 273 141 269 141"/>
+    <polyline fill="#1A1919" points="281 140 282.5 137 284 140 281 140"/>
+    <g transform="translate(3 137)">
+      <mask id="x" fill="white">
+        <use xlink:href="#w"/>
+      </mask>
+      <polyline fill="#1A1919" points="291.475 2.63 292.75 .37 294.025 2.63 291.475 2.63" mask="url(#x)"/>
+      <polyline fill="#1A1919" points="-2.483 15.43 -1.207 13.17 .068 15.43 -2.483 15.43" mask="url(#x)"/>
+    </g>
+    <polyline fill="#1A1919" points="13 152 14.501 150 16 152 13 152"/>
+    <polyline fill="#1A1919" points="25 153 26.5 150 28 153 25 153"/>
+    <polyline fill="#1A1919" points="37 153 39 149 41 153 37 153"/>
+    <polyline fill="#1A1919" points="49 153 51.5 149 54 153 49 153"/>
+    <polyline fill="#1A1919" points="61 154 64.001 149 67 154 61 154"/>
+    <polyline fill="#1A1919" points="73 154 76.5 148 80 154 73 154"/>
+    <polyline fill="#1A1919" points="85 155 89.001 148 93 155 85 155"/>
+    <polyline fill="#1A1919" points="97 155 102.001 147 107 155 97 155"/>
+    <polyline fill="#1A1919" points="109 156 114 147 119 156 109 156"/>
+    <polyline fill="#1A1919" points="122 156 127 147 132 156 122 156"/>
+    <polyline fill="#1A1919" points="134 156 139 147 144 156 134 156"/>
+    <polyline fill="#1A1919" points="147 156 152 147 157 156 147 156"/>
+    <polyline fill="#1A1919" points="159 156 164 147 169 156 159 156"/>
+    <polyline fill="#1A1919" points="172 156 177 147 182 156 172 156"/>
+    <polyline fill="#1A1919" points="184 156 189 147 194 156 184 156"/>
+    <polyline fill="#1A1919" points="197 155 202.001 147 207 155 197 155"/>
+    <polyline fill="#1A1919" points="210 155 214 148 218 155 210 155"/>
+    <polyline fill="#1A1919" points="223 154 226.5 148 230 154 223 154"/>
+    <polyline fill="#1A1919" points="236 154 239 149 242 154 236 154"/>
+    <polyline fill="#1A1919" points="249 153 251.501 149 254 153 249 153"/>
+    <polyline fill="#1A1919" points="262 154 264.001 150 266 154 262 154"/>
+    <polyline fill="#1A1919" points="275 153 276.5 150 278 153 275 153"/>
+    <g transform="translate(287 150)">
+      <mask id="z" fill="white">
+        <use xlink:href="#y"/>
+      </mask>
+      <polyline fill="#1A1919" points=".659 2.466 1.965 .347 3.269 2.466 .659 2.466" mask="url(#z)"/>
+      <polyline fill="#1A1919" points="13.459 2.466 14.765 .347 16.069 2.466 13.459 2.466" mask="url(#z)"/>
+    </g>
+    <polyline fill="#1A1919" points="7 165 8.501 163 10 165 7 165"/>
+    <polyline fill="#1A1919" points="19 165 20.501 163 22 165 19 165"/>
+    <polyline fill="#1A1919" points="31 165 32.5 162 34 165 31 165"/>
+    <polyline fill="#1A1919" points="44 166 46 162 48 166 44 166"/>
+    <polyline fill="#1A1919" points="56 166 58.501 162 61 166 56 166"/>
+    <polyline fill="#1A1919" points="68 166 71.001 161 74 166 68 166"/>
+    <polyline fill="#1A1919" points="80 167 83.5 161 87 167 80 167"/>
+    <polyline fill="#1A1919" points="92 167 96 160 100 167 92 167"/>
+    <polyline fill="#1A1919" points="103 168 107.5 160 112 168 103 168"/>
+    <polyline fill="#1A1919" points="115 168 120 159 125 168 115 168"/>
+    <polyline fill="#1A1919" points="128 168 133 159 138 168 128 168"/>
+    <polyline fill="#1A1919" points="140 168 145 159 150 168 140 168"/>
+    <polyline fill="#1A1919" points="153 168 158 159 163 168 153 168"/>
+    <polyline fill="#1A1919" points="165 168 170 159 175 168 165 168"/>
+    <polyline fill="#1A1919" points="178 168 183 159 188 168 178 168"/>
+    <polyline fill="#1A1919" points="190 168 195 159 200 168 190 168"/>
+    <polyline fill="#1A1919" points="203 168 207.501 160 212 168 203 168"/>
+    <polyline fill="#1A1919" points="217 167 221 160 225 167 217 167"/>
+    <polyline fill="#1A1919" points="230 167 233.501 161 237 167 230 167"/>
+    <polyline fill="#1A1919" points="243 166 246 161 249 166 243 166"/>
+    <polyline fill="#1A1919" points="256 166 258.5 162 261 166 256 166"/>
+    <polyline fill="#1A1919" points="269 165 271 162 273 165 269 165"/>
+    <polyline fill="#1A1919" points="281 165 282.5 162 284 165 281 165"/>
+    <g transform="translate(3 162)">
+      <mask id="B" fill="white">
+        <use xlink:href="#A"/>
+      </mask>
+      <polyline fill="#1A1919" points="291.475 2.63 292.75 .37 294.025 2.63 291.475 2.63" mask="url(#B)"/>
+      <polyline fill="#1A1919" points="-2.483 15.43 -1.207 13.17 .068 15.43 -2.483 15.43" mask="url(#B)"/>
+    </g>
+    <polyline fill="#1A1919" points="13 177 14.501 175 16 177 13 177"/>
+    <polyline fill="#1A1919" points="25 178 26.5 175 28 178 25 178"/>
+    <polyline fill="#1A1919" points="37 178 39.001 175 41 178 37 178"/>
+    <polyline fill="#1A1919" points="49 178 51.5 174 54 178 49 178"/>
+    <polyline fill="#1A1919" points="61 179 64.001 174 67 179 61 179"/>
+    <polyline fill="#1A1919" points="73 179 76.5 173 80 179 73 179"/>
+    <polyline fill="#1A1919" points="85 180 89 173 93 180 85 180"/>
+    <polyline fill="#1A1919" points="97 180 101.5 172 106 180 97 180"/>
+    <polyline fill="#1A1919" points="109 181 114 172 119 181 109 181"/>
+    <polyline fill="#1A1919" points="122 181 127 172 132 181 122 181"/>
+    <polyline fill="#1A1919" points="134 181 139 172 144 181 134 181"/>
+    <polyline fill="#1A1919" points="147 181 152 172 157 181 147 181"/>
+    <polyline fill="#1A1919" points="159 181 164 172 169 181 159 181"/>
+    <polyline fill="#1A1919" points="172 181 177 172 182 181 172 181"/>
+    <polyline fill="#1A1919" points="184 181 189 172 194 181 184 181"/>
+    <polyline fill="#1A1919" points="197 180 201.5 172 206 180 197 180"/>
+    <polyline fill="#1A1919" points="210 180 214.001 173 218 180 210 180"/>
+    <polyline fill="#1A1919" points="223 179 226.5 173 230 179 223 179"/>
+    <polyline fill="#1A1919" points="236 179 239 174 242 179 236 179"/>
+    <polyline fill="#1A1919" points="249 178 251.5 174 254 178 249 178"/>
+    <polyline fill="#1A1919" points="262 178 264.001 175 266 178 262 178"/>
+    <polyline fill="#1A1919" points="275 178 276.501 175 278 178 275 178"/>
+    <g transform="translate(287 175)">
+      <mask id="D" fill="white">
+        <use xlink:href="#C"/>
+      </mask>
+      <polyline fill="#1A1919" points=".659 2.466 1.965 .347 3.269 2.466 .659 2.466" mask="url(#D)"/>
+      <polyline fill="#1A1919" points="13.459 2.466 14.765 .347 16.069 2.466 13.459 2.466" mask="url(#D)"/>
+    </g>
+    <polyline fill="#1A1919" points="7 190 8.501 188 10 190 7 190"/>
+    <polyline fill="#1A1919" points="19 190 20.501 188 22 190 19 190"/>
+    <polyline fill="#1A1919" points="32 190 33.5 187 35 190 32 190"/>
+    <polyline fill="#1A1919" points="44 190 46 187 48 190 44 190"/>
+    <polyline fill="#1A1919" points="56 191 58.501 187 61 191 56 191"/>
+    <polyline fill="#1A1919" points="68 191 70.5 186 73 191 68 191"/>
+    <polyline fill="#1A1919" points="80 191 83 186 86 191 80 191"/>
+    <polyline fill="#1A1919" points="92 192 95.501 186 99 192 92 192"/>
+    <polyline fill="#1A1919" points="104 192 108.001 185 112 192 104 192"/>
+    <polyline fill="#1A1919" points="116 193 120.5 185 125 193 116 193"/>
+    <polyline fill="#1A1919" points="128 193 133 184 138 193 128 193"/>
+    <polyline fill="#1A1919" points="140 193 145 184 150 193 140 193"/>
+    <polyline fill="#1A1919" points="153 193 158 184 163 193 153 193"/>
+    <polyline fill="#1A1919" points="165 193 170 184 175 193 165 193"/>
+    <polyline fill="#1A1919" points="178 193 183 184 188 193 178 193"/>
+    <polyline fill="#1A1919" points="191 193 195.5 185 200 193 191 193"/>
+    <polyline fill="#1A1919" points="204 192 208 185 212 192 204 192"/>
+    <polyline fill="#1A1919" points="217 192 220.5 186 224 192 217 192"/>
+    <polyline fill="#1A1919" points="230 191 233 186 236 191 230 191"/>
+    <polyline fill="#1A1919" points="243 191 245.5 186 248 191 243 191"/>
+    <polyline fill="#1A1919" points="256 191 258.501 187 261 191 256 191"/>
+    <polyline fill="#1A1919" points="269 190 271 187 273 190 269 190"/>
+    <polyline fill="#1A1919" points="282 190 283.501 187 285 190 282 190"/>
+    <g transform="translate(3 187)">
+      <mask id="F" fill="white">
+        <use xlink:href="#E"/>
+      </mask>
+      <polyline fill="#1A1919" points="291.475 2.63 292.75 .37 294.025 2.63 291.475 2.63" mask="url(#F)"/>
+      <polyline fill="#1A1919" points="-2.483 15.43 -1.207 13.17 .068 15.43 -2.483 15.43" mask="url(#F)"/>
+    </g>
+    <polyline fill="#1A1919" points="13 202 14.501 200 16 202 13 202"/>
+    <polyline fill="#1A1919" points="25 202 26.5 200 28 202 25 202"/>
+    <polyline fill="#1A1919" points="38 203 39.5 200 41 203 38 203"/>
+    <polyline fill="#1A1919" points="50 203 52 199 54 203 50 203"/>
+    <polyline fill="#1A1919" points="62 203 64.5 199 67 203 62 203"/>
+    <polyline fill="#1A1919" points="74 204 77 199 80 204 74 204"/>
+    <polyline fill="#1A1919" points="86 204 89.5 198 93 204 86 204"/>
+    <polyline fill="#1A1919" points="98 205 102.001 198 106 205 98 205"/>
+    <polyline fill="#1A1919" points="110 204 114 197 118 204 110 204"/>
+    <polyline fill="#1A1919" points="122 205 126.501 197 131 205 122 205"/>
+    <polyline fill="#1A1919" points="134 205 139 197 144 205 134 205"/>
+    <polyline fill="#1A1919" points="147 205 152 197 157 205 147 205"/>
+    <polyline fill="#1A1919" points="159 205 164 197 169 205 159 205"/>
+    <polyline fill="#1A1919" points="172 205 176.5 197 181 205 172 205"/>
+    <polyline fill="#1A1919" points="185 205 189 198 193 205 185 205"/>
+    <polyline fill="#1A1919" points="198 204 201.5 198 205 204 198 204"/>
+    <polyline fill="#1A1919" points="211 204 214.5 198 218 204 211 204"/>
+    <polyline fill="#1A1919" points="224 204 227.001 199 230 204 224 204"/>
+    <polyline fill="#1A1919" points="237 203 239.501 199 242 203 237 203"/>
+    <polyline fill="#1A1919" points="250 203 252 199 254 203 250 203"/>
+    <polyline fill="#1A1919" points="263 203 264.5 200 266 203 263 203"/>
+    <polyline fill="#1A1919" points="275 202 276.5 200 278 202 275 202"/>
+    <g transform="translate(287 200)">
+      <mask id="H" fill="white">
+        <use xlink:href="#G"/>
+      </mask>
+      <polyline fill="#1A1919" points=".659 2.466 1.965 .347 3.269 2.466 .659 2.466" mask="url(#H)"/>
+      <polyline fill="#1A1919" points="13.459 2.466 14.765 .347 16.069 2.466 13.459 2.466" mask="url(#H)"/>
+    </g>
+    <polyline fill="#1A1919" points="7 214 8.501 212 10 214 7 214"/>
+    <polyline fill="#1A1919" points="19 214 20.501 212 22 214 19 214"/>
+    <polyline fill="#1A1919" points="32 214 33.501 212 35 214 32 214"/>
+    <polyline fill="#1A1919" points="44 215 45.5 212 47 215 44 215"/>
+    <polyline fill="#1A1919" points="56 215 58 212 60 215 56 215"/>
+    <polyline fill="#1A1919" points="68 216 70.5 212 73 216 68 216"/>
+    <polyline fill="#1A1919" points="80 216 82.5 211 85 216 80 216"/>
+    <polyline fill="#1A1919" points="93 216 96.001 211 99 216 93 216"/>
+    <polyline fill="#1A1919" points="105 217 108.5 211 112 217 105 217"/>
+    <polyline fill="#1A1919" points="117 216 120.5 210 124 216 117 216"/>
+    <polyline fill="#1A1919" points="129 217 133 210 137 217 129 217"/>
+    <polyline fill="#1A1919" points="141 217 145 210 149 217 141 217"/>
+    <polyline fill="#1A1919" points="154 217 158.5 210 163 217 154 217"/>
+    <polyline fill="#1A1919" points="166 217 170 210 174 217 166 217"/>
+    <polyline fill="#1A1919" points="179 217 183.001 210 187 217 179 217"/>
+    <polyline fill="#1A1919" points="192 216 195.5 210 199 216 192 216"/>
+    <polyline fill="#1A1919" points="205 217 208.501 211 212 217 205 217"/>
+    <polyline fill="#1A1919" points="218 216 221 211 224 216 218 216"/>
+    <polyline fill="#1A1919" points="230 216 232.5 211 235 216 230 216"/>
+    <polyline fill="#1A1919" points="243 216 245.501 212 248 216 243 216"/>
+    <polyline fill="#1A1919" points="256 215 258.001 212 260 215 256 215"/>
+    <polyline fill="#1A1919" points="269 215 270.5 212 272 215 269 215"/>
+    <polyline fill="#1A1919" points="282 214 283.501 212 285 214 282 214"/>
+    <g transform="translate(3 212)">
+      <mask id="J" fill="white">
+        <use xlink:href="#I"/>
+      </mask>
+      <polyline fill="#1A1919" points="291.475 2.63 292.75 .37 294.025 2.63 291.475 2.63" mask="url(#J)"/>
+      <polyline fill="#1A1919" points="-2.483 15.43 -1.207 13.17 .068 15.43 -2.483 15.43" mask="url(#J)"/>
+    </g>
+    <polyline fill="#1A1919" points="13 227 14.501 225 16 227 13 227"/>
+    <polyline fill="#1A1919" points="26 227 27.501 225 29 227 26 227"/>
+    <polyline fill="#1A1919" points="38 227 39.501 225 41 227 38 227"/>
+    <polyline fill="#1A1919" points="50 228 51.5 225 53 228 50 228"/>
+    <polyline fill="#1A1919" points="62 228 64 224 66 228 62 228"/>
+    <polyline fill="#1A1919" points="74 228 76.5 224 79 228 74 228"/>
+    <polyline fill="#1A1919" points="87 229 89.5 224 92 229 87 229"/>
+    <polyline fill="#1A1919" points="99 228 102.001 223 105 228 99 228"/>
+    <polyline fill="#1A1919" points="111 229 114.5 223 118 229 111 229"/>
+    <polyline fill="#1A1919" points="123 229 126.5 223 130 229 123 229"/>
+    <polyline fill="#1A1919" points="136 229 139.501 223 143 229 136 229"/>
+    <polyline fill="#1A1919" points="148 229 151.5 223 155 229 148 229"/>
+    <polyline fill="#1A1919" points="161 229 164.501 223 168 229 161 229"/>
+    <polyline fill="#1A1919" points="173 229 176.5 223 180 229 173 229"/>
+    <polyline fill="#1A1919" points="186 229 189.5 223 193 229 186 229"/>
+    <polyline fill="#1A1919" points="199 228 202 223 205 228 199 228"/>
+    <polyline fill="#1A1919" points="212 229 214.5 224 217 229 212 229"/>
+    <polyline fill="#1A1919" points="224 228 226.5 224 229 228 224 228"/>
+    <polyline fill="#1A1919" points="237 228 239.001 224 241 228 237 228"/>
+    <polyline fill="#1A1919" points="250 228 251.5 225 253 228 250 228"/>
+    <polyline fill="#1A1919" points="263 227 264.5 225 266 227 263 227"/>
+    <polyline fill="#1A1919" points="276 227 277.501 225 279 227 276 227"/>
+    <g transform="translate(287 225)">
+      <mask id="L" fill="white">
+        <use xlink:href="#K"/>
+      </mask>
+      <polyline fill="#1A1919" points=".659 2.466 1.965 .347 3.269 2.466 .659 2.466" mask="url(#L)"/>
+      <polyline fill="#1A1919" points="13.459 2.466 14.765 .347 16.069 2.466 13.459 2.466" mask="url(#L)"/>
+    </g>
+    <polyline fill="#1A1919" points="7 239 8.501 237 10 239 7 239"/>
+    <polyline fill="#1A1919" points="19 239 20.501 237 22 239 19 239"/>
+    <polyline fill="#1A1919" points="32 239 33.501 237 35 239 32 239"/>
+    <polyline fill="#1A1919" points="44 239 45.501 237 47 239 44 239"/>
+    <polyline fill="#1A1919" points="57 240 58.5 237 60 240 57 240"/>
+    <polyline fill="#1A1919" points="69 240 71 237 73 240 69 240"/>
+    <polyline fill="#1A1919" points="81 241 83 237 85 241 81 241"/>
+    <polyline fill="#1A1919" points="93 240 95.5 236 98 240 93 240"/>
+    <polyline fill="#1A1919" points="105 241 107.5 236 110 241 105 241"/>
+    <polyline fill="#1A1919" points="118 241 121 236 124 241 118 241"/>
+    <polyline fill="#1A1919" points="130 241 133.001 236 136 241 130 241"/>
+    <polyline fill="#1A1919" points="142 241 145 236 148 241 142 241"/>
+    <polyline fill="#1A1919" points="155 242 158 236 161 242 155 242"/>
+    <polyline fill="#1A1919" points="167 241 170 236 173 241 167 241"/>
+    <polyline fill="#1A1919" points="180 241 183.001 236 186 241 180 241"/>
+    <polyline fill="#1A1919" points="193 241 196 236 199 241 193 241"/>
+    <polyline fill="#1A1919" points="205 241 207.5 236 210 241 205 241"/>
+    <polyline fill="#1A1919" points="218 240 220.5 236 223 240 218 240"/>
+    <polyline fill="#1A1919" points="231 241 233 237 235 241 231 241"/>
+    <polyline fill="#1A1919" points="244 240 246 237 248 240 244 240"/>
+    <polyline fill="#1A1919" points="257 240 258.5 237 260 240 257 240"/>
+    <polyline fill="#1A1919" points="269 239 270.501 237 272 239 269 239"/>
+    <polyline fill="#1A1919" points="282 239 283.501 237 285 239 282 239"/>
+    <g transform="translate(3 237)">
+      <mask id="N" fill="white">
+        <use xlink:href="#M"/>
+      </mask>
+      <polyline fill="#1A1919" points="291.475 2.63 292.75 .37 294.025 2.63 291.475 2.63" mask="url(#N)"/>
+      <polyline fill="#1A1919" points="-2.483 15.43 -1.207 13.17 .068 15.43 -2.483 15.43" mask="url(#N)"/>
+    </g>
+    <polyline fill="#1A1919" points="13 252 14.501 250 16 252 13 252"/>
+    <polyline fill="#1A1919" points="26 252 27.501 250 29 252 26 252"/>
+    <polyline fill="#1A1919" points="38 252 39.501 250 41 252 38 252"/>
+    <polyline fill="#1A1919" points="51 252 52.501 250 54 252 51 252"/>
+    <polyline fill="#1A1919" points="63 253 64.5 250 66 253 63 253"/>
+    <polyline fill="#1A1919" points="75 252 77 249 79 252 75 252"/>
+    <polyline fill="#1A1919" points="87 253 89 249 91 253 87 253"/>
+    <polyline fill="#1A1919" points="99 253 101.5 249 104 253 99 253"/>
+    <polyline fill="#1A1919" points="112 253 114.501 249 117 253 112 253"/>
+    <polyline fill="#1A1919" points="124 254 126.5 249 129 254 124 254"/>
+    <polyline fill="#1A1919" points="137 254 139.5 249 142 254 137 254"/>
+    <polyline fill="#1A1919" points="149 254 151.5 249 154 254 149 254"/>
+    <polyline fill="#1A1919" points="162 254 164.5 249 167 254 162 254"/>
+    <polyline fill="#1A1919" points="174 253 176.5 249 179 253 174 253"/>
+    <polyline fill="#1A1919" points="187 253 189.501 249 192 253 187 253"/>
+    <polyline fill="#1A1919" points="200 253 202.501 249 205 253 200 253"/>
+    <polyline fill="#1A1919" points="212 253 214.001 249 216 253 212 253"/>
+    <polyline fill="#1A1919" points="225 252 227 249 229 252 225 252"/>
+    <polyline fill="#1A1919" points="238 253 239.501 250 241 253 238 253"/>
+    <polyline fill="#1A1919" points="251 252 252.501 250 254 252 251 252"/>
+    <polyline fill="#1A1919" points="263 252 264.501 250 266 252 263 252"/>
+    <polyline fill="#1A1919" points="276 252 277.501 250 279 252 276 252"/>
+    <g transform="translate(287 249)">
+      <mask id="P" fill="white">
+        <use xlink:href="#O"/>
+      </mask>
+      <polyline fill="#1A1919" points=".659 2.466 1.965 .347 3.269 2.466 .659 2.466" mask="url(#P)"/>
+      <polyline fill="#1A1919" points="13.459 2.466 14.765 .347 16.069 2.466 13.459 2.466" mask="url(#P)"/>
+    </g>
+    <polyline fill="#1A1919" points="7 264 8.501 262 10 264 7 264"/>
+    <polyline fill="#1A1919" points="19 264 20.501 262 22 264 19 264"/>
+    <polyline fill="#1A1919" points="32 264 33.501 262 35 264 32 264"/>
+    <polyline fill="#1A1919" points="44 264 45.501 262 47 264 44 264"/>
+    <polyline fill="#1A1919" points="57 264 58.501 262 60 264 57 264"/>
+    <polyline fill="#1A1919" points="69 264 70.5 262 72 264 69 264"/>
+    <polyline fill="#1A1919" points="82 265 83.5 262 85 265 82 265"/>
+    <polyline fill="#1A1919" points="94 265 96.001 262 98 265 94 265"/>
+    <polyline fill="#1A1919" points="106 265 108.001 262 110 265 106 265"/>
+    <polyline fill="#1A1919" points="118 266 120 262 122 266 118 266"/>
+    <polyline fill="#1A1919" points="131 265 133 261 135 265 131 265"/>
+    <polyline fill="#1A1919" points="143 265 145.5 261 148 265 143 265"/>
+    <polyline fill="#1A1919" points="156 265 158.501 261 161 265 156 265"/>
+    <polyline fill="#1A1919" points="168 265 170.5 261 173 265 168 265"/>
+    <polyline fill="#1A1919" points="181 265 183 261 185 265 181 265"/>
+    <polyline fill="#1A1919" points="193 266 195 262 197 266 193 266"/>
+    <polyline fill="#1A1919" points="206 265 208 262 210 265 206 265"/>
+    <polyline fill="#1A1919" points="219 265 220.5 262 222 265 219 265"/>
+    <polyline fill="#1A1919" points="232 265 233.5 262 235 265 232 265"/>
+    <polyline fill="#1A1919" points="244 264 245.501 262 247 264 244 264"/>
+    <polyline fill="#1A1919" points="257 264 258.501 262 260 264 257 264"/>
+    <polyline fill="#1A1919" points="269 264 270.501 262 272 264 269 264"/>
+    <polyline fill="#1A1919" points="282 264 283.501 262 285 264 282 264"/>
+    <g transform="translate(3 262)">
+      <mask id="R" fill="white">
+        <use xlink:href="#Q"/>
+      </mask>
+      <polyline fill="#1A1919" points="291.475 2.63 292.75 .37 294.025 2.63 291.475 2.63" mask="url(#R)"/>
+      <polyline fill="#1A1919" points="-2.483 15.43 -1.207 13.17 .068 15.43 -2.483 15.43" mask="url(#R)"/>
+    </g>
+    <polyline fill="#1A1919" points="13 277 14.501 275 16 277 13 277"/>
+    <polyline fill="#1A1919" points="26 277 27.501 275 29 277 26 277"/>
+    <polyline fill="#1A1919" points="38 277 39.501 275 41 277 38 277"/>
+    <polyline fill="#1A1919" points="51 277 52.501 275 54 277 51 277"/>
+    <polyline fill="#1A1919" points="63 277 64.501 275 66 277 63 277"/>
+    <polyline fill="#1A1919" points="76 277 77.501 275 79 277 76 277"/>
+    <polyline fill="#1A1919" points="88 277 89.5 275 91 277 88 277"/>
+    <polyline fill="#1A1919" points="100 277 101.5 274 103 277 100 277"/>
+    <polyline fill="#1A1919" points="113 277 115.001 274 117 277 113 277"/>
+    <polyline fill="#1A1919" points="125 277 127 274 129 277 125 277"/>
+    <polyline fill="#1A1919" points="137 277 139 274 141 277 137 277"/>
+    <polyline fill="#1A1919" points="150 277 152.001 274 154 277 150 277"/>
+    <polyline fill="#1A1919" points="162 277 164 274 166 277 162 277"/>
+    <polyline fill="#1A1919" points="175 277 177 274 179 277 175 277"/>
+    <polyline fill="#1A1919" points="188 277 190.001 274 192 277 188 277"/>
+    <polyline fill="#1A1919" points="200 277 201.5 274 203 277 200 277"/>
+    <polyline fill="#1A1919" points="213 277 214.5 275 216 277 213 277"/>
+    <polyline fill="#1A1919" points="226 277 227.501 275 229 277 226 277"/>
+    <polyline fill="#1A1919" points="238 277 239.501 275 241 277 238 277"/>
+    <polyline fill="#1A1919" points="251 277 252.501 275 254 277 251 277"/>
+    <polyline fill="#1A1919" points="263 277 264.501 275 266 277 263 277"/>
+    <polyline fill="#1A1919" points="276 277 277.501 275 279 277 276 277"/>
+    <g transform="translate(287 274)">
+      <mask id="T" fill="white">
+        <use xlink:href="#S"/>
+      </mask>
+      <polyline fill="#1A1919" points=".659 2.466 1.965 .347 3.269 2.466 .659 2.466" mask="url(#T)"/>
+      <polyline fill="#1A1919" points="13.459 2.466 14.765 .347 16.069 2.466 13.459 2.466" mask="url(#T)"/>
+    </g>
+    <polyline fill="#1A1919" points="7 289 8.501 287 10 289 7 289"/>
+    <polyline fill="#1A1919" points="19 289 20.501 287 22 289 19 289"/>
+    <polyline fill="#1A1919" points="32 289 33.501 287 35 289 32 289"/>
+    <polyline fill="#1A1919" points="44 289 45.501 287 47 289 44 289"/>
+    <polyline fill="#1A1919" points="57 289 58.501 287 60 289 57 289"/>
+    <polyline fill="#1A1919" points="69 289 70.501 287 72 289 69 289"/>
+    <polyline fill="#1A1919" points="82 289 83.501 287 85 289 82 289"/>
+    <polyline fill="#1A1919" points="94 289 95.501 287 97 289 94 289"/>
+    <polyline fill="#1A1919" points="107 289 108.501 287 110 289 107 289"/>
+    <polyline fill="#1A1919" points="119 289 120.5 287 122 289 119 289"/>
+    <polyline fill="#1A1919" points="132 290 133.5 287 135 290 132 290"/>
+    <polyline fill="#1A1919" points="144 290 145.5 287 147 290 144 290"/>
+    <polyline fill="#1A1919" points="156 290 157.5 287 159 290 156 290"/>
+    <polyline fill="#1A1919" points="169 290 170.5 287 172 290 169 290"/>
+    <polyline fill="#1A1919" points="182 290 183.5 287 185 290 182 290"/>
+    <polyline fill="#1A1919" points="194 289 195.5 287 197 289 194 289"/>
+    <polyline fill="#1A1919" points="207 289 208.501 287 210 289 207 289"/>
+    <polyline fill="#1A1919" points="219 289 220.501 287 222 289 219 289"/>
+    <polyline fill="#1A1919" points="232 289 233.501 287 235 289 232 289"/>
+    <polyline fill="#1A1919" points="244 289 245.501 287 247 289 244 289"/>
+    <polyline fill="#1A1919" points="257 289 258.501 287 260 289 257 289"/>
+    <polyline fill="#1A1919" points="269 289 270.501 287 272 289 269 289"/>
+    <polyline fill="#1A1919" points="282 289 283.501 287 285 289 282 289"/>
+    <polyline fill="#1A1919" points="294 289 295.501 287 297 289 294 289"/>
+    <path d="M153,203 C151.566495,203 150.145492,202.949994 148.73699,202.853109 C146.383584,202.690591 144.063515,202.393683 141.790327,201.971761 C140.295356,201.694647 138.821222,201.362318 137.367923,200.977901 C131.146346,199.333968 125.315441,196.731596 120.040852,193.337469 C119.027189,192.685313 118.03332,192.003988 117.061329,191.294534 C102.087664,180.358945 92.2833672,162.761159 92.0062507,142.8652 C92.0020836,142.576627 92,142.290136 92,141.999479 C92,141.952599 92,141.905719 92,141.857797 C92.019794,133.22038 93.8335525,125.005926 97.0901918,117.565517 C97.4058545,116.844604 97.7350605,116.132025 98.0767681,115.426738 C102.443957,106.417405 108.964528,98.6425833 116.967568,92.7742236 C118.735488,91.4782464 120.574249,90.2760296 122.479685,89.1727822 C131.4568,83.976372 141.882004,81 153,81 C163.324151,81 173.04823,83.5638262 181.571124,88.0914121 C183.097348,88.9019188 184.589193,89.7780577 186.035199,90.7104528 C191.055591,93.9514376 195.567588,97.907085 199.43055,102.435713 C200.212935,103.353523 200.967192,104.292169 201.695404,105.254776 C203.532082,107.685254 205.192697,110.26054 206.65433,112.95563 C207.552354,114.609981 208.375369,116.311211 209.12025,118.054113 C212.26125,125.405971 214,133.499577 214,141.999479 C214,149.640952 212.594624,156.955306 210.028692,163.695637 C209.427578,165.276021 208.763957,166.820984 208.037829,168.334694 C206.744966,171.03291 205.260414,173.619656 203.599798,176.079304 C202.53613,177.654478 201.400577,179.179648 200.19835,180.645435 C196.507284,185.14906 192.183851,189.115125 187.363483,192.407158 C186.724865,192.842623 186.079996,193.265586 185.424709,193.67709 C179.694858,197.280615 173.322221,199.956954 166.518283,201.496708 C164.886838,201.865499 163.225181,202.170741 161.545813,202.406184 C159.370553,202.710385 157.159872,202.901031 154.916896,202.969788 C154.280361,202.989582 153.641743,203 153,203 M153,83.9617871 C120.997216,83.9617871 94.9618124,109.99801 94.9618124,141.999479 C94.9618124,174.00199 120.997216,200.037171 153,200.037171 C185.002784,200.037171 211.038188,174.00199 211.038188,141.999479 C211.038188,109.99801 185.002784,83.9617871 153,83.9617871 M153,198.995389 C121.572285,198.995389 96.0036036,173.426926 96.0036036,141.999479 C96.0036036,110.572032 121.572285,85.0035694 153,85.0035694 C184.427715,85.0035694 209.996396,110.572032 209.996396,141.999479 C209.996396,173.426926 184.427715,198.995389 153,198.995389"/>
+    <path d="M153,200 C121.018273,200 95,173.981727 95,142 C95,110.019314 121.018273,84 153,84 C184.981727,84 211,110.019314 211,142 C211,173.981727 184.981727,200 153,200 M153,85.0411057 C121.592964,85.0411057 96.0411057,110.592964 96.0411057,142 C96.0411057,173.407036 121.592964,198.958894 153,198.958894 C184.407036,198.958894 209.958894,173.407036 209.958894,142 C209.958894,110.592964 184.407036,85.0411057 153,85.0411057"/>
+  </g>
+</svg>

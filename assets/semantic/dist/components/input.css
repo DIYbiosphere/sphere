@@ -37,8 +37,8 @@
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
   line-height: 1.21428571em;
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  padding: 0.62619048em 0.93333333em;
+  font-family: 'Source Code Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  padding: 0.73901099em 1.07692308em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
   color: rgba(0, 0, 0, 0.87);
@@ -108,9 +108,9 @@
   content: '';
   top: 50%;
   left: 50%;
-  margin: -0.63333333em 0em 0em -0.63333333em;
-  width: 1.26666667em;
-  height: 1.26666667em;
+  margin: -0.65384615em 0em 0em -0.65384615em;
+  width: 1.30769231em;
+  height: 1.30769231em;
   border-radius: 500rem;
   border: 0.2em solid rgba(0, 0, 0, 0.1);
 }
@@ -119,9 +119,9 @@
   content: '';
   top: 50%;
   left: 50%;
-  margin: -0.63333333em 0em 0em -0.63333333em;
-  width: 1.26666667em;
-  height: 1.26666667em;
+  margin: -0.65384615em 0em 0em -0.65384615em;
+  width: 1.30769231em;
+  height: 1.30769231em;
   -webkit-animation: button-spin 0.6s linear;
           animation: button-spin 0.6s linear;
   -webkit-animation-iteration-count: infinite;
@@ -255,7 +255,7 @@
   right: 0px;
   margin: 0em;
   height: 100%;
-  width: 2.56666667em;
+  width: 2.79230769em;
   opacity: 0.5;
   border-radius: 0em none none 0em;
   -webkit-transition: opacity 0.3s ease;
@@ -265,7 +265,7 @@
   pointer-events: none;
 }
 .ui.icon.input input {
-  padding-right: 2.56666667em !important;
+  padding-right: 2.79230769em !important;
 }
 .ui.icon.input > i.icon:before,
 .ui.icon.input > i.icon:after {
@@ -295,8 +295,8 @@
   left: 0.5em;
 }
 .ui[class*="left icon"].input > input {
-  padding-left: 2.56666667em !important;
-  padding-right: 0.93333333em !important;
+  padding-left: 2.79230769em !important;
+  padding-right: 1.07692308em !important;
 }
 
 /* Focus */
@@ -318,8 +318,8 @@
   font-size: 1em;
 }
 .ui.labeled.input > .label:not(.corner) {
-  padding-top: 0.73333333em;
-  padding-bottom: 0.73333333em;
+  padding-top: 0.84615385em;
+  padding-bottom: 0.84615385em;
 }
 
 /* Regular Label on Left */
@@ -354,7 +354,7 @@
 .ui.labeled.input .corner.label {
   top: 1px;
   right: 1px;
-  font-size: 0.6em;
+  font-size: 0.69230769em;
   border-radius: 0em none 0em 0em;
 }
 
@@ -408,8 +408,8 @@
 }
 .ui.action.input > .button,
 .ui.action.input > .buttons > .button {
-  padding-top: 0.73333333em;
-  padding-bottom: 0.73333333em;
+  padding-top: 0.84615385em;
+  padding-bottom: 0.84615385em;
   margin: 0;
 }
 
@@ -485,25 +485,25 @@
 ---------------------*/
 
 .ui.mini.input {
-  font-size: 0.8em;
+  font-size: 0.76923077em;
 }
 .ui.small.input {
-  font-size: 0.93333333em;
+  font-size: 0.92307692em;
 }
 .ui.input {
   font-size: 1em;
 }
 .ui.large.input {
-  font-size: 1.13333333em;
+  font-size: 1.15384615em;
 }
 .ui.big.input {
-  font-size: 1.26666667em;
+  font-size: 1.30769231em;
 }
 .ui.huge.input {
-  font-size: 1.4em;
+  font-size: 1.46153846em;
 }
 .ui.massive.input {
-  font-size: 1.73333333em;
+  font-size: 1.69230769em;
 }
 
 
