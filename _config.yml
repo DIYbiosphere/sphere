@@ -13,9 +13,6 @@ twitter:
 
 # Excluded files and dirs
 exclude: ['vendor', 'script', 'Gemfile', 'Gemfile.lock', 'README.md', 'DataReusePlan.txt', '.assets-cache', '.sass-cache', 'node_modules']
-include: ['.github/CODE_OF_CONDUCT.md', '.github/CONTRIBUTING.md']
-
-github_comments_repository:  diybiosphere/talk
 
 # Build settings
 markdown: kramdown
