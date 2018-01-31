@@ -14,7 +14,7 @@ var hitTemplate = Hogan.compile (`
         {{#hostsArray}} {{#project}}by {{/project}} {{^project}}at {{/project}}{{/hostsArray}}
         {{#hostsSimple}}<em>{{ . }} </em>{{/hostsSimple}}
           <br>
-          <i class="far fa-map-marker-alt fa-fw fa-xs"></i>{{#city}} {{{ _highlightResult.city.city }}}, {{/city}} {{#country}}{{{ _highlightResult.country.value }}} {{/country}}
+          <i class="far fa-map-marker-alt fa-fw fa-xs"></i>{{#city}} {{{ _highlightResult.city.value }}}, {{/city}} {{#country}}{{{ _highlightResult.country.value }}} {{/country}}
         </span>
       </div>
     </h5>

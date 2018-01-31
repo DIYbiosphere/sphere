@@ -1,9 +1,8 @@
 ---
-title: The DIYbiosphere Project
 layout: page
-comments_issue: 3
-edit_issue: 4
+title: The DIYbiosphere Project
 ---
+
 
 The DIYbiosphere collects and maintains entries on Do-it-Yourself biology (DIYbio) initiatives from all over the world in a distributed manner, similar to a wiki but we use [GitHub Pages][gh_pages]. Using [GitHub] has the benefit of writing entries in [Markdown] (a simple text formatting syntax), and it allows for a flexible and open development framework. For more technical details read our [software] section in the [documentation].
 

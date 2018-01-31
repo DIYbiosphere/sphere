@@ -1,11 +1,11 @@
 
 
-- doc_slug: DIYbiosphere
+- doc_name: DIYbiosphere
   _geoloc:
     - lat: 46.2043910
     - lng: 6.1431580
 
-- doc_slug: CounterCultureLabs
+- doc_name: CounterCultureLabs
   _geoloc:
     - lat: 46.2043910
     - lng: 6.1431580

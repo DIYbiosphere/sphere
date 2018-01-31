@@ -11,9 +11,10 @@
     </span>
   </a>
 
-  <!-- How it works: check in `_data/talk_repo/yml` for an instance where doc_slug is equal to the title of the current page -->
+  <!-- How it works: check in `_data/talk_repo/yml` for an instance where doc_name is equal to the title of the current page -->
   {% for issue in site.data.talk_repo %}
-    {% if issue.doc_slug == page.title %}
+    {% if issue.doc_name == page.file_name  %}
+
       {% if issue.edit_issue %}
       {% assign edit_issue = true %}
       <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/{{ issue.edit_issue }}#new_comment_field" target="_blank">
@@ -33,9 +34,9 @@
   </a>
   {% endif %}
 
-  <!-- How it works: check in `_data/talk_repo/yml` for an instance where doc_slug is equal to the title of the current page -->
+  <!-- How it works: check in `_data/talk_repo/yml` for an instance where doc_name is equal to the title of the current page -->
   {% for issue in site.data.talk_repo %}
-    {% if issue.doc_slug == page.title %}
+    {% if issue.doc_name == page.file_name %}
       {% if issue.comments_issue %}
       {% assign comments_issue = true %}
       <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/{{ issue.comments_issue }}#new_comment_field" target="_blank">
@@ -43,6 +44,9 @@
           <i class="far fa-comment" data-fa-transform="grow-6 right-6"></i>
         </span>
       </a>
+
+      <script type="text/javascript">DoGithubComments ("{{ site.github_comments_repository }}" ,"{{ issue.comments_issue }}");</script>
+
       {% endif %}
     {% endif %}
   {% endfor %}

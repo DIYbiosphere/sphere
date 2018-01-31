@@ -5,6 +5,9 @@ edit_issue: 6
 title: Our Community
 ---
 
+{{ page.url }}
+{{ page.file_name }}
+
 Anyone with a GitHub account ([sign up]) can be a contributor and create or edit content and participate in the development of DIYbiosphere. The development is managed by members of the [DIYbiosphere organization][gh_org] organization account on GitHub, which anyone can freely [join]. Members have _write_ access to the repository and can edit files directly without the need of pull requests. The organization is divided into several **teams** (only visible to members) with specific roles in project:
 
 - **Board of Directors:** oversee the general direction and development of the project. They also have _admin_ and _owner_ control over the sphere repository and the DIYbiosphere organization respectively.

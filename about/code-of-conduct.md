@@ -1,7 +1,5 @@
 ---
 layout: page
-comments_issue: 39
-edit_issue: 40
 title: Code of Conduct # Keep links in this page. only markdown syntax. Copy file into .github folder as 'CODE_OF_CONDUCT.md'
 ---
 

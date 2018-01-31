@@ -1,87 +1,87 @@
 # This YAML keeps track of the issues dedicated to each page for general discussion, and editing discussion
-# Make sure that `doc_slug == title` of the entry
+# Make sure that `doc_name == title` of the entry
 # Assign
   #11 & 12 (Documentation) - 3 & 4 (About)
 
 # pages
 
-- doc_slug: diybiosphere-project
+- doc_name: diybiosphere-project
   comments_issue: 3
   edit_issue: 4
 
-- doc_slug: community
+- doc_name: community
   comments_issue: 5
   edit_issue: 6
 
-- doc_slug: philosophy
+- doc_name: philosophy
   comments_issue: 7
   edit_issue: 8
 
-- doc_slug: contact
+- doc_name: contact
   comments_issue: 9
   edit_issue: 10
 
-- doc_slug: support-us
+- doc_name: support-us
   comments_issue: 13
   edit_issue: 14
 
-- doc_slug: faq
+- doc_name: faq
   comments_issue: 33
   edit_issue: 34
 
-- doc_slug: terms-of-use
+- doc_name: terms-of-use
   comments_issue: 35
   edit_issue: 36
 
-- doc_slug: contributor-terms
+- doc_name: contributor-terms
   comments_issue: 37
   edit_issue: 38
 
-- doc_slug: CODE_OF_CONDUCT
+- doc_name: CODE_OF_CONDUCT
   comments_issue: 39
   edit_issue: 40
 
 # docs
-- doc_slug: entries
+- doc_name: entries
   comments_issue: 15
   edit_issue: 16
 
-- doc_slug: software
+- doc_name: software
   comments_issue: 17
   edit_issue: 18
 
-- doc_slug: design
+- doc_name: design
   comments_issue: 19
   edit_issue: 20
 
-- doc_slug: documentation
+- doc_name: documentation
   comments_issue: 21
   edit_issue: 22
 
-- doc_slug: contributing
+- doc_name: contributing
   comments_issue: 23
   edit_issue: 24
 
-- doc_slug: writing
+- doc_name: writing
   comments_issue: 25
   edit_issue: 26
 
-- doc_slug: workflow
+- doc_name: workflow
   comments_issue: 27
   edit_issue: 28
 
-- doc_slug: github-eli5
+- doc_name: github-eli5
   comments_issue: 29
   edit_issue: 30
 
-- doc_slug: glossary
+- doc_name: glossary
   comments_issue: 31
   edit_issue: 32
 
 # entries
-- doc_slug: DIYbiosphere
+- doc_name: DIYbiosphere
   comments_issue: 2
   edit_issue: 1
 
-- doc_slug: DIYbio.org
+- doc_name: DIYbio.org
   edit_issue: 41

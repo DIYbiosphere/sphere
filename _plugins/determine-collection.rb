@@ -9,8 +9,17 @@ module DetermineCollection
     def generate(site)
     	@site = site
 
+      @site.pages.each do |page|
+        pageURL = "#{page.url}"
+        page.data["file_name"] = pageURL.split('/').last
+      end
+
+
     	@site.documents.each do |doc|
     		if(doc.respond_to? :data)
+          docURL = "#{doc.url}"
+          doc.data["file_name"] = docURL.split('/').last
+
           docDir = "#{doc.relative_path}"
 
             if docDir.include? "_projects"
