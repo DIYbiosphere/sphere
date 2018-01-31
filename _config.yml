@@ -13,6 +13,7 @@ twitter:
 
 # Excluded files and dirs
 exclude: ['vendor', 'script', 'Gemfile', 'Gemfile.lock', 'README.md', 'DataReusePlan.txt', '.assets-cache', '.sass-cache', 'node_modules']
+include: ['.github/CODE_OF_CONDUCT.md', '.github/CONTRIBUTING.md']
 
 github_comments_repository:  diybiosphere/talk
 
@@ -177,8 +178,6 @@ assets:
 # Jekyll-Tagging: https://github.com/pattex/jekyll-tagging/
 tag_page_layout: tag_page
 tag_page_dir: tag
-
-
 
 
 # AlgoliaSearch-Jekyll: https://github.com/algolia/algoliasearch-jekyll/

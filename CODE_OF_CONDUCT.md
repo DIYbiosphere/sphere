@@ -1,8 +1,7 @@
 ---
 layout: page
-comments_issue: 39
-edit_issue: 40
 title: Code of Conduct # Keep links in this page. only markdown syntax. Copy file into .github folder as 'CODE_OF_CONDUCT.md'
+permalink: /about/code-of-conduct/
 ---
 
 Contributors of the DIYbiosphere must abide by our Code of Conduct\*. It applies to all project and public spaces when representing or engaging with the project or its community, online and offline.

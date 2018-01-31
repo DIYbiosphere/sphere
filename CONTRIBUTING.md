@@ -1,8 +1,7 @@
 ---
 layout: docs
-comments_issue: 23
-edit_issue: 24
 title: Contributing Guide # Keep links in this page. Only markdown syntax. Copy file to .github folder as 'CONTRIBUTING.md'
+permalink: /docs/guides/contributing
 draft: true
 ---
 
