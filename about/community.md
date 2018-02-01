@@ -1,23 +1,24 @@
 ---
 layout: page
-comments_issue: 5
-edit_issue: 6
 title: Our Community
 ---
 
-{{ page.url }}
-{{ page.file_name }}
-
-Anyone with a GitHub account ([sign up]) can be a contributor and create or edit content and participate in the development of DIYbiosphere. The development is managed by members of the [DIYbiosphere organization][gh_org] organization account on GitHub, which anyone can freely [join]. Members have _write_ access to the repository and can edit files directly without the need of pull requests. The organization is divided into several **teams** (only visible to members) with specific roles in project:
+As an open source project, anyone can freely contribute to DIYbiosphere! Only a GitHub account ([sign up]) is necessary. Users who join the [DIYbiosphere organization][gh_org] are actively involved in contributing and developing the project. The organization is divided into several **teams** with specific roles:
 
 - **Board of Directors:** oversee the general direction and development of the project. They also have _admin_ and _owner_ control over the sphere repository and the DIYbiosphere organization respectively.
   - Jason Bobe: Chief Executive Officer - @JasonBobe
   - Gabriela A. Sanchez: Chief Project Officer - @sabgaby
 - **Core Developers:** coordinate the software and the content of the entries as well as their design. They have _admin_ access to the sphere respository
-  - Daniel Sanchez: Chief Technical Officer - @cube5
-  - Steven Stowell: Chief Content Officer - @SteveStowell
+  - Mac Cowell: Chief Technical Officer - @100ideas
 - **Editors:** are in charge of curating entries and their content
 - **Managers:** are all users who are in charge of one or many entries
 
+## How to join
+Join the organization and benefit from direct _writing_ permissions to the files without `forking` or `pull requests`. It makes editing files real easy and quick.
+
+- Create a [new issue][gh_new] with the title `Membership request`. You can optionally add information about yourself in the description and if you would like to join a specific team.
+
 ## Partners
-The project is done in partnership with the [DIYbio.org][diybio] network, and with the support of the [University of Geneva][unige]. If you want to become a partner, please contact @sabgaby or @JasonBobe.
+The project is developed in partnership with the [DIYbio.org][diybio] network, and with the support of the [University of Geneva][unige].
+
+If you would like to become a partner or sponsor, please contact @sabgaby or @JasonBobe.
