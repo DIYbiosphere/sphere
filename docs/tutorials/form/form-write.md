@@ -95,7 +95,7 @@ step: write
          </div>
      </div>
   </div>
-  <!-- Affiliates -->
+  <!-- partners -->
 
   <!-- Location -->
     <!-- Address with Algolia Places -->

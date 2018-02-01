@@ -15,7 +15,7 @@ There are four types of message boxes:
 
 {% include messages/question.html %}
 
-{% include messages/plus.html %}
+{% include messages/star.html %}
 
 code files for the hints are in the `_include` folder
 
