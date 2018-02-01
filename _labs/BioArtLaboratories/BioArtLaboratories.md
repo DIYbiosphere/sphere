@@ -5,9 +5,9 @@ tags:
 manager:
 website: http://bioartlab.com/
 start-date: 2012
-host-org:
+hosts:
 type-org: University
-affiliates:
+partners:
 address: Achtseweg Zuid 151
 directions:
 postcode: 5651 GW

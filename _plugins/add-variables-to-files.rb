@@ -3,7 +3,7 @@
 # converts DateTime into Unix Timestamp
 require 'kramdown'
 
-module DetermineCollection
+module AddVariablesToFiles
   class Generator < Jekyll::Generator
     priority :highest
     def generate(site)
@@ -42,6 +42,10 @@ module DetermineCollection
               doc.data["startup"] = true
             end
 
+            if docDir.include? "_networks"
+              doc.data["network"] = true
+            end
+
             if docDir.include? "_events"
               doc.data["event"] = true
             end
@@ -52,8 +56,8 @@ module DetermineCollection
 
             regex = /\[.+?\]/
 
-            if doc.data["host-org"]
-              hostsString = "#{doc.data["host-org"]}"
+            if doc.data["hosts"]
+              hostsString = "#{doc.data["hosts"]}"
               hostsArray = hostsString.delete('"[]')
               hosts = hostsArray.split(',')
                 doc.data["hostsArray"] = true
@@ -66,13 +70,13 @@ module DetermineCollection
                   end }
             end # end if data
 
-            if doc.data["affiliates"]
-              affiliatesString = "#{doc.data["affiliates"]}"
-              affiliatesArray = affiliatesString.delete('"[]')
-              affiliates = affiliatesArray.split(',')
-              if affiliates.is_a?(Array)
-                doc.data["affiliatesArray"] = true
-                doc.data["affiliatesSimple"] =  affiliates.map {|item|
+            if doc.data["partners"]
+              partnersString = "#{doc.data["partners"]}"
+              partnersArray = partnersString.delete('"[]')
+              partners = partnersArray.split(',')
+              if partners.is_a?(Array)
+                doc.data["partnersArray"] = true
+                doc.data["partnersSimple"] =  partners.map {|item|
                   if item.index("(")
                     stop = item.index("(")
                     item[0, stop]
@@ -80,12 +84,12 @@ module DetermineCollection
                     item
                   end }
               else # if not array
-                doc.data["affiliatesArray"] = false
-                if affiliates.index("(")
-                  stop = affiliates.index("(")
-                  doc.data["affiliatesSimple"] = affiliates[0, stop]
+                doc.data["partnersArray"] = false
+                if partners.index("(")
+                  stop = partners.index("(")
+                  doc.data["partnersSimple"] = partners[0, stop]
                 else # if index
-                  doc.data["affiliatesSimple"] = affiliates
+                  doc.data["partnersSimple"] = partners
                 end # if index
               end # end if Array
             end # end if data

@@ -1,9 +1,7 @@
 ---
-title: Getting Started
 layout: docs
+title: Getting Started
 draft: true
-crumb: introduction
-summary: On using the library and contributing to the project of the DIYbiosphere
 ---
 
 The Entries are the core of the DIYbiosphere project. The key ideas are:

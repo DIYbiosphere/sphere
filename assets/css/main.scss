@@ -4,14 +4,10 @@
 @import "variables";
 
 @import "modules/utils";
-@import "modules/autocomplete";
+@import "modules/algolia-searches";
 @import "modules/docsearch";
-@import "modules/brands-colors";
-@import "modules/syntax";
-@import "modules/sidebar-navscroll";
-@import "vendor/gh-code";
-
-
+@import "modules/carousel";
+@import "vendor/gitter-sidecar";
 
 /* Base css */
 @import "base";

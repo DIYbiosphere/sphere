@@ -4,9 +4,9 @@ manager:
 subtitle: Open and DIY biolaboratory
 website: http://irnas.eu/symbiolab.html
 start-date: 2014
-host-org: "[IRNAS](http://irnas.eu/)"
+hosts: "[IRNAS](http://irnas.eu/)"
 type-org:
-affiliates:
+partners:
 address: Tkalski prehod 4
 directions:
 postcode: 2000

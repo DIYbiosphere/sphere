@@ -3,9 +3,9 @@ title: Brmlab
 manager:
 website: http://brmlab.cz/index.html
 start-date:
-host-org:
+hosts:
 type-org: Non-Profit
-affiliates:
+partners:
 address: Bubenská 1477/1
 directions:
 postcode: 170 00

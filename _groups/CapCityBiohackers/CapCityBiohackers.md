@@ -3,9 +3,9 @@ title: Cap City Biohackers
 manager: 
 website: http://www.capcitybiohackers.org/
 start-date: 2015
-host-org: "[Rev1 Ventures](https://www.rev1ventures.com/)"
+hosts: "[Rev1 Ventures](https://www.rev1ventures.com/)"
 type-org: Community
-affiliates: 
+partners: 
 address: 
 directions: 
 postcode: 

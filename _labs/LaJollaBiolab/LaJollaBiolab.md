@@ -4,9 +4,9 @@ manager:
 logo:
 website: http://lajollalibrary.org/your-library/bio-lab/
 start-date: 2015
-host-org: "[La Jolla Public Library](http://lajollalibrary.org/)"
+hosts: "[La Jolla Public Library](http://lajollalibrary.org/)"
 type-org:
-affiliates:
+partners:
 address: 7555 Draper Ave
 directions:
 postcode: 92037

@@ -3,9 +3,9 @@ title: Capital Area BioSpace
 manager:
 website: https://www.meetup.com/CapitalAreaBioSpace/
 start-date:
-host-org: "[Nova Labs](http://www.nova-labs.org/blog/)"
+hosts: "[Nova Labs](http://www.nova-labs.org/blog/)"
 type-org: Community
-affiliates:
+partners:
 address: 1916 Isaac Newton Square West
 directions:
 postcode: 20190

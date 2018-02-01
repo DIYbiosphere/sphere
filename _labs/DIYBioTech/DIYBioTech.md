@@ -5,9 +5,9 @@ tags:
 manager:
 start-date: 2013
 end-date: 2016
-host-org: "[FamiLAB](https://familab.org/)"
+hosts: "[FamiLAB](https://familab.org/)"
 type-org:
-affiliates:
+partners:
 address: 1355 Bennett Dr.
 directions: Suite 105
 postcode: 32750

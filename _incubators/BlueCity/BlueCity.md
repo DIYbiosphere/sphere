@@ -4,9 +4,9 @@ manager:
 logo: 
 website: http://www.bluecity.nl/
 start-date: 2017
-host-org: Blue City
+hosts: Blue City
 type-org: 
-affiliates: 
+partners: 
 address: Maasboulevard 100
 directions: 
 postcode: 

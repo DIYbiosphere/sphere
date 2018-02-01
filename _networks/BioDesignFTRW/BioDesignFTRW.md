@@ -4,9 +4,9 @@ manager:
 logo: https://filopodia.files.wordpress.com/2013/10/cropped-biodesign-logo-green.png
 website: https://biodesign.cc/
 start-date: 
-host-org: 
+hosts: 
 type-org: 
-affiliates:
+partners:
 - EPFL
 - "(Art)ScienceBLR"
 - Lifepatch

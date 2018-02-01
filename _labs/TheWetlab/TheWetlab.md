@@ -3,9 +3,9 @@ title: The Wet Lab
 manager:
 logo:
 start-date: 2013
-host-org: La Jolla Public Library
+hosts: La Jolla Public Library
 type-org:
-affiliates:
+partners:
 address: 847 14th St
 directions:
 postcode: 92101

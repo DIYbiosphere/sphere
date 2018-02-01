@@ -69,7 +69,7 @@ const EMPTY_TEMPLATE =
 
 const HIT_TEMPLATE = `
 <div class="ui basic segment xo padding bottom">
-  <div class="ui relaxed items">
+  <div class="ui relaxed link items">
   	<div class="item">
   	  {{ #logo }}
   		<div class="ui tiny image">
@@ -80,17 +80,17 @@ const HIT_TEMPLATE = `
   		<span class="meta right floated">
       <i class="far fa-map-marker-alt fa-fw fa-xs"></i>{{#city}} {{{ _highlightResult.city.value }}}, {{/city}} {{#country}}{{{ _highlightResult.country.value }}} |{{/country}} {{#start-date}} {{start-date}} {{/start-date}}{{#end-date}} - {{end-date}} {{/end-date}}
       </span>
-  	    <a href="{{url}}" class="header">{{{ _highlightResult.title.value }}}</a>
+  	    <div class="ui header"><a href="{{url}}">{{{ _highlightResult.title.value }}}</a></div>
   	    <div class="meta">
   	      <span>
           {{#project}}Project {{/project}}{{#startup}}Startup {{/startup}}{{#lab}}Lab {{/lab}}{{#incubator}}Incubator {{/incubator}}{{#group}}Group {{/group}}{{#network}}Network {{/network}}{{#event}}Event {{/event}}{{#other}}Other {{/other}}
           {{#hostsArray}} {{#project}}by {{/project}} {{^project}}at {{/project}}{{/hostsArray}}
           {{#hostsSimple}}<em>{{ . }} </em>{{/hostsSimple}}
-          {{#affiliatesArray}}with {{/affiliatesArray}}
-          {{#affiliatesSimple}}<em>{{ . }} </em>{{/affiliatesSimple}}
-          {{#affiliatesArray}}as collaborators {{/affiliatesArray}}
+          {{#partnersArray}}with {{/partnersArray}}
+          {{#partnersSimple}}<em>{{ . }} </em>{{/partnersSimple}}
+          {{#partnersArray}}as collaborators {{/partnersArray}}
           </span>
-  	    </div>
+  	    </div> <!-- meta -->
   	    <div class="description">
   	      <p>{{{ _highlightResult.content.value }}}</p>
   	    </div>
@@ -98,17 +98,16 @@ const HIT_TEMPLATE = `
           <div class="ui horizontal small link list">
             <div class="item"><i class="far fa-tags"></i></div>
               {{#tags}}
-      			 <a class="item" href="/entries/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ . }}">
+      			 <a class="item" href="/browse/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ . }}">
               {{ . }}
              </a>
              {{/tags}}
-          </div>
-          <i class="far fa-map-marker fa-fw" data-fa-transform="shrink-2></i>{{#city}} {{{ _highlightResult.city.value }}}, {{/city}} {{#country}}{{{ _highlightResult.country.value }}} {{/country}}
-  			</div>
-  	  </div>
-  	</div>
-  </div>
-</div>
+          </div> <!-- list -->
+  			</div> <!-- extra -->
+  	  </div> <!-- content -->
+  	</div> <!-- item -->
+  </div> <!-- items -->
+</div> <!-- segment -->
 `;
 
 const TABLE_TEMPLATE = `

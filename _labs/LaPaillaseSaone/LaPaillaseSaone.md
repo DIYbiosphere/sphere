@@ -3,9 +3,9 @@ title: La Paillase Saône
 manager:
 website: https://lapaillassaone.wordpress.com/
 start-date: 2015
-host-org: La MYNE
+hosts: La MYNE
 type-org:
-affiliates:
+partners:
 address: 1 Rue du Luizet
 directions:
 postcode: 69100

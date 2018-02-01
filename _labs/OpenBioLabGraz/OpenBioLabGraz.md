@@ -3,9 +3,9 @@ title: Open bioLab Graz Austria
 manager:
 website: https://realraum.at/wiki/doku.php?id=olga:olga
 start-date: 2013
-host-org: "[Real Raum](https://realraum.at/wiki/doku.php?id=realraum)"
+hosts: "[Real Raum](https://realraum.at/wiki/doku.php?id=realraum)"
 type-org:
-affiliates:
+partners:
 address: Brockmanngasse 15
 directions:
 postcode: 8010

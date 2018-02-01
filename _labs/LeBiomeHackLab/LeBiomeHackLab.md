@@ -5,9 +5,9 @@ tags:
 manager:
 website: https://lebiome.github.io/
 start-date:
-host-org:
+hosts:
 type-org:
-affiliates:
+partners:
 address:
 directions:
 postcode:

@@ -5,9 +5,9 @@ logo:
 website: 
 start-date: 2017-05-10 00:00:00 Z
 end-date: 2017-05-14 00:00:00 Z
-host-org: 
+hosts: 
 type-org: 
-affiliates:
+partners:
 - 
 address: 
 directions: 

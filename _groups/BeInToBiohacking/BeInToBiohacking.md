@@ -7,9 +7,9 @@ manager:
 subtitle: Biohacking Experience in Torino
 website: http://fablabtorino.org/be-in-to/
 start-date: 2014
-host-org: "[FabLab Torino](http://fablabtorino.org/)"
+hosts: "[FabLab Torino](http://fablabtorino.org/)"
 type-org: Community
-affiliates:
+partners:
 address: Via Egeo 16
 directions:
 postcode: 10134

@@ -8,9 +8,9 @@ subtitle: Biohackers, Nootropics & Limitless MeetUps
 website: http://hackstronaut.com/
 start-date: 2016
 predecessor: Biohackers NYC
-host-org: 
+hosts: 
 type-org: Community
-affiliates: 
+partners: 
 address: 
 directions: 
 postcode: 

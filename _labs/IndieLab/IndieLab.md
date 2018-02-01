@@ -3,9 +3,9 @@ title: Indie Lab
 manager: 
 website: http://rva.indielab.co/
 start-date: 2012
-host-org: "[Hack RVA](http://www.hackrva.org/blog/)"
+hosts: "[Hack RVA](http://www.hackrva.org/blog/)"
 type-org: 
-affiliates: 
+partners: 
 address: 1600 Roseneath Rd
 directions: 
 postcode: 23230

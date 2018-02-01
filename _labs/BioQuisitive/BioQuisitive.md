@@ -4,9 +4,9 @@ manager:
 alias: Melbourn BioHack
 website: http://bioquisitive.org.au/
 start-date: 2015
-host-org:
+hosts:
 type-org:
-affiliates:
+partners:
 address: 45 Talbot St.
 directions:
 postcode: 3056

@@ -3,9 +3,9 @@ title: Gene Garage
 manager: 
 website: 
 start-date: 2015
-host-org: Tecnologico de Monterrey, Campus Guadalajara
+hosts: Tecnologico de Monterrey, Campus Guadalajara
 type-org: University
-affiliates: 
+partners: 
 address: 
 directions: 
 postcode: 

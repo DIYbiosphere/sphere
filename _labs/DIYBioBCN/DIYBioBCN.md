@@ -3,9 +3,9 @@ title: DIY Bio Barcelona
 manager:
 website: http://www.diybcn.org/
 start-date: 2014
-host-org: "[MADE](http://made-bcn.org/)"
+hosts: "[MADE](http://made-bcn.org/)"
 type-org: Non-Profit
-affiliates:
+partners:
 address: Carrer Consell de Cent, 159
 directions:
 postcode: 08015

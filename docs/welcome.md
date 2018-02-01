@@ -1,9 +1,6 @@
 ---
-title: Welcome to the docs!
 layout: docs
-crumb: none
-comments_issue: 11
-edit_issue: 12
+title: Welcome to the docs!
 ---
 Start in the **Introduction**, to get a general [Overview] of the project, and to see some pointers on [Getting Started] in the project.
 
@@ -13,4 +10,12 @@ The **Guides** are reference manuals for contributing and collaborating on the p
 
 **Tutorials** are the _how-tos_ with step-by-step instructions, like for [adding new entries][add], [editing entries][edit], [using github], and much more.
 
-![corgi hello](/assets/gifs/welcome.gif){: .ui .centered .image}
+#### Table of Contents of Documentation
+
+- Introduction
+  - Overview
+  - Getting Started
+- Basics
+  -
+- Guides
+- Tutorials

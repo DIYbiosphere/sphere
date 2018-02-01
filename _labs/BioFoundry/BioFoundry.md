@@ -4,9 +4,9 @@ manager:
 subtitle: Australia's first community lab for citizen scientists
 website: http://foundry.bio/
 start-date: 2014
-host-org:
+hosts:
 type-org:
-affiliates:
+partners:
 address: 296 Botany Road
 directions:
 postcode: 2015

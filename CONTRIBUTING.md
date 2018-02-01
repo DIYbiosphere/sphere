@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Contributing Guide # Keep links in this page. Only markdown syntax. Copy file to .github folder as 'CONTRIBUTING.md'
+title: Contributing Guide
 permalink: /docs/guides/contributing
 draft: true
 ---
@@ -21,7 +21,7 @@ All you need is a GitHub account ([sign up](https://github.com/join)). You also 
 
 
 ## Your First Contribution
-For writing entries you can just follow our tutorials for [adding](http://sphere.diybio.org/docs/tutorials/add-entry/users) or [editing](http://sphere.diybio.org/docs/tutorials/edit-entry/users) entries. If you are a member, you have _write_ access to the 'master' branch and can edit directly. Ask to join by [submitting an issue](https://github.com/DIYbiosphere/sphere/issues/new) requesting membership.
+For writing entries you can just follow our tutorials for [adding](http://sphere.diybio.org/docs/tutorials/add-entry) or [editing](http://sphere.diybio.org/docs/tutorials/edit-entry/users) entries. If you are a member, you have _write_ access to the 'master' branch and can edit directly. Ask to join by [submitting an issue](https://github.com/DIYbiosphere/sphere/issues/new) requesting membership.
 
 If you are planning on making many changes to different files consider doing them all at once in your own _fork_, _branch_ or in the 'writing-entries' branch before submitting a pull request. Alternatively, look at how you can [contribute like a pro](#contribute-like-a-pro) by working locally in your computer.
 

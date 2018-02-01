@@ -6,9 +6,9 @@ manager:
 logo: http://brico.bio/images/logo.png
 website: logo
 start-date: 2013
-host-org: "[Helios Makerspace](http://heliosmakerspace.ca/)"
+hosts: "[Helios Makerspace](http://heliosmakerspace.ca/)"
 type-org:
-affiliates:
+partners:
 address: 137 Rue Saint-Ferdinand
 directions:
 postcode: H4C 2B9

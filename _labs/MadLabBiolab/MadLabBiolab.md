@@ -4,9 +4,9 @@ manager:
 logo:
 website: https://madlab.org.uk/community-biotechnology/
 start-date:
-host-org:
+hosts:
 type-org:
-affiliates:
+partners:
 address: 36-40 Edge St
 directions:
 postcode: M4 1HN

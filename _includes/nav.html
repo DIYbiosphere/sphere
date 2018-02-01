@@ -1,20 +1,17 @@
 <header>
   <nav>
     <div class="ui grid container">
-      <!-- Computer Nav -->
-      <div class="computer only row">
+
+      <div class="computer only row"> <!-- Layout for computers only -->
         <div class="ui fluid large borderless blue menu">
-          <!-- LOGO & LINK TO LANDING PAGE -->
           {% include nav/logo.html %}
           {% include nav/browse-all.html %}
-          <!-- search -->
           <div class="item">
-            <div class="ui fluid transparent icon input">
+            <div class="ui fluid transparent icon input"> <!-- Algolia autocomplete search for computer. Settings at `assets/hs/autocomplete.es6` -->
               <input type="text" id="aa-search-input" class="aa-input-search" placeholder="Search DIYbio initiatives" autocomplete="on" />
               <i class="search icon"></i>
             </div>
           </div>
-
           <div class="right menu">
             <div class="ui dropdown item">
               <b>ABOUT</b>
@@ -23,7 +20,6 @@
                 {% include nav/about.html %}
               </div>
             </div>
-            <!-- CONTRIBUTE NAV -->
             <div class="ui dropdown item">
               <b>CONTRIBUTE</b>
               <i class="angle down icon"></i>
@@ -31,27 +27,25 @@
                 {% include nav/contribute.html %}
               </div>
             </div>
-          </div> <!-- close  menu-->
-        </div> <!-- end menu -->
-      </div> <!-- end computer menu -->
+          </div>
+        </div>
+      </div>
 
-      <div class="tablet only row">
+      <div class="tablet only row"> <!-- Layout for tablets only -->
         <div class="ui fluid large borderless blue menu">
-          <!-- LOGO & LINK TO LANDING PAGE -->
           {% include nav/logo.html %}
           {% include nav/browse-all.html %}
-          <!-- search -->
           <div class="item">
-            <div class="ui fluid transparent icon input">
+            <div class="ui fluid transparent icon input"> <!-- Algolia autocomplete search for tablet. Settings at `assets/hs/autocomplete.es6` -->
               <input type="search" id="aa-search-input-tablet" class="aa-input-search" placeholder="Search DIYbio initiatives" name="search" autocomplete="on" />
               <i class="search icon"></i>
             </div>
           </div>
           {% include nav/hamburger.html %}
-        </div> <!-- end menu -->
+        </div>
       </div>
 
-      <div class="mobile only row">
+      <div class="mobile only row"> <!-- Layout for mobiles only -->
         <div class="ui fluid borderless blue menu xo marginless">
           {% include nav/logo.html %}
           {% include nav/browse-all.html %}
@@ -59,14 +53,14 @@
         </div>
         <div class="ui fluid borderless menu xo marginless center aligned">
           <div class="item">
-            <div class="ui fluid transparent icon input">
+            <div class="ui fluid transparent icon input">  <!-- Algolia autocomplete search for mobile. Settings at `assets/hs/autocomplete.es6` -->
               <input type="search" id="aa-search-input-mobile" class="aa-input-search" placeholder="Search DIYbio initiatives" name="search" autocomplete="on" />
               <i class="search icon"></i>
             </div>
           </div>
         </div>
-      </div> <!-- close mobile row -->
+      </div>
 
-    </div> <!-- close grid -->
+    </div>
   </nav>
 </header>

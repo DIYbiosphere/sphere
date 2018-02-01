@@ -1,21 +1,30 @@
 ---
 layout: docs
-comments_issue: 21
-edit_issue: 22
-title: Documentation in DIYbiosphere
+title: Tools in the Documentation
 draft: true
 ---
 
-The documentation refers to all guides, tutorials, and reference manuals that pertain to DIYbiosphere. These are in plain text files in markdown syntax. In addition, there are several add-ins, such as _hints_, GIFS and expandable tutorials and _pop-overs_.
+The documentation refers to all guides, tutorials, and reference manuals that pertain to DIYbiosphere. These are in plain text files in markdown syntax in the `./docs/` folder in the repo, and at: sphere.diybio.org/docs. To make the documentation more easy to read, several add-ins such as _message boxes_ and videos, _pop-overs_, etc.
 
-## Hints
-There are four types of hints:
+## Message boxes
+There are four types of message boxes:
 
 {% include messages/info.html %}
 
+{% include messages/exclamation.html %}
 
-The code files for the hints are in the `_include` folder
+{% include messages/question.html %}
+
+{% include messages/star.html %}
+
+code files for the hints are in the `_include` folder
 
 
-## Wiki
-In the wiki of github we post more detailed content on how to write and code for the DIYbiosphere project.
+
+## Videos
+
+## Images
+
+
+
+The

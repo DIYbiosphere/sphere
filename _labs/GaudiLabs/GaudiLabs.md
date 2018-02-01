@@ -3,9 +3,9 @@ title: GaudiLabs
 manager:
 website: http://www.gaudi.ch/GaudiLabs/
 start-date:
-host-org:
+hosts:
 type-org:
-affiliates:
+partners:
 address: Neustadtstrasse 7
 directions:
 postcode: 6003

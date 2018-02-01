@@ -3,9 +3,9 @@ title: ReaGent
 manager:
 website: http://reagentlab.org/
 start-date: 2015
-host-org:
+hosts:
 type-org: Community
-affiliates:
+partners:
 address: Brusselsepoortstraat 97
 directions:
 postcode: 9000

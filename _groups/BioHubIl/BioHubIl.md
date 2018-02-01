@@ -4,7 +4,7 @@ manager:
 website: http://biohubil.org/
 start-date: 2015
 type-org: Non-profit
-affiliates:
+partners:
 address:
 directions:
 postcode:

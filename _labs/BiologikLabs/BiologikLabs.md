@@ -3,9 +3,9 @@ title: Biologik Labs
 manager:
 website: http://www.biologiklabs.org/
 start-date: 2013
-host-org:
+hosts:
 type-org:
-affiliates:
+partners:
 address: 259 Granby St.
 directions: Suite 250
 postcode: Suite 250

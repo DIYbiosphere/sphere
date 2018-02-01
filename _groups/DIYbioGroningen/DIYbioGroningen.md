@@ -4,9 +4,9 @@ manager:
 subtitle: A vribrant community of makers, hackers, and do-it-yourself biologists
 website: http://www.diybiogroningen.org/
 start-date: 2013
-host-org: "[Fablab Groningen](http://www.fablabgroningen.nl/)"
+hosts: "[Fablab Groningen](http://www.fablabgroningen.nl/)"
 type-org: Community
-affiliates:
+partners:
 address:
 directions:
 postcode:

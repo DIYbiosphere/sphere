@@ -3,9 +3,9 @@ title: LifePatch
 manager:
 subtitle: Citizen Initiative in Art, Science and Technology
 start-date:
-host-org:
+hosts:
 type-org:
-affiliates:
+partners:
 address:
 directions:
 postcode:

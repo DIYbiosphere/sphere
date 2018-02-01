@@ -5,9 +5,9 @@ mott: The Minnesota Biology Group
 logo:
 website: http://mn.diy-bio.org/Wordpress/
 start-date: 2015
-host-org: "[Spark-Y](http://spark-y.org/)"
+hosts: "[Spark-Y](http://spark-y.org/)"
 type-org:
-affiliates:
+partners:
 address: 4432 Chicago Ave S.
 directions:
 postcode: 55407

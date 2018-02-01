@@ -3,9 +3,9 @@ title: Open Wetlab
 manager:
 website: https://waag.org/en/lab/open-wetlab
 start-date: 2012
-host-org: "[Waag Society](http://waag.org/en)"
+hosts: "[Waag Society](http://waag.org/en)"
 type-org:
-affiliates:
+partners:
 address: Nieuwmarkt 4
 directions:
 postcode: 1012 CR

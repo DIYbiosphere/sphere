@@ -3,8 +3,8 @@ title: Manila Biopunk
 manager: 
 website: http://www.manilabiopunk.org/
 start-date: 2014
-host-org: Tsinelas Labs
-affiliates: 
+hosts: Tsinelas Labs
+partners: 
 address: 41B T. Gener St cor Kamuning
 directions: 
 postcode: 

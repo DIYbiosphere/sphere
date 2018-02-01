@@ -5,9 +5,9 @@ tags:
 manager:
 website: http://biologigaragen.org/
 start-date: 2010
-host-org: "[Labitat](https://labitat.dk/)"
+hosts: "[Labitat](https://labitat.dk/)"
 type-org:
-affiliates:
+partners:
 address: H. C. Ørsteds Vej 5
 directions:
 postcode: 1879 Frederiksberg

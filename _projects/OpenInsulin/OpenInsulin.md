@@ -4,6 +4,10 @@ subtitle: We're a team of Bay Area biohackers working on newer, simpler, less ex
 website: http://openinsulin.org/
 start-date: 2015
 type-org: community
+hosts: Counter Culture Labs
+partners:
+  - SoundBio Lab
+  - Bio Foundry
 city: Oakland
 country: United States
 twitter:
@@ -15,4 +19,3 @@ tags:
 
 # About
 We believe that insulin should be freely available to anybody who needs it. So, we're developing the first freely available, open protocol for insulin production. We hope our research will be the basis for generic production of this life-saving drug. Additionally, we hope our work inspires other biohackers to band together and create things nobody has ever thought of before!
-

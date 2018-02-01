@@ -4,9 +4,9 @@ manager:
 logo: http://www.thel4b.com/wp-content/uploads/2015/07/thel4b_name1.png
 website: http://www.thel4b.com/
 start-date: 2011
-host-org:
+hosts:
 type-org: Community
-affiliates:
+partners:
 address: 1340 E. 6th St.
 directions:
 postcode: 90021

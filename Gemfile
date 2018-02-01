@@ -23,7 +23,6 @@ group :jekyll_plugins do
   gem 'jekyll-gist'
   gem 'jekyll-assets'
   gem 'jekyll-sitemap'
-  gem 'jekyll-seo-tag'
   gem 'jekyll-mentions'
   gem 'jekyll-algolia'
   gem 'jekyll-contentblocks'

@@ -6,9 +6,9 @@ manager:
 logo:
 website: http://www.opensciencenet.org/
 start-date: 2010
-host-org: "[MakerLabs](http://www.makerlabs.com/)"
+hosts: "[MakerLabs](http://www.makerlabs.com/)"
 type-org:
-affiliates:
+partners:
 address: 780 East Cordova Street
 directions:
 postcode: V6A

@@ -3,15 +3,21 @@ title: Kombucha Genomics
 subtitle:
 website:
 start-date: November 14, 2017
+hosts: Counter Culture Labs
+partners:
+  - Biocurious
+  - Biomakers Lab Peru
+  - BosLab
+  - SoundBio Lab
 type-org: community
 city: Oakland
+state: California
 country: United States
-twitter:
-facebook:
 promotions:
   - button: Join List
     text: Get notified about the next meeting.
     URL: http://tinyurl.com/kombuchamailinglist
+mailing-list: https://groups.google.com/forum/#!forum/kombuchagenomics
 tags:
   - metagenomics
   - food
@@ -21,13 +27,6 @@ tags:
 
 ## About
 This is collaborative project for community labs globally, hosted by Counter Culture Labs in Oakland, California. The goal of the project is to characterize kombucha, i.e. go through all the steps to isolate and identify a variety of bacterial and yeast strains from kombucha, starting with the basic culturing and progressing all the way through DNA barcoding, genome and microbiome sequencing, systems biology, synthetic biology, and more! The first phase of the project is expected to take about ~6 months.
-
-## Participating Community Labs
-+ [Counter Culture Labs](http://sphere.diybio.org/labs/CounterCultureLabs/CounterCultureLabs)
-+ [BioCurious](http://sphere.diybio.org/labs/Biocurious/Biocurious) 
-+ [BioMakers Lab Peru](http://sphere.diybio.org/labs/BioMakersLabPeru/BioMakersLabPeru)
-+ [BosLab](http://sphere.diybio.org/labs/BosLab/BosLab) 
-+ Sound Bio
 
 ## How to get involved
 1. Join the Kombucha Genomics [Mailing List](http://tinyurl.com/kombuchamailinglist)

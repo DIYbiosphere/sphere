@@ -27,6 +27,7 @@
 [gh_desktop]: https://desktop.github.com "GitHub Desktop"
 [sphere]: http://sphere.diybio.org "DIYbiosphere"
 [gh_sphere]: https://github.com/DIYbiosphere/sphere "Sphere GitHub repo"
+[gh_new]: https://github.com/DIYbiosphere/sphere/issues/new "Create a new issue"
 [gh_repo]: https://github.com/DIYbiosphere/sphere "Sphere GitHub repo"
 [gh_org]: https://github.com/DIYbiosphere "DIYbiosphere GitHub organization"
 [gh_members]: https://github.com/orgs/DIYbiosphere/people "People at DIYbiosphere GitHub organization"
@@ -116,7 +117,7 @@
 [contributing-issues-suggestion]: /docs/guides/contributing#make-a-suggestion
 [contributing-issues-question]: /docs/guides/contributing#ask-a-question
 [contributing-issues-membership]: /docs/guides/contributing#membership-request
-[join]: /docs/guides/contributing#membership-request
+[join]: /about/community/#how-to-join
 [contributing-issues-broken-link]: /docs/guides/contributing#report-a-broken-link
 [contributing-commits]: /docs/guides/contributing#making-commits
 [contributing-pr]: /docs/guides/contributing#submitting-pull-requests
@@ -136,8 +137,7 @@
 [writing-references]: /docs/guides/writing#references
 [eli5 guide]: /docs/guides/github-eli5
 [github eli5]: /docs/guides/github-eli5
-[add]: /docs/tutorials/add-entry/users "How to add an entry"
-[add-members]: /docs/tutorials/add-entry/members
+[add]: /docs/tutorials/add-entry "How to add an entry"
 [view the render]: /docs/tutorials/AvocadoLab/AvocadoLab
 [edit]: /docs/tutorials/edit-entry/users "How to edit an entry"
 [edit-members]: /docs/tutorials/edit-entry/members

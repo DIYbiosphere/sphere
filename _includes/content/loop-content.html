@@ -1,0 +1,60 @@
+
+{% for files in site.collections %}
+  {% assign entries = files.docs %}
+  {% for entry in entries %}
+    {% for host in entry.hosts %}
+      {% if host == page.title %}
+        {% assign hostsSphere = true %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
+
+{% for files in site.collections %}
+  {% assign entries = files.docs %}
+  {% for entry in entries %}
+    {% for partner in entry.partners %}
+      {% if partner == page.title %}
+        {% assign partnersSphere = true %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
+
+
+{% if hostsSphere or partnersSphere %}
+<h3 class="ui header">Mentions in diybiosphere</h3>
+{% endif %}
+
+{% if hostsSphere %}
+<h5 class="ui header">Hosting</h5>
+  <div class="ui list">
+    {% for files in site.collections %}
+      {% assign entries = files.docs %}
+      {% for entry in entries %}
+        {% for host in entry.hosts %}
+          {% if host == page.title %}
+            <div class="item"><a href="{{ entry.url }}">{{ entry.title }} {{ entry.collection  | capitalize | append: '%' | remove: 's%'}}</a></div>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+
+{% if partnersSphere %}
+<h5 class="ui header">Partnerships</h5>
+  <div class="ui list">
+    {% for files in site.collections %}
+      {% assign entries = files.docs %}
+      {% for entry in entries %}
+        {% for partner in entry.partners %}
+          {% if partner == page.title %}
+            <div class="item"><a href="{{ entry.url }}">{{ entry.title }} {{ entry.collection  | capitalize | append: '%' | remove: 's%'}}</a></div>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+{% endif %}
