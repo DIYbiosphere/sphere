@@ -14,24 +14,25 @@
   <table class="ui very basic small compact table" style="table-layout:fixed">
     <tbody>
       <tr>
-        <th style="word-wrap: break-word;">
+        <td style="word-wrap: break-word;">
           <a class="noelink" href="{{ page.website }}" target="_blank">
             {{ page.website }}
           </a>
-        </th>
+        </td>
       </tr>
     </tbody>
   </table>
   {% endif %}
 
-  <table class="ui very basic small compact table" style="table-layout:fixed">
+  <table class="ui very basic small compact table">
     <tbody>
+
       <tr>
         <td>
           <b>Collection:</b>
         </td>
         <td>
-          <a class="noelink" href="/entries/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D={{ page.collection }}" target="_blank">
+          <a class="noelink" href="/browse/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D={{ page.collection }}" target="_blank">
             {% if page.project %}<i class="far fa-briefcase icon"></i>&nbsp;<b>project</b>{% endif %}
             {% if page.startups %}<i class="far fa-rocket icon"></i>&nbsp;<b>startup</b>{% endif %}
             {% if page.lab %}<i class="far fa-flask icon"></i>&nbsp;<b>lab</b>{% endif %}
@@ -160,40 +161,57 @@
       {% endif %}
 
 
-      {% if page.host-org %}
-      <tr>
+      {% if page.hosts %}
+      <tr class="top aligned">
         <td>
           <span data-tooltip="Host or Parent Organization" data-variation="mini" data-inverted="">
             <b>Host:</b>
           </span>
         </td>
         <td>
-          {% if page.host-org contains 'http' %}
-            {{ page.host-org | markdownify }}
+          <div class="ui list">
+          {% for host in page.hosts %}
+            {% if host contains 'http' %}
+            <div class="item">{{ host | markdownify }}</div>
             {% else %}
-            {% for lab in site.labs %}
-              {% if lab.title==page.host-org %}
-              <a class="noelink" href="{{ lab.url | prepend: site.baseurl }}">
-                {{ lab.title }}
-              </a>
-              {% else %}
-              {{ page.host-org }}
-              {% break %}
-              {% endif %}
-            {% endfor %}
-          {% endif %}
+              {% for files in site.collections %}
+              {% assign entries = files.docs %}
+                {% for entry in entries %}
+                 {% if host == entry.title %}
+                 <div class="item"><a href="{{ entry.url }}">{{ entry.title }}</a></div>
+                 {% endif %}
+                {% endfor %}
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+          </div>
         </td>
         </tr>
       </tr>
       {% endif %}
 
-      {% if page.affilliations %}
-      <tr>
+      {% if page.partners %}
+      <tr class="top aligned">
         <td>
-          Affiliations:
+          <b>Partners:</b>
         </td>
         <td>
-          {{ page.afilliations | markdownify }}
+          <div class="ui list">
+          {% for partner in page.partners %}
+            {% if partner contains 'http' %}
+            <div class="item">{{ partner | markdownify }}</div>
+            {% else %}
+              {% for files in site.collections %}
+              {% assign entries = files.docs %}
+                {% for entry in entries %}
+                 {% if partner == entry.title %}
+                 <div class="item"><a href="{{ entry.url }}">{{ entry.title }}</a></div>
+                 {% endif %}
+                {% endfor %}
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+          </div>
         </td>
         </tr>
       </tr>
@@ -231,6 +249,8 @@
           </span>
         </td>
         <td>
+          <span>
+            <a href="http://maps.google.com/?q={% if page.address %}{{ page.address }}+{% endif %}{% if page.city %}{{ page.city }}+{% endif %}{% if page.state %}{{ page.state }}+{% endif %}{% if page.country %}{{ page.country }}+{% endif %}">
           {% if page.address %}
           {{ page.address }}{% if page.directions %}, {{ page.directions }}{% endif %} <br>
           {% endif %}
@@ -242,6 +262,8 @@
             {{ page.country }}
             {% endif %}
           {% endif %}
+            </a>
+          </span>
         </td>
       </tr>
     </tbody>
@@ -251,11 +273,8 @@
         <th colspan="2">
           <b>Tags:</b>
           {% for tag in page.tags %}
-          <span class="xo right padding">
-            <a  href="/entries/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ tag }}">
-              {{ tag }}&nbsp;
-            </a>
-          </span>
+            <a href="/browse/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ tag }}">
+              {{ tag }}</a>{% if forloop.last != true %}, {% endif %}
           {% endfor %}
         </th>
       </tr>

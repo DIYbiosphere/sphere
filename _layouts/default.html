@@ -9,13 +9,15 @@
     {% include footer.html %}
 
 
-    <span class="gitter-chat-button" data-tooltip="Open Gitter Chat" data-variation="mini" data-inverted="">
-    <button class="js-gitter-toggle-chat-button ui circular purple big button icon">
 
-        <i class="fab fa-gitter icon"></i>
+      <button class="js-gitter-toggle-chat-button ui button">
+          <div class="fa-4x">
+          <span class="fa-layers fa-fw" data-tooltip="Open Gitter Chat" data-variation="mini" data-inverted="">
+            <i class="fas fa-circle" style="color:mediumorchid"></i>
+            <i class="fa-inverse fab fa-gitter" data-fa-transform="shrink-8"></i>
+          </span>
+      </button>
 
-    </button>
-    </span>
 
     <script>
       ((window.gitter = {}).chat = {}).options = {
@@ -26,7 +28,7 @@
 
     <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
-    <script type="text/javascript">$('.gitter-chat-button').popup({ target   : '.js-gitter-toggle-chat-button', content    : 'My favorite dog', inline: true});</script>
+    <script type="text/javascript">$('.js-gitter-toggle-chat-button').popup({ target   : '.js-gitter-toggle-chat-button', content    : 'My favorite dog', inline: true});</script>
 
 
 

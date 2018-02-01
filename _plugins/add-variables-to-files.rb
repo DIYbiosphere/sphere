@@ -42,6 +42,10 @@ module AddVariablesToFiles
               doc.data["startup"] = true
             end
 
+            if docDir.include? "_networks"
+              doc.data["network"] = true
+            end
+
             if docDir.include? "_events"
               doc.data["event"] = true
             end

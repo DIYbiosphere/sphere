@@ -5,6 +5,8 @@ website: https://realvegancheese.org/
 start-date: 2014
 type-org: Community
 hosts: Counter Culture Labs
+partners:
+  - Biocurious
 city: Oakland
 state: California
 country: United States

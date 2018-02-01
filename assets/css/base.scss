@@ -4,16 +4,30 @@
 
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600');
 
-
+body {
+  font-family: 'Source Code Pro', monospace;
+}
 
 .infobox {
   min-width: 250px;
 
-  table tr td {
+table tr td {
     border-top: 0px !important;
+
   }
 }
 
+table {
+  a:not(.noelink)[href^="http"]:after {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    content: "";
+    background: url('/assets/img/external-link.png') no-repeat 0 0;
+    background-size: 100%;
+  }
+}
 
 
 article {
@@ -89,14 +103,14 @@ pre code {
   display: block;
   padding: 15px;
   white-space: pre-wrap;       /* css-3 */
- white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
- white-space: -pre-wrap;      /* Opera 4-6 */
- white-space: -o-pre-wrap;    /* Opera 7 */
- word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
 code {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Source Code Pro', monospace !important;
   font-size: 0.9em;
   background-color: #EFEFEF !important;
 }

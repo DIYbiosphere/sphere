@@ -3,9 +3,8 @@ title: Counter Culture Labs
 subtitle: Your Biohacking and Citizen Science Lab in Oakland
 website: http://counterculturelabs.org/
 start-date: 2013
-hosts: "[Omni Commons](https://diybio.org/)"
+hosts: "[Omni Commons](https://omnicommons.org)"
 type-org: Community
-partners: "[Sudo Room](https://diybio.org/)"
 address: 4799 Shattuck
 directions:
 postcode: 94114
@@ -22,6 +21,7 @@ tags:
 - biohacking
 - bioart
 ---
+
 
 We are Counter Culture Labs, a community of scientists, tinkerers, biotech professionals, hackers, and citizen scientists who have banded together to create an open community lab — a hackerspace for DIY biology and citizen science. Help us build a space for creative exploration and discovery: a place to innovate, learn, work on fun projects, and tinker with biology and other sciences. Help us build YOUR lab!
 

@@ -6,8 +6,8 @@ start-date: 2016
 type-org: nonprofit
 hosts: Counter Culture Labs
 partners:
-  - '[DIYbio.org](https://twitter.com/DIYbiosphere/)'
-  - UNIGE
+  - DIYbio.org
+  - '[UNIGE](https://twitter.com/DIYbiosphere/)'
 city: Geneva
 country: Switzerland
 twitter: https://twitter.com/DIYbiosphere/

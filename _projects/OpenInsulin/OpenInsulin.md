@@ -5,6 +5,9 @@ website: http://openinsulin.org/
 start-date: 2015
 type-org: community
 hosts: Counter Culture Labs
+partners:
+  - SoundBio Lab
+  - Bio Foundry
 city: Oakland
 country: United States
 twitter:

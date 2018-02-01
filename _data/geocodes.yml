@@ -1,11 +1,21 @@
-
+# These are the geocodes of the entries
 
 - doc_name: DIYbiosphere
+  address:
+  city:
+  postcode:
+  state:
+  country:
   _geoloc:
-    - lat: 46.2043910
-    - lng: 6.1431580
+    lat: 46.2043910
+    lng: 6.1431580
 
 - doc_name: CounterCultureLabs
+  address:
+  city:
+  postcode:
+  state:
+  country:
   _geoloc:
-    - lat: 46.2043910
-    - lng: 6.1431580
+    lat: 46.2043910
+    lng: 6.1431580

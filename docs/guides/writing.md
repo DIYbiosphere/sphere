@@ -4,26 +4,45 @@ title: Writing Entries
 draft: true
 ---
 
-A webpage for an entry has several elements. See them labeled in the image below (hover over the image to remove them).
+8
 
-{% include other/reveal-image.html visible="/docs/tutorials/AvocadoLab/EntryExampleAnatomy.png" hidden="/docs/tutorials/AvocadoLab/EntryExample.png" %}
 
-The elements are rendered from two sections of the entry's text file: The first, the **front matter** is between two lines of three consecutive dashes `---` represents datasets in simple `key: value` pairs written in in _YAML_. The second part is the **markdown text**  written in _Markdown Syntax_. An entry can have several components rendered from the data in the front matter and the text in markdown.
+## Anatomy of an Entry File
+Entries are text files that are rendered into a webpage in HTML. The files have two sections:
 
-## Text
-The **text** comes directly and only from the second part of the file, the _markdown text_. Markdown is pretty simple, see [this guide](https://learnxinyminutes.com/docs/markdown/) from _Learn X in Y Minutes_. Below is a small snippet:
+- the **front matter** is between two lines of three dashes `---` representing datasets in simple `key:value` pairs written in [YAML](https://learnxinyminutes.com/docs/yaml/)).
+- the **markdown text** contains the description, photos and other content of the entry written in simple [Markdown](https://learnxinyminutes.com/docs/markdown/)
 
-```markdown
-# Heading one
+It looks something like this:
+
+```yaml
+---
+title: Avocado Lab # simple key: value pair. there should be a space after the colon ': '
+subtitle: "Doing everything with: avocados" # use quotation marks if using a colon and space
+tags: # for lists/arrays
+  - food lab
+  - citizen science
+hosts: '[Tree Labs](http://treelabs.org)' # to render in markdown, put between quotation marks
+partners: # a list inside a list or also called a hash
+  - title: Fruit Network
+    website: http://fruitnetwork.net
+  - title: Green Foods
+    website: http://greenfoods.com    
+---
+
+# Heading 1
 Writing with _italics_ and with **bold** syntax. Create links by enclosing the word in [brackets](http://linksomewhere.com) followed by the link enclosed in parenthesis. Write in `code`.
 
-## Heading two
+## Heading
 Write a list:
   - one item
   - two item
     - subitem
 
 ```
+
+Check `The Avocado Lab` entry as an example. See the [raw file](https://raw.githubusercontent.com/DIYbiosphere/sphere/master/docs/tutorials/AvocadoLab/AvocadoLab.md) and the [here](/docs/tutorials/AvocadoLab/AvocadoLab).
+
 
 ### Adding images
 Adding images in

@@ -12,7 +12,19 @@ twitter:
 
 
 # Excluded files and dirs
-exclude: ['vendor', 'script', 'Gemfile', 'Gemfile.lock', 'README.md', 'DataReusePlan.txt', '.assets-cache', '.sass-cache', 'node_modules']
+exclude:
+  - vendor
+  - script
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - DataReusePlan.txt
+  - .assets-cache
+  - .sass-cache
+  - node_modules
+  - semantic.json
+  - package-lock.json
+  - package.json
 
 # Build settings
 markdown: kramdown

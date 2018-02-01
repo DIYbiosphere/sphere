@@ -6,9 +6,9 @@
     </div>
 
     <!-- Link to the page in the Github Repository -->
-    <a class="item noelink noul" href="https://github.com/DIYbiosphere/sphere/edit/master/{{page.path}}" target="_blank">
+    <a class="item noelink noul" href="https://github.com/DIYbiosphere/sphere/blob/master/{{page.path}}" target="_blank">
       <span data-tooltip="Edit page in GitHub" data-variation="mini" data-inverted="">
-        <i class="far fa-edit" data-fa-transform="grow-6 right-6"></i>
+        <i class="fal fa-edit" data-fa-transform="grow-6 right-6"></i>
       </span>
     </a>
 
@@ -20,7 +20,7 @@
         {% assign edit_issue = true %}
         <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/{{ issue.edit_issue }}#new_comment_field" target="_blank">
           <span data-tooltip="Add to GitHub Issue" data-variation="mini" data-inverted="">
-            <i class="far fa-bug" data-fa-transform="grow-6 right-6"></i>
+            <i class="fal fa-bug" data-fa-transform="grow-6 right-6"></i>
           </span>
         </a>
         {% endif %}
@@ -30,7 +30,7 @@
     {% if edit_issue != true '%}
     <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/new" target="_blank">
       <span data-tooltip="Open GitHub Issue" data-variation="mini" data-inverted="">
-        <i class="far fa-bug" data-fa-transform="grow-6 right-6"></i>
+        <i class="fal fa-bug" data-fa-transform="grow-6 right-6"></i>
       </span>
     </a>
     {% endif %}

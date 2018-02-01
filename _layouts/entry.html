@@ -6,26 +6,36 @@ layout: default
 <div style="background-image: url({{ page.header }}); background-repeat: no-repeat;  height: 250px; background-size: cover; background-attachment: fixed;">
 </div>
 {% endif %}
-  <div class="ui grid container xo top padding">
+<div class="ui grid container xo top padding">
 
-    <div class="computer only row"> <!-- Layout for computers only -->
-      <div class="eleven wide column">
-        {% include content.html %}
-      </div>
-      <div class="five wide column">
-        {% include entry/infobox.html %}
-        {% include entry/promotions.html %}
-      </div>
+  <div class="computer only row"> <!-- Layout for computers only -->
+    <div class="eleven wide column">
+      {% include content.html %}
     </div>
-
-    <div class="tablet mobile only row">
-      <div class="sixteen wide column"> <!-- Layout for mobiles and tablets only -->
-        {% include entry/infobox.html %}
-      </div>
-      <div class="sixteen wide column xo top padding fourfold">
-        {% include content.html %}
-        {% include entry/promotions.html %}
-      </div>
+    <div class="five wide column">
+      {% include entry/infobox.html %}
+      {% include entry/promotions.html %}
     </div>
-
   </div>
+
+  <div class="tablet only row"> <!-- Layout for computers only -->
+    <div class="nine wide column">
+      {% include content.html %}
+    </div>
+    <div class="seven wide column">
+      {% include entry/infobox.html %}
+      {% include entry/promotions.html %}
+    </div>
+  </div>
+
+  <div class="mobile only row">
+    <div class="sixteen wide column"> <!-- Layout for mobiles and tablets only -->
+      {% include entry/infobox.html %}
+    </div>
+    <div class="sixteen wide column xo top padding fourfold">
+      {% include content.html %}
+      {% include entry/promotions.html %}
+    </div>
+  </div>
+
+</div>
