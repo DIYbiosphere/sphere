@@ -3,9 +3,9 @@ title: BioNyfiken
 manager:
 website: http://www.bionyfiken.se/
 start-date: 2014
-host-org:
+hosts:
 type-org: Non-profit
-affiliates:
+partners:
 address: Drottning Kristinas väg 53
 directions:
 postcode:

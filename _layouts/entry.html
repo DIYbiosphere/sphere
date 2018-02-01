@@ -2,20 +2,16 @@
 layout: default
 ---
 
-<!-- add header if available -->
-
 {% if page.header %}
 <div style="background-image: url({{ page.header }}); background-repeat: no-repeat;  height: 250px; background-size: cover; background-attachment: fixed;">
 </div>
 {% endif %}
-
-<article>
   <div class="ui grid container xo top padding">
-    <div class="computer only row">
+
+    <div class="computer only row"> <!-- Layout for computers only -->
       <div class="eleven wide column">
         {% include content.html %}
       </div>
-
       <div class="five wide column">
         {% include entry/infobox.html %}
         {% include entry/promotions.html %}
@@ -23,15 +19,13 @@ layout: default
     </div>
 
     <div class="tablet mobile only row">
-      <div class="sixteen wide column">
+      <div class="sixteen wide column"> <!-- Layout for mobiles and tablets only -->
         {% include entry/infobox.html %}
       </div>
-
       <div class="sixteen wide column xo top padding fourfold">
         {% include content.html %}
         {% include entry/promotions.html %}
       </div>
-
     </div>
+
   </div>
-</article>

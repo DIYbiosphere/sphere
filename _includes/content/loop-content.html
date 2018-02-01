@@ -1,0 +1,9 @@
+{% if page.lab  %}
+{% endif %}
+
+<h2 class="ui header">Projects</h2>
+{% for project in site.projects %}
+  {% if project.host-org == page.title %}
+    <h3 class="ui header"><a href="{{ project.url }}">{{ project.title }}</a></h3>
+  {% endif %}
+{% endfor %}

@@ -6,9 +6,9 @@ manager:
 website: https://garoa.net.br/wiki/Garoa_Open_BioLab
 start-date: 2011
 status: planning
-host-org: "[Garao Hacker Clube](https://garoa.net.br/wiki/P%C3%A1gina_principal)"
+hosts: "[Garao Hacker Clube](https://garoa.net.br/wiki/P%C3%A1gina_principal)"
 type-org:
-affiliates:
+partners:
   name:
   sphere:
   web:

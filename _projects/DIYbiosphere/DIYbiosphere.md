@@ -4,7 +4,8 @@ subtitle: Connecting DIYbio Worldwide
 website: http://sphere.diybio.org/
 start-date: 2016
 type-org: nonprofit
-affiliates:
+hosts: Counter Culture Labs
+partners:
   - '[DIYbio.org](https://twitter.com/DIYbiosphere/)'
   - UNIGE
 city: Geneva
@@ -19,6 +20,7 @@ tags:
   - software
   - website
 ---
+
 
 ## About
 The DIYbiosphere is an open project of Do-it-Yourself Biology (DIYbio) initiatives from all over the world, accessible (and editable) through the web using GitHub. The goal is to have a common space where the DIYbio community can share about who they are, where, and what they are doing. We believe that a centralized directory could benefit the DIYbio community by increasing visibility to projects, organizations and events. We hope that by connecting people and ideas, they may inspire, learn, and collaborate with each other. Additionally, the project can also serve as a reference point for DIYbio supporters and followers, including journalists, scholars, governmental agencies, and more.

@@ -3,9 +3,9 @@ title: Bioscope
 manager:
 website: http://bioscope.ch/
 start-date: 2014
-host-org: University of Geneva
+hosts: University of Geneva
 type-org: University
-affiliates:
+partners:
 address: Rue de l’Ecole-de-Médecine, 20
 directions:
 postcode: 1205

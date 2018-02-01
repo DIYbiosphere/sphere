@@ -2,9 +2,9 @@
 title: La Paillase
 website: http://lapaillasse.org/
 start-date:
-host-org:
+hosts:
 type-org:
-affiliates:
+partners:
 address: 226 rue St. Denis
 directions:
 postcode: 75002

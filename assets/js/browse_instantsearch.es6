@@ -86,9 +86,9 @@ const HIT_TEMPLATE = `
           {{#project}}Project {{/project}}{{#startup}}Startup {{/startup}}{{#lab}}Lab {{/lab}}{{#incubator}}Incubator {{/incubator}}{{#group}}Group {{/group}}{{#network}}Network {{/network}}{{#event}}Event {{/event}}{{#other}}Other {{/other}}
           {{#hostsArray}} {{#project}}by {{/project}} {{^project}}at {{/project}}{{/hostsArray}}
           {{#hostsSimple}}<em>{{ . }} </em>{{/hostsSimple}}
-          {{#affiliatesArray}}with {{/affiliatesArray}}
-          {{#affiliatesSimple}}<em>{{ . }} </em>{{/affiliatesSimple}}
-          {{#affiliatesArray}}as collaborators {{/affiliatesArray}}
+          {{#partnersArray}}with {{/partnersArray}}
+          {{#partnersSimple}}<em>{{ . }} </em>{{/partnersSimple}}
+          {{#partnersArray}}as collaborators {{/partnersArray}}
           </span>
   	    </div> <!-- meta -->
   	    <div class="description">

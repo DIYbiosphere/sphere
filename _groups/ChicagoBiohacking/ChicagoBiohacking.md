@@ -2,9 +2,9 @@
 title: DIYbio Chicago
 manager:
 start-date: 2013
-host-org:
+hosts:
 type-org: Community
-affiliates:
+partners:
 address:
 directions:
 postcode:

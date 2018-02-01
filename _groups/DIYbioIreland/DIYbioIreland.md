@@ -5,9 +5,9 @@ start-date: 2011
 end-date: 2015
 status: inactive
 succesor: Forma Labs
-host-org: 
+hosts: 
 type-org: 
-affiliates: 
+partners: 
 address: 
 directions: 
 postcode: 

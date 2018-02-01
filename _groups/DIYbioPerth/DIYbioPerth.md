@@ -4,9 +4,9 @@ tags:
 - makerspace
 manager:
 start-date:
-host-org: "[The Perth Artifactory](http://artifactory.org.au/)"
+hosts: "[The Perth Artifactory](http://artifactory.org.au/)"
 type-org:
-affiliates:
+partners:
 address:
 directions:
 postcode:

@@ -4,9 +4,9 @@ manager:
 start-date: 2008
 end-date: 2011
 status: inactive
-host-org: 
+hosts: 
 type-org: Community
-affiliates: 
+partners: 
 address: 
 directions: 
 postcode: 

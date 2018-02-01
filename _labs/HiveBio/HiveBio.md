@@ -3,9 +3,9 @@ title: HiveBio
 manager: 
 website: http://hivebio.org/
 start-date: 2013
-host-org: 
+hosts: 
 type-org: 
-affiliates: 
+partners: 
 address: 4000 NE 41st St.
 directions: 
 postcode: 98105

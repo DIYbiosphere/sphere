@@ -3,9 +3,9 @@ title: Biodidact
 manager:
 website: http://biodidact.net/
 start-date: 2014
-host-org:
+hosts:
 type-org: Community
-affiliates:
+partners:
 address: 1900 Diamond Drive
 directions:
 postcode: 87544

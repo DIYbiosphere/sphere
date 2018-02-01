@@ -4,7 +4,7 @@ subtitle:
 website: http://www.bioriidl.org/
 start-date: 2017
 type-org: University
-host-org: '[Somaiya Vidyavihar](https://www.somaiya.edu/)'
+hosts: '[Somaiya Vidyavihar](https://www.somaiya.edu/)'
 city: Mumbai
 country: India
 twitter: https://twitter.com/bioriidl

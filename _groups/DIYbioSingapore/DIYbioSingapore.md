@@ -4,9 +4,9 @@ manager:
 logo: 
 website: https://diybiosingapore.wordpress.com/
 start-date: 2010
-host-org: 
+hosts: 
 type-org: 
-affiliates: 
+partners: 
 address: 
 directions: 
 postcode: 

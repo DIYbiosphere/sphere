@@ -5,9 +5,9 @@ tags:
 manager:
 website: https://biohackspace.org/
 start-date: 2009
-host-org: "[London Hackspace](https://london.hackspace.org.uk/)"
+hosts: "[London Hackspace](https://london.hackspace.org.uk/)"
 type-org:
-affiliates:
+partners:
 address: 447 Hackney Road
 directions:
 postcode: E2 9DY

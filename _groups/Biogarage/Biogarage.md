@@ -4,9 +4,9 @@ manager:
 subtitle: Das Do It Yourself Labor
 website: http://biogarage.de/
 start-date: 2013
-host-org:
+hosts:
 type-org: Community
-affiliates:
+partners:
 address:
 directions:
 postcode:

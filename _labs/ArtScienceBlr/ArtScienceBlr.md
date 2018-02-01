@@ -6,9 +6,9 @@ manager:
 subtitle: Public Laboratory at the Srishi Intitute of Art, Design & Technology
 website: http://artscienceblr.org/
 start-date:
-host-org:
+hosts:
 type-org: University
-affiliates:
+partners:
 address:
 directions:
 postcode: 5600064

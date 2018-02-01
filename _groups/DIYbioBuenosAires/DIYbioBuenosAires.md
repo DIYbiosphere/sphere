@@ -4,9 +4,9 @@ manager:
 logo: 
 website: www.diybioba.org
 start-date: 2015
-host-org: 
+hosts: 
 type-org: 
-affiliates: 
+partners: 
 city: Buenos Aires
 country: Argentina
 email: hola@diybioba.org

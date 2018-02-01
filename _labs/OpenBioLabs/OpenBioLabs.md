@@ -4,9 +4,9 @@ manager:
 logo: http://openbiolabs.org/wp-content/uploads/2015/04/COBL_web_logo.png
 website: http://openbiolabs.org/
 start-date: 2015
-host-org: "[The School Factory](http://schoolfactory.org/)"
+hosts: "[The School Factory](http://schoolfactory.org/)"
 type-org: Non-Profit
-affiliates:
+partners:
 address: 300 W. Main St.
 directions: B101
 postcode: 22903

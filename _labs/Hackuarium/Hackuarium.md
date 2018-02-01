@@ -8,7 +8,7 @@ promotions:
     text: 'Come visit on _OpenHackuarium_ night every Wednesday, from 7:30-10:30 '
     URL: http://wiki.hackuarium.ch/w/Main_Page
 start-date: 2014
-host-org: '[UniverCite](http://univercity.ch/)'
+hosts: '[UniverCite](http://univercity.ch/)'
 address: Chemin du Closel 5
 directions:
 postcode: 1020 Renens

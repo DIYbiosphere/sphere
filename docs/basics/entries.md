@@ -43,8 +43,8 @@ subtitle: "Doing everything with: avocados" # use quotation marks if using a col
 tags: # for lists
   - food lab
   - citizen science
-host-org: "[Tree Labs](http://treelabs.org)" # to render in markdown, put between quotation marks
-affiliates:
+hosts: "[Tree Labs](http://treelabs.org)" # to render in markdown, put between quotation marks
+partners:
   - title: Fruit Network
     website: http://fruitnetwork.net
   - title: Green Foods

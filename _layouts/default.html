@@ -9,49 +9,60 @@
     {% include footer.html %}
 
 
-    <!-- Google Analytics -->
+    <span class="gitter-chat-button" data-tooltip="Open Gitter Chat" data-variation="mini" data-inverted="">
+    <button class="js-gitter-toggle-chat-button ui circular purple big button icon">
+
+        <i class="fab fa-gitter icon"></i>
+
+    </button>
+    </span>
+
+    <script>
+      ((window.gitter = {}).chat = {}).options = {
+        room: 'diybiosphere/sphere',
+        activationElement: false
+      };
+    </script>
+
+    <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+    <script type="text/javascript">$('.gitter-chat-button').popup({ target   : '.js-gitter-toggle-chat-button', content    : 'My favorite dog', inline: true});</script>
+
+
+
+      <!-- Google Analytics -->
     <script src="https://www.google.com/jsapi"></script>
 
-    <!-- JQuery & Semantic UI -->
+      <!-- JQuery & Semantic UI -->
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
-    <script src="/assets/js/vendor/jquery.scrollNav.min.js"></script>
     <script src="{{ "/assets/semantic/dist/semantic.min.js" | prepend: site.baseUrl }}"></script>
     <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
     <script type="text/javascript">$('.tabular.menu .item').tab();</script>
-
-    <!-- Clipboard.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
-    <!-- Include AlgoliaSearch JS Client and autocomplete.js library -->
-    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/algoliasearch.helper/2/algoliasearch.helper.min.js"></script>
-    {% javascript autocomplete %}
-
-    <!-- Owl Carousel for index/landing page -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
-    {% javascript carousel %}
     <script type="text/javascript">$('.message .close').on('click', function() {$(this).closest('.message').transition('fade');});</script>
 
-    {% if page.layout == 'entries' %}
+    <script src="https://cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+    {% javascript autocomplete %}
+    <script src="https://cdn.jsdelivr.net/algoliasearch.helper/2/algoliasearch.helper.min.js"></script>
+    {% javascript githubComments %}
+
+    {% if page.layout == 'landing' %}     <!-- Owl Carousel for index/landing page -->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+      {% javascript carousel %}
+    {% endif %}
+
+    {% if page.layout == 'entries' %} <!-- Algolia instantsearch for browsing entries, accordion and tab menu for settings -->
+      <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.2.4/dist/instantsearch.min.js"></script>
+      {% javascript browse_instantsearch %}
       <script type="text/javascript">$('.viewAs.menu .item').tab();</script>
       <script type="text/javascript">$('.ui.accordion.browse').accordion();</script>
-
-      <!-- Algolia search & components -->
-      {% javascript browse_instantsearch %}
     {% endif %}
 
-    {% if page.layout == 'entry' %}
-    <script type="text/javascript">$('.tooltip.icon').popup();</script>
-    {% endif %}
-
-
-    {% if page.layout == 'docs' %}
+    {% if page.layout == 'docs' %} <!-- Documentation search from algolia -->
       <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
-      <script type="text/javascript">$('.menu .item').tab();</script>
       {% javascript docs %}
     {% endif %}
-
 
   </body>
 </html>

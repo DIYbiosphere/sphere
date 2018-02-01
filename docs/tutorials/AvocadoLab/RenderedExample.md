@@ -7,7 +7,7 @@ logo: /docs/tutorials/AvocadoLab/AvocadoLab-logo.png
 header: /docs/tutorials/AvocadoLab/AvocadoLab-header.png
 website: http://www.avocadolab.com
 start-date: 2001
-host-org: '[Tree Labs](http://treelabs.com)'
+hosts: '[Tree Labs](http://treelabs.com)'
 type-org: Community
 city: Morelia
 state: Michoacan

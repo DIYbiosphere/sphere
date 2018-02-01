@@ -8,9 +8,9 @@ website: http://www.diyneurotech.com/
 start-date: 2014
 end-date: 2015
 status: inactive
-host-org: 
+hosts: 
 type-org: 
-affiliates: 
+partners: 
 city: Jackson
 state: Mississippi
 country: United States

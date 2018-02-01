@@ -5,9 +5,9 @@ tags:
 manager:
 website: http://diybio.to/
 start-date: 2013
-host-org: "[HackLab](https://hacklab.to/)"
+hosts: "[HackLab](https://hacklab.to/)"
 type-org:
-affiliates:
+partners:
 address: 1266 Queen St.
 directions: West Suite
 postcode: M6K 1L3

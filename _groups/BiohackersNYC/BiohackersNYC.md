@@ -8,9 +8,9 @@ status: inactive
 start-date: 2012
 end-date: 2015
 succesor: Hackstronauts
-host-org:
+hosts:
 type-org: Community
-affiliates:
+partners:
 address:
 directions:
 postcode:

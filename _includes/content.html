@@ -1,14 +1,14 @@
-{% include github-actions.html %}
-<h1 class="ui header xo margin top without">{{ page.title }}
-{% if page.subtitle %}
-  <div class="sub header">
-    {{ page.subtitle }}
-  </div>
-{% endif %}
-</h1>
+{% include content/github-actions.html %}
+<article>
+  <h1 class="ui header xo margin top without">{{ page.title }}
+  {% if page.subtitle %}
+    <div class="sub header">
+      {{ page.subtitle }}
+    </div>
+  {% endif %}
+  </h1>
+  {{content}}
+  {% include content/loop-content.html %}
 
-{{content}}
-
-<div class="xo top bottom padding twofold">
-{% include githubComments.html %}
-</div>
+</article>
+{% include content/githubComments.html %}

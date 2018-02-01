@@ -5,9 +5,9 @@ subtitle: Community Citizen Science and DIYbio Group of the NC Triangle
 logo:
 website: http://www.tridiybio.org/
 start-date: 2015
-host-org: "[SplatSpace](http://splatspace.org/)"
+hosts: "[SplatSpace](http://splatspace.org/)"
 type-org:
-affiliates:
+partners:
 address: 800 N Mangum St
 directions:
 postcode: 27701

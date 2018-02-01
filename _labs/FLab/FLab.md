@@ -3,9 +3,9 @@ title: F-lab
 manager:
 website: http://f-lab.cc/
 start-date:
-host-org:
+hosts:
 type-org:
-affiliates:
+partners:
 address: 1940 Sukhumvit Road
 directions:
 postcode: 10260

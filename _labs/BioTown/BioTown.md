@@ -4,7 +4,7 @@ subtitle: Ottawa's DIY Biology Community
 website: https://biotown.ca/
 start-date: 2017
 
-host-org: '[ArtEngine](http://www.artengine.ca/)'
+hosts: '[ArtEngine](http://www.artengine.ca/)'
 type-org: Community
 address: 2 Daly Ave 
 city: Ottawa

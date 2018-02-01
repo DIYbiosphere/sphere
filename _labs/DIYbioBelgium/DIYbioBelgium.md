@@ -4,9 +4,9 @@ manager:
 logo:
 website: http://www.diybio.be/index.php/en/
 start-date:
-host-org:
+hosts:
 type-org: Non-Profit
-affiliates:
+partners:
 address: Rue du progrès 4
 directions: boite 9
 postcode: 1400

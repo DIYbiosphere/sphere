@@ -4,9 +4,9 @@ manager:
 logo: 
 website: 
 start-date: 
-host-org: 
+hosts: 
 type-org: 
-affiliates: 
+partners: 
 address: 
 directions: 
 postcode: 

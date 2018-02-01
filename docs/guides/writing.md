@@ -56,7 +56,7 @@ For `size=` specify: _mini_ (35px), _tiny_ (80px), _small_ (150px), _medium_ (30
 The **title:** should be the name of your entry. It should be short and easy if possible. The **subtitle:** is optional and is a short description of the entry.
 
 ## Menu
-The menu is set automatically. The only way to add additional items is to edit other entry pages and specify `host-org:` exactly as the  `title:` of this entry. For example, if 'Avocado Lab' wants to list _Projects_, an entry for the Project _Guacamole_ should be created and specify `host-org: Avocado Lab`.
+The menu is set automatically. The only way to add additional items is to edit other entry pages and specify `hosts:` exactly as the  `title:` of this entry. For example, if 'Avocado Lab' wants to list _Projects_, an entry for the Project _Guacamole_ should be created and specify `hosts: Avocado Lab`.
 
 
 
@@ -70,12 +70,8 @@ You can also add a **thumbnail** image to the folder. Although it is not display
 ## Infobox
 The _infobox_ is the box on the left hand side of the entry. It can show several data, the following table shows the key, description, and an example in order of how they would appear. The green rows represent mandatory keys, while the brown rows are mandatory for some collections.
 
-{% include other/infobox-keys.html %}
-
 ## Social Icons
 Links to any kind of website, social media, or contact information can be presented here.
-
-{% include social-icons.html %}
 
 ## Tags
 You are probably familiar with _tags_, they are used as keywords to easily categorize entries. A good rule of thumb is to have maximum 10 tags. In addition, it is good practice to search the current tags used by other entries and reuse them if applicable.
@@ -99,7 +95,7 @@ promotions:
 
 The rendered box will first try to grab the `promotions.image` key, then the `promotions.color` key. If these are not specified the background color will be grey.
 
-{% include messages/plus.html title="Get your promotion in the landing page!" text="Entries can have their promotions featured in the landing page carousel if they contain a background image, or if the entry has a header image" %}
+{% include messages/star.html title="Get your promotion in the landing page!" text="Entries can have their promotions featured in the landing page carousel if they contain a background image, or if the entry has a header image" %}
 
 
 ## Comments

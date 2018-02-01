@@ -4,9 +4,9 @@ manager:
 subtitle: Laboratory of bioelectrochemical experimentations
 website: https://pechblenda.hotglue.me/
 start-date:
-host-org: Calafou
+hosts: Calafou
 type-org:
-affiliates:
+partners:
 address:
 directions:
 postcode:

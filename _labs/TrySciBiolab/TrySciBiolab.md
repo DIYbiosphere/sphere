@@ -3,9 +3,9 @@ title: TrySci Community Biolabs
 manager:
 website: http://www.trysci.org/
 start-date: 2014
-host-org:
+hosts:
 type-org: Non-Profit
-affiliates:
+partners:
 address: 16657 E 23rd St
 directions: South Suite 170
 postcode: South

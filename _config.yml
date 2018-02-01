@@ -1,6 +1,6 @@
 # Site settings
 title: DIYbiosphere
-description: "A collaborative library of Do-it-Yourself Biology initiatives"
+description: "An open source project to connect DIYBio Initiatives from all over the world"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "sphere.diybio.org"
 permalink: /updates/:year/:month/:day/:title
@@ -35,12 +35,12 @@ layouts_dir:  ./_layouts
 data_dir:     ./_data
 includes_dir: ./_includes
 
+
 plugins:
   - jemoji
   - jekyll-gist
   - jekyll-assets
   - jekyll-sitemap
-  - jekyll-seo-tag
   - jekyll-mentions
   - jekyll-github-metadata
   - jekyll-git_metadata
@@ -200,10 +200,10 @@ algolia:
     searchableAttributes:
       - title
       - subtitle
-      - host-org
+      - hosts
       - hostsSimple
-      - affiliates
-      - affiliatesSimple
+      - partners
+      - partnersSimple
       - city
       - state
       - country
@@ -221,10 +221,10 @@ algolia:
     attributesToHighlight:
       - title
       - subtitle
-      - host-org
+      - hosts
       - hostsSimple
-      - affiliates
-      - affiliatesSimple
+      - partners
+      - partnersSimple
       - city
       - state
       - country

@@ -3,9 +3,9 @@ title: Biotinkering Berlin
 manager:
 website: https://www.biotinkering-berlin.de/?lang=en
 start-date: 2014
-host-org: "[Art Laboratory Berlin](http://artlaboratory-berlin.org/home.htm)"
+hosts: "[Art Laboratory Berlin](http://artlaboratory-berlin.org/home.htm)"
 type-org: Community
-affiliates:
+partners:
 address: Prinzenallee 34
 directions:
 postcode: 13359

@@ -4,9 +4,9 @@ manager:
 logo: https://pbs.twimg.com/profile_images/535440714058838017/O1ezBMSc_400x400.jpeg
 website: http://wp.unil.ch/mediationscientifique/activites/eprouvette
 start-date: 2005
-host-org: "[University of Lausanne](http://www.unil.ch/interface/home.html)"
+hosts: "[University of Lausanne](http://www.unil.ch/interface/home.html)"
 type-org: University
-affiliates:
+partners:
 address: Quartier Sorge
 directions: Bâtiment Amphipôle - bureau 303.1
 postcode: 1015

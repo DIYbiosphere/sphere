@@ -4,7 +4,7 @@ manager:
 start-date: 2013
 end-date: 2013
 status: inactive
-host-org: 
+hosts: 
 type-org: Community
 city: Auckland
 state: 
