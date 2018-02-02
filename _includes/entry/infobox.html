@@ -32,7 +32,7 @@
           <b>Collection:</b>
         </td>
         <td>
-          <a class="noelink" href="/browse/?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D={{ page.collection }}" target="_blank">
+          <a class="noelink" href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D={{ page.collection }}" target="_blank">
             {% if page.project %}<i class="far fa-briefcase icon"></i>&nbsp;<b>project</b>{% endif %}
             {% if page.startups %}<i class="far fa-rocket icon"></i>&nbsp;<b>startup</b>{% endif %}
             {% if page.lab %}<i class="far fa-flask icon"></i>&nbsp;<b>lab</b>{% endif %}
@@ -273,7 +273,7 @@
         <th colspan="2">
           <b>Tags:</b>
           {% for tag in page.tags %}
-            <a href="/browse/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ tag }}">
+            <a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ tag }}">
               {{ tag }}</a>{% if forloop.last != true %}, {% endif %}
           {% endfor %}
         </th>

@@ -98,7 +98,7 @@ const HIT_TEMPLATE = `
           <div class="ui horizontal small link list">
             <div class="item"><i class="far fa-tags"></i></div>
               {{#tags}}
-      			 <a class="item" href="/browse/?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ . }}">
+      			 <a class="item" href="/browse?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ . }}">
               {{ . }}
              </a>
              {{/tags}}

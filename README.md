@@ -60,7 +60,7 @@ In increasing order of engagement you can contribute to DIYbiosphere by:
   - :star: **_Star the project on GitHub_**! Starring helps attract potential contributors, especially expert and master developers!
 - **WRITING ENTRIES**
   - **_[Add](http://sphere.diybio.org/docs/tutorials/add-entry) a new entry_**:  whether it's your initiative or someone else's
-  - **_[Edit](http://sphere.diybio.org/docs/tutorials/edit-entry/users) an existing entry_**: misspellings, outdated information, or just inaccurate, help us keep the entries error-free and up-to-date!
+  - **_[Edit](http://sphere.diybio.org/docs/tutorials/edit-entry) an existing entry_**: misspellings, outdated information, or just inaccurate, help us keep the entries error-free and up-to-date!
 - **PARTICIPATING IN THE ISSUES**
   - **Comment, answer, and vote**: search [our issues](https://github.com/DIYbiosphere/sphere/issues) and see if you can help out by moving our issues along: answer a [question](https://github.com/DIYbiosphere/sphere/labels/question), :+1: vote on a [feature](https://github.com/DIYbiosphere/sphere/labels/feature%20request) or [enhancement](https://github.com/DIYbiosphere/sphere/labels/enhancement), participate in [feedback](https://github.com/DIYbiosphere/sphere/labels/feedback%20wanted), assist on giving [resolution]https://github.com/DIYbiosphere/sphere/labels/resolution%20needed to  issues!
   - **Submit a [new issue](https://github.com/DIYbiosphere/sphere/issues/new)**: report a bug, ask a question, share your idea and wait for feedback and support from the community.
