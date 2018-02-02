@@ -139,7 +139,7 @@
 [github eli5]: /docs/guides/github-eli5
 [add]: /docs/tutorials/add-entry "How to add an entry"
 [view the render]: /docs/tutorials/AvocadoLab/AvocadoLab
-[edit]: /docs/tutorials/edit-entry/users "How to edit an entry"
+[edit]: /docs/tutorials/edit-entry "How to edit an entry"
 [edit-members]: /docs/tutorials/edit-entry/members
 [noting-copyright]: /docs/tutorials/noting-copyright/
 [using github]: /docs/tutorials/using-github

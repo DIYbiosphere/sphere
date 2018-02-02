@@ -4,8 +4,6 @@ title: Writing Entries
 draft: true
 ---
 
-8
-
 
 ## Anatomy of an Entry File
 Entries are text files that are rendered into a webpage in HTML. The files have two sections:
