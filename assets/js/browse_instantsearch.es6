@@ -134,17 +134,14 @@ const HIT_TEMPLATE = `
 `;
 
 const TABLE_TEMPLATE = `
-<table class="ui sortable celled small table">
+<table class="ui celled small table">
   <thead>
     <tr>
       <th>Title</th>
       <th>Collection</th>
-      <th>Hosts</th>
-      <th>Partners</th>
       <th>Start Date</th>
       <th>End Date</th>
       <th>City</th>
-      <th>State</th>
       <th>Country</th>
       <th>Last Edit</th>
     </tr>
@@ -154,14 +151,11 @@ const TABLE_TEMPLATE = `
     <tr>
       <td><a href="{{url}}">{{{ _highlightResult.title.value }}}</a></td>
       <td>{{#project}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=projects"><i class="far fa-briefcase icon"></i>&nbsp;Project </a>{{/project}}{{#startup}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=startups"><i class="far fa-rocket icon"></i>&nbsp;Startup </a>{{/startup}}{{#lab}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=labs"><i class="far fa-flask icon"></i>&nbsp;Lab </a>{{/lab}}{{#incubator}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=incubators"><i class="far fa-leaf icon"></i>&nbsp;Incubator </a>{{/incubator}}{{#group}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=groups"><i class="far fa-users icon"></i>&nbsp;Group </a>{{/group}}{{#network}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=networks"><i class="far fa-share-alt icon"></i>&nbsp;Network </a>{{/network}}{{#event}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=events"><i class="far fa-calendar-alt icon"></i>&nbsp;Event </a>{{/event}}{{#other}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=others"><i class="far fa-umbrella icon"></i>&nbsp;Other </a>{{/other}}</td>
-      <td>{{#_highlightResult.hostsArray}}•{{{ value }}}<br>{{/_highlightResult.hostsArray}}</td>
-      <td>{{#_highlightResult.partnersArray}}•{{{ value }}}<br>{{/_highlightResult.partnersArray}}</td>
       <td>{{start-date}}</td>
-      <td>End Date</td>
-      <td>City</td>
-      <td>State</td>
-      <td>Country</td>
-      <td>{{#last_modified_at}} {{last_modified_at}} {{/last_modified_at}}</td>
+      <td>{{end-date}}</td>
+      <td>{{{ _highlightResult.city.value }}}</td>
+      <td>{{{ _highlightResult.country.value }}}</td>
+      <td>{{last_modified_at}}</td>
     </tr>
   {{/hits}}
   </tbody>
@@ -304,6 +298,26 @@ search.addWidget(
   })
 );
 
+search.addWidget(
+  instantsearch.widgets.sortBySelector({
+    container: '#sort-by-container',
+    cssClasses: {
+      root: 'select',
+    },
+    indices: [
+      {name: 'diybiosphere', label: 'Title(a-z)'},
+      {name: 'title(desc)', label: 'Title(z-a)'},
+      {name: 'country(asc)', label: 'Country(a-z)'},
+      {name: 'country(desc)', label: 'Country(z-a)'},
+      {name: 'start-date(asc)', label: 'Start date(asc)'},
+      {name: 'start-date(desc)', label: 'Start date(desc)'},
+      {name: 'end-date(asc)', label: 'End date(asc)'},
+      {name: 'end-date(desc)', label: 'End date(desc)'},
+      {name: 'last-edit(desc)', label: 'Newest edit'},
+      {name: 'last-edit(asc)', label: 'Oldest edit'}
+    ]
+  })
+);
 
 
 

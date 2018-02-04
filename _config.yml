@@ -226,7 +226,6 @@ algolia:
       - collection
       - predecessor
       - successor
-      - last_modified_at
     attributesToRetrieve:
       - title
       - subtitle
@@ -259,6 +258,8 @@ algolia:
       - incubator
       - event
       - other
+      - last_modified_at
+      - timestamp
     attributesForFaceting:
       - collection
       - type-org
