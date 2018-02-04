@@ -6,7 +6,7 @@ start-date: 2015
 type-org: community
 hosts: Counter Culture Labs
 partners:
-  - SoundBio Lab
+  - ReaGent
   - Bio Foundry
 city: Oakland
 country: United States

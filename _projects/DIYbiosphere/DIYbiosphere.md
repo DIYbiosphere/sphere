@@ -3,8 +3,7 @@ title: DIYbiosphere
 subtitle: Connecting DIYbio Worldwide
 website: http://sphere.diybio.org/
 start-date: 2016
-type-org: nonprofit
-hosts: Counter Culture Labs
+type-org: Non-profit
 partners:
   - DIYbio.org
   - '[UNIGE](https://twitter.com/DIYbiosphere/)'
@@ -15,11 +14,23 @@ github: https://github.com/DIYbiosphere/sphere
 slack: https://slack.io.com/DIYbiosphere/
 gitter: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link
 tags:
-  - database
-  - open-source
-  - software
   - website
+  - database
 ---
+
+hosts: {{page.hosts}}
+
+hosts: {{page.hostsExist}}
+
+hostsSentence: {{page.hostsSentence}}
+
+partners: {{page.partners}}
+
+partners: {{page.partnersExist}}
+
+tagsExist: {{page.tagsExist}}
+
+tags length: {{page.tagsLength}}
 
 
 ## About

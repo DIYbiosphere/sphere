@@ -213,15 +213,52 @@ algolia:
       - title
       - subtitle
       - hosts
-      - hostsSimple
+      - hostsSentence
+      - hostsArray
       - partners
-      - partnersSimple
+      - partnersSentence
+      - partnersArray
       - city
       - state
       - country
       - content
       - tags
       - collection
+      - predecessor
+      - successor
+      - last_modified_at
+    attributesToRetrieve:
+      - title
+      - subtitle
+      - url
+      - type-org
+      - uberimage
+      - hosts
+      - hostsSentence
+      - hostsArray
+      - partners
+      - partnersSentence
+      - partnersArray
+      - city
+      - state
+      - country
+      - content
+      - tags
+      - tagsExist
+      - collection
+      - start-date
+      - end-date
+      - predecessor
+      - successor
+      - status
+      - project
+      - lab
+      - group
+      - network
+      - startup
+      - incubator
+      - event
+      - other
     attributesForFaceting:
       - collection
       - type-org
@@ -230,19 +267,26 @@ algolia:
       - country
       - tags
       - status
+      - start-date
+      - end-date
+      - status
     attributesToHighlight:
       - title
       - subtitle
       - hosts
-      - hostsSimple
+      - hostsSentence
+      - hostsArray
       - partners
-      - partnersSimple
+      - partnersSentence
+      - partnersArray
       - city
       - state
       - country
       - content
       - tags
       - collection
+      - predecessor
+      - successor
     attributesToSnippet: ['content:10']
     highlightPreTag: <span class="search-highlight">
     highlightPostTag: </span>
