@@ -40,14 +40,12 @@
       {% if issue.doc_name == page.file_name %}
         {% if issue.comments_issue %}
         {% assign comments_issue = true %}
+        {% assign comments_issue_id = issue.comments_issue %}
         <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/{{ issue.comments_issue }}#new_comment_field" target="_blank">
           <span data-tooltip="Add Comment in GitHub" data-variation="mini" data-inverted="">
-            <i class="far fa-comment" data-fa-transform="grow-6 right-6"></i>
+            <i class="fal fa-comment" data-fa-transform="grow-6 right-6"></i>
           </span>
         </a>
-
-        <script type="text/javascript">DoGithubComments ("{{ site.github_comments_repository }}" ,"{{ issue.comments_issue }}");</script>
-
         {% endif %}
       {% endif %}
     {% endfor %}
@@ -55,7 +53,7 @@
     {% if comments_issue != true '%}
     <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/new" target="_blank">
       <span data-tooltip="Open Discussion in GitHub" data-variation="mini" data-inverted="">
-        <i class="far fa-comments" data-fa-transform="grow-6 right-6"></i>
+        <i class="fal fa-comments" data-fa-transform="grow-6 right-6"></i>
       </span>
     </a>
     {% endif %}

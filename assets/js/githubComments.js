@@ -18,6 +18,15 @@ function ParseLinkHeader(lnk)
     return links;
 }
 
+function DoGithubComments(repo_name, comment_id)
+{
+    $(document).ready(function ()
+    {
+        ShowComments(repo_name, comment_id, 1);
+    });
+}
+
+
 function ShowComments(repo_name, comment_id, page_id)
 {
     var api_comments_url = "https://api.github.com/repos/" + repo_name + "/issues/" + comment_id + "/comments" + "?page=" + page_id;
@@ -66,17 +75,6 @@ function ShowComments(repo_name, comment_id, page_id)
                     ShowComments(repo_name, comment_id, page_id+1);
                 }
             }
-        },
-        error: function() {
-            $("#gh-comments-list").append("Comments are not open for this post yet.");
         }
-    });
-}
-
-function DoGithubComments(repo_name, comment_id)
-{
-    $(document).ready(function ()
-    {
-        ShowComments(repo_name, comment_id, 1);
     });
 }

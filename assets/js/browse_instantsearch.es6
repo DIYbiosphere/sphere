@@ -77,32 +77,55 @@ const HIT_TEMPLATE = `
   	  </div>
   		{{ /logo }}
   	  <div class="content">
-  		<span class="meta right floated">
-      <i class="far fa-map-marker-alt fa-fw fa-xs"></i>{{#city}} {{{ _highlightResult.city.value }}}, {{/city}} {{#country}}{{{ _highlightResult.country.value }}} |{{/country}} {{#start-date}} {{start-date}} {{/start-date}}{{#end-date}} - {{end-date}} {{/end-date}}
-      </span>
   	    <div class="ui header"><a href="{{url}}">{{{ _highlightResult.title.value }}}</a></div>
-  	    <div class="meta">
-  	      <span>
-          {{#project}}Project {{/project}}{{#startup}}Startup {{/startup}}{{#lab}}Lab {{/lab}}{{#incubator}}Incubator {{/incubator}}{{#group}}Group {{/group}}{{#network}}Network {{/network}}{{#event}}Event {{/event}}{{#other}}Other {{/other}}
-          {{#hostsArray}} {{#project}}by {{/project}} {{^project}}at {{/project}}{{/hostsArray}}
-          {{#hostsSimple}}<em>{{ . }} </em>{{/hostsSimple}}
-          {{#partnersArray}}with {{/partnersArray}}
-          {{#partnersSimple}}<em>{{ . }} </em>{{/partnersSimple}}
-          {{#partnersArray}}as collaborators {{/partnersArray}}
-          </span>
-  	    </div> <!-- meta -->
+        <div class="meta">
+   	      <span>
+           {{#project}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=projects"><i class="far fa-briefcase icon"></i>&nbsp;Project </a>{{/project}}{{#startup}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=startups"><i class="far fa-rocket icon"></i>&nbsp;Startup </a>{{/startup}}{{#lab}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=labs"><i class="far fa-flask icon"></i>&nbsp;Lab </a>{{/lab}}{{#incubator}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=incubators"><i class="far fa-leaf icon"></i>&nbsp;Incubator </a>{{/incubator}}{{#group}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=groups"><i class="far fa-users icon"></i>&nbsp;Group </a>{{/group}}{{#network}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=networks"><i class="far fa-share-alt icon"></i>&nbsp;Network </a>{{/network}}{{#event}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=events"><i class="far fa-calendar-alt icon"></i>&nbsp;Event </a>{{/event}}{{#other}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=others"><i class="far fa-umbrella icon"></i>&nbsp;Other </a>{{/other}}
+           {{#_highlightResult.hostsSentence}}hosted by <em>{{{ value }}}</em>{{/_highlightResult.hostsSentence}}{{#hostsSentence}}{{#partnersSentence}}and {{/partnersSentence}}{{/hostsSentence}}
+           {{#_highlightResult.partnersSentence}}in partnership with <em>{{{ value }}}</em>{{/_highlightResult.partnersSentence}}<br>
+           </span>
+   	    </div> <!-- meta -->
   	    <div class="description">
   	      <p>{{{ _highlightResult.content.value }}}</p>
   	    </div>
   	    <div class="extra">
-          <div class="ui horizontal small link list">
-            <div class="item"><i class="far fa-tags"></i></div>
-              {{#tags}}
-      			 <a class="item" href="/browse?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{ . }}">
-              {{ . }}
+          {{#start-date}}
+          <span class="fa-layers fa-fw fa-sm" data-tooltip="start(-end)dates" data-variation="mini" data-inverted="">
+            <i class="far fa-calendar" data-fa-transform="down-2"></i>
+            <i class="fas fa-arrow-right" data-fa-transform="shrink-7 down-4 left-2"></i>
+          </span>
+          {{start-date}}
+          {{/start-date}}
+          {{#end-date}} - {{end-date}} {{/end-date}}
+          {{#country}}{{#start-date}}  |  {{/start-date}}{{/country}}
+          {{#country}}
+          <span data-tooltip="location" data-variation="mini" data-inverted="">
+          <i class="far fa-map-marker-alt fa-fw fa-sm"></i>
+          </span>
+          {{#city}} {{{ _highlightResult.city.value }}}, {{/city}}
+          {{#country}}{{{ _highlightResult.country.value }}}{{/country}}
+          {{/country}}
+          {{#type-org}}{{#country}}  |  {{/country}}{{^country}}{{#start-date}}  |  {{/start-date}}{{/country}}{{/type-org}}
+          {{#type-org}}<span data-tooltip="type of organization" data-variation="mini" data-inverted=""><i class="far fa-badge fa-fw fa-sm"></i></span>{{ type-org }}{{/type-org}}
+          {{#predecessor}}{{#type-org}}  |  {{/type-org}}{{^type-org}}{{#country}}  |  {{/country}}{{^country}}{{#start-date}}  |  {{/start-date}}{{/country}}{{/type-org}}{{/predecessor}}
+          {{#predecessor}}<span data-tooltip="predecessor" data-variation="mini" data-inverted=""><i class="far fa-step-backward fa-fw fa-sm"></i></span>{{{ _highlightResult.predecessor.value }}}{{/predecessor}}
+          {{#successor}}{{#predecessor}}  |  {{/predecessor}}{{^predecessor}}{{#type-org}}  |  {{/type-org}}{{^type-org}}{{#country}}  |  {{/country}}{{^country}}{{#start-date}}  |  {{/start-date}}{{/country}}{{/type-org}}{{/predecessor}}{{/successor}}
+          {{#successor}}<span data-tooltip="successor" data-variation="mini" data-inverted=""><i class="far fa-step-forward fa-fw fa-sm"></i></span>{{{ _highlightResult.successor.value }}}{{/successor}}
+          {{#tagsExist}}
+          </br>
+          <div class="ui horizontal small list">
+            <div class="item">
+            <span data-tooltip="tags" data-variation="mini" data-inverted="">
+            <i class="far fa-tags fa-fw fa-sm"></i>
+            </span>
+            </div>
+              {{#_highlightResult.tags}}
+             <a class="item" href="/browse?q=&idx=diybiosphere&p=0&dFR%5Btags%5D%5B0%5D={{{ value }}}">
+              {{{ value }}}
              </a>
-             {{/tags}}
+             {{/_highlightResult.tags}}
           </div> <!-- list -->
+          {{/tagsExist}}
   			</div> <!-- extra -->
   	  </div> <!-- content -->
   	</div> <!-- item -->
@@ -111,11 +134,13 @@ const HIT_TEMPLATE = `
 `;
 
 const TABLE_TEMPLATE = `
-<table class="ui sortable celled table">
+<table class="ui celled small table">
   <thead>
     <tr>
-      <th>Name</th>
+      <th>Title</th>
       <th>Collection</th>
+      <th>Start Date</th>
+      <th>End Date</th>
       <th>City</th>
       <th>Country</th>
       <th>Last Edit</th>
@@ -125,10 +150,12 @@ const TABLE_TEMPLATE = `
   {{#hits}}
     <tr>
       <td><a href="{{url}}">{{{ _highlightResult.title.value }}}</a></td>
-      <td>{{#collection}} {{collection}} {{/collection}}</td>
-      <td>{{#city}} {{city}} {{/city}}</td>
-      <td>{{#country}} {{country}} {{/country}}</td>
-      <td>{{#last_modified_at}} {{last_modified_at}} {{/last_modified_at}}</td>
+      <td>{{#project}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=projects"><i class="far fa-briefcase icon"></i>&nbsp;Project </a>{{/project}}{{#startup}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=startups"><i class="far fa-rocket icon"></i>&nbsp;Startup </a>{{/startup}}{{#lab}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=labs"><i class="far fa-flask icon"></i>&nbsp;Lab </a>{{/lab}}{{#incubator}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=incubators"><i class="far fa-leaf icon"></i>&nbsp;Incubator </a>{{/incubator}}{{#group}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=groups"><i class="far fa-users icon"></i>&nbsp;Group </a>{{/group}}{{#network}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=networks"><i class="far fa-share-alt icon"></i>&nbsp;Network </a>{{/network}}{{#event}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=events"><i class="far fa-calendar-alt icon"></i>&nbsp;Event </a>{{/event}}{{#other}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=others"><i class="far fa-umbrella icon"></i>&nbsp;Other </a>{{/other}}</td>
+      <td>{{start-date}}</td>
+      <td>{{end-date}}</td>
+      <td>{{{ _highlightResult.city.value }}}</td>
+      <td>{{{ _highlightResult.country.value }}}</td>
+      <td>{{last_modified_at}}</td>
     </tr>
   {{/hits}}
   </tbody>
@@ -271,6 +298,26 @@ search.addWidget(
   })
 );
 
+search.addWidget(
+  instantsearch.widgets.sortBySelector({
+    container: '#sort-by-container',
+    cssClasses: {
+      root: 'select',
+    },
+    indices: [
+      {name: 'diybiosphere', label: 'Title(a-z)'},
+      {name: 'title(desc)', label: 'Title(z-a)'},
+      {name: 'country(asc)', label: 'Country(a-z)'},
+      {name: 'country(desc)', label: 'Country(z-a)'},
+      {name: 'start-date(asc)', label: 'Start date(asc)'},
+      {name: 'start-date(desc)', label: 'Start date(desc)'},
+      {name: 'end-date(asc)', label: 'End date(asc)'},
+      {name: 'end-date(desc)', label: 'End date(desc)'},
+      {name: 'last-edit(desc)', label: 'Newest edit'},
+      {name: 'last-edit(asc)', label: 'Oldest edit'}
+    ]
+  })
+);
 
 
 

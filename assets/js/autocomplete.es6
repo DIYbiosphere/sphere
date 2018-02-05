@@ -11,8 +11,8 @@ var hitTemplate = Hogan.compile (`
       <div class="sub header">
         <span>
         {{#project}}Project {{/project}}{{#startup}}Startup {{/startup}}{{#lab}}Lab {{/lab}}{{#incubator}}Incubator {{/incubator}}{{#group}}Group {{/group}}{{#network}}Network {{/network}}{{#event}}Event {{/event}}{{#other}}Other {{/other}}
-        {{#hostsArray}} {{#project}}by {{/project}} {{^project}}at {{/project}}{{/hostsArray}}
-        {{#hostsSimple}}<em>{{ . }} </em>{{/hostsSimple}}
+        {{#hostsExist}} {{#project}}by {{/project}} {{^project}}at {{/project}}{{/hostsExist}}
+        {{#_highlightResult.hostsSentence}}<em>{{{ value }}} </em>{{/_highlightResult.hostsSentence}}
           <br>
           <i class="far fa-map-marker-alt fa-fw fa-xs"></i>{{#city}} {{{ _highlightResult.city.value }}}, {{/city}} {{#country}}{{{ _highlightResult.country.value }}} {{/country}}
         </span>

@@ -15,12 +15,12 @@ layout: default
   <div class="sixteen wide column xo top padding">
     <div class="ui accordion browse">
       <!-- Search bar. Searches all the text in the entries-->
-      <div class="title">
+      <div class="title active">
         <h3 class="ui grey header">
           <span class="xo padding twofold right"><i class="fal fa-angle-right fa-lg rotating icon"></i></span><i class="far fa-search fa-sm"></i> Search Entries
         </h3>
       </div>
-      <div class="content">
+      <div class="content active">
         <!-- Search box. Edit `search-box` widget in `browse_instantsearch.es6`-->
         <div id="search-box"></div>
       </div>
@@ -51,19 +51,22 @@ layout: default
           </tbody>
         </table>
       </div> <!-- close content -->
-      <div class="title active">
+      <div class="title">
         <h3 class="ui grey header">
             <span class="xo padding twofold right"><i class="fal fa-angle-right fa-lg rotating icon"></i></span><i class="far fa-sliders-v-square fa-sm"></i> View Settings
         </h3>
       </div>
-      <div class="content active">
-        <div class="ui stackable three column center aligned grid">
+      <div class="content">
+        <div class="ui stackable four column center aligned grid">
           <div class="row">
             <div class="left aligned column">
               <div id="pagination-container"></div>
             </div>
             <div class="center aligned column">
               <div id="hits-per-page-selector"></div>
+            </div>
+            <div class="center aligned column">
+              <div id="sort-by-container"></div>
             </div>
             <div class="right aligned column">
               <!-- Pagination Menu. Edit `pagination` widget in `browse_instantsearch.es6`-->

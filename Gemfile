@@ -18,7 +18,6 @@ gem 'json'
 gem 'geokit'
 gem 'rouge'
 
-
 group :jekyll_plugins do
   gem 'jekyll-gist'
   gem 'jekyll-assets'
