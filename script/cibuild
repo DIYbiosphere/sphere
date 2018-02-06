@@ -28,7 +28,6 @@ git clone https://${DEPLOY_TOKEN}@${GITHUB_REPO} --branch ${DEPLOY_BRANCH} _site
 # find missing images
 # https://jekyllrb.com/docs/continuous-integration/travis-ci/#the-html-proofer-executable
 # bundle exec htmlproofer ./_site --disable-external --empty-alt-ignore --checks-to-ignore LinkCheck
-bundle exec jekyll build --verbose --trace
 bundle exec jekyll algolia --verbose
 
 
