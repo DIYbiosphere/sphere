@@ -50,7 +50,6 @@ includes_dir: ./_includes
 
 plugins:
   - jemoji
-  - jekyll-gist
   - jekyll-assets
   - jekyll-sitemap
   - jekyll-mentions
@@ -60,8 +59,6 @@ plugins:
   - jekyll-feed
   - jekyll-avatar
   - jekyll-toc #https://github.com/toshimaru/jekyll-toc/
-  - jekyll-timeago
-  - jekyll-giphy
 
 # Collections
 collections:
