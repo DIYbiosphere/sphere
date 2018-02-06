@@ -53,8 +53,6 @@ plugins:
   - jekyll-assets
   - jekyll-sitemap
   - jekyll-mentions
-  - jekyll-github-metadata
-  - jekyll-git_metadata
   - jekyll-last-modified-at
   - jekyll-feed
   - jekyll-avatar
