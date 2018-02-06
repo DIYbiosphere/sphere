@@ -61,7 +61,6 @@ module AddVariablesToFiles
               hostsString = "#{doc.data["hosts"]}"
               hostsClean = hostsString.delete('"[]')
               hostsSplit = hostsClean.split(',')
-              doc.data["hostsSplit"] = hostsSplit
               hostsArray =  hostsSplit.map {|item|
                 if item.index("(")
                   stop = item.index("(")
@@ -69,7 +68,6 @@ module AddVariablesToFiles
                 else
                   item
                 end }
-                doc.data["hostsArray"] = hostsArray
               if hostsArray.length < 2
                 doc.data["hostsSentence"] = hostsArray
               elsif hostsArray.length < 3
@@ -86,7 +84,6 @@ module AddVariablesToFiles
               partnersString = "#{doc.data["partners"]}"
               partnersClean = partnersString.delete('"[]')
               partnersSplit = partnersClean.split(',')
-              doc.data["partnersSplit"] = partnersSplit
               partnersArray =  partnersSplit.map {|item|
                 if item.index("(")
                   stop = item.index("(")
@@ -94,7 +91,6 @@ module AddVariablesToFiles
                 else
                   item
                 end }
-                doc.data["partnersArray"] = partnersArray
               if partnersArray.length < 2
                 doc.data["partnersSentence"] = partnersArray
               elsif partnersArray.length < 3
@@ -110,7 +106,6 @@ module AddVariablesToFiles
               tags = "#{doc.data["tags"]}"
               if tags.length > 2
                 doc.data["tagsExist"] = true
-                doc.data["tagsLength"] = tags.length
               end
 
             end
