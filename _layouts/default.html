@@ -43,7 +43,7 @@
     <script src="https://cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
     <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
     <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/autocomplete.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/autocomplete.es6"></script>
     <script src="https://cdn.jsdelivr.net/algoliasearch.helper/2/algoliasearch.helper.min.js"></script>
 
     {% if page.layout == 'landing' %}     <!-- Owl Carousel for index/landing page -->
@@ -53,14 +53,14 @@
 
     {% if page.layout == 'entries' %} <!-- Algolia instantsearch for browsing entries, accordion and tab menu for settings -->
       <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.2.4/dist/instantsearch.min.js"></script>
-      <script src="{{ site.baseurl }}/assets/js/browse_instantsearch.js"></script>
+      <script src="{{ site.baseurl }}/assets/js/browse_instantsearch.es6"></script>
       <script type="text/javascript">$('.viewAs.menu .item').tab();</script>
       <script type="text/javascript">$('.ui.accordion.browse').accordion();</script>
     {% endif %}
 
     {% if page.layout == 'docs' %} <!-- Documentation search from algolia -->
       <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
-      <script src="{{ site.baseurl }}/assets/js/docs.js"></script>
+      <script src="{{ site.baseurl }}/assets/js/docs.es6"></script>
     {% endif %}
 
   </body>

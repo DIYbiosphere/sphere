@@ -156,33 +156,9 @@ defaults:
       layout: page
 
 
-# PLUGIN CONFIGURATIONS
-
-# Jekyll assets plugin
-assets:
-  compress:
-    css: sass
-    js: uglifier
-  autoprefixer:
-    browsers:
-      - "last 2 versions"
-      - "IE > 9"
-  assets:
-    - "*.png"
-    - "*.gif"
-    - "*.jpg"
-    - "*.svg"
-  sources:
-    - assets
-    - assets/img
-    - assets/js
-    - assets/css
-    - assets/gif
-
-# Jekyll-Tagging: https://github.com/pattex/jekyll-tagging/
-tag_page_layout: tag_page
-tag_page_dir: tag
-
+sass:
+  sass_dir: assets/css
+  style: compressed
 
 # AlgoliaSearch-Jekyll: https://github.com/algolia/algoliasearch-jekyll/
 algolia:
@@ -204,15 +180,20 @@ algolia:
     - docs/*/*/*.md
     - docs/*/*/*.md
   settings:
+    ranking:
+      - typo
+      - proximity
+      - attribute
+      - custom
+    customRanking:
+      - asc(title)
     searchableAttributes:
       - title
       - subtitle
       - hosts
       - hostsSentence
-      - hostsArray
       - partners
       - partnersSentence
-      - partnersArray
       - city
       - state
       - country
@@ -221,6 +202,8 @@ algolia:
       - collection
       - predecessor
       - successor
+      - timestamp
+      - last_modified_at
     attributesToRetrieve:
       - title
       - subtitle
@@ -229,10 +212,8 @@ algolia:
       - uberimage
       - hosts
       - hostsSentence
-      - hostsArray
       - partners
       - partnersSentence
-      - partnersArray
       - city
       - state
       - country
@@ -271,10 +252,8 @@ algolia:
       - subtitle
       - hosts
       - hostsSentence
-      - hostsArray
       - partners
       - partnersSentence
-      - partnersArray
       - city
       - state
       - country
