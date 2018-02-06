@@ -11,10 +11,10 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
 
   {% css main %} <!-- CSS and fonts-->
-  <link rel="stylesheet" type="text/css" href="{{ "/assets/semantic/dist/semantic.min.css" | prepend: site.baseUrl }}">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/semantic/dist/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" />
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css" />
-  {% js vendor/fontawesome-all %}
+  <script src="{{ site.baseurl }}/assets/js/vendor/fontawesome-all.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600" rel="stylesheet">
 
   <script> <!-- Google analytics -->
