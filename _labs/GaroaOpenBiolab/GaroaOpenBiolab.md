@@ -1,17 +1,13 @@
 ---
 title: Garoa Open BioLab
 tags:
-- hackerspace
+  - hackerspace
 manager:
 website: https://garoa.net.br/wiki/Garoa_Open_BioLab
 start-date: 2011
 status: planning
 hosts: "[Garao Hacker Clube](https://garoa.net.br/wiki/P%C3%A1gina_principal)"
 type-org:
-partners:
-  name:
-  sphere:
-  web:
 address: R. Costa Carvalho, 567 - Pinheiros
 directions:
 postcode: 05429-130
@@ -28,5 +24,5 @@ It is the open laboratory of biotechnology of Garoa, one of the main resources f
 
 Currently the laboratory is in the planning stage and obtain equipment. All are invited to contribute positively to the construction of space.
 
-
-\*taken from initiative's website
+---
+Text taken from initiative's website
