@@ -1,0 +1,64 @@
+---
+layout:
+---
+
+[{% for files in site.collections %}{% assign entries = files.docs %}{% for initiative in entries %}
+  {
+    "title": {{ initiative.title | jsonify }},
+    "collection": {{ initiative.collection | jsonify }},
+    "sphere_url": {{ initiative.url | jsonify }},
+    "subtitle": {% if initiative.subtitle %}{{ initiative.subtitle | jsonify }},{% else %}null,{% endif %}
+    "start-date": {% if initiative.start-date %}{{ initiative.start-date | jsonify }},{% else %}null,{% endif %}
+    "end-date": {% if initiative.end-date %}{{ initiative.end-date | jsonify }},{% else %}null,{% endif %}
+    "status":  {% if initiative.status %}{{ initiative.status | jsonify }},{% elsif initiative.end-date %}"inactive",{% elsif initiative.start-date %}{% endif %}
+    "hosts": {% if initiative.hosts %}{{ initiative.hosts | jsonify }},{% else %}null,{% endif %}
+    "partners": {% if initiative.partners %}{{ initiative.partners | jsonify }},{% else %}null,{% endif %}
+    "type-org": {% if initiative.type-org %}{{ initiative.type-org | jsonify }},{% else %}null,{% endif %}
+    "address": {% if initiative.address %}{{ initiative.address | jsonify }},{% else %}null,{% endif %}
+    "directions": {% if initiative.directions %}{{ initiative.directions | jsonify }},{% else %}null,{% endif %}
+    "city": {% if initiative.city %}{{ initiative.city | jsonify }},{% else %}null,{% endif %}
+    "state": {% if initiative.state %}{{ initiative.state | jsonify }},{% else %}null,{% endif %}
+    "post-code": {% if initiative.post-code %}{{ initiative.post-code | jsonify }},{% else %}null,{% endif %}
+    "country": {% if initiative.country %}{{ initiative.country | jsonify }},{% else %}null,{% endif %}
+    "_geoloc": {% if initiative._geoloc %}{{ initiative._geoloc | jsonify }},{% else %}null,{% endif %}
+    "tags": {% if initiative.tags %}{{ initiative.tags | jsonify }},{% else %}null,{% endif %}
+    "links": {
+      {% if initiative.email %}"email": {{ initiative.email | jsonify }},
+      {% endif %}{% if initiative.rss %}"rss": {{ initiative.rss | jsonify }},
+      {% endif %}{% if initiative.forum %}"forum": {{ initiative.forum | jsonify }},
+      {% endif %}{% if initiative.blog %}"blog": {{ initiative.blog | jsonify }},
+      {% endif %}{% if initiative.medium-blog %}"medium": {{ initiative.medium-blog | jsonify }},
+      {% endif %}{% if initiative.tumblr %}"tumblr": {{ initiative.tumblr | jsonify }},
+      {% endif %}{% if initiative.mailing-list %}"mailing-list": {{ initiative.mailing-list | jsonify }},
+      {% endif %}{% if initiative.facebook %}"facebook": {{ initiative.facebook | jsonify }},
+      {% endif %}{% if initiative.faceboook-group %}"faceboook-group": {{ initiative.faceboook-group | jsonify }},
+      {% endif %}{% if initiative.twitter %}"twitter": {{ initiative.twitter | jsonify }},
+      {% endif %}{% if initiative.github %}"github": {{ initiative.github | jsonify }},
+      {% endif %}{% if initiative.bitbicket %}"bitbicket": {{ initiative.bitbicket | jsonify }},
+      {% endif %}{% if initiative.google-plus %}"google-plus": {{ initiative.google-plus | jsonify }},
+      {% endif %}{% if initiative.google-group %}"google-group": {{ initiative.google-group | jsonify }},
+      {% endif %}{% if initiative.instagram %}"instagram": {{ initiative.instagram | jsonify }},
+      {% endif %}{% if initiative.flickr %}"flickr": {{ initiative.flickr | jsonify }},
+      {% endif %}{% if initiative.vimeo %}"vimeo": {{ initiative.vimeo | jsonify }},
+      {% endif %}{% if initiative.youtube %}"youtube": {{ initiative.youtube | jsonify }},
+      {% endif %}{% if initiative.basecamp %}"basecamp": {{ initiative.basecamp | jsonify }},
+      {% endif %}{% if initiative.slack %}"slack": {{ initiative.slack | jsonify }},
+      {% endif %}{% if initiative.gitter %}"gitter": {{ initiative.gitter | jsonify }},
+      {% endif %}{% if initiative.rocketchat %}"rocketchat": {{ initiative.rocketchat | jsonify }},
+      {% endif %}{% if initiative.irc %}"irc": {{ initiative.irc | jsonify }},
+      {% endif %}{% if initiative.trello %}"trello": {{ initiative.trello | jsonify }},
+      {% endif %}{% if initiative.dropbox %}"dropbox": {{ initiative.dropbox | jsonify }},
+      {% endif %}{% if initiative.google-drive %}"google-drive": {{ initiative.google-drive | jsonify }},
+      {% endif %}{% if initiative.wiki %}"wiki": {{ initiative.wiki | jsonify }},
+      {% endif %}{% if initiative.linkedin %}"linkedin": {{ initiative.linkedin | jsonify }},
+      {% endif %}{% if initiative.angellist %}"angellist": {{ initiative.angellist | jsonify }},
+      {% endif %}{% if initiative.meetup %}"meetup": {{ initiative.meetup | jsonify }},
+      {% endif %}{% if initiative.pinterest %}"pinterest": {{ initiative.pinterest | jsonify }},
+      {% endif %}{% if initiative.kickstarter %}"kickstarter": {{ initiative.kickstarter | jsonify }},
+      {% endif %}{% if initiative.gratipay %}"gratipay": {{ initiative.gratipay | jsonify }},
+      {% endif %}{% if initiative.patreon %}"patreon": {{ initiative.patreon | jsonify }},
+      {% endif %}{% if initiative.paypal %}"paypal": {{ initiative.paypal | jsonify }},
+      {% endif %}{% if initiative.website %}"website": {{ initiative.website | jsonify }}{% endif %}
+    }
+  },{% endfor %}{% endfor %}
+]

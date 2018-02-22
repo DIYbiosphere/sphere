@@ -1,0 +1,17 @@
+# This YAML keeps track of the issues dedicated to each page for general discussion, and editing discussion
+# Make sure that `page_title == page.title`
+
+# TEMPLATE
+- page_title: # Title of page
+  comments_issue: # issue number of comments in diybiosphere/comments repo
+  edit_issue: # issue number discussing editing in diybiosphere/sphere repo
+
+
+# entries
+- page_title: DIYbiosphere
+  comments_issue: 2
+  edit_issue: 207
+
+# pages
+- page_title: Avocado Lab
+  comments_issue: 1

@@ -1,0 +1,65 @@
+---
+layout:
+---
+
+{% for files in site.collections %}
+{% assign entries = files.docs %}
+{% for initiative in entries %}
+- title: {{ initiative.title }}
+  collection: {{ initiative.collection }}
+  sphere_url: {{ initiative.url }}
+  {% if initiative.subtitle %}subtitle: {{ initiative.subtitle }}
+  {% endif %}{% if initiative.start-date %}start-date: {{ initiative.start-date }}
+  {% endif %}{% if initiative.end-date %}end-date: {{ initiative.end-date }}
+  {% endif %}{% if initiative.hosts %}hosts: {% for host in initiative.hosts %}
+    - '{{ host }}'{% endfor %}
+  {% endif %}{% if initiative.partners %}partners: {% for partner in initiative.partners %}
+    - '{{ partner }}'{% endfor %}
+  {% endif %}{% if initiative.type-org %}type-org: {{ initiative.type-org }}
+  {% endif %}{% if initiative.city %}city: {{ initiative.city }}
+  {% endif %}{% if initiative.post-code %}post-code: {{ initiative.post-code }}
+  {% endif %}{% if initiative.country %}country: {{ initiative.country }}
+  {% endif %}{% if initiative._geoloc %}_geoloc:
+    lat: {{ initiative._geoloc.lat }}
+    lng: {{ initiative._geoloc.lng }}
+  {% endif %}{% if initiative.tags %}tags: {% for tag in initiative.tags %}
+    - {{ tag }}{% endfor %}
+  {% endif %}links:
+    {% if initiative.email %}email: {{ initiative.email }}
+    {% endif %}{% if initiative.rss %}rss: {{ initiative.rss }}
+    {% endif %}{% if initiative.forum %}forum: {{ initiative.forum }}
+    {% endif %}{% if initiative.blog %}blog: {{ initiative.blog }}
+    {% endif %}{% if initiative.medium-blog %}medium: {{ initiative.medium-blog }}
+    {% endif %}{% if initiative.tumblr %}tumblr: {{ initiative.tumblr }}
+    {% endif %}{% if initiative.mailing-list %}mailing-list: {{ initiative.mailing-list }}
+    {% endif %}{% if initiative.facebook %}facebook: {{ initiative.facebook }}
+    {% endif %}{% if initiative.faceboook-group %}faceboook-group: {{ initiative.faceboook-group }}
+    {% endif %}{% if initiative.twitter %}twitter: {{ initiative.twitter }}
+    {% endif %}{% if initiative.github %}github: {{ initiative.github }}
+    {% endif %}{% if initiative.bitbicket %}bitbicket: {{ initiative.bitbicket }}
+    {% endif %}{% if initiative.google-plus %}google-plus: {{ initiative.google-plus }}
+    {% endif %}{% if initiative.google-group %}google-group: {{ initiative.google-group }}
+    {% endif %}{% if initiative.instagram %}instagram: {{ initiative.instagram }}
+    {% endif %}{% if initiative.flickr %}flickr: {{ initiative.flickr }}
+    {% endif %}{% if initiative.vimeo %}vimeo: {{ initiative.vimeo }}
+    {% endif %}{% if initiative.youtube %}youtube: {{ initiative.youtube }}
+    {% endif %}{% if initiative.basecamp %}basecamp: {{ initiative.basecamp }}
+    {% endif %}{% if initiative.slack %}slack: {{ initiative.slack }}
+    {% endif %}{% if initiative.gitter %}gitter: {{ initiative.gitter }}
+    {% endif %}{% if initiative.rocketchat %}rocketchat: {{ initiative.rocketchat }}
+    {% endif %}{% if initiative.irc %}irc: {{ initiative.irc }}
+    {% endif %}{% if initiative.trello %}trello: {{ initiative.trello }}
+    {% endif %}{% if initiative.dropbox %}dropbox: {{ initiative.dropbox }}
+    {% endif %}{% if initiative.google-drive %}google-drive: {{ initiative.google-drive }}
+    {% endif %}{% if initiative.wiki %}wiki: {{ initiative.wiki }}
+    {% endif %}{% if initiative.linkedin %}linkedin: {{ initiative.linkedin }}
+    {% endif %}{% if initiative.angellist %}angellist: {{ initiative.angellist }}
+    {% endif %}{% if initiative.meetup %}meetup: {{ initiative.meetup }}
+    {% endif %}{% if initiative.pinterest %}pinterest: {{ initiative.pinterest }}
+    {% endif %}{% if initiative.kickstarter %}kickstarter: {{ initiative.kickstarter }}
+    {% endif %}{% if initiative.gratipay %}gratipay: {{ initiative.gratipay }}
+    {% endif %}{% if initiative.patreon %}patreon: {{ initiative.patreon }}
+    {% endif %}{% if initiative.paypal %}paypal: {{ initiative.paypal }}
+    {% endif %}{% if initiative.website %}website: {{ initiative.website }}{% endif %}
+{% endfor %}
+{% endfor %}
