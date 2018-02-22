@@ -16,7 +16,7 @@ tumblr: http://biologiklabs.tumblr.com/
 blog: http://biologiklabs.tumblr.com/
 twitter: https://twitte.../biologiklabs
 facebook: https://www.facebook.com/BiologikLabs
-google+: https://plus.google.com/110547922615605568991/posts
+google-plus: https://plus.google.com/110547922615605568991/posts
 ---
 
 A community bio-hackerspace that specializes in synthetic biological research and experimentation spanning the world of art, aesthetics, engineering and science

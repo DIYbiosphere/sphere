@@ -19,7 +19,7 @@ country: Italy
 email: info@fablabtorino.org
 tumblr: http://biohackingexperience.tumblr.com/
 facebook: https://www.facebook.com/be.into.7/
-google+: https://plus.google.com/communities/103117985725435831502
+google-plus: https://plus.google.com/communities/103117985725435831502
 ---
 
 The large Fablab Torino strength is the variety of skills of its associates; the curiosity that prompted us to look for new areas brought us in close contact with the world of molecular biology. From this contact was born the bio hackers community BE.IN.TO group ( BioHacking Experience in Turin ). Contamination between the various skills of its members led to the birth of some projects, some under development and others presented for the first time at Maker Faire Rome 2014. The group was founded by the interest of Castagna Riccardo, Valentina Margaria, Enrico Bassi, Stefano Paradiso, Garda Fabrizio and Alessandro Ardzhenio.

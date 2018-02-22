@@ -14,7 +14,7 @@ city: Munich
 state:
 country: Germany
 twitter: https://twitter.com/biogarage
-google+: https://plus.google.com/u/0/118328088681211953650
+google-plus: https://plus.google.com/u/0/118328088681211953650
 ---
 
 As a part of a fast growing worldwide movement of DIY labs (Do it yourself lab, #DIYbio) we will run a citizen science laboratory. Embedded in an international network we enhance research and progress to the benefit of people and environment. The worldwide movement is 'reinventing discovery' (Michael Nielsen). Science should be trendy and make fun, a motivation especially for younger people to study STEM sciences. As Stewart Brand says: Science is the only news. We try to establish a 3 D printing equipment to establish quick wins in 'hands on progress'.

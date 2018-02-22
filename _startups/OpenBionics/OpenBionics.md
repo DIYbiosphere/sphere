@@ -8,7 +8,7 @@ city: Bristol
 country: United Kingdom
 twitter: https://twitter.com/openbionics
 facebook: https://www.facebook.com/openbionicsltd
-google+: https://plus.google.com/+Openbionics
+google-plus: https://plus.google.com/+Openbionics
 linkedin: https://www.linkedin.com/company/openbionics/
 instagram: https://www.instagram.com/openbionics/
 youtube: https://www.youtube.com/channel/UCcjAyHEHlN5wKYcOPyk4mOw

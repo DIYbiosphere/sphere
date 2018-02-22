@@ -1,41 +1,20 @@
 ---
 title: Bio, Tech and Beyond
-manager: 
 subtitle: North San Diego's Life Science Incubator
 logo: https://pbs.twimg.com/profile_images/378800000013265781/54d57c46545546ea46e02c8be2d76716_400x400.jpeg
 website: http://www.biotechnbeyond.com/
 start-date: 2013
-hosts: 
-type-org: 
-partners: 
+hosts:
+type-org: company
 address: 2351 Faraday Ave
-directions: 
+directions:
 postcode: 92008
 city: Carlsbad
 state: California
 country: United States
 email: info@btandb.com
 blog: http://www.tridiybio.org/blog.html
-rss: 
-wiki: 
-forum: 
-mailinglist: 
-irc: 
-gitter: 
-slack: 
-meetup: 
 twitter: https://twitter.com/biotechbeyond
-facebook: 
-google+: 
-linkedin: 
-instagram: 
-flickr: 
-pinterest: 
-vimeo: 
-youtube: 
-hackpad: 
-trello: 
-github: 
 ---
 
 ## About

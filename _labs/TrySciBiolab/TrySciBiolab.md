@@ -14,7 +14,7 @@ state: Missouri
 country: United States
 twitter: https://twitte...=followbutton
 facebook: https://www.facebook.com/TrySci-Community-Biolabs-1466032090280960/?sk=app_190322544333196&ref=s
-google+: https://plus.google.com/113393817402093284211/about
+google-plus: https://plus.google.com/113393817402093284211/about
 linkedin: https://www.linkedin.com/company/trysci-community-biolabs
 ---
 

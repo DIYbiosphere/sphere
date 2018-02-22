@@ -26,7 +26,7 @@ slack:
 meetup: 
 twitter: https://twitter.com/Harlembiospace
 facebook: https://www.facebook.com/Harlembiospace
-google+: https://plus.google.com/u/0/+Harlembiospace
+google-plus: https://plus.google.com/u/0/+Harlembiospace
 linkedin: 
 instagram: 
 flickr: 
