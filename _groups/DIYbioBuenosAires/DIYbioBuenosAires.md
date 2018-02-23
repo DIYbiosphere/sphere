@@ -1,12 +1,7 @@
 ---
 title: Biohacking BA
-manager: 
-logo: 
 website: www.diybioba.org
 start-date: 2015
-hosts: 
-type-org: 
-partners: 
 city: Buenos Aires
 country: Argentina
 email: hola@diybioba.org

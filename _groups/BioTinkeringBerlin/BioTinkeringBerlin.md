@@ -1,16 +1,12 @@
 ---
 title: Biotinkering Berlin
-manager:
 website: https://www.biotinkering-berlin.de/?lang=en
 start-date: 2014
 hosts: "[Art Laboratory Berlin](http://artlaboratory-berlin.org/home.htm)"
-type-org: Community
-partners:
+type-org: community
 address: Prinzenallee 34
-directions:
 postcode: 13359
 city: Berlin
-state:
 country: Germany
 google-group: biotinkering-berlin@googlegroups.com
 meetup: https://www.meetup.com/Biotinkering-Berlin/

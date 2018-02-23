@@ -1,10 +1,8 @@
 ---
 title: BioHackSyd
-manager: 
 subtitle: Syney Biohackers Meeting
 start-date: 2015
-hosts: 
-type-org: Community
+type-org: community
 city: Sydney
 state: New South Wales
 country: Australia

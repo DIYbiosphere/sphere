@@ -4,7 +4,8 @@ subtitle:
 website: http://www.the-odin.com/
 start-date: 2016
 type-org: company
-city: Bay Area
+city: Oakland
+city: California
 country: USA
 twitter: https://twitter.com/TheODINinc
 facebook: https://www.facebook.com/TheODINinc

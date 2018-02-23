@@ -1,17 +1,10 @@
 ---
 title: PechBlenda Lab
-manager:
 subtitle: Laboratory of bioelectrochemical experimentations
 website: https://pechblenda.hotglue.me/
 start-date:
-hosts: Calafou
-type-org:
-partners:
-address:
-directions:
-postcode:
+type-org: community
 city: Barcelona
-state:
 country: Spain
 blog: https://network23.org/pechblendalab/
 ---

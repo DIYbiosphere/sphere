@@ -1,11 +1,8 @@
 ---
 title: Bugss
-manager:
 website: http://www.bugssonline.org/
 start-date: 2013
-hosts:
-type-org:
-partners:
+type-org: non-profit
 address: 101 N Haven St
 directions: Ste 105
 postcode: 21224

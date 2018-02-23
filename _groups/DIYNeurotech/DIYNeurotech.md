@@ -3,14 +3,10 @@ title: DIY Neurotech
 tags:
 - neurology
 - transhumanism
-manager: 
 website: http://www.diyneurotech.com/
 start-date: 2014
 end-date: 2015
-status: inactive
-hosts: 
-type-org: 
-partners: 
+type-org: community
 city: Jackson
 state: Mississippi
 country: United States

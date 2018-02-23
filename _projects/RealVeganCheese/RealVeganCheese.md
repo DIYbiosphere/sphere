@@ -3,7 +3,7 @@ title: Real Vegan Cheese
 subtitle: Biohackers are engineering baker's yeast to produce Real Vegan Cheese. No cows needed!
 website: https://realvegancheese.org/
 start-date: 2014
-type-org: Community
+type-org: community
 hosts: Counter Culture Labs
 partners:
   - Biocurious

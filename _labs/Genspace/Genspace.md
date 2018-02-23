@@ -8,7 +8,7 @@ promotions:
     text: Genspace instructors come from top institutions around the New York
       City area to teach advanced biology in an easy-to-understand, hands-on way.
     URL: https://www.genspace.org/classes-alt
-type-org: Non-profit
+type-org: non-profit
 address: 33 Flatbush Avenue
 directions: 7th Floor. 11217
 postcode:

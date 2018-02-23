@@ -1,15 +1,9 @@
 ---
 title: DIYbio Chicago
-manager: 
 start-date: 2008
 end-date: 2011
 status: inactive
-hosts: 
-type-org: Community
-partners: 
-address: 
-directions: 
-postcode: 
+type-org: community
 city: Chicago
 state: Illinois
 country: United States

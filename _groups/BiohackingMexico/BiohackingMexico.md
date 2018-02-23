@@ -1,13 +1,10 @@
 ---
 title: Biohacking Mexico
-manager: 
 subtitle: All biohackers in Latin America
 status: inactive
 start-date: 2015
 end-date: 2016
-hosts: 
-type-org: Community
-partners: 
+type-org: community
 country: Mexico
 facebook: https://www.facebook.com/biohackingmexico
 ---

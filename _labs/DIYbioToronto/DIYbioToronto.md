@@ -2,12 +2,10 @@
 title: DIYbio Toronto
 tags:
 - hackerspace
-manager:
 website: http://diybio.to/
 start-date: 2013
 hosts: "[HackLab](https://hacklab.to/)"
-type-org:
-partners:
+type-org: community
 address: 1266 Queen St.
 directions: West Suite
 postcode: M6K 1L3

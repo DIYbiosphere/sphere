@@ -10,7 +10,7 @@ summary: Biocurious is a community lab located in California
 logo: http://biocurious.org/wordpress/wp-content/uploads/2014/11/logo1.png
 website: http://biocurious.org/
 start-date: 2010
-type-org: Non-profit
+type-org: non-profit
 address: 845 Stewart Drive
 directions:
 postcode: 94085

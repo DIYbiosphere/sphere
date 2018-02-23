@@ -1,11 +1,8 @@
 ---
 title: BosLab
-manager:
 website: http://boslab.org/
 start-date: 2014
-hosts:
-type-org: Non-profit
-partners:
+type-org: non-profit
 address: 339r summer street
 directions: 2nd floor
 postcode: 2nd floor

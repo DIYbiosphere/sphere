@@ -1,14 +1,10 @@
 ---
 title: TrySci Community Biolabs
-manager:
 website: http://www.trysci.org/
 start-date: 2014
-hosts:
-type-org: Non-Profit
-partners:
+type-org: non-profit
 address: 16657 E 23rd St
 directions: South Suite 170
-postcode: South
 city: South
 state: Missouri
 country: United States

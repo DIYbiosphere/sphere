@@ -4,11 +4,10 @@ tags:
 - networking
 - education
 - events
-manager: 
 subtitle: Education, showcases & networking with the pillars of NYC’s life sciences startup community.
 website:
 start-date: 2008
-type-org: Non-Profit
+type-org: non-profit
 city: New York
 state: New York
 country: United States

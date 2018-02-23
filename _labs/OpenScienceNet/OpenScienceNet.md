@@ -5,7 +5,7 @@ tags:
 website: http://www.opensciencenet.org/
 start-date: 2010
 hosts: "[MakerLabs](http://www.makerlabs.com/)"
-type-org: Non-profit
+type-org: non-profit
 address: 780 East Cordova Street
 directions:
 postcode: V6A

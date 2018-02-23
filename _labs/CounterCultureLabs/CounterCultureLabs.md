@@ -4,7 +4,7 @@ subtitle: Your Biohacking and Citizen Science Lab in Oakland
 website: http://counterculturelabs.org/
 start-date: 2013
 hosts: "[Omni Commons](https://omnicommons.org)"
-type-org: Community
+type-org: community
 address: 4799 Shattuck
 directions:
 postcode: 94114

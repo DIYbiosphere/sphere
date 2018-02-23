@@ -1,16 +1,12 @@
 ---
 title: DIY Bio Barcelona
-manager:
 website: http://www.diybcn.org/
 start-date: 2014
 hosts: "[MADE](http://made-bcn.org/)"
-type-org: Non-Profit
-partners:
+type-org: non-profit
 address: Carrer Consell de Cent, 159
-directions:
 postcode: 08015
 city: Barcelona
-state:
 country: Spain
 rss: http://www.diybcn.org/feed/
 twitter: https://twitter.com/DIYBIOBCN

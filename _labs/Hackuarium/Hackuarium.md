@@ -1,6 +1,5 @@
 ---
 title: Hackuarium
-manager:
 subtitle: An Open Laboratory for DIY Biology (And Beyond)
 website: http://www.hackuarium.ch/en/
 promotions:
@@ -10,7 +9,7 @@ promotions:
 start-date: 2014
 hosts: '[UniverCite](http://univercity.ch/)'
 address: Chemin du Closel 5
-directions:
+directions: 3rd floor
 postcode: 1020 Renens
 city: Renens
 country: Switzerland

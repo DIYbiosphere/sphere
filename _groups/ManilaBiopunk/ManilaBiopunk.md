@@ -1,13 +1,10 @@
 ---
 title: Manila Biopunk
-manager: 
 website: http://www.manilabiopunk.org/
 start-date: 2014
-hosts: Tsinelas Labs
-partners: 
+type-org: community
+hosts: '[Tsinelas Labs](https://wiki.hackerspaces.org/Tsinelas_Labs)'
 address: 41B T. Gener St cor Kamuning
-directions: 
-postcode: 
 city: Dillman, Quezon City
 state: Metro Manila
 country: Phillipines

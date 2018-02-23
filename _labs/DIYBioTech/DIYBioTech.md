@@ -2,12 +2,10 @@
 title: DIYbioTech
 tags:
 - makerspace
-manager:
 start-date: 2013
 end-date: 2016
 hosts: "[FamiLAB](https://familab.org/)"
-type-org:
-partners:
+type-org: community
 address: 1355 Bennett Dr.
 directions: Suite 105
 postcode: 32750

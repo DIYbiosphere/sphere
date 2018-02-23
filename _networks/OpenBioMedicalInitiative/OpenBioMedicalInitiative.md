@@ -3,7 +3,7 @@ title: Open BioMedical Initiative
 subtitle:
 website: http://www.openbiomedical.org/
 start-date: 2014
-type-org: Non-profit
+type-org: non-profit
 city: 
 country:
 rss: http://www.openbiomedical.org/feed/

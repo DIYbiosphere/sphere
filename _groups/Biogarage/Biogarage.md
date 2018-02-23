@@ -1,17 +1,10 @@
 ---
 title: Biogarage
-manager:
 subtitle: Das Do It Yourself Labor
 website: http://biogarage.de/
 start-date: 2013
-hosts:
-type-org: Community
-partners:
-address:
-directions:
-postcode:
+type-org: community
 city: Munich
-state:
 country: Germany
 twitter: https://twitter.com/biogarage
 google-plus: https://plus.google.com/u/0/118328088681211953650

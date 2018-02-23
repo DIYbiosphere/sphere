@@ -1,13 +1,8 @@
 ---
 title: BioHubIl
-manager:
 website: http://biohubil.org/
 start-date: 2015
-type-org: Non-profit
-partners:
-address:
-directions:
-postcode:
+type-org: non-profit
 city: Tel Aviv
 country: Israel
 facebook-group: https://www.facebook.com/groups/1725450001000736/

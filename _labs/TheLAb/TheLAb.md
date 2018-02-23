@@ -3,7 +3,7 @@ title: The LAb
 logo: http://www.thel4b.com/wp-content/uploads/2015/07/thel4b_name1.png
 website: http://www.thel4b.com/
 start-date: 2011
-type-org: Community
+type-org: community
 address: 1340 E. 6th St.
 directions:
 postcode: 90021
