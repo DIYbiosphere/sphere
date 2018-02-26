@@ -1,4 +1,4 @@
-<div>
+<div class="xo padding top bottom">
   <div class="ui mini horizontal divided link list">
     <!-- Display last edited date of the page -->
     <div class=" disabled item">
@@ -6,19 +6,18 @@
     </div>
 
     <!-- Link to the page in the Github Repository -->
-    <a class="item noelink noul" href="https://github.com/DIYbiosphere/sphere/blob/master/{{page.path}}" target="_blank">
+    <a class="item noelink noul" href="https://github.com/{{ site.repository }}/blob/master/{{page.path}}" target="_blank">
       <span data-tooltip="Edit page in GitHub" data-variation="mini" data-inverted="">
         <i class="fal fa-edit" data-fa-transform="grow-6 right-6"></i>
       </span>
     </a>
 
-    <!-- How it works: check in `_data/talk_repo/yml` for an instance where doc_name is equal to the title of the current page -->
-    {% for issue in site.data.talk_repo %}
-      {% if issue.doc_name == page.file_name  %}
-
+    <!-- How it works: check in `_data/entry_issues/yml` for an instance where page_title is equal to the title of the current page -->
+    {% for issue in site.data.entry_issues %}
+      {% if page.title == issue.page_title  %}
         {% if issue.edit_issue %}
         {% assign edit_issue = true %}
-        <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/{{ issue.edit_issue }}#new_comment_field" target="_blank">
+        <a class="item noelink noul" href="https://github.com/{{ site.repository }}/issues/{{ issue.edit_issue }}#new_comment_field" target="_blank">
           <span data-tooltip="Add to GitHub Issue" data-variation="mini" data-inverted="">
             <i class="fal fa-bug" data-fa-transform="grow-6 right-6"></i>
           </span>
@@ -28,20 +27,19 @@
     {% endfor %}
 
     {% if edit_issue != true '%}
-    <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/new" target="_blank">
+    <a class="item noelink noul" href="https://github.com/{{ site.repository }}/issues/new" target="_blank">
       <span data-tooltip="Open GitHub Issue" data-variation="mini" data-inverted="">
         <i class="fal fa-bug" data-fa-transform="grow-6 right-6"></i>
       </span>
     </a>
     {% endif %}
-
-    <!-- How it works: check in `_data/talk_repo/yml` for an instance where doc_name is equal to the title of the current page -->
-    {% for issue in site.data.talk_repo %}
-      {% if issue.doc_name == page.file_name %}
+    {% unless page.layout == 'page' '%}
+    {% for issue in site.data.entry_issues %}
+      {% if issue.page_title == page.title %}
         {% if issue.comments_issue %}
         {% assign comments_issue = true %}
         {% assign comments_issue_id = issue.comments_issue %}
-        <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/{{ issue.comments_issue }}#new_comment_field" target="_blank">
+        <a class="item noelink noul" href="https://github.com/{{ site.comments_repo }}/issues/{{ issue.comments_issue }}#new_comment_field" target="_blank">
           <span data-tooltip="Add Comment in GitHub" data-variation="mini" data-inverted="">
             <i class="fal fa-comment" data-fa-transform="grow-6 right-6"></i>
           </span>
@@ -51,14 +49,12 @@
     {% endfor %}
 
     {% if comments_issue != true '%}
-    <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/new" target="_blank">
-      <span data-tooltip="Open Discussion in GitHub" data-variation="mini" data-inverted="">
+    <a class="item noelink noul" href="https://github.com/{{ site.comments_repo }}/issues/new" target="_blank">
+      <span data-tooltip="Open Comments Issue in GitHub" data-variation="mini" data-inverted="">
         <i class="fal fa-comments" data-fa-transform="grow-6 right-6"></i>
       </span>
     </a>
     {% endif %}
-
-
-
+    {% endunless %}
   </div>
 </div>

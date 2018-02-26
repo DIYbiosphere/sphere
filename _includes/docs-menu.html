@@ -1,6 +1,6 @@
   <div class="tablet computer only row">
     <div class="ui fluid text blue menu">
-      <a class="item {% if page.url contains 'welcome' %}active-menu{% endif %}" href="/docs/welcome">
+      <a class="item {% if page.url contains 'welcome' %}active-menu{% endif %}" href="/docs/">
         <i class="far fa-book icon"></i>&nbsp;<b>DOCUMENTATION</b>
       </a>
       <div class="item">
@@ -11,28 +11,28 @@
 
       <div class="item">
         <div class="ui dropdown item {% if page.url contains 'introduction' %}active-menu{% endif %}">
-          Introduction
+          <b>INTRODUCTION</b>
           <i class="angle down icon"></i>
           {% include docs-menu/introduction.html %}
         </div>
       </div>
       <div class="item">
         <div class="ui dropdown item {% if page.url contains 'basics' %}active-menu{% endif %}">
-          Basics
+          <b>BASICS</b>
           <i class="angle down icon"></i>
           {% include docs-menu/basics.html %}
         </div>
       </div>
       <div class="item">
         <div class="ui dropdown item {% if page.url contains 'guides' %}active-menu{% endif %}">
-          Guides
+          <b>GUIDES</b>
           <i class="angle down icon"></i>
           {% include docs-menu/guides.html %}
         </div>
       </div>
       <div class="item">
         <div class="ui dropdown item {% if page.url contains 'tutorials' %}active-menu{% endif %}">
-          Tutorials
+          <b>TUTORIALS</b>
           <i class="angle down icon"></i>
           {% include docs-menu/tutorials.html %}
         </div>
@@ -43,7 +43,7 @@
 
   <div class="mobile only row">
     <div class="ui fluid text blue menu">
-      <a class="item {% if page.url contains 'welcome' %}active-menu{% endif %}" href="/docs/welcome">
+      <a class="item {% if page.url contains 'welcome' %}active-menu{% endif %}" href="/docs/">
         <i class="far fa-book icon"></i>&nbsp;
       </a>
       <div class="item">

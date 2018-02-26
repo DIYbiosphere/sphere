@@ -1,0 +1,52 @@
+
+<!-- Use GitHub 4 Comments -->
+<div class="ui grid container xo top padding">
+<section class="xo margin top fourfold">
+  <h3 class="ui horizontal divider header">
+    <i class="far fa-comments"></i> Comments
+  </h3>
+  {% if comments_issue == true %}
+  <div class='ui small minimal comments'>
+    <div id="comments">
+    </div>
+  </div>
+
+    <a target"_blank" href="https://github.com/{{ site.comments_repo }}/issues/{{ comments_issue_id }}">
+      <div class="ui basic submit mini button">
+          <i class="fal fa-comment"></i> Add Comment in GitHub
+      </div>
+    </a>
+
+  {% else %}
+  <a target"_blank" href="https://github.com/{{ site.comments_repo }}/issues/new}">
+    <div class="ui basic submit mini button">
+        <i class="fal fa-comment"></i> Open Comments Issue in GitHub
+    </div>
+  </a>
+  {% endif %}
+</section>
+</div>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js"></script>
+<script type="text/javascript">
+function loadComments(data) {
+  for (var i=0; i<data.length; i++) {
+    var cuser = data[i].user.login;
+    var cuserlink = "https://www.github.com/" + data[i].user.login;
+    var ctype = data[i].user.type;
+    var clink = "https://github.com/{{ site.comments_repo }}/issues/{{ comments_issue_id }}#issuecomment-" + data[i].url.substring(data[i].url.lastIndexOf("/")+1);
+    var cbody = data[i].body_html;
+    var cavatarlink = data[i].user.avatar_url;
+    var cdate = Date.parse(data[i].created_at).toString("yyyy-MM-dd HH:mm");
+
+    $("#comments").append("<div class='comment'><a class='avatar'>" + '<img src="' + cavatarlink + '">' + "</a><div class='content'><a class='author' target='_blank' href=\""+ cuserlink + "\">" + cuser + "</a><div class='metadata'><div class='date'>" + cdate + "</div></div><div class='text'>" + cbody + "</div></div><div class='actions'><a target='_blank' href=\"" + clink + "\" class='reply'><i class='far fa-reply'></i> Reply</a><a target='_blank' href=\"" + clink + "\" class='reply'><i class='far fa-smile'></i> React</a></div></div></div>");
+  }
+}
+
+$.ajax("https://api.github.com/repos/{{ site.comments_repo }}/issues/{{ comments_issue_id }}/comments?per_page=100", {
+  headers: {Accept: "application/vnd.github.full+json"},
+  dataType: "json",
+  success: function(msg){
+    loadComments(msg);
+ }
+});
+</script>
