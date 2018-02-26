@@ -9,10 +9,10 @@ module AddVariablesToFiles
     def generate(site)
     	@site = site
 
-      @site.pages.each do |page|
-        pageURL = "#{page.url}"
-        page.data["file_name"] = pageURL.split('/').last
-      end
+    #  @site.pages.each do |page|
+    #    pageURL = "#{page.url}"
+    #    page.data["file_name"] = pageURL.split('/').last
+    #  end
 
 
     	@site.documents.each do |doc|
@@ -21,6 +21,13 @@ module AddVariablesToFiles
           doc.data["file_name"] = docURL.split('/').last
 
           docDir = "#{doc.relative_path}"
+  #         now = Date.now
+  #          if doc.data["end-date"]
+  #          endDate = Date.parse(doc.data["end-date"])
+  #            doc.data["project"] = "inactive"
+  #          elsif
+  #            doc.data["project"] = "active"
+  #          end
 
             if docDir.include? "_projects"
               doc.data["project"] = true
@@ -54,6 +61,10 @@ module AddVariablesToFiles
               doc.data["other"] = true
             end
 
+#            if docDir.include? "_NEW_COLLECTION(s)"
+#              doc.data["NEW_COLLECTION"] = true
+#            end
+
             regex = /\[.+?\]/
 
             if doc.data["hosts"]
@@ -80,7 +91,6 @@ module AddVariablesToFiles
             end # end if data
 
             if doc.data["partners"]
-              doc.data["partnersExist"] = true
               partnersString = "#{doc.data["partners"]}"
               partnersClean = partnersString.delete('"[]')
               partnersSplit = partnersClean.split(',')
