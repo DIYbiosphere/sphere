@@ -67,6 +67,10 @@ search.addWidget(
 const EMPTY_TEMPLATE =
   '<div class="text-center">No results found matching <strong>{{query}}</strong>.</div>';
 
+
+/* Add below to template if new collection
+{{#NEW_COLLECTION}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=NEW_COLLECTION(s)"><i class="far fa-NEW_COLLECTION_ICON icon"></i>&nbsp;NEW_COLLECTION </a>{{/NEW_COLLECTION}}
+ */
 const HIT_TEMPLATE = `
 <div class="ui basic segment xo padding bottom">
   <div class="ui relaxed link items">
@@ -81,8 +85,8 @@ const HIT_TEMPLATE = `
         <div class="meta">
    	      <span>
            {{#project}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=projects"><i class="far fa-briefcase icon"></i>&nbsp;Project </a>{{/project}}{{#startup}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=startups"><i class="far fa-rocket icon"></i>&nbsp;Startup </a>{{/startup}}{{#lab}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=labs"><i class="far fa-flask icon"></i>&nbsp;Lab </a>{{/lab}}{{#incubator}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=incubators"><i class="far fa-leaf icon"></i>&nbsp;Incubator </a>{{/incubator}}{{#group}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=groups"><i class="far fa-users icon"></i>&nbsp;Group </a>{{/group}}{{#network}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=networks"><i class="far fa-share-alt icon"></i>&nbsp;Network </a>{{/network}}{{#event}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=events"><i class="far fa-calendar-alt icon"></i>&nbsp;Event </a>{{/event}}{{#other}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=others"><i class="far fa-umbrella icon"></i>&nbsp;Other </a>{{/other}}
-           {{#_highlightResult.hostsSentence}}hosted by <em>{{{ value }}}</em>{{/_highlightResult.hostsSentence}}{{#hostsSentence}}{{#partnersSentence}}and {{/partnersSentence}}{{/hostsSentence}}
-           {{#_highlightResult.partnersSentence}}in partnership with <em>{{{ value }}}</em>{{/_highlightResult.partnersSentence}}<br>
+           {{#_highlightResult.hostsSentence}}<em>hosted by </em>{{{ value }}}{{/_highlightResult.hostsSentence}}{{#hostsSentence}}{{#partnersSentence}}<em> and </em>{{/partnersSentence}}{{/hostsSentence}}
+           {{#_highlightResult.partnersSentence}}</em>in partnership with </em>{{{ value }}}{{/_highlightResult.partnersSentence}}<br>
            </span>
    	    </div> <!-- meta -->
   	    <div class="description">
@@ -133,14 +137,18 @@ const HIT_TEMPLATE = `
 </div> <!-- segment -->
 `;
 
+/* Add below to template if new collection
+{{#NEW_COLLECTION}}NEW_COLLECTION{{/NEW_COLLECTION}}
+ */
 const TABLE_TEMPLATE = `
 <table class="ui celled small table">
   <thead>
     <tr>
       <th>Title</th>
       <th>Collection</th>
-      <th>Start Date</th>
-      <th>End Date</th>
+      <th>Type</th>
+      <th>Start</th>
+      <th>End</th>
       <th>City</th>
       <th>Country</th>
       <th>Last Edit</th>
@@ -150,7 +158,8 @@ const TABLE_TEMPLATE = `
   {{#hits}}
     <tr>
       <td><a href="{{url}}">{{{ _highlightResult.title.value }}}</a></td>
-      <td>{{#project}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=projects"><i class="far fa-briefcase icon"></i>&nbsp;Project </a>{{/project}}{{#startup}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=startups"><i class="far fa-rocket icon"></i>&nbsp;Startup </a>{{/startup}}{{#lab}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=labs"><i class="far fa-flask icon"></i>&nbsp;Lab </a>{{/lab}}{{#incubator}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=incubators"><i class="far fa-leaf icon"></i>&nbsp;Incubator </a>{{/incubator}}{{#group}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=groups"><i class="far fa-users icon"></i>&nbsp;Group </a>{{/group}}{{#network}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=networks"><i class="far fa-share-alt icon"></i>&nbsp;Network </a>{{/network}}{{#event}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=events"><i class="far fa-calendar-alt icon"></i>&nbsp;Event </a>{{/event}}{{#other}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=others"><i class="far fa-umbrella icon"></i>&nbsp;Other </a>{{/other}}</td>
+      <td>{{#project}}Project{{/project}}{{#startup}}Startup{{/startup}}{{#lab}}Lab{{/lab}}{{#incubator}}Incubator{{/incubator}}{{#group}}Group{{/group}}{{#network}}Network{{/network}}{{#event}}Event{{/event}}{{#other}}Other{{/other}}</td>
+      <td>{{type-org}}</td>
       <td>{{start-date}}</td>
       <td>{{end-date}}</td>
       <td>{{{ _highlightResult.city.value }}}</td>
@@ -248,7 +257,7 @@ search.addWidget(
         })
       );
 
-
+/*
 search.addWidget(
   instantsearch.widgets.hitsPerPageSelector({
       container: '#hits-per-page-selector',
@@ -261,6 +270,23 @@ search.addWidget(
         {value: 100, label: '100 per page'},
         {value: 1000, label: '1000 per page'},
       ],
+    })
+  );
+*/
+
+  search.addWidget(
+    instantsearch.widgets.numericSelector({
+      container: '#last-modified-selector',
+      attributeName: 'timestamp',
+      operator: '=',
+      options: [
+        {label: 'Anytime'},
+        {label: 'Only 5 star products', value: 5},
+        {label: 'Only 4 star products', value: 4},
+        {label: 'Only 3 star products', value: 3},
+        {label: 'Only 2 star products', value: 2},
+        {label: 'Only 1 star products', value: 1},
+      ]
     })
   );
 

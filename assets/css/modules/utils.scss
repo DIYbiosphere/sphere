@@ -200,3 +200,68 @@ ul.no-bullets {
 .pointer:hover {
   cursor: hand;
 }
+
+.xo.video {
+  position: relative;
+  display: block;
+  vertical-align: middle;
+  max-width: 100%;
+  background-color: transparent;
+  padding: $mar;
+
+  &.mini {
+  width: 35px;
+  height: auto;
+  font-size: 11px;
+  }
+  &.tiny {
+  width: 80px;
+  height: auto;
+  font-size: 12px;
+  }
+  &.small {
+  width: 150px;
+  height: auto;
+  font-size: 13px;
+  }
+  &.medium {
+  width: 300px;
+  height: auto;
+  font-size: 14px;
+  }
+  &.large {
+  width: 450px;
+  height: auto;
+  font-size: 14px;
+  }
+  &.big {
+  width: 600px;
+  height: auto;
+  font-size: 14px;
+  }
+  &.huge {
+  width: 800px;
+  height: auto;
+  font-size: 14px;
+  }
+  &.massive {
+  width: 960px;
+  height: auto;
+  font-size: 14px;
+  }
+  &.floated {
+  float: left;
+  }
+  &.floated.right {
+  float: right;
+  }
+  &.centered {
+  margin-left: auto;
+  margin-right: auto;
+  }
+  &.fluid {
+  display: block;
+  width: 100%;
+  height: auto;
+  }
+}
