@@ -10,6 +10,9 @@ address: H. C. Ørsteds Vej 5
 postcode: 1879 Frederiksberg
 city: Copenhagen
 country: Denmark
+_geoloc:
+  lat: 55.676540
+  lng: 12.545520
 blog: http://biologigaragen.org/blog/
 rss: http://biologigaragen.org/feed
 twitter: https://twitter.com/biologigaragen

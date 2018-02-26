@@ -6,6 +6,9 @@ type-org: non-profit
 address: Drottning Kristinas väg 53
 city: Stockholm
 country: Sweden
+_geoloc:
+  lat: 59.350774
+  lng: 18.067712
 meetup: http://www.meetup.com/BioNyfiken-Sthlm/
 twitter: https://twitter.com/BioNyfiken/likes
 facebook: https://www.facebook.com/BioNyfiken

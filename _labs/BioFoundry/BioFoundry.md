@@ -9,6 +9,9 @@ postcode: 2015
 city: Alexandria
 state: New South Wales
 country: Australia
+_geoloc:
+  lat: -33.904579
+  lng: 151.202014
 rss: http://foundry.bio/feed/
 facebook: https://www.facebook.com/thebiofoundry/
 ---

@@ -5,10 +5,13 @@ start-date: 2013
 type-org: community
 address: 259 Granby St.
 directions: Suite 250
-postcode: Suite 250
+postcode: 23510
 city: Norfolk
 state: Virginia
 country: United States
+_geoloc:
+  lat: 36.849866
+  lng: -76.290872
 tumblr: http://biologiklabs.tumblr.com/
 blog: http://biologiklabs.tumblr.com/
 twitter: https://twitter.com/biologiklabs

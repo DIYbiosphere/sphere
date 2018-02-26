@@ -9,6 +9,9 @@ postcode: 87544
 city: Los Alamos
 state: New Mexico
 country: United States
+_geoloc:
+  lat: 35.892568
+  lng: -106.320034
 twitter: https://twitter.com/biodidact
 facebook: https://www.facebook.com/Biodidact-766169000111497/
 ---

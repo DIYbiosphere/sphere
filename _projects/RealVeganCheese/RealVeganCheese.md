@@ -10,6 +10,9 @@ partners:
 city: Oakland
 state: California
 country: United States
+_geoloc:
+  lat: 37.835233
+  lng: -122.264195
 twitter:
 facebook: https://www.facebook.com/realvegancheese/
 wiki: https://wiki.realvegancheese.org/index.php/Real_Vegan_Cheese

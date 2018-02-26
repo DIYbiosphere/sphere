@@ -11,6 +11,9 @@ postcode: 94114
 city: Oakland
 state: California
 country: United States
+_geoloc:
+  lat: 37.835233
+  lng: -122.264195
 email: info@counterculturelabs.org
 wiki: https://counterculturelabs.org/wiki/Counter_Culture_Labs
 meetup: http://www.meetup.com/Counter-Culture-Labs/

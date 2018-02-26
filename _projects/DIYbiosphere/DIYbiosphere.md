@@ -8,6 +8,9 @@ type-org: non-profit
 partners:
   - DIYbio.org
 headquarter: true
+_geoloc:
+  lat: 46.2043907
+  lng: 6.1431577
 city: Geneva
 country: Switzerland
 twitter: https://twitter.com/DIYbiosphere/

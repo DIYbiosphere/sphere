@@ -9,6 +9,9 @@ address: Achtseweg Zuid 151
 postcode: 5651 GW
 city: Eindhoven
 country: Netherlands
+_geoloc:
+  lat: 13.111525
+  lng: 77.583126
 email: contact@bioartlab.com
 tumblr: http://bioscopelab.tumblr.com/
 twitter: https://twitter.com/bioartlab

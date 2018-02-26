@@ -9,6 +9,9 @@ type-org: University
 postcode: 5600064
 city: Bangalore
 country: India
+_geoloc:
+  lat: 13.111525
+  lng: 77.583126
 email: artscienceblr@gmail.com
 ---
 

@@ -6,7 +6,7 @@ layout:
   {
     "title": {{ initiative.title | jsonify }},
     "collection": {{ initiative.collection | jsonify }},
-    "sphere_url": {{ initiative.url | jsonify }},
+    "url": {{ initiative.url | jsonify }},
     "subtitle": {% if initiative.subtitle %}{{ initiative.subtitle | jsonify }},{% else %}null,{% endif %}
     "start-date": {% if initiative.start-date %}{{ initiative.start-date | jsonify }},{% else %}null,{% endif %}
     "end-date": {% if initiative.end-date %}{{ initiative.end-date | jsonify }},{% else %}null,{% endif %}

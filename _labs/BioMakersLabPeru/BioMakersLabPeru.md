@@ -6,6 +6,9 @@ start-date: 2014
 type-org:
 city: Lima
 country: Peru
+_geoloc:
+  lat: -12.2720956
+  lng: -76.2710833
 twitter:
 facebook: https://www.facebook.com/biomakerslab/
 tags:
