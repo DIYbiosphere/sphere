@@ -2,18 +2,22 @@
 layout: docs
 title: Getting Started
 draft: true
+toc: true
 ---
 
-The Entries are the core of the DIYbiosphere project. The key ideas are:
+Thank you for your interest in contributing to the DIYbiosphere project!
 
-- **[Collections]:** entries are divided into: _Projects_, _Startups_, _Labs_, _Incubators_, _Groups_, _Networks_, _Events_, and _Others_.
-- **[Types of organizations][type-org]:** initiatives are classified under a 'category' that describes the organizational structure of the initiative: _Community/Grassroots_, _Primary/Secondary School_, _University/College_, _Non-Profit/NGO_, _For-Profit_, _Museum_, _State/Local Government_, and _Other_.
-- **[Anatomy of an Entry][anatomy]:** entries display narrative text which describes the intiative (history, mission) and data contained in an infobox (location, founding date). Learn more about the [Data Fields][fields].
+# Searching for entries
+## Quick search
+The search bar in the navigation menu at the top is a **quick search** for entries. You can search by _title_ and location (_city_ and _country_). The search will also display the _hosts_ of an entry if any.
 
-For an example, check the entry for the [DIYbiosphere project][e_sphere]! :wink:
+## Advanced search (browse)
+Select
 
-## Using the Library
-Users can access the entries of the library at: [sphere.diybio.org][sphere]. To find an entry use the _Search Bar_, you can search by name or location (city, countries). To look at a _List of Entries_ select 'All Entries', or select a specific collection from the 'Library' dropdown menu. In the list of entries page, you can further search for an entry by name or location, or you can use the buttons to refine and sort the results, including how they are displayed (table, grid, or map).
+# Contributing to entries
 
-### Downloading the Dataset
-In the List of Entries page, users can download a CSV file of the results shown. The entire dataset can be downloaded in the release page.
+See our [Getting Started]  guide to kickstart you into _using_ and _contributing_ to the project. See our [Contributing Guide] for how to submit issues, and pull-requests. We also have have an [ELI5 guide] (Explain Like I'm 5) for the utterly confused.
+
+# Contributing to the development
+
+# Downloading 

@@ -1,15 +1,32 @@
 ---
-title: Avocado Lab
-subtitle: Experimenting with avocados in every way
-logo: /docs/tutorials/AvocadoLab/AvocadoLab-logo.png
-header: /docs/tutorials/AvocadoLab/AvocadoLab-header.png
-website: http://www.avocadolab.com
-start-date: 2001
-hosts: '[Tree Labs](http://treelabs.com)'
-type-org: Community
+# NAMING THE INITIATIVE
+# The URL for the initiative will be `/:collection/:file-name/`
+# If 'file-name: AvocadoLab.md' and 'collection: lab' => 'url: http://sphere.diybio.org/labs/AvocadoLab/'
+title: 'Avocado Lab: pedagogical' # Name of initiative. Since the text has ": " it must be wrapped in '' or ""
+subtitle: 'Experimenting with avocados _in every way_' # Short description. 200 characters max!. Since text has markdown syntax it must be wrapped in '' or ""
+# IMAGES
+# the preset images are: 'thumbnail', 'logo', and 'header'. This is the order the 'browse' page will try to render an image for each entry.
+# to show preset images, either (1) add images to the folder of your initiative with the preset names or (2) add the image path in the repository or (3) external URL. Image format must be strictly: '.png', '.jpg', or '.svg'
+thumbnail: # (1) The thumbnail should be a squared image. Kind of like an avatar image
+logo: /labs/AvocadoLab/logo.svg # (2) The logo is the brand. It shows in the infobox
+header: http://www.freepics.com/palm-leaves.jpg # (3) Shows at the top of the entry's page, and is the automatic background of promotions appearing in the landing page (see below for promotions)
+website: http://www.avocadolab.com # Main external website with more information
+start-date: 2001-11-05 # Date initiative started. Format must be: 'YYYY-MM-DD' or 'YYYY' if only using year
+end-date: 2017 # Date initiative ended. Automatically sets 'status: inactive'
+hosts: # Is the space
+  - DIYbiosphere
+  -
+partners:
+  - '[Guacamole Fans](http://guacamolefans.com)'
+  - '[Tree Labs](http://treelabs.com)'
+type-org: community
+# LOCATION
+address:
+directions:
 city: Morelia
 state: Michoacan
 country: Mexico
+# LINKS
 blog: http://www.avocadolab.com/blog
 email: info@avocadolab.com
 twitter: http://twitter.com/avocadolab
@@ -17,6 +34,7 @@ tags:
 - food lab
 - citizen science
 - fruits
+# PROMOTIONS
 promotions:
   - button: Go to recipe
     text: Learn how to make the yummiest avocado toast! And to top it off with a nice poached egg
@@ -29,6 +47,4 @@ promotions:
 ---
 
 ## About
-The Avocado lab is a fictitious lab that does not exist other that for educational purposes. The name for the lab comes from the user @ahuacatl, which uses the the original nahualt word for avocado. Ahuacat's account is also used for educational purposes, mainly for screenshots and screencasts of the tutorials, guides, etc for the DIYbiosphere project.
-
-Furthermore, avocados are delicious and nutritious and for those reasons it has become more popular in recent years all across the world. On a more curious note, the avocado has also come to represent the millennial generation.
+The Avocado lab is a fictitious lab created for educational purposes.

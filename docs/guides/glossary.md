@@ -1,9 +1,8 @@
 ---
 layout: docs
-comments_issue: 31
-edit_issue: 32
 title: Glossary of Terms
 draft: true
+toc: true
 ---
 
 **Commit**
@@ -77,7 +76,7 @@ draft: true
 
 **contributor license agreement**
 
-**TLDR**
+**TLDR** 
 
 **ELI5**
 
