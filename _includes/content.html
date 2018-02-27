@@ -1,6 +1,7 @@
 {% include messages/needs-editing.html %}
 {% include content/github-buttons.html %}
 <article>
+  {% if page.url contains "overview" %}
   <h1 class="ui header xo margin top without">
     <div class="ui medium header">{{ page.title }}
     {% if page.subtitle %}
@@ -10,6 +11,7 @@
     {% endif %}
     </div>
   </h1>
+  {% endif %}
   {{content | toc }}
 </article>
 

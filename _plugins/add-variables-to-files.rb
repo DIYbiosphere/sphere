@@ -2,6 +2,7 @@
 # added support for collections(documents)
 # converts DateTime into Unix Timestamp
 require 'kramdown'
+require 'date'
 
 module AddVariablesToFiles
   class Generator < Jekyll::Generator
@@ -9,25 +10,17 @@ module AddVariablesToFiles
     def generate(site)
     	@site = site
 
-    #  @site.pages.each do |page|
-    #    pageURL = "#{page.url}"
-    #    page.data["file_name"] = pageURL.split('/').last
-    #  end
-
-
     	@site.documents.each do |doc|
     		if(doc.respond_to? :data)
           docURL = "#{doc.url}"
           doc.data["file_name"] = docURL.split('/').last
 
           docDir = "#{doc.relative_path}"
-  #         now = Date.now
-  #          if doc.data["end-date"]
-  #          endDate = Date.parse(doc.data["end-date"])
-  #            doc.data["project"] = "inactive"
-  #          elsif
-  #            doc.data["project"] = "active"
-  #          end
+          now = Date.today
+        endDate = "#{doc.end-date}"
+          # Determine if it has an end date
+
+
 
             if docDir.include? "_projects"
               doc.data["project"] = true

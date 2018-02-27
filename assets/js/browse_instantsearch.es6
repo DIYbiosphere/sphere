@@ -86,7 +86,7 @@ const HIT_TEMPLATE = `
    	      <span>
            {{#project}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=projects"><i class="far fa-briefcase icon"></i>&nbsp;Project </a>{{/project}}{{#startup}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=startups"><i class="far fa-rocket icon"></i>&nbsp;Startup </a>{{/startup}}{{#lab}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=labs"><i class="far fa-flask icon"></i>&nbsp;Lab </a>{{/lab}}{{#incubator}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=incubators"><i class="far fa-leaf icon"></i>&nbsp;Incubator </a>{{/incubator}}{{#group}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=groups"><i class="far fa-users icon"></i>&nbsp;Group </a>{{/group}}{{#network}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=networks"><i class="far fa-share-alt icon"></i>&nbsp;Network </a>{{/network}}{{#event}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=events"><i class="far fa-calendar-alt icon"></i>&nbsp;Event </a>{{/event}}{{#other}}<a href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=others"><i class="far fa-umbrella icon"></i>&nbsp;Other </a>{{/other}}
            {{#_highlightResult.hostsSentence}}<em>hosted by </em>{{{ value }}}{{/_highlightResult.hostsSentence}}{{#hostsSentence}}{{#partnersSentence}}<em> and </em>{{/partnersSentence}}{{/hostsSentence}}
-           {{#_highlightResult.partnersSentence}}</em>in partnership with </em>{{{ value }}}{{/_highlightResult.partnersSentence}}<br>
+           {{#_highlightResult.partnersSentence}}<em>in partnership with </em>{{{ value }}}{{/_highlightResult.partnersSentence}}<br>
            </span>
    	    </div> <!-- meta -->
   	    <div class="description">
@@ -106,7 +106,8 @@ const HIT_TEMPLATE = `
           <span data-tooltip="location" data-variation="mini" data-inverted="">
           <i class="far fa-map-marker-alt fa-fw fa-sm"></i>
           </span>
-          {{#city}} {{{ _highlightResult.city.value }}}, {{/city}}
+          {{#city}}{{{ _highlightResult.city.value }}},{{/city}}
+          {{#state}}{{{ _highlightResult.state.value }}},{{/state}}
           {{#country}}{{{ _highlightResult.country.value }}}{{/country}}
           {{/country}}
           {{#type-org}}{{#country}}  |  {{/country}}{{^country}}{{#start-date}}  |  {{/start-date}}{{/country}}{{/type-org}}
@@ -257,7 +258,7 @@ search.addWidget(
         })
       );
 
-/*
+
 search.addWidget(
   instantsearch.widgets.hitsPerPageSelector({
       container: '#hits-per-page-selector',
@@ -270,23 +271,6 @@ search.addWidget(
         {value: 100, label: '100 per page'},
         {value: 1000, label: '1000 per page'},
       ],
-    })
-  );
-*/
-
-  search.addWidget(
-    instantsearch.widgets.numericSelector({
-      container: '#last-modified-selector',
-      attributeName: 'timestamp',
-      operator: '=',
-      options: [
-        {label: 'Anytime'},
-        {label: 'Only 5 star products', value: 5},
-        {label: 'Only 4 star products', value: 4},
-        {label: 'Only 3 star products', value: 3},
-        {label: 'Only 2 star products', value: 2},
-        {label: 'Only 1 star products', value: 1},
-      ]
     })
   );
 

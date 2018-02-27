@@ -21,7 +21,7 @@ The DIYbiosphere is a open-source project to connect Do-It-Yourself Biology (DIY
 
 
 ### How it works
-The platform functions similar to a wiki but uses [GitHub Pages](https://pages.github.com) instead; hosting the raw _files_ at https://github.com/DIYbiosphere/sphere and rendering _webpages_ at http://sphere.diybio.org.
+The platform functions similar to a wiki but uses [GitHub Pages](https://pages.github.com) instead; hosting the raw _files_ at [https://github.com/DIYbiosphere/sphere](https://github.com/DIYbiosphere/sphere) and rendering _webpages_ at [http://sphere.diybio.org](http://sphere.diybio.org)
 
 Each DIYbio initiative has its own entry which are organized into eight collections: _projects_, _startups_, _labs_, _incubators_, _groups_, _networks_, _events_, and _others_. An entry is added by creating its own folder in its respective collection, and adding a _text file in markdown syntax_ with a _YAML front matter_, which is then rendered into its webpage. For example, the file `_projects/MyDIYbioProject/MyDIYbioProject.md` could look like this:
 
