@@ -205,6 +205,7 @@ algolia:
       - timestamp
       - last_modified_at
       - _geoloc
+      - status
     attributesToRetrieve:
       - title
       - subtitle
@@ -238,6 +239,7 @@ algolia:
       - last_modified_at
       - timestamp
       - _geoloc
+      - status
     attributesForFaceting:
       - collection
       - type-org
@@ -264,6 +266,7 @@ algolia:
       - collection
       - predecessor
       - successor
+      - status
     attributesToSnippet: ['content:10']
     highlightPreTag: <span class="search-highlight">
     highlightPostTag: </span>
