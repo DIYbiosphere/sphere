@@ -4,6 +4,8 @@
 require 'kramdown'
 require 'date'
 
+
+
 module AddVariablesToFiles
   class Generator < Jekyll::Generator
     priority :highest
@@ -17,8 +19,63 @@ module AddVariablesToFiles
 
           docDir = "#{doc.relative_path}"
           now = Date.today
-        endDate = "#{doc.end-date}"
+
           # Determine if it has an end date
+
+          if doc.data["end-date"]
+              # Then grab it
+             endDate = "#{doc.data["end-date"]}".to_s
+
+             # Parse the date
+             if endDate.size == 4
+              dateEnd = Date.strptime(endDate, '%Y')
+
+            elsif endDate.size == 7
+               dateEnd = Date.strptime(endDate, '%Y-%m')
+
+            elsif endDate.size == 10
+               dateEnd = Date.strptime(endDate, '%Y-%m-%d')
+
+             elsif endDate.size == 16
+               dateEnd = DateTime.parse(endDate)
+            end
+
+            isEndPast = (dateEnd - now) < 0
+
+           end
+
+           if doc.data["start-date"]
+             startDate = "#{doc.data["start-date"]}".to_s
+
+             if startDate.size == 4
+               dateStart = Date.strptime(startDate, '%Y')
+
+             elsif startDate.size == 7
+               dateStart = Date.strptime(startDate, '%Y-%m')
+
+             elsif startDate.size == 10
+               dateStart = Date.strptime(startDate, '%Y-%m-%d')
+
+             elsif startDate.size == 16
+               dateStart = DateTime.parse(startDate)
+             end
+             isStartPast = (dateStart - now) < 0
+            end
+
+            unless doc.data["status"]
+              if isStartPast == true
+                unless isEndPast == true
+                  doc.data["status"] = "active"
+                else
+                  doc.data["status"] = "inactive"
+                end
+              elsif isStartPast == false
+                 doc.data["status"] = "planned"
+              else
+                doc.data["status"] = "unknown"
+              end
+            else
+            end
 
 
 

@@ -62,7 +62,7 @@ subtitle: # Short description. 200 characters max!
 predecessor: # the previous name of the entry
 successor: # the initiative that evolved from the initiative
 end-date: # ISO format: 'YYYY-MM-DD hh:mm', 'YYYY-MM-DD', 'YYYY-MM', or 'YYYY'
-status: # all entries are 'active' by default, if they have an `end-date` that
+status: # AUTOMATIC!! 'active' by default, unless `end-date` in the past then 'inactive', or unless `start-date` in future then 'planned'. Useful when it is neither 'active', 'inactive', or 'planned'
 hosts: # Is the space or organization behind the initiative, e.g. a university or a makerspace
   -  # host. Use the exact 'title' of another entry to automatically display as a linked item
   - # another host

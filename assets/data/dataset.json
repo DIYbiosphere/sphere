@@ -10,7 +10,7 @@ layout:
     "subtitle": {% if initiative.subtitle %}{{ initiative.subtitle | jsonify }},{% else %}null,{% endif %}
     "start-date": {% if initiative.start-date %}{{ initiative.start-date | jsonify }},{% else %}null,{% endif %}
     "end-date": {% if initiative.end-date %}{{ initiative.end-date | jsonify }},{% else %}null,{% endif %}
-    "status":  {% if initiative.status %}{{ initiative.status | jsonify }},{% elsif initiative.end-date %}"inactive",{% elsif initiative.start-date %}{% endif %}
+    "status": {% if initiative.status %}{{ initiative.status | jsonify }},{% else %}null,{% endif %}
     "hosts": {% if initiative.hosts %}{{ initiative.hosts | jsonify }},{% else %}null,{% endif %}
     "partners": {% if initiative.partners %}{{ initiative.partners | jsonify }},{% else %}null,{% endif %}
     "type-org": {% if initiative.type-org %}{{ initiative.type-org | jsonify }},{% else %}null,{% endif %}

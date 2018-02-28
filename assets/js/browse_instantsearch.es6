@@ -100,8 +100,8 @@ const HIT_TEMPLATE = `
           </span>
           {{start-date}}
           {{/start-date}}
-          {{#end-date}} - {{end-date}} {{/end-date}}
-          {{#country}}{{#start-date}}  |  {{/start-date}}{{/country}}
+          {{#end-date}} - {{end-date}}{{/end-date}}
+          {{#start-date}} | {{/start-date}}<span data-tooltip="status" data-variation="mini" data-inverted=""><i class="far fa-bolt fa-fw fa-sm" data-fa-transform="down-1"></i></span>{{status}} | 
           {{#country}}
           <span data-tooltip="location" data-variation="mini" data-inverted="">
           <i class="far fa-map-marker-alt fa-fw fa-sm"></i>
@@ -187,6 +187,23 @@ const tableHits = instantsearch.widgets.hits({
 			allItems: TABLE_TEMPLATE
 		},
 	});
+
+search.addWidget(
+  instantsearch.widgets.refinementList({
+      container: '#status',
+      attributeName: 'status',
+      operator: 'or',
+      limit: 10,
+      cssClasses: {
+  			list: 'ui small horizontal link list xo paddingless',
+  			item: 'item',
+  			active: 'active item',
+      },
+      templates: {
+        item: '<a class="item">[{{value}} {{count}}]</a>',
+      }
+    })
+  );
 
 search.addWidget(
   instantsearch.widgets.refinementList({
