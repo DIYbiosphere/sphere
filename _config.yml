@@ -3,21 +3,18 @@ title: DIYbiosphere
 description: "An open source project to connect DIYBio Initiatives from all over the world"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "sphere.diybio.org"
-permalink: /updates/:year/:month/:day/:title
-repository: DIYbiosphere/sphere
-github_comments_repository:  diybiosphere/talk
-github_username: DIYbiosphere
+repository: diybiosphere/sphere
+comments_repo:  diybiosphere/talk
+permalink: /:path/
 twitter:
   username: DIYbiosphere
 
 
 # Excluded files and dirs
 exclude:
-  - vendor
   - script
   - Gemfile
   - Gemfile.lock
-  - README.md
   - DataReusePlan.txt
   - .assets-cache
   - .sass-cache
@@ -40,22 +37,17 @@ kramdown:
   hard_wrap: false
 
 # Where things are
-source:       .
-destination:  ./_site
-plugins_dir:  ./_plugins
-layouts_dir:  ./_layouts
-data_dir:     ./_data
-includes_dir: ./_includes
+destination:  _site
+plugins_dir:  _plugins
+layouts_dir:  _layouts
+data_dir:     _data
+includes_dir: _includes
 
 
 plugins:
   - jemoji
-  - jekyll-assets
-  - jekyll-sitemap
   - jekyll-mentions
   - jekyll-last-modified-at
-  - jekyll-feed
-  - jekyll-avatar
   - jekyll-toc #https://github.com/toshimaru/jekyll-toc/
 
 # Collections
@@ -106,49 +98,56 @@ defaults:
     values:
       layout: entry
       collection: Project
+      permalink: /:collection/:name/
   -
     scope:
       type: startups
     values:
       layout: entry
       collection: Startup
+      permalink: /:collection/:name/
   -
     scope:
       type: labs
     values:
       layout: entry
       collection: Lab
+      permalink: /:collection/:name/
   -
     scope:
       type: incubators
     values:
       layout: entry
       collection: Incubator
+      permalink: /:collection/:name/
   -
     scope:
       type: groups
     values:
       layout: entry
       collection: Group
+      permalink: /:collection/:name/
   -
     scope:
       type: networks
     values:
       layout: entry
       collection: Network
+      permalink: /:collection/:name/
   -
     scope:
       type: events
     values:
       layout: entry
       collection: Event
+      permalink: /:collection/:name/
   -
     scope:
       type: others
     values:
       layout: entry
       collection: Other
-
+      permalink: /:collection/:name/
   -
     scope:
       type: pages
@@ -170,7 +169,8 @@ algolia:
   files_to_exclude:
     - index.html
     - 404.html
-    - entries.html
+    - browse.html
+    - README.md
     - CODE_OF_CONDUCT.md
     - CONTRIBUTING.md
     - about/*.md
@@ -204,6 +204,8 @@ algolia:
       - successor
       - timestamp
       - last_modified_at
+      - _geoloc
+      - status
     attributesToRetrieve:
       - title
       - subtitle
@@ -236,6 +238,8 @@ algolia:
       - other
       - last_modified_at
       - timestamp
+      - _geoloc
+      - status
     attributesForFaceting:
       - collection
       - type-org
@@ -262,6 +266,7 @@ algolia:
       - collection
       - predecessor
       - successor
+      - status
     attributesToSnippet: ['content:10']
     highlightPreTag: <span class="search-highlight">
     highlightPostTag: </span>

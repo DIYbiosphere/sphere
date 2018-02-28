@@ -2,7 +2,7 @@
 title: Kombucha Genomics
 subtitle:
 website:
-start-date: November 14, 2017
+start-date: 2017-11-14
 hosts: Counter Culture Labs
 type-org: community
 city: Oakland
@@ -17,7 +17,6 @@ tags:
   - metagenomics
   - food
   - global
-
 ---
 
 ## About

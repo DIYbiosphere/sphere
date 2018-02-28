@@ -2,18 +2,65 @@
 layout: docs
 title: Getting Started
 draft: true
+toc: true
 ---
 
-The Entries are the core of the DIYbiosphere project. The key ideas are:
 
-- **[Collections]:** entries are divided into: _Projects_, _Startups_, _Labs_, _Incubators_, _Groups_, _Networks_, _Events_, and _Others_.
-- **[Types of organizations][type-org]:** initiatives are classified under a 'category' that describes the organizational structure of the initiative: _Community/Grassroots_, _Primary/Secondary School_, _University/College_, _Non-Profit/NGO_, _For-Profit_, _Museum_, _State/Local Government_, and _Other_.
-- **[Anatomy of an Entry][anatomy]:** entries display narrative text which describes the intiative (history, mission) and data contained in an infobox (location, founding date). Learn more about the [Data Fields][fields].
+# Quick search
+The search bar in the navigation menu at the top is to **quick search** for entries. Search by `title:` and/or location (`city:` and `country:`). The query will also display and search the _hosts_ of an entry if any. The search will try to autocomplete the query as five suggestions are listed below the search bar.
 
-For an example, check the entry for the [DIYbiosphere project][e_sphere]! :wink:
+# Advanced search (browse)
+Select the `BROWSE` dropdown in the top navigation menu. Select either to view all entries (`everything`), or narrow by _collection_.
 
-## Using the Library
-Users can access the entries of the library at: [sphere.diybio.org][sphere]. To find an entry use the _Search Bar_, you can search by name or location (city, countries). To look at a _List of Entries_ select 'All Entries', or select a specific collection from the 'Library' dropdown menu. In the list of entries page, you can further search for an entry by name or location, or you can use the buttons to refine and sort the results, including how they are displayed (table, grid, or map).
+Once in the _browse_ page, there are three main sections: the _query statistics_ the _browse menu_ and the _displayed results_.
 
-### Downloading the Dataset
-In the List of Entries page, users can download a CSV file of the results shown. The entire dataset can be downloaded in the release page.
+## Query statistics
+The number of entries found is displayed, as well as any additional _text search_ or _filter_ setting. The filters can be removed by selecting them, or select the `Erase all` to remove all filters.
+
+![](/docs/introduction/filter-query.png){:.ui.image }
+
+## Browse menu
+A dropdown grey menu unfolds to display the various configuration options to browse entries.
+
+- _Text search_ unfolds automatically. The query will search for _text_ inside the entries, as well as data such as `title:`, `city:`, `state:`, `state:`
+
+![](/docs/introduction/query-menu.png){:.ui.large.image }
+
+### Text search
+
+
+### Filter results
+
+![](/docs/introduction/filter-results.png){:.ui.huge.image }
+
+
+### View settings
+
+![](/docs/introduction/view-query.png){:.ui.big.image }
+
+## Displayed results
+See the results
+
+![](/docs/introduction/list-hit.png){:.ui.large.image }
+
+![](/docs/introduction/table-hit.png){:.ui.huge.image }
+
+
+
+{% include messages/star.html title="Future hit map" text="The API for displaying results (Algolia instantsearch.js) is currently developing a GeoSearch widget, we are waiting for its release" %}
+
+
+# Contributing to entries
+ee our [Contributing Guide] for how to submit issues, and pull-requests.
+
+# Contributing to the development
+
+
+# Downloading the dataset
+Go to the [sphere repository] and select `Clone or Download`, and then select `Download ZIP`. Only the `.md` files in the collection folders are part of the dataset
+
+![](/docs/introduction/download-zip.png){:.ui.centered.medium.image }
+
+Alternatively, download a `.json` file with all the _front matter_ data values:
+
+{{site.data.elements.buttons.dataset_json}}

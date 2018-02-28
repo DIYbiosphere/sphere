@@ -1,17 +1,11 @@
 ---
 title: MadLab Biolab
-manager:
-logo:
 website: https://madlab.org.uk/community-biotechnology/
 start-date:
-hosts:
-type-org:
-partners:
+type-org: non-profit
 address: 36-40 Edge St
-directions:
 postcode: M4 1HN
 city: Manchester
-state:
 country: United Kingdom
 twitter: https://twitter.com/madlabuk
 facebook: https://www.facebook.com/MadLabUK/

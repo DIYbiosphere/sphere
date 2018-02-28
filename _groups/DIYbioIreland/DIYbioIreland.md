@@ -1,18 +1,8 @@
 ---
 title: DIYbio Ireland
-manager: 
 start-date: 2011
 end-date: 2015
-status: inactive
-succesor: Forma Labs
-hosts: 
-type-org: 
-partners: 
-address: 
-directions: 
-postcode: 
-city: 
-state: 
+successor: Forma Labs
 country: Ireland
 google-group: https://groups.google.com/forum/#!forum/diybio-ireland
 ---

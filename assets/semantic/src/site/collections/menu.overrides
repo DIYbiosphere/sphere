@@ -1,3 +1,16 @@
 /*******************************
          Site Overrides
 *******************************/
+
+
+.ui.message.docs {
+  border-left: 3px;
+  border-style: none none none solid;
+  background: white;
+}
+
+.ui.message.docs p {
+  opacity: 0.85;
+  margin: 0.75em 0em;
+  color: rgba(0, 0, 0, 0.87);
+}

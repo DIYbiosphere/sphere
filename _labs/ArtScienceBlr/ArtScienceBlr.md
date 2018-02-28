@@ -2,19 +2,16 @@
 title: Art Science BLR
 tags:
 - bioart
-manager:
 subtitle: Public Laboratory at the Srishi Intitute of Art, Design & Technology
 website: http://artscienceblr.org/
 start-date:
-hosts:
 type-org: University
-partners:
-address:
-directions:
 postcode: 5600064
 city: Bangalore
-state:
 country: India
+_geoloc:
+  lat: 13.111525
+  lng: 77.583126
 email: artscienceblr@gmail.com
 ---
 

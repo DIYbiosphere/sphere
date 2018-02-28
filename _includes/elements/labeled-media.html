@@ -1,0 +1,24 @@
+{% if include.media == "video" %}
+<div class="xo video {{ include.class }}">
+<div class="ui segments" >
+  <div class="ui segment">
+    <video  controls>
+      <source src="{{ include.path }}" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="ui secondary segment">
+    <p>{{ include.label }}</p>
+  </div>
+</div>
+</div>
+{% else %}
+<div class="ui segments">
+  <div class="ui segment">
+    <img class="ui {{ include.class }} image" src="{{ include.path }}">
+  </div>
+  <div class="ui secondary segment">
+    <p>{{ include.label }}</p>
+  </div>
+</div>
+{% endif %}

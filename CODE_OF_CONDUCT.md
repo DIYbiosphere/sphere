@@ -22,16 +22,16 @@ Unacceptable behavior includes, but is not limited to:
 
 In general, any conduct that could be considered inappropriate in a professional setting is unacceptable.
 
-### Dealing with Unacceptable Behavior
+# Dealing with Unacceptable Behavior
 When instances of unacceptable behavior occur towards you or someone else, you can deal with it:
 
-#### **Directly**
+## Address it directly
 Address the wrongdoer, sharing your feelings in response to their behavior and how it hurts you or others. Do not ridicule, insult, etc. On the other hand, if you are the wrongdoer, whether you get called out or you realize on your own, you should apologize directly and ask how you can make it up to that person.
 
 Unacceptable material or language may be directly removed or rejected by members of the [development community].
 
-#### **Report it**
-Contact a [director](http://sphere.diybio.org/about/community) if you do not feel comfortable addressing the wrongdoer. Contributors with unacceptable behavior ­­­— be it inappropriate, threatening, offensive or harmful — shall be banned temporarily or permanently. Project directors are obliged to maintain the confidentiality of the incident's reporter, and committed to fairly and consistently reviewing all reports and applying these principles to the project, those who don't may be suspended or removed as directors.
+## Report it
+Contact a [director](http://sphere.diybio.org/about/community) if you do not feel comfortable addressing the wrongdoer. Contributors with unacceptable behavior ­­­— be it inappropriate, threatening, offensive or harmful — shall be banned temporarily or permanently. Project directors are obliged to maintain the confidentiality of the incident's reporter, and to remain committed to fairly and consistently reviewing all reports and applying these principles to the project, those who don't may be suspended or removed as directors.
 
 
 - - -

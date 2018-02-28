@@ -1,16 +1,12 @@
 ---
 title: ReaGent
-manager:
 website: http://reagentlab.org/
 start-date: 2015
-hosts:
-type-org: Community
-partners:
+type-org: community
 address: Brusselsepoortstraat 97
 directions:
 postcode: 9000
 city: Gent
-state:
 country: Belgium
 twitter: https://twitter.com/reagentlab
 facebook: https://www.facebook.com/ReaGentBiolab/

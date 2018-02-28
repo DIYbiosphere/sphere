@@ -13,8 +13,14 @@ body {
 
 table tr td {
     border-top: 0px !important;
-
   }
+}
+
+.section-nav {
+  margin: 5px 0;
+  padding: 10px 30px;
+  border: 1px solid #E8E8E8;
+  border-radius: 3px;
 }
 
 table {
@@ -99,8 +105,8 @@ strong em {
 }
 
 pre code {
-  background-color: #EFEFEF;
   display: block;
+  background-color: #F7F7F7;
   padding: 15px;
   white-space: pre-wrap;       /* css-3 */
   white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
@@ -111,8 +117,8 @@ pre code {
 
 code {
   font-family: 'Source Code Pro', monospace !important;
+  background-color: #F7F7F7;
   font-size: 0.9em;
-  background-color: #EFEFEF !important;
 }
 
 video {

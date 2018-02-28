@@ -1,13 +1,10 @@
 ---
 title: Indie Lab
-manager: 
 website: http://rva.indielab.co/
 start-date: 2012
 hosts: "[Hack RVA](http://www.hackrva.org/blog/)"
-type-org: 
-partners: 
+type-org: community
 address: 1600 Roseneath Rd
-directions: 
 postcode: 23230
 city: Richmond
 state: Virginia

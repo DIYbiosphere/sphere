@@ -3,17 +3,12 @@ title: Hackstronauts
 tags:
 - transhumanism
 - nootropics
-manager: 
 subtitle: Biohackers, Nootropics & Limitless MeetUps
 website: http://hackstronaut.com/
 start-date: 2016
 predecessor: Biohackers NYC
-hosts: 
-type-org: Community
-partners: 
-address: 
-directions: 
-postcode: 
+type-org: community 
+postcode:
 city: New York
 state: New York
 country: United States

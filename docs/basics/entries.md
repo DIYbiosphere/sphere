@@ -2,68 +2,71 @@
 layout: docs
 title: Understanding Entries
 draft: true
+toc: true
 ---
 
-Each initiative added to the repository has its own _Entry_. Each entry has its own folder in the [sphere repository][gh_repo]. The folder can have images and must have a text file in markdown to be rendered as a webpage accessible at [sphere.diybio.org][sphere].
+Each initiative added to the repository has its own _Entry_. Each entry has its own folder in the [sphere repository]. The folder can have images and must have a text file in markdown to be rendered as a webpage.
 
-## Entry Collections
-A series of **collections** aggregate similar initiatives. The ones currently in use are:
+# Taxonomies in DIYbiosphere
+There are four main attributes that aggregate entries: _collections_, _type_, _tags_, and _status_
 
-- <i class="far fa-briefcase icon"></i> **Projects**: have particular aims, such as designing an instrument or an educational workshop.
-- <i class="far fa-rocket icon"></i> **Startups**: are entrepreneurial ventures and generally concern products or services
-- <i class="far fa-flask icon"></i> **Labs**: are dedicated physical spaces with materials and equipment dedicated to support DIYbio related activities. Labs can be static or mobile.
-- <i class="far fa-leaf icon"></i> **Incubators**: are organizations and spaces that help projects and startups to develop
-- <i class="far fa-users icon"></i> **Groups**: are associations of people (online and offline) that are interested in DIYbio related topics or activities. A group does not have a dedicated Lab space, but they may plan to have one.
-- <i class="far fa-share-alt icon"></i> **Networks**: a website, service or organization that facilitates communication and collaboration between individuals and organizations with interests in DIYbio.
-- <i class="far fa-calendar-alt icon"></i> **Events**: Global or regional events that are by and/or for the DIYbio community, like (un)conferences, camps, hackathons, and accelerators. Only include if something shareable is produced, like proceedings, videos or posters.
-- <i class="far fa-umbrella icon"></i> **Others**: Is an umbrella term for all the rest. Eventually as new entries begin to define themselves a new collection will be created to accommodate them.
+## Collections
+_Collections_ are predetermined and are separated as distinct folders in the [sphere repository] preceded by an underscore. The ones currently in use are:
+
+- <i class="far fa-briefcase fa-fw"></i> `_projects`: have particular aims, such as designing an instrument or an educational workshop.
+- <i class="far fa-rocket fa-fw"></i> `_startups`: are entrepreneurial ventures and generally concern products or services
+- <i class="far fa-flask fa-fw"></i> `_labs`: are dedicated physical spaces with materials and equipment dedicated to support DIYbio related activities. Labs can be static or mobile.
+- <i class="far fa-leaf fa-fw"></i> `_incubators`: are organizations and spaces that help projects and startups to develop
+- <i class="far fa-users fa-fw"></i> `_groups`: are associations of people (online and offline) that are interested in DIYbio related topics or activities. A group does not have a dedicated Lab space, but they may plan to have one.
+- <i class="far fa-share-alt fa-fw"></i> `_networks`: a website, service or organization that facilitates communication and collaboration between individuals and organizations with interests in DIYbio.
+- <i class="far fa-calendar-alt fa-fw"></i> `_events`: Global or regional events that are by and/or for the DIYbio community, like (un)conferences, camps, hackathons, and accelerators. Only include if something shareable is produced, like proceedings, videos or posters.
+- <i class="far fa-umbrella fa-fw"></i> `_others`: Is an umbrella term for all the rest. Eventually as new entries begin to define themselves a new collection will be created to accommodate them.
+<!-- - <i class="far fa-NEW_COLLECTION_ICON fa-fw"></i> `_NEW_COLLECTION(s)`: NEW_COLLECTION_DESCRIPTION -->
 
 ### Possible Collections
-As the number of entries grows, we may need to add more. Some that have been proposed are:
+As the number of entries grows, we may need to add more colelctions. Some that have been proposed are:
 
-- <i class="far fa-shopping-basket icon"></i> **Products**: physical things that can be purchased
-- <i class="far fa-cogs icon"></i> **Services**: abstract things that can be purchased
-- <i class="far fa-microchip icon"></i> **Hardware**: instruments, devices, etc.
-- <i class="far fa-code icon"></i> **Software**:
-- <i class="far fa-list-ol icon"></i> **Protocols**:
-- <i class="far fa-id-card icon"></i> **Profiles**: people and biohackers
-- <i class="far fa-paint-brush icon"></i> **BioArt**: Art pieces or performances about biology and biotechnology
-- <i class="far fa-newspaper icon"></i> **Reads**: Media, scholarly, and other articles and important posts on DIYbio
+- <i class="far fa-industry-alt fa-fw"></i> _company_: a commercial business, could be for-profit or non-profit
+- <i class="far fa-shopping-basket fa-fw"></i> _products_: physical things that can be purchased
+- <i class="far fa-cogs fa-fw"></i> _services_: abstract things that can be purchased
+- <i class="far fa-list-ol fa-fw"></i> _protocols_: how-to's for experiments, workshops, etc.
+- <i class="far fa-portrait fa-fw"></i> _profiles_: for people. Nothing personal, just their 'DIYbio career'
+- <i class="far fa-usd-circle fa-fw"></i> _funders_: Grants, VC's, websites, that provide funding for DIYbio initiatives
+- <i class="far fa-bookmark fa-fw"></i> _reads_: Media, scholarly, and other articles and important posts on DIYbio
 
-## Anatomy of an Entry File
-Each entry file has two sections. The first section is the _front matter_ and is in between two lines of three dashes `---`, storing data and other variables. The second section is the _markdown text_, which contains the description, photos and other content of the entry. The front matter and the markdown text are used to render the file into a webpage in HTML.
+{% include messages/question.html title="How to add a new collection" text="create a folder in the repository with an underscore at the beginning with the name of the collection in plural. Search the repository for `NEW_COLLECTION` to configure the new collection. Also search and replace for: `NEW_COLLECTION(s)`, `NEW_COLLECTION_ICON`, `NEW_COLLECTION_DESCRIPTION`" %}
 
-### Front Matter
-The front matter is written in _YAML_, a programming language that declares data in a simple format (simple [YAML guide](https://learnxinyminutes.com/docs/yaml/)). The basic format is `key: value`. See the example below:
+## Type of Initiative
+The _type_ is for specifying the kind of social/legal configuration of the initiative. Although not predetermined, these should be standardized as much as possible. These are some recommended values:
 
-```yaml
----
-title: Avocado Lab # simple key: value pair. there should be a space after the colon ': '
-subtitle: "Doing everything with: avocados" # use quotation marks if using a colon and space
-tags: # for lists
-  - food lab
-  - citizen science
-hosts: "[Tree Labs](http://treelabs.org)" # to render in markdown, put between quotation marks
-partners:
-  - title: Fruit Network
-    website: http://fruitnetwork.net
-  - title: Green Foods
-    website: http://greenfoods.com    
----
-
-```
-
-There are a few keys that are essential
-
-### Markdown Text
-The second section is
-
-```markdown
+- _community_
+- _non-profit_
+- _university_
+- _company_/_non-profit_
+- _school_
+- _museum_
 
 
-```
+{% include messages/info.html title="The meaning behind type" text="The idea behind `type: ` is..." %}
 
+## Tags
+The _tags_ are keywords that describe entries. Tags are not predetermined but should be as standardized as possible. There might be overlaps as some people may write the _collection_ name, or the _type_ as a _tag_. These should standardize and an assessment should follow to determine if new _collections_, or _types_ should be created.
 
+{% include messages/question.html title="How to standardize values" text="go to the `Browse` page. Select _Filter Results_ and in the _Type_, _Tags_  and even _Country_ rows look at the values available and decide or discuss with the community on how to unify or standardize some values. Just search and replace `type-org: VALUE` or `- TAG` or `country: COUNTRY` in the whole repository" %}
 
-## Rendering the Webpage
-Keys are rendered into the _infobox_, _social icons_, _tags_, _promotions_, and others.
+## Status
+The `status:` key is automatically generated by `_plugins/add-variables-to-files.rb` and we only recommend to input it manually in the _front matter_ if it should be something other than what is automatically generated. The code marks `status:` automatically to 'unknown', unless `start-date:` is in the past then `: active`, unless `end-date:` is in the past then `: inactive`, unless `start-date:` is in the future then `: planned`.
+
+The _status_ should be completely standardized and should only have one of the following:
+
+- _unknown_
+- _active_
+- _inactive_
+- _planned_
+- _hiatus_
+
+# Other data keys
+{% include messages/incomplete.html %}
+
+# Rendering the Entries
+{% include messages/incomplete.html %}

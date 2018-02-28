@@ -1,16 +1,11 @@
 ---
 title: GaudiLabs
-manager:
 website: http://www.gaudi.ch/GaudiLabs/
 start-date:
-hosts:
-type-org:
-partners:
+type-org: non-profit
 address: Neustadtstrasse 7
-directions:
 postcode: 6003
 city: Lucerne
-state:
 country: Switzerland
 facebook: https://www.facebook.com/mrgaudi
 youtube: https://www.youtube.com/user/MrGaudiCH

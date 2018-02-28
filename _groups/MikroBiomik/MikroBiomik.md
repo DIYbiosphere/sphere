@@ -3,7 +3,7 @@ title: MikroBiomik
 subtitle:
 website: https://mikrobiomik.org/en
 start-date: 2017
-type-org: Grassroots
+type-org: community
 city: Munich
 country: Germany
 email: mail@mikrobiomik.org

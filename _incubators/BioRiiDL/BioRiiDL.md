@@ -3,7 +3,7 @@ title: BioRiiDL
 subtitle: 
 website: http://www.bioriidl.org/
 start-date: 2017
-type-org: University
+type-org: university
 hosts: '[Somaiya Vidyavihar](https://www.somaiya.edu/)'
 city: Mumbai
 country: India

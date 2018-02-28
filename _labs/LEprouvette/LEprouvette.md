@@ -1,17 +1,14 @@
 ---
 title: L'Eprouvette
-manager:
 logo: https://pbs.twimg.com/profile_images/535440714058838017/O1ezBMSc_400x400.jpeg
 website: http://wp.unil.ch/mediationscientifique/activites/eprouvette
 start-date: 2005
 hosts: "[University of Lausanne](http://www.unil.ch/interface/home.html)"
-type-org: University
-partners:
+type-org: university
 address: Quartier Sorge
 directions: Bâtiment Amphipôle - bureau 303.1
 postcode: 1015
 city: Lausanne
-state:
 country: Switzerland
 email: eprouvette@unil.ch
 twitter: https://twitter.com/Eprouvette_Unil

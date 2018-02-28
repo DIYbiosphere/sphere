@@ -3,7 +3,7 @@ title: RebelBio
 subtitle: The world's first life sciences accelerator.
 website: https://rebelbio.co/
 start-date: 2010
-type-org: University
+type-org: university
 predecessor: IndieBio EU
 hosts:
   - '[University College Cork](https://www.ucc.ie/en/)'

@@ -10,13 +10,16 @@ summary: Biocurious is a community lab located in California
 logo: http://biocurious.org/wordpress/wp-content/uploads/2014/11/logo1.png
 website: http://biocurious.org/
 start-date: 2010
-type-org: Non-profit
+type-org: non-profit
 address: 845 Stewart Drive
 directions:
 postcode: 94085
 city: Sunnyvale
 state: California
 country: United States
+_geoloc:
+  lat: 37.377524
+  lng: -121.973031
 email: info@biocurious.org
 forum: https://groups.google.com/forum/#!forum/biocurious
 meetup: http://www.meetup.com/biocurious/

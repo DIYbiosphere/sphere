@@ -3,7 +3,7 @@ title: Bio Design Challenge
 subtitle: learn. create. grow.
 website: http://biodesignchallenge.org/
 start-date: 2016
-type-org: academic
+type-org: university
 city: NYC
 country: United States
 twitter: https://twitter.com/BioDesigned

@@ -1,16 +1,9 @@
 ---
 title: LifePatch
-manager:
 subtitle: Citizen Initiative in Art, Science and Technology
 start-date:
-hosts:
-type-org:
-partners:
-address:
-directions:
-postcode:
+type-org: community
 city: Yogyarta
-state:
 country: Indonesia
 wiki: http://lifepatch.org/
 ---

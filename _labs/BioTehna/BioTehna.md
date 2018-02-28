@@ -1,13 +1,10 @@
 ---
 title: BioTehna
-manager:
 website:
 start-date: 2013
 address: Kersnikova ulica 4
-directions:
 postcode: 1000
 city: Ljubljana
-state:
 country: Slovenia
 email: info@biotehna.org
 meetup: http://www.meetup.com/BioTehna/

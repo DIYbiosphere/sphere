@@ -3,9 +3,9 @@ title: Biotech Without Borders
 subtitle:
 website: https://biotechwithoutborders.org
 start-date: 2017
-type-org: nonprofit
+type-org: non-profit
 city: Brooklyn
-country: USA
+country: United States
 twitter: https://twitter.com/BioWOborders
 facebook: https://www.facebook.com/BiotechWithoutBorders/
 tags:

@@ -3,13 +3,16 @@ title: Real Vegan Cheese
 subtitle: Biohackers are engineering baker's yeast to produce Real Vegan Cheese. No cows needed!
 website: https://realvegancheese.org/
 start-date: 2014
-type-org: Community
+type-org: community
 hosts: Counter Culture Labs
 partners:
   - Biocurious
 city: Oakland
 state: California
 country: United States
+_geoloc:
+  lat: 37.835233
+  lng: -122.264195
 twitter:
 facebook: https://www.facebook.com/realvegancheese/
 wiki: https://wiki.realvegancheese.org/index.php/Real_Vegan_Cheese

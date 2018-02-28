@@ -3,7 +3,7 @@ title: Decentralized Oxalis Genome Project
 subtitle:
 website: https://www.facebook.com/oxalisgenome/
 start-date: 2016
-type-org: Project
+type-org: community
 city: NYC
 country: United States
 twitter:

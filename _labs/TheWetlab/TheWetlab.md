@@ -1,13 +1,9 @@
 ---
 title: The Wet Lab
-manager:
-logo:
 start-date: 2013
 hosts: La Jolla Public Library
-type-org:
-partners:
+type-org: public
 address: 847 14th St
-directions:
 postcode: 92101
 city: San Diego
 state: California

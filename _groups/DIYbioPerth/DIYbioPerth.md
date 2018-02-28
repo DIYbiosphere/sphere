@@ -2,16 +2,10 @@
 title: DIYbio Perth
 tags:
 - makerspace
-manager:
 start-date:
 hosts: "[The Perth Artifactory](http://artifactory.org.au/)"
 type-org:
-partners:
-address:
-directions:
-postcode:
 city: Perth
-state:
 country: Australia
 facebook-group: https://www.facebook.com/groups/diybioperth/
 ---

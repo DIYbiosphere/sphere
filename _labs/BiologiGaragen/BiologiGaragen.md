@@ -2,22 +2,19 @@
 title: BiologiGaragen
 tags:
 - hackerspace
-manager:
 website: http://biologigaragen.org/
 start-date: 2010
 hosts: "[Labitat](https://labitat.dk/)"
-type-org:
-partners:
+type-org: community
 address: H. C. Ørsteds Vej 5
-directions:
 postcode: 1879 Frederiksberg
 city: Copenhagen
-state:
 country: Denmark
-email:
+_geoloc:
+  lat: 55.676540
+  lng: 12.545520
 blog: http://biologigaragen.org/blog/
 rss: http://biologigaragen.org/feed
-wiki:
 twitter: https://twitter.com/biologigaragen
 facebook: https://www.facebook.com/groups/biologigaragen/
 vimeo: https://vimeo.com/biologigaragen

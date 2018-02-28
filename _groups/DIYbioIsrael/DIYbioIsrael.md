@@ -1,17 +1,10 @@
 ---
 title: DIYbio Israel
-manager: 
-logo: 
 website: http://sustainiverse.org/dyibio-israel-%D7%99%D7%A9%D7%A8%D7%90%D7%9C/
 start-date: 2013
 hosts: "[Sustainiverse](http://sustainiverse.org/)"
-type-org: 
-partners: 
-address: 
-directions: 
-postcode: 
-city: Tel AViv
-state: 
+type-org: community
+city: Tel Aviv
 country: Israel
 ---
 

@@ -5,7 +5,7 @@ website: https://biotown.ca/
 start-date: 2017
 
 hosts: '[ArtEngine](http://www.artengine.ca/)'
-type-org: Community
+type-org: community
 address: 2 Daly Ave 
 city: Ottawa
 postcode: ON K1N 7B9

@@ -1,13 +1,9 @@
 ---
 title: HiveBio
-manager: 
 website: http://hivebio.org/
 start-date: 2013
-hosts: 
-type-org: 
-partners: 
+type-org: community
 address: 4000 NE 41st St.
-directions: 
 postcode: 98105
 city: Seattle
 state: Washington

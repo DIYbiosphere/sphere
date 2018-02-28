@@ -1,17 +1,13 @@
 ---
 title: Symbiolab
-manager:
 subtitle: Open and DIY biolaboratory
 website: http://irnas.eu/symbiolab.html
 start-date: 2014
 hosts: "[IRNAS](http://irnas.eu/)"
-type-org:
-partners:
+type-org: non-profit
 address: Tkalski prehod 4
-directions:
 postcode: 2000
 city: Maribor
-state:
 country: Slovenia
 email: info@irnas.eu
 forum: http://forum.irnas.eu/

@@ -1,36 +1,12 @@
 ---
 title: Auckland DIYbio
-manager: 
 start-date: 2013
 end-date: 2013
 status: inactive
-hosts: 
-type-org: Community
+type-org: community
 city: Auckland
-state: 
+state:
 country: Australia
-email: 
-blog: 
-rss: 
-wiki: 
-forum: 
-mailinglist: 
-irc: 
-gitter: 
-slack: 
-meetup: 
-twitter: 
-facebook: 
-google+: 
-linkedin: 
-instagram: 
-flickr: 
-pinterest: 
-vimeo: 
-youtube: 
-hackpad: 
-trello: 
-github: 
 ---
 
 ## About

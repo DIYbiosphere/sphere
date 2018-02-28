@@ -1,16 +1,12 @@
 ---
 title: Open Wetlab
-manager:
 website: https://waag.org/en/lab/open-wetlab
 start-date: 2012
 hosts: "[Waag Society](http://waag.org/en)"
-type-org:
-partners:
+type-org: institute
 address: Nieuwmarkt 4
-directions:
 postcode: 1012 CR
 city: Amsterdam
-state:
 country: Netherlands
 meetup: http://www.meetup.com/Dutch-DIY-Bio/
 twitter: https://twitter.com/waag

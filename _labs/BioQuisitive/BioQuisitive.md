@@ -1,14 +1,10 @@
 ---
 title: BuiQuisitive
-manager:
 alias: Melbourn BioHack
 website: http://bioquisitive.org.au/
 start-date: 2015
-hosts:
-type-org:
-partners:
+type-org: community
 address: 45 Talbot St.
-directions:
 postcode: 3056
 city: Brunswick
 state: Victoria

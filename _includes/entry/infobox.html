@@ -1,9 +1,12 @@
+
 {% if page.header %} <!-- If header image in file (.png or .jpg), then display -->
 <div class="ui attached segment" style="margin-top: -100px;">
 {% else %}
 <div class="ui attached segment">
 {% endif %}
-
+    {% if page.elements %}
+      <h3 class="ui header center aligned">Infobox</h3>
+    {% endif %}
   <a class="noelink" href="{{ page.website }}" target="_blank">
     {% if page.logo %}
       <img class="ui small centered image" src="{{ page.logo }}"/>
@@ -74,10 +77,26 @@
       {% if page.start-date %}
       <tr>
         <td>
+          {% assign string_start = page.start-date | upcase | size %}
+          {% if string_start == 16 %}
+          <b>Start Date <br>
+            & Time:
+          </b>
+          {% else %}
           <b>Start Date:</b>
+          {% endif %}
         </td>
         <td>
-          {{ page.start-date }}
+            {% if string_start == 4 %}
+            {{ page.start-date }}
+            {% elsif string_start == 7 %}
+            {{ page.start-date | append: "-01" | date: "%B %Y" }}
+            {% elsif string_start == 10 %}
+            {{ page.start-date | date: "%e %B, %Y" }}
+            {% elsif string_start == 16 %}
+            {{ page.start-date | date: "%e %B, %Y" }}<br>
+            {{ page.start-date | date: "%k:%M" }}
+            {% endif %}
         </td>
         </tr>
       </tr>
@@ -87,24 +106,26 @@
       {% if page.end-date %}
       <tr>
         <td>
+          {% assign string_end = page.end-date | upcase | size %}
+          {% if string_end == 16 %}
+          <b>End Date <br>
+            & Time:
+          </b>
+          {% else %}
           <b>End Date:</b>
+          {% endif %}
         </td>
         <td>
-          {{ page.end-date }}
-        </td>
-        </tr>
-      </tr>
-      {% endif %}
-
-      {% if page.type-org %}
-      <tr>
-        <td>
-          <span data-tooltip="Type of organizaton" data-variation="mini" data-inverted="">
-            <b>Type:</b>
-          </span>
-        </td>
-        <td>
-          {{ page.type-org }}
+            {% if string_end == 4 %}
+            {{ page.end-date }}
+            {% elsif string_end == 7 %}
+            {{ page.end-date | append: "-01" | date: "%B %Y" }}
+            {% elsif string_end == 10 %}
+            {{ page.end-date | date: "%e %B, %Y" }}
+            {% elsif string_end == 16 %}
+            {{ page.end-date | date: "%e %B, %Y" }}<br>
+            {{ page.end-date | date: "%k:%M" }}
+            {% endif %}
         </td>
         </tr>
       </tr>
@@ -124,37 +145,15 @@
       </tr>
       {% endif %}
 
-      {% if page.membership %}
+      {% if page.type-org %}
       <tr>
         <td>
-          Membership:
+          <span data-tooltip="Type of organizaton" data-variation="mini" data-inverted="">
+            <b>Type:</b>
+          </span>
         </td>
         <td>
-          {{ page.membership }}
-        </td>
-        </tr>
-      </tr>
-      {% endif %}
-
-      {% if page.founders %}
-      <tr>
-        <td>
-          Founders:
-        </td>
-        <td>
-          {{ page.founders }}
-        </td>
-        </tr>
-      </tr>
-      {% endif %}
-
-      {% if page.authors %}
-      <tr>
-        <td>
-          Authors:
-        </td>
-        <td>
-          {{ page.authors | markdownify }}
+          {{ page.type-org }}
         </td>
         </tr>
       </tr>
@@ -165,24 +164,25 @@
       <tr class="top aligned">
         <td>
           <span data-tooltip="Host or Parent Organization" data-variation="mini" data-inverted="">
-            <b>Host:</b>
+            <b>Hosts:</b>
           </span>
         </td>
         <td>
           <div class="ui list">
           {% for host in page.hosts %}
-            {% if host contains 'http' %}
+            {% if host contains '](' %}
             <div class="item">{{ host | markdownify }}</div>
             {% else %}
               {% for files in site.collections %}
               {% assign entries = files.docs %}
                 {% for entry in entries %}
                  {% if host == entry.title %}
-                 <div class="item"><a href="{{ entry.url }}">{{ entry.title }}</a></div>
+                 <div class="item"><a href="{{ entry.url }}">{{ host }}</a></div>
                  {% endif %}
                 {% endfor %}
               {% endfor %}
             {% endif %}
+            {% else %}
           {% endfor %}
           </div>
         </td>
@@ -198,7 +198,7 @@
         <td>
           <div class="ui list">
           {% for partner in page.partners %}
-            {% if partner contains 'http' %}
+            {% if partner contains '](' %}
             <div class="item">{{ partner | markdownify }}</div>
             {% else %}
               {% for files in site.collections %}
@@ -212,30 +212,6 @@
             {% endif %}
           {% endfor %}
           </div>
-        </td>
-        </tr>
-      </tr>
-      {% endif %}
-
-      {% if page.size-members %}
-      <tr>
-        <td>
-          Size:
-        </td>
-        <td>
-          {{ page.size-members | markdownify }}
-        </td>
-        </tr>
-      </tr>
-      {% endif %}
-
-      {% if page.area %}
-      <tr>
-        <td>
-          Area:
-        </td>
-        <td>
-          {{ page.area }}
         </td>
         </tr>
       </tr>
@@ -286,5 +262,8 @@
 </div>
 
 <div class="ui bottom attached segment">
+  {% if page.elements %}
+    <h3 class="ui header center aligned">Links<br></h3>
+  {% endif %}
   {% include entry/links-icons.html %}
 </div>

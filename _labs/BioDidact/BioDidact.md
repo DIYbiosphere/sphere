@@ -1,18 +1,17 @@
 ---
 title: Biodidact
-manager:
 website: http://biodidact.net/
 start-date: 2014
-hosts:
-type-org: Community
-partners:
+type-org: community
 address: 1900 Diamond Drive
 directions:
 postcode: 87544
 city: Los Alamos
 state: New Mexico
 country: United States
-email:
+_geoloc:
+  lat: 35.892568
+  lng: -106.320034
 twitter: https://twitter.com/biodidact
 facebook: https://www.facebook.com/Biodidact-766169000111497/
 ---

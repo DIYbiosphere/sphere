@@ -3,7 +3,7 @@ title: Metafluidics
 subtitle: An open repository for fluidic systems
 website: https://metafluidics.org/
 start-date: 2017
-type-org: academic
+type-org: university
 city: Boston
 country: United States
 twitter: https://twitter.com/metafluidics

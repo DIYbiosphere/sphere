@@ -1,22 +1,15 @@
 source 'https://rubygems.org'
 gem 'jekyll', '~> 3.6'
 gem 'jemoji'
-gem 'mini_magick'
 gem 'uglifier'
-gem 'sprockets'
-gem 'sprockets-es6'
 gem 'html-proofer'
 gem 'jekyll-last-modified-at'
-gem 'jekyll-feed'
-gem 'jekyll-avatar'
 gem 'jekyll-toc'
 gem 'json'
-gem 'geokit'
 gem 'rouge'
+gem 'jekyll-octicons'
 
 group :jekyll_plugins do
-  gem 'jekyll-assets'
-  gem 'jekyll-sitemap'
   gem 'jekyll-mentions'
   gem 'jekyll-algolia'
 end

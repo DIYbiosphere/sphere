@@ -1,14 +1,18 @@
-{% include content/github-actions.html %}
+{% include messages/needs-editing.html %}
+{% include content/github-buttons.html %}
 <article>
-  <h1 class="ui header xo margin top without">{{ page.title }}
-  {% if page.subtitle %}
-    <div class="sub header">
-      {{ page.subtitle }}
+  {% unless page.url contains "overview" %}
+  <h1 class="ui header xo margin top without">
+    <div class="ui medium header">{{ page.title }}
+    {% if page.subtitle %}
+      <div class="sub header">
+        {{ page.subtitle }}
+      </div>
+    {% endif %}
     </div>
-  {% endif %}
   </h1>
-  {{content}}
-
-  {% include content/loop-content.html %}
+  {% endunless %}
+  {{content | toc }}
 </article>
-{% include content/githubComments.html %}
+
+{% include content/mentions.html %}
