@@ -13,11 +13,21 @@
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css"> <!-- CSS and fonts-->
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/semantic/dist/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/vendor/syntax.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" />
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
+  {% if page.layout == 'landing' %}     <!-- Owl Carousel for index/landing page -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css" />
+  {% endif %}
+  {% if page.layout == 'docs' %}     <!-- Owl Carousel for index/landing page -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
+  {% endif %}
+  {% if page.layout == 'test' %}     <!-- Owl Carousel for index/landing page -->
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+  {% endif %}
+
   <script src="{{ site.baseurl }}/assets/js/vendor/fontawesome-all.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600" rel="stylesheet">
+
 
   <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 

@@ -1,0 +1,33 @@
+---
+layout:
+---
+
+{
+  "type": "FeatureCollection",
+    "features": [{% for files in site.collections %}{% assign entries = files.docs %}{% for page in entries %}{% if page._geoloc %}{% unless page.title == "DIYbiosphere" %}
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": {% if page._geoloc.lat %}"Point",{% else %}{% for geo in page._geoloc %}{% if forloop.length == 1 %}"Point",{% else %}"MultiPoint",{%break%}{% endif %}{% endfor %}{% endif %}
+          "coordinates": [{% if page._geoloc.lat %}{{ page._geoloc.lng}}, {{ page._geoloc.lat}}{% else %}{% for geo in page._geoloc %}{% if forloop.length == 1 %}{{ geo.lng }}, {{ geo.lat }}{% else %}[{{ geo.lng }}, {{ geo.lat }}]{% if forloop.last != true %}, {% endif %}{% endif %}{% endfor %}{% endif %}]
+          },
+          "properties": {
+            "title": {{ page.title | jsonify }},
+            "url": {{ page.url | jsonify }},
+            "collection": {{ page.collection | jsonify }}
+          }
+      },{% endunless %}{% endif %}{% endfor %}{% endfor %}{% for page in site.projects %}{% if page.title == "DIYbiosphere" %}
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [{% if page._geoloc.lat %}{{ page._geoloc.lng}}, {{ page._geoloc.lat}}{% else %}{% for geo in page._geoloc %}{% if forloop.length == 1 %}{{ geo.lng }}, {{ geo.lat }}{% else %}[{{ geo.lng }}, {{ geo.lat }}]{% if forloop.last != true %}, {% endif %}{% endif %}{% endfor %}{% endif %}]
+          },
+          "properties": {
+            "title": {{ page.title | jsonify }},
+            "url": {{ page.url | jsonify }},
+            "collection": {{ page.collection | jsonify }}
+          }
+      }{% endif %}{% endfor %}
+    ]
+}
