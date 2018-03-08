@@ -14,5 +14,5 @@ tags:
   - kits
 ---
 
-# About
-info here
+## About
+The ODIN is a group of Scientists, Technologists, Engineers and Artists whose goal is to help people create beautiful things. We run a store to provide chemicals, equipment and materials on a scale and price that a DIY Scientist can use and afford.
