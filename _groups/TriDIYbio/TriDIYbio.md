@@ -1,19 +1,18 @@
 ---
 title: Triangle DIY Biology
-manager:
 subtitle: Community Citizen Science and DIYbio Group of the NC Triangle
-logo:
 website: http://www.tridiybio.org/
 start-date: 2015
 hosts: "[SplatSpace](http://splatspace.org/)"
-type-org:
-partners:
+type-org: community
 address: 800 N Mangum St
-directions:
 postcode: 27701
 city: Durham
 state: North Carolina
 country: United States
+_geoloc:
+  lat: 36.001758
+  lng: -78.894831
 meetup: https://www.meetup.com/splatspace/events/236762179/
 ---
 

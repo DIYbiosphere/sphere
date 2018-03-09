@@ -9,10 +9,11 @@ partners:
   - DIYbio.org
 headquarter: true
 _geoloc:
-  - lat: 46.2043907
-    lng: 6.1431577  
-city: Geneva
-country: Switzerland
+  lat: 42.360082
+  lng: -71.058880
+city: Boston
+state: Massachusetts
+country: United States
 twitter: https://twitter.com/DIYbiosphere/
 github: https://github.com/DIYbiosphere/sphere
 gitter: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link

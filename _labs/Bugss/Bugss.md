@@ -4,11 +4,14 @@ website: http://www.bugssonline.org/
 start-date: 2013
 type-org: non-profit
 address: 101 N Haven St
-directions: Ste 105
+directions: Suite 105
 postcode: 21224
 city: Baltimore
 state: Maryland
 country: United States
+_geoloc:
+  lat: 39.294383
+  lng: -76.562254
 rss: http://www.bugssonline.org/2/feed
 meetup: http://www.meetup.com/BUGSS-Baltimore-Meetup/ https://www.facebook.com/BUGSS-Baltimore-Under-Ground-Science-Space-275707269195705/
 ---

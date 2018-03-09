@@ -6,6 +6,9 @@ start-date:
 type-org: community
 city: Barcelona
 country: Spain
+_geoloc:
+  lat: 41.385064
+  lng: 2.173403
 blog: https://network23.org/pechblendalab/
 ---
 

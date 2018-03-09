@@ -7,6 +7,9 @@ type-org: community
 city: Auckland
 state:
 country: Australia
+_geoloc:
+  lat: -36.848460
+  lng: 174.763332
 ---
 
 ## About

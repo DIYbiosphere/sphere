@@ -3,11 +3,14 @@ title: ReaGent
 website: http://reagentlab.org/
 start-date: 2015
 type-org: community
-address: Brusselsepoortstraat 97
+address: Wispelbergstraat 2
 directions:
 postcode: 9000
 city: Gent
 country: Belgium
+_geoloc:
+  lat: 51.052662
+  lng: 3.711934
 twitter: https://twitter.com/reagentlab
 facebook: https://www.facebook.com/ReaGentBiolab/
 ---

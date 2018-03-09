@@ -8,13 +8,14 @@ website: http://fablabtorino.org/be-in-to/
 start-date: 2014
 hosts: "[FabLab Torino](http://fablabtorino.org/)"
 type-org: community
-partners:
 address: Via Egeo 16
 directions:
 postcode: 10134
 city: Torino
-state:
 country: Italy
+_geoloc:
+  lat: 45.050267
+  lng: 7.668286
 email: info@fablabtorino.org
 tumblr: http://biohackingexperience.tumblr.com/
 facebook: https://www.facebook.com/be.into.7/

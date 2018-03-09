@@ -4,9 +4,14 @@ website: http://www.capcitybiohackers.org/
 start-date: 2015
 hosts: "[Rev1 Ventures](https://www.rev1ventures.com/)"
 type-org: community
+address: 1275 Kinnear Rd
 city: Columbus
 state: Ohio
+postcode: 43212
 country: United States
+_geoloc:
+  lat: 39.997578
+  lng: -83.042339
 blog: http://www.capcitybiohackers.org/blog/
 twitter: https://twitter.com/capcitybio
 facebook: https://www.facebook.com/diybiocolumbus

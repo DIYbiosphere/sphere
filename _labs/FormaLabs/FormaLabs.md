@@ -8,6 +8,9 @@ type-org: community
 address: Grattan House, Grattan Street
 city: Cork
 country: Ireland
+_geoloc:
+  lat: 51.898617
+  lng: -8.479665
 twitter: https://twitter.com/formabiolabs?lang=en
 facebook:
 tags:

@@ -7,6 +7,9 @@ address: 36-40 Edge St
 postcode: M4 1HN
 city: Manchester
 country: United Kingdom
+_geoloc:
+  lat: 53.484344
+  lng: -2.236389
 twitter: https://twitter.com/madlabuk
 facebook: https://www.facebook.com/MadLabUK/
 vimeo: https://vimeo.com/madlabuk

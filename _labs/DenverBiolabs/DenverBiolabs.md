@@ -3,12 +3,15 @@ title: Denver Biolabs
 website: http://denverbiolabs.com/
 start-date: 2015
 type-org: non-profit
-address: 1250 14th Street
-directions: CU Dravo Building, 1st Floor
+hosts: "[The Fusion Factory](https://www.facebook.com/thefusionfactory)"
+address: 3563 Walnut St
 postcode: 80202
 city: Denver
 state: Colorado
 country: United States
+_geoloc:
+  lat: 39.768852
+  lng: -104.974551
 email: info@denverbiolabs.com
 slack: http://slack.denverbiolabs.com/
 meetup: https://www.meetup.com/denverbiolabs/

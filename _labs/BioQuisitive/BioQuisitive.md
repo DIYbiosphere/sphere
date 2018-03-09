@@ -9,6 +9,9 @@ postcode: 3056
 city: Brunswick
 state: Victoria
 country: Australia
+_geoloc:
+  lat: -37.765773
+  lng: 144.959293
 email: info@bioquisitive.org.au
 blog: http://bioquisitive.org.au/category/blog/
 meetup: https://www.meetup.com/BioHack-Melbourne/

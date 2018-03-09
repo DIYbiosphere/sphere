@@ -1,11 +1,15 @@
 ---
 title: DIYbio Israel
-website: http://sustainiverse.org/dyibio-israel-%D7%99%D7%A9%D7%A8%D7%90%D7%9C/
 start-date: 2013
-hosts: "[Sustainiverse](http://sustainiverse.org/)"
+end-date: 2016
+successor: BioHubIl
 type-org: community
 city: Tel Aviv
 country: Israel
+_geoloc:
+  lat: 32.085300
+  lng: 34.781768
+google-group: https://groups.google.com/forum/#!forum/diybio-israel
 ---
 
 Welcome to the Israeli DIYbio group. The purposes of the group are to promote conversation about DIYbio in Israel, create a place for relevant discussion and advance social gatherings. The long reaching goal will be to promote the establishment of a community lab that will be open to the public and expose it to the world of biology.

@@ -13,6 +13,9 @@ type-org: community
 city: Oakland
 state: California
 country: United States
+_geoloc:
+  lat: 37.835233
+  lng: -122.264195
 promotions:
   - button: Join List
     text: Get notified about the next meeting.

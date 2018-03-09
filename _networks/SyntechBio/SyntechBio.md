@@ -5,7 +5,10 @@ website: https://www.syntechbio.com/
 start-date:
 type-org:
 city:
-country:
+country: Brazil
+_geoloc:
+  lat: -14.235004
+  lng: -51.925280 
 twitter:
 facebook: https://www.facebook.com/Syntechbio
 tags:

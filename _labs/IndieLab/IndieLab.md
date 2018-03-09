@@ -9,6 +9,9 @@ postcode: 23230
 city: Richmond
 state: Virginia
 country: United States
+_geoloc:
+  lat: 37.571138
+  lng: -77.473345
 email: admin@indielab.co
 twitter: https://twitter.com/indielabrva
 facebook: https://www.facebook.com/indielabrva/

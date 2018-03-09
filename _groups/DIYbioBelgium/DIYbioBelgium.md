@@ -1,13 +1,14 @@
 ---
 title: DIYbio Belgium
-website: http://www.diybio.be/index.php/en/
-start-date:
-type-org: non-profit
-address: Rue du progrès 4
-directions: boite 9
-postcode: 1400
+website: http://www.diybio.be/
+start-date: 2012
+end-date: 2014
+type-org: community
 city: Nivelles
 country: Belgium
+_geoloc:
+  lat: 51.109716
+  lng: 4.353517
 blog: http://www.diybio.be/index.php/en/blog
 twitter: https://twitter.com/diybiobelgium
 facebook: https://www.facebook.com/diybio.be/

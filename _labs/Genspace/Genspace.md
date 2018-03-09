@@ -9,12 +9,15 @@ promotions:
       City area to teach advanced biology in an easy-to-understand, hands-on way.
     URL: https://www.genspace.org/classes-alt
 type-org: non-profit
-address: 33 Flatbush Avenue
-directions: 7th Floor. 11217
-postcode:
+address: 140 32nd Street
+directions: Suite 108
+postcode: 11232
 city: Brooklyn
 state: New York
 country: United States
+_geoloc:
+  lat: 40.660715
+  lng: -74.003143
 email: info@genspace.org
 blog: http://www.genspace.org/blog/
 rss: http://www.genspace.org/blog/feed/

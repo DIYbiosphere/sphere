@@ -4,12 +4,15 @@ logo: http://www.thel4b.com/wp-content/uploads/2015/07/thel4b_name1.png
 website: http://www.thel4b.com/
 start-date: 2011
 type-org: community
-address: 1340 E. 6th St.
+address: 1927 Zonal Avenue
 directions:
-postcode: 90021
+postcode: 90033
 city: Los Angeles
 state: California
 country: United States
+_geoloc:
+  lat: 34.061189
+  lng: -118.207445
 rss: http://www.thel4b.com/?feed=rss2
 twitter: https://twitter.com/labiohackers
 facebook: https://www.facebook.com/TheL4b

@@ -8,6 +8,9 @@ address: Nieuwmarkt 4
 postcode: 1012 CR
 city: Amsterdam
 country: Netherlands
+_geoloc:
+  lat: 52.372990
+  lng: 4.900237
 meetup: http://www.meetup.com/Dutch-DIY-Bio/
 twitter: https://twitter.com/waag
 facebook: https://www.facebook.com/waagsociety

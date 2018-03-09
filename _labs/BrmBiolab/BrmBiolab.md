@@ -1,13 +1,16 @@
 ---
 title: Brmlab
 website: http://brmlab.cz/index.html
-start-date: 
-type-org: Non-Profit
+start-date:
+type-org: non-profit
 address: Bubenská 1477/1
 directions:
 postcode: 170 00
 city: Prague
 country: Czech Republic
+_geoloc:
+  lat: 50.098678
+  lng: 14.435878
 email: biolab@brmlab.cz
 wiki: http://brmlab.cz/start
 irc: http://webchat.freenode.net/?nick=brm...&channels=brmlab&prompt=1

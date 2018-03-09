@@ -14,6 +14,13 @@ layout:
           "properties": {
             "title": {{ page.title | jsonify }},
             "url": {{ page.url | jsonify }},
+            "address": {{ page.address | jsonify }},
+            "city": {{ page.city | jsonify }},
+            "state": {{ page.state | jsonify }},
+            "country": {{ page.country | jsonify }},
+            "type-org": {{ page.type-org | jsonify }},
+            "color": {% if page.status == 'active' or page.status == 'planned'%}"blue",{% else %}"grey",{% endif %}
+            "marker": {% if page.address %}"marker",{% else %}"circle",{% endif %}
             "collection": {{ page.collection | jsonify }}
           }
       },{% endunless %}{% endif %}{% endfor %}{% endfor %}{% for page in site.projects %}{% if page.title == "DIYbiosphere" %}
@@ -26,6 +33,11 @@ layout:
           "properties": {
             "title": {{ page.title | jsonify }},
             "url": {{ page.url | jsonify }},
+            "address": {{ page.address | jsonify }},
+            "city": {{ page.city | jsonify }},
+            "state": {{ page.state | jsonify }},
+            "country": {{ page.country | jsonify }},
+            "type-org": {{ page.type-org | jsonify }},
             "collection": {{ page.collection | jsonify }}
           }
       }{% endif %}{% endfor %}

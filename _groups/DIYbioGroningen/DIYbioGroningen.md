@@ -7,6 +7,9 @@ hosts: "[Fablab Groningen](http://www.fablabgroningen.nl/)"
 type-org: community
 city: Groningen
 country: Netherlands
+_geoloc:
+  lat: 53.214447
+  lng: 6.569136
 email: groningendiybio@gmail.com
 twitter: https://twitter.com/diybiogroningen
 facebook: https://www.facebook.com/DIYBioGroningen/

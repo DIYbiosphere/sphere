@@ -5,8 +5,13 @@ tags:
 start-date:
 hosts: "[The Perth Artifactory](http://artifactory.org.au/)"
 type-org:
-city: Perth
+directions: 16 Guthrie St
+city: Osborne Park
+postcode: 6017
 country: Australia
+_geoloc:
+  lat: -31.901608
+  lng: 115.810083
 facebook-group: https://www.facebook.com/groups/diybioperth/
 ---
 

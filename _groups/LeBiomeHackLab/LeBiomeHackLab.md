@@ -7,6 +7,9 @@ start-date:
 type-org: community
 city: Rennes
 country: France
+_geoloc:
+  lat: 48.117266
+  lng: -1.677793
 email: lebiomefablab@gmail.com
 facebook: https://www.facebook.com/biomefrance
 twitter: https://twitter.com/Le_biome

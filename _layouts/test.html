@@ -6,42 +6,9 @@ layout: default
 <div class="ui grid container xo top padding">
 
   <div class="ui row">
-    This is a map
+    another map
   </div>
-  <div class="ui row" style="height:500px;">
-    <div id="map" style="position:absolute; top:0; bottom:0; width:100%; height:500px;"></div>
+  <div class="ui row" style="height:700px;">
+    <div id="map" style="position:absolute; top:0; bottom:0; width:100%; height:700px;"></div>
   </div>
 </div>
-
-<script type="text/javascript">
-mapboxgl.accessToken = 'pk.eyJ1Ijoic2FiZ2FieSIsImEiOiJjamU2MzJocDAwMHg4MndtbnVkaHpvYmRsIn0.zup_BSBKGLimL_GnNs0WCw';
-
-var map = new mapboxgl.Map({
-  container: 'map',
-  style: 'mapbox://styles/sabgaby/cj5wcdqw27a3l2srv56i6myxb',
-  center: [0, 0],
-  zoom: 2
-});
-
-map.on('load', function () {
-    map.addSource("geo_entries", {
-      type: "geojson",
-      data: '/assets/data/entries.geojson'
-    });
-
-});
-
-// add markers to map
-geojson.features.forEach(function(marker) {
-
-  // create a HTML element for each feature
-  var el = document.createElement('div');
-  el.className = 'marker';
-
-  // make a marker for each feature and add to the map
-  new mapboxgl.Marker(el)
-  .setLngLat(marker.geometry.coordinates)
-  .addTo(map);
-});
-
-</script>
