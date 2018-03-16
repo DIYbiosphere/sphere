@@ -4,6 +4,9 @@ website: www.diybioba.org
 start-date: 2015
 city: Buenos Aires
 country: Argentina
+_geoloc:
+  lat: -34.603684
+  lng: -58.381559
 email: hola@diybioba.org
 meetup: https://www.meetup.com/biohackingBA/
 twitter: https://twitter.com/diybioba

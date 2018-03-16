@@ -3,12 +3,12 @@ title: ChiTownBio
 subtitle: Chicagoland's Community Biology Lab
 website: http://chitownbio.org
 start-date: 2017
-
 city: Chicago
 state: Illinois
 country: United States
-
-
+_geoloc:
+  lat: 41.878114
+  lng: -87.629798
 meetup: https://www.meetup.com/ChiTownBio/?_cookie-check=qfES85bPo5htT_N_
 twitter: https://twitter.com/ChiTownBio
 linkedin: https://www.linkedin.com/company/chitownbio

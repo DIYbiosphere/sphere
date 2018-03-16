@@ -6,6 +6,9 @@ type-org: community
 city: Sydney
 state: New South Wales
 country: Australia
+_geoloc:
+  lat: -33.868820
+  lng: 151.209296
 meetup: https://www.meetup.com/biohackoz/
 ---
 

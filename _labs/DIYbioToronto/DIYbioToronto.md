@@ -7,11 +7,14 @@ start-date: 2013
 hosts: "[HackLab](https://hacklab.to/)"
 type-org: community
 address: 1266 Queen St.
-directions: West Suite
+directions: 'West Suite 6'
 postcode: M6K 1L3
 city: Toronto
 state: Ontario
 country: Canada
+_geoloc:
+  lat: 43.642650
+  lng: -79.429635
 rss: https://hacklab.to/feed/
 wiki: https://knowledge.hacklab.to/wiki/Main_Page
 meetup: http://www.meetup.com/DIYbio-Toronto/

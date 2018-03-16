@@ -4,8 +4,11 @@ subtitle:
 website: http://www.openbiomedical.org/
 start-date: 2014
 type-org: non-profit
-city: 
+city:
 country:
+_geoloc:
+  lat: 41.871940
+  lng: 12.567380
 rss: http://www.openbiomedical.org/feed/
 email: info@openbiomedical.org
 twitter: https://twitter.com/openbiomedical

@@ -10,7 +10,9 @@ address: 447 Hackney Road
 postcode: E2 9DY
 city: London
 country: United Kingdom
-ical: http://www.google.com/calendar/ical/gc1bopmh3c5n0ogvlo6ceujlkc%40group.calendar.google.com/public/basic.ics
+_geoloc:
+  lat: 51.532427
+  lng: -0.060650
 wiki: https://wiki.london.hackspace.org.uk/view/Group:Biohacking
 irc: http://webchat.freenode.net/?channels=london-hack-space
 twitter: https://twitter.com/LondonBioHack

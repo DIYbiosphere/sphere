@@ -6,11 +6,13 @@ start-date: 2017
 
 hosts: '[ArtEngine](http://www.artengine.ca/)'
 type-org: community
-address: 2 Daly Ave 
+address: 2 Daly Ave
 city: Ottawa
 postcode: ON K1N 7B9
 country: Canada
-
+_geoloc:
+  lat: 45.425631
+  lng: -75.688658
 facebook: https://www.facebook.com/biotown/
 twitter: https://twitter.com/_biotown?lang=en
 instagram: https://www.instagram.com/biotown_ottawa/
@@ -18,7 +20,7 @@ linkedin: https://www.linkedin.com/company-beta/10879950/
 meetup: https://www.meetup.com/biotown/
 github: https://github.com/biotown
 
-tags: 
+tags:
 ---
 
 Biotown is a community-run open-access laboratory in Ottawa, Canada. With ever decreasing barriers for entry into scientific research, DIYBio spaces, like ours, are starting a global revolution in scientific understanding and experimentation. Our goal is to provide individuals, both amateur and experts, with the tools and knowledge to solve complex problems using biotechnology.

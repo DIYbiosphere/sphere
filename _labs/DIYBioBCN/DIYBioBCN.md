@@ -8,6 +8,9 @@ address: Carrer Consell de Cent, 159
 postcode: 08015
 city: Barcelona
 country: Spain
+_geoloc:
+  lat: 41.383107
+  lng: 2.154291
 rss: http://www.diybcn.org/feed/
 twitter: https://twitter.com/DIYBIOBCN
 facebook-group: https://www.facebook.com/groups/299801923540778/

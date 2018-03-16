@@ -10,8 +10,8 @@ postcode: 5651 GW
 city: Eindhoven
 country: Netherlands
 _geoloc:
-  lat: 13.111525
-  lng: 77.583126
+  lat: 51.451260
+  lng: 5.453200
 email: contact@bioartlab.com
 tumblr: http://bioscopelab.tumblr.com/
 twitter: https://twitter.com/bioartlab

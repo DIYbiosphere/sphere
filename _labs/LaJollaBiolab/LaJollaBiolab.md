@@ -2,12 +2,16 @@
 title: La Jolla Bio Lab
 website: http://lajollalibrary.org/your-library/bio-lab/
 start-date: 2015
+type-org: public
 hosts: "[La Jolla Public Library](http://lajollalibrary.org/)"
 address: 7555 Draper Ave
 directions:
 postcode: 92037
 city: La Jolla
 state: California
+_geoloc:
+  lat: 32.841090
+  lng: -117.276108
 country: United States
 ---
 

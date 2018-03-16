@@ -9,6 +9,9 @@ address: Quartier Sorge
 directions: Bâtiment Amphipôle - bureau 303.1
 postcode: 1015
 city: Lausanne
+_geoloc:
+  lat: 46.521464
+  lng: 6.575231
 country: Switzerland
 email: eprouvette@unil.ch
 twitter: https://twitter.com/Eprouvette_Unil

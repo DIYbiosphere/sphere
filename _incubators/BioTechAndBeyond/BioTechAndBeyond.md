@@ -12,6 +12,9 @@ postcode: 92008
 city: Carlsbad
 state: California
 country: United States
+_geoloc:
+  lat: 33.135863
+  lng: -117.274311
 email: info@btandb.com
 blog: http://www.tridiybio.org/blog.html
 twitter: https://twitter.com/biotechbeyond

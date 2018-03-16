@@ -2,7 +2,7 @@
 title: La Paillase Saône
 website: https://lapaillassaone.wordpress.com/
 start-date: 2015
-hosts: La MYNE
+hosts: '[La MYNE](https://www.lamyne.org/)'
 type-org: non-profit
 partners:
   - La Paillase
@@ -10,6 +10,9 @@ address: 1 Rue du Luizet
 postcode: 69100
 city: Villeurbanne
 country: France
+_geoloc:
+  lat: 45.783892
+  lng: 4.884314
 twitter: https://twitter.com/laPaillassaone
 facebook-group: https://www.facebook.com/groups/644546245604963/
 ---

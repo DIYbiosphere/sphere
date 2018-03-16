@@ -3,9 +3,14 @@ title: OpenBionics
 subtitle: The Next Generation of Bionics
 website: https://www.openbionics.com/
 start-date: 2014
-type-org: Company
+type-org: for-profit
+address: UWE Bristol Exhibition and Conference Centre, Filton Rd, Stoke Gifford, Bristol , UK
 city: Bristol
+postcode: BS34 8RB
 country: United Kingdom
+_geoloc:
+  lat: 51.502299
+  lng: -2.552189
 twitter: https://twitter.com/openbionics
 facebook: https://www.facebook.com/openbionicsltd
 google-plus: https://plus.google.com/+Openbionics
@@ -23,4 +28,4 @@ tags:
   - prosthetics
 ---
 
-Low-cost bionic arms. 
+Low-cost bionic arms.

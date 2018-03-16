@@ -7,6 +7,9 @@ address: Neustadtstrasse 7
 postcode: 6003
 city: Lucerne
 country: Switzerland
+_geoloc:
+  lat: 47.044967
+  lng: 8.308673
 facebook: https://www.facebook.com/mrgaudi
 youtube: https://www.youtube.com/user/MrGaudiCH
 ---

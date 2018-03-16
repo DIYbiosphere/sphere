@@ -5,6 +5,9 @@ type-org: community
 city: Chicago
 state: Illinois
 country: United States
+_geoloc:
+  lat: 41.878114
+  lng: -87.629798
 meetup: https://www.meetup.com/Chicago-Biohacking/
 ---
 

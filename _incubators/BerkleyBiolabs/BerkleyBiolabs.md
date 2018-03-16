@@ -8,6 +8,9 @@ postcode: 94710
 city: Berkley
 state: California
 country: United States
+_geoloc:
+  lat: 37.862421
+  lng: -122.299814
 meetup: http://www.meetup.com/Berkeley-Biolabs/
 twitter: https://twitter.com/berkeleybiolab
 facebook: https://www.facebook.com/Berkeley-Biolabs-361021104034449/

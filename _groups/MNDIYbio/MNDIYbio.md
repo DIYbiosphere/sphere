@@ -14,6 +14,9 @@ postcode: 55407
 city: Minneapolis
 state: Minnesota
 country: United States
+_geoloc:
+  lat: 44.922625
+  lng: -93.262840
 google-group: https://groups.google.com/forum/#!forum/mn-diybio
 meetup: https://www.meetup.com/MN-diyBio/
 facebook: https://www.facebook.com/mndiybio/

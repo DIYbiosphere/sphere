@@ -3,8 +3,13 @@ title: LifePatch
 subtitle: Citizen Initiative in Art, Science and Technology
 start-date:
 type-org: community
-city: Yogyarta
+address: 969, Jl. Tegal lempuyangan DN III, Bausasran, Danurejan
+city: Yogyakarta City
+postcode:  55211
 country: Indonesia
+_geoloc:
+  lat: -7.795758
+  lng: 110.377080
 wiki: http://lifepatch.org/
 ---
 

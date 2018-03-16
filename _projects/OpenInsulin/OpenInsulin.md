@@ -10,6 +10,9 @@ partners:
   - Bio Foundry
 city: Oakland
 country: United States
+_geoloc:
+  lat: 37.835233
+  lng: -122.264195
 twitter:
 facebook: https://www.facebook.com/openinsulin/
 tags:

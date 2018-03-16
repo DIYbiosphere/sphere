@@ -7,10 +7,14 @@ website: logo
 start-date: 2013
 hosts: "[Helios Makerspace](http://heliosmakerspace.ca/)"
 address: 137 Rue Saint-Ferdinand
+directions: '#223'
 postcode: H4C 2B9
 city: Montreal
 state: Quebec
 country: Canada
+_geoloc:
+  lat: 45.475229
+  lng: -73.582007
 email: info@brico.bio
 meetup: http://www.meetup.com/DIYBio-Montreal/
 twitter: https://twitter.com/bricobiomtl

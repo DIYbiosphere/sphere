@@ -9,8 +9,11 @@ address: 300 W. Main St.
 directions: B101
 postcode: 22903
 city: Charlottesville
-state: Charlottesville
+state: Virginia
 country: United States
+_geoloc:
+  lat: 38.030528
+  lng: -78.485606
 email: info@openbiolabs.org
 blog: http://openbiolabs.org/blog/
 twitter: https://twitter.com/openbiolabs/

@@ -6,6 +6,9 @@ start-date: 2009
 type-org: non-profit
 city:
 country: Switzerland
+_geoloc:
+  lat: 46.818188
+  lng: 8.227512 
 twitter:
 facebook:
 tags:

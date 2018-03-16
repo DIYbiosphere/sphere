@@ -5,9 +5,13 @@ website: https://sound.bio/
 start-date: 2016
 type-org: community
 address: 1100 Northeast 47th Street
+directions: '#103'
 city: Seattle
 state: Washington
 country: United States
+_geoloc:
+  lat: 47.663503
+  lng: -122.316011
 email: info@sound.bio
 twitter: https://twitter.com/SoundBioLab
 facebook: https://www.facebook.com/SoundBioLab/

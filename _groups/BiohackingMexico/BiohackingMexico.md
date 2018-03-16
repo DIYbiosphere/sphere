@@ -6,6 +6,9 @@ start-date: 2015
 end-date: 2016
 type-org: community
 country: Mexico
+_geoloc:
+  lat: 23.634501
+  lng: -102.552784
 facebook: https://www.facebook.com/biohackingmexico
 ---
 

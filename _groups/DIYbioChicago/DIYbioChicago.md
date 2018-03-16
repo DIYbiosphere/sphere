@@ -7,6 +7,9 @@ type-org: community
 city: Chicago
 state: Illinois
 country: United States
+_geoloc:
+  lat: 41.878114
+  lng: -87.629798
 google-group: https://groups.google.com/forum/#!forum/diybio-chicago
 ---
 
