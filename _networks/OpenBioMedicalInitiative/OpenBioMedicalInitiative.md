@@ -20,7 +20,7 @@ tags:
   - medical
   - open-source
 ---
-pen BioMedical Initiative is a global nonprofit initiative supporting the traditional Biomedical world engaged in the design and distribution, in a collaborative way, of low-cost, open source and 3D printable Health and Accessibility Supports.
+Open BioMedical Initiative is a global nonprofit initiative supporting the traditional Biomedical world engaged in the design and distribution, in a collaborative way, of low-cost, open source and 3D printable Health and Accessibility Supports.
 It is composed by Open BioMedical Community, Open BioMedical Organizations and its Partners.
 
 ---
