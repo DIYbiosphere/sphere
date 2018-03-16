@@ -1,13 +1,11 @@
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2FiZ2FieSIsImEiOiJjamU2MzJocDAwMHg4MndtbnVkaHpvYmRsIn0.zup_BSBKGLimL_GnNs0WCw';
+
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/sabgaby/cj5wcdqw27a3l2srv56i6myxb',
     attributionControl: false,
-    scrollZoom: true,
-    dragRotate: false,
-    doubleClickZoom: true,
     center: [10, 25],
-    zoom: 1.2
+    zoom: 1.2,
 });
 
 
@@ -25,12 +23,12 @@ map.on('load', function() {
   // Add the data to your map as a layer
 
   map.addLayer({
-    id: 'lab',
+    id: 'entry',
     type: 'symbol',
     // Add a GeoJSON source containing place coordinates and information.
     source: {
       type: 'geojson',
-      data: labs,
+      data: entries,
     },
     layout: {
       'icon-image': '{collection}_{color}_{marker}',
@@ -39,65 +37,7 @@ map.on('load', function() {
     }
   });
 
-  map.addLayer({
-    id: 'startup',
-    type: 'symbol',
-    // Add a GeoJSON source containing place coordinates and information.
-    source: {
-      type: 'geojson',
-      data: startups
-    },
-    layout: {
-      'icon-image': '{collection}_{color}_{marker}',
-      'icon-allow-overlap': true,
-      'icon-anchor': 'bottom'
-    }
-  });
 
-  map.addLayer({
-    id: 'event',
-    type: 'symbol',
-    // Add a GeoJSON source containing place coordinates and information.
-    source: {
-      type: 'geojson',
-      data: events
-    },
-    layout: {
-      'icon-image': '{collection}_{color}_{marker}',
-      'icon-allow-overlap': true,
-      'icon-anchor': 'bottom'
-    }
-  });
-
-  map.addLayer({
-    id: 'project',
-    type: 'symbol',
-    // Add a GeoJSON source containing place coordinates and information.
-    source: {
-      type: 'geojson',
-      data: projects
-    },
-    layout: {
-      'icon-image': '{collection}_{color}_{marker}',
-      'icon-allow-overlap': true,
-      'icon-anchor': 'bottom'
-    }
-  });
-
-  map.addLayer({
-  id: 'network',
-  type: 'symbol',
-  // Add a GeoJSON source containing place coordinates and information.
-  source: {
-    type: 'geojson',
-    data: networks
-  },
-  layout: {
-    'icon-image': '{collection}_{color}_{marker}',
-    'icon-allow-overlap': true,
-    'icon-anchor': 'bottom'
-  }
-});
 
 
 // Add image
@@ -128,12 +68,21 @@ map.on('load', function() {
       });
 
 
-      map.on('click', 'lab', 'startup', 'event', 'group', 'project', 'network',  function (e) {
+      map.on('click', 'entry',  function (e) {
           var coordinates = e.features[0].geometry.coordinates.slice();
           var title = e.features[0].properties.title;
           var url = e.features[0].properties.url;
-          var city = e.features[0].properties.city
+          var city = e.features[0].properties.city;
           var country = e.features[0].properties.country;
+          var status = e.features[0].properties.status;
+          var collection = e.features[0].properties.collection;
+          if (city == 'null'){
+              var location = country;
+          }
+          else {
+              var location = city + ', ' + country;
+          }
+          var collectionType = collection.slice(0, -1);
 
           // Ensure that if the map is zoomed out such that multiple
           // copies of the feature are visible, the popup appears
@@ -144,17 +93,17 @@ map.on('load', function() {
 
           new mapboxgl.Popup()
               .setLngLat(coordinates)
-              .setHTML('<h5 class="ui header"><a href="' + url +'">' + title + '</a><div class="sub header">' + city + ', ' + country + '</div></h5>')
+              .setHTML('<div style="font-family:source code pro;"><div><b><a href="' + url +'">' + title + '</a></b></div><div>' + location + '</div><p class="xo text fairly smaller grey color">' + collectionType + ' with ' + '<em>' + status + '</em>' + ' status' + '</p></div>')
               .addTo(map);
       });
 
       // Change the cursor to a pointer when the mouse is over the places layer.
-      map.on('mouseenter', 'lab', 'startup', 'event', 'group', 'project', 'network', function () {
+      map.on('mouseenter', 'entry', function () {
           map.getCanvas().style.cursor = 'pointer';
       });
 
       // Change it back to a pointer when it leaves.
-      map.on('mouseleave', 'lab', 'startup', 'event', 'group', 'project', 'network', function () {
+      map.on('mouseleave', 'entry', function () {
           map.getCanvas().style.cursor = '';
       });
 
@@ -163,4 +112,8 @@ map.on('load', function() {
 
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
+
+map.addControl(new mapboxgl.AttributionControl({
+  compact: true
+}));
 // disable map zoom when using scroll

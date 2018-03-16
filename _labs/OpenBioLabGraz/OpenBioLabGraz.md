@@ -10,7 +10,7 @@ postcode: 8010
 city: Graz
 country: Austria
 _geoloc:
-  lat: 447.065773
+  lat: 47.065773
   lng: 15.450556
 email: openbiolabgraz@realraum.at
 blog: https://wp.realraum.at/

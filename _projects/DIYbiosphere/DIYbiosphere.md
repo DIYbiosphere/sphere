@@ -7,10 +7,9 @@ start-date: 2016
 type-org: non-profit
 partners:
   - DIYbio.org
-headquarter: true
 _geoloc:
-  lat: 42.360082
-  lng: -71.058880
+  - lat: 42.360082
+    lng: -71.058880
 city: Boston
 state: Massachusetts
 country: United States
@@ -21,7 +20,6 @@ tags:
   - website
   - database
 ---
-
 
 # About
 The DIYbiosphere is an open-source project to connect Do-it-Yourself Biology (DIYbio) initiatives from all over the world. It works similar to a wiki in which entries for each initiative are created. They easily editable through the GitHub interface

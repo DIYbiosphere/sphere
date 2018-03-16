@@ -4,11 +4,11 @@ layout:
 
 {
   "type": "FeatureCollection",
-    "features": [{% for files in site.collections %}{% assign entries = files.docs %}{% for page in entries %}{% if page._geoloc %}{% unless page.title == "DIYbiosphere" %}
+    "features": [{% for files in site.collections %}{% assign entries = files.docs %}{% for page in entries %}{% if page._geoloc %}{% if page._geoloc.lat != blank %}{% assign render_entry = true %}{% else %}{% for geo in page._geoloc %}{% if geo.lat != blank %}{% assign render_entry = true %}{%break%}{% endif %}{% endfor %}{% endif %}{% unless page.title == "DIYbiosphere" %}{% if render_entry == true %}
       {
         "type": "Feature",
         "geometry": {
-          "type": {% if page._geoloc.lat %}"Point",{% else %}{% for geo in page._geoloc %}{% if forloop.length == 1 %}"Point",{% else %}"MultiPoint",{%break%}{% endif %}{% endfor %}{% endif %}
+          "type": {% if page._geoloc.lat == blank %}"Point",{% elsif page._geoloc.lat %}"Point",{% else %}{% for geo in page._geoloc %}{% if forloop.length == 1 %}"Point",{% else %}"MultiPoint",{%break%}{% endif %}{% endfor %}{% endif %}
           "coordinates": [{% if page._geoloc.lat %}{{ page._geoloc.lng}}, {{ page._geoloc.lat}}{% else %}{% for geo in page._geoloc %}{% if forloop.length == 1 %}{{ geo.lng }}, {{ geo.lat }}{% else %}[{{ geo.lng }}, {{ geo.lat }}]{% if forloop.last != true %}, {% endif %}{% endif %}{% endfor %}{% endif %}]
           },
           "properties": {
@@ -18,12 +18,12 @@ layout:
             "city": {{ page.city | jsonify }},
             "state": {{ page.state | jsonify }},
             "country": {{ page.country | jsonify }},
-            "type-org": {{ page.type-org | jsonify }},
+            "status": {{ page.status | jsonify }},
             "color": {% if page.status == 'active' or page.status == 'planned'%}"blue",{% else %}"grey",{% endif %}
             "marker": {% if page.address %}"marker",{% else %}"circle",{% endif %}
             "collection": {{ page.collection | jsonify }}
           }
-      },{% endunless %}{% endif %}{% endfor %}{% endfor %}{% for page in site.projects %}{% if page.title == "DIYbiosphere" %}
+      },{% endif %}{% endunless %}{% endif %}{% endfor %}{% endfor %}{% for page in site.projects %}{% if page.title == "DIYbiosphere" %}
       {
         "type": "Feature",
         "geometry": {
@@ -37,7 +37,9 @@ layout:
             "city": {{ page.city | jsonify }},
             "state": {{ page.state | jsonify }},
             "country": {{ page.country | jsonify }},
-            "type-org": {{ page.type-org | jsonify }},
+            "status": {{ page.status | jsonify }},
+            "color": {% if page.status == 'active' or page.status == 'planned'%}"blue",{% else %}"grey",{% endif %}
+            "marker": {% if page.address %}"marker",{% else %}"circle",{% endif %}
             "collection": {{ page.collection | jsonify }}
           }
       }{% endif %}{% endfor %}
