@@ -12,6 +12,9 @@ postcode: 05429-130
 city: Sao Paolo
 state: Sao Paolo
 country: Brazil
+_geoloc:
+  lat: -23.564721
+  lng: -46.699185
 wiki: https://garoa.net.br/wiki/Garoa_Hacker_Clube:About
 forum: https://groups.google.com/forum/#!forum/hackerspacesp
 twitter: https://twitter.com/garoahc

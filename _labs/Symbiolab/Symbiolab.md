@@ -5,10 +5,13 @@ website: http://irnas.eu/symbiolab.html
 start-date: 2014
 hosts: "[IRNAS](http://irnas.eu/)"
 type-org: non-profit
-address: Tkalski prehod 4
+address: Valvasorjeva ulica 42
 postcode: 2000
 city: Maribor
 country: Slovenia
+_geoloc:
+  lat: 46.554905
+  lng: 15.635657
 email: info@irnas.eu
 forum: http://forum.irnas.eu/
 twitter: https://twitter.com/institute_irnas

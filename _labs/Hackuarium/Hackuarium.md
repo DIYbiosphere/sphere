@@ -13,6 +13,9 @@ directions: 3rd floor
 postcode: 1020 Renens
 city: Renens
 country: Switzerland
+_geoloc:
+  lat: 46.532564
+  lng: 6.591302
 email: hello@hackuarium.ch
 blog: https://medium.com/hackuarium-diybio
 wiki: http://wiki.hackuarium.ch/w/Main_Page

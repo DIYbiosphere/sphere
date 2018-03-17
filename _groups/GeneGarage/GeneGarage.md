@@ -3,10 +3,13 @@ title: Gene Garage
 website:
 start-date: 2015
 hosts: Tecnologico de Monterrey, Campus Guadalajara
-type-org: university
+type-org: students
 city: Guadalajara
 state: Jalisco
 country: Mexico
+_geoloc:
+  lat: 20.659699
+  lng: -103.349609
 meetup: http://www.meetup.com/Gene-Garage/
 twitter: https://twitter.com/genegarage_gdl
 facebook: https://www.facebook.com/Gene-Garage-1598624203727376/

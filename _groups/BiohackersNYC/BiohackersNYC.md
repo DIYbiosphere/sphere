@@ -3,7 +3,6 @@ title: Biohackers NYC
 tags:
 - transhumanism
 subtitle: human performance optimized
-status: inactive
 start-date: 2012
 end-date: 2015
 successor: Hackstronauts
@@ -11,6 +10,9 @@ type-org: community
 city: New York
 state: New York
 country: United States
+_geoloc:
+  lat: 40.712775
+  lng: -74.005973
 facebook: https://www.facebook.com/Biohackers-NYC-380626135343749/
 ---
 

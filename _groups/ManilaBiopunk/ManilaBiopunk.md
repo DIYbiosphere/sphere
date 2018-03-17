@@ -4,10 +4,13 @@ website: http://www.manilabiopunk.org/
 start-date: 2014
 type-org: community
 hosts: '[Tsinelas Labs](https://wiki.hackerspaces.org/Tsinelas_Labs)'
-address: 41B T. Gener St cor Kamuning
-city: Dillman, Quezon City
+address: Teodoro Gener
+city: Quezon City
 state: Metro Manila
 country: Phillipines
+_geoloc:
+  lat: 14.628067
+  lng: 121.036380
 facebook-group: https://www.facebook.com/groups/manilabiopunk/
 ---
 

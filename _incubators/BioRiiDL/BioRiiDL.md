@@ -1,12 +1,18 @@
 ---
 title: BioRiiDL
-subtitle: 
+subtitle:
 website: http://www.bioriidl.org/
 start-date: 2017
 type-org: university
 hosts: '[Somaiya Vidyavihar](https://www.somaiya.edu/)'
+address: SIMSR Building, Off 7th Rajawadi Road
+directions: 3rd floor
 city: Mumbai
+state: Maharashtra
 country: India
+_geoloc:
+  lat: 19.079330
+  lng: 72.897863
 twitter: https://twitter.com/bioriidl
 facebook: https://www.facebook.com/BioRiiDL/
 tags:

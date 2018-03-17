@@ -1,0 +1,29 @@
+---
+layout:
+---
+
+{
+  "type": "FeatureCollection",
+    "features": [ {% for page in site.events %}
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": {% if page._geoloc.lat %}"Point",{% else %}{% for geo in page._geoloc %}{% if forloop.length == 1 %}"Point",{% else %}"MultiPoint",{%break%}{% endif %}{% endfor %}{% endif %}
+          "coordinates": [{% if page._geoloc.lat %}{{ page._geoloc.lng}}, {{ page._geoloc.lat}}{% else %}{% for geo in page._geoloc %}{% if forloop.length == 1 %}{{ geo.lng }}, {{ geo.lat }}{% else %}[{{ geo.lng }}, {{ geo.lat }}]{% if forloop.last != true %}, {% endif %}{% endif %}{% endfor %}{% endif %}]
+          },
+          "properties": {
+            "title": {{ page.title | jsonify }},
+            "url": {{ page.url | jsonify }},
+            "address": {{ page.address | jsonify }},
+            "city": {{ page.city | jsonify }},
+            "state": {{ page.state | jsonify }},
+            "country": {{ page.country | jsonify }},
+            "type-org": {{ page.type-org | jsonify }},
+            "color": {% if page.status == 'active' or page.status == 'planned'%}"blue",{% else %}"grey",{% endif %}
+            "marker": {% if page.address %}"marker",{% else %}"circle",{% endif %}
+            "collection": {{ page.collection | jsonify }}
+          }
+      }{% if forloop.last != true %},{% endif %}
+      {% endfor %}
+    ]
+}

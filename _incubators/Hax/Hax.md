@@ -6,6 +6,9 @@ start-date:
 type-org: investor
 city: Shenzhen
 country: China
+_geoloc:
+  lat: 22.543096
+  lng: 114.057865
 twitter: https://twitter.com/RebelBio
 facebook: https://www.facebook.com/RebelBio/
 tags:

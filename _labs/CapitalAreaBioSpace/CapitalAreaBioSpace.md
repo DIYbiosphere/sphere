@@ -9,6 +9,9 @@ postcode: 20190
 city: Reston
 state: Virginia
 country: United States
+_geoloc:
+  lat: 38.954722
+  lng: -77.338357
 email: capitalareabiospace@gmail.com
 ---
 

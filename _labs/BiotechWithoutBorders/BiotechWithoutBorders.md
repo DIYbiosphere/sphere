@@ -4,8 +4,15 @@ subtitle:
 website: https://biotechwithoutborders.org
 start-date: 2017
 type-org: non-profit
+address: 33 Flatbush Avenue
+directions: 4th floor
 city: Brooklyn
+state: New York
+postcode: 11217
 country: United States
+_geoloc:
+  lat: 40.687953
+  lng: -73.979717
 twitter: https://twitter.com/BioWOborders
 facebook: https://www.facebook.com/BiotechWithoutBorders/
 tags:

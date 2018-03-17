@@ -1,11 +1,17 @@
 ---
 title: Amino Labs
-subtitle: Empowering the next generation of scientists and innovators 
+subtitle: Empowering the next generation of scientists and innovators
 website: https://amino.bio/
 start-date: 2015
 type-org: company
-city: Alberta
+directions: 93005 Range Road 210
+city: Lethbridge
+state: Alberta
+postcode: AB T1J
 country: Canada
+_geoloc:
+  lat: 49.742742
+  lng: -112.709260
 twitter: https://twitter.com/Aminobiolab
 facebook: https://www.facebook.com/aminobiolab/
 tags:

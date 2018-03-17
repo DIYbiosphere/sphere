@@ -1,15 +1,20 @@
 ---
 title: Africa Open Science Hardware Summit
-subtitle:
+subtitle: "Making / Hacking / Bio-Hacking"
 website: http://www.africaosh.com/
 start-date: 2018
 type-org: community
-city: Kumasi 
+city: Kumasi
 country: Ghana
+_geoloc:
+  lat: 6.666600
+  lng: -1.616271
 twitter:
 facebook:
 tags:
   - conference
+  - open-source
+  - hardware
 ---
 
 ## About

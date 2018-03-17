@@ -8,6 +8,9 @@ postcode: 98105
 city: Seattle
 state: Washington
 country: United States
+_geoloc:
+  lat: 47.659243
+  lng: -122.284605
 twitter: https://twitter.com/HiveBio
 youtube: https://www.youtube.com/channel/UCALWihVVy-XpIsEi78uRnXQ
 facebook: https://www.facebook.com/HivebioCommunityLab/

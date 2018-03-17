@@ -12,6 +12,9 @@ postcode: V6A
 city: Vancouver
 state: British Columbia
 country: Canada
+_geoloc:
+  lat: 49.282184
+  lng: -123.087224
 forum: https://groups.google.com/forum/#!forum/open-science-network
 meetup: http://www.meetup.com/open-science-network/
 twitter: https://twitter.com/Openscinet

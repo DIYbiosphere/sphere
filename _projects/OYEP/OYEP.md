@@ -6,6 +6,9 @@ start-date: 2017
 type-org: community
 city: Boston
 country: United States
+_geoloc:
+  lat: 42.360082
+  lng: -71.058880
 twitter: https://twitter.com/openyeast
 facebook:
 tags:
@@ -18,4 +21,3 @@ Oyep is a community collection of yeast engineering protocols. Learn how to engi
 ---
 
 * text taken from initiative's website
-

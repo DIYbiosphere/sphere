@@ -1,16 +1,17 @@
 ---
 title: La Paillase
 website: http://lapaillasse.org/
-start-date:
-hosts:
-type-org:
+start-date: 2011
+type-org: non-profit
 partners:
 address: 226 rue St. Denis
 directions:
 postcode: 75002
 city: Paris
-state:
 country: France
+_geoloc:
+  lat: 48.868712
+  lng: 2.352136
 email: contact@lapaillasse.org
 twitter: https://twitter.com/lapaillasse
 facebook-group: https://www.facebook.com/groups/206707586012941/

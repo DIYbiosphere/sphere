@@ -8,6 +8,9 @@ address: Prinzenallee 34
 postcode: 13359
 city: Berlin
 country: Germany
+_geoloc:
+  lat: 52.558269
+  lng: 13.386036
 google-group: biotinkering-berlin@googlegroups.com
 meetup: https://www.meetup.com/Biotinkering-Berlin/
 ---

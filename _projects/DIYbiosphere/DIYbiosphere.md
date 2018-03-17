@@ -7,12 +7,12 @@ start-date: 2016
 type-org: non-profit
 partners:
   - DIYbio.org
-headquarter: true
 _geoloc:
-  - lat: 46.2043907
-    lng: 6.1431577  
-city: Geneva
-country: Switzerland
+  - lat: 42.360082
+    lng: -71.058880
+city: Boston
+state: Massachusetts
+country: United States
 twitter: https://twitter.com/DIYbiosphere/
 github: https://github.com/DIYbiosphere/sphere
 gitter: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link
@@ -20,7 +20,6 @@ tags:
   - website
   - database
 ---
-
 
 # About
 The DIYbiosphere is an open-source project to connect Do-it-Yourself Biology (DIYbio) initiatives from all over the world. It works similar to a wiki in which entries for each initiative are created. They easily editable through the GitHub interface

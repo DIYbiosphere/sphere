@@ -8,6 +8,9 @@ address: Rue de l’Ecole-de-Médecine, 20
 postcode: 1205
 city: Geneva
 country: Switzerland
+_geoloc:
+  lat: 46.196136
+  lng: 6.136478
 blog: http://bioscopelab.tumblr.com/
 twitter: https://twitter.com/bioscopelab
 facebook: https://www.facebook.com/BIOSCOPE.UNIGE

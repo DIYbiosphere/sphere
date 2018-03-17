@@ -1,11 +1,13 @@
 ---
 title: MikroBiomik
-subtitle:
 website: https://mikrobiomik.org/en
 start-date: 2017
 type-org: community
 city: Munich
 country: Germany
+_geoloc:
+  lat: 48.135125
+  lng: 11.581980
 email: mail@mikrobiomik.org
 tags:
   - microbiology

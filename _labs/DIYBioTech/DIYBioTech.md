@@ -12,6 +12,9 @@ postcode: 32750
 city: Longwood
 state: Florida
 country: United States
+_geoloc:
+  lat: 28.684971
+  lng: -81.353101
 wiki: https://familab.org/wiki/Diy_BioTech_Lab
 trello: https://trello.com/b/T5816bnN/familab-biotech
 meetup: https://www.meetup.com/DiyBio-in-Central-Florida/

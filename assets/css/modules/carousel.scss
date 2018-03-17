@@ -2,24 +2,24 @@
 .owl-stage {
    display: -webkit-flex;
    display: -ms-flexbox;
-   display: flex;
+   display: flex !important;
 
    -webkit-flex-wrap: wrap;
    -ms-flex-wrap: wrap;
-   flex-wrap: wrap;
-   height: 500px;
+   flex-wrap: wrap !important;
+   height: 400px;
 }
 
-.owl-item{
+.owl-item {
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: flex !important;
     height: auto !important;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 .owl-img {
-  min-height: 100%;
+  min-height: 100% !important;
   width: auto;
-  object-fit: cover;
+  object-fit: cover !important;
 }

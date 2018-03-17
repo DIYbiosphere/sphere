@@ -7,11 +7,14 @@ subtitle: Biohackers, Nootropics & Limitless MeetUps
 website: http://hackstronaut.com/
 start-date: 2016
 predecessor: Biohackers NYC
-type-org: community 
+type-org: community
 postcode:
 city: New York
 state: New York
 country: United States
+_geoloc:
+  lat: 40.712775
+  lng: -74.005973
 meetup: https://www.meetup.com/NYC-Biohacking/
 ---
 

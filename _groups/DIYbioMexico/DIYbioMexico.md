@@ -4,6 +4,9 @@ website:
 start-date:
 type-org: community
 country: Mexico
+_geoloc:
+  lat: 23.634501
+  lng: -102.552784
 facebook-group: https://www.facebook.com/groups/DIYbioMexico/
 ---
 

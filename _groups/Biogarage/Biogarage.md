@@ -6,6 +6,9 @@ start-date: 2013
 type-org: community
 city: Munich
 country: Germany
+_geoloc:
+  lat: 48.135125
+  lng: 11.581980
 twitter: https://twitter.com/biogarage
 google-plus: https://plus.google.com/u/0/118328088681211953650
 ---

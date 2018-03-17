@@ -3,12 +3,15 @@ title: BosLab
 website: http://boslab.org/
 start-date: 2014
 type-org: non-profit
-address: 339r summer street
+address: 339 Summer Street
 directions: 2nd floor
 postcode: 2nd floor
-city: Boston
-state: Massachussets
+city: Somerville
+state: Massachusetts
 country: United States
+_geoloc:
+  lat: 42.393960
+  lng: -71.118517
 email: homosapiens@boslab.org
 rss: http://www.boslab.org/#!blog/c177y
 twitter: https://twitter.com/BosOpenSci_Lab
