@@ -23,7 +23,7 @@ layout: landing
     <img class="ui image owl-img" src="/projects/DIYbiosphere/header.jpg">
   </div>
 
-  {% for files in site.collections %} <!-- loop through promotions -->
+  {% for files in site.collections %}
     {% assign entries=files.docs %}
      {% for entry in entries %}
       {% if entry.promotions %}
@@ -38,8 +38,8 @@ layout: landing
                      <h1 class="ui header">
                        <div class="ui big inverted header">
                          <span>{{ entry.title }}</span>
-                         <div class="sub big header">
-                           <b>{{entry.collection | capitalize | append: '%' | remove: 's%' }}
+                         <div class="sub big header" style="font-weight: bold;">
+                           {{entry.collection | capitalize | append: '%' | remove: 's%' }}
                              {% if entry.hostsExist %}
                               {% if entry.project %}
                               by
@@ -58,7 +58,6 @@ layout: landing
                              {% if entry.country %}
                               {{entry.country}}
                              {% endif %}
-                           <b>
                          </div>
                        </div>
                      </h1>

@@ -7,6 +7,7 @@ $('.owl-carousel').owlCarousel({
     nav:false,
     dots:false,
     autoplay:true,
+    autoplayHoverPause: true,
     responsive:{
         0:{
             items:1,
