@@ -4,7 +4,7 @@ description: "An open source project to connect DIYBio Initiatives from all over
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "sphere.diybio.org"
 repository: diybiosphere/sphere
-comments_repo:  diybiosphere/talk
+comments_repo:  diybiosphere/comments
 permalink: /:path/
 twitter:
   username: DIYbiosphere
@@ -211,7 +211,9 @@ algolia:
       - subtitle
       - url
       - type-org
-      - uberimage
+      - logo
+      - header
+      - thumbnail
       - hosts
       - hostsSentence
       - partners

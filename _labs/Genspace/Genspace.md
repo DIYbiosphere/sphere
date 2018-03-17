@@ -7,7 +7,7 @@ promotions:
   - button: Take a Class
     text: Genspace instructors come from top institutions around the New York
       City area to teach advanced biology in an easy-to-understand, hands-on way.
-    URL: https://www.genspace.org/classes-alt
+    URL: https://www.genspace.org/classes/
 type-org: non-profit
 address: 140 32nd Street
 directions: Suite 108

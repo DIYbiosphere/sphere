@@ -87,23 +87,6 @@ module SiblingImages
               doc.data["thumbnail"] = '/'+ thumbnailPathJPG.delete('_')
             end # if
 
-            unless doc.data['thumbnail'].nil?
-              doc.data["uberimage"] = doc.data['thumbnail']
-            else
-              unless doc.data['logo'].nil?
-                doc.data["uberimage"] = doc.data['logo']
-              else
-                unless doc.data['header'].nil?
-                  doc.data["uberimage"] = doc.data['header']
-                else
-                  randomNumber = rand(1..8).to_s
-                  defaultImage = '/assets/img/uberimage' + randomNumber + '.png'
-                  defaultImage.strip!
-                  doc.data["uberimage"] = defaultImage
-                end # if
-              end # if
-            end # if
-
     		end
     	end # do collection
     end # generate site

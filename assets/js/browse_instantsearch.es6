@@ -75,11 +75,11 @@ const HIT_TEMPLATE = `
 <div class="ui basic segment xo padding bottom">
   <div class="ui relaxed link items">
   	<div class="item">
-  	  {{ #logo }}
+
   		<div class="ui tiny image">
-  	    <img class="ui middle aligned" src="{{ uberimage }}">
+  	    <img class="ui middle aligned" src="{{#thumbnail}}{{thumbnail}}{{/thumbnail}}{{^thumbnail}}{{#logo}}{{logo}}{{/logo}}{{/thumbnail}}{{^thumbnail}}{{^logo}}{{#header}}{{header}}{{/header}}{{/logo}}{{/thumbnail}}{{^thumbnail}}{{^logo}}{{^header}}/assets/img/uberimage.png{{/header}}{{/logo}}{{/thumbnail}}">
   	  </div>
-  		{{ /logo }}
+
   	  <div class="content">
   	    <div class="ui header"><a href="{{url}}">{{{ _highlightResult.title.value }}}</a></div>
         <div class="meta">
@@ -101,7 +101,7 @@ const HIT_TEMPLATE = `
           {{start-date}}
           {{/start-date}}
           {{#end-date}} - {{end-date}}{{/end-date}}
-          {{#start-date}} | {{/start-date}}<span data-tooltip="status" data-variation="mini" data-inverted=""><i class="far fa-bolt fa-fw fa-sm" data-fa-transform="down-1"></i></span>{{status}} | 
+          {{#start-date}} | {{/start-date}}<span data-tooltip="status" data-variation="mini" data-inverted=""><i class="far fa-bolt fa-fw fa-sm" data-fa-transform="down-1"></i></span>{{status}} |
           {{#country}}
           <span data-tooltip="location" data-variation="mini" data-inverted="">
           <i class="far fa-map-marker-alt fa-fw fa-sm"></i>
