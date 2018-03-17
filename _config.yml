@@ -211,7 +211,9 @@ algolia:
       - subtitle
       - url
       - type-org
-      - uberimage
+      - logo
+      - header
+      - thumbnail
       - hosts
       - hostsSentence
       - partners
