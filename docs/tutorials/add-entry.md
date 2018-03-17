@@ -12,7 +12,7 @@ Good reference materials are the [Writing Guide] and the example entry of the [A
 3. **Name your new file**: Add a folder first, preferably with the same name of your initiative using `CamelCase` and specify the format at the end as `.md`, e.g. 'AvocadoLab/AvocadoLab.md' (the name of the file will be the URL of the entry, so don't use a long name!)
 4. **Copy and Paste EntryTemplate:** open the [EntryTemplate](https://raw.githubusercontent.com/DIYbiosphere/sphere/master/docs/EntryTemplate.md), select all, copy, and paste into your new file. Alternatively, use the [CompleteTemplate](https://raw.githubusercontent.com/DIYbiosphere/sphere/master/docs/CompleteTemplate.md)
 5. **Edit content:** Fill in the _front matter_ (data keys in between `---`) and write the rest of the entry in _markdown text_. The `Preview` markdown will only render the text and the front matter will be inside a two row table.
-6. **Select Propose new file** at the bottom of the page, when you are finished editing,
+6. **Select Propose new file** at the bottom of the page, when you are finished editing
 
 {% include messages/exclamation.html title="Add changes in large batches if possible" text="Make all the changes you want, even to other files, in your own 'fork' or 'branch' and merge them all at once" %}
 

@@ -3,7 +3,7 @@ layout: entry-example
 collection: lab
 lab: true
 draft: true
-permalink: /docs/tutorials/AvocadoLab
+permalink: /docs/tutorials/AvocadoLab/
 title: Avocado Lab
 subtitle: A fake entry for pedagogy
 logo: /docs/tutorials/AvocadoLab/AvocadoLab-logo.png

@@ -40,7 +40,3 @@ promotions:
     URL:
     color:  
 ---
-
-# Write here in Markdown
-
-Go to [this link](https://guides.github.com/features/mastering-markdown/) to see an easy Markdown Guide from GitHub
