@@ -44,7 +44,7 @@ My DIYbio project is about **open hardware** and **citizen science**.
 
 The _front matter_ includes several `key: value` pairs that render into different elements in the webpage. The `Avocado Lab` is an example entry for pedagogical purposes. You can check out the raw file [raw file](https://raw.githubusercontent.com/DIYbiosphere/sphere/master/docs/tutorials/AvocadoLab/AvocadoLab.md) rendered into [this webpage](http://sphere.diybio.org/docs/tutorials/AvocadoLab). See the rendered image below, and by its side the different elements of the page labeled.
 
-![](http://sphere.diybio.org/docs/tutorials/AvocadoLab/side-by-side.png)
+![](http://sphere.diybio.org/docs/tutorials/AvocadoLab/side-by-side.png){:.ui.fluid.image}
 
 
 ## Contribute

@@ -82,7 +82,7 @@ promotions:
   - button: Go to recipe
     text: Learn how to make the yummiest avocado toast! And to top it off with a nice poached egg
     URL: http://gimmedelicious.com/2016/07/10/how-to-make-the-best-avocado-toast-with-eggs/
-    image: http://gimmedelicious.com/wp-content/uploads/2016/07/avocado-toast-7-of-13.jpg
+    image: /docs/tutorials/AvocadoLab/halves-of-avocado.jpg
   - button: Yes yummy!
     text: Make an authentic guacamole to impress friends and foes
     URL: http://www.thekitchn.com/recipe-guacamole-8649

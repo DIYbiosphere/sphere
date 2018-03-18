@@ -1,7 +1,7 @@
 
 [Avocado Lab]: /docs/tutorials/AvocadoLab/
-[DIYbiosphere]: /projects/DIYbiosphere/
-[DIYbio.org]: /networks/DIYbiosphere/
+[DIYbiosphere]: /projects/diybiosphere/
+[DIYbio.org]: /networks/diybio.org/
 
 
 [slack]: https://diybiosphere.slack.com/ "DIYbiosphere Slack"
@@ -38,6 +38,6 @@
 [github eli5]: /docs/guides/github-eli5
 [add]: /docs/tutorials/add-entry "How to add an entry"
 [edit]: /docs/tutorials/edit-entry "How to edit an entry"
-[install locally]: /docs/tutorials/install-locally 
+[install locally]: /docs/tutorials/install-locally
 [entry template]: /docs/entrytemplate
 [complete template]: /docs/completetemplate
