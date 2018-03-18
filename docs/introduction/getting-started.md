@@ -50,13 +50,16 @@ See the results in two formats: as a _list_, or a _table_
 
 # Contributing to the project
 ## Writing Entries
-Following the tutorials you can [add] a new entry: whether it's your initiative or someone else's,  or [edit] content: misspellings, outdated or wrong information, help us maintain the project. The [Writing Guide] is a good reference material for writing awesome entries.
+Following the tutorials you can [add] a new entry: whether it's your initiative or someone else's,  or [edit] content: misspellings, outdated or wrong information, help us maintain the project.
+
+[Join] the community to have direct _write_ access (no pull requests needed).
+
+The [Writing Guide] is a good reference material for writing awesome entries.
 
 Don't forget to review the [Contributing Guide] for best practices.
 
 ## Participate in the development
-
-- **Resolving our [GitHub Issues]** submit an issue yourself with a suggestion or report a bug. Help by answering, or voting on issues. Tackle issues yourself and commit changes to the repo!
+Check out our [GitHub Issues]. Submit an issue with a suggestion or report a bug. Help by answering, or voting on issues. Tackle issues yourself and commit changes to the repo!
 
 # Downloading the dataset
 Go to the [sphere repository] and select `Clone or Download`, and then select `Download ZIP`. Only the `.md` files in the collection folders are part of the dataset
