@@ -11,7 +11,7 @@ header: /docs/tutorials/AvocadoLab/AvocadoLab-header.png
 website: http://www.avocadolab.com
 predecessor: Avocado fans
 successor: Avocado empire
-start-date: 2001-06-02 20:00
+start-date: 2001-06-05 20:00
 end-date: 2017
 hosts:
   - DIYbiosphere

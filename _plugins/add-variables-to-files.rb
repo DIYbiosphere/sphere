@@ -15,8 +15,6 @@ module AddVariablesToFiles
     	@site.documents.each do |doc|
     		if(doc.respond_to? :data)
           docURL = "#{doc.url}"
-          doc.data["file_name"] = docURL.split('/').last
-
           docDir = "#{doc.relative_path}"
           now = Date.today
 
@@ -36,30 +34,38 @@ module AddVariablesToFiles
             elsif endDate.size == 10
                dateEnd = Date.strptime(endDate, '%Y-%m-%d')
 
-             elsif endDate.size == 16
+            elsif endDate.size == 16
                dateEnd = DateTime.parse(endDate)
+            else
+              dateEnd = Date.parse(endDate)
             end
 
-            isEndPast = (dateEnd - now) < 0
+            isEndPast = (dateEnd - now).to_i < 0
 
            end
 
            if doc.data["start-date"]
-             startDate = "#{doc.data["start-date"]}".to_s
+               # Then grab it
+              startDate = "#{doc.data["start-date"]}".to_s
 
-             if startDate.size == 4
+              # Parse the date
+              if startDate.size == 4
                dateStart = Date.strptime(startDate, '%Y')
 
              elsif startDate.size == 7
-               dateStart = Date.strptime(startDate, '%Y-%m')
+                dateStart = Date.strptime(startDate, '%Y-%m')
 
              elsif startDate.size == 10
-               dateStart = Date.strptime(startDate, '%Y-%m-%d')
+                dateStart = Date.strptime(startDate, '%Y-%m-%d')
 
-             elsif startDate.size == 16
-               dateStart = DateTime.parse(startDate)
+              elsif startDate.size == 16
+                dateStart = DateTime.parse(startDate)
+              else
+                dateStart = Date.parse(startDate)   
              end
-             isStartPast = (dateStart - now) < 0
+
+             isStartPast = (dateStart - now).to_i < 0
+
             end
 
             unless doc.data["status"]
