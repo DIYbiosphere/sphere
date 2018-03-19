@@ -21,6 +21,7 @@ tags:
   - database
 ---
 
+
 # About
 The DIYbiosphere is an open-source project to connect Do-it-Yourself Biology (DIYbio) initiatives from all over the world. It works similar to a wiki in which entries for each initiative are created. They easily editable through the GitHub interface
 
