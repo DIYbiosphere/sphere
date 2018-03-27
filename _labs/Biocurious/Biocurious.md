@@ -5,16 +5,20 @@ tags:
 - synthetic biology
 - hardware
 - paid
-- mycology
+- genomics
+- DNA sequencing
+- Incubator
+- 3d BioPrinter
+- Cuttlefish
 summary: Biocurious is a community lab located in California
 logo: http://biocurious.org/wordpress/wp-content/uploads/2014/11/logo1.png
 website: http://biocurious.org/
 start-date: 2010
 type-org: non-profit
-address: 845 Stewart Drive
+address: 3060 Coronado Dr. 
 directions:
-postcode: 94085
-city: Sunnyvale
+postcode: 95054
+city: Santa Clara CA
 state: California
 country: United States
 _geoloc:
@@ -28,10 +32,57 @@ facebook: https://www.facebook.com/BioCurious
 ---
 
 ## About
-We are a complete working laboratory and technical library for entrepreneurs to cheaply access equipment, materials, and co-working space; a training center for biotechniques, with an emphasis on safety; a meeting place for citizen scientists, hobbyists, activists, and students
-
-We believe that innovations in biology should be accessible, affordable, and open to everyone.
+We are a complete working laboratory and technical library for entrepreneurs to cheaply access equipment, materials, and co-working space; a training center for biotechniques, with an emphasis on safety; a meeting place for citizen scientists, hobbyists, activists, and students We believe that innovations in biology should be accessible, affordable, and open to everyone.
 We’re building a community biology lab for amateurs, inventors, entrepreneurs, and anyone who wants to experiment with friends.
 
+## Equipment and Facilities
+We are a fully stocked BSL lab with resouces similar to a college laboratory. We have about 2500 Sq/ft of dedicated lab space. We onsite access to a Illumina Miseq and HPLC. We have a dedicated tissue culture lab and microscope room.  
+
+
 ## History
-BioCurious was co-founded by 6 entrepreneurs in 2010: Eri Gentry, Kristina Hathaway, Josh Perfetto, Raymond McCauley, Joseph Jackson, and Tito Jankowski. Countless other people helped BioCurious get off the ground in those early days, including 239 backers on Kickstarter, where we raised our original $35,319. See the BioCurious launch page on Kickstarter.
+Countless other people helped BioCurious get off the ground in those early days, including 239 backers on Kickstarter, where we raised our original $35,319. See the BioCurious launch page on Kickstarter.  Orginally located in Sunnyvale California we have since moved to Santa Clara.  
+
+## Projects
+Real Vegan Cheese https://realvegancheese.org/
+The Cuttlefish Project  https://biocuriousdiylab.gitbooks.io/cuttlefishwranglin/
+Lab on a Chip
+The 3d BioPrinter http://biocurious.org/projects/bioprinter/
+
+## Events
+All of our classes and events can be found on our meetup page: https://www.meetup.com/BioCurious/
+
+## Startups
+BioCurious has played host to many many startups.  We have strived to provide them with the initial resources they need to build there dreams.  
+
+9th Dimension Biotech, Inc. salt and drought resistant olive plants engineered for sustainability.
+Alexcel Industries LLC
+Amid Biosciences https://amidbiosciences.com/
+Apheleia Diagnostics --> Now Mammoth Diagnostics http://www.mammothdiagnostics.com/
+Ariviya http://ariviya.com/
+Aromatix Inc
+BillionToOne https://www.billiontoone.com/
+Biomagnetics
+Boolean Biotech http://blog.booleanbiotech.com/
+CAGE Biosciences
+Caromtech
+Chronomed Inc. www.chronomed.com
+Esper Therapeutics, Inc. http://www.espertherapeutics.com
+Etalon Diagnostics http://www.etalondx.com/
+Ex Technology LLC
+Folia water https://www.foliawater.com/
+Microsynbiotix https://www.microsynbiotix.com/
+Nernst Engineering http://nernst.net/
+Pegware https://www.pegware.com/
+Proxeom http://www.proxeom.com/
+Quantgene Inc. http://www.quantgene.com/
+SE3D https://www.se3d.com/
+The ODIN http://www.the-odin.com/
+The Space Research Company https://tsrco.com/
+Troner Technologies
+Vision Infinitas
+X Gen http://www.x-gen.us/
+Xpedite Pharma Solutions http://www.xpeditepharmasolutions.com/
+Mammoth Bio http://www.mammothdiagnostics.com/
+
+
+
