@@ -21,4 +21,4 @@ tags:
 ---
 
 ## About
-Chai Bio got its start from the OpenPCR project.
+Chai was founced by [Josh Perfetto](https://www.crunchbase.com/person/josh-perfetto) and [Jessie Ho](https://www.crunchbase.com/person/jessie-ho) initially to manufacture and distribute the successful Open qPCR project. The company has subsequently diversified into a [PCR Master Mix](https://www.chaibio.com/pcr-master-mixes) engineered with synthetic biology, and educational PCR test kits, and beer spoilage PCR test kits.
