@@ -6,7 +6,7 @@ tags:
 subtitle: better living through beverages, botanicals and backterias 
 website: 
 twitter: @turbiniabiolabs
-start-date: 14/09/2018
+start-date: 2018-09-14
 type-org: Citizen
 postcode: NE5
 city: Newcastle
