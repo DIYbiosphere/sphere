@@ -6,6 +6,7 @@ start-date: 2017-10
 type-org: non-profit
 address: #182 Melrose Ave. #3
 city: South Elgin
+state: Illinois
 country: USA
 twitter: 
 facebook: https://www.facebook.com/BioBlazeLab
