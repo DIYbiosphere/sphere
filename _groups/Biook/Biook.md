@@ -9,6 +9,9 @@ city: BILBAO
 country: SPAIN
 twitter: https://twitter.com/biook_org
 facebook: https://www.facebook.com/biook.org/
+_geoloc:
+  - lat: 43.264988
+  - lng: -2.927599 
 tags:
   - biook
   - diybio
