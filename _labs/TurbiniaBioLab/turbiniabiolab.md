@@ -3,9 +3,9 @@ title: Turbine Bio Lab
 tags:
 - bioart
 - fermentation
-subtitle: better living through beverages, botanicals and backterias 
-website: 
-twitter: @turbiniabiolabs
+subtitle: better living through beverages, botanicals and backterias
+website:
+twitter: https://twitter.com/turbiniabiolabs/
 start-date: 2018-09-14
 type-org: Citizen
 postcode: NE5

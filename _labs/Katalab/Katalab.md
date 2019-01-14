@@ -1,5 +1,5 @@
 ---
-title: [kat]alab Vienna
+title: "[kat]alab Vienna"
 subtitle: Initiative for Open Science, Technology, Art and Education
 type-org: community
 start-date: 2017

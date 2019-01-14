@@ -9,8 +9,8 @@ country: United States
 twitter:
 facebook: https://www.facebook.com/quantgene/
 tags:
--	cancer
--	biotechnology
+  - cancer
+  - biotechnology
 ---
 
 ## About
