@@ -22,6 +22,23 @@
 
 .aa-input-search {
   min-width: 270px !important;
+  padding: 12px 28px 12px 12px !important;
+  border: 0px solid white !important;
+  font-family: "Source Code Pro", monospace;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.aa-search-input-docs {
+  padding: 12px 28px 12px 12px !important;
+  border: 0px solid white !important;
+  font-family: "Source Code Pro", monospace;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .ais-pagination {
