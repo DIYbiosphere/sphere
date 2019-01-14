@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.13 - Loader
+ * # Semantic UI 2.4.2 - Loader
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -186,8 +186,7 @@
 *******************************/
 
 .ui.indeterminate.loader:after {
-  -webkit-animation-direction: reverse;
-          animation-direction: reverse;
+  animation-direction: reverse;
   -webkit-animation-duration: 1.2s;
           animation-duration: 1.2s;
 }

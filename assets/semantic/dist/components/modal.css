@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.13 - Modal
+ * # Semantic UI 2.4.2 - Modal
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -14,11 +14,9 @@
 *******************************/
 
 .ui.modal {
+  position: absolute;
   display: none;
-  position: fixed;
   z-index: 1001;
-  top: 50%;
-  left: 50%;
   text-align: left;
   background: #FFFFFF;
   border: none;
@@ -26,6 +24,9 @@
           box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.2), 1px 3px 15px 2px rgba(0, 0, 0, 0.2);
   -webkit-transform-origin: 50% 25%;
           transform-origin: 50% 25%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
   border-radius: 0.30769231rem;
   -webkit-user-select: text;
      -moz-user-select: text;
@@ -187,31 +188,31 @@
 @media only screen and (max-width: 767px) {
   .ui.modal {
     width: 95%;
-    margin: 0em 0em 0em -47.5%;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 768px) {
   .ui.modal {
     width: 88%;
-    margin: 0em 0em 0em -44%;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 992px) {
   .ui.modal {
     width: 850px;
-    margin: 0em 0em 0em -425px;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 1200px) {
   .ui.modal {
     width: 900px;
-    margin: 0em 0em 0em -450px;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 1920px) {
   .ui.modal {
     width: 950px;
-    margin: 0em 0em 0em -475px;
+    margin: 0em 0em 0em 0em;
   }
 }
 
@@ -320,6 +321,19 @@
   color: rgba(0, 0, 0, 0.85);
 }
 
+/* Resort to margin positioning if legacy */
+.ui.legacy.modal,
+.ui.legacy.page.dimmer > .ui.modal {
+  top: 50%;
+  left: 50%;
+}
+.ui.legacy.page.dimmer > .ui.scrolling.modal,
+.ui.page.dimmer > .ui.scrolling.legacy.modal,
+.ui.top.aligned.legacy.page.dimmer > .ui.modal,
+.ui.top.aligned.dimmer > .ui.legacy.modal {
+  top: auto;
+}
+
 /* Tablet and Mobile */
 @media only screen and (max-width: 991px) {
   .ui.basic.modal > .close {
@@ -348,13 +362,43 @@
 
 
 /*--------------
+   Top Aligned
+---------------*/
+
+
+/* Top Aligned Modal */
+.modals.dimmer[class*="top aligned"] .modal {
+  margin: 5vh auto;
+}
+@media only screen and (max-width: 767px) {
+  .modals.dimmer[class*="top aligned"] .modal {
+    margin: 1rem auto;
+  }
+}
+
+/* Legacy Top Aligned */
+.legacy.modals.dimmer[class*="top aligned"] {
+  padding-top: 5vh;
+}
+@media only screen and (max-width: 767px) {
+  .legacy.modals.dimmer[class*="top aligned"] {
+    padding-top: 1rem;
+  }
+}
+
+/*--------------
     Scrolling
 ---------------*/
 
 
-/* A modal that cannot fit on the page */
+/* Scrolling Dimmer */
 .scrolling.dimmable.dimmed {
   overflow: hidden;
+}
+.scrolling.dimmable > .dimmer {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 .scrolling.dimmable.dimmed > .dimmer {
   overflow: auto;
@@ -364,11 +408,10 @@
   position: fixed;
 }
 .modals.dimmer .ui.scrolling.modal {
-  position: static !important;
-  margin: 3.5rem auto !important;
+  margin: 1rem auto;
 }
 
-/* undetached scrolling */
+/* Undetached Scrolling */
 .scrolling.undetached.dimmable.dimmed {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
@@ -379,23 +422,12 @@
 .scrolling.undetached.dimmable .ui.scrolling.modal {
   position: absolute;
   left: 50%;
-  margin-top: 3.5rem !important;
-}
-
-/* Coupling with Sidebar */
-.undetached.dimmable.dimmed > .pusher {
-  z-index: auto;
-}
-@media only screen and (max-width: 991px) {
-  .modals.dimmer .ui.scrolling.modal {
-    margin-top: 1rem !important;
-    margin-bottom: 1rem !important;
-  }
+  margin-top: 1rem !important;
 }
 
 /* Scrolling Content */
 .ui.modal .scrolling.content {
-  max-height: calc(70vh);
+  max-height: calc(80vh - 10em);
   overflow: auto;
 }
 
@@ -405,11 +437,7 @@
 
 .ui.fullscreen.modal {
   width: 95% !important;
-  left: 2.5% !important;
   margin: 1em auto;
-}
-.ui.fullscreen.scrolling.modal {
-  left: 0em !important;
 }
 .ui.fullscreen.modal > .header {
   padding-right: 2.25rem;
@@ -437,31 +465,31 @@
 @media only screen and (max-width: 767px) {
   .ui.mini.modal {
     width: 95%;
-    margin: 0em 0em 0em -47.5%;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 768px) {
   .ui.mini.modal {
     width: 35.2%;
-    margin: 0em 0em 0em -17.6%;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 992px) {
   .ui.mini.modal {
     width: 340px;
-    margin: 0em 0em 0em -170px;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 1200px) {
   .ui.mini.modal {
     width: 360px;
-    margin: 0em 0em 0em -180px;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 1920px) {
   .ui.mini.modal {
     width: 380px;
-    margin: 0em 0em 0em -190px;
+    margin: 0em 0em 0em 0em;
   }
 }
 
@@ -474,31 +502,31 @@
 @media only screen and (max-width: 767px) {
   .ui.tiny.modal {
     width: 95%;
-    margin: 0em 0em 0em -47.5%;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 768px) {
   .ui.tiny.modal {
     width: 52.8%;
-    margin: 0em 0em 0em -26.4%;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 992px) {
   .ui.tiny.modal {
     width: 510px;
-    margin: 0em 0em 0em -255px;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 1200px) {
   .ui.tiny.modal {
     width: 540px;
-    margin: 0em 0em 0em -270px;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 1920px) {
   .ui.tiny.modal {
     width: 570px;
-    margin: 0em 0em 0em -285px;
+    margin: 0em 0em 0em 0em;
   }
 }
 
@@ -511,31 +539,31 @@
 @media only screen and (max-width: 767px) {
   .ui.small.modal {
     width: 95%;
-    margin: 0em 0em 0em -47.5%;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 768px) {
   .ui.small.modal {
     width: 70.4%;
-    margin: 0em 0em 0em -35.2%;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 992px) {
   .ui.small.modal {
     width: 680px;
-    margin: 0em 0em 0em -340px;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 1200px) {
   .ui.small.modal {
     width: 720px;
-    margin: 0em 0em 0em -360px;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 1920px) {
   .ui.small.modal {
     width: 760px;
-    margin: 0em 0em 0em -380px;
+    margin: 0em 0em 0em 0em;
   }
 }
 
@@ -546,31 +574,31 @@
 @media only screen and (max-width: 767px) {
   .ui.large.modal {
     width: 95%;
-    margin: 0em 0em 0em -47.5%;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 768px) {
   .ui.large.modal {
     width: 88%;
-    margin: 0em 0em 0em -44%;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 992px) {
   .ui.large.modal {
     width: 1020px;
-    margin: 0em 0em 0em -510px;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 1200px) {
   .ui.large.modal {
     width: 1080px;
-    margin: 0em 0em 0em -540px;
+    margin: 0em 0em 0em 0em;
   }
 }
 @media only screen and (min-width: 1920px) {
   .ui.large.modal {
     width: 1140px;
-    margin: 0em 0em 0em -570px;
+    margin: 0em 0em 0em 0em;
   }
 }
 

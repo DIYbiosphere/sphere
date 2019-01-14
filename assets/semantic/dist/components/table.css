@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.13 - Table
+ * # Semantic UI 2.4.2 - Table
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -115,6 +115,11 @@
 }
 .ui.table tr:first-child td {
   border-top: none;
+}
+
+/* Repeated tbody */
+.ui.table tbody + tbody tr:first-child td {
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
 }
 
 /* Table Cells */
@@ -559,8 +564,8 @@
   bottom: 0px;
   border-radius: 0px;
   margin: 0em -1px;
-  width: calc(100% +  2px );
-  max-width: calc(100% +  2px );
+  width: calc(100% - (-1px * 2));
+  max-width: calc(100% - (-1px * 2));
   -webkit-box-shadow: none;
           box-shadow: none;
   border: 1px solid #D4D4D5;
