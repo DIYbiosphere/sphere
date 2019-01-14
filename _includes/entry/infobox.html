@@ -226,7 +226,7 @@
         </td>
         <td>
           <span>
-            <a href="http://maps.google.com/?q={% if page.address %}{{ page.address }}+{% endif %}{% if page.city %}{{ page.city }}+{% endif %}{% if page.state %}{{ page.state }}+{% endif %}{% if page.country %}{{ page.country }}+{% endif %}">
+            <a href="http://maps.google.com/?q={% if page.address %}{{ page.address }}+{% endif %}{% if page.city %}{{ page.city }}+{% endif %}{% if page.state %}{{ page.state }}+{% endif %}{% if page.country %}{{ page.country }}+{% endif %}" target="_blank">
           {% if page.address %}
           {{ page.address }}{% if page.directions %}, {{ page.directions }}{% endif %} <br>
           {% endif %}
