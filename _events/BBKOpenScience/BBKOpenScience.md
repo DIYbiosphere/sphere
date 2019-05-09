@@ -28,7 +28,6 @@ promotions:
   - text: 'January 18-20, 2019: Biohacking & Open Labs Fest for citizens to enjoy science-making in a practical, participatory, social, fun, and transdiciplinary way'
     button: Register for the event!
     URL: https://bbkopenscience.com/
-    image: https://pbs.twimg.com/profile_banners/1072448261204729858/1545639974/1500x500
 ---
 
 We want to awaken that scientist we all have inside.
