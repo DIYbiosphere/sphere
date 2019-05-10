@@ -3,7 +3,7 @@ layout: docs
 title: Overview of DIYbiosphere
 permalink: /docs/introduction/overview/
 ---
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/936735a8-16f8-4fca-a5a5-7489a77806a9/deploy-status)](https://app.netlify.com/sites/diybiosphere/deploys)
 [![Build Status](https://travis-ci.org/DIYbiosphere/sphere.svg?branch=master)](https://travis-ci.org/DIYbiosphere/sphere)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0-lightgrey.svg)](http://sphere.diybio.org/terms-of-use/)
 ![](https://reposs.herokuapp.com/?path=DIYbiosphere/sphere&color=yellowgreen)
