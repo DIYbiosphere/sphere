@@ -1,7 +1,6 @@
 ---
 title: BBK Open Science
 subtitle: Festival de la Ciencia Abierta y Participativa (Participatory and Open Science Festival)
-logo: https://github.com/DIYbiosphere/sphere/blob/master/_events/BBKOpenScience/bbkopenscience_logo_400x400.png
 website: https://bbkopenscience.com/
 start-date: 2019-01-18
 end-date: 2019-01-20
