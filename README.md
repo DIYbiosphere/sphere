@@ -3,14 +3,14 @@ layout: docs
 title: Overview of DIYbiosphere
 permalink: /docs/introduction/overview/
 ---
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/936735a8-16f8-4fca-a5a5-7489a77806a9/deploy-status)](https://app.netlify.com/sites/diybiosphere/deploys)
 [![Build Status](https://travis-ci.org/DIYbiosphere/sphere.svg?branch=master)](https://travis-ci.org/DIYbiosphere/sphere)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0-lightgrey.svg)](http://sphere.diybio.org/terms-of-use/)
 ![](https://reposs.herokuapp.com/?path=DIYbiosphere/sphere&color=yellowgreen)
 [![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/sphere.svg)](https://gitter.im/DIYbiosphere/sphere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 
-# ![](http://sphere.diybio.org/assets/img/sphere-long@1x.png)
+# ![](https://sphere.diybio.org/assets/img/sphere-long@1x.png)
 
 :tada: Welcome to the DIYbiophere repository :tada:
 
@@ -44,16 +44,16 @@ My DIYbio project is about **open hardware** and **citizen science**.
 
 The _front matter_ includes several `key: value` pairs that render into different elements in the webpage. The `Avocado Lab` is an example entry for pedagogical purposes. You can check out the raw file [raw file](https://raw.githubusercontent.com/DIYbiosphere/sphere/master/docs/tutorials/AvocadoLab/AvocadoLab.md) rendered into [this webpage](http://sphere.diybio.org/docs/tutorials/AvocadoLab). See the rendered image below, and by its side the different elements of the page labeled.
 
-![](http://sphere.diybio.org/docs/tutorials/AvocadoLab/side-by-side.png){:.ui.fluid.image}
+![](https://sphere.diybio.org/docs/tutorials/AvocadoLab/side-by-side.png){:.ui.fluid.image}
 
 
 ## Contribute
 To contribute, you need a GitHub account ([sign up](https://github.com/join)).
 
-You also need to abide to our [Code of Conduct](http://sphere.diybio.org/about/code-of-conduct) (COC) and consent to our [Contributor Terms](http://sphere.diybio.org/about/contributor-terms) (CT) determined by our [Terms of Use](http://sphere.diybio.org/about/terms-of-use) (_aka_ Copyrights)).
+You also need to abide to our [Code of Conduct](https://sphere.diybio.org/about/code-of-conduct) (COC) and consent to our [Contributor Terms](https://sphere.diybio.org/about/contributor-terms) (CT) determined by our [Terms of Use](https://sphere.diybio.org/about/terms-of-use) (_aka_ Copyrights)).
 
 > TL;DR (Too Long; Didn't Read)
-> - COC: Be kind and respectful. Gross, rude or inappropriate behavior will not be tolerated. Confront wrongdoers directly or report them to the [board of directors](http://sphere.diybio.org/about/community).
+> - COC: Be kind and respectful. Gross, rude or inappropriate behavior will not be tolerated. Confront wrongdoers directly or report them to the [board of directors](https://sphere.diybio.org/about/community).
 > - CT: You freely share your contributions to the repository under the [MIT license](https://opensource.org/licenses/MIT). If your contributions are displayed in the website, you freely waive authorship rights of these contributions (public domain; [CC0](https://creativecommons.org/publicdomain/zero/1.0/)), otherwise you will specify their copyright. You will also note contributions on behalf of third parties and specify their copyright.
 
 
@@ -63,14 +63,14 @@ In increasing order of engagement you can contribute to DIYbiosphere by:
   - **_Share this project_** with your friends and followers! They might be interested in using the project to find DIYbio initiatives or adding their own. You don't need a GitHub account for this!
   - :star: **_Star the project on GitHub_**! Starring helps attract potential contributors, especially expert and master developers!
 - **WRITING ENTRIES**
-  - **_[Add](http://sphere.diybio.org/docs/tutorials/add-entry) a new entry_**:  whether it's your initiative or someone else's
-  - **_[Edit](http://sphere.diybio.org/docs/tutorials/edit-entry) an existing entry_**: misspellings, outdated information, or just inaccurate, help us keep the entries error-free and up-to-date!
+  - **_[Add](https://sphere.diybio.org/docs/tutorials/add-entry) a new entry_**:  whether it's your initiative or someone else's
+  - **_[Edit](https://sphere.diybio.org/docs/tutorials/edit-entry) an existing entry_**: misspellings, outdated information, or just inaccurate, help us keep the entries error-free and up-to-date!
 - **PARTICIPATING IN THE ISSUES**
   - **Comment, answer, and vote**: search [our issues](https://github.com/DIYbiosphere/sphere/issues) and see if you can help out by moving our issues along:
   - **Submit a [new issue](https://github.com/DIYbiosphere/sphere/issues/new)**: report a bug, ask a question, share your idea and wait for feedback and support from the community.
   - **Fork, commit, pull request** your contributions! Tackle a [good first issue](https://github.com/DIYbiosphere/sphere/labels/good%20first%20issue) to get you started
 - **GETTING INVOLVED**
-  - **Join the development community**. The project is managed by members of the [DIYbiosphere community](http://sphere.diybio.org/about/community). Request membership by [submitting an issue](https://github.com/DIYbiosphere/sphere/issues/new) enjoy more access privileges to the project!
+  - **Join the development community**. The project is managed by members of the [DIYbiosphere community](https://sphere.diybio.org/about/community). Request membership by [submitting an issue](https://github.com/DIYbiosphere/sphere/issues/new) enjoy more access privileges to the project!
   - **Join the conversation**. You can freely join the Gitter chatroom at [gitter.im/diybiosphere/sphere](https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link), or in Slack at [diybiosphere.slack.com](https://diybiosphere.slack.com)
 
 ## Copyright
@@ -81,4 +81,4 @@ In short: **the work in DIYbiosphere is freely available to use, modify and dist
 
 Credit our work as “© DIYbiosphere contributors” or “© DIYbiosphere” with a link to the Repository at: https://github.com/DIYbiosphere/sphere, or the Website at: http://sphere.diybio.org
 
-You can review our [Terms of Use](http://sphere.diybio.org/about/terms-of-use) for a human-readable version of the copyrights, and our [Contributor Terms](http://sphere.diybio.org/about/contributor-terms) to understand in legal terms the rights granted and/or waived from your Contributions. For further detail you should read in full both MIT and CC0 licenses.
+You can review our [Terms of Use](https://sphere.diybio.org/about/terms-of-use) for a human-readable version of the copyrights, and our [Contributor Terms](https://sphere.diybio.org/about/contributor-terms) to understand in legal terms the rights granted and/or waived from your Contributions. For further detail you should read in full both MIT and CC0 licenses.
