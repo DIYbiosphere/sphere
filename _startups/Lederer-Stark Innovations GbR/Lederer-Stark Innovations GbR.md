@@ -13,11 +13,6 @@ promotions:
     text: Check out our newest Supplies! 
     URL: http://www.ls-innovations.de/shop/
     color: '#FFFACD'
-  - button: Visit our Homepage!
-    text: Get to know the Team!
-    URL: http://www.ls-innovations.de/#
-    color: '#FFFACD'
-
 tags:
   - supplies
   - citizen science
