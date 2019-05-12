@@ -16,4 +16,4 @@ tags:
 In 2019, they launched a kickstarter:
 https://www.kickstarter.com/projects/feles/feles-one-for-bio-imagineering
 
-![look at it][https://github.com/DIYbiosphere/sphere/blob/master/_startups/feles/feles.gif]
+![look at it](https://github.com/DIYbiosphere/sphere/blob/master/_startups/feles/feles.gif)
