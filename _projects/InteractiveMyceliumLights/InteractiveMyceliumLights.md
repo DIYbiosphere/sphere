@@ -9,8 +9,5 @@ country: United States
 twitter: @csweeneyartist
 facebook: https://m.facebook.com/christopher.sweeney.7771
 tags: 
-	- mushrooms
----
 
-## About
-more here
+---
