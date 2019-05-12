@@ -9,8 +9,9 @@ country: United States
 twitter: https://twitter.com/csweeneyartist
 facebook: https://m.facebook.com/christopher.sweeney.7771/
 tags: 
+  - art
 
 ---
 
 ## About 
-more here
+more here. Hey @csweeney -- please add some photos!
