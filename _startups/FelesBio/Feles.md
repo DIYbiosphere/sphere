@@ -1,5 +1,5 @@
 ---
-title: Feles for Bio-Imagineering
+title: Feles
 subtitle: Build desktop biolabs for everyone
 website: http://www.felesbio.com
 start-date: 2018-07-01
