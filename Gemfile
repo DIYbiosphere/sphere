@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'jekyll', '~> 3.6'
+gem 'jekyll', '~> 3.8.5'
 gem 'jemoji'
 gem 'uglifier'
 gem 'html-proofer'
