@@ -180,3 +180,24 @@ video {
 .active-menu {
   color: #0078FE !important;
 }
+
+// .owl-carousel .promotion h1, .owl-carousel .promotion h3,  {
+//     text-shadow: rgba(65, 65, 65, 0.87) 3px 2px;
+// }
+// .owl-carousel .promotion h3  {
+//   text-shadow: rgba(65, 65, 65, 0.87) 2px 2px;
+// }
+
+.owl-carousel .ui.header {
+  text-shadow: rgba(65, 65, 65, 0.87) 1px 1px;
+}
+
+.owl-carousel .ui.header.black {
+  text-shadow: rgba(174, 174, 174, 0.54) 2px 2px;
+}
+
+.owl-carousel .ui.header.big {
+  text-shadow: rgba(65, 65, 65, 0.87) 3px 2px;
+}
+
+.owl-carousel .image {height: 400px;}

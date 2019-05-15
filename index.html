@@ -10,12 +10,12 @@ layout: landing
       <div class="content">
         <div class="center">
           <div class="ui basic fluid blurring segment">
-          <h1 class="ui header"><div class="ui big inverted header">DIYbiosphere</div></h1>
-          <div class="ui large inverted header">An open source project to connect DIYbio initiatives worlwide. <br> Search, browse, update, or add an initiative!</div>
-          <div class="ui medium inverted header">
+          <h1 class="ui header"><div class="ui big inverted header black">DIYbiosphere</div></h1>
+          <div class="ui header black">An open source project to connect DIYbio initiatives worlwide. Search, browse, update, or add an initiative!</div>
+          <div class="ui header black">
             To contribute all you need is a <a href="https://www.google.ch/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwig3Zb8wMTVAhUPmbQKHU31DbwQFggoMAA&url=https%3A%2F%2Fgithub.com%2Fjoin&usg=AFQjCNF6nezHQWX1hKwEFQVYRrUheS9_Ig">GitHub account!</a>
           </div>
-          <a href="/projects/diybiosphere/"><button class="ui inverted big button">LEARN MORE</button></a>
+          <a href="/projects/diybiosphere/"><button class="ui green big button">LEARN MORE</button></a>
           </div>
         </div>
       </div>
@@ -35,10 +35,10 @@ layout: landing
                <div class="center">
                  <div class="ui basic blurring segment">
                    <a href="{{ entry.url }}">
-                     <h1 class="ui header">
-                       <div class="ui big inverted header">
-                         <span>{{ entry.title }}</span>
-                         <div class="sub big header" style="font-weight: bold;">
+                     <div class="ui header promotion">
+                       <div class="ui inverted header">
+                         <h1 class="ui big inverted header">{{ entry.title }}</h1>
+                         <h3 class="ui medium inverted header">
                            {{entry.collection | capitalize | append: '%' | remove: 's%' }}
                              {% if entry.hostsExist %}
                               {% if entry.project %}
@@ -58,11 +58,11 @@ layout: landing
                              {% if entry.country %}
                               {{entry.country}}
                              {% endif %}
-                         </div>
+                         </h3>
                        </div>
-                     </h1>
+                      </div>
                    </a>
-                   <div class="ui big inverted header">{{promotion.text | markdownify }}</div>
+                   <h3 class="ui big inverted header">{{promotion.text | markdownify | replace: '<p>', '' | replace: '</p>', ''}}</h3>
                    <a href="{{ promotion.URL }}"><button class="ui large blue button">{{promotion.button | markdownify }}</button></a>
                 </div>
                </div>

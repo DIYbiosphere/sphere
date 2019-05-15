@@ -13,7 +13,9 @@ promotions:
     URL: https://www.kickstarter.com/projects/feles/feles-one-for-bio-imagineering?ref=ar5i3v
     color: '#FFFACD'
     end-date: 2019-06-06
-    image: https://sphere.diybio.org/startups/FelesBio/FelesOne_sq.jpg
+    image: /startups/feles/FelesOne_sq.jpg
+    primary-color: black
+    accent-color: black
 tags:
   - Hardware
   - Biotechnology
@@ -24,11 +26,11 @@ With a mission to make essential tool sets for everyone to discover and invent w
 https://www.kickstarter.com/projects/feles/1727772716?ref=ar5i3v
 
 ## Version 1
-![look at it](https://sphere.diybio.org/startups/FelesBio/FelesOne_0.png "View of Feles One")
-![look at it](https://sphere.diybio.org/startups/FelesBio/FelesOne_1.jpg "View of Feles One")
-![look at it](https://sphere.diybio.org/startups/FelesBio/FelesOne_2.jpg "View of Feles One")
-![look at it](https://sphere.diybio.org/startups/FelesBio/FelesOne_3.jpg "View of Feles One")
-![look at it](https://sphere.diybio.org/startups/FelesBio/FelesOne_4.jpg "View of Feles One")
-![look at it](https://sphere.diybio.org/startups/FelesBio/FelesOne_5.jpg "View of Feles One")
-![look at it](https://sphere.diybio.org/startups/FelesBio/FelesOne_6.jpg "View of Feles One")
-![look at it](https://sphere.diybio.org/startups/FelesBio/FelesOne_7.jpg "View of Feles One")
+![look at it](https://sphere.diybio.org/startups/feles/FelesOne_0.png "View of Feles One")
+![look at it](https://sphere.diybio.org/startups/feles/FelesOne_1.jpg "View of Feles One")
+![look at it](https://sphere.diybio.org/startups/feles/FelesOne_2.jpg "View of Feles One")
+![look at it](https://sphere.diybio.org/startups/feles/FelesOne_3.jpg "View of Feles One")
+![look at it](https://sphere.diybio.org/startups/feles/FelesOne_4.jpg "View of Feles One")
+![look at it](https://sphere.diybio.org/startups/feles/FelesOne_5.jpg "View of Feles One")
+![look at it](https://sphere.diybio.org/startups/feles/FelesOne_6.jpg "View of Feles One")
+![look at it](https://sphere.diybio.org/startups/feles/FelesOne_7.jpg "View of Feles One")
