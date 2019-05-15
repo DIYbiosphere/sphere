@@ -11,6 +11,7 @@ facebook:
 instagram: https://www.instagram.com/tool_foundry/
 tags: 
   - hardware
+  - accelarator
 ---
 
 ## About
