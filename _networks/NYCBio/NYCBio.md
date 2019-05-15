@@ -14,6 +14,7 @@ type-org: non-profit
 city: New York
 state: New York
 country: United States
+status: inactive
 linkedin: https://www.linkedin.com/groups/41295/profile
 ---
 
