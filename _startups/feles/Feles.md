@@ -26,11 +26,11 @@ With a mission to make essential tool sets for everyone to discover and invent w
 https://www.kickstarter.com/projects/feles/1727772716?ref=ar5i3v
 
 ## Version 1
-![look at it](https://sphere.diybio.org/startups/feles/FelesOne_0.png "View of Feles One")
-![look at it](https://sphere.diybio.org/startups/feles/FelesOne_1.jpg "View of Feles One")
-![look at it](https://sphere.diybio.org/startups/feles/FelesOne_2.jpg "View of Feles One")
-![look at it](https://sphere.diybio.org/startups/feles/FelesOne_3.jpg "View of Feles One")
-![look at it](https://sphere.diybio.org/startups/feles/FelesOne_4.jpg "View of Feles One")
-![look at it](https://sphere.diybio.org/startups/feles/FelesOne_5.jpg "View of Feles One")
-![look at it](https://sphere.diybio.org/startups/feles/FelesOne_6.jpg "View of Feles One")
-![look at it](https://sphere.diybio.org/startups/feles/FelesOne_7.jpg "View of Feles One")
+<img src="/startups/feles/FelesOne_0.png" class="ui image fluid small-padded" alt="View of Feles One" />
+<img src="/startups/feles/FelesOne_1.jpg" class="ui image fluid small-padded" alt="View of Feles One" />
+<img src="/startups/feles/FelesOne_2.jpg" class="ui image fluid small-padded" alt="View of Feles One" />
+<img src="/startups/feles/FelesOne_3.jpg" class="ui image fluid small-padded" alt="View of Feles One" />
+<img src="/startups/feles/FelesOne_4.jpg" class="ui image fluid small-padded" alt="View of Feles One" />
+<img src="/startups/feles/FelesOne_5.jpg" class="ui image fluid small-padded" alt="View of Feles One" />
+<img src="/startups/feles/FelesOne_6.jpg" class="ui image fluid small-padded" alt="View of Feles One" />
+<img src="/startups/feles/FelesOne_7.jpg" class="ui image fluid small-padded" alt="View of Feles One" />
