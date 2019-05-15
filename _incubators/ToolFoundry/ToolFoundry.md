@@ -13,4 +13,5 @@ tags:
   - hardware
 ---
 
-*psst add some content*
+## About
+better cheaper faster stronger tools

@@ -28,13 +28,12 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  hard_wrap: false
 highlighter: rouge
 
 github: [metadata]
 encoding: UTF-8
-kramdown:
-  input: GFM
-  hard_wrap: false
+
 
 # Where things are
 destination:  _site
