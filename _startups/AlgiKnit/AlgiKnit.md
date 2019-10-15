@@ -5,7 +5,7 @@ website: https://www.algiknit.com/
 start-date: 2017
 type-org: company
 city: New York
-country: United States of America
+country: United States
 twitter: https://twitter.com/algiknit
 facebook: https://www.facebook.com/algiknit
 tags:
