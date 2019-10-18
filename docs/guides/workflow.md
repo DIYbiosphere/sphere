@@ -28,7 +28,7 @@ Based on the `ISSUE_TEMPLATE` there are at least 6 types of issues:
 {% include messages/incomplete.html %}
 
 # Assignees
-Assigning tasks to users help the community know who they can reach out to to help with an issue or to collaborate and discuss further an issue or PR. Only members and outside collaborators can be assigned tasks.
+Assigning tasks to users help the community know who they can reach out to to help with an issue or to collaborate and discuss further an issue or PR. Only members & outside collaborators can be assigned tasks.
 
 # Handling of Pull Requests
 {% include messages/incomplete.html %}
