@@ -26,6 +26,7 @@ The Community Biotechnology Initiative at the MIT Media Lab is organizes the Glo
 ## Events (past and future)
 + September 22-24, 2017 
 + October 26 -28, 2018 
++ October 11-13, 2019
 
 ---
 Text taken from initiative
