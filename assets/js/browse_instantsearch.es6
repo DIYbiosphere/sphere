@@ -1,7 +1,7 @@
 const search = instantsearch({
-  appId: 'ITI5JHZJM9',
-  apiKey: 'b427318cf6d881e5d3ffd84adf39219e',
-  indexName: 'diybiosphere',
+  appId: '{{ site.algolia.application_id }}',
+  indexName: '{{ site.algolia.index_name }}',
+  apiKey: '{{ site.algolia.search_only_api_key }}',
   urlSync: true,
   searchParameters: {
     facetingAfterDistinct: true
@@ -284,8 +284,8 @@ search.addWidget(
         root: 'select',
       },
       items: [
-        {value: 10, label: '10 per page', default: true},
-        {value: 100, label: '100 per page'},
+        {value: 10, label: '10 per page'},
+        {value: 100, label: '100 per page', default: true},
         {value: 1000, label: '1000 per page'},
       ],
     })
