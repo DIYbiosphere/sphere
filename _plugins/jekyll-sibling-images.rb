@@ -27,14 +27,17 @@ module SiblingImages
 
             if File.exist?(logoPathPNG)
         		  doc.data["logo"] = '/'+ logoPathPNG.delete('_')
+              print '...found logo png ', doc.data["logo"]
             end # if
 
             if File.exist?(logoPathJPG)
               doc.data["logo"] = '/'+ logoPathJPG.delete('_')
+              print '...found logo jpg ', doc.data["logo"]
             end # if
 
             if File.exist?(logoPathSVG)
-              doc.data["logo"] = '/'+ logoPathJPG.delete('_')
+              doc.data["logo"] = '/'+ logoPathSVG.delete('_')
+              print '...found logo svg ', doc.data["logo"]
             end # if
 
 
@@ -60,7 +63,7 @@ module SiblingImages
             end # if
 
             if File.exist?(headerPathSVG)
-              doc.data["header"] = '/'+ headerPathJPG.delete('_')
+              doc.data["header"] = '/'+ headerPathSVG.delete('_')
             end # if
 
             # For Thumbnail
