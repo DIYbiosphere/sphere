@@ -9,7 +9,6 @@ permalink: /:path/
 twitter:
   username: DIYbiosphere
 
-incremental: true
 # Excluded files and dirs
 exclude:
   - script
