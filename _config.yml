@@ -160,9 +160,9 @@ sass:
 
 # AlgoliaSearch-Jekyll: https://github.com/algolia/algoliasearch-jekyll/
 algolia:
-  application_id: 'QHKS75PWSL'
+  application_id: 'ITI5JHZJM9'
   index_name: 'diybiosphere'
-  search_only_api_key: '673caf95bfb06c37851128315e930c73'
+  search_only_api_key: '0fb96795a4020d51c6d000ecd08c6166'
   indexing_batch_size: 100
   nodes_to_index: 'p,blockquote,li'
   files_to_exclude:
