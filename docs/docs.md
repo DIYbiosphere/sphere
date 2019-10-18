@@ -37,6 +37,8 @@ note:
 - include a file named `logo.png` or `logo.jpg` or `logo.svg` in your folder. it will automatically be used on your page. [documentation for logos](docs/guides/writing/#logo)
 - if you add a promotion, upload an image to your folder, then add it to the promotion block with a link pointing to `/<path>/<to></your></folder>/<imagename>.ext`. **do not use an external link pointing to externally hosted content!** [docs](/docs/guides/writing/#promotion-boxes)
 
+**WARNING:** malformed yaml (incorrect syntax, often indentation-related) currently causes the build process to crash, breaking site updates. **Please verify your yaml is valid** before committing it. https://yamlchecker.com is an easy way to validate the syntax.
+
 ```yaml
 ---
 #BASIC INFO
