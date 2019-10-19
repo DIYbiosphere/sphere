@@ -20,6 +20,16 @@
 
 
     <script>
+      // instantsearch script below requires params stored in _config.yml
+      // store them in global window state so script can access
+      window.site = {
+        algolia: {        
+          appId: '{{ site.algolia.application_id }}',
+          indexName: '{{ site.algolia.index_name }}',
+          apiKey: '{{ site.algolia.search_only_api_key }}'
+        }
+      };
+
       ((window.gitter = {}).chat = {}).options = {
         room: 'diybiosphere/sphere',
         activationElement: false

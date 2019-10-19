@@ -1,7 +1,8 @@
 $(document).ready(function () {
 
-var client = algoliasearch("ITI5JHZJM9", "b427318cf6d881e5d3ffd84adf39219e");
-var index = client.initIndex('diybiosphere');
+// get config from _config.yml via window global (see _layouts/default.html)
+var client = algoliasearch(window.site.algolia.appId, window.site.algolia.apiKey);
+var index = client.initIndex(window.site.algolia.indexName);
 //initialize autocomplete on search input (ID selector must match)
 
 var hitTemplate = Hogan.compile (`
