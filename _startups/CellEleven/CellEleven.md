@@ -1,14 +1,10 @@
 ---
 draft: true
 title: Cell Eleven
-subtitle: Democratized Biotech
+subtitle: Democratized Biotech: Hardware, Software, Publications
 start-date: 2001-06-02 20:00 2018-09-11
-hosts:
-  - DIYbiosphere # Exact `title: `of DIYbiosphere
-  - Fake entry # Does not render
-  - "[sphere](/projects/diybiosphere)" # link to a local page in markdown link wrapped in ""
 partners:
-  - '[Tree Labs](http://celleleven.com)' # link to external website in markdown link wrapped in ''
+  - '[Cell Eleven](http://celleleven.com)' # link to external website in markdown link wrapped in ''
 type-org: startup
 city: Philadelphia
 state: Pennsylvania
