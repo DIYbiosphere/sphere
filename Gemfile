@@ -9,7 +9,11 @@ gem 'json'
 gem 'rouge'
 gem 'jekyll-octicons'
 
+#   running jekyll-algolia via build command
+gem 'jekyll-algolia'
+
 group :jekyll_plugins do
   gem 'jekyll-mentions'
-  gem 'jekyll-algolia'
+#   running jekyll-algolia via build command
+#   gem 'jekyll-algolia'
 end
