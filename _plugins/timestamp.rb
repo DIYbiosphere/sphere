@@ -10,9 +10,7 @@ module LastModified
     		if(collection.respond_to? :data)
           last_modified = `git log -1 --format="%ct" -- "#{collection.path}"`
       		last_modified.strip!
-          #collection.data["timestamp"] = last_modified
-          # dirty hack to make jekyll think everything was just modified 
-          collection.data["timestamp"] = 1571657847
+          collection.data["timestamp"] = last_modified
     		end
     	end
     end
