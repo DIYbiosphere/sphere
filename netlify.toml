@@ -1,0 +1,26 @@
+# Production context:
+# All deploys from the main repository branch
+# will inherit these settings.
+[context.production]
+  command = "jekyll build && jekyll algolia"
+
+# Deploy Preview context:
+# All deploys generated from a pull/merge request
+# will inherit these settings.
+[context.deploy-preview.environment]
+  command = "jekyll build"
+
+# Branch deploy context:
+# All deploys that are not from a pull/merge request
+# or from the production branch will inherit these settings.
+[context.branch-deploy]
+  command = "jekyll build"
+
+# # Specific branch context:
+# # Deploys from this branch will take these settings
+# # and override their current ones.
+# [context.feature]
+#   command = "make feature"
+#
+# [context."features/branch"]
+#   command = "gulp"
