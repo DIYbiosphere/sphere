@@ -7,10 +7,9 @@ type-org: Company
 city: Amsterdam
 country: Netherlands
 twitter:
-facebook: 
+facebook:
 tags:
   - sleep
-  - 
 ---
 
 ## About
