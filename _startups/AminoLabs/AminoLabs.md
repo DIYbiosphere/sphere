@@ -18,6 +18,7 @@ tags:
   - hardware
   - education
   - kits
+  - media lab
 ---
 
 # About

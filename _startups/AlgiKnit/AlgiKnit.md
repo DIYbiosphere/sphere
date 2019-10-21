@@ -8,7 +8,6 @@ city: New York
 country: United States
 twitter: https://twitter.com/algiknit
 facebook: https://www.facebook.com/algiknit
-logo: /startups/AlgiKnit/logo.jpg
 tags:
   - fashion
 ---
