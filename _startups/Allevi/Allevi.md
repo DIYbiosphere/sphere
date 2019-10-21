@@ -1,9 +1,9 @@
 ---
 title: Allevi
-subtitle:
+subtitle: We build tools to design and engineer life.
 website: https://allevi3d.com/
 start-date: 2014
-type-org: Company
+type-org: company
 city: Philadelphia
 country: United States
 twitter: https://twitter.com/Allevi3D
