@@ -1,6 +1,9 @@
+# not sure if this file is based on another file...
+#
+# for some reason algolia is not noticing `doc.data["logo"]` fields added by this..
+#
+# this comment is not accurate, not sure why its here (copy-pasted?)
 # Based on nquinlan's plugin "Jekyll-gir-last-modified" on https://github.com/nquinlan/jekyll-git-last-modified
-# added support for collections(documents)
-# converts DateTime into Unix Timestamp
 
 module SiblingImages
   class Generator < Jekyll::Generator
@@ -27,17 +30,17 @@ module SiblingImages
 
             if File.exist?(logoPathPNG)
         		  doc.data["logo"] = '/'+ logoPathPNG.delete('_')
-              print '...found logo png ', doc.data["logo"]
+              # print '...found logo png ', doc.data["logo"]
             end # if
 
             if File.exist?(logoPathJPG)
               doc.data["logo"] = '/'+ logoPathJPG.delete('_')
-              print '...found logo jpg ', doc.data["logo"]
+              # print '...found logo jpg ', doc.data["logo"]
             end # if
 
             if File.exist?(logoPathSVG)
               doc.data["logo"] = '/'+ logoPathSVG.delete('_')
-              print '...found logo svg ', doc.data["logo"]
+              # print '...found logo svg ', doc.data["logo"]
             end # if
 
 
