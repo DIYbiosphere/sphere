@@ -1,7 +1,7 @@
 ---
 title: Ottawa Bio Science
 subtitle: Ottawa's DIY Biology Community
-website: www.specyal.com
+website: http://specyal.com/diybio/
 start-date: 2018
 
 hosts: '[Ottawa Public Library](https://biblioottawalibrary.ca/)'
