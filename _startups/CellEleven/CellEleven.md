@@ -1,31 +1,22 @@
 ---
 draft: true
-title: Avocado Lab
-subtitle: A fake entry for pedagogy
-predecessor: Avocado fans # the previous name of the entry
-successor: Avocado empire # the initiative that evolved from the initiative
-start-date: 2001-06-02 20:00
-end-date: 2017
-hosts:
-  - DIYbiosphere # Exact `title: `of DIYbiosphere
-  - Fake entry # Does not render
-  - "[sphere](/projects/diybiosphere)" # link to a local page in markdown link wrapped in ""
-partners:
-  - '[Tree Labs](http://treelabs.com)' # link to external website in markdown link wrapped in ''
-type-org: community
-address: Verde Canario Street, 4
-directions: second floor, red door
-city: Morelia
-state: Michoacan
-country: Mexico
+title: Cell Eleven
+subtitle:     Cell Eleven's goal is to make biotech more accessible, by making tools follow five basic principles; open hardware/software, standard parts, modular, and standard IO protocol.
+start-date: 2016
+type-org: Hardware
+city: Philadelphia
+state: Pennsylvania
+country: United States
 tags:
-  - food lab
+  - Hardware
+  - Software
+  - Wetware
   - citizen science
-  - fruits
-website: http://sphere.diybio.org/docs/tutorials/AvocadoLab/  
-blog: /docs/tutorials/AvocadoLab/
-email: /docs/tutorials/AvocadoLab/
-twitter: /docs/tutorials/AvocadoLab/
+  - Democratized
+website: http://www.celleleven.com 
+blog: http://bioce11.wordpress.com
+email: biocelleleven@gmail.com
+twitter: https://twitter.com/bioce11
 links:
   - URL: /docs/tutorials/AvocadoLab/
     tooltip: Basecamp
