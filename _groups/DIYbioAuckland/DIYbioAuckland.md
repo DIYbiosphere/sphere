@@ -2,6 +2,7 @@
 title: Auckland DIYbio
 start-date: 2013
 end-date: 2013
+wedbsite: https://www.meetup.com/BiohackersAuckland/
 status: inactive
 type-org: community
 city: Auckland
