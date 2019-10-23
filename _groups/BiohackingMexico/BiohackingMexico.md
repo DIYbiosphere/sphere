@@ -1,7 +1,6 @@
 ---
 title: Biohacking Mexico
 subtitle: All biohackers in Latin America
-website: https://www.biohack.com.mx/
 status: inactive
 start-date: 2015
 end-date: 2016
