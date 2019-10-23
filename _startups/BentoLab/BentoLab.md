@@ -10,7 +10,7 @@ country: UK
 twitter: https://www.twitter.com/theBentoLab
 facebook: https://www.facebook.com/theBentoLab
 tags:
-  - DNA 
+  - DNA
   - hardware
   - education
   - research
@@ -25,6 +25,8 @@ tags:
 # About
 ### Bento Lab
 Bento Lab is a complete DNA laboratory, suitable for a beginner to a professional. It comes with a PCR thermocycler, a centrifuge and a gel electrophoresis box and power supply with blue LED transillumination, and it fits into a laptop-sized bag.
+<img src="https://sphere.diybio.org/startups/BentoLab/pedestal.jpg" class="ui image fluid small-padded" alt="BentoLab" />
+
 
 ### Starter Kit for DNA Analysis
 Bento Lab is ready-to-go laboratory hardware. The Starter Kit contains all the materials needed when learning to use Bento Lab for the first time, including instructions and reagents.
