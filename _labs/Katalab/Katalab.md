@@ -9,9 +9,8 @@ tags:
   - mycelium
 website: http://katalab.at
 email: hello@katalab.at
-links:
-  - Facebook: https://www.facebook.com/katalabvie
-  - Twitter: https://www.twitter.com/katalabvie
+facebook: https://www.facebook.com/katalabvie
+twitter: https://www.twitter.com/katalabvie
 ---
 We from [kat]alab wish for a world in which people of different backgrounds help, inspire and learn from each other. In our opinion that includes also an open access to knowledge, education and technology. Everyone should be able to partake in science independently of companies and universities. Thus knowledge can be more responsive to the particular needs of people and form a strong alliance with art and society. Hence sustainable innovations shall be facilitated that may be able to improve our world.
 
