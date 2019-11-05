@@ -4,7 +4,6 @@ title: Overview of DIYbiosphere
 permalink: /docs/introduction/overview/
 ---
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e7b7441f-7979-4eae-ab5e-0ea63bfd376e/deploy-status)](https://app.netlify.com/sites/diybiosphere/deploys)
-[![Build Status](https://travis-ci.org/DIYbiosphere/sphere.svg?branch=master)](https://travis-ci.org/DIYbiosphere/sphere)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0-lightgrey.svg)](http://sphere.diybio.org/terms-of-use/)
 [![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/sphere.svg)](https://gitter.im/DIYbiosphere/sphere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
