@@ -1,49 +1,55 @@
 #!/bin/bash
-set -e # halt script on error
 
-echo "Travis Branch: $TRAVIS_BRANCH"
-echo "Travis Event Type: $TRAVIS_EVENT_TYPE"
-echo "Travis Pull Request: $TRAVIS_PULL_REQUEST"
-echo "Travis Pull Request Branch: $TRAVIS_PULL_REQUEST_BRANCH"
+# disabling b/c we don't use travis any more
 
-# Pull requests and commits to other branches shouldn't try to deploy, just build to verify
-if [ "$TRAVIS_EVENT_TYPE" == "pull_request" ]; then
-    echo  "Travis should not deploy from pull requests. Skipping deploy; just doing a build!"
-    bundle exec jekyll build --verbose --trace
-    exit 0
-fi
-
-if [ "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
-    echo "Travis should only deploy from the SOURCE_BRANCH ($SOURCE_BRANCH), not $TRAVIS_BRANCH. Skipping deploy; just doing a build!"
-    bundle exec jekyll build --verbose --trace
-    exit 0
-fi
-
-# cleanup "_site"
-rm -rf _site
-mkdir _site
-
-git clone https://${DEPLOY_TOKEN}@${GITHUB_REPO} --branch ${DEPLOY_BRANCH} _site
-
-# find missing images
-# https://jekyllrb.com/docs/continuous-integration/travis-ci/#the-html-proofer-executable
-# bundle exec htmlproofer ./_site --disable-external --empty-alt-ignore --checks-to-ignore LinkCheck
-bundle exec jekyll build --verbose --trace
-bundle exec jekyll algolia --verbose
+# if re-enable disable algolia indexing for non-master branches or set up staging algolia index
 
 
-# Jekyll's output folder
-cd _site
-
-# Configure github properties
-git config user.name ${USERNAME}
-git config user.email ${EMAIL}
-
-# Commit and Push content
-git add --all
-git commit -a -m "Travis: #$TRAVIS_BUILD_NUMBER"
-
-# push to repo and prevents any sensitive data from printing on the console.
-git push --force origin ${DEPLOY_BRANCH}
-
-echo "Successfully deployed from SOURCE_BRANCH $SOURCE_BRANCH to DEPLOY_BRANCH $DEPLOY_BRANCH"
+# set -e # halt script on error
+#
+# echo "Travis Branch: $TRAVIS_BRANCH"
+# echo "Travis Event Type: $TRAVIS_EVENT_TYPE"
+# echo "Travis Pull Request: $TRAVIS_PULL_REQUEST"
+# echo "Travis Pull Request Branch: $TRAVIS_PULL_REQUEST_BRANCH"
+#
+# # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
+# if [ "$TRAVIS_EVENT_TYPE" == "pull_request" ]; then
+#     echo  "Travis should not deploy from pull requests. Skipping deploy; just doing a build!"
+#     bundle exec jekyll build --verbose --trace
+#     exit 0
+# fi
+#
+# if [ "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
+#     echo "Travis should only deploy from the SOURCE_BRANCH ($SOURCE_BRANCH), not $TRAVIS_BRANCH. Skipping deploy; just doing a build!"
+#     bundle exec jekyll build --verbose --trace
+#     exit 0
+# fi
+#
+# # cleanup "_site"
+# rm -rf _site
+# mkdir _site
+#
+# git clone https://${DEPLOY_TOKEN}@${GITHUB_REPO} --branch ${DEPLOY_BRANCH} _site
+#
+# # find missing images
+# # https://jekyllrb.com/docs/continuous-integration/travis-ci/#the-html-proofer-executable
+# # bundle exec htmlproofer ./_site --disable-external --empty-alt-ignore --checks-to-ignore LinkCheck
+# bundle exec jekyll build --verbose --trace
+# bundle exec jekyll algolia --verbose
+#
+#
+# # Jekyll's output folder
+# cd _site
+#
+# # Configure github properties
+# git config user.name ${USERNAME}
+# git config user.email ${EMAIL}
+#
+# # Commit and Push content
+# git add --all
+# git commit -a -m "Travis: #$TRAVIS_BUILD_NUMBER"
+#
+# # push to repo and prevents any sensitive data from printing on the console.
+# git push --force origin ${DEPLOY_BRANCH}
+#
+# echo "Successfully deployed from SOURCE_BRANCH $SOURCE_BRANCH to DEPLOY_BRANCH $DEPLOY_BRANCH"
