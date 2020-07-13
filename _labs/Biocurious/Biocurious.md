@@ -15,7 +15,7 @@ logo: http://biocurious.org/wordpress/wp-content/uploads/2014/11/logo1.png
 website: http://biocurious.org/
 start-date: 2010
 type-org: non-profit
-address: 3060 Coronado Dr. 
+address: 3108 Patrick Henery Dr. 
 directions:
 postcode: 95054
 city: Santa Clara CA
@@ -36,7 +36,7 @@ We are a complete working laboratory and technical library for entrepreneurs to 
 We’re building a community biology lab for amateurs, inventors, entrepreneurs, and anyone who wants to experiment with friends.
 
 ## Equipment and Facilities
-We are a fully stocked BSL1 lab with resources similar to a college laboratory. We have about 2500sq/ft of dedicated lab space and 2600sq/ft of office and shared space. We onsite access to an Illumina Miseq, HPLC as well PCR machines, pipettes, an autoclave and much more. We have a dedicated tissue culture lab and microscope room.  
+We are a fully stocked BSL1 lab with resources similar to a college laboratory. We have about 4000sq/ft of dedicated lab space and 3100sq/ft of office and shared space. We onsite access to an Illumina Miseq, HPLC as well PCR machines, pipettes, an autoclave and much more. We have a dedicated tissue culture lab and microscopes.  
 ![BioCurious](https://secure.meetupstatic.com/photos/event/1/b/e/5/600_469747141.jpeg "Current View inside BioCurious")
 
 ![BioCurious](https://secure.meetupstatic.com/photos/event/1/c/e/d/600_469747405.jpeg "Current View inside BioCurious")
