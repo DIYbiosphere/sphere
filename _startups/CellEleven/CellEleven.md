@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Cell Eleven
 subtitle:     Cell Eleven's goal is to make biotech more accessible, by making tools follow five basic principles; open hardware/software, standard parts, modular, and standard IO protocol.
 start-date: 2016
