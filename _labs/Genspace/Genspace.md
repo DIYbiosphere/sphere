@@ -20,17 +20,14 @@ _geoloc:
   lng: -74.003143
 email: info@genspace.org
 blog: http://www.genspace.org/blog/
-rss: http://www.genspace.org/blog/feed/
 twitter: https://twitter.com/genspacenyc
 facebook: https://www.facebook.com/Genspace-174637505918889/
-meetup: https://www.meetup.com/Brooklyn-Biohackers/
 ---
 
-Genspace is a nonprofit organization dedicated to promoting citizen science and access to biotechnology in the greater New York Area
+Genspace is the world’s first community biology lab — a place where people of all backgrounds can learn, create, and grow with the life sciences. 
 
 # About
-Stemming from the hacking, biohacking, and DIYbio movements, Genspace has focused on supporting citizen science and public access to biotechnology. The community lab organizes cultural events, provides educational outreach with hands-on courses to the public and extracurricular experiences for students, and encourages scientific entrepreneurship and innovation at a grassroots level. Genspace supports projects and general community resources concerning the ares of biology, biotechnology, synthetic biology, engineering, citizen science, open source software and hardare.
-
+Since 2009, we have served the greater New York area by providing hands-on STEAM education programs for youth and adults, cultural and outreach events for the public, and a membership program to support New York’s community of creatives, researchers, and entrepreneurs. Our programs demystify scientific processes, provide a platform for innovation, and cultivate the next generation of life sciences leaders in emerging global technologies, such as biotechnology, neuroscience, epidemiology, genomics, and many more. 
 
 # History
 The Biosafety Level 1 laboratory opened in December 2010. Co-founded by  Ellen Jorgensen, Nurit Bar-Shai, Oliver Medvedik, and Daniel Grushkin.
