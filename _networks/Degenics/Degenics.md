@@ -3,10 +3,15 @@ title: Degenics.com
 subtitle: An anonymous, decentralized marketplace for personal genetic testing -- built on the Polkadot blockchain.
 website: http://degenics.com
 start-date: 2020-12-26
-type-org: Blocksphere.id, Kilt.io, Swiss German University
+type-org: network
+country: International
+partners:
+- [Blocksphere](http://blocksphere.id)
+- [Kilt.io](http://kilt.io)
+- Blockzero
 address: N/A (we are decentralized, covering many geographies)
-twitter: @degenics
-facebook: degenics
+twitter: @debio_network
+facebook: DeBio
 tags:
   - blockchain
   - bioinformatics
