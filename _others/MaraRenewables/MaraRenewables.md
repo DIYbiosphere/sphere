@@ -11,10 +11,10 @@ directions:
 postcode:
 city: Dartmouth
 state: Nova Scotia
-country: XXX
+country: Canada
 _geoloc:
-  lat:
-  lng:
+  lat: 44.662201427517424
+  lng: -63.54436024106847
 tags:
   - company
   - algae
