@@ -1,16 +1,12 @@
 ---
 draft: true
-title: DIYbio Toronto #Avocado Lab
+title: DIYbio Toronto
 subtitle: Toronto's Bio-Enthusiast group. Everyone's welcome!
 start-date: 2013
 hosts:
   - DIYbiosphere # Exact `title: `of DIYbiosphere
 partners:
-<<<<<<< Updated upstream
-  - "[Hacklab TO(https://hacklab.to/)]"
-=======
   - "[[Hacklab TO](https://hacklab.to/)]"
->>>>>>> Stashed changes
 type-org: Lab #community
 address: 1677 St Clair Ave W
 directions: 'Storefront location on the south side of St. Clair Ave W. just west of Laughton Ave. If there is an open house, or a public event, open the front door and come on in!'
@@ -33,7 +29,7 @@ flickr: https://www.flickr.com/photos/133973041@N05/
 
 links:
   - URL: https://www.meetup.com/DIYbio-Toronto/
-    tooltip: #Basecamp
+    tooltip: Homepage
 ---
 
 Do-it-yourself biological innovation! We're inspired by the California group "biocurious", like them, we believe in the power of open source, open access, and learning with the community. We are a community of bio-enthusiasts in the Toronto area who are fascinated by the miniature world of molecular biology.
