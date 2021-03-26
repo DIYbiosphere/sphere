@@ -28,6 +28,8 @@ email: info@bugssonline.org
 twitter: https://twitter.com/bugsslab
 meetup: http://www.meetup.com/BUGSS-Baltimore-Meetup/
 Facebook: https://www.facebook.com/BUGSS-Baltimore-Under-Ground-Science-Space-275707269195705/
+youtube: https://www.youtube.com/channel/UCr4bqCH50xDCnrWBCUbobBQ
+instagram: https://www.instagram.com/bugsslab/
 links:
 - URL: https://bugssonline.org/
   tooltip: homepage
