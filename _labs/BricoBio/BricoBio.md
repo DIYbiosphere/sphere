@@ -15,8 +15,8 @@ city: Montreal
 state: Québec
 country: Canada
 _geoloc:
-  lat:  45.4758835454145
-  lng: -73.58148150569998
+  lat:  45.47588
+  lng: -73.58148
 tags:
   - community lab
   - bioart
