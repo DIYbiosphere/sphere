@@ -26,6 +26,7 @@ linkedin: https://www.linkedin.com/company/chitownbio
 facebook: https://www.facebook.com/ChiTownBio/
 links:
   - URL: www.chitownbio.org
+  tooltip: Homepage
 ---
 
 ChiTownBio is dedicated to putting the knowledge, skills, and tools of biotechnology into the hands of all Chicagoans who want to explore the living world and use it to benefit our community.
