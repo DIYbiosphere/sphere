@@ -8,12 +8,15 @@ hosts:
 partners:
   - "[Hacklab TO(https://hacklab.to/)]"
 type-org: Lab #community
-address: 1677 St Clair Ave W, M6N 1H9 #Verde Canario Street, 4
-directions: Storefront location on the south side of St. Clair Ave W. just west of Laughton Ave. If there is an open house, or a public event, open the front door and come on in! #second floor, red door
-city: Toronto #Morelia
-state: Ontario #Michoacan
-country: Canada #Mexico
-Code: M6N 1H9
+address: 1677 St Clair Ave W
+directions: 'Storefront location on the south side of St. Clair Ave W. just west of Laughton Ave. If there is an open house, or a public event, open the front door and come on in!'
+postcode: M6N 1H9
+city: Toronto
+state: Ontario
+country: Canada
+_geoloc:
+  lat: 43.674502376146584
+  lng: -79.45831038084211
 ---
 
 tags:
