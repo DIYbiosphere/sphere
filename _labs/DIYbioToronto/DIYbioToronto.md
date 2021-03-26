@@ -19,9 +19,7 @@ city: Toronto #Morelia
 state: Ontario #Michoacan
 country: Canada #Mexico
 tags:
-  - #food lab
-  - #citizen science
-  - #fruits
+  - hackerspace
 website: https://www.meetup.com/DIYbio-Toronto/
 email: diybiotoronto@gmail.com
 twitter: https://twitter.com/diybioto #//tutorials/AvocadoLab/
