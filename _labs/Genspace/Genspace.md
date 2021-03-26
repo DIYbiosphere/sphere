@@ -9,15 +9,15 @@ promotions:
       City area to teach advanced biology in an easy-to-understand, hands-on way.
     URL: https://www.genspace.org/classes/
 type-org: non-profit
-address: 140 32nd Street
-directions: Suite 108
+address: 132 32nd Street,
+directions: Room #108 (Genspace)
 postcode: 11232
 city: Brooklyn
-state: New York
-country: United States
+state: NY
+country: USA
 _geoloc:
-  lat: 40.660715
-  lng: -74.003143
+  lat: 40.65680242682422
+  lng: -74.00264940843763
 email: info@genspace.org
 blog: http://www.genspace.org/blog/
 rss: http://www.genspace.org/blog/feed/
