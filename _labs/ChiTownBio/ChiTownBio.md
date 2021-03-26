@@ -9,9 +9,7 @@ type-org: Lab
 city: Chicago
 state: Illinois
 country: USA
-_geoloc:
-  lat: 41.878114
-  lng: -87.629798
+
 tags:
   - citizen science
   - DIYBio
