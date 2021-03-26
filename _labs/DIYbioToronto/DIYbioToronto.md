@@ -6,7 +6,7 @@ start-date: 2013
 hosts:
   - DIYbiosphere # Exact `title: `of DIYbiosphere
 partners:
-  - "[[Hacklab TO](https://hacklab.to/)]"
+  - "[Hacklab TO(https://hacklab.to/)]"
 type-org: Lab #community
 address: 1677 St Clair Ave W, M6N 1H9 #Verde Canario Street, 4
 directions: Storefront location on the south side of St. Clair Ave W. just west of Laughton Ave. If there is an open house, or a public event, open the front door and come on in! #second floor, red door
