@@ -14,7 +14,9 @@ postcode: H4C 2B9
 city: Montreal
 state: Québec
 country: Canada
-
+_geoloc:
+  lat:  45.47588
+  lng: -73.58148
 tags:
   - community lab
   - bioart
