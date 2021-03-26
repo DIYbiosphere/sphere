@@ -1,5 +1,4 @@
 ---
-draft: true
 title: DIYbio Toronto #Avocado Lab
 subtitle: Toronto's Bio-Enthusiast group. Everyone's welcome!
 predecessor: #Avocado fans # the previous name of the entry
@@ -36,7 +35,4 @@ links:
     URL: http://www.thekitchn.com/recipe-guacamole-8649
     color: '#43BB7A'   -->
 ---
-
-#The Avocado lab is a fictitious lab created for educational purposes.
-
 Do-it-yourself biological innovation! We're inspired by the California group "biocurious", like them, we believe in the power of open source, open access, and learning with the community. We are a community of bio-enthusiasts in the Toronto area who are fascinated by the miniature world of molecular biology.
