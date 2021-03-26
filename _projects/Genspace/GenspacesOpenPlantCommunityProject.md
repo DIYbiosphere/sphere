@@ -27,14 +27,14 @@ links:
 - URL: https://www.genspace.org/community-projects
   tooltip: homepage
 promotions:
-- button: Join Genspace NYC's Open Plant Project!
-text: Want to learn about gene-editing and plant biology?
-URL: https://forms.gle/h5nuy8CwgQ7Mfy187
-image: 
-- button: Join Genspace NYC's Open Plant Project!
-text: Want to learn about gene-editing and plant biology?
-URL: https://forms.gle/h5nuy8CwgQ7Mfy187
-image: 
+  - button: Join Genspace NYC's Open Plant Project!
+    text: Want to learn about gene-editing and plant biology?
+    URL: https://forms.gle/h5nuy8CwgQ7Mfy187
+    image: 
+  - button: Join Genspace NYC's Open Plant Project!
+    text: Want to learn about gene-editing and plant biology?
+    URL: https://forms.gle/h5nuy8CwgQ7Mfy187
+    image: 
 ---
 
 ### OPTOGENETICS
