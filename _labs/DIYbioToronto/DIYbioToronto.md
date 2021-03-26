@@ -17,29 +17,14 @@ country: Canada
 _geoloc:
   lat: 43.674502376146584
   lng: -79.45831038084211
----
-
 tags:
-  - #food lab
-  - #citizen science
-  - #fruits
+  - citizen science
 website: https://www.meetup.com/DIYbio-Toronto/
 email: diybiotoronto@gmail.com
-twitter: https://twitter.com/diybioto #//tutorials/AvocadoLab/
+twitter: https://twitter.com/diybioto
 links:
-  - URL: https://www.meetup.com/DIYbio-Toronto/ #/docs/tutorials/AvocadoLab/
+  - URL: https://www.meetup.com/DIYbio-Toronto/
     tooltip: #Basecamp
-<!-- promotions:
-  - button: Go to recipe
-    text: Learn how to make the yummiest avocado toast! And to top it off with a nice poached egg
-    URL: http://gimmedelicious.com/2016/07/10/how-to-make-the-best-avocado-toast-with-eggs/
-    image: /docs/tutorials/AvocadoLab/halves-of-avocado.jpg
-  - button: Yes yummy!
-    text: Make an authentic guacamole to impress friends and foes
-    URL: http://www.thekitchn.com/recipe-guacamole-8649
-    color: '#43BB7A'   -->
-
-
-#The Avocado lab is a fictitious lab created for educational purposes.
+---
 
 Do-it-yourself biological innovation! We're inspired by the California group "biocurious", like them, we believe in the power of open source, open access, and learning with the community. We are a community of bio-enthusiasts in the Toronto area who are fascinated by the miniature world of molecular biology.
