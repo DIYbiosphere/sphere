@@ -17,7 +17,7 @@ tags:
   - DIYBio
   - Hardware
   - Laboratory
-website: www.chitownbio.org
+website: https://www.chitownbio.org
 blog: www.chitownbio.org/blog
 email: chitownbio@gmail.com
 meetup: https://www.meetup.com/ChiTownBio/?_cookie-check=qfES85bPo5htT_N_
@@ -25,7 +25,7 @@ twitter: https://twitter.com/ChiTownBio
 linkedin: https://www.linkedin.com/company/chitownbio
 facebook: https://www.facebook.com/ChiTownBio/
 links:
-  - URL: www.chitownbio.org
+  - URL: https://www.chitownbio.org
     tooltip: Homepage  
 ---
 
