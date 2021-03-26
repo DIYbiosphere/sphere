@@ -2,7 +2,7 @@
 draft: true
 title: ChiTownBio
 subtitle: Chicago's first community biolab
-start-date: 6/3/2017
+start-date: 2017
 hosts:
   - DIYbiosphere
 type-org: Lab
