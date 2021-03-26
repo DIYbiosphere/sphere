@@ -22,6 +22,11 @@ tags:
 website: https://www.meetup.com/DIYbio-Toronto/
 email: diybiotoronto@gmail.com
 twitter: https://twitter.com/diybioto
+meetup: http://www.meetup.com/DIYbio-Toronto/
+facebook: https://www.facebook.com/diybio.to
+youtube: https://www.youtube.com/channel/UCwCqSNdQakcTkkpQWPiWgDg
+flickr: https://www.flickr.com/photos/133973041@N05/
+
 links:
   - URL: https://www.meetup.com/DIYbio-Toronto/
     tooltip: #Basecamp
