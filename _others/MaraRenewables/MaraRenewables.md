@@ -22,6 +22,7 @@ tags:
 website: https://www.maracorp.ca
 email: info@maracorp.ca
 twitter: https://twitter.com/mara_corp
+linkedin: https://www.linkedin.com/company/mara-renewables-corporation/
 links:
 - URL: https://www.maracorp.ca
   tooltip: homepage 
