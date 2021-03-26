@@ -13,8 +13,8 @@ city: Brooklyn
 state: NY
 country: USA
 _geoloc:
-  lat:
-  lng:
+  lat: 40.65680242682422
+  lng: -74.00264940843763
 tags:
   - liverworts
   -  plant biology
