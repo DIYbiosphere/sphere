@@ -2,7 +2,7 @@
 draft: true
 title: BioArtBot
 subtitle: Make BioArt with Robots!
-start-date: 2019/8/15
+start-date: 2019
 hosts:
   - DIYbiosphere
 partners:
