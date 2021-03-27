@@ -56,3 +56,5 @@ Because it's cool! Learning how life works is awesome, and studying (and playing
 *   For general updates, join our [community mailing list](https://groups.google.com/forum/#!forum/bioartbot/join)
 *   If you are a community science lab, library, university, or other non-profit serving a community and want to launch your own BioArtBot, we would love to support you! Send us an email at [ccl.artbot@gmail.com](mailto:ccl.artbot@gmail.com)
 *   BioArtBot is completely open-source. If you want to contribute, the code can be found in our [code repository](https://github.com/cclrobotics/ARTBot)
+
+<img src="https://sphere.diybio.org/projects/BioArtBot/jackOlantern.jpeg" class="ui image fluid small-padded" alt="Jack-o-lantern" />
