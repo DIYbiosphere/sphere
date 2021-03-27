@@ -15,16 +15,20 @@ city: Oakland
 state: CA
 country: USA
 _geoloc:
-  lat:
-  lng:
+  lat: 37.835173
+  lng: -122.264162
 tags:
   - bioart
   -  hardware
   -  software
 website: bioartbot.org
 email: ccl.artbot@gmail.com
+github: https://github.com/cclrobotics/ARTBot
+youtube: https://www.youtube.com/channel/UCRUJB_S3yMINT7hvwFord6Q
+meetup: https://www.meetup.com/Counter-Culture-Labs/
+trello: https://trello.com/b/FKrqcKTU/cll-liquid-handling-robot
 links:
-- URL: bioartbot.org
+- URL: http://www.bioartbot.org/
   tooltip: homepage
 promotions:
   - button: Join us!
