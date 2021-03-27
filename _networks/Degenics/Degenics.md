@@ -1,7 +1,7 @@
 ---
 draft: true
 title: Degenics 
-subtitle: An anonymous, decentralized marketplace for personal genetic testing -- built on the Polkadot blockchain.
+subtitle: An anonymous, decentralized marketplace for personal genetic testing - built on the Polkadot blockchain.
 start-date: 2020
 hosts:
   - DIYbiosphere
@@ -9,6 +9,7 @@ partners:
   - '[Blocksphere](http://blocksphere.id)'
   - '[Kilt.io](http://kilt.io)'
   - Blockzero
+---
 type-org: Network
 address: Equity Tower, Sudirman No.22, RT.5/RW.3, Senayan, Central Business District  
 postcode: 12190
@@ -39,6 +40,7 @@ promotions:
     URL: http://demo.degenics.com
     image: https://drive.google.com/open?id=1ARuJXc7ZC_PYeel1dc28IhL3ZrWuclSM
 ---
+
 # Decentralized Genetics
 ### Latest changes to main project always concurred by [CHANGELOG.md](https://github.com/Degenics/degenics-public/blob/main/CHANGELOG.md) via weekly sprint.
 ### This file provides the concept document for the Degenics project. If you found this file somewhere else, organizational repo for the project is at [Degenics](http://github.com/Degenics) and the public-facing website is at [decentralizedgenetics.com](http://decentralizedgenetics.com). Caveat: *The Following Concept Description is licensed via [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/), to Pandu Sastrowardoyo / [Decentricity](http://github.com/Decentricity)*
