@@ -15,8 +15,8 @@ city: Toronto
 state: Ontario
 country: Canada
 _geoloc:
-  lat: 43.674502376146584
-  lng: -79.45831038084211
+  lat: 43.674502
+  lng: -79.458310
 tags:
   - citizen science
 website: https://www.meetup.com/DIYbio-Toronto/

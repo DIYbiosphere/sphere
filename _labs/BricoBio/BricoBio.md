@@ -3,7 +3,7 @@ draft: true
 title: Bricobio
 subtitle: biotech for everyone
 start-date: 2013
-hosts: 
+hosts:
   - '[Helios Makerspace](http://heliosmakerspace.ca/)'
   - DIYbiosphere
 partners:
@@ -15,8 +15,8 @@ city: Montreal
 state: Québec
 country: Canada
 _geoloc:
-  lat:  45.47588
-  lng: -73.58148
+  lat:  45.475880
+  lng: -73.581480
 tags:
   - community lab
   - bioart

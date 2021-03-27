@@ -11,8 +11,8 @@ state: New York
 postcode: 11201
 country: United States
 _geoloc:
-  lat: 40.703997994702135
-  lng: 41.-73.9867151230752
+  lat: 40.703997
+  lng: -73.986715
 twitter:
 facebook: https://www.facebook.com/opentronslabworks/
 tags:
