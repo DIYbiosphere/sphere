@@ -28,10 +28,6 @@ promotions:
     text: Learn how to make multi-colored E. coli
     URL: https://forms.gle/h5nuy8CwgQ7Mfy187
     image:
-  - button: Join Genspace's Optogenetics Community Project!
-    text: Learn how to make multi-colored E. coli
-    URL: https://forms.gle/h5nuy8CwgQ7Mfy187
-    image:
 ---
 
 ### OPTOGENETICS
