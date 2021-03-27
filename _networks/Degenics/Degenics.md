@@ -8,8 +8,7 @@ hosts:
 partners:
   - '[Blocksphere](http://blocksphere.id)'
   - '[Kilt.io](http://kilt.io)'
-  - Blockzero
----
+  - 'Blockzero'
 type-org: Network
 address: Equity Tower, Sudirman No.22, RT.5/RW.3, Senayan, Central Business District  
 postcode: 12190
