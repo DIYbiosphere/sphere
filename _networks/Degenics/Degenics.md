@@ -33,11 +33,6 @@ twitter: https://twitter.com/DeBio_Network
 links:
 - URL: http://degenics.com
   tooltip: homepage
-promotions:
-  - button: Try the Degenics demo!
-    text: Try out the demonstration of Degenics.com, our anonymous genetic testing marketplace!
-    URL: http://demo.degenics.com
-    image: https://drive.google.com/open?id=1ARuJXc7ZC_PYeel1dc28IhL3ZrWuclSM
 ---
 
 # Decentralized Genetics
