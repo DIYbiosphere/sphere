@@ -13,8 +13,8 @@ city: Brooklyn
 state: NY
 country: USA
 _geoloc:
-  lat: 40.65680242682422
-  lng: -74.00264940843763
+  lat: 40.656802
+  lng: -74.002649
 tags:
   - Optogenetics
   -  microbiology
@@ -22,16 +22,16 @@ tags:
 website: https://www.genspace.org/community-projects
 links:
 - URL: https://www.genspace.org/community-projects
-  tooltip: homepage 
+  tooltip: homepage
 promotions:
   - button: Join Genspace's Optogenetics Community Project!
     text: Learn how to make multi-colored E. coli
     URL: https://forms.gle/h5nuy8CwgQ7Mfy187
-    image: 
+    image:
   - button: Join Genspace's Optogenetics Community Project!
     text: Learn how to make multi-colored E. coli
     URL: https://forms.gle/h5nuy8CwgQ7Mfy187
-    image: 
+    image:
 ---
 
 ### OPTOGENETICS
@@ -41,4 +41,3 @@ Optogenetics is a genetic tool to make cells responsive to light. In some cases 
 **Project Description:**
 
 Group members will start exploring by constructing optogenetic systems that display colors as outputs. Once we learn the system we can harness optogenetics to control gene expression in 2-D using different combinations of red, green, and blue light. Some potential results might be bacterial photographs, patterned biomaterials, and inducible control of useful enzymes like Taq polymerase. The project will provide a fantastic learning experience and an introduction to cutting edge synthetic biology techniques for controlling living systems.
-

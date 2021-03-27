@@ -16,8 +16,8 @@ city: Brooklyn
 state: NY
 country: USA
 _geoloc:
-  lat: 40.65680242682422
-  lng: -74.00264940843763
+  lat: 40.656802
+  lng: -74.002649
 email: info@genspace.org
 blog: http://www.genspace.org/blog/
 rss: http://www.genspace.org/blog/feed/
@@ -35,9 +35,9 @@ Since 2009, we have served the greater New York area by providing hands-on STEAM
 
 
 # History
-We got our start in 2009, when a small collective of biology hobbyists, entrepreneurs, artists, and scientists gathered in a North Brooklyn living room. The group reflected on their shared interest in the emerging field of biotechnology, and dreamt up visions of what a more accessible, democratized biotechnology could look and feel like. 
+We got our start in 2009, when a small collective of biology hobbyists, entrepreneurs, artists, and scientists gathered in a North Brooklyn living room. The group reflected on their shared interest in the emerging field of biotechnology, and dreamt up visions of what a more accessible, democratized biotechnology could look and feel like.
 
-A year after that initial meeting, our community lab opened its doors to the public in Downtown Brooklyn. We invited community scientists, artists, engineers, designers, hackers, and quite frankly, anyone else who was interested, to deeply immerse themselves in the life sciences. Using hands-on exploration and experimentation as their guide, our early participants started million-dollar companies, created groundbreaking artwork, and competed in international contests. 
+A year after that initial meeting, our community lab opened its doors to the public in Downtown Brooklyn. We invited community scientists, artists, engineers, designers, hackers, and quite frankly, anyone else who was interested, to deeply immerse themselves in the life sciences. Using hands-on exploration and experimentation as their guide, our early participants started million-dollar companies, created groundbreaking artwork, and competed in international contests.
 
 
 
