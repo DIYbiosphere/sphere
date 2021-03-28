@@ -1,6 +1,7 @@
 ---
 title: Genspace
 subtitle: New York's Community Lab
+status: active
 website: http://genspace.org/
 since: 2009
 promotions:
