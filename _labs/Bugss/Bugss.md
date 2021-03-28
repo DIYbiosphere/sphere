@@ -43,5 +43,4 @@ promotions:
 BUGSS is a non-profit public laboratory offering classes, seminars, and lab access so that anyone can safely and affordably investigate the living world. We are a community of amateurs, professionals, citizen
 scientists, activists, and artists exploring biotechnology through scientific and artistic investigations. We hope to serve as a space for open dialogue, and “learning through doing” as Synthetic Biology and new biological technologies become more relevant to our everyday lives. As with any new technology, there are big hopes and big fears, and public debate is often heated and uninformed. By democratizing these technologies we hope to facilitate more nuanced dialogue and exploration of the incredible potential, as well as limitations and ethical issues.
 
-
-<img src="https://sphere.diybio.org/labs/buggs/header.jpg" class="ui image fluid small-padded" alt="BUGGS" />
+<img src="https://sphere.diybio.org/labs/bugss/header.png" class="ui image fluid small-padded" alt="BUGGS" />
