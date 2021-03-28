@@ -32,8 +32,7 @@ Genspace is a community biology laboratory in South Brooklyn, New York. Our miss
 # About
 Genspace is the world’s first community lab — a place where people of all backgrounds can learn, work, and explore the life sciences. As life sciences become the next innovation frontier, our goal is to ensure that all persons — whether they are 12 years old or 120 — can understand and participate in this emerging bioeconomy.  
 
-Since 2009, we have served the greater New York area by providing hands-on STEAM education programs for youth and adults, cultural and outreach events for the public, and a membership program to support New York’s community of creatives, researchers, and entrepreneurs. Our programs demystify scientific processes, provide a platform for innovation, and cultivate the next generation of life sciences leaders in  emerging global technologies
-
+Since 2009, we have served the greater New York area by providing hands-on STEAM education programs for youth and adults, cultural and outreach events for the public, and a membership program to support New York’s community of creatives, researchers, and entrepreneurs. Our programs demystify scientific processes, provide a platform for innovation, and cultivate the next generation of life sciences leaders in emerging global technologies, such as biotechnology, neuroscience, epidemiology, genomics, and many more.
 
 # History
 We got our start in 2009, when a small collective of biology hobbyists, entrepreneurs, artists, and scientists gathered in a North Brooklyn living room. The group reflected on their shared interest in the emerging field of biotechnology, and dreamt up visions of what a more accessible, democratized biotechnology could look and feel like.
