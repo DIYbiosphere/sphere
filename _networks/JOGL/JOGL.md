@@ -16,8 +16,6 @@ country: France
 _geoloc:
   lat: 48.85308615721828
   lng: 2.3630144068497785
-tags:
-  - demo
 website: https://jogl.io/
 email: hello@jogl.io
 twitter: https://twitter.com/justonegiantlab
