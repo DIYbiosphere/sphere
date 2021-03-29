@@ -21,11 +21,11 @@ tags:
 website: https://jogl.io/
 email: hello@jogl.io
 twitter: https://twitter.com/justonegiantlab
-GitLab: https://gitlab.com/JOGL/JOGL
-Medium: https://medium.com/justonegiantlab/latest
-LinkedIn: https://www.linkedin.com/company/jogl/about/
-Instagram: https://www.instagram.com/justonegiantlab/
-Facebook: https://www.facebook.com/justonegiantlab/
+gitlab: https://gitlab.com/JOGL/JOGL
+medium: https://medium.com/justonegiantlab/latest
+linkedin: https://www.linkedin.com/company/jogl/about/
+instagram: https://www.instagram.com/justonegiantlab/
+facebook: https://www.facebook.com/justonegiantlab/
 links:
 - URL: https://jogl.io/
   tooltip: homepage
