@@ -1,6 +1,6 @@
 ---
 draft: true
-title: Just One Giant Lab
+title: Just One Giant Lab (JOGL.io)
 subtitle:
 start-date: 2018
 hosts:
