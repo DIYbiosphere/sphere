@@ -7,7 +7,7 @@ hosts:
   - DIYbiosphere
 partners:
   -
-type-org:
+type-org: Research and development
 address: 160 S. Cypress St.
 directions: Suite 400
 postcode: 92866
