@@ -11,8 +11,8 @@ city:
 state:
 country:
 _geoloc:
-  lat:
-  lng:
+  lat: 50.84995928917439
+  lng: 4.35341094894271
 tags:
   - News
 website: https://www.atgstart.be
