@@ -5,7 +5,7 @@ hosts:
   - DIYbiosphere
 type-org: news
 address:
-directions: 
+directions:
 postcode:
 city:
 state:
@@ -14,7 +14,7 @@ _geoloc:
   lat:
   lng:
 tags:
-  - demo
+  - News
 website: https://www.atgstart.be
 email: atgstart@gmail.com
 instagram: https://www.instagram.com/atg_start/
