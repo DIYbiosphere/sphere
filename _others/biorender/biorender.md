@@ -1,7 +1,7 @@
 ---
 draft: true
 title: Biorender
-subtitle:
+subtitle: Create Professional Science Figures in Minutes
 status: active
 start-date: 2021
 hosts:
@@ -10,7 +10,7 @@ type-org:
 address: 639 Queen Street West
 postcode: M5V 2B7
 city: Toronto
-state ON
+state: Ontario
 country: Candada
 _geoloc:
   lat: 43.64729252657655
