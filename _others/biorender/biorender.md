@@ -31,7 +31,6 @@ links:
 
 Create Professional Science Figures in Minutes.
 
-<img src="https://sphere.diybio.org/other/biorender/biorender.jpg" class="ui image fluid small-padded" alt="BioRender" />
-
+<img src="https://sphere.diybio.org/others/biorender/BioRender.jpg" class="ui image fluid small-padded" alt="BioRender" />
 
 *Taken from website
