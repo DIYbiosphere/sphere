@@ -1,7 +1,7 @@
 ---
 draft: true
 title: Twist Bioscience
-subtitle: DNA Productions
+subtitle: DNA Production
 status: active
 start-date: 2021
 hosts:
