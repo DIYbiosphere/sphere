@@ -20,7 +20,6 @@ tags:
   - DNA
 website: https://www.twistbioscience.com
 blog:
-email:
 facebook: https://www.facebook.com/TwistBioscience/
 twitter: https://twitter.com/TwistBioscience
 linkedin: https://www.linkedin.com/company/twist-bioscience/
