@@ -10,7 +10,7 @@ city: Cambridge
 state: Massachusetts
 country: United States
 _geoloc:
-  lat: 42.39733346620883, 
+  lat: 42.39733346620883 
   lng: -71.13055394980887
 email: homosapiens@boslab.org
 rss: http://www.boslab.org/#!blog/c177y
