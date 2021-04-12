@@ -2,22 +2,18 @@
 title: Biohack The Planet
 subtitle: create something beautiful
 website: http://biohacktheplanet.com/
-hosts: Counter Culture Labs
 start-date: 2016
 type-org: company
-address: 4799 Shattuck Avenue
+address: 335 Henry St
 city: Oakland
 state: California
-postcode: 94609
+postcode: 94607
 country: United States
-twitter:
-facebook:
 tags:
   - conference
-  -
 _geoloc:
-  lat: 37.835258
-  lng: -122.264173
+  lat: 37.80409945232126 
+  lng: -122.29791462118861
 ---
 
 # About
