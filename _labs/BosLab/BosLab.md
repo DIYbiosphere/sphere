@@ -3,15 +3,15 @@ title: BosLab
 website: http://boslab.org/
 start-date: 2014
 type-org: non-profit
-address: 339 Summer Street
+address: 10 Harvey Street
 directions: 2nd floor
-postcode: 2nd floor
-city: Somerville
+postcode: Cambridge
+city: Cambridge
 state: Massachusetts
 country: United States
 _geoloc:
-  lat: 42.393960
-  lng: -71.118517
+  lat: 42.39733346620883, 
+  lng: -71.13055394980887
 email: homosapiens@boslab.org
 rss: http://www.boslab.org/#!blog/c177y
 twitter: https://twitter.com/BosOpenSci_Lab
