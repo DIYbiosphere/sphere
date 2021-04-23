@@ -15,6 +15,7 @@ tags:
   - Biohackerspace
   - citizen science
   - bioprivacy
+  - biononymous
   - Ecology
 website: https://kaouenn-noz.fr/
 wiki : https://wiki.kaouenn-noz.fr/
