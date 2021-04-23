@@ -6,8 +6,6 @@ predecessor: Biome HackLab # the previous name of the entry
 start-date: 2014-09-01 20:00
 hosts:
   - Self Hosting
-partners:
-  - '[Tree Labs](http://treelabs.com)' # link to external website in markdown link wrapped in ''
 address: 1 Square Léon Bourgeois
 directions: The Garage
 city: Rennes
