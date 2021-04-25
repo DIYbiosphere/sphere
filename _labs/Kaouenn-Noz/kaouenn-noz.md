@@ -11,6 +11,9 @@ directions: The Garage
 city: Rennes
 state: Brittany
 country: France
+_geoloc:
+  lat: 48.100041785051786
+  lng: 49.-1.6526890060400485
 tags:
   - Biohackerspace
   - citizen science
