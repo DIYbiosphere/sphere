@@ -34,7 +34,10 @@ In the "Anthropocene, Capitalocene, Plantationocene, Chthulucene" we move forwar
 
 We contribute to the histories of biology, the one that is participatory, open, free, in the commons, amateur. We feed on forgotten histories in order not to reproduce the evils of the past. 
 
+
 We use what is free, we liberate what is closed. We assemble free and open, we produce free and open objects, we document what we do and what we question. We do not take ourselves seriously. We are childrens of popular culture and from the failures of counterculture
+
+<img src="https://sphere.diybio.org/labs/Kaouenn-Noz/logo_kaouenn-noz_blanc.jpeg" class="ui image fluid small-padded" alt="Kaouenn-Noz" />
 
 ----
 * Text taken from wiki
