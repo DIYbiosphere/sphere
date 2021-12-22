@@ -6,7 +6,7 @@ start-date: 2021
 hosts:
   - FabLab Lisboa + FCUL
 type-org: Community Lab
-address: Rua Maria da Fonte, Mercado Forno do Tijolo, FabLab Lisboa, BioLab Lisboa, Pavilhão B, , Portugal
+address: Mercado Do Forno do Tijolo, R. Maria da Fonte
 directions:
 postcode: 1170-221
 city: Lisboa
