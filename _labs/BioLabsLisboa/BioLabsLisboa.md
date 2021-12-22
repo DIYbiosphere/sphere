@@ -31,9 +31,6 @@ instagram: https://www.instagram.com/biolablisboa
 Linkedin: https://www.linkedin.com/company/biolablisboa
 Github: https://gitlab.com/biolab-biohacking/magnetic-stirrer/biolab-magneticstirrer-electronics
 
-links:
-- URL:
-  tooltip: homepage
 ---
 
 We are just starting - for now just community diy biomachines making last summer and now starting with bioplastics workshops, next i will be bio-inks with bacteria and after a 5 days long biohaking workshop.
