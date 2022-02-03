@@ -21,7 +21,6 @@ _geoloc:
   lng: -74.002649
 email: info@genspace.org
 blog: http://www.genspace.org/blog/
-rss: http://www.genspace.org/blog/feed/
 twitter: https://twitter.com/genspacenyc
 facebook: https://www.facebook.com/Genspace-174637505918889/
 
