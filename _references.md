@@ -2,7 +2,9 @@
 [Avocado Lab]: /docs/tutorials/AvocadoLab/
 [DIYbiosphere]: /projects/diybiosphere/
 [DIYbio.org]: /networks/diybio.org/
-
+[Genspace]: /labs/genspace/
+[Biotech Without Borders]: /labs/biotechwithoutborders/
+[BwoB]: /labs/biotechwithoutborders/
 
 [slack]: https://diybiosphere.slack.com/ "DIYbiosphere Slack"
 [gitter]: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link "DIYbiosphere Gitter chat room"
