@@ -6,7 +6,7 @@ start-date: 2017
 
 hosts: '[ArtEngine](http://www.artengine.ca/)'
 type-org: community
-address:
+address: Avenue
 city: Ottawa
 postcode: ON K1N 7B9
 country: Canada
@@ -28,4 +28,4 @@ The National Capital Region is home to four Universities, two Colleges, two Prov
 This group became inactive in 2018. Many of its active members transferred to Ottawa Bio Science Group.
 
 ---
-* Text taken from main website and updated to reflect current status
+* Text taken from main website and updated to reflect current status.
