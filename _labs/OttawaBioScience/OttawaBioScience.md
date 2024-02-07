@@ -18,7 +18,7 @@ _geoloc:
 tags:
 ---
 
-Ottawa Bio Science is a vibrant community of DIY biology users and equipment makers aiming to contribute to significant  world research and greater community education.
-Ottawa Bio Science has regular weekly meetings at the Imagine Space.
-Ottawa Bio Science hosted many workshops and seminars on fundamental molecular Biology topics.
+Ottawa Bio Science is a vibrant community of DIY biology users and OS device designers aiming to contribute to research and  community education.
+Ottawa Bio Science has regular meetings at the Imagine Space.
+Ottawa Bio Science hosts workshops and seminars on fundamental molecular biology topics.
 Ottawa is the capital of Canada with about one million people in population, several universities and a significant number of research institutes.
