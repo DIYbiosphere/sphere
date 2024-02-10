@@ -2,20 +2,28 @@
 title: BioClub Tokyo Community Bio Lab
 subtitle: The community bio lab in Tokyo
 website: https://www.bioclub.tokyo
-start-date: 2017-10
+start-date: 2015
 type-org: non-profit
-address: #182 Melrose Ave. #3
-city: South Elgin
-state: Illinois
-country: USA
+address: Shibuya Scramble Crossing
+city: Tokyo
+state: 
+country: Japan
 twitter: 
-facebook: https://www.facebook.com/BioBlazeLab
-meetup: https://www.meetup.com/BioBlaze-Community-Bio-Lab/
+facebook:
+meetup: 
 tags:
   - #biohacking_space
   - #DIYbio
+  - #community bio
 
 ---
 
 # About
-BioBlaze provides STEM K-12 outreach, biotech workshops for adults, ongoing global and local community projects, and a space for grassroots innovation in science for people to work on their own projects. At BioBlaze, we strive to democratize science by providing a coworking lab space and shared equipment to promote open-source collaboration among people with diverse knowledge and backgrounds.
+Open BioLab (no bench fee, only storage fee)
+ca. 30 active lab members, 250 in the wider community
+Weekly Tuesday Meetings & Lectures (JP/EN)
+SynBio Education Programmes (How to Grow, BioArt & BioDesign)
+Kids Workshops
+Open Science Hardware
+Co-located with FabCafe Tokyo
+Member Background: 25% Science, 35% Art/Design, 25% Maker/Programmer, 10% Fermentation
