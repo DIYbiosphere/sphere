@@ -60,11 +60,7 @@ promotions:
   - text: Hands-on microbiology course series—private certification and lab work.
     button: Learn More
     URL: https://biohackuio.com/services
-    image: /img/promos/microbiology-course.jpg
-  - text: Join our community—hack science, build biotech projects, make impact.
-    button: Join Now
-    URL: https://biohackuio.com/contacto-biohack/
-    color: '#43BB7A'
+    image: https://biohackuio.com/wp-content/uploads/2024/09/3.png
 ---
 
 **BioHack UIO** is the **first community biotechnology lab in Ecuador**, founded in 2020 by engineers Camila Velandia and Andrés Jarrín. As a pioneer initiative in Latin America, it promotes open access to science by providing hands-on education, lab access, and technical mentorship to students, entrepreneurs, and citizen scientists.
