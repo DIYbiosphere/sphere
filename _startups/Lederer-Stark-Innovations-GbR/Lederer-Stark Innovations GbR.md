@@ -9,11 +9,6 @@ type-org: company
 city: Allmersbach im Tal
 country: Germany
 email: support@ls-innovations.de
-promotions:
-  - button: Visit our Shop!
-    text: Check out our newest Supplies! 
-    URL: http://www.ls-innovations.de/shop/
-    color: '#FFFACD'
 tags:
   - supplies
   - citizen science
