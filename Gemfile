@@ -8,6 +8,7 @@ gem 'jekyll-toc'
 gem 'json'
 gem 'rouge'
 gem 'jekyll-octicons'
+gem "ffi", "< 1.17.0"  # to fix broken depedancies as per https://github.com/ffi/ffi/issues/1103
 
 group :jekyll_plugins do
   gem 'jekyll-mentions'
