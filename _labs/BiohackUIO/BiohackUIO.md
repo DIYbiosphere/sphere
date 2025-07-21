@@ -12,8 +12,6 @@ end-date:
 status:
 
 # RELATIONSHIPS
-hosts:
-  - 
 partners:
   - "Techstars by WeXchange"
   - "Genspace"
