@@ -7,15 +7,6 @@ type-org: Company/Startup
 address: 625 Massachusetts Avenue, 
 city: Boston
 country: United States
-promotions:
-  - button: Kickstart Us!
-    text: Help us kickstart the Feles One for Bio-Imagineering! 
-    URL: https://www.kickstarter.com/projects/feles/feles-one-for-bio-imagineering?ref=ar5i3v
-    color: '#FFFACD'
-    end-date: 2019-06-06
-    image: /startups/feles/FelesOne_sq.jpg
-    primary-color: black
-    accent-color: black
 tags:
   - Hardware
   - Biotechnology
