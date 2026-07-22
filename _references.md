@@ -33,7 +33,6 @@
 [design]: /docs/basics/design
 [contributing guide]: /docs/guides/contributing
 [join]: /about/community/#how-to-join
-[workflow]: /docs/guides/workflow
 [writing guide]: /docs/guides/writing
 [github eli5]: /docs/guides/github-eli5
 [add]: /docs/tutorials/add-entry "How to add an entry"
