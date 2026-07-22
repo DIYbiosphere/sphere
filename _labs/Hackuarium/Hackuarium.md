@@ -6,7 +6,7 @@ website: http://www.hackuarium.ch/en/
 promotions:
   - button: Join our Open Meetups
     text: 'Come visit on _OpenHackuarium_ night every Wednesday, from 7:30-10:30 '
-    URL: http://wiki.hackuarium.ch/w/Main_Page
+    URL: https://www.hackuarium.ch/
 start-date: 2014
 hosts: '[UniverCite](http://univercity.ch/)'
 address: Chemin du Closel 5
