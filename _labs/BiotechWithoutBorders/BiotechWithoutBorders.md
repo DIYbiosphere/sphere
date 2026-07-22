@@ -3,7 +3,6 @@ title: Biotech Without Borders
 status: active
 subtitle: NYC's Member-led Community Biolab
 website: https://biotechwithoutborders.org
-header: https://biotechwithoutborders.org/wp-content/uploads/2022/05/7bcb702c-8374-4495-92ba-d40d86ba38b1.jpg
 start-date: 2017
 type-org: non-profit
 address: 43-01 21ST Street, Suite 319
