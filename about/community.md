@@ -14,9 +14,9 @@ As an open source project, anyone can freely contribute to DIYbiosphere! Only a 
 - **Managers:** are all users who are in charge of one or many entries
 
 ## How to join
-Join the organization and benefit from direct _writing_ permissions to the files without _forking_ or _pull requests_. It makes editing files real easy and quick.
+Everyone contributes the same way: [add] or [edit] entries in your own fork and submit a pull request. A maintainer reviews it, and merges once it's ready.
 
-- Create a [new issue] with the title "Membership request". You can optionally add information about yourself in the description and if you would like to join a specific team.
+If you're interested in a more involved role on one of the teams above, submit a [new issue] and let us know.
 
 ## Partners
 The project is developed in partnership with the [DIYbio.org](https://diybio.org/) network.

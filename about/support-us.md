@@ -14,7 +14,7 @@ Interested in helping our project? There are several ways you can support us!
 - **Resolving our [GitHub Issues]** submit an issue yourself with a suggestion or report a bug. Help by answering, or voting on issues. Tackle issues yourself and commit changes to the repo!
 
 #### Get involved with the development
-- **Become a developer** Become a member of the [development community]. [Request membership][join] and enjoy greater permission levels.
+- **Become a developer** Contribute code, design, or documentation - see the [development community] page to learn how to get involved.
 - **Join the conversation** Submit an [issue][new issue] - that's where the majority of project conversations happen.
 
 #### Provide some funding for the project

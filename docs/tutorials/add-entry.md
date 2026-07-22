@@ -3,12 +3,12 @@ layout: docs
 title: Adding Entries
 ---
 
-All you need is a GitHub account ([sign up]), but you might consider [joining][join] the development community for direct editing without _pull requests_.
+All you need is a GitHub account ([sign up]).
 
 Good reference materials are the [Writing Guide] and the example entry of the [Avocado Lab] webpage which is rendered from [this file](https://raw.githubusercontent.com/DIYbiosphere/sphere/master/docs/tutorials/AvocadoLab/AvocadoLab.md).
 
 1. **Open Collection Folder:** inside the [sphere repository] (first determine in which [collection][collections] your initiative belongs to)
-2. **Select Create New File:** If you are not a member, Github will let you know you don't have 'write' access to the project. A new file will be saved under _your copy of the project_ ('fork') and can later be merged with a 'pull request'.
+2. **Select Create New File:** GitHub will let you know you don't have 'write' access to the project — that's expected, everyone contributes this way. A new file will be saved under _your copy of the project_ ('fork') and can later be merged with a 'pull request'.
 3. **Name your new file**: Add a folder first, preferably with the same name of your initiative using `CamelCase` and specify the format at the end as `.md`, e.g. 'AvocadoLab/AvocadoLab.md' (the name of the file will be the URL of the entry, so don't use a long name!)
 
 ![](/docs/tutorials/name.gif){:.ui.huge.bordered.centered.image}
@@ -22,7 +22,7 @@ Good reference materials are the [Writing Guide] and the example entry of the [A
 
 {:start="7"}
 7. **Select Create Pull Request** if you are able to merge. You can add additional comments to your pull request
-8. **Wait for Merge** A member will revise your Pull Request (PR), request additional edits from you, or approve the PR and merge your changes to the master branch. Members can approve their own PR or edit directly into the _master_ branch
+8. **Wait for Review** A maintainer will review your Pull Request (PR), request additional edits from you, or approve and merge it.
 
 ![](/docs/tutorials/edit.gif){:.ui.huge.bordered.centered.image}
 

@@ -8,9 +8,8 @@ toc: true
 The development of the [sphere repository] is organized though GitHub by members of [DIYbiosphere organization], which is organized into different teams
 
 # Organization of Issuess
-Based on the `ISSUE_TEMPLATE` there are at least 6 types of issues:
+Based on the `ISSUE_TEMPLATE` there are at least 5 types of issues:
 
-- **Membership requests**: should be handled by the _board of directors_, since they have _owner_ control over the organization.
 - **Content error**: misspelling, erroneous information in a page should
   - **Broken links**:
 - **Bugs**:

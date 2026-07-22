@@ -50,9 +50,7 @@ See the results in two formats: as a _list_, or a _table_
 
 # Contributing to the project
 ## Writing Entries
-Following the tutorials you can [add] a new entry: whether it's your initiative or someone else's,  or [edit] content: misspellings, outdated or wrong information, help us maintain the project.
-
-[Join] the community to have direct _write_ access (no pull requests needed).
+Following the tutorials you can [add] a new entry: whether it's your initiative or someone else's,  or [edit] content: misspellings, outdated or wrong information, help us maintain the project. Every change goes through a pull request, which a maintainer reviews before merging.
 
 The [Writing Guide] is a good reference material for writing awesome entries.
 
