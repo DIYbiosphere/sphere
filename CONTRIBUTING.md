@@ -7,7 +7,7 @@ toc: true
 
 Thank you for considering contributing to DIYbiosphere! The project depends on the participation of the DIYbio community.
 
-There are many ways you can contribute, from adding and editing entries, writing tutorials, improving the documentation, submitting bug and broken link reports, feature requests or writing code to better the website. You _can_ submit questions as issues, but please consider first posing your question in [Gitter](https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link) or [Slack](https://diybiosphere.slack.com), where you can also directly message other contributors.
+There are many ways you can contribute, from adding and editing entries, writing tutorials, improving the documentation, submitting bug and broken link reports, feature requests or writing code to better the website. You _can_ submit questions as issues, but please consider first posing your question in [Slack](https://diybiosphere.slack.com), where you can also directly message other contributors.
 
 # Ground Rules
 By contributing, you agree to abide to our [Code of Conduct](http://sphere.diybio.org/about/code-of-conduct) (COC) and consent to our [Contributor Terms](http://sphere.diybio.org/about/contributor-terms) (CT) set by our [Terms of Use](http://sphere.diybio.org/about/terms-of-use) (_aka_ Copyright).

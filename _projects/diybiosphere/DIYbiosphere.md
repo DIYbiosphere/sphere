@@ -15,7 +15,6 @@ state: Massachusetts
 country: United States
 twitter: https://twitter.com/DIYbiosphere/
 github: https://github.com/DIYbiosphere/sphere
-gitter: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link
 tags:
   - website
   - database

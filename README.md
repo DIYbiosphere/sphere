@@ -5,7 +5,6 @@ permalink: /docs/introduction/overview/
 ---
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e7b7441f-7979-4eae-ab5e-0ea63bfd376e/deploy-status)](https://app.netlify.com/sites/diybiosphere/deploys)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC0-lightgrey.svg)](http://sphere.diybio.org/terms-of-use/)
-[![Join the chat in Gitter](https://badges.gitter.im/DIYbiosphere/sphere.svg)](https://gitter.im/DIYbiosphere/sphere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 
 # ![](https://sphere.diybio.org/assets/img/sphere-long@1x.png)
@@ -69,7 +68,7 @@ In increasing order of engagement you can contribute to DIYbiosphere by:
   - **Fork, commit, pull request** your contributions! Tackle a [good first issue](https://github.com/DIYbiosphere/sphere/labels/good%20first%20issue) to get you started
 - **GETTING INVOLVED**
   - **Join the development community**. The project is managed by members of the [DIYbiosphere community](https://sphere.diybio.org/about/community). Request membership by [submitting an issue](https://github.com/DIYbiosphere/sphere/issues/new) enjoy more access privileges to the project!
-  - **Join the conversation**. You can freely join the Gitter chatroom at [gitter.im/diybiosphere/sphere](https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link), or in Slack at [diybiosphere.slack.com](https://diybiosphere.slack.com)
+  - **Join the conversation**. You can freely join us in Slack at [diybiosphere.slack.com](https://diybiosphere.slack.com)
 
 ## Copyright
 In short: **the work in DIYbiosphere is freely available to use, modify and distribute.** More specifically:
