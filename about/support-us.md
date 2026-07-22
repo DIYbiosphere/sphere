@@ -18,4 +18,4 @@ Interested in helping our project? There are several ways you can support us!
 - **Join the conversation** Submit an [issue][new issue] - that's where the majority of project conversations happen.
 
 #### Provide some funding for the project
-- **Donate to DIYbio.org through [PayPal](https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=QHyIMzotHrQMm0QnVeiBIRChwwWJ1VwScC1xt-q477yQzO4uFKTPQ-WFyra&dispatch=5885d80a13c0db1f8e263663d3faee8d94717bd303200c3af9aadd01a5f55080)** Make sure to specify "DIYbiosphere" in the _purpose_ comment box.
+- **Donate to [DIYbio.org](https://diybio.org/)**
