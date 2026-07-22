@@ -2,7 +2,6 @@
 title: BiologiGaragen
 tags:
 - hackerspace
-website: http://biologigaragen.org/
 start-date: 2010
 hosts: "[Labitat](https://labitat.dk/)"
 type-org: community
@@ -13,8 +12,6 @@ country: Denmark
 _geoloc:
   lat: 55.676540
   lng: 12.545520
-blog: http://biologigaragen.org/blog/
-rss: http://biologigaragen.org/feed
 twitter: https://twitter.com/biologigaragen
 facebook: https://www.facebook.com/groups/biologigaragen/
 vimeo: https://vimeo.com/biologigaragen

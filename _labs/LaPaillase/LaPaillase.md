@@ -1,6 +1,5 @@
 ---
 title: La Paillase
-website: http://lapaillasse.org/
 start-date: 2011
 type-org: non-profit
 partners:

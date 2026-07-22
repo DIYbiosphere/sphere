@@ -1,6 +1,5 @@
 ---
 title: HiveBio
-website: http://hivebio.org/
 start-date: 2013
 type-org: community
 address: 4000 NE 41st St.

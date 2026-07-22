@@ -1,7 +1,6 @@
 ---
 title: Bio Foundry
 subtitle: Australia's first community lab for citizen scientists
-website: http://foundry.bio/
 start-date: 2014
 type-org: non-profit
 address: 296 Botany Road
@@ -12,7 +11,6 @@ country: Australia
 _geoloc:
   lat: -33.904579
   lng: 151.202014
-rss: http://foundry.bio/feed/
 facebook: https://www.facebook.com/thebiofoundry/
 ---
 
