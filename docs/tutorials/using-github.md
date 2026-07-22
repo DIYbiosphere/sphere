@@ -5,3 +5,5 @@ crumb: tutorials
 ---
 
 ## Submitting an Issue
+
+{% include messages/incomplete.html %}

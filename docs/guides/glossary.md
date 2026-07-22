@@ -40,7 +40,7 @@ toc: true
 
 **Front matter**
 
-**Travis**
+**Netlify**
 
 **Markdown syntax** or **markdown**
 

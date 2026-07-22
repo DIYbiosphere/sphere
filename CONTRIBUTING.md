@@ -35,15 +35,12 @@ If you are submitting an issue or a pull request a template will automatically a
 Members of the DIYbiophere organization have permission to merge all _pull requests_ and directly write into the `master` branch.
 
 ## Merging
-All PRs must pass the _Travis_ check or else merging is not possible (admins can force a merge). Check the [Travis log](https://travis-ci.org/DIYbiosphere/sphere) to check for any errors on the build. Make changes, and commit them to your PR until the check passes. If you are unsure what the problem is, don't hesitate to ask the community for help!
+Every PR gets its own Netlify deploy preview build, so you can see your changes rendered before merging. If the preview build fails, check its log for errors, make changes, and commit them to your PR until it passes. If you are unsure what the problem is, don't hesitate to ask the community for help!
 
 # Push to Website
-The website is rendered from the `gh-pages` branch. Commits to the `master` branch will trigger Travis to:
-1. build the website using jekyll
-2. push entries to the Algolia index (the search API)
-3. push rendered `_site` folder to `gh-pages` branch
+Commits to the `master` branch trigger Netlify to build the website using Jekyll, push entries to the Algolia index (the search API), and deploy the result directly - no separate `gh-pages` branch is involved.
 
-Builds can take up to 10 minutes, so be patient. You won't be able to observe changes in the website until the push to `gh-pages` is successful. Even then, it might take a few minutes to show. :unamused:
+Builds usually take a few minutes, so be patient. You won't be able to observe changes in the website until the build finishes.
 
 # Conventions on Commit Messages
 Good commits speed the reviewing process and facilitate tracking past changes. If you are making many changes that are unrelated, or your commit title has the word "and", split the commits! Please follow these guidelines for your commit messages:

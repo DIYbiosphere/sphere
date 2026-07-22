@@ -30,4 +30,4 @@ Good reference materials are the [Writing Guide] and the example entry of the [A
 
 Thank you for your contribution! :heart:
 
-{% include messages/info.html title="Changes are not immediate" text="Changes to the files trigger a _Travis Build_ which can take up to 10 minutes " %}
+{% include messages/info.html title="Changes are not immediate" text="Changes to the files trigger a new build, which can take a few minutes" %}
