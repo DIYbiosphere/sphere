@@ -50,7 +50,7 @@ type-org: # type is the social/legal organization, e.g.: company, university, mu
 #ACTIVITY
 start-date: #ISO format: 'YYYY-MM-DD hh:mm', 'YYYY-MM-DD', 'YYYY-MM', or 'YYYY'
 end-date: # ISO format: 'YYYY-MM-DD hh:mm', 'YYYY-MM-DD', 'YYYY-MM', or 'YYYY'
-status: # add or let be AUTOMATIC!! 'active' by default, unless `end-date` in the past then 'inactive', or unless `start-date` in future then 'planned'. Useful when it is neither 'active', 'inactive', or 'planned'
+status: # add or let be AUTOMATIC!! Based on start-date/end-date: 'active' if start-date has passed and end-date hasn't, 'inactive' if end-date has passed, 'planned' if start-date is in the future, or 'unknown' if there's no start-date at all. Set manually if you know better than the automatic guess.
 #RELATIONSHIPS. Must either exist in the sphere repository, or have an external link in markdown
 hosts: # Is the space or organization behind the initiative, e.g. a university or a makerspace
   -  # host. Use the exact 'title' of another entry to automatically display as a linked item

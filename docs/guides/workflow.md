@@ -7,7 +7,7 @@ toc: true
 
 The development of the [sphere repository] is organized though GitHub by members of [DIYbiosphere organization], which is organized into different teams
 
-# Organization of Issuess
+# Organization of Issues
 Based on the `ISSUE_TEMPLATE` there are at least 5 types of issues:
 
 - **Content error**: misspelling, erroneous information in a page should

@@ -62,7 +62,7 @@ subtitle: # Short description. 200 characters max!
 predecessor: # the previous name of the entry
 successor: # the initiative that evolved from the initiative
 end-date: # ISO format: 'YYYY-MM-DD hh:mm', 'YYYY-MM-DD', 'YYYY-MM', or 'YYYY'
-status: # AUTOMATIC!! 'active' by default, unless `end-date` in the past then 'inactive', or unless `start-date` in future then 'planned'. Useful when it is neither 'active', 'inactive', or 'planned'
+status: # add or let be AUTOMATIC!! Based on start-date/end-date: 'active' if start-date has passed and end-date hasn't, 'inactive' if end-date has passed, 'planned' if start-date is in the future, or 'unknown' if there's no start-date at all. Set manually if you know better than the automatic guess.
 hosts: # Is the space or organization behind the initiative, e.g. a university or a makerspace
   -  # host. Use the exact 'title' of another entry to automatically display as a linked item
   - # another host
@@ -253,4 +253,4 @@ Are rendered from comments of a GitHub Issue in the [diybiosphere/comments] repo
 ```
 
 {:start="5"}
-5. Commit and wait for Travis to build (may take a few minutes)
+5. Commit and wait for the site to rebuild (may take a few minutes)
