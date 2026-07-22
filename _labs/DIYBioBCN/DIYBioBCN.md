@@ -15,7 +15,6 @@ _geoloc:
 rss: http://www.diybcn.org/feed/
 twitter: https://twitter.com/DIYBIOBCN
 facebook-group: https://www.facebook.com/groups/299801923540778/
-instagram: https://www.facebook.com/DiyBioBcn
 ---
 
 DIYBio Barcelona was born after a brief meeting at Fab12. Our activity started at Made Makerspace on 2012, until we moved to Hangar on March 2016.

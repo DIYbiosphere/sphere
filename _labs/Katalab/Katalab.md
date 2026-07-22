@@ -4,7 +4,10 @@ status: unknown
 subtitle: Initiative for Open Science, Technology, Art and Education
 type-org: community
 start-date: 2017
-address: to bee found :)
+address: Gaullachergasse 12/18 (registered address; no public space yet)
+postcode: 1160
+city: Vienna
+country: Austria
 tags:
   - community lab
   - mycelium
