@@ -23,19 +23,6 @@ _Collections_ are predetermined and are separated as distinct folders in the [sp
 - <i class="far fa-umbrella fa-fw"></i> `_others`: Is an umbrella term for all the rest. Eventually as new entries begin to define themselves a new collection will be created to accommodate them.
 <!-- - <i class="far fa-NEW_COLLECTION_ICON fa-fw"></i> `_NEW_COLLECTION(s)`: NEW_COLLECTION_DESCRIPTION -->
 
-### Possible Collections
-As the number of entries grows, we may need to add more collections. Some that have been proposed are:
-
-- <i class="far fa-industry-alt fa-fw"></i> _company_: a commercial business, could be for-profit or non-profit
-- <i class="far fa-shopping-basket fa-fw"></i> _products_: physical things that can be purchased
-- <i class="far fa-cogs fa-fw"></i> _services_: abstract things that can be purchased
-- <i class="far fa-list-ol fa-fw"></i> _protocols_: how-to's for experiments, workshops, etc.
-- <i class="far fa-portrait fa-fw"></i> _profiles_: for people. Nothing personal, just their 'DIYbio career'
-- <i class="far fa-usd-circle fa-fw"></i> _funders_: Grants, VC's, websites, that provide funding for DIYbio initiatives
-- <i class="far fa-bookmark fa-fw"></i> _reads_: Media, scholarly, and other articles and important posts on DIYbio
-
-{% include messages/question.html title="How to add a new collection" text="create a folder in the repository with an underscore at the beginning with the name of the collection in plural. Search the repository for `NEW_COLLECTION` to configure the new collection. Also search and replace for: `NEW_COLLECTION(s)`, `NEW_COLLECTION_ICON`, `NEW_COLLECTION_DESCRIPTION`" %}
-
 ## Type of Initiative
 The _type_ is for specifying the kind of social/legal configuration of the initiative. Although not predetermined, these should be standardized as much as possible. These are some recommended values:
 
