@@ -36,7 +36,6 @@ promotions:
   - button: Join our community.
     text: We strive to use concensus to direct changes in our lab.
     URL: https://www.loomio.org/biotech-without-borders
-    image: https://biotechwithoutborders.org/wp-content/uploads/2022/05/be7c3602-e49c-4973-a720-0dee58fcf5c0.jpg
 tags:
   -collective
   -community science
