@@ -46,9 +46,6 @@ The _type_ is for specifying the kind of social/legal configuration of the initi
 - _school_
 - _museum_
 
-
-{% include messages/info.html title="The meaning behind type" text="The idea behind `type: ` is..." %}
-
 ## Tags
 The _tags_ are keywords that describe entries. Tags are not predetermined but should be as standardized as possible. There might be overlaps as some people may write the _collection_ name, or the _type_ as a _tag_. These should standardize and an assessment should follow to determine if new _collections_, or _types_ should be created.
 
@@ -63,9 +60,3 @@ The _status_ should be completely standardized and should only have one of the f
 - _active_
 - _inactive_
 - _planned_
-
-# Other data keys
-{% include messages/incomplete.html %}
-
-# Rendering the Entries
-{% include messages/incomplete.html %}
