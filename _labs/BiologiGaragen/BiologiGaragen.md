@@ -1,5 +1,6 @@
 ---
 title: BiologiGaragen
+status: inactive
 tags:
 - hackerspace
 start-date: 2010

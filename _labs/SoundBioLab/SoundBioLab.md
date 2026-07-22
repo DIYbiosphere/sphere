@@ -1,5 +1,6 @@
 ---
 title: SoundBio Lab
+status: active
 subtitle: Seattle's Biology Makerspace
 website: https://sound.bio/
 start-date: 2016

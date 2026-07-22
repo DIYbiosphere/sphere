@@ -1,5 +1,6 @@
 ---
 title: MadLab Biolab
+status: inactive
 website: https://madlab.org.uk/community-biotechnology/
 start-date:
 type-org: non-profit

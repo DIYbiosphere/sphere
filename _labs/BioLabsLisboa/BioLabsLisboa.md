@@ -1,6 +1,7 @@
 ---
 draft: true
 title: BioLab Lisboa
+status: active
 subtitle: Lisbon citizens Lab
 start-date: 2022-01-13
 hosts:

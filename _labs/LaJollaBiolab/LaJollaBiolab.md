@@ -1,5 +1,6 @@
 ---
 title: La Jolla Bio Lab
+status: unknown
 website: http://lajollalibrary.org/your-library/bio-lab/
 start-date: 2015
 type-org: public

@@ -1,5 +1,6 @@
 ---
 title: DIYbioTech
+status: inactive
 tags:
 - makerspace
 start-date: 2013

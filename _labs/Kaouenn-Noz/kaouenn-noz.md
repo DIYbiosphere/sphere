@@ -1,5 +1,6 @@
 ---
 title: Kaouenn-Noz
+status: active
 subtitle: A Biohackerspace in Brittany 
 type-org: community
 predecessor: Biome HackLab # the previous name of the entry

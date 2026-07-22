@@ -1,5 +1,6 @@
 ---
 title: Counter Culture Labs
+status: active
 subtitle: Your Biohacking and Citizen Science Lab in Oakland
 website: http://counterculturelabs.org/
 start-date: 2013

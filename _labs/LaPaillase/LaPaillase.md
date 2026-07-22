@@ -1,5 +1,6 @@
 ---
 title: La Paillase
+status: inactive
 start-date: 2011
 type-org: non-profit
 partners:

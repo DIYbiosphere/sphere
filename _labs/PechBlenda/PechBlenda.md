@@ -1,5 +1,6 @@
 ---
 title: PechBlenda Lab
+status: unknown
 subtitle: Laboratory of bioelectrochemical experimentations
 website: https://pechblenda.hotglue.me/
 start-date:

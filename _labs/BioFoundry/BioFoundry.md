@@ -1,5 +1,6 @@
 ---
 title: Bio Foundry
+status: inactive
 subtitle: Australia's first community lab for citizen scientists
 start-date: 2014
 type-org: non-profit

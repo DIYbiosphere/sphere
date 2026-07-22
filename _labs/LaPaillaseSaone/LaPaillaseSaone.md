@@ -1,5 +1,6 @@
 ---
 title: La Paillase Saône
+status: inactive
 website: https://lapaillassaone.wordpress.com/
 start-date: 2015
 hosts: '[La MYNE](https://www.lamyne.org/)'

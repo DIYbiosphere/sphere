@@ -1,5 +1,6 @@
 ---
 title: Bionest
+status: active
 subtitle: Biohacker Space by Agrobioteg
 website: http://agrobioteg.org/
 start-date: 2018-06

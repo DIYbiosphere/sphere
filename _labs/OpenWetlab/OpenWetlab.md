@@ -1,5 +1,6 @@
 ---
 title: Open Wetlab
+status: active
 website: https://waag.org/en/lab/open-wetlab
 start-date: 2012
 hosts: "[Waag Society](http://waag.org/en)"

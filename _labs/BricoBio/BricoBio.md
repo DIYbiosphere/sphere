@@ -1,6 +1,7 @@
 ---
 draft: true
 title: Bricobio
+status: unknown
 subtitle: biotech for everyone
 start-date: 2013
 hosts:

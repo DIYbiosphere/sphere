@@ -1,6 +1,7 @@
 ---
 draft: true
 title: ChiTownBio
+status: active
 subtitle: Chicago's first community biolab
 start-date: 2017
 hosts:

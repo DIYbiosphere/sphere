@@ -2,7 +2,7 @@
 draft: true
 title: Scihouse
 subtitle: Moving biotechnology forward for the common good
-status: active
+status: unknown
 hosts:
   - DIYbiosphere
 type-org:

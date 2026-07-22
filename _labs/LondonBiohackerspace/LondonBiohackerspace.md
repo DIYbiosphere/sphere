@@ -1,5 +1,6 @@
 ---
 title: London Biohackspace
+status: inactive
 tags:
 - hackerspace
 website: https://biohackspace.org/

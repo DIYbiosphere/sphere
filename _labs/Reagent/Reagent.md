@@ -1,5 +1,6 @@
 ---
 title: ReaGent
+status: inactive
 website: http://reagentlab.org/
 start-date: 2015
 type-org: community

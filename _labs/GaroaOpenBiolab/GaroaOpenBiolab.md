@@ -4,7 +4,7 @@ tags:
   - hackerspace
 website: https://garoa.net.br/wiki/Garoa_Open_BioLab
 start-date: 2011
-status: planning
+status: unknown
 hosts: "[Garao Hacker Clube](https://garoa.net.br/wiki/P%C3%A1gina_principal)"
 type-org: community
 address: R. Costa Carvalho, 567 - Pinheiros

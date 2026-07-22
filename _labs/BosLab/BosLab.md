@@ -1,5 +1,6 @@
 ---
 title: BosLab
+status: active
 website: http://boslab.org/
 start-date: 2014
 type-org: non-profit

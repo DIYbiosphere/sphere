@@ -1,5 +1,6 @@
 ---
 title: LifePatch
+status: active
 subtitle: Citizen Initiative in Art, Science and Technology
 start-date:
 type-org: community

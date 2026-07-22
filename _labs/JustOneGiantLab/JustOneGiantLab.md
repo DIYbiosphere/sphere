@@ -1,5 +1,6 @@
 ---
 title: Just One Giant Lab
+status: active
 subtitle: We help sync humanity onto solving our most urgent & important problems using Open Science, Responsible Innovation & Continuous Learning 
 website: http://jogl.io/
 start-date: 2015

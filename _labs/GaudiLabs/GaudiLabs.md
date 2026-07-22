@@ -1,5 +1,6 @@
 ---
 title: GaudiLabs
+status: active
 website: http://www.gaudi.ch/GaudiLabs/
 start-date:
 type-org: non-profit

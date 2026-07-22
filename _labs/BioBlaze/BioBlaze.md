@@ -1,5 +1,6 @@
 ---
 title: BioBlaze Community Bio Lab
+status: unknown
 subtitle: The first community bio lab in Chicagoland
 website: https://www.bioblaze.org/
 start-date: 2017-10

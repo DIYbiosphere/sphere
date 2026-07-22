@@ -9,7 +9,7 @@ type-org: community
 # ACTIVITY
 start-date: 2020
 end-date:
-status:
+status: active
 
 # RELATIONSHIPS
 partners:

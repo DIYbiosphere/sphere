@@ -1,5 +1,6 @@
 ---
 title: Bio Art Laboratores
+status: active
 tags:
 - bioart
 website: http://bioartlab.com/
