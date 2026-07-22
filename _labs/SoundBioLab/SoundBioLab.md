@@ -13,11 +13,13 @@ _geoloc:
   lat: 47.663503
   lng: -122.316011
 email: info@sound.bio
-Event Calendar: https://www.sound.bio/workshops
-LinkedIn: https://www.linkedin.com/company/soundbio/
-Instagram: https://www.instagram.com/soundbiolab/
-Facebook: https://www.facebook.com/SoundBioLab/
-Luma: https://www.meetup.com/SoundBio/
+linkedin: https://www.linkedin.com/company/soundbio/
+instagram: https://www.instagram.com/soundbiolab/
+facebook: https://www.facebook.com/SoundBioLab/
+meetup: https://www.meetup.com/SoundBio/
+links:
+  - URL: https://www.sound.bio/workshops
+    tooltip: Event Calendar
 ---
 
 SoundBio Lab welcomes everyone to explore and grow their passion for science. We provide space, tools and community to foster original research projects alongside hands-on STEAM education in our University District biomakerspace and in the greater Seattle area.
