@@ -23,10 +23,7 @@ All you need is a GitHub account ([sign up](https://github.com/join)). You also 
 # Your First Contribution
 For writing entries you can just follow our tutorials for [adding](http://sphere.diybio.org/docs/tutorials/add-entry) or [editing](http://sphere.diybio.org/docs/tutorials/edit-entry) entries.
 
-If you are planning on making many changes to different files consider doing them all at once in your own _fork_, _branch_ before submitting a pull request. Alternatively, look at how you can **contribute like a pro** by working locally in your computer.
-
-# Contributing Like a Pro
-Although you can make changes to files in GitHub, it is much more easy, convenient, and powerful to do work on your computer locally. Follow our [tutorial for installing](http://sphere.diybio.org/docs/tutorials/install-locally) everything you need.
+If you are planning on making many changes to different files consider doing them all at once in your own _fork_, _branch_ before submitting a pull request.
 
 # Submitting Issues and Pull Requests
 If you are submitting an issue or a pull request a template will automatically appear in the description text. Read it and follow the instructions there before deleting the text in the template and adding your own text.
