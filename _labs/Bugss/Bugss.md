@@ -37,7 +37,7 @@ promotions:
   - button:  More info about BUGSS
     text: BUGSS is Baltimore's community science lab, offering seminars, courses, and an open lab space for both amateurs and professionals.
     URL: https://bugssonline.org/
-    image: /labs/buggs/promo.png
+    image: /labs/bugss/promo.png
 ---
 
 BUGSS is a non-profit public laboratory offering classes, seminars, and lab access so that anyone can safely and affordably investigate the living world. We are a community of amateurs, professionals, citizen
