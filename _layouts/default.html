@@ -8,37 +8,17 @@
       </main>
     {% include footer.html %}
 
-
-
-      <button class="js-gitter-toggle-chat-button ui button">
-          <div class="fa-4x">
-          <span class="fa-layers fa-fw" data-tooltip="Open Gitter Chat" data-variation="mini" data-inverted="">
-            <i class="fas fa-circle" style="color:mediumorchid"></i>
-            <i class="fa-inverse fab fa-gitter" data-fa-transform="shrink-8"></i>
-          </span>
-      </button>
-
-
     <script>
       // instantsearch script below requires params stored in _config.yml
       // store them in global window state so script can access
       window.site = {
-        algolia: {        
+        algolia: {
           appId: '{{ site.algolia.application_id }}',
           indexName: '{{ site.algolia.index_name }}',
           apiKey: '{{ site.algolia.search_only_api_key }}'
         }
       };
-
-      ((window.gitter = {}).chat = {}).options = {
-        room: 'diybiosphere/sphere',
-        activationElement: false
-      };
     </script>
-
-    <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-
-
 
       <!-- Google Analytics -->
     <script src="https://www.google.com/jsapi"></script>

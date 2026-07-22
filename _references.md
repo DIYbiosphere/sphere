@@ -7,7 +7,6 @@
 [BwoB]: /labs/biotechwithoutborders/
 
 [slack]: https://diybiosphere.slack.com/ "DIYbiosphere Slack"
-[gitter]: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link "DIYbiosphere Gitter chat room"
 [mit]: https://opensource.org/licenses/MIT "MIT License"
 [cc0]: https://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons Zero License"
 [sign up]: https://github.com/join "Sign up to GitHub"

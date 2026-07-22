@@ -23,8 +23,6 @@ toc: true
 
 **GitHub Pages**
 
-**Gitter**
-
 
 **Issue**
 
