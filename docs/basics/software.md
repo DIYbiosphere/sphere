@@ -26,15 +26,3 @@ The project's repository is named [_sphere_] and it is owned by the [DIYbiospher
 # Algolia
 [Algolia](https://www.algolia.com/) is a web search service platform.
 We are currently using the Hacker plan which is free and allows for 10,000 records and 100,000 operations for month. If we were to see a significant demand over this plan, they offer [free plans](https://www.algolia.com/doc/faq/accounts-billing/i-develop-an-open-source-or-not-for-profit-project/) to selected open source and not-for-profit projects.
-
-## Algolia AutoComplete
-{% include messages/incomplete.html %}
-## Algolia Instantsearch
-{% include messages/incomplete.html %}
-
-## Algolia DocSearch
-{% include messages/incomplete.html %}
-
-
-## Plugins
-{% include messages/incomplete.html %}
