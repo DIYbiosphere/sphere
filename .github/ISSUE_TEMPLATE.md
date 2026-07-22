@@ -9,4 +9,4 @@ Follow steps of each type of issue
 - [ ] **report broken link** _title:_ 'Broken link'. _description:_ where you encountered the broken link
 - [ ] **report a bug** _description:_ describe the problem, how you encountered it and what you expected instead. Provide screenshots and screencaptures if possible
 - [ ] **make a suggestion** _description:_ describe your idea, how it should work and look like. Provide examples and references.
-- [ ] **ask a question** _title:_ include a '?'. Or ask questions in Slack, you can directly message users there. Check our FAQs too.
+- [ ] **ask a question** _title:_ include a '?'. Check our FAQs too.

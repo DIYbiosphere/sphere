@@ -6,7 +6,6 @@
 [Biotech Without Borders]: /labs/biotechwithoutborders/
 [BwoB]: /labs/biotechwithoutborders/
 
-[slack]: https://diybiosphere.slack.com/ "DIYbiosphere Slack"
 [mit]: https://opensource.org/licenses/MIT "MIT License"
 [cc0]: https://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons Zero License"
 [sign up]: https://github.com/join "Sign up to GitHub"

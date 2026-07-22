@@ -30,8 +30,6 @@ toc: true
 
 **Pull request** or **PR**
 
-**Slack**
-
 **Ticket**
 
 **Version Control** a way to track changes to a document or collection of documents.
