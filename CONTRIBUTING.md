@@ -31,6 +31,8 @@ Although you can make changes to files in GitHub, it is much more easy, convenie
 # Submitting Issues and Pull Requests
 If you are submitting an issue or a pull request a template will automatically appear in the description text. Read it and follow the instructions there before deleting the text in the template and adding your own text.
 
+Labels aren't just for issues - they can be applied to PRs too, to flag things like "critical" or "help wanted." Assigning an issue or PR to someone helps the community know who's already working on it or who to reach out to, though only members and outside collaborators can be assigned.
+
 # Code Review Process
 Members of the DIYbiophere organization have permission to merge all _pull requests_ and directly write into the `master` branch.
 
