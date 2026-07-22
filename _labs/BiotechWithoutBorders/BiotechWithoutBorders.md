@@ -1,6 +1,6 @@
 ---
 title: Biotech Without Borders
-status: unknown
+status: active
 subtitle: NYC's Member-led Community Biolab
 website: https://biotechwithoutborders.org
 header: https://biotechwithoutborders.org/wp-content/uploads/2022/05/7bcb702c-8374-4495-92ba-d40d86ba38b1.jpg

@@ -1,19 +1,21 @@
 ---
 title: BioCrea:Espacio Abierto de Biología Creativa
-status: unknown
-subtitle: #REPLACE_with_a_short_description,_or_motto._Max_250_characters
-website: https://www.medialab-prado.es/programas/biocrea-espacio-abierto-de-biologia-creativa #REPLACE_with_the_main_URL_for_initiative
-start-date: 2018 #REPLACE_with_the_start_date._MUST_FORMAT_as:_'YYYY'_or_'YYYY-MM'_or_'YYYY-MM-DD'
+status: active
+subtitle: Espacio abierto de biología creativa en Medialab-Matadero Madrid
+website: https://www.medialab-matadero.es/programas/biocrea-espacio-abierto-de-biologia-creativa
+start-date: 2018
 type-org: Communitylab. Medialab 
-address: Alameda´s Street, 15, 28014  #REPLACE_with_street_name_and_number_in_english
+address: Paseo de la Chopera 14
+postcode: 28045
 city: Madrid
 country: Spain
-twitter: #REPLACE_with_twitter_URL
+email: info.m@medialab-matadero.es
 facebook: https://www.facebook.com/BioCrea-Espacio-Abierto-de-Biolog%C3%ADa-Creativa-1949666018486706
 tags:
   - Biolab
-  - 
 ---
+
+Medialab Prado se trasladó y pasó a llamarse Medialab-Matadero Madrid; BioCrea continúa activo en su nueva sede en Matadero Madrid. Desde 2023 el espacio es impulsado por el grupo de investigación DIYBIO-UCM (Universidad Complutense de Madrid), con encuentros semanales de grupos de trabajo los jueves de 17:30 a 20:30.
 
 BIOCREA es un espacio de experimentación, investigación y prototipado en temas relacionados con biología y biotecnología desde el arte y el diseño. Se plantean líneas de trabajo (ecología, genética, biomateriales, biosensores, cibernética, energías alternativas, educación, alimentación, entre otros) que puedan llevarse a cabo en un laboratorio abierto bajo la filosofía del DIYbio (biología hazlo tu misma), la ciencia ciudadana, el biohacking y el bioarte.
 
