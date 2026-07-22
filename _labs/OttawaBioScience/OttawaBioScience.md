@@ -1,5 +1,6 @@
 ---
 title: Ottawa Bio Science
+status: active
 subtitle: Ottawa's DIY Biology Community
 website: http://specyal.com
 start-date: 2018

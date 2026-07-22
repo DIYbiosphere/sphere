@@ -1,5 +1,6 @@
 ---
 title: Symbiolab
+status: inactive
 subtitle: Open and DIY biolaboratory
 website: http://irnas.eu/symbiolab.html
 start-date: 2014

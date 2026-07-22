@@ -1,5 +1,6 @@
 ---
 title: BioClub Tokyo Community Bio Lab
+status: active
 subtitle: The community bio lab in Tokyo
 website: https://www.bioclub.tokyo
 start-date: 2015

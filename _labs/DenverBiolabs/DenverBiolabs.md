@@ -1,5 +1,6 @@
 ---
 title: Denver Biolabs
+status: inactive
 website: http://denverbiolabs.com/
 start-date: 2015
 type-org: non-profit

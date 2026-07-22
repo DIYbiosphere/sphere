@@ -1,5 +1,6 @@
 ---
 title: Biologik Labs
+status: unknown
 website: http://www.biologiklabs.org/
 start-date: 2013
 type-org: community

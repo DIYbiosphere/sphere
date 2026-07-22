@@ -1,5 +1,6 @@
 ---
 title: DIY Bio Barcelona
+status: unknown
 website: http://www.diybcn.org/
 start-date: 2014
 hosts: "[MADE](http://made-bcn.org/)"

@@ -1,5 +1,6 @@
 ---
 title: Bioscope
+status: active
 website: http://bioscope.ch/
 start-date: 2014
 hosts: University of Geneva

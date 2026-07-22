@@ -1,5 +1,6 @@
 ---
 title: BuiQuisitive
+status: active
 alias: Melbourn BioHack
 website: http://bioquisitive.org.au/
 start-date: 2015

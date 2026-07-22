@@ -1,5 +1,6 @@
 ---
 title: Indie Lab
+status: unknown
 website: http://rva.indielab.co/
 start-date: 2012
 hosts: "[Hack RVA](http://www.hackrva.org/blog/)"

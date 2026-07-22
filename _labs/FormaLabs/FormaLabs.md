@@ -1,5 +1,6 @@
 ---
 title: Forma Labs
+status: inactive
 subtitle:
 website: http://formalabs.org/
 start-date: 2014

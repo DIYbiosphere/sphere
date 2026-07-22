@@ -1,5 +1,6 @@
 ---
 title: BioNyfiken
+status: inactive
 website: http://www.bionyfiken.se/
 start-date: 2014
 type-org: non-profit

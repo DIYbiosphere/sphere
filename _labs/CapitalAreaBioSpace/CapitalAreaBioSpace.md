@@ -1,5 +1,6 @@
 ---
 title: Capital Area BioSpace
+status: unknown
 website: https://www.meetup.com/CapitalAreaBioSpace/
 start-date:
 hosts: "[Nova Labs](http://www.nova-labs.org/blog/)"

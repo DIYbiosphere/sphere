@@ -1,5 +1,6 @@
 ---
 title: Hackuarium
+status: active
 subtitle: An Open Laboratory for DIY Biology (And Beyond)
 website: http://www.hackuarium.ch/en/
 promotions:

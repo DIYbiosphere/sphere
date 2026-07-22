@@ -1,5 +1,6 @@
 ---
 title: BioTehna
+status: active
 website:
 start-date: 2013
 address: Litijska cesta 259

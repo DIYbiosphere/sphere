@@ -1,6 +1,7 @@
 ---
 draft: true
 title: BioHackPhilly
+status: unknown
 subtitle: Synthetic Biology is the future of food, fuel, materials, and medicine. And we are here to teach you the basics.
 start-date: 2020
 hosts:

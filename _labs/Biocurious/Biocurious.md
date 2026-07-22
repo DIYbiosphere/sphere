@@ -1,5 +1,6 @@
 ---
 title: Biocurious
+status: active
 tags:
 - open source
 - synthetic biology

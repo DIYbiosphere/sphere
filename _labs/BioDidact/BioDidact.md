@@ -1,5 +1,6 @@
 ---
 title: Biodidact
+status: unknown
 website: http://biodidact.net/
 start-date: 2014
 type-org: community

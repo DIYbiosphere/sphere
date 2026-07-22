@@ -1,5 +1,6 @@
 ---
 title: Brmlab
+status: active
 website: http://brmlab.cz/index.html
 start-date:
 type-org: non-profit

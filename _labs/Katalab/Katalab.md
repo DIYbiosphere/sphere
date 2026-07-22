@@ -1,5 +1,6 @@
 ---
 title: "[kat]alab Vienna"
+status: unknown
 subtitle: Initiative for Open Science, Technology, Art and Education
 type-org: community
 start-date: 2017
