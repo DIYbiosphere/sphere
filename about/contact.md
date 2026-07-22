@@ -9,8 +9,5 @@ As part of [our values] we strive to maintain our communication as public as pos
 We use GitHub's Issues to organize and manage the development of the project. The majority of conversations related to the project should happen here. The [Issues] are public, but in order to submit a new issue you need a GitHub account ([sign up](https://github.com/join)). You can submit a question, suggestion, or a [request to join][join] the DIYbiosphere organization.
 
 
-### Slack
-Is a very popular communication platform that offers integration with other services including GitHub notifications. We have our own Slack: [DIYbiosphere.slack.com][slack]. You can join any channel and specify your notification preferences. Post your message in a channel or DM other users.
-
 ### Twitter
 For the moment our Twitter account it is somewhat inactive during alpha release. Once we go to beta release we will set up some automatic tweets for every new entry added to the library.

@@ -68,7 +68,7 @@ In increasing order of engagement you can contribute to DIYbiosphere by:
   - **Fork, commit, pull request** your contributions! Tackle a [good first issue](https://github.com/DIYbiosphere/sphere/labels/good%20first%20issue) to get you started
 - **GETTING INVOLVED**
   - **Join the development community**. The project is managed by members of the [DIYbiosphere community](https://sphere.diybio.org/about/community). Request membership by [submitting an issue](https://github.com/DIYbiosphere/sphere/issues/new) enjoy more access privileges to the project!
-  - **Join the conversation**. You can freely join us in Slack at [diybiosphere.slack.com](https://diybiosphere.slack.com)
+  - **Join the conversation**. [Submit an issue](https://github.com/DIYbiosphere/sphere/issues/new) - that's where the majority of project conversations happen.
 
 ## Copyright
 In short: **the work in DIYbiosphere is freely available to use, modify and distribute.** More specifically:
