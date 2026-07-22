@@ -67,7 +67,7 @@ In increasing order of engagement you can contribute to DIYbiosphere by:
   - **Submit a [new issue](https://github.com/DIYbiosphere/sphere/issues/new)**: report a bug, ask a question, share your idea and wait for feedback and support from the community.
   - **Fork, commit, pull request** your contributions! Tackle a [good first issue](https://github.com/DIYbiosphere/sphere/labels/good%20first%20issue) to get you started
 - **GETTING INVOLVED**
-  - **Join the development community**. The project is managed by members of the [DIYbiosphere community](https://sphere.diybio.org/about/community). Request membership by [submitting an issue](https://github.com/DIYbiosphere/sphere/issues/new) enjoy more access privileges to the project!
+  - **Join the development community**. Learn more about the [DIYbiosphere community](https://sphere.diybio.org/about/community) and how to get more involved.
   - **Join the conversation**. [Submit an issue](https://github.com/DIYbiosphere/sphere/issues/new) - that's where the majority of project conversations happen.
 
 ## Copyright

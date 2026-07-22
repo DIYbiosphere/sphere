@@ -28,7 +28,7 @@ gem install bundler
 4. **Clone the repository:**
 Go to the sphere repository and select 'Clone or download' green button and then select 'Open in Desktop'. It should open GitHub Desktop in your computer. Select a location for the folder
 
-{% include messages/info.html title="Fork first if you are not a member" text="If you are not a member of diybiosphere community, you will have to 'fork' first the repository and then follow these steps with your forked repository." %}
+{% include messages/info.html title="Fork the repository first" text="Fork the repository, then follow these steps with your forked repository." %}
 
 {:start="5"}
 5. **Open sphere folder in terminal:**
