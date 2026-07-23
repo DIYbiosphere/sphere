@@ -1,7 +1,7 @@
 ---
 title: Chronomed
 subtitle:
-website: http://www.chronomed.nl/
+website:
 start-date: 2016
 type-org: Company
 city: Amsterdam

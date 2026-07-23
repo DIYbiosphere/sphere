@@ -1,7 +1,7 @@
 ---
 title: Folium Biosciences
 subtitle: 
-website: https://foliumbiosciences.com/
+website:
 start-date: 2015
 type-org: Company/Start-up
 city: Colorado Springs

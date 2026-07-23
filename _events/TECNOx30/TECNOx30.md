@@ -1,7 +1,7 @@
 ---
 title: TECNOx 3.0
 subtitle: Free technologies for Latin America
-website: http://tecnox.org/ 
+website:
 start-date: April 16 to 21, 2018
 type-org: Organization
 city: Valparaiso
