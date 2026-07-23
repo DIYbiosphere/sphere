@@ -18,6 +18,18 @@ module AddVariablesToFiles
           docDir = "#{doc.relative_path}"
           now = Date.today
 
+          # Algolia's API rejects any record with a present-but-blank
+          # _geoloc.lat or _geoloc.lng outright (400: "_geoloc.lat or
+          # _geoloc.lng attributes cannot be null"), which has broken the
+          # production build before (see GitHub issue #273). Rather than
+          # rely on every future contributor remembering to comment out
+          # an unfilled _geoloc block, strip it here if it's not a
+          # well-formed {lat, lng} (or Algolia's multi-value array-of-
+          # {lat, lng} form) so a bad build can't happen again.
+          if doc.data["_geoloc"] && !geoloc_valid?(doc.data["_geoloc"])
+            doc.data.delete("_geoloc")
+          end
+
           # Determine if it has an end date
 
           if doc.data["end-date"]
@@ -190,6 +202,22 @@ module AddVariablesToFiles
 
 
     end # generate site
+
+    # Accepts either a single {lat, lng} Hash or Algolia's multi-value
+    # array-of-{lat, lng} form; rejects anything else (blank/missing
+    # coordinates, an empty array, or an unexpected shape like a bare
+    # String/Integer).
+    def geoloc_valid?(geoloc)
+      if geoloc.is_a?(Array)
+        return !geoloc.empty? && geoloc.all? { |g| geoloc_valid?(g) }
+      end
+
+      return false unless geoloc.is_a?(Hash)
+
+      lat = geoloc["lat"]
+      lng = geoloc["lng"]
+      !(lat.nil? || lat.to_s.strip.empty? || lng.nil? || lng.to_s.strip.empty?)
+    end
 
   end # class Generator
 end # module
