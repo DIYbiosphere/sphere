@@ -1,5 +1,6 @@
 ---
 title: DIYbio Singapore
+status: unknown
 website: https://diybiosingapore.wordpress.com/
 start-date: 2010
 type-org: community

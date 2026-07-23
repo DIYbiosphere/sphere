@@ -1,5 +1,6 @@
 ---
 title: OpenPCR
+status: unknown
 subtitle: An open source project to make DNA diagnostics and PCR technology available at low-cost
 website: http://openpcr.org/
 start-date: 2010

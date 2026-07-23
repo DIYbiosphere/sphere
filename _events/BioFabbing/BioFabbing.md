@@ -1,5 +1,6 @@
 ---
 title: BioFabbing Convergence
+status: inactive
 website: http://citizensciences.net/biofabbing/
 start-date: 2017-05-10
 end-date: 2017-05-14

@@ -1,5 +1,6 @@
 ---
 title: SynBioBeta
+status: active
 subtitle: The Synthetic Biology Innovation Network
 website: https://synbiobeta.com/ 
 start-date: October 1-3, 2018

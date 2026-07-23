@@ -1,5 +1,6 @@
 ---
 title: BioHackSyd
+status: unknown
 subtitle: Syney Biohackers Meeting
 start-date: 2015
 type-org: community

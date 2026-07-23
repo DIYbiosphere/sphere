@@ -1,5 +1,6 @@
 ---
 title: Quantgene
+status: active
 subtitle: Making cancer a curable disease through early cancer detection
 website: http://www.quantgene.com/
 start-date: 2016

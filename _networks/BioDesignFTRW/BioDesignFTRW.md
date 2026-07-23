@@ -1,5 +1,6 @@
 ---
 title: Biodesign for the Real World
+status: unknown
 logo: https://filopodia.files.wordpress.com/2013/10/cropped-biodesign-logo-green.png
 website: https://biodesign.cc/
 start-date:

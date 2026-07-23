@@ -1,5 +1,6 @@
 ---
 title: Eligo Bioscience
+status: active
 subtitle: The MicroBiome Company
 website: http://eligo.bio/
 start-date: 2014

@@ -1,5 +1,6 @@
 ---
 title: Amid Biosciences
+status: active
 subtitle: Competent Cells and Protein
 website: https://amidbiosciences.com/
 start-date: 2016

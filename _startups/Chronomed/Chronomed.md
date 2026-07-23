@@ -1,5 +1,6 @@
 ---
 title: Chronomed
+status: inactive
 subtitle:
 website:
 start-date: 2016

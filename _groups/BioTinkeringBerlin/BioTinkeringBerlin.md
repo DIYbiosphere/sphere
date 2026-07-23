@@ -1,5 +1,6 @@
 ---
 title: Biotinkering Berlin
+status: inactive
 website: https://www.biotinkering-berlin.de/?lang=en
 start-date: 2014
 hosts: "[Art Laboratory Berlin](http://artlaboratory-berlin.org/home.htm)"

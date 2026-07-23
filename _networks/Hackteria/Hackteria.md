@@ -1,5 +1,6 @@
 ---
 title: Hackteria
+status: active
 subtitle:
 website: https://www.hackteria.org/
 start-date: 2009

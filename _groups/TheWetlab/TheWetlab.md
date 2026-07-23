@@ -1,5 +1,6 @@
 ---
 title: The Wet Lab
+status: unknown
 start-date: 2013
 website: http://www.sdwetlab.org/
 type-org: community

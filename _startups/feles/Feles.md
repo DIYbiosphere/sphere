@@ -1,5 +1,6 @@
 ---
 title: Feles
+status: inactive
 subtitle: Build desktop biolabs for everyone
 website:
 start-date: 2018-07-01

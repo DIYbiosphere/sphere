@@ -1,5 +1,6 @@
 ---
 title: Interactive Mycelium Lights
+status: unknown
 subtitle: This is an ongoing project to intetegrate interactive lights and boards with mycelium lights
 website: https://www.sweeneyartist.com/
 start-date: 2019-02-16

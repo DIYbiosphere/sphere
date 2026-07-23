@@ -1,5 +1,6 @@
 ---
 title: Digi.Bio
+status: active
 subtitle:
 website: http://digi.bio/
 start-date: 2017

@@ -1,5 +1,6 @@
 ---
 title: MikroBiomik
+status: active
 website: https://mikrobiomik.org/en
 start-date: 2017
 type-org: community

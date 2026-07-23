@@ -1,5 +1,6 @@
 ---
 title: MN DIYbio
+status: unknown
 manager:
 mott: The Minnesota Biology Group
 logo:

@@ -1,5 +1,6 @@
 ---
 title: Folium Biosciences
+status: inactive
 subtitle: 
 website:
 start-date: 2015

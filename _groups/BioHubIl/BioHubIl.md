@@ -1,5 +1,6 @@
 ---
 title: BioHubIl
+status: inactive
 website:
 start-date: 2015
 type-org: non-profit

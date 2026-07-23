@@ -1,5 +1,6 @@
 ---
 title: Innovative Medicine
+status: inactive
 subtitle:
 website: https://innovativemedicine.com/
 start-date: 2004

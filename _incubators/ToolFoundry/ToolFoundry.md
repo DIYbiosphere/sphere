@@ -1,5 +1,6 @@
 ---
 title: Tool Foundry
+status: inactive
 subtitle: Advancing accessible tools for scientific discovery
 website: https://www.toolfoundry.org/ 
 start date: 2019-04-01

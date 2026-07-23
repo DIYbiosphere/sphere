@@ -1,5 +1,6 @@
 ---
 title: DIYbio Belgium
+status: inactive
 website: http://www.diybio.be/
 start-date: 2012
 end-date: 2014

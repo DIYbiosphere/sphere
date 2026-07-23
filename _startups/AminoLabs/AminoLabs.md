@@ -1,5 +1,6 @@
 ---
 title: Amino Labs
+status: active
 subtitle: Empowering the next generation of scientists and innovators
 website: https://amino.bio/
 start-date: 2015

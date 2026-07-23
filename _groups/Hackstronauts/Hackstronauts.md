@@ -1,5 +1,6 @@
 ---
 title: Hackstronauts
+status: active
 tags:
 - transhumanism
 - nootropics

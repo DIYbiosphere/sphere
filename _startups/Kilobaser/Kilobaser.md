@@ -1,5 +1,6 @@
 ---
 title: Kilobaser
+status: active
 subtitle: The Nespresso Machine For DNA Synthesis
 website: http://www.kilobaser.com/
 start-date: 2014

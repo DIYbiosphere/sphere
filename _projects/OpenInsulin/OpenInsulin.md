@@ -1,5 +1,6 @@
 ---
 title: Open Insulin
+status: active
 subtitle: We're a team of Bay Area biohackers working on newer, simpler, less expensive ways to make insulin.
 website: http://openinsulin.org/
 start-date: 2015

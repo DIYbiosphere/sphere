@@ -1,5 +1,6 @@
 ---
 title: SynTechBio Network
+status: inactive
 subtitle:
 website:
 start-date:

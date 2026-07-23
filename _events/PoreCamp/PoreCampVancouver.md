@@ -1,5 +1,6 @@
 ---
 title: PoreCamp
+status: unknown
 subtitle: A Training Bootcamp Based On The Oxford Nanopore MinION
 website: http://porecamp.github.io/
 start-date: 2015

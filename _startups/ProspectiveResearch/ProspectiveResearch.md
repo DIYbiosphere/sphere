@@ -1,5 +1,6 @@
 ---
 title: Prospective Research
+status: inactive
 subtitle: Commercializing The Language Of Bacteria
 website:
 start-date: 

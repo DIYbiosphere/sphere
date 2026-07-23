@@ -1,6 +1,7 @@
 ---
 draft: true
 title: BioArtBot
+status: unknown
 subtitle: Make BioArt with Robots!
 start-date: 2019
 hosts:

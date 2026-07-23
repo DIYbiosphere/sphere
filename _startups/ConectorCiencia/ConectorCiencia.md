@@ -1,6 +1,7 @@
 ---
 draft: true
 title: Conector Ciência
+status: inactive
 subtitle: We connect Brazilians with the Science of DIYBio / Conectamos os brasileiros com a ciência DIYBio  
 start-date: 2017-11-11
 # end-date: ongoing # 'ongoing' is an invalid value for this field, it needs to be a 'date string'

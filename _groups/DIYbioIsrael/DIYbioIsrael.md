@@ -1,5 +1,6 @@
 ---
 title: DIYbio Israel
+status: inactive
 start-date: 2013
 end-date: 2016
 successor: BioHubIl

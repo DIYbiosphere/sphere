@@ -1,5 +1,6 @@
 ---
 title: Biomeme
+status: active
 subtitle:
 website: http://biomeme.com/
 start-date: 2013

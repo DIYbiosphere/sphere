@@ -1,5 +1,6 @@
 ---
 title: OpenBionics
+status: active
 subtitle: The Next Generation of Bionics
 website: https://www.openbionics.com/
 start-date: 2014

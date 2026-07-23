@@ -1,5 +1,6 @@
 ---
 title: Clear Gene
+status: active
 subtitle: Making Discoveries Count
 website: http://www.cleargene.co/
 start-date: 

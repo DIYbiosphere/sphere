@@ -1,5 +1,6 @@
 ---
 title: CSA Ethics Working Group Resource Collection
+status: unknown
 subtitle: Please contribute and utilize ethics tools for DIY science (templates, tech, training, papers, etc)
 start-date: 2017
 hosts:

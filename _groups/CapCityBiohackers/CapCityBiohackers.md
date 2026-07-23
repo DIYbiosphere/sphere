@@ -1,5 +1,6 @@
 ---
 title: Cap City Biohackers
+status: unknown
 website: http://www.capcitybiohackers.org/
 start-date: 2015
 hosts: "[Rev1 Ventures](https://www.rev1ventures.com/)"

@@ -1,5 +1,6 @@
 ---
 title: New Harvest
+status: active
 subtitle:
 website: http://www.new-harvest.org/ 
 start-date: 2017

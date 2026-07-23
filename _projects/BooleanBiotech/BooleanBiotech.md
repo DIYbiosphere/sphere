@@ -1,5 +1,6 @@
 ---
 title: Boolean Biotech
+status: active
 subtitle:
 website: http://blog.booleanbiotech.com/
 start-date: 2014

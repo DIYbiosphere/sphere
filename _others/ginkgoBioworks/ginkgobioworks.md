@@ -1,5 +1,6 @@
 ---
 title: Ginkgo Bioworks
+status: active
 subtitle: The organism company.
 start-date: 2009
 hosts:

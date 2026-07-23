@@ -1,5 +1,6 @@
 ---
 title: Biook
+status: active
 subtitle:
 website: www.biook.org
 host: '[BBK Open Science](www.bbkopenscience.com)'

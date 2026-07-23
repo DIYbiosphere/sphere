@@ -1,5 +1,6 @@
 ---
 title: AlgiKnit
+status: active
 subtitle:
 website: https://www.algiknit.com/
 start-date: 2017

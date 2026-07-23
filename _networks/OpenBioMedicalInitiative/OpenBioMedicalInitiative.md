@@ -1,5 +1,6 @@
 ---
 title: Open BioMedical Initiative
+status: unknown
 subtitle:
 website: http://www.openbiomedical.org/
 start-date: 2014

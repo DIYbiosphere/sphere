@@ -1,5 +1,6 @@
 ---
 title: DIY Neurotech
+status: inactive
 tags:
 - neurology
 - transhumanism

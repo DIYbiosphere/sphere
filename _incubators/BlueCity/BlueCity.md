@@ -1,5 +1,6 @@
 ---
 title: Blue City Lab
+status: active
 website: http://www.bluecity.nl/
 start-date: 2017
 hosts: Blue City

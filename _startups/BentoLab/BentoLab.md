@@ -1,5 +1,6 @@
 ---
 title: Bento Lab
+status: active
 subtitle: The portable DNA analysis lab for scientists, students and all curious minds to engage with genetics and bioengineering.
 website: https://www.bento.bio
 start-date: 2014

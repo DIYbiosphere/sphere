@@ -1,6 +1,7 @@
 ---
 draft: true
 title: Mara Renewables
+status: active
 subtitle:
 start-date: 2006
 hosts:

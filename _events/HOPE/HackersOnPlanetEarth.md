@@ -1,5 +1,6 @@
 ---
 title: Hope Conference
+status: active
 subtitle: Hackers On Planet Earth
 website: http://hope.net/
 start-date: 1994

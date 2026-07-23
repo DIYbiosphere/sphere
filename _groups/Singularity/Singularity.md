@@ -1,5 +1,6 @@
 ---
 title: Singularity
+status: active
 start-date: 2023
 type-org: group
 location: León, México

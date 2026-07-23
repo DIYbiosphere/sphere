@@ -1,5 +1,6 @@
 ---
 title: DIYbio Ireland
+status: inactive
 start-date: 2011
 end-date: 2015
 successor: Forma Labs

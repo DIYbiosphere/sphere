@@ -1,6 +1,7 @@
 ---
 draft: true
 title: Genspace's Open Plant Community Project
+status: unknown
 hosts:
   - DIYbiosphere
 partners:

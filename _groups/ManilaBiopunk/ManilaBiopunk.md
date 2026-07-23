@@ -1,5 +1,6 @@
 ---
 title: Manila Biopunk
+status: inactive
 website: http://www.manilabiopunk.org/
 start-date: 2014
 type-org: community

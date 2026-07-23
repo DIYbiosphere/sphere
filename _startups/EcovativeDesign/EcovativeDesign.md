@@ -1,5 +1,6 @@
 ---
 title: Ecovative Design
+status: active
 subtitle:
 website: https://www.ecovativedesign.com/
 start-date: 2007

@@ -1,5 +1,6 @@
 ---
 title: Global Community BioSummit
+status: active
 subtitle:
 website: https://www.biosummit.org/
 start-date: 2017

@@ -1,5 +1,6 @@
 ---
 title: TECNOx 3.0
+status: inactive
 subtitle: Free technologies for Latin America
 website:
 start-date: April 16 to 21, 2018

@@ -1,5 +1,6 @@
 ---
 title: PILI
+status: active
 subtitle:
 website: http://www.pili.bio/
 start-date: 2014

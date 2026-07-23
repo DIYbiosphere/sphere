@@ -1,5 +1,6 @@
 ---
 title: DIYbio Groningen
+status: unknown
 subtitle: A vribrant community of makers, hackers, and do-it-yourself biologists
 website: http://www.diybiogroningen.org/
 start-date: 2013

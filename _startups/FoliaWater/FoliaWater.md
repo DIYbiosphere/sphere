@@ -1,5 +1,6 @@
 ---
 title: Folia Water
+status: active
 subtitle: The World's First Water Filter For Pennies, Not Dollars.
 website: https://www.foliawater.com/
 start-date: 2016
