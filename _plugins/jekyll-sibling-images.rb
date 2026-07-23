@@ -8,10 +8,22 @@ module SiblingImages
     # environment is case-sensitive, so a contributor-uploaded
     # `Logo.png`/`logo.PNG` previously never matched here at all even
     # though the file really existed (see GitHub issue #258 - this is
-    # what happened to TwistBioscience's and africaOSH's logos).
-    # Returns the actual on-disk path (with its real case) or nil.
+    # what happened to TwistBioscience's logo).
+    #
+    # NOTE: Dir.glob(path, File::FNM_CASEFOLD) looks like the obvious
+    # tool for this but does NOT work here - for a literal pattern with
+    # no wildcard characters, Dir.glob takes a fast path that stats the
+    # exact path and ignores FNM_CASEFOLD entirely on a case-sensitive
+    # filesystem (confirmed by testing against a real case-sensitive
+    # volume, not just this dev machine's case-insensitive default).
+    # Listing the directory and comparing names case-insensitively
+    # ourselves is what actually works.
     def find_ci(path)
-      Dir.glob(path, File::FNM_CASEFOLD).first
+      dir = File.dirname(path)
+      target = File.basename(path).downcase
+      return nil unless Dir.exist?(dir)
+      match = Dir.entries(dir).find { |f| f.downcase == target }
+      match ? File.join(dir, match) : nil
     end
 
     def generate(site)
