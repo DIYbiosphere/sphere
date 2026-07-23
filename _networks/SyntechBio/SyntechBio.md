@@ -1,7 +1,7 @@
 ---
 title: SynTechBio Network
 subtitle:
-website: https://www.syntechbio.com/
+website:
 start-date:
 type-org:
 city:

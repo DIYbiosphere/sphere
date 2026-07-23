@@ -1,7 +1,7 @@
 ---
 title: Prospective Research
 subtitle: Commercializing The Language Of Bacteria
-website: https://www.prospectiveresearch.com/read-me/ 
+website:
 start-date: 
 type-org: Company/Start-up
 city: Beverly

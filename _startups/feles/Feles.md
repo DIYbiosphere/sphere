@@ -1,7 +1,7 @@
 ---
 title: Feles
 subtitle: Build desktop biolabs for everyone
-website: http://www.felesbio.com
+website:
 start-date: 2018-07-01
 type-org: Company/Startup
 address: 625 Massachusetts Avenue, 

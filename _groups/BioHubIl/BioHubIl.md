@@ -1,6 +1,6 @@
 ---
 title: BioHubIl
-website: http://biohubil.org/
+website:
 start-date: 2015
 type-org: non-profit
 address: Rothschild Boulevard 3
