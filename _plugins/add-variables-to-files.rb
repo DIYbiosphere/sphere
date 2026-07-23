@@ -18,6 +18,21 @@ module AddVariablesToFiles
           docDir = "#{doc.relative_path}"
           now = Date.today
 
+          # Algolia's API rejects any record with a present-but-blank
+          # _geoloc.lat or _geoloc.lng outright (400: "_geoloc.lat or
+          # _geoloc.lng attributes cannot be null"), which has broken the
+          # production build before (see GitHub issue #273). Rather than
+          # rely on every future contributor remembering to comment out
+          # an unfilled _geoloc block, strip it here if either half is
+          # missing so a bad build can't happen again.
+          if doc.data["_geoloc"]
+            lat = doc.data["_geoloc"]["lat"]
+            lng = doc.data["_geoloc"]["lng"]
+            if lat.nil? || lat.to_s.strip.empty? || lng.nil? || lng.to_s.strip.empty?
+              doc.data.delete("_geoloc")
+            end
+          end
+
           # Determine if it has an end date
 
           if doc.data["end-date"]
