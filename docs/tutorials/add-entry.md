@@ -7,6 +7,16 @@ All you need is a GitHub account ([sign up]).
 
 Good reference materials are the [Writing Guide] and the example entry of the [Avocado Lab] webpage which is rendered from [this file](https://raw.githubusercontent.com/DIYbiosphere/sphere/master/docs/tutorials/AvocadoLab/AvocadoLab.md).
 
+## Quick start
+
+Not sure which [collection][collections] fits your initiative? Pick the closest one below — a maintainer can always move it during review. Clicking a link below takes you straight to a new file on GitHub, already named and pre-filled with the entry template, skipping steps 1-4 below:
+
+{% include quick-create-links.html %}
+
+You'll still need to rename the placeholder folder/file name to match your initiative (keep the `.md` at the end), fill in the template, and continue from **step 5** below.
+
+## Step by step
+
 1. **Open Collection Folder:** inside the [sphere repository] (first determine in which [collection][collections] your initiative belongs to)
 2. **Select Create New File:** GitHub will let you know you don't have 'write' access to the project — that's expected, everyone contributes this way. A new file will be saved under _your copy of the project_ ('fork') and can later be merged with a 'pull request'.
 3. **Name your new file**: Add a folder first, preferably with the same name of your initiative using `CamelCase` and specify the format at the end as `.md`, e.g. 'AvocadoLab/AvocadoLab.md' (the name of the file will be the URL of the entry, so don't use a long name!)
