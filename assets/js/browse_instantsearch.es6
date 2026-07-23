@@ -4,9 +4,33 @@ const search = instantsearch({
   apiKey: window.site.algolia.apiKey,
   urlSync: true,
   searchParameters: {
-    facetingAfterDistinct: true
+    facetingAfterDistinct: true,
+    // Default view shows active entries only; urlSync restores whatever
+    // status refinement is in the URL (including none) on top of this.
+    disjunctiveFacetsRefinements: {
+      status: ['active']
+    }
   }
 });
+
+// Status -> Semantic UI label color + display text, used by the hit
+// templates below. 'planned' is included because the site's own
+// add-variables-to-files.rb plugin can auto-derive it for entries with
+// a future start-date and no explicit status, even though no entry
+// currently uses it.
+const STATUS_META = {
+  active:   { label: 'Active',   color: 'green' },
+  inactive: { label: 'Inactive', color: 'grey' },
+  unknown:  { label: 'Unknown',  color: 'yellow' },
+  planned:  { label: 'Planned',  color: 'blue' },
+};
+
+function withStatusBadge(item) {
+  const meta = STATUS_META[item.status] || { label: item.status, color: 'grey' };
+  item.statusLabel = meta.label;
+  item.statusBadgeColor = meta.color;
+  return item;
+}
 
 search.addWidget(
   instantsearch.widgets.searchBox({
@@ -101,7 +125,7 @@ const HIT_TEMPLATE = `
           {{start-date}}
           {{/start-date}}
           {{#end-date}} - {{end-date}}{{/end-date}}
-          {{#start-date}} | {{/start-date}}<span data-tooltip="status" data-variation="mini" data-inverted=""><i class="far fa-bolt fa-fw fa-sm" data-fa-transform="down-1"></i></span>{{status}} |
+          {{#start-date}} | {{/start-date}}<span class="ui {{statusBadgeColor}} mini label">{{statusLabel}}</span> |
           {{#country}}
           <span data-tooltip="location" data-variation="mini" data-inverted="">
           <i class="far fa-map-marker-alt fa-fw fa-sm"></i>
@@ -147,6 +171,7 @@ const TABLE_TEMPLATE = `
     <tr>
       <th>Title</th>
       <th>Collection</th>
+      <th>Status</th>
       <th>Type</th>
       <th>Start</th>
       <th>End</th>
@@ -160,6 +185,7 @@ const TABLE_TEMPLATE = `
     <tr>
       <td><a href="{{url}}">{{{ _highlightResult.title.value }}}</a></td>
       <td>{{#project}}Project{{/project}}{{#startup}}Startup{{/startup}}{{#lab}}Lab{{/lab}}{{#incubator}}Incubator{{/incubator}}{{#group}}Group{{/group}}{{#network}}Network{{/network}}{{#event}}Event{{/event}}{{#other}}Other{{/other}}</td>
+      <td><span class="ui {{statusBadgeColor}} mini label">{{statusLabel}}</span></td>
       <td>{{type-org}}</td>
       <td>{{start-date}}</td>
       <td>{{end-date}}</td>
@@ -178,6 +204,9 @@ const gridHits = instantsearch.widgets.hits({
       empty: EMPTY_TEMPLATE,
       item: HIT_TEMPLATE
     },
+    transformData: {
+      item: withStatusBadge
+    },
   });
 
 const tableHits = instantsearch.widgets.hits({
@@ -185,6 +214,15 @@ const tableHits = instantsearch.widgets.hits({
 		templates: {
 			empty: EMPTY_TEMPLATE,
 			allItems: TABLE_TEMPLATE
+		},
+		// transformData.item only fires for a `templates.item` template, so the
+		// table view (which uses `allItems`) needs its own transform over the
+		// hits array to get the same status-badge fields per row.
+		transformData: {
+			allItems: (data) => {
+				data.hits = data.hits.map(withStatusBadge);
+				return data;
+			}
 		},
 	});
 
