@@ -1,5 +1,6 @@
 ---
 title: Hyasynth Biologicals
+status: inactive
 subtitle:
 website: http://hyasynthbio.com/
 start-date: 2014

@@ -1,6 +1,7 @@
 ---
 draft: true
 title: Genspace's Optogenetics Community Project
+status: inactive
 hosts:
   - DIYbiosphere
 partners:

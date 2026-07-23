@@ -1,5 +1,6 @@
 ---
 title: Berkley Biolabs
+status: unknown
 website: http://www.berkeleybiolabs.com/
 start-date: 2013
 address: 614 Bancroft Way

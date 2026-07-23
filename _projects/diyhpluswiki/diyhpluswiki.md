@@ -1,5 +1,6 @@
 ---
 title: diyhpl.us wiki (diyhpluswiki)
+status: active
 subtitle: a wiki for open source hardware, do-it-yourself biohacking and practical human enhancement engineering projects which could be called transhumanism
 website: https://diyhpl.us/wiki/
 start-date: 2009

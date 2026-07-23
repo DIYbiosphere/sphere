@@ -1,5 +1,6 @@
 ---
 title: Africa Open Science Hardware Summit
+status: active
 subtitle: "Making / Hacking / Bio-Hacking"
 website: http://www.africaosh.com/
 start-date: 2018

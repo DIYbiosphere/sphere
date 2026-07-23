@@ -1,5 +1,6 @@
 ---
 title: Nation Of Makers Conference
+status: unknown
 subtitle: Collaborative Community-Wide Maker Convening
 website: https://www.nomcon.org/
 start-date: June 9-10, 2018

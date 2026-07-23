@@ -1,5 +1,6 @@
 ---
 title: Combimmune
+status: inactive
 subtitle: Development of rational combinatorial immunotherapies for cancer.
 website: http://www.combimmune.com/
 start-date: 2012

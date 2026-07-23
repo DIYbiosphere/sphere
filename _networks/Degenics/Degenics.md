@@ -1,6 +1,7 @@
 ---
 draft: true
 title: Degenics 
+status: inactive
 subtitle: An anonymous, decentralized marketplace for personal genetic testing - built on the Polkadot blockchain.
 start-date: 2020
 hosts:

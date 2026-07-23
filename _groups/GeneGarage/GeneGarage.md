@@ -1,5 +1,6 @@
 ---
 title: Gene Garage
+status: inactive
 website:
 start-date: 2015
 hosts: Tecnologico de Monterrey, Campus Guadalajara

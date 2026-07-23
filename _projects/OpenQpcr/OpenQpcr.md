@@ -1,5 +1,6 @@
 ---
 title: Open qPCR
+status: unknown
 subtitle: An open source Real-Time PCR machine, with support for 2 channel multiplexing, amplification curves, and melt curves.
 website: https://www.chaibio.com/openqpcr
 start-date: 2013

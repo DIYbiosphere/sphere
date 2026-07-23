@@ -1,5 +1,6 @@
 ---
 title: IndieBio
+status: inactive
 subtitle: Accelerating Biology
 website: http://indiebio.co/
 start-date: 2010

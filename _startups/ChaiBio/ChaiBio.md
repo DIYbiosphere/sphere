@@ -1,5 +1,6 @@
 ---
 title: Chai Bio
+status: active
 subtitle: DNA diagnostics for everyone
 website: https://www.chaibio.com/
 start-date: 2016

@@ -1,5 +1,6 @@
 ---
 title: Open Trons
+status: active
 subtitle: Opentrons makes robots for biologists.
 website: https://opentrons.com/
 start-date: 2014

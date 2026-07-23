@@ -1,5 +1,6 @@
 ---
 title: BBK Open Science
+status: active
 subtitle: Festival de la Ciencia Abierta y Participativa (Participatory and Open Science Festival)
 website: https://bbkopenscience.com/
 start-date: 2019-01-18

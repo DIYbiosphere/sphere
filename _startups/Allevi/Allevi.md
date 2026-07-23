@@ -1,5 +1,6 @@
 ---
 title: Allevi
+status: inactive
 subtitle: We build tools to design and engineer life.
 website: https://allevi3d.com/
 start-date: 2014

@@ -1,5 +1,6 @@
 ---
 title: Hax Accelerator
+status: inactive
 subtitle: In the heart of the Silicon Valley for hardware
 website: https://hax.co/accelerator/
 start-date:

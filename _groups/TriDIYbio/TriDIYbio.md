@@ -1,5 +1,6 @@
 ---
 title: Triangle DIY Biology
+status: active
 subtitle: Community Citizen Science and DIYbio Group of the NC Triangle
 website: http://www.tridiybio.org/
 start-date: 2015

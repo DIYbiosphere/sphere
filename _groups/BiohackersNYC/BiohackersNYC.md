@@ -1,5 +1,6 @@
 ---
 title: Biohackers NYC
+status: inactive
 tags:
 - transhumanism
 subtitle: human performance optimized

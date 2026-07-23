@@ -1,5 +1,6 @@
 ---
 title: DIYbio.org
+status: active
 subtitle: Biotechnology and greater public understanding about it has the potential to benefit everyone.
 website: http://diybio.org/
 start-date: 2008

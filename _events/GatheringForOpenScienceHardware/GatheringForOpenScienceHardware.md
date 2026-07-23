@@ -1,5 +1,6 @@
 ---
 title: Gathering For Open Science Hardware
+status: active
 subtitle: GOSH
 website: http://openhardware.science/ 
 start-date: 2018-09-01

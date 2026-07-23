@@ -1,5 +1,6 @@
 ---
 title: BioLink Depot
+status: active
 subtitle: Donating Science Supplies to Schools
 website: http://biolinkdepot.org/
 start-date: 2002

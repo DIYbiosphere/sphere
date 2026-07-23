@@ -1,5 +1,6 @@
 ---
 title: Bio Design Challenge
+status: active
 subtitle: learn. create. grow.
 website: http://biodesignchallenge.org/
 start-date: 2016

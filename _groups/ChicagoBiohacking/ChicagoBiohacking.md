@@ -1,5 +1,6 @@
 ---
 title: DIYbio Chicago
+status: inactive
 start-date: 2013
 type-org: community
 city: Chicago

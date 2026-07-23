@@ -1,5 +1,6 @@
 ---
 title: BioChanges BioDesign
+status: inactive
 partners:
   - BioDesign Studios
   - BioMaker Spaces

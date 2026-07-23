@@ -1,5 +1,6 @@
 ---
 title: The ODIN
+status: active
 subtitle:
 website: http://www.the-odin.com/
 start-date: 2016

@@ -1,5 +1,6 @@
 ---
 title: DIYbio Mexico
+status: unknown
 website:
 start-date:
 type-org: community

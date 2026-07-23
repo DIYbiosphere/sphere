@@ -1,5 +1,6 @@
 ---
 title: 'OYEP: Open Yeast Engineering Project'
+status: unknown
 subtitle: Bringing Yeast Engineering to the Masses
 website: https://github.com/oyep/oyep
 start-date: 2017

@@ -1,6 +1,7 @@
 ---
 draft: true
 title: Fusion Biotec
+status: inactive
 subtitle:
 start-date: 2016
 hosts:

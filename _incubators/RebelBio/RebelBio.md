@@ -1,5 +1,6 @@
 ---
 title: RebelBio
+status: inactive
 subtitle: The world's first life sciences accelerator.
 website: https://rebelbio.co/
 start-date: 2010

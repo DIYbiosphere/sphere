@@ -1,5 +1,6 @@
 ---
 title: RotterZwam
+status: active
 subtitle:
 website: https://www.rotterzwam.nl/
 start-date: 2017

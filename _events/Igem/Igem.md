@@ -1,5 +1,6 @@
 ---
 title: iGEM
+status: active
 subtitle: synthetic biology based on standard parts
 website: http://igem.org/
 start-date: 2003

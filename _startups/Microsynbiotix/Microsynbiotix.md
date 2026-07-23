@@ -1,5 +1,6 @@
 ---
 title: Microsynbiotix
+status: inactive
 subtitle:
 website: https://www.microsynbiotix.com/
 start-date: 

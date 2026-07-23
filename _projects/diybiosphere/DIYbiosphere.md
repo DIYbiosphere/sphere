@@ -1,5 +1,6 @@
 ---
 title: DIYbiosphere
+status: active
 draft: true
 subtitle: Connecting DIYbio Worldwide
 website: http://sphere.diybio.org/
