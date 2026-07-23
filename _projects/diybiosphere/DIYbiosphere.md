@@ -9,8 +9,8 @@ type-org: non-profit
 partners:
   - DIYbio.org
 _geoloc:
-  - lat: 42.360082
-    lng: -71.058880
+  lat: 42.360082
+  lng: -71.058880
 city: Boston
 state: Massachusetts
 country: United States
