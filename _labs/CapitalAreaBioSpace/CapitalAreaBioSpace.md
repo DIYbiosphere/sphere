@@ -1,5 +1,6 @@
 ---
 title: Capital Area BioSpace
+subtitle: A group organizing a DIYbio community biotech space in the DC area
 status: unknown
 website: https://www.meetup.com/CapitalAreaBioSpace/
 start-date:

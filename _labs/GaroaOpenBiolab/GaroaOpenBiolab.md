@@ -1,5 +1,6 @@
 ---
 title: Garoa Open BioLab
+subtitle: São Paulo hackerspace Garoa's open biotechnology lab
 tags:
   - hackerspace
 website: https://garoa.net.br/wiki/Garoa_Open_BioLab

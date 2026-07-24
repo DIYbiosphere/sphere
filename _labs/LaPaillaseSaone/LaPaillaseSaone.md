@@ -1,5 +1,6 @@
 ---
 title: La Paillase Saône
+subtitle: A hacklab and fablab for bio-inspired projects near Lyon, France (later renamed La MYNE)
 status: inactive
 website: https://lapaillassaone.wordpress.com/
 start-date: 2015

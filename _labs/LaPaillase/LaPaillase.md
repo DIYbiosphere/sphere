@@ -1,5 +1,6 @@
 ---
 title: La Paillase
+subtitle: An open citizen-research laboratory for science, art, and entrepreneurship in Paris
 status: inactive
 start-date: 2011
 type-org: non-profit

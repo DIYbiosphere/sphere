@@ -1,5 +1,6 @@
 ---
 title: Auckland DIYbio
+subtitle: Auckland's early DIYbio community group
 start-date: 2013
 end-date: 2013
 wedbsite: https://www.meetup.com/BiohackersAuckland/

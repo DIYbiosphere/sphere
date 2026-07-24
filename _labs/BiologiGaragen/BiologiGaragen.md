@@ -1,5 +1,6 @@
 ---
 title: BiologiGaragen
+subtitle: A hackerspace with an open biology lab in Copenhagen, Denmark
 status: inactive
 tags:
 - hackerspace

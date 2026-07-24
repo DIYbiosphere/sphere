@@ -1,5 +1,6 @@
 ---
 title: F.lab
+subtitle: A DIY biology space for food and agriculture innovation in Bangkok, Thailand
 status: unknown
 website: http://f-lab.cc/
 start-date:

@@ -1,5 +1,6 @@
 ---
 title: DIY Neurotech
+subtitle: Jackson, Mississippi's hackerspace, focused on DIY electronics and neurotechnology
 status: inactive
 tags:
 - neurology

@@ -1,5 +1,6 @@
 ---
 title: Biotinkering Berlin
+subtitle: A Berlin group for hands-on biology experimentation and learning
 status: inactive
 website: https://www.biotinkering-berlin.de/?lang=en
 start-date: 2014

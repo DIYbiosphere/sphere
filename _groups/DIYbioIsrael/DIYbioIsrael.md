@@ -1,5 +1,6 @@
 ---
 title: DIYbio Israel
+subtitle: Israel's DIYbio discussion and community-building group
 status: inactive
 start-date: 2013
 end-date: 2016

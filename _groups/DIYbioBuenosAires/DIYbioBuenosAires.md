@@ -1,5 +1,6 @@
 ---
 title: Biohacking BA
+subtitle: Buenos Aires' citizen science and DIY biology community
 status: unknown
 website: www.diybioba.org
 start-date: 2015

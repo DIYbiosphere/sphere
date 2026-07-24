@@ -1,5 +1,6 @@
 ---
 title: DIYbio Belgium
+subtitle: A Belgian community promoting open, accessible biology
 status: inactive
 website: http://www.diybio.be/
 start-date: 2012

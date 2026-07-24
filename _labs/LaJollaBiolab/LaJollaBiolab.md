@@ -1,5 +1,6 @@
 ---
 title: La Jolla Bio Lab
+subtitle: A public-library biology lab at the La Jolla/Riford Library
 status: unknown
 website: http://lajollalibrary.org/your-library/bio-lab/
 start-date: 2015

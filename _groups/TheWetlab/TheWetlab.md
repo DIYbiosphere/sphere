@@ -1,5 +1,6 @@
 ---
 title: The Wet Lab
+subtitle: A San Diego community of citizen and professional scientists in biotechnology
 status: unknown
 start-date: 2013
 website: http://www.sdwetlab.org/

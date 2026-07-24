@@ -1,5 +1,6 @@
 ---
 title: MikroBiomik
+subtitle: A Munich initiative making microbial life accessible through hands-on workshops
 status: active
 website: https://mikrobiomik.org/en
 start-date: 2017

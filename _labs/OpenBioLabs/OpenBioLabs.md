@@ -1,5 +1,6 @@
 ---
 title: Charlottesville Open Bio Labs
+subtitle: Charlottesville's bioscience community center for citizen science education
 status: inactive
 logo: http://openbiolabs.org/wp-content/uploads/2015/04/COBL_web_logo.png
 website: http://openbiolabs.org/

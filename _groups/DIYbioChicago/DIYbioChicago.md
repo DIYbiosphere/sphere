@@ -1,5 +1,6 @@
 ---
 title: DIYbio Chicago
+subtitle: Chicago's original DIYbio discussion group
 start-date: 2008
 end-date: 2011
 status: inactive

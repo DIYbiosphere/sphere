@@ -1,5 +1,6 @@
 ---
 title: Indie Lab
+subtitle: A grassroots science space bringing DIY biology to Richmond, VA
 status: unknown
 website: http://rva.indielab.co/
 start-date: 2012

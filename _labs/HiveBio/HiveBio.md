@@ -1,5 +1,6 @@
 ---
 title: HiveBio
+subtitle: Seattle's DIY biology community lab
 status: inactive
 start-date: 2013
 type-org: community

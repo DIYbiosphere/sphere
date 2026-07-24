@@ -1,5 +1,6 @@
 ---
 title: Biome Hack Lab
+subtitle: A Rennes-based open community practicing biomimicry
 status: unknown
 tags:
 - biomimicry

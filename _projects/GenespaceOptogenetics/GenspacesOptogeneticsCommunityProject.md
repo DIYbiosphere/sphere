@@ -1,6 +1,7 @@
 ---
 draft: true
 title: Genspace's Optogenetics Community Project
+subtitle: Genspace's discontinued optogenetics project exploring light-responsive gene expression
 status: inactive
 hosts:
   - Genspace

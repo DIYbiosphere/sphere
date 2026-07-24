@@ -1,5 +1,6 @@
 ---
 title: Instituto HUB
+subtitle: A Rio de Janeiro nonprofit supporting the local innovation and entrepreneurship ecosystem
 status: unknown
 website: http://ihub.org.br/
 start-date: 2016

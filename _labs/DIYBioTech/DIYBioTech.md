@@ -1,5 +1,6 @@
 ---
 title: DIYbioTech
+subtitle: A DIY biology discussion and collective-experiments group in Longwood, FL
 status: inactive
 tags:
 - makerspace

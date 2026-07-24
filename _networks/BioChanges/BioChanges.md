@@ -1,5 +1,6 @@
 ---
 title: BioChanges BioDesign
+subtitle: An international network of BioDesign startup consultants and educators
 status: inactive
 partners:
   - BioDesign Studios

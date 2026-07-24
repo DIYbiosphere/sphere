@@ -1,5 +1,6 @@
 ---
 title: DIYbio Perth
+subtitle: A Perth community for democratizing biology and biotechnology
 status: unknown
 tags:
 - makerspace

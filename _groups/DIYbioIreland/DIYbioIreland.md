@@ -1,5 +1,6 @@
 ---
 title: DIYbio Ireland
+subtitle: Ireland's early DIYbio discussion community
 status: inactive
 start-date: 2011
 end-date: 2015

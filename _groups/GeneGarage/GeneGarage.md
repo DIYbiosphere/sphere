@@ -1,5 +1,6 @@
 ---
 title: Gene Garage
+subtitle: A Guadalajara community fostering biotech entrepreneurship
 status: inactive
 website:
 start-date: 2015
