@@ -1,7 +1,7 @@
 
 [Avocado Lab]: /docs/tutorials/AvocadoLab/
 [DIYbiosphere]: /projects/diybiosphere/
-[DIYbio.org]: /networks/diybio.org/
+[DIYbio.org]: /networks/diybio-org/
 [Genspace]: /labs/genspace/
 [Biotech Without Borders]: /labs/biotechwithoutborders/
 [BwoB]: /labs/biotechwithoutborders/
