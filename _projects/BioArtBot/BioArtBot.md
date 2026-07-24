@@ -34,7 +34,7 @@ links:
 promotions:
   - button: Join us!
     text: We meet once a week to talk about how to make BioArtBot even better!
-    URL: https://www.meetup.com/Counter-Culture-Labs/events/chcjfsyccfbfb/
+    URL: https://www.meetup.com/Counter-Culture-Labs/
 ---
 
 BioArtBot is a project run out of Counter Culture Labs, a community science lab in Oakland, California. Our goal is to help more people do - and have fun with - science!

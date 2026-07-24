@@ -24,11 +24,6 @@ website: https://www.genspace.org/community-projects
 links:
 - URL: https://www.genspace.org/community-projects
   tooltip: homepage
-promotions:
-  - button: Join Genspace's Optogenetics Community Project!
-    text: Learn how to make multi-colored E. coli
-    URL: https://forms.gle/h5nuy8CwgQ7Mfy187
-    image:
 ---
 
 ### OPTOGENETICS
