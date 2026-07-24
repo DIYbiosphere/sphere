@@ -3,7 +3,7 @@ layout: page
 title: About DIYbio.org
 ---
 
-DIYbio.org is a 501(c)(3) nonprofit dedicated to making biology an accessible pursuit for citizen scientists, amateur biologists, and DIY biological engineers who value openness and safety. That means building mechanisms for amateurs to grow their knowledge and skills, access to a community of experts, a code of ethics, responsible oversight, and leadership on the issues that are unique to doing biology outside of traditional professional settings.
+DIYbio.org is a 501(c)(3) nonprofit founded in 2008 with the mission of establishing a vibrant, productive and safe community of DIY biologists. Central to that mission is the belief that biotechnology, and greater public understanding about it, has the potential to benefit everyone. That means building mechanisms for amateurs to grow their knowledge and skills, access to a community of experts, a code of ethics, responsible oversight, and leadership on the issues that are unique to doing biology outside of traditional professional settings.
 
 [DIYbiosphere] is DIYbio.org's current, active project. This page is about the organization behind it.
 
