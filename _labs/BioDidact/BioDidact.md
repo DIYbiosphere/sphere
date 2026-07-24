@@ -1,5 +1,6 @@
 ---
 title: Biodidact
+subtitle: A research and development community lab for biotechnology education in Los Alamos, NM
 status: unknown
 website: http://biodidact.net/
 start-date: 2014

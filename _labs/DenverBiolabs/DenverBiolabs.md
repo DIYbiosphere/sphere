@@ -1,5 +1,6 @@
 ---
 title: Denver Biolabs
+subtitle: A Denver community of biologists, engineers, and artists exploring synthetic biology
 status: inactive
 website: http://denverbiolabs.com/
 start-date: 2015

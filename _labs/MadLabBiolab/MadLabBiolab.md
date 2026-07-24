@@ -1,5 +1,6 @@
 ---
 title: MadLab Biolab
+subtitle: Manchester Digital Laboratory's community biotechnology program
 status: inactive
 website: https://madlab.org.uk/community-biotechnology/
 start-date:

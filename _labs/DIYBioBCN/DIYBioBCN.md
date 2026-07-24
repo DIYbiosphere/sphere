@@ -1,5 +1,6 @@
 ---
 title: DIY Bio Barcelona
+subtitle: Barcelona's DIY biology community lab, based at Hangar
 status: unknown
 website: http://www.diybcn.org/
 start-date: 2014

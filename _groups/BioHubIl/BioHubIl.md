@@ -1,5 +1,6 @@
 ---
 title: BioHubIl
+subtitle: A nonprofit establishing a public community biology lab in Tel Aviv
 status: inactive
 website:
 start-date: 2015

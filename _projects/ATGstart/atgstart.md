@@ -1,6 +1,7 @@
 ---
 draft: true
 title: ATGStart
+subtitle: A curated collection of DIYbio articles and news from Belgium
 status: active
 type-org: news
 address:

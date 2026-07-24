@@ -1,5 +1,6 @@
 ---
 title: DIYbio Mexico
+subtitle: A Mexican initiative promoting open access to biotechnology and the life sciences
 status: unknown
 website:
 start-date:

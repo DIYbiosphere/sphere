@@ -1,5 +1,6 @@
 ---
 title: London Biohackspace
+subtitle: A community molecular biology and microbiology lab at London Hackspace
 status: inactive
 tags:
 - hackerspace

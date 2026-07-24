@@ -1,5 +1,6 @@
 ---
 title: Open Science Network
+subtitle: Vancouver's first community biolab for citizen science
 status: unknown
 tags:
   - makerspace

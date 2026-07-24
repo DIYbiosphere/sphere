@@ -1,5 +1,6 @@
 ---
 title: MN DIYbio
+subtitle: Minnesota's community of DIY biotech innovators and tinkerers
 status: unknown
 manager:
 mott: The Minnesota Biology Group

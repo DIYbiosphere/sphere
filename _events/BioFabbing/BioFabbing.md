@@ -1,5 +1,6 @@
 ---
 title: BioFabbing Convergence
+subtitle: A 2017 CERN-hosted convergence on biohacking and DIY biology
 status: inactive
 website: http://citizensciences.net/biofabbing/
 start-date: 2017-05-10

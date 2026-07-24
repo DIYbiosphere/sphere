@@ -1,5 +1,6 @@
 ---
 title: DIYbio Chicago
+subtitle: A Chicago group exploring self-experimentation and biohacking techniques
 status: inactive
 start-date: 2013
 type-org: community

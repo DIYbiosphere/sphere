@@ -1,5 +1,6 @@
 ---
 title: Biodesign for the Real World
+subtitle: A collaborative EPFL/Hackuarium project designing biotech solutions for water quality
 status: unknown
 logo: https://filopodia.files.wordpress.com/2013/10/cropped-biodesign-logo-green.png
 website: https://biodesign.cc/

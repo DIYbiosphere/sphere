@@ -1,5 +1,6 @@
 ---
 title: Singularity
+subtitle: An independent Mexican collective building open-source tech for community impact
 status: active
 start-date: 2023
 type-org: group

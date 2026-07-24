@@ -1,6 +1,7 @@
 ---
 draft: true
 title: Genspace's Open Plant Community Project
+subtitle: Genspace's ongoing project exploring plant biology and gene-editing with liverworts
 status: active
 hosts:
   - Genspace

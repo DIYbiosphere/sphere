@@ -1,5 +1,6 @@
 ---
 title: Berkley Biolabs
+subtitle: A biotech incubator accelerating scientific innovation and entrepreneurship in Berkeley, CA
 status: unknown
 website: http://www.berkeleybiolabs.com/
 start-date: 2013

@@ -1,5 +1,6 @@
 ---
 title: Cap City Biohackers
+subtitle: Ohio's first DIYbio group, building community science in Columbus
 status: unknown
 website: http://www.capcitybiohackers.org/
 start-date: 2015

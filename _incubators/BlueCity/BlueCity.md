@@ -1,5 +1,6 @@
 ---
 title: Blue City Lab
+subtitle: A circular-economy innovation hub and startup incubator in Rotterdam
 status: active
 website: http://www.bluecity.nl/
 start-date: 2017

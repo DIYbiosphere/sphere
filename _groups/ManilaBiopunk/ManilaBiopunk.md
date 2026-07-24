@@ -1,5 +1,6 @@
 ---
 title: Manila Biopunk
+subtitle: A Filipino community making biology and biotech education accessible
 status: inactive
 website: http://www.manilabiopunk.org/
 start-date: 2014

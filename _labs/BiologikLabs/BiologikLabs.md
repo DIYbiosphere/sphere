@@ -1,5 +1,6 @@
 ---
 title: Biologik Labs
+subtitle: A community bio-hackerspace for synthetic biology research in Norfolk, Virginia
 status: unknown
 website: http://www.biologiklabs.org/
 start-date: 2013

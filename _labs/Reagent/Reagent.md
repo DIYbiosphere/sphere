@@ -1,5 +1,6 @@
 ---
 title: ReaGent
+subtitle: An open community biolab for citizen scientists in Ghent, Belgium
 status: inactive
 website: http://reagentlab.org/
 start-date: 2015

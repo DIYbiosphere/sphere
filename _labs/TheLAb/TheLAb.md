@@ -1,5 +1,6 @@
 ---
 title: The LAb
+subtitle: A Los Angeles community lab making science accessible through open equipment and workspace
 logo: http://www.thel4b.com/wp-content/uploads/2015/07/thel4b_name1.png
 website: http://www.thel4b.com/
 start-date: 2011

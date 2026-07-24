@@ -1,5 +1,6 @@
 ---
 title: BioNyfiken
+subtitle: A chartered nonprofit uniting Sweden's biohackers and DIY biologists
 status: inactive
 website: http://www.bionyfiken.se/
 start-date: 2014

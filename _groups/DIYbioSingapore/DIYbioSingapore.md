@@ -1,5 +1,6 @@
 ---
 title: DIYbio Singapore
+subtitle: Singapore's DIY biology community
 status: unknown
 website: https://diybiosingapore.wordpress.com/
 start-date: 2010
