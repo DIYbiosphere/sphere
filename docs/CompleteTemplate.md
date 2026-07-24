@@ -28,8 +28,9 @@ _geoloc: # Geolocation coordinates for mapping
 #LINKS. Check the Writing Guide for all the brand icons available
 website: # URL to main external website
 email: # email
-twitter: # Twitter URL
+twitter: # Twitter/X URL
 facebook: # Facebook URL
+instagram: # Instagram URL
 links:
   - URL: # URL to external link
     tooltip: # when mouse hovers, what the pop over tool tip will say

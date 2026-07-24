@@ -7,8 +7,9 @@ type-org: #REPLACE_with_type_of_legal_or_social_organization:_'community',_'comp
 address: #REPLACE_with_street_name_and_number_in_english
 city: #REPLACE_with_city_name_in_english
 country: #REPLACE_with_country_name_in_english
-twitter: #REPLACE_with_twitter_URL
+twitter: #REPLACE_with_twitter/X_URL
 facebook: #REPLACE_with_facebook_URL
+instagram: #REPLACE_with_instagram_URL
 tags:
   - #REPLACE_with_a_tag
   - #REPLACE_with_more_tags
