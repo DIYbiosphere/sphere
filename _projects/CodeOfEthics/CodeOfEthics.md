@@ -1,13 +1,22 @@
 ---
-layout: page
-title: Code of Ethics
+title: DIYbio Code of Ethics
+status: active
+subtitle: The movement's founding governance documents, drafted at two 2011 congresses
+start-date: 2011
+type-org: community
+hosts:
+  - DIYbio.org
+tags:
+  - ethics
+  - governance
+  - DIYbio
 ---
 
 In 2011, DIYbio.org organized two congresses — bringing together individuals and delegates from regional DIYbio groups — to draft an aspirational code of ethics for the movement.
 
 In May 2011, delegates from across Europe (Denmark, England, France, Germany, and Ireland) met at the London School of Economics' BIOS Centre. In July 2011, a second congress in San Francisco brought together participants from North American regional groups, including ARC (Houston), BioBridge (San Francisco), BioCurious (Mountain View), BOSSLab (Boston), Genspace (Brooklyn), and LA Biohackers (Los Angeles).
 
-Both congresses produced a draft code. Neither has been formally revised since 2011; they're preserved here as the movement's founding governance documents, adopt, adapt, and remix your own.
+Both congresses produced a draft code. Neither has been formally revised since 2011; they're preserved here as the movement's founding governance documents — adopt, adapt, and remix your own.
 
 ## North American Congress (July 2011)
 

@@ -25,7 +25,7 @@
 [code of conduct]: /about/code-of-conduct "Our code of conduct"
 [about diybio.org]: /about/diybio-org "About DIYbio.org, the nonprofit behind DIYbiosphere"
 [diybiosphere project page]: /about/diybiosphere-project "About the DIYbiosphere project, including its origin story"
-[code of ethics]: /about/code-of-ethics "DIYbio.org's 2011 codes of ethics"
+[code of ethics]: /projects/codeofethics "DIYbio.org's 2011 codes of ethics"
 [ask a biosafety expert]: /projects/askabiosafetyexpert "DIYbio.org's volunteer biosafety Q&A program (inactive)"
 [support us]: /about/support-us "Ways to support DIYbiosphere and DIYbio.org"
 
