@@ -113,8 +113,12 @@ ADDING A NEW
 
     {% if page.twitter %}
     <a class="noelink" href="{{ page.twitter }}" target="_blank">
-      <span data-tooltip="Twitter" data-variation="mini" data-inverted="">
-        <i class="fab fa-twitter"></i>
+      <span data-tooltip="X (Twitter)" data-variation="mini" data-inverted="">
+        <!-- Inline SVG rather than a fontawesome-all.js icon class: the vendored
+             FontAwesome kit predates the 2023 rebrand and has no X glyph, and
+             this repo's kit is old enough (Pro 5.0.4) that swapping it wholesale
+             risks breaking other icons already in use. Official X logo path. -->
+        <svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" style="vertical-align: -0.125em;" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
       </span>
     </a>
     {% endif %}
@@ -178,7 +182,7 @@ ADDING A NEW
     {% if page.basecamp %}
     <a class="noelink" href="{{ page.basecamp }}" target="_blank">
       <span data-tooltip="Basecamp" data-variation="mini" data-inverted="">
-        <i class="fab fa-twitter"></i>
+        <i class="fas fa-tasks"></i>
       </span>
     </a>
     {% endif %}
