@@ -12,10 +12,6 @@ country: United States
 _geoloc:
   lat: 37.835233
   lng: -122.264195
-promotions:
-  - button: Join List
-    text: Get notified about the next meeting.
-    URL: http://tinyurl.com/kombuchamailinglist
 mailing-list: https://groups.google.com/forum/#!forum/kombuchagenomics
 tags:
   - metagenomics
