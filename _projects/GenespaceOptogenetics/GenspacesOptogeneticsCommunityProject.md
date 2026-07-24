@@ -6,7 +6,6 @@ hosts:
   - Genspace
 type-org: Project
 address: 132 32nd Street, ,  
-directions: Room #108 (Genspace)
 postcode: 11232
 city: Brooklyn
 state: NY
