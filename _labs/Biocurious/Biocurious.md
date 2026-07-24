@@ -47,13 +47,13 @@ Countless other people helped BioCurious get off the ground in those early days,
 
 ## Projects
 We also do projects for the community to enable people to join, learn and make an impact locally: 
-- Real Vegan Cheese: https://realvegancheese.org/
-- The Cuttlefish Project:  https://biocuriousdiylab.gitbooks.io/cuttlefishwranglin/
+- [Real Vegan Cheese](https://realvegancheese.org/)
+- [The Cuttlefish Project](https://biocuriousdiylab.gitbooks.io/cuttlefishwranglin/)
 - Lab on a Chip
-- The 3d BioPrinter: http://biocurious.org/projects/bioprinter/
+- The 3d BioPrinter
 
 ## Events
-All of our classes and events can be found on our meetup page: https://www.meetup.com/BioCurious/
+All of our classes and events can be found on our [meetup page](https://www.meetup.com/BioCurious/).
 
 ## Startups
 BioCurious has played host for many startups. We have strived to provide them with the initial resources they need to 
@@ -61,30 +61,29 @@ build their dreams.
 
 - 9th Dimension Biotech, Inc. salt and drought resistant olive plants engineered for sustainability.
 - Alexcel Industries LLC
-- Amid Biosciences http://amidbiosciences.com/
-- Apheleia Diagnostics --> Now Mammoth Diagnostics: http://www.mammothdiagnostics.com/
-- Ariviya: http://ariviya.com/
+- [Amid Biosciences](http://amidbiosciences.com/)
+- Apheleia Diagnostics --> Now [Mammoth Diagnostics](https://mammoth.bio/)
+- [Ariviya](http://ariviya.com/)
 - Aromatix Inc
-- BillionToOne: https://www.billiontoone.com/
+- [BillionToOne](https://www.billiontoone.com/)
 - Biomagnetics
-- Boolean Biotech: http://blog.booleanbiotech.com/
+- [Boolean Biotech](http://blog.booleanbiotech.com/)
 - CAGE Biosciences
 - Caromtech
-- Chronomed Inc.: http://www.chronomed.com
-- Esper Therapeutics, Inc.: http://www.espertherapeutics.com
-- Etalon Diagnostics: http://www.etalondx.com/
+- Chronomed Inc.
+- Esper Therapeutics, Inc.
+- Etalon Diagnostics
 - Ex Technology LLC
-- Folia water: https://www.foliawater.com/
-- Microsynbiotix: https://www.microsynbiotix.com/
-- Nernst Engineering: http://nernst.net/
-- Pegware: https://www.pegware.com/
-- Proxeom: http://www.proxeom.com/
-- Quantgene Inc.: http://www.quantgene.com/
-- SE3D: https://www.se3d.com/
-- The ODIN: http://www.the-odin.com/
-- The Space Research: Company https://tsrco.com/
+- Folia water
+- Microsynbiotix
+- [Nernst Engineering](http://nernst.net/)
+- Pegware
+- Proxeom
+- Quantgene Inc.
+- SE3D
+- [The ODIN](http://www.the-odin.com/)
+- [The Space Research Company](https://tsrco.com/)
 - Troner Technologies
 - Vision Infinitas
-- X Gen: http://www.x-gen.us/
-- Xpedite Pharma Solutions: http://www.xpeditepharmasolutions.com/
-- Mammoth Bio: http://www.mammothdiagnostics.com/
+- X Gen
+- Xpedite Pharma Solutions
