@@ -24,5 +24,5 @@ The logo takes the earth sphere with a magnifying glass on the right bottom corn
 The colors scheme is kept at a minimal, using mainly white, grey, black and blue.
 
 ### Semantic-UI Library
-We use [Semantic-UI][semantic] as the UI framework because it is simple to code.
+We use [Semantic-UI](https://semantic-ui.com/) as the UI framework because it is simple to code.
 The framework has been modified from the default theme. Modifying both the `variables` and `override` documents of the src elements

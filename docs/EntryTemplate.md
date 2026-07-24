@@ -15,5 +15,4 @@ tags:
   - #REPLACE_with_more_tags
 ---
 
-Markdown_guide:
-https://guides.github.com/features/mastering-markdown/
+Markdown guide: [guides.github.com/features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)
