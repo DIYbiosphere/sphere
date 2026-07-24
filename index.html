@@ -23,58 +23,32 @@ layout: landing
     <img class="ui image owl-img" src="/projects/diybiosphere/header.jpg">
   </div>
 
+  <!-- Pinned promotions render right after the intro slide, so they're visible without waiting for the carousel to rotate. -->
   {% for files in site.collections %}
     {% assign entries=files.docs %}
      {% for entry in entries %}
       {% if entry.promotions %}
        {% for promotion in entry.promotions %}
         {% if promotion.image or entry.header %}
-          <div class="ui image">
-           <div class="ui active inverted dimmer">
-             <div class="content">
-               <div class="center">
-                 <div class="ui basic blurring segment">
-                   <a href="{{ entry.url }}">
-                     <div class="ui header promotion">
-                       <div class="ui inverted header">
-                         <h1 class="ui big inverted header">{{ entry.title }}</h1>
-                         <h3 class="ui medium inverted header">
-                           {{entry.collection | capitalize | append: '%' | remove: 's%' }}
-                             {% if entry.hostsExist %}
-                              {% if entry.project %}
-                              by
-                              {% else %}
-                              at
-                              {% endif %}
-                              {{entry.hostsSentence}}
-                             {% endif %}
-                             {% if entry.city %}
-                              in {{entry.city}},
-                             {% else %}
-                               {% if entry.country %}
-                                in
-                               {% endif %}
-                             {% endif %}
-                             {% if entry.country %}
-                              {{entry.country}}
-                             {% endif %}
-                         </h3>
-                       </div>
-                      </div>
-                   </a>
-                   <h3 class="ui big inverted header">{{promotion.text | markdownify | replace: '<p>', '' | replace: '</p>', ''}}</h3>
-                   <a href="{{ promotion.URL }}"><button class="ui large blue button">{{promotion.button | markdownify }}</button></a>
-                </div>
-               </div>
-             </div>
-           </div>
-           {% if promotion.image %}
-            <img class="ui image owl-img" src="{{ promotion.image }}">
-           {% else %}
-            <img class="ui image owl-img" src="{{ entry.header }}">
-           {% endif %}
-         </div>
+         {% if promotion.pinned %}
+          {% include carousel-slide.html entry=entry promotion=promotion %}
          {% endif %}
+        {% endif %}
+      {% endfor %}
+     {% endif %}
+    {% endfor %}
+  {% endfor %}
+
+  {% for files in site.collections %}
+    {% assign entries=files.docs %}
+     {% for entry in entries %}
+      {% if entry.promotions %}
+       {% for promotion in entry.promotions %}
+        {% if promotion.image or entry.header %}
+         {% unless promotion.pinned %}
+          {% include carousel-slide.html entry=entry promotion=promotion %}
+         {% endunless %}
+        {% endif %}
       {% endfor %}
      {% endif %}
     {% endfor %}

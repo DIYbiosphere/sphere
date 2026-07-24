@@ -1,0 +1,45 @@
+<div class="ui image">
+ <div class="ui active inverted dimmer">
+   <div class="content">
+     <div class="center">
+       <div class="ui basic blurring segment">
+         <a href="{{ include.entry.url }}">
+           <div class="ui header promotion">
+             <div class="ui inverted header">
+               <h1 class="ui big inverted header">{{ include.entry.title }}</h1>
+               <h3 class="ui medium inverted header">
+                 {{include.entry.collection | capitalize | append: '%' | remove: 's%' }}
+                   {% if include.entry.hostsExist %}
+                    {% if include.entry.project %}
+                    by
+                    {% else %}
+                    at
+                    {% endif %}
+                    {{include.entry.hostsSentence}}
+                   {% endif %}
+                   {% if include.entry.city %}
+                    in {{include.entry.city}},
+                   {% else %}
+                     {% if include.entry.country %}
+                      in
+                     {% endif %}
+                   {% endif %}
+                   {% if include.entry.country %}
+                    {{include.entry.country}}
+                   {% endif %}
+               </h3>
+             </div>
+            </div>
+         </a>
+         <h3 class="ui big inverted header">{{include.promotion.text | markdownify | replace: '<p>', '' | replace: '</p>', ''}}</h3>
+         <a href="{{ include.promotion.URL }}"><button class="ui large blue button">{{include.promotion.button | markdownify }}</button></a>
+      </div>
+     </div>
+   </div>
+ </div>
+ {% if include.promotion.image %}
+  <img class="ui image owl-img" src="{{ include.promotion.image }}">
+ {% else %}
+  <img class="ui image owl-img" src="{{ include.entry.header }}">
+ {% endif %}
+</div>
