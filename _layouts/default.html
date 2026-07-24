@@ -15,7 +15,9 @@
         algolia: {
           appId: '{{ site.algolia.application_id }}',
           indexName: '{{ site.algolia.index_name }}',
-          apiKey: '{{ site.algolia.search_only_api_key }}'
+          apiKey: '{{ site.algolia.search_only_api_key }}',
+          highlightPreTag: {{ site.algolia.highlightPreTag | jsonify }},
+          highlightPostTag: {{ site.algolia.highlightPostTag | jsonify }}
         }
       };
     </script>
