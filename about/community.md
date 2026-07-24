@@ -9,6 +9,8 @@ As an open source project, anyone can freely contribute to DIYbiosphere! Only a 
 - Mac Cowell - @100ideas
 - @danwchan
 
+See the full [contributors] list on GitHub for everyone who's helped build DIYbiosphere over the years.
+
 DIYbiosphere's original vision is credited to Gabriela A. Sanchez, who is no longer involved in the project day-to-day. Read more on the [diybiosphere project page].
 
 ## How to join

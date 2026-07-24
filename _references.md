@@ -15,6 +15,7 @@
 [sphere]: http://sphere.diybio.org "DIYbiosphere"
 [DIYbiosphere Organization]: https://github.com/DIYbiosphere "DIYbiosphere GitHub organization"
 [issues]: https://github.com/DIYbiosphere/sphere/issues "Sphere GitHub Issues"
+[contributors]: https://github.com/DIYbiosphere/sphere/graphs/contributors?all=1 "Full list of DIYbiosphere contributors on GitHub"
 [new issue]: https://github.com/DIYbiosphere/sphere/issues/new "Create a new issue"
 
 [development community]: /about/community "About our community"
