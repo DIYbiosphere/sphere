@@ -1,0 +1,36 @@
+---
+layout: page
+title: About DIYbio.org
+---
+
+DIYbio.org is a 501(c)(3) nonprofit dedicated to making biology an accessible pursuit for citizen scientists, amateur biologists, and DIY biological engineers who value openness and safety. That means building mechanisms for amateurs to grow their knowledge and skills, access to a community of experts, a code of ethics, responsible oversight, and leadership on the issues that are unique to doing biology outside of traditional professional settings.
+
+[DIYbiosphere] is DIYbio.org's current, active project. This page is about the organization behind it.
+
+## How it started
+
+DIYbio.org traces back to a single meeting: on May 24, 2008, in the back room of a Cambridge pub, roughly 25 people gathered to ask whether molecular biology could be a hobby — "Can DIYbio.org be the Homebrew Computer Club of biology?" A dozen graduate students, several software engineers, a journalist, a few Harvard and MIT professors, and one teenager who came with his software-engineer father sat through a night of pub chatter to talk about backyard DNA extraction, $10 PCR machines, and whether amateurs could ever meaningfully contribute to biological engineering.
+
+The essays that followed over the next two years still hold up as a statement of why the organization exists. Jason Bobe, in [Science without Scientists](https://diybio.org/2008/08/22/science-without-scientists/) (2008), predicted "a renaissance in science" taking place "outside of 'science proper'... funded out-of-pocket by enthusiasts without PhDs." A year later, in [The Bigger Picture: Domesticating Biotechnology](https://diybio.org/2009/11/17/domesticating-biotechnology/), the framing sharpened: DIYbio's role wasn't just building tools for amateurs, but slowly proving that "the cultural barriers to practice science... are imaginary," building a familiarity with biotechnology the way musicianship or cooking is familiar. MIT anthropologist Sophia Roosth, presenting her own research on the movement, put it as a shift from institutionally-sanctioned "Knowing" to domestic "Making" — "think of the personal computing revolution, but for biology."
+
+That vision was tested almost immediately. In April 2009, [iGEM closed its doors to amateur teams](https://diybio.org/2009/04/10/igem-closes-doors-to-amateurs/), citing safety liability with no formal framework for teams working outside institutional labs. Rather than treat this as a setback, the community read it as the actual work: organizing a safety working group, and a symposium to bring the community together and "present a collective snapshot of their work... to the world." That thread ran through [Outlaw Biology](https://diybio.org/2010/01/29/outlaw-biology-at-ucla-symposium/), a January 2010 UCLA symposium where biologist Roger Brent offered a number that's stuck ever since: roughly 300 people had hacked DNA by the time of the 1975 Asilomar conference on recombinant DNA; by 2010, more than 350,000 had. "The locus of technology is not hardware," he said. "It's the people."
+
+By late 2010 the movement was substantial enough to argue with itself in public, in good essays: Daniel Grushkin (later a Genspace co-founder) interrogated the term ["biohacker"](https://diybio.org/2010/11/04/whither-biohackers/) and the power-reversal fantasy embedded in it; Todd Kuiken of the Woodrow Wilson Center wrote about [engaging regulators](https://diybio.org/2010/11/05/diybio-and-the-man/) — the FBI, the EPA — as partners rather than adversaries; and two guest essays from Charlie Schick made the case for [fermentation as practical microbiology](https://diybio.org/2010/11/22/i-brew-therefore-i-am/) and asked hard, still-unresolved questions about [who owns a microbial strain](https://diybio.org/2010/12/07/piracy-in-the-age-of-diybio/) pulled from a commercial yogurt.
+
+In 2011, DIYbio.org organized congresses in London and San Francisco, bringing together regional groups — ARC, BioCurious, BOSSLab, Genspace, LA Biohackers, and delegates from five European countries — to draft the movement's first codes of ethics. Read them on the [Code of Ethics] page.
+
+The organization partnered with the Woodrow Wilson Center's Synthetic Biology Project, funded by the Alfred P. Sloan Foundation, to run [Ask a Biosafety Expert], a free volunteer Q&A service for the DIYbio community — see its entry for the full history.
+
+By 2018, the community's activity had outgrown a single WordPress page of local groups. DIYbio.org launched [DIYbiosphere] as an open, GitHub-based successor — read that story on the [DIYbiosphere project page].
+
+## Nonprofit status
+
+DIYbio.org is a registered 501(c)(3) nonprofit corporation (Federal EIN: 45-4471203). Donations support DIYbiosphere and the organization's other work — see [Support Us][support us] to contribute.
+
+## In the press
+
+DIYbio.org and the broader movement it helped organize drew coverage starting in 2008, including *The Boston Globe*, *Seed Magazine*, *The Atlantic*, *New Scientist*, an AP wire story picked up by outlets including *Forbes* and *Wired*, and a segment on PBS's *NewsHour with Jim Lehrer*. Many of the original links have since rotted; the citations are preserved in the historical archive referenced below.
+
+## The full archive
+
+DIYbio.org ran an active blog from 2008 through 2018, documenting the movement's early history alongside a decade of meetup announcements and event listings. The genuinely substantive material — the essays excerpted above, the founding governance documents, safety resources — has been migrated into this site. The complete original archive, including material not carried forward here, is preserved separately for reference.
