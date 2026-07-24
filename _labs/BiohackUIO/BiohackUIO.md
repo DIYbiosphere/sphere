@@ -57,7 +57,7 @@ tags:
 promotions:
   - text: Hands-on microbiology course series—private certification and lab work.
     button: Learn More
-    URL: https://biohackuio.com/services
+    URL: https://biohackuio.com/servicios-biohack/
     image: https://biohackuio.com/wp-content/uploads/2024/09/3.png
 ---
 

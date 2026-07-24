@@ -1,7 +1,7 @@
 ---
 draft: true
 title: Genspace's Open Plant Community Project
-status: unknown
+status: active
 hosts:
   - DIYbiosphere
 partners:
@@ -30,14 +30,14 @@ links:
 promotions:
   - button: Join Genspace NYC's Open Plant Project!
     text: Want to learn about gene-editing and plant biology?
-    URL: https://forms.gle/h5nuy8CwgQ7Mfy187
+    URL: https://airtable.com/appOiq4a6LNX7HiQW/pag9Odc96o6aeLW6S/form
     image:
 ---
 
-### OPTOGENETICS
+### OPEN PLANT
 
-Optogenetics is a genetic tool to make cells responsive to light. In some cases it has been used to heal blindness, and in others it has been used to manipulate and understand animal behavior by switching on and off neurons in the brain. In synthetic biology, optogenetics is increasingly used to induce expression of desired genes in bacteria and yeast. Optogenetic systems are easy to assemble and control within cell cultures.
+The Open Plant Collaboration explores plant biology and gene-editing using the liverwort *Marchantia polymorpha*, a model organism for plant synthetic biology, to generate complex proteins.
 
 **Project Description:**
 
-Group members will start exploring by constructing optogenetic systems that display colors as outputs. Once we learn the system we can harness optogenetics to control gene expression in 2-D using different combinations of red, green, and blue light. Some potential results might be bacterial photographs, patterned biomaterials, and inducible control of useful enzymes like Taq polymerase. The project will provide a fantastic learning experience and an introduction to cutting edge synthetic biology techniques for controlling living systems.
+Group members learn plant tissue culture and genetic engineering techniques, applying them to liverworts as an accessible model system for exploring how plants can be engineered to produce useful compounds. The project is part of Genspace's ongoing slate of community projects, open to members interested in plant biology, gene-editing, and citizen science.
