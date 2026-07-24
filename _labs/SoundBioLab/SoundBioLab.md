@@ -3,6 +3,11 @@ title: SoundBio Lab
 status: active
 subtitle: Seattle's Biology Makerspace
 website: https://sound.bio/
+promotions:
+  - button: Take a Class
+    text: SoundBio Lab is Seattle's biology makerspace — hands-on STEAM workshops and open lab access for ages 12 through adult, right in the University District.
+    URL: https://www.sound.bio/workshops
+    image: https://images.squarespace-cdn.com/content/v1/5864b03f44024334881622a8/cafb6662-e450-4cce-811f-0729f2180eac/Strawberry+DNA+Extraction+Workshop+at+SoundBio+Lab.webp
 start-date: 2016
 type-org: community
 address: 1100 Northeast 47th Street
