@@ -18,6 +18,7 @@ The documentation is meant primarily for contributors; whether you are just writ
 - **Guides** reference manuals
   - [Contributing Guide]
   - [Writing Guide]
+  - [Biosafety Resources]
 - **Tutorials** step-by-step instructions
   - [Adding an entry][add]
   - [Editing an entry][edit]

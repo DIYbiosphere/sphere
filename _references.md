@@ -23,6 +23,10 @@
 [terms of use]: /about/terms-of-use "Our terms of use"
 [contributor terms]: /about/contributor-terms "Our contributor terms"
 [code of conduct]: /about/code-of-conduct "Our code of conduct"
+[about diybio.org]: /about/diybio-org "About DIYbio.org, the nonprofit behind DIYbiosphere"
+[diybiosphere project page]: /about/diybiosphere-project "About the DIYbiosphere project, including its origin story"
+[code of ethics]: /about/code-of-ethics "DIYbio.org's 2011 codes of ethics"
+[support us]: /about/support-us "Ways to support DIYbiosphere and DIYbio.org"
 
 [overview]: /docs/introduction/overview "Overview of DIYbiosphere"
 [getting started]: /docs/introduction/getting-started "Getting started in DIYbiosphere"
@@ -32,6 +36,7 @@
 [documentation]: /docs/basics/documentation
 [design]: /docs/basics/design
 [contributing guide]: /docs/guides/contributing
+[biosafety resources]: /docs/guides/biosafety "Biosafety resources for DIY biologists"
 [join]: /about/community/#how-to-join
 [writing guide]: /docs/guides/writing
 [add]: /docs/tutorials/add-entry "How to add an entry"
