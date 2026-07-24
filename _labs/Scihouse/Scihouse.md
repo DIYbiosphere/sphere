@@ -3,8 +3,6 @@ draft: true
 title: Scihouse
 subtitle: Moving biotechnology forward for the common good
 status: unknown
-hosts:
-  - DIYbiosphere
 type-org:
 address:  2920 E Jefferson Blvd
 directions:

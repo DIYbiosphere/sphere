@@ -4,8 +4,6 @@ title: Just One Giant Lab (JOGL.io)
 status: active
 subtitle:
 start-date: 2018
-hosts:
-  - DIYbiosphere
 partners:
 type-org: Other
 address: 8 bis Rue Charles V, 75004

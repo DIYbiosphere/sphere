@@ -2,8 +2,6 @@
 draft: true
 title: ATGStart
 status: active
-hosts:
-  - DIYbiosphere
 type-org: news
 address:
 directions:

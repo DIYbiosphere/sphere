@@ -3,8 +3,6 @@ draft: true
 title: iBiology
 subtitle: Bringing the World's Best Biology to You
 status: active
-hosts:
-  - DIYbiosphere
 type-org: Eduction
 tags:
   - educational

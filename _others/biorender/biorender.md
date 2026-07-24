@@ -4,8 +4,6 @@ title: Biorender
 subtitle: Create Professional Science Figures in Minutes
 status: active
 start-date: 2021
-hosts:
-  - DIYbiosphere
 type-org:
 address: 639 Queen Street West
 postcode: M5V 2B7

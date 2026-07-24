@@ -3,9 +3,7 @@ draft: true
 title: Genspace's Open Plant Community Project
 status: active
 hosts:
-  - DIYbiosphere
-partners:
-  - '[Genspace]()'
+  - Genspace
 type-org: Project
 address: 132 32nd St  
 directions: Room #108 (Genspace)

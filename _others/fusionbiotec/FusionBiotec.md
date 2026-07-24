@@ -4,8 +4,6 @@ title: Fusion Biotec
 status: inactive
 subtitle:
 start-date: 2016
-hosts:
-  - DIYbiosphere
 partners:
   -
 type-org: Research and development

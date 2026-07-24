@@ -4,8 +4,6 @@ title: DIYbio Toronto
 status: active
 subtitle: Toronto's Bio-Enthusiast group. Everyone's welcome!
 start-date: 2013
-hosts:
-  - DIYbiosphere # Exact `title: `of DIYbiosphere
 partners:
   - '[Hacklab TO](https://hacklab.to/)]'
 type-org: Lab #community

@@ -4,8 +4,6 @@ title: Baltimore Underground Science Space (BUGSS)
 status: active
 subtitle: A place for creative biology
 start-date: 2012
-hosts:
-  - DIYbiosphere
 type-org: Lab
 address: 101 N Haven St, Suite 105
 directions: Located in the King, Cork, and Seal building off of the smaller gated parking lot at the north end of the building.

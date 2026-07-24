@@ -3,9 +3,7 @@ draft: true
 title: Genspace's Optogenetics Community Project
 status: inactive
 hosts:
-  - DIYbiosphere
-partners:
-  - '[Genspace]()'
+  - Genspace
 type-org: Project
 address: 132 32nd Street, ,  
 directions: Room #108 (Genspace)

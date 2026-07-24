@@ -4,8 +4,6 @@ title: BioArtBot
 status: unknown
 subtitle: Make BioArt with Robots!
 start-date: 2019
-hosts:
-  - DIYbiosphere
 partners:
   - '[Counter Culture Labs]()'
 type-org: Project
