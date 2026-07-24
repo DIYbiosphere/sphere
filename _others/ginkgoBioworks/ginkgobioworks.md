@@ -10,7 +10,7 @@ address: 27 Drydock Ave 8th Floor,
 postcode: 02210
 city: Boston
 state: MA
-country: USA
+country: United States
 _geoloc:
   lat: 42.34457463701391
   lng: -71.02792682033841

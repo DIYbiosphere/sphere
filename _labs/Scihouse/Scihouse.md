@@ -11,7 +11,7 @@ directions:
 postcode: 46615
 city: South Bend
 state: Indiana
-country: USA
+country: United States
 _geoloc:
   lat: 41.67281164363795
   lng: -86.20607662155541

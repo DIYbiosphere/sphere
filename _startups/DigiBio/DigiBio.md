@@ -6,7 +6,7 @@ website: http://digi.bio/
 start-date: 2017
 type-org: Company/Start-up
 city: Amsterdam
-country: The Netherlands
+country: Netherlands
 twitter: https://twitter.com/digi_bio
 facebook: https://www.facebook.com/digi.bio.dmf/
 tags:

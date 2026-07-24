@@ -11,7 +11,7 @@ address: 639 Queen Street West
 postcode: M5V 2B7
 city: Toronto
 state: Ontario
-country: Candada
+country: Canada
 _geoloc:
   lat: 43.64729252657655
   lng: -79.40331433696059

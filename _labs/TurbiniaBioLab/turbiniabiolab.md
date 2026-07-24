@@ -11,7 +11,8 @@ start-date: 2018-09-14
 type-org: Citizen
 postcode: NE5
 city: Newcastle
-country: England
+state: England
+country: United Kingdom
 _geoloc:
   lat: -1.61695
   lng: 54.965791 

@@ -14,7 +14,7 @@ directions: Suite 400
 postcode: 92866
 city: Orange
 state: CA
-country: USA
+country: United States
 _geoloc:
   lat: 33.787083908628695
   lng: -117.85716430707583

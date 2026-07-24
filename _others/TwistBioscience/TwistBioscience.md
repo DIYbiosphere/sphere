@@ -12,7 +12,7 @@ directions:
 postcode: 94080
 city: South San Francisco
 state: CA
-country: USA
+country: United States
 _geoloc:
   lat: 37.659631955052085
   lng: -122.39889036851447

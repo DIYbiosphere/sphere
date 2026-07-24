@@ -5,8 +5,8 @@ subtitle: A Training Bootcamp Based On The Oxford Nanopore MinION
 website: http://porecamp.github.io/
 start-date: 2015
 type-org:
-city:
-country: USA
+city: Vancouver
+country: Canada
 twitter:
 facebook:
 tags:

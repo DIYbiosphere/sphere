@@ -7,7 +7,7 @@ start-date: 2014
 type-org: company
 address: Corner of Keeton's and Collett Road, 3Space, Bermondsey, SE16 4EE
 city: London
-country: UK
+country: United Kingdom
 twitter: https://www.twitter.com/theBentoLab
 facebook: https://www.facebook.com/theBentoLab
 tags:
