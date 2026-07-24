@@ -162,7 +162,7 @@ sass:
 algolia:
   application_id: 'ITI5JHZJM9'
   index_name: 'diybiosphere'
-  search_only_api_key: '0fb96795a4020d51c6d000ecd08c6166'
+  search_only_api_key: <%= ENV['ALGOLIA_SEARCH_ONLY_API_KEY'] %>
   indexing_batch_size: 100
   nodes_to_index: 'p,blockquote,li'
   files_to_exclude:
