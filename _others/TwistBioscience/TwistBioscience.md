@@ -4,8 +4,6 @@ title: Twist Bioscience
 subtitle: DNA Production
 status: active
 start-date: 2021
-hosts:
-  - DIYbiosphere
 type-org:
 address: 681 Gateway Blvd
 directions:

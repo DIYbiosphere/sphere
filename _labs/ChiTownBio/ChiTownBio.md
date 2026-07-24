@@ -4,8 +4,6 @@ title: ChiTownBio
 status: active
 subtitle: Chicago's first community biolab
 start-date: 2017
-hosts:
-  - DIYbiosphere
 type-org: Lab
 city: Chicago
 state: Illinois

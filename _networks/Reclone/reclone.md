@@ -4,8 +4,6 @@ title: Reclone
 subtitle: Reagent Collaboration Network
 status: active
 start-date: 2021
-hosts:
-  - DIYbiosphere
 type-org: Network
 tags:
   - Reagents

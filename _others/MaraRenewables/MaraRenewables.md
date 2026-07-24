@@ -4,8 +4,6 @@ title: Mara Renewables
 status: active
 subtitle:
 start-date: 2006
-hosts:
-  - DIYbiosphere
 type-org: Other
 address: 101A Research Drive,
 directions:

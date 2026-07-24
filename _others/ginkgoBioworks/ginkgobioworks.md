@@ -3,8 +3,6 @@ title: Ginkgo Bioworks
 status: active
 subtitle: The organism company.
 start-date: 2009
-hosts:
-  - DIYbiosphere
 type-org: Other
 address: 27 Drydock Ave 8th Floor,
 postcode: 02210
