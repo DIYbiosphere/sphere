@@ -1,5 +1,6 @@
 ---
 title: Bio Art Laboratores
+subtitle: A bio-art and biodesign innovation lab in Eindhoven, Netherlands
 status: active
 tags:
 - bioart

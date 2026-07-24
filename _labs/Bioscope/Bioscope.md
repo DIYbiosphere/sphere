@@ -1,5 +1,6 @@
 ---
 title: Bioscope
+subtitle: University of Geneva's public citizen-science biology lab
 status: active
 website: http://bioscope.ch/
 start-date: 2014

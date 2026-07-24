@@ -1,6 +1,7 @@
 ---
 draft: true
 title: DIYbio Melbourne
+subtitle: Melbourne's DIYbio meetup group, now continued through BioQuisitive
 status: active
 city: Melbourne
 country: Australia

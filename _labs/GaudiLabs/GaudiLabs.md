@@ -1,5 +1,6 @@
 ---
 title: GaudiLabs
+subtitle: An open-source biohacking lab and hardware maker in Lucerne, Switzerland
 status: active
 website: http://www.gaudi.ch/GaudiLabs/
 start-date:

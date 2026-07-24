@@ -1,5 +1,6 @@
 ---
 title: BuiQuisitive
+subtitle: Melbourne's community biology and citizen science lab
 status: active
 alias: Melbourn BioHack
 website: http://bioquisitive.org.au/

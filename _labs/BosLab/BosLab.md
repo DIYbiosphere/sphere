@@ -1,5 +1,6 @@
 ---
 title: BosLab
+subtitle: A community biotechnology lab for molecular and synthetic biology in Cambridge, MA
 status: active
 website: http://boslab.org/
 start-date: 2014

@@ -1,5 +1,6 @@
 ---
 title: BioTehna
+subtitle: A lab for artistic investigation of life systems in Ljubljana, Slovenia
 status: active
 website:
 start-date: 2013

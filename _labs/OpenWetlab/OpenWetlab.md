@@ -1,5 +1,6 @@
 ---
 title: Open Wetlab
+subtitle: A bio-art, biodesign, and DIY-biology lab in Amsterdam, home of the BioHack Academy
 status: active
 website: https://waag.org/en/lab/open-wetlab
 start-date: 2012
