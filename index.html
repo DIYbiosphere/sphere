@@ -81,6 +81,18 @@ layout: landing
   {% endfor %}
 </div>
 
+<div class="ui center aligned basic segment carousel-controls">
+  <!-- Manual carousel navigation. Handlers already existed in assets/js/carousel.js
+       (customPrevBtn/customNextBtn), but no matching elements existed anywhere for
+       a user to actually click - this was previously autoplay-only. -->
+  <button class="ui circular icon button customPrevBtn" aria-label="Previous slide">
+    <i class="fas fa-chevron-left icon"></i>
+  </button>
+  <button class="ui circular icon button customNextBtn" aria-label="Next slide">
+    <i class="fas fa-chevron-right icon"></i>
+  </button>
+</div>
+
 <div class="ui grid">
 
   <div class="center aligned row xo padding top fourfold">
