@@ -6,7 +6,6 @@ hosts:
   - Genspace
 type-org: Project
 address: 132 32nd St  
-directions: Room #108 (Genspace)
 postcode: 11232
 city: Brooklyn
 state: NY
@@ -25,11 +24,6 @@ website: https://www.genspace.org/community-projects
 links:
 - URL: https://www.genspace.org/community-projects
   tooltip: homepage
-promotions:
-  - button: Join Genspace NYC's Open Plant Project!
-    text: Want to learn about gene-editing and plant biology?
-    URL: https://airtable.com/appOiq4a6LNX7HiQW/pag9Odc96o6aeLW6S/form
-    image:
 ---
 
 ### OPEN PLANT
