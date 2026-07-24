@@ -4,8 +4,8 @@ title: BioArtBot
 status: unknown
 subtitle: Make BioArt with Robots!
 start-date: 2019
-partners:
-  - '[Counter Culture Labs]()'
+hosts:
+  - Counter Culture Labs
 type-org: Project
 address: 4799 Shattuck Ave
 directions: Enter and walk all the way through the door, then turn right to get to Counter Culture Labs
@@ -29,10 +29,6 @@ trello: https://trello.com/b/FKrqcKTU/cll-liquid-handling-robot
 links:
 - URL: http://www.bioartbot.org/
   tooltip: homepage
-promotions:
-  - button: Join us!
-    text: We meet once a week to talk about how to make BioArtBot even better!
-    URL: https://www.meetup.com/Counter-Culture-Labs/
 ---
 
 BioArtBot is a project run out of Counter Culture Labs, a community science lab in Oakland, California. Our goal is to help more people do - and have fun with - science!
