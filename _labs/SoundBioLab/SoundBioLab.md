@@ -48,4 +48,4 @@ We offer:
 - Private events for ages 6 through adult, tailored to the age group of the students
 - Scholarships and fee waivers to expand access to all
 
-Check out our event calendar at https://www.sound.bio/workshops, our membership page at https://www.sound.bio/membership-details, or contact us for more details: info@sound.bio
+Check out our [event calendar](https://www.sound.bio/workshops), our [membership page](https://www.sound.bio/membership-details), or [contact us](mailto:info@sound.bio) for more details.
