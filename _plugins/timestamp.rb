@@ -1,6 +1,8 @@
 # Based on nquinlan's plugin "Jekyll-gir-last-modified" on https://github.com/nquinlan/jekyll-git-last-modified
 # Returns date of last git log in ISO format
 
+require 'open3'
+
 module LastModified
   class Generator < Jekyll::Generator
     priority :highest
@@ -8,7 +10,7 @@ module LastModified
     	@site = site
     	@site.documents.each do |collection|
     		if(collection.respond_to? :data)
-          last_modified = `git log -1 --format="%ct" -- "#{collection.path}"`
+          last_modified, _ = Open3.capture2('git', 'log', '-1', '--format=%ct', '--', collection.path)
       		last_modified.strip!
           collection.data["timestamp"] = last_modified
     		end
