@@ -19,7 +19,7 @@ By late 2010 the movement was substantial enough to argue with itself in public,
 
 In 2011, DIYbio.org organized congresses in London and San Francisco, bringing together regional groups — ARC, BioCurious, BOSSLab, Genspace, LA Biohackers, and delegates from five European countries — to draft the movement's first codes of ethics. Read them on the [Code of Ethics] page.
 
-The organization partnered with the Woodrow Wilson Center's Synthetic Biology Project, funded by the Alfred P. Sloan Foundation, to build out safety resources and run an "Ask a Biosafety Expert" volunteer program. See [Biosafety Resources] for what's still useful from that work.
+The organization partnered with the Woodrow Wilson Center's Synthetic Biology Project, funded by the Alfred P. Sloan Foundation, to run [Ask a Biosafety Expert], a free volunteer Q&A service for the DIYbio community — see its entry for the full history.
 
 By 2018, the community's activity had outgrown a single WordPress page of local groups. DIYbio.org launched [DIYbiosphere] as an open, GitHub-based successor — read that story on the [DIYbiosphere project page].
 
