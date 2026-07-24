@@ -32,6 +32,59 @@ function withStatusBadge(item) {
   return item;
 }
 
+// Algolia's _highlightResult reflects entry content verbatim (title, city,
+// tags, etc. - all contributor-supplied via PR) with only its
+// highlightPreTag/highlightPostTag markers inserted around matches. Algolia
+// does NOT HTML-escape that content for us - see
+// https://github.com/algolia/vue-instantsearch/pull/783 for the same class
+// of bug in Algolia's own official library. The HIT_TEMPLATE/TABLE_TEMPLATE
+// below render these fields with triple-mustache (unescaped) so the
+// highlight markup renders as real HTML, so we have to sanitize here: escape
+// the whole string, then restore only the one known tag pair Algolia can
+// legitimately produce.
+function escapeHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+const HIGHLIGHT_PRE = (window.site.algolia.highlightPreTag) || '<em>';
+const HIGHLIGHT_POST = (window.site.algolia.highlightPostTag) || '</em>';
+const ESCAPED_HIGHLIGHT_PRE = escapeHtml(HIGHLIGHT_PRE);
+const ESCAPED_HIGHLIGHT_POST = escapeHtml(HIGHLIGHT_POST);
+
+function safeHighlight(value) {
+  if (typeof value !== 'string') return value;
+  return escapeHtml(value)
+    .split(ESCAPED_HIGHLIGHT_PRE).join(HIGHLIGHT_PRE)
+    .split(ESCAPED_HIGHLIGHT_POST).join(HIGHLIGHT_POST);
+}
+
+// Walks an Algolia _highlightResult subtree (objects and arrays alike, since
+// highlighted array attributes like `tags` come back as arrays of
+// {value, matchLevel} objects) and sanitizes every `.value` leaf in place.
+function sanitizeHighlightResult(node) {
+  if (Array.isArray(node)) {
+    node.forEach(sanitizeHighlightResult);
+  } else if (node && typeof node === 'object') {
+    Object.keys(node).forEach((key) => {
+      if (key === 'value' && typeof node.value === 'string') {
+        node.value = safeHighlight(node.value);
+      } else {
+        sanitizeHighlightResult(node[key]);
+      }
+    });
+  }
+}
+
+function withSanitizedHighlights(item) {
+  if (item._highlightResult) sanitizeHighlightResult(item._highlightResult);
+  return item;
+}
+
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-box',
@@ -216,7 +269,7 @@ const gridHits = instantsearch.widgets.hits({
       item: HIT_TEMPLATE
     },
     transformData: {
-      item: withStatusBadge
+      item: (item) => withStatusBadge(withSanitizedHighlights(item))
     },
   });
 
@@ -231,7 +284,7 @@ const tableHits = instantsearch.widgets.hits({
 		// hits array to get the same status-badge fields per row.
 		transformData: {
 			allItems: (data) => {
-				data.hits = data.hits.map(withStatusBadge);
+				data.hits = data.hits.map((item) => withStatusBadge(withSanitizedHighlights(item)));
 				return data;
 			}
 		},
