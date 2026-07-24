@@ -14,7 +14,7 @@ directions:
 postcode: N9E1E4
 city: Windsor
 state: Ontario
-country: CANADA
+country: Canada
 _geoloc:
   lat: 42.317627
   lng:  -83.038150

@@ -15,7 +15,7 @@ directions: Room #108 (Genspace)
 postcode: 11232
 city: Brooklyn
 state: NY
-country: USA
+country: United States
 _geoloc:
   lat: 40.656802
   lng: -74.002649

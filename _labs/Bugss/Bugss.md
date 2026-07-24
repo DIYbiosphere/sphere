@@ -12,7 +12,7 @@ directions: Located in the King, Cork, and Seal building off of the smaller gate
 postcode: 21224
 city: Baltimore
 state: MD
-country: USA
+country: United States
 _geoloc:
   lat: 39.294383
   lng: -76.562254

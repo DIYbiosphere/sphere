@@ -14,7 +14,7 @@ directions: Enter and walk all the way through the door, then turn right to get 
 postcode: 94609
 city: Oakland
 state: CA
-country: USA
+country: United States
 _geoloc:
   lat: 37.835173
   lng: -122.264162

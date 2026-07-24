@@ -9,7 +9,7 @@ hosts:
 type-org: Lab
 city: Chicago
 state: Illinois
-country: USA
+country: United States
 _geoloc:
   lat: 41.878114
   lng: -87.629798

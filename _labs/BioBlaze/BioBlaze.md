@@ -9,7 +9,7 @@ address: "1800 W Hawthorne Lane Unit L2"
 postcode: 60185
 city: West Chicago
 state: Illinois
-country: USA
+country: United States
 twitter: 
 facebook: https://www.facebook.com/BioBlazeLab
 meetup: https://www.meetup.com/BioBlaze-Community-Bio-Lab/

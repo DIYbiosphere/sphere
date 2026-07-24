@@ -12,7 +12,7 @@ directions: Virtual until the pandemic is over.
 postcode: 19106
 city: Philadelphia
 state: PA
-country: USA
+country: United States
 _geoloc:
   lat: 39.94507369000069
   lng: -75.14264255185073

@@ -8,7 +8,7 @@ hosts: '[Tsinelas Labs](https://wiki.hackerspaces.org/Tsinelas_Labs)'
 address: Teodoro Gener
 city: Quezon City
 state: Metro Manila
-country: Phillipines
+country: Philippines
 _geoloc:
   lat: 14.628067
   lng: 121.036380
