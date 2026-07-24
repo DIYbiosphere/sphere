@@ -1,5 +1,6 @@
 ---
 title: Open bioLab Graz Austria
+subtitle: An open molecular biology and biohacking lab in Graz, Austria
 status: active
 website: https://realraum.at/wiki/doku.php?id=olga:olga
 start-date: 2013

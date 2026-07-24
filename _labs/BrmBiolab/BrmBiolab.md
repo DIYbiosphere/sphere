@@ -1,5 +1,6 @@
 ---
 title: Brmlab
+subtitle: A community-run hackerspace and biolab in Prague
 status: active
 website: http://brmlab.cz/index.html
 start-date:

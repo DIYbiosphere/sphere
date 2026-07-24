@@ -1,5 +1,6 @@
 ---
 title: Biocurious
+subtitle: A nonprofit community biology lab and makerspace in Santa Clara, California
 status: active
 tags:
 - open source

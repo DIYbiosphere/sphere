@@ -114,7 +114,18 @@ const HIT_TEMPLATE = `
            </span>
    	    </div> <!-- meta -->
   	    <div class="description">
+          <!-- Prefer the curated subtitle over the auto-extracted content
+               snippet. jekyll-algolia indexes every <p>/<blockquote>/<li> on
+               a page as its own fragment (see _config.yml's nodes_to_index),
+               so _highlightResult.content.value can end up being an
+               unrelated list item (e.g. one bullet from a long "past
+               collaborators" list) rather than an actual description. -->
+          {{#subtitle}}
+  	      <p>{{ subtitle }}</p>
+          {{/subtitle}}
+          {{^subtitle}}
   	      <p>{{{ _highlightResult.content.value }}}</p>
+          {{/subtitle}}
   	    </div>
   	    <div class="extra">
           {{#start-date}}
