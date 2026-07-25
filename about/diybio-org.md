@@ -29,7 +29,7 @@ By 2018, the community's activity had outgrown a single WordPress page of local 
 
 ## Nonprofit status
 
-DIYbio.org is a registered 501(c)(3) nonprofit corporation (Federal EIN: 45-4471203). Donations support DIYbiosphere and the organization's other work — see [Support Us][support us] to contribute.
+DIYbio.org is a registered 501(c)(3) nonprofit corporation (Federal EIN: 45-4471203) — see our [IRS determination letter](/about/files/diybio-org-irs-determination-letter-2014.pdf) (2014). Donations support DIYbiosphere and the organization's other work — see [Support Us][support us] to contribute.
 
 ## In the press
 
