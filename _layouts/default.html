@@ -18,6 +18,9 @@
           apiKey: '{{ site.algolia.search_only_api_key }}',
           highlightPreTag: {{ site.algolia.settings.highlightPreTag | jsonify }},
           highlightPostTag: {{ site.algolia.settings.highlightPostTag | jsonify }}
+        },
+        mapbox: {
+          accessToken: {{ site.env.mapbox_access_token | jsonify }}
         }
       };
     </script>
