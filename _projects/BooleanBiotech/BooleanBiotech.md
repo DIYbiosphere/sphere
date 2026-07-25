@@ -1,21 +1,23 @@
 ---
 title: Boolean Biotech
 status: active
-subtitle:
+subtitle: Brian Naughton's blog on hands-on biotech self-experimentation and computational/AI protein design
 website: http://blog.booleanbiotech.com/
 start-date: 2014
 type-org: Project
 city:
 country: United States
-twitter: https://twitter.com/booleanbiotech?lang=en
-facebook: 
+twitter: https://twitter.com/btnaughton
+github: https://github.com/hgbrian
 tags:
   - DNA
+  - self-experimentation
+  - sequencing
+  - protein design
+  - AI
 ---
 
 ## About
-This small project started when I was looking for an implementation of Needleman-Wunsch (pairwise global DNA alignment) in javascript. I just wanted to align two sequences on a website and in a google sheet (using Google Apps Script).
+Boolean Biotech is Brian Naughton's long-running personal blog documenting his own hands-on biotech experiments alongside computational and AI-driven protein design work. On the citizen-science side, he's sequenced his own genome at home, run DNA sequencing on an Oxford Nanopore Flongle, tested his oral microbiome before and after taking probiotics, self-tracked blood glucose response to food with a continuous glucose monitor, and analyzed local water purity with a GeneQuant. On the computational side, he writes about AI-assisted antibody/protein binder design (including entries in Adaptyv's public design competitions), comparisons of tools like AlphaFold, Boltz, and Chai-1, and bioinformatics workflow tooling.
 
-I looked around for a simple javascript implementation (preferably one self-contained javascript file) but I was surprised that I couldn't find one. Needleman-Wunsch is a pretty simple algorithm so I decided to implement it. I did get a little bit side-tracked...
-
-The first step was to find someone else's implementation to copy, so I started with some numpy code from @brent_p. Based on his other work, I think it's a safe assumption it's implemented correctly. (There is also a complete Cython version in this repo, which implements gap_extend and other parameters, and is obviously much faster. I really just need a very basic alignment so the simpler numpy version is fine for me).
+The blog started in 2014 with a small side project: a self-contained JavaScript implementation of Needleman-Wunsch (pairwise global DNA sequence alignment), written after failing to find a simple existing one to just align two sequences on a webpage or in a Google Sheet.
