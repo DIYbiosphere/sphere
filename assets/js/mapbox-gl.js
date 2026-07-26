@@ -13,14 +13,34 @@ var map = new mapboxgl.Map({
     zoom: 1.2,
 });
 
-var entries = "/assets/data/entries.geojson";
+var entriesURL = "/assets/data/entries.geojson";
+var allEntries = null; // populated once fetched; toggled between full/active-only below
+
+function activeOnlyFeatures(featureCollection) {
+  return {
+    type: 'FeatureCollection',
+    features: featureCollection.features.filter(function (f) {
+      return f.properties.status === 'active';
+    })
+  };
+}
 
 // entries.geojson already aggregates every collection (projects, labs,
 // startups, etc.) in one file, so a single source/layer covers all of them.
+// Defaults to active-only (matching /browse's default), with a checkbox to
+// reveal inactive/unknown entries too - see the #show-all-entries handler
+// below, near the bottom of this file.
 map.on('style.load', function() {
+  fetch(entriesURL)
+    .then(function (res) { return res.json(); })
+    .then(function (data) {
+      allEntries = data;
+      map.getSource('entries').setData(activeOnlyFeatures(allEntries));
+    });
+
   map.addSource('entries', {
     type: 'geojson',
-    data: entries,
+    data: { type: 'FeatureCollection', features: [] }, // filled in once fetched, above
     cluster: true,
     clusterMaxZoom: 12,
     clusterRadius: 40
@@ -138,3 +158,13 @@ map.addControl(new mapboxgl.NavigationControl());
 map.addControl(new mapboxgl.AttributionControl({
   compact: true
 }));
+
+// Toggle between active-only (default) and every entry regardless of status.
+var showAllCheckbox = document.getElementById('show-all-entries');
+if (showAllCheckbox) {
+  showAllCheckbox.addEventListener('change', function () {
+    if (!allEntries) return; // not fetched yet
+    var data = showAllCheckbox.checked ? allEntries : activeOnlyFeatures(allEntries);
+    map.getSource('entries').setData(data);
+  });
+}
