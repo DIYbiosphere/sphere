@@ -8,6 +8,9 @@ type-org: Company/Startup
 address: 625 Massachusetts Avenue, 
 city: Boston
 country: United States
+_geoloc:
+  lat: 42.337013
+  lng: -71.07739
 tags:
   - Hardware
   - Biotechnology

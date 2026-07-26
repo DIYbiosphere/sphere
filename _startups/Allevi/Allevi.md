@@ -7,6 +7,9 @@ start-date: 2014
 type-org: company
 city: Philadelphia
 country: United States
+_geoloc:
+  lat: 39.9527237
+  lng: -75.1635262
 twitter: https://twitter.com/Allevi3D
 facebook: https://www.facebook.com/allevi3D/
 tags:

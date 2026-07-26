@@ -10,6 +10,9 @@ address: 423 W 127th Street
 city: New York City
 state: New York
 country: United States
+_geoloc:
+  lat: 40.8133276
+  lng: -73.9541909
 email: director@harlembiospace.com
 twitter: https://twitter.com/Harlembiospace
 facebook: https://www.facebook.com/Harlembiospace

@@ -7,6 +7,9 @@ start-date: 2002
 type-org: Nonprofit
 city: San Francisco
 country: United States
+_geoloc:
+  lat: 37.7879363
+  lng: -122.4075201
 twitter: https://twitter.com/biolinkdepot
 facebook: https://www.facebook.com/biolinkdepot
 tags:

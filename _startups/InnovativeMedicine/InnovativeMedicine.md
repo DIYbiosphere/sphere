@@ -7,6 +7,9 @@ start-date: 2004
 type-org: Company
 city: New York
 country: United States
+_geoloc:
+  lat: 40.7127281
+  lng: -74.0060152
 twitter: https://twitter.com/InnoMedicine
 facebook: https://www.facebook.com/InnoMedicine
 tags:

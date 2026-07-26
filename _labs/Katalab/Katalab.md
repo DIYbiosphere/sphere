@@ -8,6 +8,9 @@ address: Gaullachergasse 12/18 (registered address; no public space yet)
 postcode: 1160
 city: Vienna
 country: Austria
+_geoloc:
+  lat: 48.2083537
+  lng: 16.3725042
 tags:
   - community lab
   - mycelium

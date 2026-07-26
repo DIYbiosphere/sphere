@@ -7,6 +7,9 @@ start-date: 2016
 type-org: Company/Start-up
 city: Santa Clara
 country: United States
+_geoloc:
+  lat: 37.2333253
+  lng: -121.6846349
 twitter: https://twitter.com/shopify
 facebook: https://www.facebook.com/shopify
 tags:

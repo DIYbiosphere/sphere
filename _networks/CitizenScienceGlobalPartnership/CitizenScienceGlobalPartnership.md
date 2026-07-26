@@ -7,6 +7,9 @@ start-date: 2017-12-1
 type-org: Nonprofit
 city: Washington DC
 country: United States
+_geoloc:
+  lat: 38.8950982
+  lng: -77.0363849
 twitter: https://twitter.com/citsciglobal
 facebook: 
 tags: 

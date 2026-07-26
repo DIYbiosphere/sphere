@@ -7,6 +7,9 @@ start-date: 2015
 type-org:
 city: Vancouver
 country: Canada
+_geoloc:
+  lat: 49.2608724
+  lng: -123.113952
 twitter:
 facebook:
 tags:

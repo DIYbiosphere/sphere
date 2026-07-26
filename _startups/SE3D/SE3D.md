@@ -7,6 +7,9 @@ start-date: 2014
 type-org: Company/Start-up
 city: San Francisco
 country: United States
+_geoloc:
+  lat: 37.7879363
+  lng: -122.4075201
 twitter: https://twitter.com/se3dedu
 facebook: https://www.facebook.com/se3dedu/
 tags:

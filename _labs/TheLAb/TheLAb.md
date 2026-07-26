@@ -12,6 +12,9 @@ postcode: 90033
 city: Los Angeles
 state: California
 country: United States
+_geoloc:
+  lat: 34.0609976
+  lng: -118.2085343
 rss: http://www.thel4b.com/?feed=rss2
 twitter: https://twitter.com/labiohackers
 facebook: https://www.facebook.com/TheL4b

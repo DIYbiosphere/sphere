@@ -7,6 +7,9 @@ start-date: 2016
 type-org: Company/Start-up
 city: Oakland
 country: United States
+_geoloc:
+  lat: 37.8044557
+  lng: -122.271356
 twitter: https://twitter.com/foliawater
 facebook: https://www.facebook.com/foliawater
 tags:

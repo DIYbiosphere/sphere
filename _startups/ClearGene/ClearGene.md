@@ -7,6 +7,9 @@ start-date:
 type-org: Start-up
 city: San Francisco
 country: United States
+_geoloc:
+  lat: 37.7879363
+  lng: -122.4075201
 twitter:
 facebook: 
 tags:

@@ -7,6 +7,9 @@ start-date: April 16 to 21, 2018
 type-org: Organization
 city: Valparaiso
 country: Chile
+_geoloc:
+  lat: -33.0458456
+  lng: -71.6196749
 twitter: https://twitter.com/TecnoxC 
 facebook: https://www.facebook.com/tecnoxlatam/ 
 tags:

@@ -7,6 +7,9 @@ start-date: 2015
 type-org: Company/Start-up
 city: Colorado Springs
 country: United States
+_geoloc:
+  lat: 38.8339578
+  lng: -104.825348
 twitter: https://twitter.com/foliumbio
 facebook: https://www.facebook.com/foliumbio/
 tags:

@@ -7,6 +7,9 @@ start-date: 1994
 type-org: Hackerspace
 city: New York
 country: United States
+_geoloc:
+  lat: 40.7127281
+  lng: -74.0060152
 twitter: https://twitter.com/hopeconf
 facebook: 
 tags:

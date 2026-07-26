@@ -7,6 +7,9 @@ start-date: 2013
 type-org: Company/Start-up
 city: Philadelphia
 country: United States
+_geoloc:
+  lat: 39.9527237
+  lng: -75.1635262
 twitter: https://twitter.com/biomemeinc
 facebook: https://www.facebook.com/Biomeme-Inc-170880129735006/?fref=ts
 tags:

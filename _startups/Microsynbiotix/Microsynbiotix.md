@@ -7,6 +7,9 @@ start-date:
 type-org: Start-up
 city: San Diego
 country: United States
+_geoloc:
+  lat: 32.7174202
+  lng: -117.162772
 twitter: https://twitter.com/microsynbiotix
 facebook: https://www.facebook.com/microsynbiotix
 tags:
