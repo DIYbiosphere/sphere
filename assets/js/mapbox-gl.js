@@ -20,13 +20,47 @@ var entries = "/assets/data/entries.geojson";
 map.on('style.load', function() {
   map.addSource('entries', {
     type: 'geojson',
-    data: entries
+    data: entries,
+    cluster: true,
+    clusterMaxZoom: 12,
+    clusterRadius: 40
+  });
+
+  // Clustered points (dense areas like the US East Coast / Western Europe
+  // collapse into a single circle, sized by how many entries it represents).
+  map.addLayer({
+    id: 'clusters',
+    type: 'circle',
+    source: 'entries',
+    filter: ['has', 'point_count'],
+    paint: {
+      'circle-color': '#4A90D9',
+      'circle-opacity': 0.75,
+      'circle-radius': ['step', ['get', 'point_count'], 12, 10, 16, 25, 20],
+      'circle-stroke-width': 1,
+      'circle-stroke-color': '#ffffff'
+    }
+  });
+
+  map.addLayer({
+    id: 'cluster-count',
+    type: 'symbol',
+    source: 'entries',
+    filter: ['has', 'point_count'],
+    layout: {
+      'text-field': ['get', 'point_count_abbreviated'],
+      'text-size': 12
+    },
+    paint: {
+      'text-color': '#ffffff'
+    }
   });
 
   map.addLayer({
     id: 'entry',
     type: 'circle',
     source: 'entries',
+    filter: ['!', ['has', 'point_count']],
     paint: {
       // entries.geojson already computes 'color' per entry:
       // 'blue' for active/planned status, 'grey' otherwise
@@ -35,6 +69,27 @@ map.on('style.load', function() {
       'circle-stroke-width': 1,
       'circle-stroke-color': '#ffffff'
     }
+  });
+
+  // Clicking a cluster zooms in until it breaks apart into individual points.
+  map.on('click', 'clusters', function (e) {
+      var features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
+      var clusterId = features[0].properties.cluster_id;
+      map.getSource('entries').getClusterExpansionZoom(clusterId, function (err, zoom) {
+        if (err) return;
+        map.easeTo({
+          center: features[0].geometry.coordinates,
+          zoom: zoom
+        });
+      });
+  });
+
+  map.on('mouseenter', 'clusters', function () {
+      map.getCanvas().style.cursor = 'pointer';
+  });
+
+  map.on('mouseleave', 'clusters', function () {
+      map.getCanvas().style.cursor = '';
   });
 
   map.on('click', 'entry', function (e) {
