@@ -116,6 +116,7 @@ map.on('style.load', function() {
       var coordinates = e.features[0].geometry.coordinates.slice();
       var title = e.features[0].properties.title;
       var url = e.features[0].properties.url;
+      var logo = e.features[0].properties.logo;
       var city = e.features[0].properties.city;
       var country = e.features[0].properties.country;
       var status = e.features[0].properties.status;
@@ -135,9 +136,13 @@ map.on('style.load', function() {
           coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
       };
 
+      var logoHtml = (logo && logo !== 'null')
+          ? '<img src="' + logo + '" style="width:40px; height:40px; object-fit:contain; border-radius:4px; margin-right:0.6em; flex-shrink:0;">'
+          : '';
+
       new mapboxgl.Popup()
           .setLngLat(coordinates)
-          .setHTML('<div style="font-family:source code pro;"><div><b><a href="' + url +'">' + title + '</a></b></div><div>' + location + '</div><p class="xo text fairly smaller grey color">' + collectionType + ' with ' + '<em>' + status + '</em>' + ' status' + '</p></div>')
+          .setHTML('<div style="font-family:source code pro; display:flex; align-items:flex-start;">' + logoHtml + '<div><div><b><a href="' + url +'">' + title + '</a></b></div><div>' + location + '</div><p class="xo text fairly smaller grey color">' + collectionType + ' with ' + '<em>' + status + '</em>' + ' status' + '</p></div></div>')
           .addTo(map);
   });
 
