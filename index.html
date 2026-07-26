@@ -252,8 +252,18 @@ layout: landing
       </div>
       <div class="computer tablet only row">
         <div class="sixteen wide column">
-          <div style="height:700px;">
+          <div style="height:700px; position:relative;">
             <div id="map" style="position:absolute; top:0; bottom:0; width:100%; height:700px;"></div>
+            <div class="ui tiny message" style="position:absolute; bottom:1em; left:1em; z-index:1; padding:0.6em 1em; box-shadow: 0 1px 4px rgba(0,0,0,0.25);">
+              <div style="display:flex; align-items:center; margin-bottom:0.3em;">
+                <span style="display:inline-block; width:10px; height:10px; border-radius:50%; background:#4A90D9; margin-right:0.5em;"></span>
+                Active / planned
+              </div>
+              <div style="display:flex; align-items:center;">
+                <span style="display:inline-block; width:10px; height:10px; border-radius:50%; background:#9B9B9B; margin-right:0.5em;"></span>
+                Inactive / unknown
+              </div>
+            </div>
           </div>
         </div>
       </div>
