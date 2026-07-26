@@ -7,6 +7,9 @@ start-date: 2014
 type-org: Company/Sart-up
 city: Graz
 country: Austria
+_geoloc:
+  lat: 47.0708678
+  lng: 15.4382786
 twitter: https://twitter.com/DNAPrototyper
 facebook: https://www.facebook.com/kilobaser.DNA
 tags:

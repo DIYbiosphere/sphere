@@ -7,6 +7,9 @@ start-date: 2003
 type-org: non-profit
 city: Cambridge
 country: United States
+_geoloc:
+  lat: 42.3656347
+  lng: -71.1040018
 twitter: https://twitter.com/igem
 facebook: https://www.facebook.com/iGEMFoundation/
 tags:

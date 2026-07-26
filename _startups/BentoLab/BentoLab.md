@@ -8,6 +8,9 @@ type-org: company
 address: Corner of Keeton's and Collett Road, 3Space, Bermondsey, SE16 4EE
 city: London
 country: United Kingdom
+_geoloc:
+  lat: 51.5074456
+  lng: -0.1277653
 twitter: https://www.twitter.com/theBentoLab
 facebook: https://www.facebook.com/theBentoLab
 tags:

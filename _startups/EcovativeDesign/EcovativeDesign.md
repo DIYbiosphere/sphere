@@ -7,6 +7,9 @@ start-date: 2007
 type-org: Company
 city: Green Island
 country: United States
+_geoloc:
+  lat: 42.7444456
+  lng: -73.6914935
 twitter: https://twitter.com/search?q=Ecovative&src=typd
 facebook: https://www.facebook.com/ecovative/?fref=gc&dti=161300983894992&hc_location=ufi
 tags:

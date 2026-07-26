@@ -9,6 +9,9 @@ address: Paseo de la Chopera 14
 postcode: 28045
 city: Madrid
 country: Spain
+_geoloc:
+  lat: 40.3929724
+  lng: -3.6984447
 email: info.m@medialab-matadero.es
 facebook: https://www.facebook.com/BioCrea-Espacio-Abierto-de-Biolog%C3%ADa-Creativa-1949666018486706
 tags:

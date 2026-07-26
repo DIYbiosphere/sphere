@@ -7,6 +7,9 @@ start-date: 2014
 type-org: Company/Start-up
 city: Paris
 country: France
+_geoloc:
+  lat: 48.8588897
+  lng: 2.320041
 twitter: https://twitter.com/_pilibio
 facebook: https://www.facebook.com/pilibio
 tags:

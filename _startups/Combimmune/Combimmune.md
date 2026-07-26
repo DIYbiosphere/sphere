@@ -7,6 +7,9 @@ start-date: 2012
 type-org: Company/Start-up
 city: Palo Alto
 country: United States
+_geoloc:
+  lat: 37.4443293
+  lng: -122.1598465
 twitter:
 facebook: 
 tags:

@@ -8,6 +8,9 @@ type-org: Hardware
 city: Philadelphia
 state: Pennsylvania
 country: United States
+_geoloc:
+  lat: 39.9527237
+  lng: -75.1635262
 tags:
   - Hardware
   - Software

@@ -7,6 +7,9 @@ start-date: 2014
 type-org: Company
 city: Paris
 country: France
+_geoloc:
+  lat: 48.8588897
+  lng: 2.320041
 twitter: https://twitter.com/eligobio
 facebook: https://www.facebook.com/eligobioscience/
 tags:

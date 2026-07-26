@@ -7,6 +7,9 @@ start-date: October 1-3, 2018
 type-org: Company
 city: San Francisco
 country: United States
+_geoloc:
+  lat: 37.7879363
+  lng: -122.4075201
 twitter: https://twitter.com/SynBioBeta 
 facebook: https://www.facebook.com/SynBioBeta/  
 tags:

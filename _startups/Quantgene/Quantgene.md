@@ -7,6 +7,9 @@ start-date: 2016
 type-org: Company/Start-up
 city: Berkeley
 country: United States
+_geoloc:
+  lat: 37.8708393
+  lng: -122.272863
 twitter:
 facebook: https://www.facebook.com/quantgene/
 tags:

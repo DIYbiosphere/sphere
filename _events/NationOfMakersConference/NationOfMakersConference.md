@@ -7,6 +7,9 @@ start-date: June 9-10, 2018
 type-org: Organization 
 city: Santa Fe
 country: United States
+_geoloc:
+  lat: 35.6876096
+  lng: -105.938456
 twitter: https://twitter.com/nationofmakers 
 facebook: https://www.facebook.com/nationofmakers 
 tags:

@@ -10,6 +10,9 @@ postcode: 60185
 city: West Chicago
 state: Illinois
 country: United States
+_geoloc:
+  lat: 41.8847507
+  lng: -88.2039607
 twitter: 
 facebook: https://www.facebook.com/BioBlazeLab
 meetup: https://www.meetup.com/BioBlaze-Community-Bio-Lab/

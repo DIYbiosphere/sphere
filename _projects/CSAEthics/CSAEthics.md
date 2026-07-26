@@ -7,6 +7,9 @@ hosts:
   - '[Citizen Science Association](http://www.citizenscience.org)' 
 type-org: community
 country: United States
+_geoloc:
+  lat: 39.7837304
+  lng: -100.445882
 tags:
   - biohacking
   - citizen science

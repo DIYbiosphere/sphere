@@ -7,6 +7,9 @@ start date: 2019-04-01
 type-org: nonprofit
 city: NYC
 country: United States
+_geoloc:
+  lat: 40.7127281
+  lng: -74.0060152
 twitter: https://twitter.com/Tool_Foundry
 facebook:
 instagram: https://www.instagram.com/tool_foundry/

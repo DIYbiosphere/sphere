@@ -8,6 +8,9 @@ status: inactive
 type-org: company
 city: Allmersbach im Tal
 country: Germany
+_geoloc:
+  lat: 48.9067926
+  lng: 9.4744882
 email: support@ls-innovations.de
 tags:
   - supplies

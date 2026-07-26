@@ -17,6 +17,9 @@ directions: Villa
 city: Rio de Janeiro
 state: Rio de Janeiro
 country: Brazil
+_geoloc:
+  lat: -22.9110137
+  lng: -43.2093727
 tags:
   - Microscope
   - Education

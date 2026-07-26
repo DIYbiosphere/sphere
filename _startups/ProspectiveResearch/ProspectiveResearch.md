@@ -7,6 +7,9 @@ start-date:
 type-org: Company/Start-up
 city: Beverly
 country: United States
+_geoloc:
+  lat: 42.5489744
+  lng: -70.8781883
 twitter:
 facebook: 
 tags:

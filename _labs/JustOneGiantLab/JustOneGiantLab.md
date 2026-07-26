@@ -8,6 +8,9 @@ type-org: nonprofit
 address: 
 city: 
 country: France
+_geoloc:
+  lat: 46.603354
+  lng: 1.8883335
 twitter: https://twitter.com/justonegiantlab
 facebook: 
 tags:

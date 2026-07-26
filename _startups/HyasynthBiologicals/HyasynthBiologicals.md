@@ -7,6 +7,9 @@ start-date: 2014
 type-org: Company/Start-up
 city: Montréal
 country: Canada
+_geoloc:
+  lat: 45.5031824
+  lng: -73.5698065
 twitter: https://twitter.com/hyasynthbio
 facebook: https://www.facebook.com/hyasynthbio
 tags:

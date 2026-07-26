@@ -7,6 +7,9 @@ start-date: 2017
 type-org: Company/Start-up
 city: Amsterdam
 country: Netherlands
+_geoloc:
+  lat: 52.3730796
+  lng: 4.8924534
 twitter: https://twitter.com/digi_bio
 facebook: https://www.facebook.com/digi.bio.dmf/
 tags:

@@ -7,6 +7,9 @@ start-date: 2014
 type-org: Project
 city:
 country: United States
+_geoloc:
+  lat: 39.7837304
+  lng: -100.445882
 twitter: https://twitter.com/btnaughton
 github: https://github.com/hgbrian
 tags:

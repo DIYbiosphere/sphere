@@ -9,6 +9,9 @@ address: Shibuya Scramble Crossing
 city: Tokyo
 state: 
 country: Japan
+_geoloc:
+  lat: 35.6594951
+  lng: 139.7004982
 twitter: 
 facebook:
 meetup: 
