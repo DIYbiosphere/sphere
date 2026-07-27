@@ -2,7 +2,7 @@
 title: DIYbiosphere
 description: "An open source project to connect DIYBio Initiatives from all over the world"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "sphere.diybio.org"
+url: "https://sphere.diybio.org"
 repository: diybiosphere/sphere
 comments_repo:  diybiosphere/comments
 permalink: /:path/
