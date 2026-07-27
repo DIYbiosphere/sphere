@@ -3,7 +3,7 @@ layout: page
 title: About DIYbio.org
 ---
 
-DIYbio.org was founded in 2008 with the mission of establishing a vibrant, productive and safe community of DIY biologists. Central to that mission is the belief that biotechnology, and greater public understanding about it, has the potential to benefit everyone. That means building mechanisms for amateurs to grow their knowledge and skills, access to a community of experts, a code of ethics, responsible oversight, and leadership on the issues that are unique to doing biology outside of traditional professional settings.
+DIYbio.org was founded in 2008 with the mission of establishing a vibrant, productive and safe community of DIY biologists. Central to that mission is the belief that biotechnology, and greater public understanding about it, has the potential to benefit everyone. That means building mechanisms for DIYers to grow their knowledge and skills, access to a community of experts and peers, a code of ethics, and leadership on the issues that are unique to doing biology outside of traditional professional settings.
 
 [DIYbiosphere] is DIYbio.org's current, active project. This page is about the organization behind it.
 
@@ -23,7 +23,7 @@ By late 2010 the movement was substantial enough to argue with itself in public,
 
 In 2011, DIYbio.org organized congresses in London and San Francisco, bringing together regional groups — ARC, BioCurious, BOSSLab, Genspace, LA Biohackers, and delegates from five European countries — to draft the movement's first codes of ethics. Read them on the [Code of Ethics] page.
 
-In 2013, the organization partnered with the Woodrow Wilson Center's Synthetic Biology Project, funded by the Alfred P. Sloan Foundation, to run [Ask a Biosafety Expert], a free volunteer Q&A service for the DIYbio community.
+In 2013, the organization partnered with the Woodrow Wilson Center's Synthetic Biology Project, funded by the Alfred P. Sloan Foundation, to launch [Ask a Biosafety Expert], a free volunteer Q&A service for the DIYbio community. The program ran for several years.
 
 In 2014, DIYbio.org formally organized as a 501(c)(3) nonprofit corporation in the United States (Federal EIN: 45-4471203). See our [IRS determination letter](/about/files/diybio-org-irs-determination-letter-2014.pdf). See [Support Us][support us] to contribute.
 
@@ -35,6 +35,10 @@ By 2018, the community's activity had outgrown a single WordPress page of local 
 DIYbio.org and the broader movement it helped organize drew coverage starting in 2008, including *The Boston Globe*, *Seed Magazine*, *The Atlantic*, *New Scientist*, an AP wire story picked up by outlets including *Forbes* and *Wired*, and a segment on PBS's *NewsHour with Jim Lehrer*. Many of the original links have since rotted; the citations are preserved in the historical archive referenced below.
 
 
-## Mailing Address
+## Contact Us
+### Mailing address
 
 <img src="/about/files/diybio-org-mailing-address.png" alt="DIYbio.org mailing address (image — contact us at contact@diybio.org if you need it in text form)" width="400">
+
+### Email
+contact /at diybio.org
