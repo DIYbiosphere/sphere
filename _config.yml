@@ -48,6 +48,7 @@ plugins:
   - jekyll-mentions
   - jekyll-last-modified-at
   - jekyll-toc #https://github.com/toshimaru/jekyll-toc/
+  - jekyll-sitemap
 
 # Collections
 collections:
