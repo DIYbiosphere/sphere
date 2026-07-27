@@ -31,6 +31,10 @@ By 2018, the community's activity had outgrown a single WordPress page of local 
 
 DIYbio.org is a registered 501(c)(3) nonprofit corporation (Federal EIN: 45-4471203) — see our [IRS determination letter](/about/files/diybio-org-irs-determination-letter-2014.pdf) (2014). Donations support DIYbiosphere and the organization's other work — see [Support Us][support us] to contribute.
 
+## Mailing Address
+
+<img src="/about/files/diybio-org-mailing-address.png" alt="DIYbio.org mailing address (image — contact us at contact@diybio.org if you need it in text form)" width="400">
+
 ## In the press
 
 DIYbio.org and the broader movement it helped organize drew coverage starting in 2008, including *The Boston Globe*, *Seed Magazine*, *The Atlantic*, *New Scientist*, an AP wire story picked up by outlets including *Forbes* and *Wired*, and a segment on PBS's *NewsHour with Jim Lehrer*. Many of the original links have since rotted; the citations are preserved in the historical archive referenced below.
