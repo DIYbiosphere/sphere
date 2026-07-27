@@ -3,7 +3,7 @@ layout: page
 title: About DIYbio.org
 ---
 
-DIYbio.org is a 501(c)(3) nonprofit founded in 2008 with the mission of establishing a vibrant, productive and safe community of DIY biologists. Central to that mission is the belief that biotechnology, and greater public understanding about it, has the potential to benefit everyone. That means building mechanisms for amateurs to grow their knowledge and skills, access to a community of experts, a code of ethics, responsible oversight, and leadership on the issues that are unique to doing biology outside of traditional professional settings.
+DIYbio.org was founded in 2008 with the mission of establishing a vibrant, productive and safe community of DIY biologists. Central to that mission is the belief that biotechnology, and greater public understanding about it, has the potential to benefit everyone. That means building mechanisms for amateurs to grow their knowledge and skills, access to a community of experts, a code of ethics, responsible oversight, and leadership on the issues that are unique to doing biology outside of traditional professional settings.
 
 [DIYbiosphere] is DIYbio.org's current, active project. This page is about the organization behind it.
 
@@ -29,11 +29,7 @@ By 2018, the community's activity had outgrown a single WordPress page of local 
 
 ## Nonprofit status
 
-DIYbio.org is a registered 501(c)(3) nonprofit corporation (Federal EIN: 45-4471203) — see our [IRS determination letter](/about/files/diybio-org-irs-determination-letter-2014.pdf) (2014). Donations support DIYbiosphere and the organization's other work — see [Support Us][support us] to contribute.
-
-## Mailing Address
-
-<img src="/about/files/diybio-org-mailing-address.png" alt="DIYbio.org mailing address (image — contact us at contact@diybio.org if you need it in text form)" width="400">
+DIYbio.org operated as an informal community project from its founding in 2008 until 2014, when it formally organized as a 501(c)(3) nonprofit corporation in the United States (Federal EIN: 45-4471203) — see our [IRS determination letter](/about/files/diybio-org-irs-determination-letter-2014.pdf). Donations support DIYbiosphere and the organization's other work — see [Support Us][support us] to contribute.
 
 ## In the press
 
@@ -42,3 +38,7 @@ DIYbio.org and the broader movement it helped organize drew coverage starting in
 ## The full archive
 
 DIYbio.org ran an active blog from 2008 through 2018, documenting the movement's early history alongside a decade of meetup announcements and event listings. The genuinely substantive material — the essays excerpted above, the founding governance documents, safety resources — has been migrated into this site. The complete original archive, including material not carried forward here, is preserved separately for reference.
+
+## Mailing Address
+
+<img src="/about/files/diybio-org-mailing-address.png" alt="DIYbio.org mailing address (image — contact us at contact@diybio.org if you need it in text form)" width="400">
