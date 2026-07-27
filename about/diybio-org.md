@@ -32,7 +32,7 @@ By 2018, the community's activity had outgrown a single WordPress page of local 
 
 ## In the press
 
-DIYbio.org and the broader movement it helped organize drew coverage starting in 2008, including *The Boston Globe*, *Seed Magazine*, *The Atlantic*, *New Scientist*, an AP wire story picked up by outlets including *Forbes* and *Wired*, and a segment on PBS's *NewsHour with Jim Lehrer*. Many of the original links have since rotted; the citations are preserved in the historical archive referenced below.
+DIYbio.org and the broader movement it helped organize drew coverage starting in 2008, including *The Boston Globe*, *Seed Magazine*, *The Atlantic*, *New Scientist*, an AP wire story picked up by outlets including *Forbes* and *Wired*, and a segment on PBS's *NewsHour with Jim Lehrer*.
 
 
 ## Contact Us
