@@ -1,5 +1,4 @@
 ---
-draft: true
 title: INCUBATOR art lab
 status: active
 subtitle: Hybrid Labratory at the Intersection of Art, Science and Ecology
