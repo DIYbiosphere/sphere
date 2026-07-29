@@ -1,5 +1,4 @@
 ---
-draft: true
 title: Baltimore Underground Science Space (BUGSS)
 status: active
 subtitle: A place for creative biology
