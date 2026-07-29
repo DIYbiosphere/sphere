@@ -1,5 +1,4 @@
 ---
-draft: true
 title: ChiTownBio
 status: active
 subtitle: Chicago's first community biolab
