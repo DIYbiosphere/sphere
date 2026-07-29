@@ -1,5 +1,4 @@
 ---
-draft: true
 title: Bricobio
 status: unknown
 subtitle: biotech for everyone
