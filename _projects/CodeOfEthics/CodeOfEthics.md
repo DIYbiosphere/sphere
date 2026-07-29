@@ -12,6 +12,8 @@ tags:
   - DIYbio
 ---
 
+<img src="https://sphere.diybio.org/projects/CodeOfEthics/graphic-record-london-2011.jpg" class="ui image fluid small-padded" alt="Graphic recording from the 2011 DIYbio Continental Congress in London" />
+
 In 2011, DIYbio.org organized two congresses — bringing together individuals and delegates from regional DIYbio groups — to draft an aspirational code of ethics for the movement.
 
 In May 2011, delegates from across Europe (Denmark, England, France, Germany, and Ireland) met at the London School of Economics' BIOS Centre. In July 2011, a second congress in San Francisco brought together participants from North American regional groups, including ARC (Houston), BioBridge (San Francisco), BioCurious (Mountain View), BOSSLab (Boston), Genspace (Brooklyn), and LA Biohackers (Los Angeles).
