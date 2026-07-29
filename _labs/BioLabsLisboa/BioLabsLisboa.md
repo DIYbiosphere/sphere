@@ -1,5 +1,4 @@
 ---
-draft: true
 title: BioLab Lisboa
 status: active
 subtitle: Lisbon citizens Lab
