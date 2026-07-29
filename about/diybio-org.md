@@ -9,6 +9,8 @@ DIYbio.org was founded in 2008 with the mission of establishing a vibrant, produ
 
 ## How it started
 
+<img src="/about/files/diybio-revolution-poster.gif" alt="DIYbio Revolution — poster artwork from the early movement" width="400">
+
 DIYbio.org was co-founded by Jason Bobe and Mac Cowell, tracing back to a single meeting: on May 24, 2008, in the back room of a Cambridge pub, roughly 25 people gathered to ask whether molecular biology could be a hobby — Mac led off the night asking, "Can DIYbio.org be the Homebrew Computer Club of biology?" A dozen graduate students, several software engineers, a journalist, a few Harvard and MIT professors, and one teenager who came with his software-engineer father sat through a night of pub chatter to talk about backyard DNA extraction, $10 PCR machines, and whether amateurs could ever meaningfully contribute to biological engineering.
 
 The essays that followed over the next two years still hold up as a statement of why the organization exists. Jason Bobe, in [Science without Scientists](https://diybio.org/2008/08/22/science-without-scientists/) (2008), predicted "a renaissance in science" taking place "outside of 'science proper'... funded out-of-pocket by enthusiasts without PhDs." A year later, in [The Bigger Picture: Domesticating Biotechnology](https://diybio.org/2009/11/17/domesticating-biotechnology/), Mac Cowell sharpened the framing: DIYbio's role wasn't just building tools for amateurs, but slowly proving that "the cultural barriers to practice science... are imaginary," building a familiarity with biotechnology the way musicianship or cooking is familiar. MIT anthropologist Sophia Roosth, presenting her own research on the movement, put it as a shift from institutionally-sanctioned "Knowing" to domestic "Making" — "think of the personal computing revolution, but for biology."
@@ -42,3 +44,4 @@ DIYbio.org and the broader movement it helped organize drew coverage starting in
 
 ### Email
 contact /at diybio.org
+
