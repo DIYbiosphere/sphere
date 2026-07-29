@@ -18,6 +18,20 @@ The program was generously supported by a grant from the Woodrow Wilson Center f
 
 ABE has since closed and is no longer accepting new questions. From its closure notice: "A huge thanks to the biosafety experts that volunteered their time over the years... If you have a biosafety question, you might find a sympathetic biosafety professional through your local university or find a local chapter through one of the professional biosafety associations."
 
+## Biosafety Advisory Board
+
+ABE ran entirely on the volunteer effort of professional biosafety experts. With gratitude, the board members and alumni contributors:
+
+**Matthew Anderson, Ph.D.** — Biosafety Officer at a land grant university, managing the university's biosafety program, conducting lab safety inspections, and serving as Alternate Responsible Official for its Select Agent program and as administrator of its Institutional Biosafety Committee. B.A. in Biology and Chemistry (Dana College); Ph.D. in Chemical Biology (Washington University in St. Louis).
+
+**Rob Foreman, Ph.D.** — Associate Biosafety Officer at Northwestern University, advising on risks involving human, animal, and plant pathogens, human tissues and cell cultures, recombinant DNA, and human gene transfer. Alternate Responsible Official for the Federal Select Agent Program. Ph.D. in Microbiology (University of Chicago, 2012); Great Lakes Regional Center for Excellence biosafety fellowship.
+
+**Amy Helgerson, M.S.** — Biosafety Specialist at a large agricultural university with a veterinary school, serving as Alternate Responsible Official for its Select Agent program and coordinating its bloodborne pathogen and biological waste disposal programs. B.S. in Animal Science (Iowa State, 2000); M.S. in Microbiology (Iowa State, 2006).
+
+**Ted Myatt, Sc.D., RBP** — Director of Research Compliance, overseeing an Institutional Biosafety Committee. B.S. in Microbiology (University of Illinois); M.A. in Environmental Management (Duke); Sc.D. in Environmental Health (Harvard School of Public Health).
+
+**Alumni contributors:** Stephen Rusbarsky, J Craig Reed, Marissa M. Cardwell, Amy L. Razukiewicz, Lisa Burley, Joleen Weese, Rebecca L. Moritz, Molly Stitt-Fischer, Gretchen Demmin, Todd Kuiken.
+
 ## Further reading
 
 For anyone doing biology outside a traditional lab setting today, these general references remain useful:
