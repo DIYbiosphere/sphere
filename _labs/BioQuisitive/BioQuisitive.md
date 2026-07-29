@@ -3,7 +3,6 @@ title: BuiQuisitive
 subtitle: Melbourne's community biology and citizen science lab
 status: active
 alias: Melbourn BioHack
-website: http://bioquisitive.org.au/
 start-date: 2015
 type-org: community
 address: 45 Talbot St.
@@ -14,8 +13,6 @@ country: Australia
 _geoloc:
   lat: -37.765773
   lng: 144.959293
-email: info@bioquisitive.org.au
-blog: http://bioquisitive.org.au/category/blog/
 meetup: https://www.meetup.com/BioHack-Melbourne/
 twitter: https://twitter.com/BioQuisitive?lang=en
 facebook: https://www.facebook.com/BioQuisitive-684269055011742/
