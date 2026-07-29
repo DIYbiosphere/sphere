@@ -22,6 +22,8 @@ Both congresses produced a draft code. Neither has been formally revised since 2
 
 ## North American Congress (July 2011)
 
+<img src="https://sphere.diybio.org/projects/CodeOfEthics/draft-code-us-delegation-2011.jpg" class="ui image fluid small-padded" alt="Scanned handwritten draft code from the North American delegation, San Francisco 2011" />
+
 **Open Access** — Promote citizen science and decentralized access to biotechnology.
 
 **Transparency** — Emphasize transparency, the sharing of ideas, knowledge and data.
@@ -37,6 +39,8 @@ Both congresses produced a draft code. Neither has been formally revised since 2
 **Tinkering** — Tinkering with biology leads to insight; insight leads to innovation.
 
 ## European Congress (May 2011)
+
+<img src="https://sphere.diybio.org/projects/CodeOfEthics/draft-code-london-delegation-2011.jpg" class="ui image fluid small-padded" alt="Scanned handwritten draft code from the European delegation, London 2011" />
 
 **Transparency** — Emphasize transparency and the sharing of ideas, knowledge, data and results.
 
