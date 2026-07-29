@@ -1,8 +1,7 @@
 ---
 title: Biotech Without Borders
-status: active
+status: unknown
 subtitle: NYC's Member-led Community Biolab
-website: https://biotechwithoutborders.org
 start-date: 2017
 type-org: non-profit
 address: 43-01 21ST Street, Suite 319
@@ -44,10 +43,12 @@ tags:
 ---
 
 ## About
-[Biotech Without Borders](https://biotechwithoutborders.org) is an all-volunteer, member-led, community lab with 501(c)(3) status in the USA. We were founded in 2017 by Dr. Ellen Jorgensen after she stepped down as Director of [Genspace] to continue her work democratizing biotechnology. We believe that engaging the end users—all of us—in biotech through hands-on participation is the best way to ensure a greater future for us all. Shouldn't something this valuable be practiced worldwide, and by the most diverse array of practitioners?
+Biotech Without Borders was an all-volunteer, member-led, community lab with 501(c)(3) status in the USA. It was founded in 2017 by Dr. Ellen Jorgensen after she stepped down as Director of [Genspace] to continue her work democratizing biotechnology. The mission was that engaging the end users—all of us—in biotech through hands-on participation is the best way to ensure a greater future for us all. Shouldn't something this valuable be practiced worldwide, and by the most diverse array of practitioners?
 
-To achieve our mission, our lab is engaged in an ongoing process to steward a [shared lab](https://biotechwithoutborders.org/about-the-lab/) space in New York City. Members are invited to shape the lab for their individual and/or group projects by finding consensus among each other using a cooperative decision making software called [Loomio](https://www.loomio.org/biotech-without-borders). We commit to exercising tact and bravery in articulating dissent with the assumptions that we all inevitably bring to our work. In the spirit of resilience, we discuss these points of conflict and adapt to our revised understanding.
+To achieve this mission, the lab was engaged in an ongoing process to steward a shared lab space in New York City. Members were invited to shape the lab for their individual and/or group projects by finding consensus among each other using a cooperative decision making software called [Loomio](https://www.loomio.org/biotech-without-borders).
+
+As of mid-2026, its website (biotechwithoutborders.org) is entirely unreachable (server refuses connections on both port 80 and 443, domain registration still active) and its Meetup group's last event was July 2023 — three years stale. Status here is marked unknown rather than active. Its IRS nonprofit filing (EIN 82-1893774) is current through tax period December 2025 and its exemption is not revoked, so the organization likely still exists on paper even if current programming/activity is unconfirmed.
 
 ## How can you get involved?
 
-If you want to participate in our collective you can join our [Loomio group](https://www.loomio.org/biotech-without-borders) and begin to meet our members and extended community. You can also join our public [Matrix room](https://matrix.to/#/#bwob:matrix.org) and chat with us. Biotech Without Borders is only possible with the labour of our [volunteers](https://biotechwithoutborders.org/volunteering/) who work on all aspects of our organization. If you have a project you wish to collaborate on that aligns with our [Mission Vision and Values](https://biotechwithoutborders.org/mission-vision-values/), do not hesitate to reach out. We may be able to [fiscally host](https://opencollective.com/biowoborders) your project. If you desire to have a greater role in shaping the lab/organization and have full access to the physical and digital resources we steward, then we would be happy to onboard you as a [member](https://biotechwithoutborders.org/membership/).
+If you want to try reaching the group, its public [Matrix room](https://matrix.to/#/#bwob:matrix.org) may still be monitored.
