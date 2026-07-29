@@ -1,5 +1,4 @@
 ---
-draft: true
 title: DIYbio Toronto
 status: active
 subtitle: Toronto's Bio-Enthusiast group. Everyone's welcome!
