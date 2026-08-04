@@ -2,7 +2,7 @@
 title: Biook
 status: active
 subtitle:
-website: www.biook.org
+website: https://biook.org
 host: '[BBK Open Science](www.bbkopenscience.com)'
 start-date: '2018-07-07'
 type-org: community
