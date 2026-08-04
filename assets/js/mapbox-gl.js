@@ -25,10 +25,10 @@ function activeOnlyFeatures(featureCollection) {
   };
 }
 
-// entries.geojson already aggregates every collection (projects, labs,
-// startups, etc.) in one file, so a single source/layer covers all of them.
+// entries.geojson contains community labs only (the map used to include
+// every collection - projects, startups, etc. - but labs are the focus).
 // Defaults to active-only (matching /browse's default), with a checkbox to
-// reveal inactive/unknown entries too - see the #show-all-entries handler
+// reveal inactive/unknown labs too - see the #show-all-entries handler
 // below, near the bottom of this file.
 map.on('style.load', function() {
   fetch(entriesURL)
@@ -120,14 +120,16 @@ map.on('style.load', function() {
       var city = e.features[0].properties.city;
       var country = e.features[0].properties.country;
       var status = e.features[0].properties.status;
-      var collection = e.features[0].properties.collection;
+      // Note: entries.geojson is labs-only now, so this is always "Lab" -
+      // kept as a property (rather than hardcoded here) in case the map
+      // ever needs to distinguish entry types again.
+      var collectionType = e.features[0].properties.collection.toLowerCase();
       if (city == 'null' || !city){
           var location = country;
       }
       else {
           var location = city + ', ' + country;
       }
-      var collectionType = collection.slice(0, -1);
 
       // Ensure that if the map is zoomed out such that multiple
       // copies of the feature are visible, the popup appears
