@@ -7,6 +7,7 @@ start-date: 2015
 type-org: community
 hosts: Counter Culture Labs
 partners:
+  - Biocurious
   - ReaGent
   - Bio Foundry
 city: Oakland
