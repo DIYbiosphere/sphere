@@ -120,10 +120,11 @@ map.on('style.load', function() {
       var city = e.features[0].properties.city;
       var country = e.features[0].properties.country;
       var status = e.features[0].properties.status;
-      // Note: entries.geojson is labs-only now, so this is always "Lab" -
-      // kept as a property (rather than hardcoded here) in case the map
-      // ever needs to distinguish entry types again.
-      var collectionType = e.features[0].properties.collection.toLowerCase();
+      // Hardcoded rather than derived from properties.collection: entries.geojson
+      // is labs-only now, so this is always "lab" - and the source value is
+      // actually "labs" (plural, from _config.yml's defaults for this
+      // collection), which would read oddly in the sentence below un-singularized.
+      var collectionType = 'lab';
       if (city == 'null' || !city){
           var location = country;
       }
