@@ -8,3 +8,8 @@
 # (same Facebook group) - retired the thin stub entry in favor of
 # BioQuisitive's fuller, active entry (2026-08-05).
 /labs/diybiomelbourne/  /labs/bioquisitive/  301
+
+# DIYbio Toronto recategorized from Labs to Groups - it's a meetup group
+# that hosts events at partner Hacklab TO's space, not its own dedicated
+# lab (2026-08-05).
+/labs/diybiotoronto/  /groups/diybiotoronto/  301
