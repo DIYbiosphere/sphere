@@ -4,7 +4,7 @@ status: active
 subtitle: Toronto's Bio-Enthusiast group. Everyone's welcome!
 start-date: 2013
 partners:
-  - '[Hacklab TO](https://hacklab.to/)'
+  - Hacklab TO
 type-org: community
 address: 1677 St Clair Ave W
 directions: 'Storefront location on the south side of St. Clair Ave W. just west of Laughton Ave. If there is an open house, or a public event, open the front door and come on in!'
