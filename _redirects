@@ -1,0 +1,5 @@
+# Netlify redirects. See: https://docs.netlify.com/manage/routing/redirects/redirect-options/
+#
+# JOGL was recategorized from a labs stub to its fuller entry under Networks
+# (2026-08-05) - redirect the old URL so existing links/citations don't 404.
+/labs/justonegiantlab/  /networks/jogl/  301

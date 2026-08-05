@@ -9,7 +9,13 @@ permalink: /:path/
 twitter:
   username: DIYbiosphere
 
-# force stage preview build 
+# Jekyll excludes underscore-prefixed files by default, but Netlify looks
+# for a root-level _redirects file to set up URL redirects - so it needs
+# to be explicitly included to survive the build and reach _site/.
+include:
+  - _redirects
+
+# force stage preview build
 # Excluded files and dirs
 exclude:
   - script
