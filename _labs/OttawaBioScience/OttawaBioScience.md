@@ -6,7 +6,7 @@ website: https://ottawabioscience.github.io/
 start-date: 2018
 email: openbioscience@gmail.com
 hosts:
-  - Rideau-Rockcliffe Community Resource Centre
+  - '[Rideau-Rockcliffe Community Resource Centre](https://www.crcrr.org/)'
 type-org: community
 address: 815 St Laurent Blvd, Room 100
 city: Ottawa
