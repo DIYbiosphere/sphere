@@ -3,3 +3,8 @@
 # JOGL was recategorized from a labs stub to its fuller entry under Networks
 # (2026-08-05) - redirect the old URL so existing links/citations don't 404.
 /labs/justonegiantlab/  /networks/jogl/  301
+
+# DIYbio Melbourne was the predecessor identity of what's now BioQuisitive
+# (same Facebook group) - retired the thin stub entry in favor of
+# BioQuisitive's fuller, active entry (2026-08-05).
+/labs/diybiomelbourne/  /labs/bioquisitive/  301
