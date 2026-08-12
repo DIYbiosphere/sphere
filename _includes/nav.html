@@ -27,13 +27,13 @@
                 {% include nav/contribute.html %}
               </div>
             </div>
+            {% if site.newsletter_subscribe_url %}
+            <a class="item" href="{{ site.newsletter_subscribe_url }}" target="_blank"><b>NEWSLETTER</b></a>
+            {% endif %}
           </div>
         </div>
 <!--          <a href="https://forms.gle/9yAv3AFjjkvXKrf77" target = "_blank" ><button class="ui green big button">Add Entry</button></a>
 COMMENT OUT THIS UI ELEMENT AS IT SEEMS NO LONGER SUPPORTED !-->
-          {% if site.newsletter_subscribe_url %}
-          <a href="{{ site.newsletter_subscribe_url }}" target="_blank"><button class="ui blue big button">Monthly Newsletter</button></a>
-          {% endif %}
       </div>
 
       <div class="tablet only row"> <!-- Layout for tablets only -->
