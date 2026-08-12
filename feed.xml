@@ -15,7 +15,7 @@ layout:
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | strip_html | truncatewords: 50 | xml_escape }}</description>
+        <description>{% if post.subtitle %}{{ post.subtitle | xml_escape }}{% else %}{{ post.content | strip_html | truncatewords: 50 | xml_escape }}{% endif %}</description>
         <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
