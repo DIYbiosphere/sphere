@@ -276,25 +276,7 @@ layout: landing
     </div>
   </div>
 
-  <div class="row xo margin top sixfold">
-    <div class="ui container center aligned grid">
-      <div class="ui text container">
-        <h2 class="ui center aligned header">Get the Monthly Newsletter</h2>
-        <p>Community lab updates, events, and news from around the DIYbio world &mdash; once a month, no spam.</p>
-        <form action="https://buttondown.com/api/emails/embed-subscribe/diybio-news" method="post" class="embeddable-buttondown-form">
-          <label for="bd-email-home" style="position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0);">Enter your email</label>
-          <div class="ui action input">
-            <input type="email" name="email" id="bd-email-home" placeholder="you@example.com" required>
-            <input type="hidden" value="1" name="embed">
-            <button class="ui blue button" type="submit">Subscribe</button>
-          </div>
-        </form>
-        <p class="ui mini grey text" style="margin-top: 0.5em;">
-          <a href="https://buttondown.com/refer/diybio-news" target="_blank">Powered by Buttondown.</a>
-        </p>
-      </div>
-    </div>
-  </div>
+  {% include newsletter-signup.html %}
 
   <div class="row xo margin top sixfold">
     <div class="ui container center aligned grid">
