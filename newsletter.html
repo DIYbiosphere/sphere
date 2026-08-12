@@ -1,0 +1,26 @@
+---
+title: Newsletter
+subtitle: "DIYbio Monthly — community lab updates, events, and news, once a month"
+layout: page
+---
+
+{% include newsletter-signup.html %}
+
+<div class="ui container" style="margin-top: 2em;">
+  {% assign issues = site.posts | sort: 'date' | reverse %}
+  {% if issues.size == 0 %}
+  <p class="ui center aligned grey text">No issues yet &mdash; check back soon.</p>
+  {% else %}
+  <div class="ui relaxed divided list">
+    {% for issue in issues %}
+    <div class="item" style="padding: 1.5em 0;">
+      <div class="content">
+        <a class="header" href="{{ issue.url }}">{{ issue.title }}</a>
+        <div class="ui sub header xo margin top" style="margin-top: 0.3em; font-weight: normal; color: rgba(0,0,0,0.6);">{{ issue.date | date: "%B %-d, %Y" }}</div>
+        {% if issue.subtitle %}<p style="margin-top: 0.5em;">{{ issue.subtitle }}</p>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
