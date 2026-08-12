@@ -9,6 +9,11 @@ permalink: /:path/
 twitter:
   username: DIYbiosphere
 
+# Monthly newsletter (relaunched 2026) - set once the Buttondown
+# subscribe page exists; used by _layouts/post.html to show a
+# subscribe CTA on newsletter issues. Blank/unset = CTA hidden.
+newsletter_subscribe_url: https://buttondown.com/diybio-news
+
 # Jekyll excludes underscore-prefixed files by default, but Netlify looks
 # for a root-level _redirects file to set up URL redirects - so it needs
 # to be explicitly included to survive the build and reach _site/.

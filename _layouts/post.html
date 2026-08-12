@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="ui grid container xo top padding">
+  <div class="sixteen wide column xo padding top twofold">
+    {% include messages/needs-editing.html %}
+    {% include content/github-buttons.html %}
+    <article>
+      <h1 class="ui header xo margin top without">
+        <div class="ui medium header">{{ page.title }}
+        {% if page.subtitle %}
+          <div class="sub header">
+            {{ page.subtitle }}
+          </div>
+        {% endif %}
+        </div>
+      </h1>
+      <p class="ui text fairly smaller grey color">{{ page.date | date: "%B %-d, %Y" }}</p>
+      {{ content | toc }}
+    </article>
+
+    {% if site.newsletter_subscribe_url %}
+    <div class="ui message" style="margin-top: 2em;">
+      <div class="header">Get this in your inbox</div>
+      <p>Subscribe to the monthly newsletter: <a href="{{ site.newsletter_subscribe_url }}" target="_blank">{{ site.newsletter_subscribe_url }}</a></p>
+    </div>
+    {% endif %}
+  </div>
+</div>
