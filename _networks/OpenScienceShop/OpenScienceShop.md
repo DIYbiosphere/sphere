@@ -1,10 +1,12 @@
 ---
 title: Open Science Shop
 subtitle: A network of open science hardware vendors and manufacturers
+status: active
 website: https://openscienceshop.org
 start-date: 2023
 type-org: 'community'
-partners: 'Gathering For Open Science Hardware'
+partners:
+  - Gathering For Open Science Hardware
 instagram: https://www.instagram.com/openscienceshop/
 tags:
   - open-source
