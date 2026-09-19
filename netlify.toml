@@ -2,7 +2,7 @@
 # All deploys from the main repository branch
 # will inherit these settings.
 [context.production]
-  command = "jekyll build && jekyll algolia --verbose --trace"
+  command = "jekyll build && SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt jekyll algolia"
 
 # Deploy Preview context:
 # All deploys generated from a pull/merge request
