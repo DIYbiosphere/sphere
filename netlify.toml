@@ -2,7 +2,7 @@
 # All deploys from the main repository branch
 # will inherit these settings.
 [context.production]
-  command = "jekyll build && jekyll algolia"
+  command = "jekyll build && jekyll algolia --verbose --trace"
 
 # Deploy Preview context:
 # All deploys generated from a pull/merge request
