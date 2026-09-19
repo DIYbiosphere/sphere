@@ -5,4 +5,5 @@
 Jekyll::Hooks.register :site, :after_reset do |site|
   site.config["env"] ||= {}
   site.config["env"]["mapbox_access_token"] = ENV["MAPBOX_ACCESS_TOKEN"]
+  site.config["env"]["algolia_search_only_api_key"] = ENV["ALGOLIA_SEARCH_ONLY_API_KEY"]
 end

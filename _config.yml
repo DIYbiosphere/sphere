@@ -174,7 +174,9 @@ sass:
 algolia:
   application_id: 'ITI5JHZJM9'
   index_name: 'diybiosphere'
-  search_only_api_key: '0fb96795a4020d51c6d000ecd08c6166'
+  # search_only_api_key is no longer committed here; it is exposed via
+  # site.env.algolia_search_only_api_key (see _plugins/env-variables.rb)
+  # from the ALGOLIA_SEARCH_ONLY_API_KEY env var set in Netlify's dashboard.
   indexing_batch_size: 100
   nodes_to_index: 'p,blockquote,li'
   files_to_exclude:
