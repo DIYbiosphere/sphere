@@ -2,7 +2,10 @@
 # All deploys from the main repository branch
 # will inherit these settings.
 [context.production]
-  command = "jekyll build && SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt jekyll algolia"
+  # The algoliasearch gem verifies TLS against its own bundled ca-bundle.crt (ignores
+# SSL_CERT_FILE), which lacks the USERTrust ECC root Algolia's cert now chains to.
+# Append the build image's system CAs to it before indexing.
+  command = "jekyll build && cat /etc/ssl/certs/ca-certificates.crt >> \"$(gem contents algoliasearch | grep resources/ca-bundle.crt | head -1)\" && jekyll algolia --verbose"
 
 # Deploy Preview context:
 # All deploys generated from a pull/merge request
