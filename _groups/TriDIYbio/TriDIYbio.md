@@ -4,7 +4,7 @@ status: active
 subtitle: Community Citizen Science and DIYbio Group of the NC Triangle
 website: http://www.tridiybio.org/
 start-date: 2015
-hosts: "[SplatSpace](http://splatspace.org/)"
+hosts: Splat Space
 type-org: community
 address: 800 N Mangum St
 postcode: 27701
@@ -18,6 +18,8 @@ meetup: https://www.meetup.com/splatspace/events/236762179/
 ---
 
 The Triangle DIYbio group’s mission is to further the idea that anyone can participate in the exciting scientific fields of biology, genetic engineering, and biotechnology. We strive to provide the tools, knowledge, and support to the local area in order to build a vibrant community of enabled citizen scientists and empowered Do-It-Yourself biologists! We are building a lab and are currently part of SplatSpace.
+
+*Update: this group is now part of [Splat Space](/labs/splatspace/)'s community biology lab. See the [Splat Space Biology Lab](https://www.splatspace.org/biology-lab/) for current information.*
 
 We want to provide the Research Triangle area of North Carolina with access to a community-based wet lab. In this lab our members will be able to host workshops on current cutting-edge biology techniques, meet and discuss the latest in open-source research, and explore interesting questions by doing hands-on group research projects.
 
