@@ -1,5 +1,6 @@
 ---
 title: Reacgen Biosystems
+status: active
 subtitle: Real-time, in-situ optical density sensors for fermentation, cell culture and algae cultivation.
 website: https://reacgen.com
 start-date: 2025
